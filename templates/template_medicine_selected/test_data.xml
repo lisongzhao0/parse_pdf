@@ -130,21 +130,23 @@
 <br/><br/>94. Zhu C Q, da Cunha Santos G, Ding K, et al. Role of KRAS and EGFR as biomarkers of response to erlotinib in National Cancer Institute of Canada Clinical Trials Group Study BR. 21[J]. Journal of Clinical Oncology, 2008, 26(26): 4268-4275.
 ]]>
 </parameter>
+
+
         <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
             <tree_node value="一" english="" page="" catalog="1 0">
                 <tree_node english="" page="001" value="样本提供者信息" catalog="1 1">
                 </tree_node>
             </tree_node>
-            <tree_node value="二" english="" page="" catalog="2 0">
-                <tree_node english="" page="xxx" value="个人病史及肿瘤家族史调查" catalog="2 1"/>
+            <tree_node value="二" english="" page="" catalog="1 0">
+                <tree_node english="" page="xxx" value="个人病史及肿瘤家族史调查" catalog="1 1"/>
             </tree_node>
-            <tree_node value="三" english="" page="" catalog="3 0">
-                <tree_node english="" page="xxx" value="项目内容" catalog="3 1"/>
+            <tree_node value="三" english="" page="" catalog="1 0">
+                <tree_node english="" page="xxx" value="项目内容" catalog="1 1"/>
             </tree_node>
-            <tree_node value="四" english="" page="" catalog="4 0">
-                <tree_node english="" page="xxx" value="用药提示" catalog="4 1"/>
-                <tree_node english="" page="xxx" value="分子靶向用药提示" catalog="4 2"/>
-                <tree_node english="" page="xxx" value="靶向药物简述" catalog="4 3"/>
+            <tree_node value="四" english="" page="" catalog="2 0">
+                <tree_node english="" page="xxx" value="用药提示" catalog="2 0"/>
+                <tree_node english="" page="xxx" value="分子靶向用药提示" catalog="2 1"/>
+                <tree_node english="" page="xxx" value="靶向药物简述" catalog="2 2"/>
             </tree_node>
             <tree_node value="五" english="" page="" catalog="5 0">
                 <tree_node english="" page="xxx" value="本次检测具体位点结果"   catalog="5 1 0"/>
@@ -159,6 +161,8 @@
                 <tree_node english="" page="xxx" value="参考文献"      catalog="10000 3"/>
             </tree_node>
         </tree_node>
+
+
 
         <table id="detailBaXiangMedicineList">
             <headers>
@@ -482,6 +486,66 @@
 
                 <cell row="0"  column="11" value="／"/>
                 <cell row="1"  column="11" value="／"/>
+            </rows>
+        </table>
+
+        <table id="targetedDrug">
+            <headers>
+                <header column="0" value="药物名称"/>
+                <header column="1" value="英文名称"/>
+                <header column="1" value="商品名"/>
+                <header column="2" value="对应靶点基因"/>
+                <header column="3" value="获批适应症"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="厄洛替尼"/>
+                <cell row="1"  column="0" value="吉非替尼"/>
+                <cell row="2"  column="0" value="克唑替尼"/>
+                <cell row="3"  column="0" value="阿法替尼"/>
+
+                <cell row="0"  column="1" value="Erlotinib"/>
+                <cell row="1"  column="1" value="Gefitinib"/>
+                <cell row="2"  column="1" value="Crizotinib"/>
+                <cell row="3"  column="1" value="Afatinib"/>
+
+                <cell row="0"  column="2" value="Iressa"/>
+                <cell row="1"  column="2" value="Tarceva"/>
+                <cell row="2"  column="2" value="Gilotrif"/>
+                <cell row="3"  column="2" value="凯美纳"/>
+
+                <cell row="0"  column="3" value="EGFR"/>
+                <cell row="1"  column="3" value="EGFR"/>
+                <cell row="2"  column="3" value="EGFR"/>
+                <cell row="3"  column="3" value="EGFR"/>
+
+                <cell row="0"  column="4" value="非小细胞肺癌"/>
+                <cell row="1"  column="4" value="非小细胞肺癌"/>
+                <cell row="2"  column="4" value="非小细胞肺癌"/>
+                <cell row="3"  column="4" value="非小细胞肺癌"/>
+            </rows>
+        </table>
+
+        <table id="relativeGeneCheckedInfo">
+            <headers>
+                <header column="0" value="编号"/>
+                <header column="2" value="靶基因"/>
+                <header column="3" value="结果"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="1"/>
+                <cell row="1"  column="0" value="2"/>
+                <cell row="2"  column="0" value="3"/>
+                <cell row="3"  column="0" value="4"/>
+
+                <cell row="0"  column="1" value="ALK"/>
+                <cell row="1"  column="1" value="BRAF"/>
+                <cell row="2"  column="1" value="EGFR"/>
+                <cell row="3"  column="1" value="HER2"/>
+
+                <cell row="0"  column="2" value="无明确靶点检出"/>
+                <cell row="1"  column="2" value="无明确靶点检出"/>
+                <cell row="2"  column="2" value="p.L858R"/>
+                <cell row="3"  column="2" value="无明确靶点检出"/>
             </rows>
         </table>
 
