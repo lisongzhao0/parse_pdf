@@ -48,6 +48,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
     private Float  lineLeading;
     private Float  charSpacing;
     private Float  wordSpacing;
+    private Float  textRise;
     private boolean calculateWidthInTextBox;
     private boolean calculateHeightInTextBox;
 
@@ -194,6 +195,13 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         return this;
     }
 
+    public Float getTextRise() {
+        return textRise;
+    }
+    public void setTextRise(Float textRise) {
+        this.textRise = textRise;
+    }
+
     public boolean isCalculateWidthInTextBox() {
         return calculateWidthInTextBox;
     }
@@ -281,6 +289,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         try { this.lineLeading= Float.parseFloat(element.attributeValue("line_leading"));} catch (Exception ex) {this.lineLeading=null;}
         try { this.charSpacing= Float.parseFloat(element.attributeValue("char_spacing"));} catch (Exception ex) {this.charSpacing=0.0f;}
         try { this.wordSpacing= Float.parseFloat(element.attributeValue("word_spacing"));} catch (Exception ex) {this.wordSpacing=0.0f;}
+        try { this.textRise   = Float.parseFloat(element.attributeValue("text_rise"));   } catch (Exception ex) {this.textRise = null; }
         try { this.bold      = Boolean.parseBoolean(element.attributeValue("bold"));     } catch (Exception ex) {this.bold     = false;}
         try { this.italic    = Boolean.parseBoolean(element.attributeValue("italic"));   } catch (Exception ex) {this.italic   = false;}
         try { this.underline = Boolean.parseBoolean(element.attributeValue("underline"));} catch (Exception ex) {this.underline= false;}
@@ -408,6 +417,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                 PdfFont tmpFont      = font;
                 Color   tmpFontColor = fontColor;
                 Float   tmpFontSize  = getFontSize();
+                Float   tmpTextRise  = getTextRise();
                 boolean tmpBold      = isBold();
                 boolean tmpItalic    = isItalic();
                 boolean tmpUnderline = isUnderline();
@@ -421,11 +431,13 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                     try { tmpItalic    = Boolean.parseBoolean(styleText.attributeValue("italic"));    } catch (Exception ex) {}
                     try { tmpUnderline = Boolean.parseBoolean(styleText.attributeValue("underline")); } catch (Exception ex) {}
                     try { tmpFontColor = colorUtil.parseColor(styleText.attributeValue("font_color"), tmpFontColor);} catch (Exception ex) {}
+                    try { tmpTextRise  = Float.parseFloat(styleText.attributeValue("text_rise"));     } catch (Exception ex) {}
                 }
                 Text line = new Text(subLine);
                 if (null!=tmpFont) { line.setFont(tmpFont); }
-                if (null!=tmpFontColor) { line.setFontColor(tmpFontColor); }
-                if (null!=tmpFontSize)  { line.setFontSize(tmpFontSize); }
+                if (null!=tmpFontColor) { line.setFontColor(tmpFontColor);}
+                if (null!=tmpFontSize)  { line.setFontSize(tmpFontSize);  }
+                if (null!=tmpTextRise)  { line.setTextRise(tmpTextRise);  }
                 if (isItalic() || tmpItalic)       { line.setItalic();    }
                 if (isBold()   || tmpBold)         { line.setBold();      }
                 if (isUnderline() || tmpUnderline) { line.setUnderline(); }

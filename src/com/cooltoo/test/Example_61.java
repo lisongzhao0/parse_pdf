@@ -18,12 +18,13 @@ public class Example_61 {
 //        System.out.println(tmpObj.getClass());
 //        Field map = tmpObj.getClass().getField("m");
 
-        PdfReader reader = new PdfReader("/Users/zhaolisong/Downloads/幸福基石报告_(170307).pdf");
+//        PdfReader reader = new PdfReader("/Users/zhaolisong/Downloads/幸福基石报告_(170307).pdf");
 //        PdfReader reader = new PdfReader("/Users/zhaolisong/Desktop/Example_TEST.pdf");
 //        PdfReader reader = new PdfReader("/Users/zhaolisong/Downloads/page_one_tixing.pdf");
 //        PdfReader reader = new PdfReader("/Users/zhaolisong/Downloads/page_one_just_1_image.pdf");
+        PdfReader reader = new PdfReader("/Users/zhaolisong/Desktop/AABB.pdf");
         PdfDocument doc = new PdfDocument(reader);
-        PdfPage page = doc.getPage(7);
+        PdfPage page = doc.getPage(1);
         page.getPageSize();
         List<PdfIndirectReference> indirectRefs = doc.listIndirectReferences();
 

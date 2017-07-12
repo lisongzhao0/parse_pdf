@@ -452,6 +452,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             if (null!=part.fontOpacity) { line.setOpacity(part.fontOpacity); }
             if (null!=part.charSpacing) { line.setCharacterSpacing(part.charSpacing);}
             if (null!=part.wordSpacing) { line.setWordSpacing(part.wordSpacing);}
+            if (null!=part.textRise   ) { line.setTextRise(part.textRise);}
             if (part.bold     ) { line.setBold(); }
             if (part.italic   ) { line.setItalic(); }
             if (part.underline) { line.setUnderline(); }
@@ -645,6 +646,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         private Float   lineLeading;
         private Float   charSpacing;
         private Float   wordSpacing;
+        private Float   textRise;
         private Boolean bold;
         private Boolean italic;
         private Boolean underline;
@@ -666,6 +668,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             one.lineLeading = src.lineLeading;
             one.charSpacing = src.charSpacing;
             one.wordSpacing = src.wordSpacing;
+            one.textRise    = src.textRise;
             one.bold        = src.bold;
             one.italic      = src.italic;
             one.underline   = src.underline;
@@ -707,6 +710,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
                 try {style.lineLeading = Float.parseFloat(element.attributeValue("line_leading"));} catch (Exception ex) {style.lineLeading = null;}
                 try {style.charSpacing = Float.parseFloat(element.attributeValue("char_spacing"));} catch (Exception ex) {style.charSpacing = null;}
                 try {style.wordSpacing = Float.parseFloat(element.attributeValue("word_spacing"));} catch (Exception ex) {style.wordSpacing = null;}
+                try {style.textRise    = Float.parseFloat(element.attributeValue("text_rise"));   } catch (Exception ex) {style.textRise    = null;}
                 if (null == style.font      || "".equals(style.font)     ) { style.font      = null; }
                 if (null == style.fontColor || "".equals(style.fontColor)) { style.fontColor = null; }
             }

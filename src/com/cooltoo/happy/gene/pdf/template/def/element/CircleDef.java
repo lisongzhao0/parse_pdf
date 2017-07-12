@@ -16,6 +16,8 @@ import org.dom4j.Element;
 public class CircleDef extends AbstractDef implements IXml<CircleDef>, IPosition<CircleDef>, IVariable, IBound {
 
     private float borderWidth;
+    private Float dashOn;
+    private Float dashOff;
     private String borderColor;
     private float opacity;
     private String fillColor;
@@ -28,6 +30,20 @@ public class CircleDef extends AbstractDef implements IXml<CircleDef>, IPosition
     }
     public void setBorderWidth(float borderWidth) {
         this.borderWidth = borderWidth;
+    }
+
+    public Float getDashOn() {
+        return dashOn;
+    }
+    public void setDashOn(Float dashOn) {
+        this.dashOn = dashOn;
+    }
+
+    public Float getDashOff() {
+        return dashOff;
+    }
+    public void setDashOff(Float dashOff) {
+        this.dashOff = dashOff;
     }
 
     public String getBorderColor() {
@@ -108,8 +124,10 @@ public class CircleDef extends AbstractDef implements IXml<CircleDef>, IPosition
         this.fillColor = element.attributeValue("fill_color");
         try { this.setZOrder(Integer.parseInt(element.attributeValue("z_order")));            } catch (Exception ex) { this.setZOrder(0); }
         try { this.borderWidth = Float.parseFloat(element.attributeValue("border_width"));    } catch (Exception ex) { this.borderWidth = 0.0f; }
-        try { this.opacity     = Float.parseFloat(element.attributeValue("opacity"));         } catch (Exception ex) { this.opacity = 1.0f; }
-        try { this.autoLayout  = Boolean.parseBoolean(element.attributeValue("auto_layout")); } catch (Exception ex) { this.autoLayout = false; }
+        try { this.opacity     = Float.parseFloat(element.attributeValue("opacity"));         } catch (Exception ex) { this.opacity     = 1.0f; }
+        try { this.autoLayout  = Boolean.parseBoolean(element.attributeValue("auto_layout")); } catch (Exception ex) { this.autoLayout  = false; }
+        try { this.dashOn      = Float.parseFloat(element.attributeValue("dash_on"));         } catch (Exception ex) { this.dashOn      = null; }
+        try { this.dashOff     = Float.parseFloat(element.attributeValue("dash_off"));        } catch (Exception ex) { this.dashOff     = null; }
         try { this.cx = Float.parseFloat(element.attributeValue("cx")); } catch (Exception ex) { this.cx = 1.0f; }
         try { this.cy = Float.parseFloat(element.attributeValue("cy")); } catch (Exception ex) { this.cy = 1.0f; }
         try { this.r  = Float.parseFloat(element.attributeValue("r"));  } catch (Exception ex) { this.r = 1.0f; }
@@ -130,6 +148,11 @@ public class CircleDef extends AbstractDef implements IXml<CircleDef>, IPosition
         if (isAutoLayout()) {
             lastY(lastY() - 2*getR());
             setCy(lastY() + getR());
+        }
+        if (!(null==dashOff && null==dashOff)) {
+            dashOff = null==dashOff ? dashOn  : dashOff;
+            dashOn  = null==dashOn  ? dashOff : dashOn;
+            path.setLineDash(dashOn, dashOff, dashOn+dashOff);
         }
         path.circle(getCx(), getCy(), getR());
         path.closePath();

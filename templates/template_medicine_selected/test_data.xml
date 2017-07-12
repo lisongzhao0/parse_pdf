@@ -311,17 +311,17 @@
                         <cell row="9"  column="2" value="VEGFR-2"/>
                         <cell row="10" column="2" value="BRAF"/>
 
-                        <cell row="0"  column="3" value="EGFR"/>
-                        <cell row="1"  column="3" value="EGFR"/>
-                        <cell row="2"  column="3" value="ALK / ROS1 / MET"/>
-                        <cell row="3"  column="3" value="EGFR / HER2 / ERBB4"/>
-                        <cell row="4"  column="3" value="VEGF / KDR"/>
-                        <cell row="5"  column="3" value="ALK"/>
-                        <cell row="6"  column="3" value="ALK / IGF1R"/>
-                        <cell row="7"  column="3" value="PD-1"/>
-                        <cell row="8"  column="3" value="EGFR"/>
-                        <cell row="9"  column="3" value="VEGFR-2"/>
-                        <cell row="10" column="3" value="BRAF"/>
+                        <cell row="0"  column="3" value="FDA / CFDA"/>
+                        <cell row="1"  column="3" value="FDA / CFDA"/>
+                        <cell row="2"  column="3" value="FDA / CFDA"/>
+                        <cell row="3"  column="3" value="FDA / CFDA"/>
+                        <cell row="4"  column="3" value="FDA / CFDA"/>
+                        <cell row="5"  column="3" value="FDA"/>
+                        <cell row="6"  column="3" value="FDA"/>
+                        <cell row="7"  column="3" value="FDA"/>
+                        <cell row="8"  column="3" value="FDA"/>
+                        <cell row="9"  column="3" value="FDA"/>
+                        <cell row="10" column="3" value="FDA"/>
                     </rows>
                 </table>
             </group>
@@ -425,12 +425,12 @@
                         <cell row="4"  column="2" value="VEGF / KDR"/>
                         <cell row="5"  column="2" value="ALK"/>
 
-                        <cell row="0"  column="3" value="EGFR"/>
-                        <cell row="1"  column="3" value="EGFR"/>
-                        <cell row="2"  column="3" value="ALK / ROS1 / MET"/>
-                        <cell row="3"  column="3" value="EGFR / HER2 / ERBB4"/>
-                        <cell row="4"  column="3" value="VEGF / KDR"/>
-                        <cell row="5"  column="3" value="ALK"/>
+                        <cell row="0"  column="3" value="FDA / CFDA"/>
+                        <cell row="1"  column="3" value="FDA / CFDA"/>
+                        <cell row="2"  column="3" value="FDA / CFDA"/>
+                        <cell row="3"  column="3" value="FDA / CFDA"/>
+                        <cell row="4"  column="3" value="FDA / CFDA"/>
+                        <cell row="5"  column="3" value="FDA / CFDA"/>
                     </rows>
                 </table>
             </group>
