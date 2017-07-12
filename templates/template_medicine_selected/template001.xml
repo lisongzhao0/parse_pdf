@@ -374,7 +374,7 @@ C 级：临床前数据中支持的基因位点与药物关系。<br/>
     <page z_order="10" catalog="4 1" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
-            <value id="detailJiBingXiaoBiaoTi" value="六、本次检测具体位点结果"/>
+            <value id="detailJiBingXiaoBiaoTi" value="六、本次检测的基因列表"/>
             <value id="detailJiBing" value=""/>
         </template>
 
@@ -575,7 +575,7 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
         <paragraph z_order="4" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
 <![CDATA[
 <style bold='true'>基因解读</style><br/>
-大量研究资料表明 <style italic='true'>EGFR</style> 基因突变主要集中在酪氨酸激酶区（外显子 18-21），其中 19 外显子多为框内缺失（746-753）性突变，约占所有突变的 45%；21 外显子多为替代突变（主要是 L858R），约占所有突变的 40%。<style italic='true'>EGFR</style> 基因编码区外显子 18、19 和 21 的基因突变是患者对临床 EGFR-TKI 靶向治疗药物有效的必要前提。研究发现，非小细胞肺癌细胞中 EGFR 酪氨酸激酶基因编码区外显子 18、19 或 21 突变的患者，酪氨酸激酶抑制剂（TKIs）如易瑞沙（吉非替尼）、 特罗凯（厄洛替尼）治疗的有效性显著增强。美国国立综合癌症网络（NCCN）2016 年版临床指南和美国临床肿瘤学会（ASCO）IV 期非小细胞肺癌诊疗指南 2009 年更新版中已明确指出，肿瘤 EGFR 突变的前提下，推荐吉非替尼和厄洛替尼为非小细胞肺癌一线治疗药物。
+大量研究资料表明 <style italic='true'>EGFR</style> 基因突变主要集中在酪氨酸激酶区（外显子 18-21），其中 19 外显子多为框内缺失（746-753）性突变，约占所有突变的 45%；21 外显子多为替代突变（主要是 L858R），约占所有突变的 40%。<style italic='true'>EGFR</style> 基因编码区外显子 18、19 和 21 的基因突变是患者对临床 EGFR-TKI 靶向治疗药物有效的必要前提。研究发现，非小细胞肺癌细胞中 <style italic='true'>EGFR</style> 酪氨酸激酶基因编码区外显子 18、19 或 21 突变的患者，酪氨酸激酶抑制剂（TKIs）如易瑞沙（吉非替尼）、 特罗凯（厄洛替尼）治疗的有效性显著增强。美国国立综合癌症网络（NCCN）2016 年版临床指南和美国临床肿瘤学会（ASCO）IV 期非小细胞肺癌诊疗指南 2009 年更新版中已明确指出，肿瘤 <style italic='true'>EGFR</style> 突变的前提下，推荐吉非替尼和厄洛替尼为非小细胞肺癌一线治疗药物。
 ]]>
         </paragraph>
 
