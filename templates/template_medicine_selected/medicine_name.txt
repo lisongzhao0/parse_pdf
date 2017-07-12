@@ -1,0 +1,338 @@
+medicine_1_name= trastuzumab
+medicine_1_cancers= gastric/esophageal/breast
+medicine_1_cn= 曲妥珠单抗
+medicine_1_en= Trastuzumab
+medicine_1_target= HER2
+medicine_1_approved= FDA／CFDA
+medicine_1_indications= 可用于 HER2 过表达转移胃或胃食管连接部癌的治疗。NCCN2016 年版临床指南明确指出，曲妥珠单抗作为 HER2 阳性的局限或转移性胃癌的一线治疗药物。
+medicine_1_introduction= 为人源化 IgG1kappa 单克隆抗体，与人表皮生长因子受体 2 蛋白(HER2)的胞外域产生高亲和性结合。HER2 是一种细胞膜表面结合的受体酪氨酸激酶，参与信号转导通路过程导致细胞生长及分裂。在肿瘤细胞中 HER2 过表达。赫赛汀能特异结合于 HER2 受体胞外段从而阻断 HER2 同源二聚体的组成性激活并干扰 HER2 与其它 ErbB 家族成员形成异源二聚体。阻断信号通路，抑制细胞生长和分裂。
+
+
+
+medicine_2_name= ramucirumab
+medicine_2_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_2_cn= 雷莫芦单抗
+medicine_2_en= Ramucirumab
+medicine_2_target= VEGFR-2
+medicine_2_approved= FDA
+medicine_2_indications= 可以作为单药或与紫杉醇结合，用于治疗氟尿嘧啶或铂类药物化疗进展的晚期胃癌。2016 年版临床指南明确指出，雷莫芦单抗结合紫杉醇作为胃癌的二线治疗方案。进展／转移性胃癌或胃食管交界癌。
+medicine_2_introduction= 为人血管内皮生长因子受体2(VEGFR-2)的拮抗剂。
+
+
+
+medicine_3_name= regorafenib
+medicine_3_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_3_cn= 瑞格非尼
+medicine_3_en= Regorafenib
+medicine_3_target= KDR		TIE2
+medicine_3_approved= FDA
+medicine_3_indications= 可用于治疗胃肠道肿瘤 GIST(伊马替尼和舒尼替尼治疗后耐受的患者)。
+medicine_3_introduction= 是一种多激酶抑制剂，结合并抑制表皮生长因子受体 VEFGR1／2／3、RET、KIT、PDGFRB 和 RAF 激酶，导致肿瘤血管生长及细胞分化受抑制。VEGFRs 是受体酪氨酸激酶，在肿瘤血管生长过程中起到十分重要的作用，RET、KIT、PDGFRB 为受体酪氨酸激酶，RAF 为丝氨酸／苏氨酸特异性激酶。
+
+
+
+medicine_4_name= sunitinib
+medicine_4_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_4_cn= 舒尼替尼
+medicine_4_en= Sunitinib
+medicine_4_target= KDR		KIT		PDGFRA
+medicine_4_approved= FDA／CFDA
+medicine_4_indications= 可用于治疗伊马替尼治疗后耐药或者复发的胃肠道肿瘤。
+medicine_4_introduction= 是一种广泛激酶抑制剂，通过阻断肿瘤增殖中的多种分子靶标来抑制肿瘤的扩散和增殖，专门用于治疗疾病进展和分化良好不能手术切除的局部晚期或转移性胰腺神经内分泌肿瘤患者以及胃肠道间质瘤（GIST）或伊马替尼治疗后复发和晚期肾细胞癌（RCC）。
+
+
+
+medicine_5_name= imatinib
+medicine_5_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_5_cn= 伊马替尼
+medicine_5_en= Imatinib
+medicine_5_target= PDGFRA		PDGFRB		KIT
+medicine_5_approved= FDA
+medicine_5_indications= 可用于治疗恶性胃肠间质瘤。
+medicine_5_introduction= 为 v-Abl、c-Kit 和 PDGFR 的多靶向抑制剂。
+
+
+
+medicine_6_name= pertuzumab
+medicine_6_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_6_cn= 帕妥珠单抗
+medicine_6_en= Pertuzumab
+medicine_6_target= HER2
+medicine_6_approved= FDA
+medicine_6_indications= 可联合曲妥珠单抗和多西他赛用于 HER2 阳性转移性乳腺癌的治疗、联合曲妥珠单抗和多西他赛用于 HER2 阳性、局部晚期、炎症性或早期乳腺癌的治疗。NCCN2016 年版临床指南明确指出，帕妥珠单抗作为治疗 HER2 阳性乳腺癌的一线治疗药物。
+medicine_6_introduction= 是一种单克隆抗体。它是第一个被称作“HER 二聚化抑制剂”的单克隆抗体。通过结合 HER2，阻滞 HER2 与其它 HER 受体的杂二聚，从而减缓了肿瘤的生长。
+
+
+
+medicine_7_name= everolimus
+medicine_7_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_7_cn= 依维莫司
+medicine_7_en= Everolimus
+medicine_7_target= mTOR
+medicine_7_approved= FDA
+medicine_7_indications= 可联合依西美坦用于激素受体阳性，HER2 阴性乳腺癌的治疗。NCCN2016 年版临床指南明确指出，依维莫司结合依西美坦用于治疗复发或 IV 期乳腺癌患者。
+medicine_7_introduction= 是一种 mTOR（PI3K／AKT 信号通路下游的丝苏氨酸激酶，能够调控细胞生长、增殖、能动性、存活、蛋白质合成以及转录）抑制剂。Everolimus 与抑免蛋白 FK 结合蛋白 12（FKBP-12）相结合，形成一种免疫抑制复合物，能够结合并且抑制已经激活 mTOR。抑制 mTOR 的活性可抑制 T 淋巴细胞活性以及抗原和细胞因子（IL-2、IL-4、IL-15）激活，并且抑制抗体的产生。Everolimus 能够抑制乏氧诱导因子（HIF-1）的表达，并且降低血管内皮生长因子（VEGF）的表达。通过抑制 mTOR，可以减少肿瘤细胞的增殖，血管生成以及对葡萄糖的摄取。
+
+
+
+medicine_8_name= palbociclib
+medicine_8_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_8_cn= 帕博西尼
+medicine_8_en= Palbociclib
+medicine_8_target= CDK4/6
+medicine_8_approved= FDA
+medicine_8_indications= 可用于转移性 HER2 阴性 ER 阳性的绝经后乳腺癌患者，需与来曲唑联合用药。
+medicine_8_introduction= 为 CDK4/6 的抑制剂。
+
+
+
+medicine_9_name= lapatinib
+medicine_9_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_9_cn= 拉帕替尼
+medicine_9_en= Lapatinib
+medicine_9_target= EGFR		HER2		ERBB4
+medicine_9_approved= FDA／CFDA
+medicine_9_indications= 可联合来曲唑用于激素受体阳性和 HER2 过表达的转移性乳腺癌的治疗 NCCN2016 年版临床指南明确指出，拉帕替尼结合卡培他滨或曲妥珠单抗用于治疗 HER2 阳性的复发转移乳腺癌患者。
+medicine_9_introduction= 可阻断 EGFR、HER2、ERK1、ERK2 和 AKT 激酶的磷酸化，也可抑制人类肿瘤细胞系和异种移植中细胞周期蛋白 D 的蛋白水平。
+
+
+
+medicine_10_name= erlotinib
+medicine_10_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_10_cn= 厄洛替尼
+medicine_10_en= Erlotinib
+medicine_10_target= EGFR
+medicine_10_approved= FDA／CFDA
+medicine_10_indications= 可用于治疗结合吉西他滨用于治疗局部晚期，不可切除或转移性胰腺癌。NCCN2016 年版临床指南明确指出，厄洛替尼结合吉西他滨作为复发转移胰腺癌的一线治疗药物。
+medicine_10_introduction= 是一类靶向 EGFR 的小分子酪氨酸激酶抑制剂，该类药物通过阻断表皮生长因子受体（EGFR）的激酶活性而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，抑制肿瘤细胞的增生、分化同时也能增加化疗和放疗的抗肿瘤疗效。
+
+
+
+medicine_11_name= sorafenib
+medicine_11_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_11_cn= 索拉非尼
+medicine_11_en= Sorafenib
+medicine_11_target= BRAF	KIT	KDR	PDGFRA
+medicine_11_approved= FDA／CFDA
+medicine_11_indications= 可用于治疗晚期肾细胞癌。NCCN2016 年版临床指南明确指出，推荐索拉菲尼为肾癌的一线治疗药物。
+medicine_11_introduction= 是一种针对丝氨酸／苏氨酸和酪氨酸激酶受体的多激酶抑制剂，抑制肿瘤细胞的生长和增殖，促进细胞凋亡。
+
+
+
+medicine_12_name= bevacizumab
+medicine_12_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_12_cn= 贝伐珠单抗
+medicine_12_en= Bevacizumab
+medicine_12_target= VEGF	KDR
+medicine_12_approved= FDA／CFDA
+medicine_12_indications= 可用于转移性乳腺癌，与紫杉醇联合。
+medicine_12_introduction= 为重组人源化单克隆抗体。通过体内、体外检测系统证实 IgG1 抗体能与人血管内皮生长因子（VEGF）结合并阻断其生物活性。而阿瓦斯汀包含了人源抗体的结构区和可结合 VEGF 的鼠源单抗的互补决定区。因此阿瓦斯汀能与 VEGF 结合从而使 VEGF 不能与它的受体 FLT-1 和 KDR 在内皮细胞表面结合，从而抑制内皮细胞增殖和新的肿瘤血管形成。
+
+
+
+medicine_13_name= pazopanib
+medicine_13_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_13_cn= 帕唑帕尼
+medicine_13_en= Pazopanib
+medicine_13_target= VEGFR	KDR	PDGFR	FGFR	KIT
+medicine_13_approved= FDA
+medicine_13_indications= 可用于治疗晚期肾细胞癌。NCCN2016 年版临床指南明确指出，帕唑帕尼作为复发或不能切除的肾癌的一线治疗药物。
+medicine_13_introduction= 帕唑帕尼是一种血管表皮生长因子受体（VEGFR）酪氨酸激酶抑制剂，作用于三个亚型：VEGFR-1，VEGFR-2 和 VEGFR-3。血管内皮生长因子是一种细胞刺激新血管生成的化学信号。实体瘤需要血液供应否则无法生长，因此多数实体瘤表达 VEGF 从而生长和转移。
+
+
+
+medicine_14_name= temsirolimus
+medicine_14_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_14_cn= 坦罗莫斯
+medicine_14_en= Temsirolimus
+medicine_14_target= mTOR
+medicine_14_approved= FDA
+medicine_14_indications= 可用于治疗进展期肾细胞癌。NCCN2016 年版临床指南明确指出，替西罗莫司作为复发或不能切除的肾癌的一线治疗药物。
+medicine_14_introduction= 是 rapamycin 衍生物，具有抗真菌，免疫抑制剂以及抗癌活性。Temsirolimus 能够阻断 mTOR 的作用。Torisel 与胞 内蛋白 FKBP-12 结合，产生的蛋白药物复合物能够抑制 mTOR 的活性。在肿瘤治疗上，mTOR 活性的抑制会导致肿瘤细胞 G1 期停滞。随着 mTOR 活性的抑制，其对 p70S6k 和 S6 核酸蛋白磷酸化作用的能力也随之受到阻断，它们均为 PI3K／AKT 信号通路中，mTOR 的下游作用因子。
+
+
+
+medicine_15_name= lenvatinib
+medicine_15_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_15_cn= 乐伐替尼
+medicine_15_en= Lenvatinib
+medicine_15_target= VEGFR	KDR
+medicine_15_approved= FDA
+medicine_15_indications= 可用于治疗肾细胞癌晚期，联合依维莫司使用。
+medicine_15_introduction= 为多靶向的抑制剂，多数为 VEGFR2(KDR)／VEGFR3(Flt-4) 的抑制剂，少数为 VEGFR2／3、FGFR1 和 PDGFRα／β 的抑制剂。
+
+
+
+medicine_16_name= cabozantinib
+medicine_16_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_16_cn= 卡博替尼
+medicine_16_en= Cabozantinib
+medicine_16_target= MET	KDR	FLT-3	KIT	RET
+medicine_16_approved= FDA
+medicine_16_indications= 可用于治疗肾细胞癌晚期。
+medicine_16_introduction= 为小分子多靶点酪氨酸激酶抑制剂，选择性抑制 VEGFR2 的酪氨酸激酶活性，从而抑制 VEGFR 刺激的内皮细胞分化和转移，以及新血管的生成。还可同时作用于肿瘤细胞 EGFR、RET、MET 等酪氨酸激酶，多靶点联合作用，杀死肿瘤细胞，减少转移并抑制血管生成，是一种多通道肿瘤信号传导抑制剂。
+
+
+
+medicine_17_name= axitinib
+medicine_17_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_17_cn= 阿西替尼
+medicine_17_en= Axitinib
+medicine_17_target= KDR		KIT	PDGFRB
+medicine_17_approved= FDA／CFDA
+medicine_17_indications= 可用于治疗全身治疗失败的晚期肾细胞癌。
+medicine_17_introduction= 为 VEGFR1、VEGFR2、VEGFR3、PDGFRβ 和 c-Kit 的多靶向抑制剂。
+
+
+
+medicine_18_name= vandetanib
+medicine_18_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_18_cn= 凡德他尼
+medicine_18_en= Vandetanib
+medicine_18_target= EGFR	VEGF
+medicine_18_approved= FDA
+medicine_18_indications= 可用于治疗不可切除，晚期或者转移性的有症状或进展的甲状腺髓样癌。NCCN2016 年版临床治疗指南指出：推荐凡德他尼用于治疗不可切除，晚期或者转移性甲状腺髓样癌。
+medicine_18_introduction= 为小分子多靶点酪氨酸激酶抑制剂，选择性抑制 VEGFR2 的酪氨酸激酶活性，从而抑制 VEGFR 刺激的内皮细胞分化和转移，以及新血管的生成。还可同时作用于肿瘤细胞 EGFR、RET、MET 等酪氨酸激酶，多靶点联合作用，杀死肿瘤细胞，减少转移并抑制血管生成，是一种多通道肿瘤信号传导抑制剂。
+
+
+
+medicine_19_name= cabozantinib
+medicine_19_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_19_cn= 卡博替尼
+medicine_19_en= Cabozantinib
+medicine_19_target= MET	KDR	FLT-3	KIT	RET
+medicine_19_approved= FDA
+medicine_19_indications= 可用于治疗不可手术切除的恶性局部晚期或转移性甲状腺髓样癌的治疗。NCCN2016 年版临床治疗指南指出：推荐卡博替尼用于治疗不可切除，晚期或者转移性甲状腺髓样癌。
+medicine_19_introduction= 为小分子多靶点酪氨酸激酶抑制剂，选择性抑制 VEGFR2 的酪氨酸激酶活性，从而抑制 VEGFR 刺激的内皮细胞分化和转移，以及新血管的生成。还可同时作用于肿瘤细胞 EGFR、RET、MET 等酪氨酸激酶，多靶点联合作用，杀死肿瘤细胞，减少转移并抑制血管生成，是一种多通道肿瘤信号传导抑制剂。
+
+
+
+medicine_20_name= cetuximab
+medicine_20_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_20_cn= 西妥昔单抗
+medicine_20_en= Cetuximab
+medicine_20_target= EGFR
+medicine_20_approved= FDA
+medicine_20_indications= 可用于治疗 EGFR 表达，并对以伊立替康为主的治疗产生抗药性的转移结直肠癌患者。NCCN2016 年版临床治疗指南指出：所有结直肠癌患者都应当接受 KRAS、NRAS 和 BRAF 基因突变检测，以帮助决定患者是否接受西妥昔单抗的治疗。
+medicine_20_introduction= 为抑制 EGFR 的单克隆抗体。与 EGFR 结合竞争抑制 EGF 或其他配体的结合，例如 TGF-α。西妥昔单抗由带有鼠抗 EGFR 单抗和人 IgG1 重链与 k 轻链保守区组成。
+
+
+
+medicine_21_name= panitumumab
+medicine_21_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_21_cn= 帕尼单抗
+medicine_21_en= Panitumumab
+medicine_21_target= EGFR
+medicine_21_approved= FDA
+medicine_21_indications= 可用于治疗表达 EGFR 的结直肠癌、转移结直肠癌。NCCN2016 年版临床治疗指南指出：所有结直肠癌患者都应当接受 KRAS、NRAS 和 BRAF 基因突变检测，以帮助决定患者是否接受帕尼单抗的治疗。
+medicine_21_introduction= 为可特异性的结合人类上皮生长因子受体（EGFR），抑制细胞生长，诱导凋亡，减少前炎细胞因子和血管生长因子的产生。
+
+
+
+medicine_22_name= vemurafenib
+medicine_22_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_22_cn= 威罗菲尼
+medicine_22_en= Vemurafenib
+medicine_22_target= BRAF(V600E)
+medicine_22_approved= FDA／CFDA
+medicine_22_indications= 可用于治疗具有 BRAF(V600E) 突变的不可切除或转移性黑色素瘤。NCCN2016 年版临床治疗指南指出：单独使用威罗菲尼／达拉菲尼，或联合使用达拉菲尼和曲美替尼，以及联合使用威罗菲尼和 Cobimetinib 作为不可切除的、或转移性的具有 V600 突变的黑色素瘤的一线治疗方案。
+medicine_22_introduction= 为 BRAF 激酶抑制剂，可有效结合胞内丝氨酸／苏氨酸 (BRAF)；BRAF 为 MAPK 通路中重要的信号分子，药物结合可有效阻断细胞内 MAPK 信号转导途径，抑制癌细胞的增殖，诱导癌细胞的凋亡。
+
+
+
+medicine_23_name= dabrafenib
+medicine_23_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_23_cn= 达拉菲尼
+medicine_23_en= Dabrafenib
+medicine_23_target= BRAF(V600E)
+medicine_23_approved= FDA／CFDA
+medicine_23_indications= 可用于治疗 BRAF(V600E) 突变引起的黑素瘤，尤其是不可切除的和晚期转移性黑色素瘤。NCCN2016 年版临床治疗指南指出：单独使用威罗菲尼／达拉菲尼，或联合使用达拉菲尼和曲美替尼，以及联合使用威罗菲尼和 Cobimetinib 作为不可切除的、或转移性的具有 V600 突变的黑色素瘤的一线治疗方案。
+medicine_23_introduction= 为 BRAF 激酶抑制剂，可有效结合胞内丝氨酸／苏氨酸 (BRAF)；BRAF 为 MAPK 通路中重要的信号分子，药物结合可有效阻断细胞内 MAPK 信号转导途径，抑制癌细胞的增殖，诱导癌细胞的凋亡。
+
+
+
+medicine_24_name= trametinib
+medicine_24_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_24_cn= 曲美替尼
+medicine_24_en= Trametinib
+medicine_24_target= BRAF(V600E)
+medicine_24_approved= FDA／CFDA
+medicine_24_indications= 可用于治疗不能行手术治疗的转移黑色素瘤且未接受过一次以上化疗的黑色素瘤患者；之前未接受过 BRAF 或 MEK 抑制剂治疗的黑色素瘤患者。NCCN2016 年版临床治疗指南指出：单独使用威罗菲尼／达拉菲尼，或联合使用达拉菲尼和曲美替尼，以及联合使用威罗菲尼和 Cobimetinib 作为不可切除的、或转移性的具有 V600 突变的黑色素瘤的一线治疗方案。
+medicine_24_introduction= 为小分子 MEK1 和 MEK2 激酶制剂，可逆结合促分裂激活蛋白激酶 (MEK)；MEK 为 MAPK 通路中重要的信号分子，药物结合可有效阻断细胞内 MAPK 信号转导途径，抑制癌细胞的增殖，诱导癌细胞的凋亡。
+
+
+
+medicine_25_name= gefitinib
+medicine_25_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_25_cn= 吉非替尼
+medicine_25_en= Gefitinib
+medicine_25_target= EGFR
+medicine_25_approved= FDA／CFDA
+medicine_25_indications= 可用于非小细胞肺癌的二线治疗。NCCN2016 年版临床指南明确指出，肿瘤 EGFR 突变的前提下，推荐吉非替尼为非小细胞肺癌一线治疗药物。
+medicine_25_introduction= 是一类靶向 EGFR 的小分子酪氨酸激酶抑制剂，该类药物通过阻断表皮生长因子受体 (EGFR) 的激酶活性而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，抑制肿瘤细胞的增生、分化同时也能增加化疗和放疗的抗肿瘤疗效。
+
+
+
+medicine_26_name= crizotinib
+medicine_26_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_26_cn= 克唑替尼
+medicine_26_en= Crizotinib
+medicine_26_target= ALK		ROS1	MET
+medicine_26_approved= FDA／CFDA
+medicine_26_indications= 可用于治疗 ALK 阳性的局部进展或晚期非小细胞肺癌。NCCN2016 年版临床指南明确指出，肿瘤 ALK 重排的前提下，推荐克唑替尼为非小细胞肺癌一线治疗药物。
+medicine_26_introduction= 是靶向 ALK／MET 的小分子酪氨酸双激酶抑制剂，该药物以 ATP 竞争的方式，结合并抑制 ALK 激酶 ALK 融合蛋白。此外，克唑替尼还抑制 MET 激酶，阻断细胞内信号转导，从而抑制癌细胞的增殖。
+
+
+
+medicine_27_name= afatinib
+medicine_27_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_27_cn= 阿法替尼
+medicine_27_en= Afatinib
+medicine_27_target= EGFR	HER2	ERBB4
+medicine_27_approved= FDA
+medicine_27_indications= 可用于 EGFR 突变阳性的非小细胞肺癌治疗。NCCN2016 年版临床指南明确指出，肿瘤 EGFR 突变的前提下，推荐阿法替尼为非小细胞肺癌一线治疗药物。
+medicine_27_introduction= 是靶向 EGFR／HER2 小分子酪氨酸激酶的不可逆抑制剂，作为第二代高效双重非可逆性的酪氨酸激酶抑制剂，可同时抑制 EGFR 和 HER2 两种受体，共价结合 EGFR、HER2 的激酶区域，不可逆的抑制酪氨酸激酶的自磷酸化，导致下游信号通路的下调，抑制肿瘤细胞的增殖和生长。
+
+
+
+medicine_28_name= alectinib
+medicine_28_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_28_cn= 阿雷替尼
+medicine_28_en= Alectinib
+medicine_28_target= ALK
+medicine_28_approved= FDA
+medicine_28_indications= 可用于治疗非小细胞肺癌进展或不能耐受克唑替尼。
+medicine_28_introduction= 是一种 ALK 抑制剂。
+
+
+
+medicine_29_name= ceritinib
+medicine_29_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_29_cn= 色瑞替尼
+medicine_29_en= Ceritinib
+medicine_29_target= ALK		IGF1R
+medicine_29_approved= FDA
+medicine_29_indications= 可用于治疗转移性 ALK- 阳性非小细胞肺癌，且对克唑替尼耐药者。
+medicine_29_introduction= 是一种 ALK 抑制剂。
+
+
+
+medicine_30_name= nivolumab
+medicine_30_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_30_cn= 纳武单抗
+medicine_30_en= Nivolumab
+medicine_30_target= PD-1
+medicine_30_approved= FDA
+medicine_30_indications= 可用于治疗转移性鳞状非小细胞肺癌。
+medicine_30_introduction= 是一种人类的 IgG4 和抗 PD-1 单克隆抗体。
+
+
+
+medicine_31_name= osimertinib
+medicine_31_cancers= xxxxxxxxxxx/xxxxxxxxxxx/xxxxxxxxxxx
+medicine_31_cn= Tagrisso
+medicine_31_en= Osimertinib
+medicine_31_target= EGFR
+medicine_31_approved= FDA
+medicine_31_indications= 可用于治疗 EGFR-T790M 突变阳性的非小细胞肺癌。
+medicine_31_introduction= 是第三代表皮生长因子（EGFR）酪氨酸激酶抑制剂药物（TKI）。
