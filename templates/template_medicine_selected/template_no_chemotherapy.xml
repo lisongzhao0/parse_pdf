@@ -61,6 +61,9 @@
         <text z_order="2" font="fzlthjw" font_size="20" color="#5c743f" bold="" italic="" underline="" x="71" y="375" width="453" h_alignment="R" value="$diseaseName肿瘤靶向化疗用药标准检测"/>
     </page>
 
+
+
+
     <!--*****************************************************************************************-->
     <!--***************************************  内封面  *****************************************-->
     <!--*****************************************************************************************-->
@@ -71,27 +74,19 @@
         <text z_order="3" font="fzltxh_gbk" font_size="16" color="#ffffff" bold="bold" italic="" underline="" x="320" y="405" width="200" value="致用户的一封信"/>
     </page>
 
+
+
+
     <!--*****************************************************************************************-->
     <!--****************************************  前言  ******************************************-->
     <!--*****************************************************************************************-->
     <page z_order="3" catalog="-1 0" page_header="false" page_number="false" type="preface">
         <text z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" bold="true" italic="" underline="" x="52" y="700" width="200" value="尊敬的客户："/>
-        <text z_order="3" line_leading="2.2" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#404040" bold="" italic="" underline="" x="52" y="250" width="494" box="59 660 475 800" value="">
-<![CDATA[您好！<br/>
-<br/>
-感谢您选择我们为您提供的肿瘤精准医疗检测服务。我们本着科学、严谨、求实的精神，采用最先进的基因检测技术，以当前国际权威的研究成果和临床指南为理论依据，严格按照参考文献中报道的基因与疾病的关联强度，客观准确地为您提供这份个性化的基因检测报告。<br/>
-<br/>
-我们每个人都有自己独特的基因，每一位肿瘤患者所携带的致病基因也不尽相同，同样分型分期的肿瘤，使用同一药物的治疗效果也可能存在巨大差异。因此，传统的组织病理诊断已不能满足目前临床肿瘤诊疗的客观需求。随着医学技术的迅速发展和对肿瘤研究的不断深入，肿瘤诊疗已进入“精准医疗时代”。通过检测受检者血液的 cfDNA 或肿瘤组织的基因组，寻找到肿瘤发病的原因和治疗的靶点，从对“症”治疗向对“因”治疗转变，同一肿瘤可能因不同的基因变异而选用不同的治疗药物，不同的肿瘤也可能因有相同的基因变异而使用同一治疗药物，从而实现真正意义上的“同病异治”和“异病同治”。<br/>
-<br/>
-我们为您提供的肿瘤精准医疗检测服务涵盖了肿瘤的遗传早筛，精准用药及实时监控三个部分，可实现肿瘤精准医疗的全方位、全进程检测，最大限度的满足不同阶段肿瘤患者的需求。每位受检者均可根据自身情况和需求选择相应的检测产品。<br/>
-<br/>
-此服务本质上属于研究性检测，是为了更好地协助您了解自身罹患肿瘤的风险及可能的致病基因，并为临床检测提供 DNA 水平的分析参考，而不具有直接诊断和治疗的目的，具体干预措施请以临床医生意见为准。<br/>
-<br/>
-基因信息属于个人隐私，我们郑重承诺将妥善保管您的相关数据，未经您本人授权不会用于其他目的。若因您个人原因发生信息外泄，其后果将由您本人承担。<br/>
-<br/>
-我们恭祝您身体健康、工作顺利、家庭幸福！]]>
-        </text>
+        <text z_order="3" line_leading="2.2" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#404040" bold="" italic="" underline="" x="52" y="250" width="494" box="59 660 475 800" value="$letterContent"/>
     </page>
+
+
+
 
     <!--*****************************************************************************************-->
     <!--************************************     次封面     **************************************-->
@@ -99,6 +94,9 @@
     <page z_order="4" catalog="-1 0" page_header="false" page_number="false" type="userAndReportDate">
         <image z_order="0" id="info" fit="a" type="JPG" x="0"  y="0"  height="365.23"  width="515.5" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/page4_footer.jpg"/>
     </page>
+
+
+
 
     <!--*********************************************************************************-->
     <!--************************************  目录 ************************************** catalog="0 0" page_header="false" page_number="false" type="catalog" fixed_page_number="5"-->
@@ -134,25 +132,25 @@
     <!--***********************************  第一二三项 样本提供者信息  *************************************-->
     <!--*************************************************************************************************-->
     <page z_order="6" catalog="1 0" page_header="false" page_number="true" page_number_start="1" type="userManual">
-        <!-- 样本提供者信息 -->
+        <!--********************************** 1. 样本提供者信息 **********************************-->
         <template z_order="0" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="一、样本提供者信息"/>
             <value id="detailJiBing" value=""/>
         </template>
-        <!-- Left -->
+        <!-- 提供者信息 Left -->
         <text z_order="1" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="69" y="710" width="230" h_alignment="L" value=""><![CDATA[姓　　名：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$name</style>]]> </text>
         <text z_order="2" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="69" y="682" width="230" h_alignment="L" value=""><![CDATA[性　　别：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$gender</style>]]> </text>
         <text z_order="3" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="69" y="654" width="230" h_alignment="L" value=""><![CDATA[年　　龄：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$age</style>]]> </text>
         <text z_order="4" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="69" y="626" width="230" h_alignment="L" value=""><![CDATA[临床诊断：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$diagnoses</style>]]> </text>
         <text z_order="5" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="69" y="598" width="230" h_alignment="L" value="住院号 / 就诊号：　"><![CDATA[临床诊断：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$admissionNumb</style>]]> </text>
 
-        <!-- Right -->
+        <!-- 提供者信息 Right -->
         <text z_order="6" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="297.5" y="710" width="230" h_alignment="L" value=""><![CDATA[样本编号：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$sampleNumb</style>]]> </text>
         <text z_order="7" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="297.5" y="682" width="230" h_alignment="L" value=""><![CDATA[样本种类：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$sampleType</style>]]> </text>
         <text z_order="8" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="297.5" y="654" width="230" h_alignment="L" value=""><![CDATA[采集日期：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$collectDate</style>]]> </text>
         <text z_order="9" font="fzltchjw" font_size="12.5" color="#5c743f" bold="" italic="" underline="" x="297.5" y="626" width="230" h_alignment="L" value=""><![CDATA[接收日期：　<style font='fzltxh_gbk' font_size='9' font_color='#404040'>$receiveDate</style>]]> </text>
 
-        <!-- 个人病史及肿瘤家族史调查 -->
+        <!--********************************** 2. 个人病史及肿瘤家族史调查 **********************************-->
         <text_box z_order="10" x="58" y="550" width="457" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
             <rect z_order="1" path="maxX -457 maxY 37 minX 0 minY 0" border_width="" border_color="" opacity="1.0" fill_color="#b9c832" x="0" y="0"/>
             <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="二、个人病史及肿瘤家族史调查"/>
@@ -163,7 +161,7 @@
         </paragraph>
 
 
-        <!-- 项目内容 -->
+        <!--********************************** 3. 项目内容 **********************************-->
         <text_box z_order="12" auto_layout="true" x="58" y="550" width="457" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
             <rect z_order="1" path="maxX -457 maxY 37 minX 0 minY 0" border_width="" border_color="" opacity="1.0" fill_color="#b9c832" x="0" y="0"/>
             <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="三、项目内容"/>
@@ -186,16 +184,12 @@
             <value id="detailJiBing" value=""/>
         </template>
 
-        <!-- 分子靶向用药提示 -->
+        <!--********************************** 分子靶向用药提示 **********************************-->
         <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="12" x="58" y="737" width="479" cross_page="true" top_y="747" bottom_y="59" value="分子靶向用药提示："/>
         <paragraph z_order="3" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
-<![CDATA[
-本次检测样本中存在<style italic='true'>EGFR</style> p.L858R 点突变，提示患者可能对吉非替尼、厄洛替尼、阿法替尼、埃克替尼等药物敏感。请由您的临床医生根据患者情况实施最适合的治疗方案。<br/><br/>
-]]>
+<![CDATA[本次检测样本中存在 $geneMutationSite 点突变，提示患者可能对$allergicMedicine等药物敏感。请由您的临床医生根据患者情况实施最适合的治疗方案。<br/><br/>]]>
         </paragraph>
-
         <text z_order="4" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#404040" h_alignment="C" font_size="12" x="58" y="697" width="479" value="靶向药物用药提示"/>
-
         <vertical_table z_order="5" auto_layout="true" gap_h="2" data="$targetedDrugUsageInfo"  x="58" y="567" top_y="747" bottom_y="50" width="479"
                         column_width="0.083 0.083 0.083 0.083 0.084 0.083 0.084 0.083 0.084 0.083 0.084 0.083" header_in_every_page="true" cell_center_v="true" gap_header_row="6"
                         header_split_line="false" header_split_line_color="#607b3f" header_split_line_width="0.17">
@@ -237,16 +231,13 @@
         </vertical_table>
 
 
+        <!--********************************** 基因解读 **********************************-->
         <paragraph z_order="6" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
-<![CDATA[
-<style bold='true'>基因解读</style><br/>
-大量研究资料表明 <style italic='true'>EGFR</style> 基因突变主要集中在酪氨酸激酶区（外显子 18-21），其中 19 外显子多为框内缺失（746-753）突变，约占所有突变的 45%；21 外显子多为替代突变（主要是 L858R），约占所有突变的 40%。<style italic='true'>EGFR</style> 基因编码区外显子 18、19 和 21 的基因突变是患者对临床 EGFR-TKI 靶向治疗药物有效的必要前提。研究发现，非小细胞肺癌细胞中 <style italic='true'>EGFR</style> 酪氨酸激酶基因编码区外显子 18、19 或 21 突变的患者，酪氨酸激酶抑制剂（TKIs）如易瑞沙（吉非替尼）、特罗凯（厄洛替尼）治疗的有效性显著增强。美国国立综合癌症网络（NCCN）2015 年版临床指南和美国临床肿瘤学会（ASCO）IV 期非小细胞肺癌诊疗指南 2009 年更新版中已明确指出，肿瘤 <style italic='true'>EGFR</style> 突变的前提下，推荐吉非替尼和厄洛替尼为非小细胞肺癌一线治疗药物。
-<br/><br/>在患者肿瘤基因组中检测出 <style italic='true'>EGFR</style> 的 L858R 突变，提示患者对吉非替尼、厄洛替尼具有较强敏感性，适用于此类药物治疗。
-]]>
+<![CDATA[<style bold='true'>基因解读</style><br/>$geneAnalysis]]>
         </paragraph>
 
 
-        <text z_order="100" line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" x="58" y="59" width="479" value="">
+        <text z_order="7" line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" x="58" y="59" width="479" value="">
 <![CDATA[
 <style font='fzltchjw' font_color='#607b3f' font_size='12'>* 注:靶向用药证据级别参考如下：</style><br/><br/>
 A 级：由 NCCN 指南推荐或 FDA 批准的基因位点与药物关系;<br/>
@@ -254,21 +245,12 @@ B 级：有大量临床试验证据支持的基因位点与药物关系;<br/>
 C 级：临床前数据中支持的基因位点与药物关系。<br/>
 ]]>
         </text>
-    </page>
 
-    <page z_order="8" catalog="2 2" page_header="false" page_number="true" type="appendix">
-        <!-- page header -->
-        <template z_order="1" name="page_header" condition="1">
-            <value id="detailJiBingXiaoBiaoTi" value="四、用药提示"/>
-            <value id="detailJiBing" value=""/>
-        </template>
 
-        <!-- 靶向药物简述 -->
-        <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="12" x="58" y="737" width="479" cross_page="true" top_y="747" bottom_y="59" value="靶向药物简述："/>
-
-        <text z_order="4" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#404040" h_alignment="C" font_size="12" x="58" y="697" width="479" value="靶向药物"/>
-
-        <vertical_table z_order="5" auto_layout="true" gap_h="5" data="$targetedDrug"  x="58" y="567" top_y="747" bottom_y="50" width="479"
+        <!--********************************** 靶向药物简述 **********************************-->
+        <text z_order="8" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="12" x="58" y="737" width="479" cross_page="true" top_y="747" bottom_y="59" value="靶向药物简述："/>
+        <text z_order="9" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#404040" h_alignment="C" font_size="12" x="58" y="697" width="479" value="靶向药物"/>
+        <vertical_table z_order="10" auto_layout="true" gap_h="5" data="$targetedDrug"  x="58" y="567" top_y="747" bottom_y="50" width="479"
                         column_width="0.1983 0.1983 0.1515 0.1983 0.2534" header_in_every_page="true" cell_center_v="true" gap_header_row="12"
                         header_split_line="false" header_split_line_color="#607b3f" header_split_line_width="0.17">
             <header v_alignment="T">
@@ -292,14 +274,8 @@ C 级：临床前数据中支持的基因位点与药物关系。<br/>
         </vertical_table>
 
 
-        <paragraph z_order="6" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
-            <![CDATA[
-<style bold='true'>药物简介</style><br/>
-吉非替尼是一类靶向EGFR 的小分子酪氨酸激酶抑制剂，该类药物主要通过阻断表皮生长因子受体(EGFR)的激酶活性 而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，即抑制肿瘤细胞的增生、分化，同时也能提高化疗和放疗的抗肿 瘤疗效。适用于治疗既往接受过化学治疗或不适于化疗的局部、晚期或转移性非小细胞肺癌(NSCLC)。厄洛替尼的作 用靶点为 EGFR ，主要检测靶点为 BRAF、EGFR、KRAS 。当 EGFR 的 18/19/21 号外显子突变时，对该药物敏感， 提示临床优先使用;当 EGFR 第 20 号外显子突变、KRAS 突变时，则对吉非替尼耐药，临床不建议使用。2016 年， NCCN 指南推荐吉非替尼用于非小细胞肺癌的一线治疗。<br/><br/>
-厄洛替尼是一类靶向EGFR 的小分子酪氨酸激酶抑制剂，用于治疗非小细胞肺癌(NSCLC)、胰腺癌等几种癌症。厄洛 替尼的作用靶点为 EGFR ，主要检测靶点为 BRAF、EGFR、KRAS 。当 EGFR 的 18/19/21 号外 显子突变时，对该药 物敏感，提示临床优先使用;当 EGFR 第 20 号外显子突变、KRAS 突变时，则对厄洛替尼耐药，临床不建议使用。2016 年， NCCN 指南推荐厄洛替尼用于非小细胞肺癌的一线治疗。<br/><br/>
-阿法替尼可用于 EGFR 突变阳性的非小细胞肺癌治疗。NCCN 2016 年版临床指南明确指出，肿瘤 EGFR 突变的前提下， 推荐阿法替尼为非小细胞肺癌一线治疗药物。<br/><br/>
-埃克替尼是一种高效特异性的表皮生长因子受体酪氨酸激酶抑制剂(EGFR-TKI)。在对 85 种激酶的筛查中，埃克替尼 可强有力地选择性抑制 EGFR 及其 3 个突变体，但对剩余 81 种激酶均无明显的抑制作用。适用于于晚期非小细胞肺癌二 线治疗。<br/>
-]]>
+        <paragraph z_order="11" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+<![CDATA[<style bold='true'>药物简介</style><br/>$targetedDrugInfo]]>
         </paragraph>
     </page>
 
@@ -316,16 +292,16 @@ C 级：临床前数据中支持的基因位点与药物关系。<br/>
             <value id="detailJiBing" value=""/>
         </template>
 
+        <!--**********************************  简述  ************************************-->
         <paragraph z_order="2" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
-            <![CDATA[
-本项检测基于新一代测序平台，检测内容根据 《NCCN 临床实践指南》及国际最权威的研究报道定制。涵盖目前临床肿 瘤治疗中常用化疗及靶向药物的敏感 / 耐药检测位点。可以一次性对目前临床中常见的肿瘤用药基因及预后判断基因的突 变位点进行筛查。与传统检测相比，技术上和经济上具有无可比拟的优势。<br/><br/>
+<![CDATA[
+本项检测基于新一代测序平台，检测内容根据 《NCCN 临床实践指南》及国际最权威的研究报道定制。涵盖目前临床肿 瘤治疗中常用化疗及靶向药物的敏感／耐药检测位点。可以一次性对目前临床中常见的肿瘤用药基因及预后判断基因的突 变位点进行筛查。与传统检测相比，技术上和经济上具有无可比拟的优势。<br/><br/>
 ]]>
         </paragraph>
 
+        <!--**********************************  本次检测的分子靶向基因  ************************************-->
         <text z_order="3" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="12" x="58" y="737" width="479" cross_page="true" top_y="747" bottom_y="59" value="本次检测的分子靶向基因："/>
-
         <text z_order="4" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#404040" h_alignment="C" font_size="11" x="58" y="697" width="479" value="指南 / 共识推荐相关基因（靶向药物）检测情况"/>
-
         <vertical_table z_order="5" auto_layout="true" gap_h="2" data="$relativeGeneCheckedInfo"  x="58" y="567" top_y="747" bottom_y="50" width="479"
                         column_width="0.3333 0.4444 0.2222" header_in_every_page="true" cell_center_v="true" gap_header_row="6"
                         header_split_line="true" header_split_line_color="#607b3f" header_split_line_width="0.17">
@@ -363,6 +339,7 @@ C 级：临床前数据中支持的基因位点与药物关系。<br/>
             </row>
             <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
         </vertical_table>
+
     </page>
 
 
@@ -378,7 +355,7 @@ C 级：临床前数据中支持的基因位点与药物关系。<br/>
             <value id="detailJiBing" value=""/>
         </template>
 
-        <vertical_table z_order="5" auto_layout="true" gap_h="2" data=""  x="58" y="737" top_y="747" bottom_y="50" width="479"
+        <vertical_table z_order="2" auto_layout="true" gap_h="2" data=""  x="58" y="737" top_y="747" bottom_y="50" width="479"
                         column_width="1.0" header_in_every_page="true" cell_center_v="true" gap_header_row="6"
                         header_split_line="true" header_split_line_color="#607b3f" header_split_line_width="0.17">
             <header v_alignment="T">
@@ -386,13 +363,12 @@ C 级：临床前数据中支持的基因位点与药物关系。<br/>
             </header>
             <row>
                 <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="">
-<![CDATA[ ALK &tab; BRAF &tab; EGFR &tab; HER2 &tab; KRAS &tab; MET &tab; NRAS &tab; PIK3CA &tab; RET &tab; ROS1 ]]>
+                    <![CDATA[ ALK &tab; BRAF &tab; EGFR &tab; HER2 &tab; KRAS &tab; MET &tab; NRAS &tab; PIK3CA &tab; RET &tab; ROS1 ]]>
                 </text>
             </row>
             <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
         </vertical_table>
     </page>
-
 
 
 
@@ -470,48 +446,6 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--*************************************************************************************************-->
     <!--******************************************  附录 (cover) *****************************************-->
     <!--*************************************************************************************************-->
@@ -523,6 +457,12 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
         </text_box>
     </page>
 
+
+
+
+    <!--*************************************************************************************************-->
+    <!--***************************************  靶向用药表格说明示例 **************************************-->
+    <!--*************************************************************************************************-->
     <page z_order="102996" catalog="10000 1" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="0" name="page_header" condition="3">
@@ -591,6 +531,11 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
     </page>
 
 
+
+
+    <!--*************************************************************************************************-->
+    <!--**************************************  常见癌种的靶向药物简介 *************************************-->
+    <!--*************************************************************************************************-->
     <page z_order="102997" catalog="10000 2" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
@@ -598,7 +543,7 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
             <value id="detailJiBing" value="（FDA 获批适应症及 NCCN 指导意见）"/>
         </template>
 
-        <repeat z_order="2" data="$allDiseaseMedicineInfo">
+        <repeat z_order="2" data="$specificDrugsForSpecificCancer">
             <!-- 1、非小细胞肺癌 -->
             <text z_order="1" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="58" y="737" width="479" cross_page="true" top_y="747" bottom_y="59" value="$everyDiseaseName："/>
             <!-- medicine -->
@@ -626,6 +571,12 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
         </repeat>
     </page>
 
+
+
+
+    <!--*************************************************************************************************-->
+    <!--********************************************  参考文献 *******************************************-->
+    <!--*************************************************************************************************-->
     <page z_order="102998" catalog="10000 3" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
@@ -636,9 +587,21 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
         <paragraph z_order="2" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="$appendixReferences"/>
     </page>
 
+
+
+
+    <!--*************************************************************************************************-->
+    <!--********************************************** 封三 *********************************************-->
+    <!--*************************************************************************************************-->
     <page z_order="102999" type="inside_back_cover">
     </page>
 
+
+
+
+    <!--*************************************************************************************************-->
+    <!--********************************************** 封底 *********************************************-->
+    <!--*************************************************************************************************-->
     <page z_order="103000" type="back_cover">
         <image z_order="1" id="member" type="JPG" fit="a" x="210" y="396" height="50" width="176" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/logo.jpg"/>
         <image z_order="1" id="member" type="GIF" fit="a" x="58" y="58" height="150" width="162.9393" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/back_cover.png"/>

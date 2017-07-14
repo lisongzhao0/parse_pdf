@@ -314,10 +314,10 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         PdfPage page = pdf.getPdfDocument().getLastPage();
 
         if (null!=page) {
+            Paragraph paragraph = getText();
+            List<LineRenderer> lineAreas = isCrossPage() ? new ArrayList<>() : null;
+            float[] area = getAreaLine(getWidth(), lineAreas);
             if (isAutoLayout()) {
-                Paragraph paragraph = getText();
-                List<LineRenderer> lineAreas = isCrossPage() ? new ArrayList<>() : null;
-                float[] area = getAreaLine(getWidth(), lineAreas);
                 if (!isCrossPage()) {
                     if (null!=area) {
                         lastY(lastY() - area[1]);
@@ -348,7 +348,9 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                 }
             }
             else {
-                Paragraph paragraph = getText();
+                if (null!=area) {
+                    lastY(getY() - area[1]);
+                }
                 page = pdf.getPdfDocument().getLastPage();
                 paragraph.setFixedPosition(pdf.getPdfDocument().getPageNumber(page), getX(), getY(), getWidth());
                 if (null!=pdf) {

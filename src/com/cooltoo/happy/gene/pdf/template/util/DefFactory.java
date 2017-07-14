@@ -1,5 +1,6 @@
 package com.cooltoo.happy.gene.pdf.template.util;
 
+import com.cooltoo.happy.gene.pdf.template.def.AreaDef;
 import com.cooltoo.happy.gene.pdf.template.def.PageDef;
 import com.cooltoo.happy.gene.pdf.template.def.PageGroupDef;
 import com.cooltoo.happy.gene.pdf.template.def.element.*;
@@ -87,6 +88,10 @@ public class DefFactory {
             return newDef;
         }
         newDef = (new HeaderAreaDef()).parseElement(ele);
+        if (null!=newDef) {
+            return newDef;
+        }
+        newDef = (new AreaDef()).parseElement(ele);
         if (null!=newDef) {
             return newDef;
         }
