@@ -146,19 +146,6 @@ public class Main {
         }
 
 
-        DataTable table = tables.get("gaiShuJiYinFengXianPingFen");
-        List<DataTable.Row> rows = table.getRows();
-        Map<String, Integer> catalogNumber = testRender.getCatalogs();
-        for (DataTable.Row row : rows) {
-            if (row.getCellSize()==0) {
-                continue;
-            }
-            DataTable.Cell cell = row.getCell(row.getCellSize()-1);
-            Integer pageNumber = catalogNumber.get(cell.getValue());
-
-            cell.setValue(""+(pageNumber));
-        }
-
         for (PageDef pageDef : needRepaintPages) {
             int pageNumberInDoc = pageDef.getPageStartNumberInDoc();
             pageDef.setStopGenerate(true);

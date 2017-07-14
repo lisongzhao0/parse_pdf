@@ -565,70 +565,246 @@
         </table>
 
 
-
-
-
-
-
-
-
-        <table id="zhiBingJiYinYuZhongLiuGuanXi">
+        <table id="geneCheckedOut">
             <headers>
-                <header column="0" value="癌种"/>
-                <header column="1" value="基因数目"/>
-                <header column="2" value="基因"/>
+                <header column="0" value="靶向基因"/>
+                <header column="1" value="化疗基因"/>
             </headers>
             <rows>
-                <cell row="0"  column="0" value="乳腺癌"/>
-                <cell row="1"  column="0" value="卵巢癌"/>
-                <cell row="2"  column="0" value="结直肠癌"/>
-                <cell row="3"  column="0" value="胃癌"/>
-                <cell row="4"  column="0" value="肾癌"/>
-                <cell row="5"  column="0" value="前列腺癌"/>
-                <cell row="6"  column="0" value="胰腺癌"/>
-                <cell row="7"  column="0" value="子宫内膜癌"/>
-                <cell row="8"  column="0" value="甲状腺癌"/>
-                <cell row="9"  column="0" value="甲状旁腺癌"/>
-                <cell row="10" column="0" value="肺癌"/>
-                <cell row="11" column="0" value="肝癌"/>
-                <cell row="12" column="0" value="食管癌"/>
-                <cell row="13" column="0" value="膀胱癌"/>
-                <cell row="14" column="0" value="胶质瘤"/>
-                <cell row="15" column="0" value="淋巴瘤"/>
+                <cell row="0"   column="0" value="ALK"/>
+                <cell row="1"   column="0" value="BRAF"/>
+                <cell row="2"   column="0" value="EGFR"/>
+                <cell row="3"   column="0" value="HER2"/>
+                <cell row="4"   column="0" value="KRAS"/>
+                <cell row="5"   column="0" value="MET"/>
+                <cell row="6"   column="0" value="NRAS"/>
+                <cell row="7"   column="0" value="PIK3CA"/>
+                <cell row="8"   column="0" value="RET"/>
+                <cell row="9"   column="0" value="ROS1"/>
+                <cell row="10"  column="0" value=""/>
+                <cell row="11"  column="0" value=""/>
+                <cell row="12"  column="0" value=""/>
+                <cell row="13"  column="0" value=""/>
+                <cell row="14"  column="0" value=""/>
+                <cell row="15"  column="0" value=""/>
+                <cell row="16"  column="0" value=""/>
+                <cell row="17"  column="0" value=""/>
+                <cell row="18"  column="0" value=""/>
 
-                <cell row="0"  column="1" value="21"/>
-                <cell row="1"  column="1" value="23"/>
-                <cell row="2"  column="1" value="18"/>
-                <cell row="3"  column="1" value="9"/>
-                <cell row="4"  column="1" value="18"/>
-                <cell row="5"  column="1" value="10"/>
-                <cell row="6"  column="1" value="15"/>
-                <cell row="7"  column="1" value="23"/>
-                <cell row="8"  column="1" value="2"/>
-                <cell row="9"  column="1" value="2"/>
-                <cell row="10" column="1" value="5"/>
-                <cell row="11" column="1" value="4"/>
-                <cell row="12" column="1" value="4"/>
-                <cell row="13" column="1" value="4"/>
-                <cell row="14" column="1" value="4"/>
-                <cell row="15" column="1" value="4"/>
+                <cell row="0"   column="1" value="CDA"/>
+                <cell row="1"   column="1" value="CYP19A1"/>
+                <cell row="2"   column="1" value="CYP2C19"/>
+                <cell row="3"   column="1" value="CYP2C8"/>
+                <cell row="4"   column="1" value="CYP2C9"/>
+                <cell row="5"   column="1" value="CYP2D6"/>
+                <cell row="6"   column="1" value="CYP3A4"/>
+                <cell row="7"   column="1" value="DHFR"/>
+                <cell row="8"   column="1" value="DPYD"/>
+                <cell row="9"   column="1" value="ERCC1"/>
+                <cell row="10"  column="1" value="ERCC2"/>
+                <cell row="11"  column="1" value="GSTP1"/>
+                <cell row="12"  column="1" value="MDR1"/>
+                <cell row="13"  column="1" value="MTHFR"/>
+                <cell row="14"  column="1" value="NQO1"/>
+                <cell row="15"  column="1" value="RRM1"/>
+                <cell row="16"  column="1" value="TYMS"/>
+                <cell row="17"  column="1" value="UGT1A1"/>
+                <cell row="18"  column="1" value="XRCC1"/>
+            </rows>
+        </table>
 
-                <cell row="0"  column="2" value="BRCA1, BRCA2, CHEK2, PALB2, BRIP1, TP53, PTEN, STK11, CDH1, ATM, BARD1, MLH1,MRE11A, MSH2, MSH6, MUTYH, NBN, PMS1, PMS2, RAD50, RAD51C"/>
-                <cell row="1"  column="2" value="ATM, BARD1, BRCA1, BRCA2, BRIP1, CDH1, CHEK2, EPCAM, MLH1, MRE11A, MSH2, MSH6, MUTYH, NBN, NF1, PALB2, PMS2, PTEN, RAD50, RAD51C, RAD51D, STK11, TP53"/>
-                <cell row="2"  column="2" value="APC, BMPR1A, CDH1, CHEK2, EPCAM, MLH1, MSH2, MSH6, MUTYH, PMS2, MET, PTEN, SMAD4, STK11, TP53, AXIN2, MLH3, BUB1"/>
-                <cell row="3"  column="2" value="CDH1, TP53, MET, MLH1, MSH2, MSH6, PMS2, EPCAM, APC"/>
-                <cell row="4"  column="2" value="EPCAM, FH, FLCN, MET, MITF, MLH1, MSH2, MSH6, PMS2, PTEN, SDHA, SDHB, SDHC, SDHD, TP53, TSC1, TSC2, VHL"/>
-                <cell row="5"  column="2" value="BRCA2, BRCA1, CHEK2, NBN, HOXB13, ELAC2, HSD17B3, HSD3B2,  RNASEL, SRD5A2"/>
-                <cell row="6"  column="2" value="APC, ATM, BRCA1, BRCA2, CDKN2A, EPCAM, MLH1, MSH2, MSH6, PALB2, PMS2, STK11, TP53, PRSS1, SPINK1"/>
-                <cell row="7"  column="2" value="ATM, BARD1, BRCA1, BRCA2, BRIP1, CDH1, CHEK2, EPCAM, MLH1, MRE11A, MSH2, MSH6, MUTYH, NBN, NF1, PALB2, PMS2, PTEN, RAD50, RAD51C, RAD51D, STK11, TP53"/>
-                <cell row="8"  column="2" value="RET,NTRK1"/>
-                <cell row="9"  column="2" value="MEN1, CDC73"/>
-                <cell row="10" column="2" value="EGFR, PIK3CA, KRAS, BRAF, TP53"/>
-                <cell row="11" column="2" value="TP53, IQGAP1, IQGAP2, CTNNB1"/>
-                <cell row="12" column="2" value="RHBDF2, ADH1B, ALDH2, CYP2E1"/>
-                <cell row="13" column="2" value="KRAS, RB1, FGFR3, HRAS"/>
-                <cell row="14" column="2" value="P53, IDH1, IDH2, PTEN"/>
-                <cell row="15" column="2" value="KLHDC8B, ATM, MYC, PRF1"/>
+        <table id="chemotherapyTherapeuticRegimen">
+            <headers>
+                <header column="0" value="治疗方案"/>
+                <header column="1" value="方案中包含的药物"/>
+                <header column="2" value="检测备注"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="FP 方案"/>
+                <cell row="1"  column="0" value="FAP 方案"/>
+                <cell row="2"  column="0" value="FM 方案"/>
+                <cell row="3"  column="0" value="FAM 方案"/>
+                <cell row="4"  column="0" value="FPM 方案"/>
+                <cell row="5"  column="0" value="EA 方案"/>
+
+                <cell row="0"  column="1" value=""><![CDATA[5-FU<br/><br/>铂类]]></cell>
+                <cell row="1"  column="1" value=""><![CDATA[5-FU<br/><br/>蒽环类<br/><br/>铂类]]></cell>
+                <cell row="2"  column="1" value=""><![CDATA[5-FU<br/><br/>丝裂霉素]]></cell>
+                <cell row="3"  column="1" value=""><![CDATA[5-FU<br/><br/>蒽环类<br/><br/>丝裂霉素]]></cell>
+                <cell row="4"  column="1" value=""><![CDATA[5-FU<br/><br/>铂类<br/><br/>丝裂霉素]]></cell>
+                <cell row="5"  column="1" value=""><![CDATA[依托泊苷<br/><br/>蒽环类]]></cell>
+
+                <cell row="0"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性较高]]></cell>
+                <cell row="1"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性中等<br/><br/>药物敏感性较高]]></cell>
+                <cell row="2"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性较高]]></cell>
+                <cell row="3"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性中等<br/><br/>药物敏感性较高]]></cell>
+                <cell row="4"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性较高<br/><br/>药物敏感性较高]]></cell>
+                <cell row="5"  column="2" value=""><![CDATA[毒副作用的抵抗能力较弱<br/><br/>药物敏感性中等]]></cell>
+            </rows>
+        </table>
+
+        <table id="chemotherapyTherapeuticRegimen">
+            <headers>
+                <header column="0" value="治疗方案"/>
+                <header column="1" value="方案中包含的药物"/>
+                <header column="2" value="检测备注"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="FP 方案"/>
+                <cell row="1"  column="0" value="FAP 方案"/>
+                <cell row="2"  column="0" value="FM 方案"/>
+                <cell row="3"  column="0" value="FAM 方案"/>
+                <cell row="4"  column="0" value="FPM 方案"/>
+                <cell row="5"  column="0" value="EA 方案"/>
+
+                <cell row="0"  column="1" value=""><![CDATA[5-FU<br/><br/>铂类]]></cell>
+                <cell row="1"  column="1" value=""><![CDATA[5-FU<br/><br/>蒽环类<br/><br/>铂类]]></cell>
+                <cell row="2"  column="1" value=""><![CDATA[5-FU<br/><br/>丝裂霉素]]></cell>
+                <cell row="3"  column="1" value=""><![CDATA[5-FU<br/><br/>蒽环类<br/><br/>丝裂霉素]]></cell>
+                <cell row="4"  column="1" value=""><![CDATA[5-FU<br/><br/>铂类<br/><br/>丝裂霉素]]></cell>
+                <cell row="5"  column="1" value=""><![CDATA[依托泊苷<br/><br/>蒽环类]]></cell>
+
+                <cell row="0"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性较高]]></cell>
+                <cell row="1"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性中等<br/><br/>药物敏感性较高]]></cell>
+                <cell row="2"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性较高]]></cell>
+                <cell row="3"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性中等<br/><br/>药物敏感性较高]]></cell>
+                <cell row="4"  column="2" value=""><![CDATA[药物敏感性中等，毒副作用的抵抗能力较强<br/><br/>药物敏感性较高<br/><br/>药物敏感性较高]]></cell>
+                <cell row="5"  column="2" value=""><![CDATA[毒副作用的抵抗能力较弱<br/><br/>药物敏感性中等]]></cell>
+            </rows>
+        </table>
+
+        <parameter id="chemotherapyDrugsUsageReference" value="">
+<![CDATA[<style background='#f54679'>疗用药检测基于药物基因组学进行，仅作为您的主治医生选择化疗方案时的参考意见。综合分析检测结果，患者对紫杉醇类／长春碱类、甲基蝶呤类敏感性较高，毒副作用较弱，可以考虑临床优先使用。另外替尼泊苷，环磷酰胺对患者的毒副 作用较强，使用时应注意剂量避免发生毒副作用。</style>]]>
+        </parameter>
+
+        <table id="drugUsageToxicAndSideEffect">
+            <headers>
+                <header column="0" value="常用药物"/>
+                <header column="1" value="临床意义"/>
+                <header column="2" value="检测位点"/>
+                <header column="3" value="检测结果"/>
+                <header column="4" value="证据级别"/>
+            </headers>
+            <rows>
+                <cell row="0"   column="0" value="铂类"/>
+                <cell row="1"   column="0" value=" "/>
+                <cell row="2"   column="0" value=" "/>
+                <cell row="3"   column="0" value=" "/>
+                <cell row="4"   column="0" value=" "/>
+                <cell row="5"   column="0" value=" "/>
+                <cell row="6"   column="0" value="紫杉醇类／长春碱类"/>
+                <cell row="7"   column="0" value=" "/>
+                <cell row="8"   column="0" value="甲氨喋呤"/>
+                <cell row="9"   column="0" value=" "/>
+                <cell row="10"  column="0" value="卡培他滨／5-FU"/>
+                <cell row="11"  column="0" value=" "/>
+                <cell row="12"  column="0" value=" "/>
+                <cell row="13"  column="0" value=" "/>
+                <cell row="14"  column="0" value=" "/>
+                <cell row="15"  column="0" value=" "/>
+                <cell row="16"  column="0" value="吉西他滨"/>
+                <cell row="17"  column="0" value=""/>
+                <cell row="18"  column="0" value="丝裂霉素"/>
+                <cell row="19"  column="0" value="伊立替康／托泊替康"/>
+                <cell row="20"  column="0" value="蒽环类"/>
+                <cell row="21"  column="0" value=" "/>
+                <cell row="22"  column="0" value="阿那曲唑／来曲唑"/>
+
+                <cell row="0"   column="1" value="药敏检测"/>
+                <cell row="1"   column="1" value=" "/>
+                <cell row="2"   column="1" value=" "/>
+                <cell row="3"   column="1" value=" "/>
+                <cell row="4"   column="1" value=" "/>
+                <cell row="5"   column="1" value=" "/>
+                <cell row="6"   column="1" value="药敏检测"/>
+                <cell row="7"   column="1" value="毒副作用"/>
+                <cell row="8"   column="1" value="药敏检测"/>
+                <cell row="9"   column="1" value="毒副作用"/>
+                <cell row="10"  column="1" value="药敏检测"/>
+                <cell row="11"  column="1" value=" "/>
+                <cell row="12"  column="1" value=" "/>
+                <cell row="13"  column="1" value="毒副作用"/>
+                <cell row="14"  column="1" value=" "/>
+                <cell row="15"  column="1" value=" "/>
+                <cell row="16"  column="1" value="药敏检测"/>
+                <cell row="17"  column="1" value="毒副作用"/>
+                <cell row="18"  column="1" value="药敏检测"/>
+                <cell row="19"  column="1" value="毒副作用"/>
+                <cell row="20"  column="1" value="药敏检测"/>
+                <cell row="21"  column="1" value=" "/>
+                <cell row="22"  column="1" value="药敏检测"/>
+
+                <cell row="0"   column="2" value="rs25487"/>
+                <cell row="1"   column="2" value="rs1799782"/>
+                <cell row="2"   column="2" value="rs11615"/>
+                <cell row="3"   column="2" value="rs13181"/>
+                <cell row="4"   column="2" value="rs1799793"/>
+                <cell row="5"   column="2" value="rs1695"/>
+                <cell row="6"   column="2" value="rs1045642"/>
+                <cell row="7"   column="2" value="rs11572080"/>
+                <cell row="8"   column="2" value="rs34764978"/>
+                <cell row="9"   column="2" value="rs1801133"/>
+                <cell row="10"  column="2" value="rs1801131"/>
+                <cell row="11"  column="2" value="rs1801133"/>
+                <cell row="12"  column="2" value="rs2853542"/>
+                <cell row="13"  column="2" value="rs3918290"/>
+                <cell row="14"  column="2" value="rs1801159"/>
+                <cell row="15"  column="2" value="rs1801265"/>
+                <cell row="16"  column="2" value="rs1042858"/>
+                <cell row="17"  column="2" value="rs2072671"/>
+                <cell row="18"  column="2" value="rs1801131"/>
+                <cell row="19"  column="2" value="rs4148323"/>
+                <cell row="20"  column="2" value="rs1695"/>
+                <cell row="21"  column="2" value="rs1045642"/>
+                <cell row="22"  column="2" value="rs4646"/>
+
+                <cell row="0"   column="3" value="敏感性较高"/>
+                <cell row="1"   column="3" value="敏感性较低"/>
+                <cell row="2"   column="3" value="敏感性较高"/>
+                <cell row="3"   column="3" value="敏感性较高"/>
+                <cell row="4"   column="3" value="敏感性较低"/>
+                <cell row="5"   column="3" value="敏感性较低"/>
+                <cell row="6"   column="3" value="敏感性较高"/>
+                <cell row="7"   column="3" value="耐受性较强"/>
+                <cell row="8"   column="3" value="敏感性较高"/>
+                <cell row="9"   column="3" value="耐受性较强"/>
+                <cell row="10"  column="3" value="敏感性较高"/>
+                <cell row="11"  column="3" value="敏感性较低"/>
+                <cell row="12"  column="3" value="敏感性较低"/>
+                <cell row="13"  column="3" value="耐受性较强"/>
+                <cell row="14"  column="3" value="耐受性中等"/>
+                <cell row="15"  column="3" value="耐受性较强"/>
+                <cell row="16"  column="3" value="敏感性较低"/>
+                <cell row="17"  column="3" value="耐受性较强"/>
+                <cell row="18"  column="3" value="敏感性较高"/>
+                <cell row="19"  column="3" value="耐受性较强"/>
+                <cell row="20"  column="3" value="敏感性较低"/>
+                <cell row="21"  column="3" value="敏感性较高"/>
+                <cell row="22"  column="3" value="敏感性较低"/>
+
+                <cell row="0"   column="4" value="2B"/>
+                <cell row="1"   column="4" value="3"/>
+                <cell row="2"   column="4" value="2B"/>
+                <cell row="3"   column="4" value="3"/>
+                <cell row="4"   column="4" value="3"/>
+                <cell row="5"   column="4" value="2A"/>
+                <cell row="6"   column="4" value="3"/>
+                <cell row="7"   column="4" value="3"/>
+                <cell row="8"   column="4" value="4"/>
+                <cell row="9"   column="4" value="2A"/>
+                <cell row="10"  column="4" value="3"/>
+                <cell row="11"  column="4" value="3"/>
+                <cell row="12"  column="4" value="4"/>
+                <cell row="13"  column="4" value="1A"/>
+                <cell row="14"  column="4" value="3"/>
+                <cell row="15"  column="4" value="3"/>
+                <cell row="16"  column="4" value="3"/>
+                <cell row="17"  column="4" value="3"/>
+                <cell row="18"  column="4" value="4"/>
+                <cell row="19"  column="4" value="2A"/>
+                <cell row="20"  column="4" value="4"/>
+                <cell row="21"  column="4" value="3"/>
+                <cell row="22"  column="4" value="3"/>
             </rows>
         </table>
 
@@ -650,89 +826,15 @@
 
 
 
-        <parameter id="gaiShuZhiBingJiYinJianShu" value="">
-            <![CDATA[检出致病突变<br/>根据 NCBI GeneReviews <style font="simsun">®</style>, 该杂合突变者的直结肠癌风险轻微增加。<br/>请向医生或遗传咨询师咨询。<br/>]]>
-        </parameter>
-        <parameter id="gaiShuZhiBingJiYinJianChu" value="">
-            <![CDATA[基因名词：<style italic="true">MUTYH</style> <br/> 该基因突变的可致疾病：直结肠癌 家族性腺瘤性息肉病<br/> 基因名词：<style italic="true">FAT3</style> <br/>该基因突变的可致疾病：直结肠癌 遗传性非息肉病<br/>]]>
-        </parameter>
-        <parameter id="gaiShuJiBingGeShu" value="15"/>
-        <parameter id="gaiShuFengXianYuFangJianYi" value="">
-<![CDATA[
-<style font_size="12">根据肿瘤致病基因和风险基因的检测结果，您有结直肠癌的致病基因检出阳性</style><br/>
-<style font_size="12">风险基因评分均 &lt;1.5</style><br/>
-<style font_size="12">您的主要肿瘤风险为：</style>
-<style font="fzlthjw" font_size="12" font_color="#738c34" bold="true">结直肠癌。</style> <br/>
-<style font_size="12">请参考如下建议：</style><br/>
-(参见结直肠癌的健康管理措施)<br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">注意饮食</style><br/>
-少吃脂肪，多吃富含膳食纤维的饮食。（剑桥大学的研究表明，高纤维饮食能有效减低患上致命癌症的危险几率达 40%，特别是结肠癌及直肠癌。）<br/>
-· 膳食纤维主要来自天然的蔬菜、水果、谷类及豆类。蔬菜中的十字花科蔬菜（包括花椰菜、芥菜、白菜等）。<br/>
-· 黄色和绿色蔬果，以及洋葱、苹果皮等食物中，含有丰富类黄酮素，多吃也有助于预防癌症。<br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">戒烟</style><br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">坚持规律锻炼</style><br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">定期筛查</style><br/>
-美国癌症协会建议，从 50 岁开始，所有人都应该选择以下 5 种筛查方案中的一种执行，如果筛查结果为阳性，则需要做结肠镜检查。<br/>
-· 每年进行粪便潜血试验（FOBT） 或者是粪便免疫化学试验（FIT）;<br/>
-· 每五年乙状结肠镜检查，时间灵活;<br/>
-· 每年（FOBT）或（FIT），加上每五年一次时间灵活的乙状结肠镜检查; · 每五年结肠双对比造影;<br/>
-· 每十年结肠镜检查。<br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">高危人群</style><br/>
-有炎症性肠道疾病或有结肠癌家族史的人群应该尽早就医，遵医嘱进行相关检查并随诊。<br/><br/>
-<style font_size="11" font_color="#738c34" bold="true">经幸福基石的特约医生对您进行包括个人健康状况、家族史等全面评估后，会给出更具体建议，请遵照医生咨询后的建议。</style>
-]]>
-        </parameter>
-        <table id="gaiShuZhiBingJiYinLieBiao">
-            <headers>
-                <header column="0" value="基因"/>
-                <header column="1" value="突变位置"/>
-                <header column="2" value="类型"/>
-                <header column="3" value="致病性证据 *"/>
-                <header column="4" value="人群频率 **"/>
-            </headers>
-            <rows>
-                <cell row="0" column="0" value="MUTYH"/>
-                <cell row="0" column="1" value="NM_001128425.1:c.934-2A>G"/>
-                <cell row="0" column="2" value="杂合，可变剪切位点突变 splice acceptor variant"/>
-                <cell row="0" column="3" value="Likely pathogenic（2 例）; Probably pathogencic（1 例）"/>
-                <cell row="0" column="4" value="1%"/>
 
-                <cell row="1" column="0" value="FAT3"/>
-                <cell row="1" column="1" value="NM_001008781:exon9:c.A8263G:p.I2755V"/>
-                <cell row="1" column="2" value="纯和，非同义突变"/>
-                <cell row="1" column="3" value="无"/>
-                <cell row="1" column="4" value="14%"/>
-            </rows>
-        </table>
-        <table id="gaiShuJiYinFengXianPingFen">
-            <headers>
-                <header column="0" value="疾病"/>
-                <header column="1" value="您的结果"/>
-                <header column="2" value="相对风险评分"/>
-                <header column="3" value="详解页码"/>
-            </headers>
-            <rows>
-                <cell row="0"  column="0" value="乳腺癌"/>
-                <cell row="1"  column="0" value="结直肠癌"/>
-                <cell row="2"  column="0" value="甲状腺癌"/>
-                <cell row="3"  column="0" value="子宫颈癌"/>
 
-                <cell row="0"  column="1" value="4.76"/>
-                <cell row="1"  column="1" value="4.41"/>
-                <cell row="2"  column="1" value="2.19"/>
-                <cell row="3"  column="1" value="1.14"/>
 
-                <cell row="0"  column="2" value="1.46"/>
-                <cell row="1"  column="2" value="1.41"/>
-                <cell row="2"  column="2" value="1.19"/>
-                <cell row="3"  column="2" value="1.14"/>
 
-                <cell row="0"  column="3" value="4 1 0"/>
-                <cell row="1"  column="3" value="4 2 0"/>
-                <cell row="2"  column="3" value="4 3 0"/>
-                <cell row="3"  column="3" value="4 4 0"/>
-            </rows>
-        </table>
+
+
+
+
+
 
 
 

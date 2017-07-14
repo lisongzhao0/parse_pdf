@@ -50,6 +50,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
     private String font;
     private float  fontOpacity;
     private Color  fontColor;
+    private Color  backgroundColor;
     private float  fontSize;
     private Float  lineLeading;
     private Float  charSpacing;
@@ -163,6 +164,14 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         return this;
     }
 
+    public Color getBackgroundColor() {
+        return backgroundColor;
+    }
+    public ParagraphDef setBackgroundColor(Color backgroundColor) {
+        this.backgroundColor = backgroundColor;
+        return this;
+    }
+
     public Float getLineLeading() {
         return lineLeading;
     }
@@ -249,6 +258,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
 
         this.font      = element.attributeValue("font");
         this.fontColor = getColorUtil().parseColor(element.attributeValue("color"), Color.BLACK);
+        this.backgroundColor = getColorUtil().parseColor(element.attributeValue("background"), Color.WHITE);
         try { this.fontOpacity= Float.parseFloat(element.attributeValue("font_opacity")); } catch (Exception ex) {this.fontOpacity= 1.0f;}
         try { this.fontSize   = Float.parseFloat(element.attributeValue("font_size"));    } catch (Exception ex) {this.fontSize   = 12f;}
         try { this.lineLeading= Float.parseFloat(element.attributeValue("line_leading")); } catch (Exception ex) {this.lineLeading=null;}
@@ -399,6 +409,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         paragraph.setCharacterSpacing(getCharSpacing());
         paragraph.setWordSpacing(getWordSpacing());
         paragraph.setOpacity(getFontOpacity());
+        paragraph.setBackgroundColor(getBackgroundColor());
         if (getWidth()>0) {
             paragraph.setWidth(getWidth());
         }
@@ -453,6 +464,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             if (null!=part.charSpacing) { line.setCharacterSpacing(part.charSpacing);}
             if (null!=part.wordSpacing) { line.setWordSpacing(part.wordSpacing);}
             if (null!=part.textRise   ) { line.setTextRise(part.textRise);}
+            if (null!=part.background ) { line.setBackgroundColor(part.background);}
             if (part.bold     ) { line.setBold(); }
             if (part.italic   ) { line.setItalic(); }
             if (part.underline) { line.setUnderline(); }
@@ -642,6 +654,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         private String  font;
         private Float   fontOpacity;
         private Color   fontColor;
+        private Color   background;
         private Float   fontSize;
         private Float   lineLeading;
         private Float   charSpacing;
@@ -674,6 +687,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             one.underline   = src.underline;
             one.value       = src.value;
             one.used        = src.used;
+            one.background  = src.background;
 
             return one;
         }
@@ -701,6 +715,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             else {
                 style.font      = element.attributeValue("font");
                 style.fontColor = colorUtil.parseColor(element.attributeValue("font_color"), null);
+                style.background= colorUtil.parseColor(element.attributeValue("background"), null);
                 style.bold      = Boolean.parseBoolean(element.attributeValue("bold"));
                 style.italic    = Boolean.parseBoolean(element.attributeValue("italic"));
                 style.underline = Boolean.parseBoolean(element.attributeValue("underline"));
@@ -759,6 +774,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         newOne.bold      = this.bold;
         newOne.italic    = this.italic;
         newOne.underline = this.underline;
+        newOne.backgroundColor = this.backgroundColor;
 
         return newOne;
     }
