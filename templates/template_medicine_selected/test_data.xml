@@ -182,7 +182,7 @@
             <tree_node value="六" english="" page="" catalog="6 0">
                 <tree_node english="" page="xxx" value="本次检测的基因列表" catalog="6 1"/>
             </tree_node>
-            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
+            <tree_node value="附录" english="" page="" catalog="10000 0 0">
                 <tree_node english="" page="xxx" value="靶向用药表格说明示例" catalog="10000 1"/>
                 <tree_node english="" page="xxx" value="常见癌种中的靶向药物简介，FDA 获批适应症及 NCCN 指导意见" catalog="10000 2"/>
                 <tree_node english="" page="xxx" value="参考文献"      catalog="10000 3"/>
