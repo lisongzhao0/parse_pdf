@@ -352,9 +352,9 @@ public class PathDef extends AbstractDef implements IXml<PathDef>, IPosition<Pat
         @Override
         public Shading translate(float x, float y) {
             x1 = null!=x1 ? x1 + x : null;
-            y1 = null!=y1 ? y1 + x : null;
+            y1 = null!=y1 ? y1 + y : null;
             x2 = null!=x2 ? x2 + x : null;
-            y2 = null!=y2 ? y2 + x : null;
+            y2 = null!=y2 ? y2 + y : null;
             return this;
         }
 
