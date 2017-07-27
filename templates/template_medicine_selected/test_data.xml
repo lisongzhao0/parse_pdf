@@ -32,17 +32,15 @@
         <parameter id="name"   value="王辉"/>
         <parameter id="gender" value="女"/>
         <parameter id="age" value="55"/>
-        <parameter id="diagnoses" value="原发性肝细胞癌，中分化"/>
+        <parameter id="diagnoses" value=""><![CDATA[<br/>]]></parameter>
         <parameter id="sampleNumb" value="1234567890123456"/>
         <parameter id="sampleType" value="肿瘤组织"/>
         <parameter id="collectDate" value="2017 / 05 / 01"/>
         <parameter id="receiveDate" value="2017 / 05 / 10"/>
         <parameter id="admissionNumb" value="20170510—12342314"/>
-        <parameter id="familyHistory" value="">
-            <![CDATA[其肿瘤家族史未知。<br/>]]>
-        </parameter>
+        <parameter id="familyHistory" value=""><![CDATA[其肿瘤家族史未知。<br/>]]></parameter>
         <parameter id="checkContent" value="">
-            <![CDATA[· 检测内容:肿瘤靶向化疗用药标准检测<br/>
+<![CDATA[· 检测内容:肿瘤靶向化疗用药标准检测<br/>
 · 检测方法:高通量测序<br/>
 · 主要设备:<br/>
 · 数据分析软件及库:序列比对软件 BWA, 检测突变软件 Freebayes; 临床数据库: PharmGKB, HGMD, ClinVar, COSMIC, SNPedia, 1000genomes, dbSNP<br/>
@@ -159,38 +157,71 @@
 </parameter>
 
 
-        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
-            <tree_node value="一" english="" page="" catalog="1 0">
-                <tree_node english="" page="001" value="样本提供者信息" catalog="1 1">
-                </tree_node>
+        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0 0">
+            <tree_node value="一" english="" page="" catalog="1 0 0">
+                <tree_node english="" page="001" value="样本提供者信息" catalog="1 1 0"/>
             </tree_node>
-            <tree_node value="二" english="" page="" catalog="1 0">
-                <tree_node english="" page="xxx" value="个人病史及肿瘤家族史调查" catalog="1 1"/>
+            <tree_node value="二" english="" page="" catalog="2 0 0">
+                <tree_node english="" page="xxx" value="个人病史及肿瘤家族史调查" catalog="2 1 0"/>
             </tree_node>
-            <tree_node value="三" english="" page="" catalog="1 0">
-                <tree_node english="" page="xxx" value="项目内容" catalog="1 1"/>
+            <tree_node value="三" english="" page="" catalog="3 0 0">
+                <tree_node english="" page="xxx" value="项目内容" catalog="3 1 0"/>
             </tree_node>
-            <tree_node value="四" english="" page="" catalog="2 0">
-                <tree_node english="" page="xxx" value="用药提示" catalog="2 0"/>
-                <tree_node english="" page="xxx" value="分子靶向用药提示" catalog="2 1"/>
-                <tree_node english="" page="xxx" value="靶向药物简述" catalog="2 2"/>
+            <tree_node value="四" english="" page="" catalog="4 0 0">
+                <tree_node english="" page="xxx" value="用药提示" catalog="4 1 0"/>
+                <tree_node english="" page="xxx" value="分子靶向用药提示" catalog="4 2 0"/>
+                <tree_node english="" page="xxx" value="靶向药物简述" catalog="4 3 0"/>
+                <tree_node english="" page="xxx" value="化疗用药参考" catalog="4 4 0"/>
             </tree_node>
-            <tree_node value="五" english="" page="" catalog="5 0">
+            <tree_node value="五" english="" page="" catalog="5 0 0">
                 <tree_node english="" page="xxx" value="本次检测具体位点结果"   catalog="5 1 0"/>
                 <tree_node english="" page="xxx" value="本次检测的分子靶向基因" catalog="5 2 0"/>
+                <tree_node english="" page="xxx" value="化疗基因及具体检测结果" catalog="5 3 0"/>
             </tree_node>
-            <tree_node value="六" english="" page="" catalog="6 0">
-                <tree_node english="" page="xxx" value="本次检测的基因列表" catalog="6 1"/>
+            <tree_node value="六" english="" page="" catalog="6 0 0">
+                <tree_node english="" page="xxx" value="本癌种常见的化疗治疗方案 (仅供医生参考)" catalog="6 1 0"/>
+            </tree_node>
+            <tree_node value="七" english="" page="" catalog="7 0 0">
+                <tree_node english="" page="xxx" value="本次检测的基因列表" catalog="7 1 0"/>
             </tree_node>
             <tree_node value="附录" english="" page="" catalog="10000 0 0">
-                <tree_node english="" page="xxx" value="靶向用药表格说明示例" catalog="10000 1"/>
-                <tree_node english="" page="xxx" value="常见癌种中的靶向药物简介，FDA 获批适应症及 NCCN 指导意见" catalog="10000 2"/>
-                <tree_node english="" page="xxx" value="参考文献"      catalog="10000 3"/>
+                <tree_node english="" page="xxx" value="靶向用药表格说明示例" catalog="10000 1 0"/>
+                <tree_node english="" page="xxx" value="常见癌种中的靶向药物简介，FDA 获批适应症及 NCCN 指导意见" catalog="10000 2 0"/>
+                <tree_node english="" page="xxx" value="参考文献"      catalog="10000 3 0"/>
             </tree_node>
         </tree_node>
 
+        <parameter id="catalog610M" value="六、本癌种常见的化疗治疗方案"/>
+        <parameter id="catalog610S" value="（仅供医生参考）"/>
+        <parameter id="catalog710M" value="七、本次检测的基因列表"/>
+        <parameter id="hasChemotherapy" value="true"/>
 
 
+        <table id="userReportInfo">
+            <headers>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="姓　　名："/>
+                <cell row="1"  column="0" value="性　　别："/>
+                <cell row="2"  column="0" value="年　　龄："/>
+                <cell row="3"  column="0" value="住院号/就诊号："/>
+
+                <cell row="0"  column="1" value="$name"/>
+                <cell row="1"  column="1" value="$gender"/>
+                <cell row="2"  column="1" value="$age"/>
+                <cell row="3"  column="1" value="$admissionNumb"/>
+
+                <cell row="0"  column="2" value="样本编号："/>
+                <cell row="1"  column="2" value="样本种类："/>
+                <cell row="2"  column="2" value="采集日期："/>
+                <cell row="3"  column="2" value="接收日期："/>
+
+                <cell row="0"  column="3" value="$sampleNumb"/>
+                <cell row="1"  column="3" value="$sampleType"/>
+                <cell row="2"  column="3" value="$collectDate"/>
+                <cell row="3"  column="3" value="$receiveDate"/>
+            </rows>
+        </table>
 
 
 
