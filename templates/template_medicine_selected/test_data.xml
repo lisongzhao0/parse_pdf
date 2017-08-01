@@ -13,7 +13,7 @@
 
 
     <data>
-        <parameter id="diseaseName" value="（肺癌）"/>
+        <parameter id="diseaseName" value="肺癌"/>
         <parameter id="letterContent" value="">
 <![CDATA[您好！<br/>
 <br/>
@@ -59,101 +59,7 @@
 ]]>
         </parameter>
         <parameter id="appendixReferences" value="">
-<![CDATA[1. Amado RG, Wolf M, Peeters M, et al. Wild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancer. J Clin Oncol 2008;26:1626-1634.
-<br/><br/>2. Ascierto P A, Minor D, Ribas A, et al. Phase II trial (BREAK-2) of the BRAF inhibitor dabrafenib (GSK2118436) in patients with metastatic melanoma[J]. Journal of Clinical Oncology, 2013, 31(26): 3205-3211.
-<br/><br/>3. Bachelot T, Bourgier C, Cropet C, et al. Randomized phase II trial of everolimus in combination with tamoxifen in patients with hormone receptor–positive, human epidermal growth factor receptor 2–negative metastatic breast cancer with prior exposure to aromatase inhibitors: A GINECO study[J]. Journal of Clinical Oncology, 2012, 30(22): 2718-2724.
-<br/><br/>4. Bang Y J, Van Cutsem E, Feyereislova A, et al. Trastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trial[J]. The Lancet, 2010, 376(9742): 687-697.
-<br/><br/>5. Barlesi F, Scherpereel A, Rittmeyer A, et al. Randomized phase III trial of maintenance bevacizumab with or without pemetrexed after first-line induction with bevacizumab, cisplatin, and pemetrexed in advanced nonsquamous non–small-cell lung cancer: AVAPERL (MO22089)[J]. Journal of Clinical Oncology, 2013, 31(24): 3004-3011.
-<br/><br/>6. Baselga J, Bradbury I, Eidtmann H, et al. Lapatinib with trastuzumab for HER2-positive early breast cancer (NeoALTTO): a randomised, open-label, multicentre, phase 3 trial[J]. The Lancet, 2012, 379(9816): 633-640.
-<br/><br/>7. Baselga J, Campone M, Piccart M, et al. Everolimus in postmenopausal hormone-receptor–positive advanced breast cancer[J]. New England Journal of Medicine, 2012, 366(6): 520-529.
-<br/><br/>8. Baselga J, Cortés J, Kim S B, et al. Pertuzumab plus trastuzumab plus docetaxel for metastatic breast cancer[J]. New England Journal of Medicine, 2012, 366(2): 109-119.
-<br/><br/>9. Baselga J, Semiglazov V, van Dam P, et al. Phase II randomized study of neoadjuvant everolimus plus letrozole compared with placebo plus letrozole in patients with estrogen receptor–positive breast cancer[J]. Journal of Clinical Oncology, 2009, 27(16): 2630-2637.
-<br/><br/>10. Bennouna J, Sastre J, Arnold D, et al. Continuation of bevacizumab after first progression in metastatic colorectal cancer (ML18147): a randomised phase 3 trial[J]. The lancet oncology, 2013, 14(1): 29-37.
-<br/><br/>11. Berns K, Horlings H M, Hennessy B T, et al. A functional genetic approach identifies the PI3K pathway as a major determinant of trastuzumab resistance in breast cancer[J]. Cancer cell, 2007, 12(4): 395-402.
-<br/><br/>12. Blanke C D, Demetri G D, Von Mehren M, et al. Long-term results from a randomized phase II trial of standard-versus higher-dose imatinib mesylate for patients with unresectable or metastatic gastrointestinal stromal tumors expressing KIT[J]. Journal of Clinical Oncology, 2008, 26(4): 620-625.
-<br/><br/>13. Camidge D R, Bang Y J, Kwak E L, et al. Activity and safety of crizotinib in patients with ALK-positive non- small-cell lung cancer: updated results from a phase 1 study[J]. The lancet oncology, 2012, 13(10): 1011-1019.
-<br/><br/>14. Chapman P B, Hauschild A, Robert C, et al. Improved survival with vemurafenib in melanoma with BRAF V600E mutation[J]. New England Journal of Medicine, 2011, 364(26): 2507-2516.
-<br/><br/>15. Cizkova M, Dujaric M E, Lehmann-Che J, et al. Outcome impact of PIK3CA mutations in HER2-positive breast cancer patients treated with trastuzumab[J]. British journal of cancer, 2013, 108(9): 1807-1809.
-<br/><br/>16. Contreras A, Herrera S, Wang T, et al. Abstract PD1-2: PIK3CA mutations and/or low PTEN predict resistance to combined anti-HER2 therapy with lapatinib and trastuzumab and without chemotherapy in TBCRC006, a neoadjuvant trial of HER2-positive breast cancer patients[J]. Cancer Research, 2013, 73(24 Supplement): PD1-2-PD1-2.
-<br/><br/>17. Corless C L, Schroeder A, Griffith D, et al. PDGFRA mutations in gastrointestinal stromal tumors: frequency, spectrum and in vitro sensitivity to imatinib[J]. Journal of clinical oncology, 2005, 23(23): 5357-5364.
-<br/><br/>18. Cui C, Mao L, Chi Z, et al. A phase II, randomized, double-blind, placebo-controlled multicenter trial of Endostar in patients with metastatic melanoma[J]. Molecular Therapy, 2013, 21(7): 1456-1463.
-<br/><br/>19. De Roock W, Claes B, Bernasconi D, et al. Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysis[J]. The lancet oncology, 2010, 11(8): 753-762.
-<br/><br/>20. Debiec-Rychter M, Dumez H, Judson I, et al. Use of c-KIT/PDGFRA mutational analysis to predict the clinical response to imatinib in patients with advanced gastrointestinal stromal tumours entered on phase I and II studies of the EORTC Soft Tissue and Bone Sarcoma Group[J]. European Journal of Cancer, 2004, 40(5): 689- 695.
-<br/><br/>21. Debiec-Rychter M, Dumez H, Judson I, et al. Use of c-KIT/PDGFRA mutational analysis to predict the clinical response to imatinib in patients with advanced gastrointestinal stromal tumours entered on phase I and II studies of the EORTC Soft Tissue and Bone Sarcoma Group[J]. European Journal of Cancer, 2004, 40(5): 689- 695.
-<br/><br/>22. Debiec-Rychter M, Sciot R, Le Cesne A, et al. KIT mutations and dose selection for imatinib in patients with advanced gastrointestinal stromal tumours[J]. European journal of cancer, 2006, 42(8): 1093-1103.
-<br/><br/>23. Di Fiore F, Blanchard F, Charbonnier F, et al. Clinical relevance of KRAS mutation detection in metastatic colorectal cancer treated by Cetuximab plus chemotherapy[J]. British journal of cancer, 2007, 96(8): 1166-1169.
-<br/><br/>24. Di Nicolantonio F, Martini M, Molinari F, et al. Wild-type BRAF is required for response to panitumumab or cetuximab in metastatic colorectal cancer[J]. Journal of Clinical Oncology, 2008, 26(35): 5705-5712.
-<br/><br/>25. Eberhard DA, Johnson BE, Amler LC, et al. Mutations in the epidermal growth factorreceptor and in KRAS are predictive and prognostic indicators in patients with non-smallcell lung cancer treated with chemotherapy alone and in combination with erlotinib. J ClinOncol 2005;23:5900-5909.
-<br/><br/>26. Esteva F J, Guo H, Zhang S, et al. PTEN, PIK3CA, p-AKT, and p-p70S6K status: association with trastuzumab response and survival in patients with HER2-positive metastatic breast cancer[J]. The American journal of pathology, 2010, 177(4): 1647-1656.
-<br/><br/>27. Friboulet L, Li N, Katayama R, et al. The ALK inhibitor ceritinib overcomes crizotinib resistance in non–small cell lung cancer[J]. Cancer discovery, 2014, 4(6): 662-673.
-<br/><br/>28. Fujita T, Doihara H, Kawasaki K, et al. PTEN activity could be a predictive marker of trastuzumab efficacy in the treatment of ErbB2-overexpressing breast cancer[J]. British journal of cancer, 2006, 94(2): 247-252.
-<br/><br/>29. Gajiwala K S, Wu J C, Christensen J, et al. KIT kinase mutants show unique mechanisms of drug resistance to imatinib and sunitinib in gastrointestinal stromal tumor patients[J]. Proceedings of the National Academy of Sciences, 2009, 106(5): 1542-1547.
-<br/><br/>30. Gautschi O, Pauli C, Strobel K, et al. A patient with BRAF V600E lung adenocarcinoma responding to vemurafenib[J]. Journal of Thoracic Oncology, 2012, 7(10): e23-e24.
-<br/><br/>31. Geyer C E, Forster J, Lindquist D, et al. Lapatinib plus capecitabine for HER2-positive advanced breast cancer[J]. New England Journal of Medicine, 2006, 355(26): 2733-2743.
-<br/><br/>32. Gianni L, Pienkowski T, Im Y H, et al. Efficacy and safety of neoadjuvant pertuzumab and trastuzumab in women with locally advanced, inflammatory, or early HER2-positive breast cancer (NeoSphere): a randomised multicentre, open-label, phase 2 trial[J]. The lancet oncology, 2012, 13(1): 25-32.
-<br/><br/>33. Guo J, Si L, Kong Y, et al. Phase II, open-label, single-arm trial of imatinib mesylate in patients with metastatic melanoma harboring c-Kit mutation or amplification[J]. Journal of Clinical Oncology, 2011, 29(21): 2904-2909.
-<br/><br/>34. Hauschild A, Grob J J, Demidov L V, et al. Dabrafenib in BRAF-mutated metastatic melanoma: a multicentre, open-label, phase 3 randomised controlled trial[J]. The Lancet, 2012, 380(9839): 358-365.
-<br/><br/>35. Hodi F S, Corless C L, Giobbie-Hurder A, et al. Imatinib for melanomas harboring mutationally activated or amplified KIT arising on mucosal, acral, and chronically sun-damaged skin[J]. Journal of Clinical Oncology, 2013, 31(26): 3182-3190.
-<br/><br/>36. Hyman D M, Puzanov I, Subbiah V, et al. Vemurafenib in multiple nonmelanoma cancers with BRAF V600 mutations[J]. New England Journal of Medicine, 2015, 373(8): 726-736.
-<br/><br/>37. Jhawer M, Goel S, Wilson A J, et al. PIK3CA mutation/PTEN expression status predicts response of colon cancer cells to the epidermal growth factor receptor inhibitor cetuximab[J]. Cancer research, 2008, 68(6): 1953- 1961.
-<br/><br/>38. Johnson D B, Flaherty K T, Weber J S, et al. Combined BRAF (Dabrafenib) and MEK inhibition (Trametinib) in patients with BRAFV600-mutant melanoma experiencing progression with single-agent BRAF inhibitor[J]. Journal of Clinical Oncology, 2014, 32(33): 3697-3704.
-<br/><br/>39. Kim K B, Kefford R, Pavlick A C, et al. Phase II study of the MEK1/MEK2 inhibitor Trametinib in patients with metastatic BRAF-mutant cutaneous melanoma previously treated with or without a BRAF inhibitor[J]. Journal of Clinical Oncology, 2013, 31(4): 482-489.
-<br/><br/>40. Kindler H L, Friberg G, Singh D A, et al. Phase II trial of bevacizumab plus gemcitabine in patients with advanced pancreatic cancer[J]. Journal of Clinical Oncology, 2005, 23(31): 8033-8040.
-<br/><br/>41. Lasota J, Miettinen M. Clinical significance of oncogenic KIT and PDGFRA mutations in gastrointestinal stromal tumours[J]. Histopathology, 2008, 53(3): 245-266.
-<br/><br/>42. Laurent-Puig P, Cayre A, Manceau G, et al. Analysis of PTEN, BRAF, and EGFR status in determining benefit from cetuximab therapy in wild-type KRAS metastatic colon cancer[J]. Journal of Clinical Oncology, 2009, 27(35): 5924-5930.
-<br/><br/>43. Lièvre A, Bachet J B, Boige V, et al. KRAS mutations as an independent prognostic factor in patients with advanced colorectal cancer treated with cetuximab[J]. Journal of Clinical Oncology, 2008, 26(3): 374-379.
-<br/><br/>44. Lievre A, Bachet J B, Le Corre D, et al. KRAS mutation status is predictive of response to cetuximab therapy in colorectal cancer[J]. Cancer research, 2006, 66(8): 3992-3995.
-<br/><br/>45. Lin N U, Diéras V, Paul D, et al. Multicenter phase II study of lapatinib in patients with brain metastases from HER2-positive breast cancer[J]. Clinical Cancer Research, 2009, 15(4): 1452-1459.
-<br/><br/>46. Linardou H, Dahabreh I J, Kanaloupiti D, et al. Assessment of somatic k-RAS mutations as a mechanism associated with resistance to EGFR-targeted agents: a systematic review and meta-analysis of studies in advanced non-small-cell lung cancer and metastatic colorectal cancer[J]. The lancet oncology, 2008, 9(10): 962-972.
-<br/><br/>47. Long G V, Stroyakovskiy D, Gogas H, et al. Dabrafenib and trametinib versus dabrafenib and placebo for Val600 BRAF-mutant melanoma: a multicentre, double-blind, phase 3 randomised controlled trial[J]. The Lancet, 2015, 386(9992): 444-451.
-<br/><br/>48. Long G V, Trefzer U, Davies M A, et al. Dabrafenib in patients with Val600Glu or Val600Lys BRAF-mutant melanoma metastatic to the brain (BREAK-MB): a multicentre, open-label, phase 2 trial[J]. The lancet oncology, 2012, 13(11): 1087-1095.
-<br/><br/>49. Maemondo M, Inoue A, Kobayashi K, et al. Gefitinib or chemotherapy for non–small-cell lung cancer with mutated EGFR[J]. New England Journal of Medicine, 2010, 362(25): 2380-2388.
-<br/><br/>50. Masi G, Loupakis F, Salvatore L, et al. Bevacizumab with FOLFOXIRI (irinotecan, oxaliplatin, fluorouracil, and folinate) as first-line treatment for metastatic colorectal cancer: a phase 2 trial[J]. The lancet oncology, 2010, 11(9): 845-852.
-<br/><br/>51. Mazières J, Zalcman G, Crinò L, et al. Crizotinib therapy for advanced lung adenocarcinoma and a ROS1 rearrangement: results from the EUROS1 cohort[J]. Journal of Clinical Oncology, 2015, 33(9): 992-999.
-<br/><br/>52. McArthur G A, Chapman P B, Robert C, et al. Safety and efficacy of vemurafenib in BRAF V600E and BRAF V600K mutation-positive melanoma (BRIM-3): extended follow-up of a phase 3, randomised, open-label study[J]. The lancet oncology, 2014, 15(3): 323-332.
-<br/><br/>53. Miles D W, Chan A, Dirix L Y, et al. Phase III study of bevacizumab plus docetaxel compared with placebo plus docetaxel for the first-line treatment of human epidermal growth factor receptor 2–negative metastatic breast cancer[J]. Journal of Clinical Oncology, 2010, 28(20): 3239-3247.
-<br/><br/>54. Nagata Y, Lan K H, Zhou X, et al. PTEN activation contributes to tumor inhibition by trastuzumab, and loss of PTEN predicts trastuzumab resistance in patients[J]. Cancer cell, 2004, 6(2): 117-127.
-<br/><br/>55. Nishida T, Takahashi T, Nishitani A, et al. Sunitinib-resistant gastrointestinal stromal tumors harbor cis- mutations in the activation loop of the KIT gene[J]. International journal of clinical oncology, 2009, 14(2): 143- 149.
-<br/><br/>56. Ohtsu A, Shah M A, Van Cutsem E, et al. Bevacizumab in combination with chemotherapy as first-line therapy in advanced gastric cancer: a randomized, double-blind, placebo-controlled phase III study[J]. Journal of Clinical Oncology, 2011: JCO. 2011.36. 2236.
-<br/><br/>57. Ou S H I, Bang Y J, Camidge D R, et al. Efficacy and safety of crizotinib in patients with advanced ROS1- rearranged non-small cell lung cancer (NSCLC)[C]//ASCO Annual Meeting Proceedings. 2013, 31(15_suppl): 8032.
-<br/><br/>58. Ou S H I, Kwak E L, Siwak-Tapp C, et al. Activity of crizotinib (PF02341066), a dual mesenchymal-epithelial transition (MET) and anaplastic lymphoma kinase (ALK) inhibitor, in a non-small cell lung cancer patient with de novo MET amplification[J]. Journal of thoracic oncology, 2011, 6(5): 942-946.
-<br/><br/>59. Paez J G, Janne P A, Lee J C, et al. EGFR mutations in lung cancer: correlation with clinical response to gefitinib therapy[J]. Science, 2004, 304(5676): 1497-1500.
-<br/><br/>60. Paik PK, Varghese AM, Sima CS, et al. Response to erlotinib in patients with EGFR mutant advanced non- small cell lung cancers with a squamous or squamous-like component. Mol Cancer Ther 2012;11:2535-2540.
-<br/><br/>61. Pao W, Miller VA, Politi KA, et al. Acquired resistance of lung adenocarcinomas to gefitinib or erlotinib is associated with a second mutation in the EGFR kinase domain. PLoS Med 2005;2:e73.
-<br/><br/>62. Pao W, Wang T Y, Riely G J, et al. KRAS mutations and primary resistance of lung adenocarcinomas to gefitinib or erlotinib[J]. PLoS Med, 2005, 2(1): e17.
-<br/><br/>63. Peeters M, Douillard J Y, Van Cutsem E, et al. Mutant KRAS codon 12 and 13 alleles in patients with metastatic colorectal cancer: assessment as prognostic and predictive biomarkers of response to panitumumab[J]. Journal of Clinical Oncology, 2013, 31(6): 759-765.
-<br/><br/>64. Peeters M, Oliner K S, Price T J, et al. Analysis of KRAS/NRAS mutations in a phase III study of panitumumab with FOLFIRI compared with FOLFIRI alone as second-line treatment for metastatic colorectal cancer[J]. Clinical Cancer Research, 2015, 21(24): 5469-5479.
-<br/><br/>65. Pietrantonio F, Petrelli F, Coinu A, et al. Predictive role of BRAF mutations in patients with advanced colorectal cancer receiving cetuximab and panitumumab: a meta-analysis[J]. European Journal of Cancer, 2015, 51(5): 587-594.
-<br/><br/>66. Planchard D, Groen HJM, Min Kim T, et al. Interim results of a phase II study of the BRAF inhibitor dabrafenib in combination with the MEK inhibitor trametinib in patients with BRAF V600E mutated metastatic non-small cell lung cancer. J Clin Oncol 2015;33: Abstract 8006.
-<br/><br/>67. Planchard D, Mazieres J, Riely GJ, et al. Interim results of phase II study BRF113928 of dabrafenib in BRAF V600E mutation-positive non-small cell lung cancer (NSCLC) patients [abstract]. J Clin Oncol 2013;31(Suppl 15): Abstract 8009.
-<br/><br/>68. Razis E, Bobos M, Kotoula V, et al. Evaluation of the association of PIK3CA mutations and PTEN loss with efficacy of trastuzumab therapy in metastatic breast cancer[J]. Breast cancer research and treatment, 2011, 128(2): 447-456.
-<br/><br/>69. Robert N J, Diéras V, Glaspy J, et al. RIBBON-1: Randomized, double-blind, placebo-controlled, phase III trial of chemotherapy with or without bevacizumab for first-line treatment of human epidermal growth factor receptor 2–negative, locally recurrent or metastatic breast cancer[J]. Journal of Clinical Oncology, 2011, 29(10): 1252-1260.
-<br/><br/>70. Robinson S D, O'Shaughnessy J A, Cowey C L, et al. BRAF V600E-mutated lung adenocarcinoma with metastases to the brain responding to treatment with vemurafenib[J]. Lung Cancer, 2014, 85(2): 326-330.
-<br/><br/>71. Romond E H, Perez E A, Bryant J, et al. Trastuzumab plus adjuvant chemotherapy for operable HER2- positive breast cancer[J]. New England Journal of Medicine, 2005, 353(16): 1673-1684.
-<br/><br/>72. Sandler A, Gray R, Perry M C, et al. Paclitaxel–carboplatin alone or with bevacizumab for non–small-cell lung cancer[J]. New England Journal of Medicine, 2006, 355(24): 2542-2550.
-<br/><br/>73. Sartore-Bianchi A, Martini M, Molinari F, et al. PIK3CA mutations in colorectal cancer are associated with clinical resistance to EGFR-targeted monoclonal antibodies[J]. Cancer research, 2009, 69(5): 1851-1857.
-<br/><br/>74. Schneider B P, Wang M, Radovich M, et al. Association of vascular endothelial growth factor and vascular endothelial growth factor receptor-2 genetic polymorphisms with outcome in a trial of paclitaxel compared with paclitaxel plus bevacizumab in advanced breast cancer: ECOG 2100[J]. Journal of Clinical Oncology, 2008, 26(28): 4672-4678.
-<br/><br/>75. Sequist L V, Martins R G, Spigel D, et al. First-line gefitinib in patients with advanced non–small-cell lung cancer harboring somatic EGFR mutations[J]. Journal of Clinical Oncology, 2008, 26(15): 2442-2449.
-<br/><br/>76. Sequist L V, Yang J C H, Yamamoto N, et al. Phase III study of afatinib or cisplatin plus pemetrexed in patients with metastatic lung adenocarcinoma with EGFR mutations[J]. Journal of Clinical Oncology, 2013, 31(27): 3327-3334.
-<br/><br/>77. Seymour M T, Brown S R, Middleton G, et al. Panitumumab and irinotecan versus irinotecan alone for patients with KRAS wild-type, fluorouracil-resistant advanced colorectal cancer (PICCOLO): a prospectively stratified randomised trial[J]. The lancet oncology, 2013, 14(8): 749-759.
-<br/><br/>78. Shah M A, Ramanathan R K, Ilson D H, et al. Multicenter phase II study of irinotecan, cisplatin, and bevacizumab in patients with metastatic gastric or gastroesophageal junction adenocarcinoma[J]. Journal of Clinical Oncology, 2006, 24(33): 5201-5206.
-<br/><br/>79. Shaw A T, Kim D W, Mehra R, et al. Ceritinib in ALK-rearranged non–small-cell lung cancer[J]. New England Journal of Medicine, 2014, 370(13): 1189-1197.
-<br/><br/>80. Shaw A T, Kim D W, Nakagawa K, et al. Crizotinib versus chemotherapy in advanced ALK-positive lung cancer[J]. New England Journal of Medicine, 2013, 368(25): 2385-2394.
-<br/><br/>81. Shaw A T, Ou S H I, Bang Y J, et al. Crizotinib in ROS1-rearranged non–small-cell lung cancer[J]. New England Journal of Medicine, 2014, 371(21): 1963-1971.
-<br/><br/>82. Shaw A T, Yeap B Y, Solomon B J, et al. Effect of crizotinib on overall survival in patients with advanced non- small-cell lung cancer harbouring ALK gene rearrangement: a retrospective analysis[J]. The lancet oncology, 2011, 12(11): 1004-1012.
-<br/><br/>83. Shi Y, Zhang L, Liu X, et al. Icotinib versus gefitinib in previously treated advanced non-small-cell lung cancer (ICOGEN): a randomised, double-blind phase 3 non-inferiority trial[J]. The lancet oncology, 2013, 14(10): 953-961.
-<br/><br/>84. Slamon D, Eiermann W, Robert N, et al. Adjuvant trastuzumab in HER2-positive breast cancer[J]. New England Journal of Medicine, 2011, 365(14): 1273-1283.
-<br/><br/>85. Sosman J A, Kim K B, Schuchter L, et al. Survival in BRAF V600–mutant advanced melanoma treated with vemurafenib[J]. New England Journal of Medicine, 2012, 366(8): 707-714.
-<br/><br/>86. Swain S M, Kim S B, Cortés J, et al. Pertuzumab, trastuzumab, and docetaxel for HER2-positive metastatic breast cancer (CLEOPATRA study): overall survival results from a randomised, double-blind, placebo- controlled, phase 3 study[J]. The lancet oncology, 2013, 14(6): 461-471.
-<br/><br/>87. Tebbutt N C, Wilson K, Gebski V J, et al. Capecitabine, bevacizumab, and mitomycin in first-line treatment of metastatic colorectal cancer: results of the Australasian Gastrointestinal Trials Group Randomized Phase III MAX Study[J]. Journal of Clinical Oncology, 2010, 28(19): 3191-3198.
-<br/><br/>88. Van Cutsem E, de Haas S, Kang Y K, et al. Bevacizumab in combination with chemotherapy as first-line therapy in advanced gastric cancer: a biomarker evaluation from the AVAGAST randomized phase III trial[J]. Journal of Clinical Oncology, 2012: JCO. 2011.39. 9824.
-<br/><br/>89. Van Cutsem E, Vervenne W L, Bennouna J, et al. Phase III trial of bevacizumab in combination with gemcitabine and erlotinib in patients with metastatic pancreatic cancer[J]. Journal of Clinical Oncology, 2009, 27(13): 2231-2237.
-<br/><br/>90. Verma S, Miles D, Gianni L, et al. Trastuzumab emtansine for HER2-positive advanced breast cancer[J]. New England Journal of Medicine, 2012, 367(19): 1783-1791.
-<br/><br/>91. Wu Y L, Zhou C, Hu C P, et al. Afatinib versus cisplatin plus gemcitabine for first-line treatment of Asian patients with advanced non-small-cell lung cancer harbouring EGFR mutations (LUX-Lung 6): an open-label, randomised phase 3 trial[J]. The lancet oncology, 2014, 15(2): 213-222.
-<br/><br/>92. Xiao L, Yang S C, Hao J, et al. Endostar attenuates melanoma tumor growth via its interruption of b-FGF mediated angiogenesis[J]. Cancer letters, 2015, 359(1): 148-154.
-<br/><br/>93. Yang J C H, Hirsh V, Schuler M, et al. Symptom control and quality of life in LUX-Lung 3: a phase III study of afatinib or cisplatin/pemetrexed in patients with advanced lung adenocarcinoma with EGFR mutations[J]. Journal of Clinical Oncology, 2013: JCO. 2012.46. 1764.
-<br/><br/>94. Zhu C Q, da Cunha Santos G, Ding K, et al. Role of KRAS and EGFR as biomarkers of response to erlotinib in National Cancer Institute of Canada Clinical Trials Group Study BR. 21[J]. Journal of Clinical Oncology, 2008, 26(26): 4268-4275.
-]]>
+<![CDATA[1. 2017年NCCN非小细胞肺癌临床实践指南.<br/>2. Mok TS et al. First-line gefitinib in patients with advanced non-small-cell lung cancer harboring somatic EGFR mutations. N Engl J Med. 2009;361: 947-57.<br/>3. Jänne PA, Johnson BE. Effect of epidermal growth factor receptor tyrosine kinase domain mutations on the outcome of patients with non-small cell lung cancer treated with epidermal growth factor receptor tyrosine kinase inhibitors. Clin Cancer Res. 2006;12(14Suppl):4416s-4420s.<br/>4. Suzuki, S., et al., Protein overexpression and gene amplification of epidermal growth factor receptor in nonsmall cell lung carcinomas. An immunohistochemical and fluorescence in situ hybridization study. Cancer, 2005. 103(6): p. 1265-73.<br/>5. Pirker, R., et al., EGFR expression as a predictor of survival for first-line chemotherapy plus cetuximab in patients with advanced non-small-cell lung cancer: analysis of data from the phase 3 FLEX study. Lancet Oncol, 2012. 13(1): p. 33-42.<br/>6. Douillard, J.Y., et al., Relationship between EGFR expression, EGFR mutation status, and the efficacy of chemotherapy plus cetuximab in FLEX study patients with advanced non-small-cell lung cancer. J Thorac Oncol, 2014. 9(5): p. 717-24.<br/>7. Jackman DM, Miller VA, Cioffredi LA, et al. Impact of epidermal growth factor receptor and KRAS mutations on clinical outcomes in previously untreated non-small cell lung cancer patients: Results of an online tumor registry of clinical trials. Clin Cancer Res. 2009;15:5267-5273.<br/>8. Mitsudomi T, et al. Gefitinib versus cisplatin plus docetaxel in patients with non-small-cell lung cancer harbouring mutations of the epidermal growth factor receptor (WJTOG3405): an open label, randomised phase 3 trial. Lancet Oncol. 2010 Feb;11(2):121-8.<br/>9. Mok TS et al. First-line gefitinib in patients with advanced non-small-cell lung cancer harboring somatic EGFR mutations. N Engl J Med. 2009;361: 947-57.<br/>10. Sequist LV et al. Gefitinib or Carboplatin–Paclitaxel in Pulmonary Adenocarcinoma. J ClinOncol. 2008; 26(15)2442-9.<br/>11. Ren GJ, et al. Tumor gene mutations and messenger RNA expression: correlation with clinical response to icotinib hydrochloride in non-small cell lung cancer. Chin Med J (Engl). 2011 Jan;124(1):19-25. <br/>12. Jänne PA, Johnson BE. Effect of epidermal growth factor receptor tyrosine kinase domain mutations on the outcome of patients with non-small cell lung cancer treated with epidermal growth factor receptor tyrosine kinase inhibitors. Clin Cancer Res. 2006;12(14Suppl):4416s-4420s.<br/>13. Yun CH, et al. The T790M mutation in EGFR kinase causes drug resistance by increasing the affinity for ATP.ProcNatlAcadSci U S A. 2008; 105(6):2070-2075.<br/>14. Arcila ME, et al. Rebiopsy of Lung Cancer Patients with Acquired Resistance to EGFR Inhibitors and Enhanced Detection of the T790M Mutation Using a Locked Nucleic Acid-Based Assay.Clin Cancer Res. 2011; 17(5):1169-1180.<br/>15. Nakayama N et al. KRAS or BRAF mutation status is a useful predictor of sensitivity to MEK inhibition in ovarian cancer.<br/>16. SchmidK,OehlN,WrbaF,et al. EGFR/KRAS/BRAF mutations in primary lung adenocarcinomas and corresponding locoregional lymph node metastases. Clin Cancer Res,2009,15( 14) : 4554. British J Cancer 2008: 99:2020-8<br/>17. Pao W, Wang TY, Riely GJ, et al. KRAS mutations and primary resistance of lung adenocarcinomas to gefitinib or erlotinib. PLosMed. 2005;2:e17. <br/>18. Eberhard DA, Johnson BE, Amler LC, et al. Mutations in the epidermal growth factor receptor and in KRAS are predictive and prognostic indicators in patients with non-small-cell lung cancer treated with chemotherapy alone and in combination with erlotinib. J ClinOncol. 2005;23:5900-5909.<br/>19. Massarelli E, Varella-Garcia M, Tang X, et al. KRAS mutation is an important predictor of resistance to therapy with epidermal growth factor receptor tyrosine kinase inhibitors in non-small-cell lung cancer. Clin Cancer Res. 2007;13:2890-2896.<br/>20. Thunnissen E, Bubendorf L, Dietel M. et al. EML4-ALK testing in non-small cell carcinomas of the lung: a review with recommendations.Virchows Arch. 2012 Jul 24.<br/>21. Wang R, Pan Y, Li C., et al. The Use of Quantitative Real-Time Reverse Transcriptase PCR for 50 and 30 Portions of ALK Transcripts to Detect ALK Rearrangements in Lung Cancers.Clin Cancer Res. 2012 Jul 12.<br/>22. Kwak EL, Bang YJ, Camidge DR, et al. Anaplastic Lymphoma Kinase Inhibition in Non–Small-Cell Lung Cancer. N Engl J Med. 2010 October 28; 363(18): 1693–1703.<br/>23. Doebele RC, Pilling AB, Aisner DL, et al. Mechanisms of Resistance to Crizotinib in Patients with ALK Gene Rearranged Non-Small Cell Lung Cancer. Clin Cancer Res. 2012 March 1; 18(5): 1472–1482..<br/>24. Shaw AT,Yeap BY, Mino-Kenudson M, et al. Clinical Features and Outcome of Patients With Non–Small-Cell Lung Cancer Who Harbor EML4-ALK. J ClinOncol. 2009 Sep 10;27(26):4247-53. <br/>25. LeighlNB.CurrOncol. 2012 Jun;19(Supplement 1):S52-S58.Treatment paradigms for patients with metastatic non-small-cell lung cancer: first-, second-, and third-line. CurrOncol. 2012 Jun;19(Suppl 1):S52-8. <br/>26. Matsuura S, Shinmura K, Kamo T, et al. CD74-ROS1 fusion transcripts in resected non-small cell lung carcinoma. Oncol Rep. 2013; 30(4):1675-80. <br/>27. Sholl LM, Sun H, Butaney M, et al. ROS1 immunohistochemistry for detection of ROS1-rearranged lung adenocarcinomas. Am J SurgPathol. 2013; 5,24. <br/>28. Gainor JF, Shaw AT. Novel targets in non-small cell lung cancer: ROS1 and RET fusions. Oncologist. 2013;18(7):865-75.<br/>29. Riess JW, Padda SK, Bangs CD,et al. A case series of lengthy progression-free survival with pemetrexed-containing therapy in metastatic non--small-cell lung cancer patients harboring ROS1 gene rearrangements. Clin Lung Cancer. 2013;4, 27.<br/>30. Harun N, Costa P, Christophi C. Tumour growth stimulation following partial hepatectomy in mice is associated with increased upregulation of c-Met.Clin Exp Metastasis. 2013;7(31).    <br/>31. Harshman LC, Choueiri TK. Et al. Targeting the hepatocyte growth factor/c-Met signaling pathway in renal cell carcinoma.Cancer J. 2013;19(4):316-23.<br/>32. Loupakis F et al. KRAS codon 61, 146 and BRAF mutations predict resistance to cetuximab plus irinotecan in KRAS codon 12 and 13 wild-type metastatic colorectal cancer. British J Cancer. 2009;101:715-21.<br/>33. Lièvre A et al. KRAS mutations as an independent prognostic factor in patients with advanced colorectal cancer treated with cetuximab. J. Clin. Oncol. 2008;26:374-9.<br/>34. Amado RG et al. J.Wild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancer.long.Clin. Oncol. 2008; 26:1626-34.<br/>35. Di Nicolantonio F et al.Wild-type BRAF is required for response to panitumumab or cetuximab in metastatic colorectal cancer. J ClinOncol. 2008;26:5705-12.<br/>36. Trigka EA, Levidou G, Saetta AA, et al.A detailed immunohistochemical analysis of the PI3K/AKT/mTOR pathway in lung cancer: correlation with PIK3CA, AKT1, K-RAS or PTEN mutational status and clinicopathological features. Oncol Rep. 2013 Aug;30(2):623-36. <br/>37. Sood A, McClain D, Maitra R, et al. PTEN gene expression and mutations in the PIK3CA gene as predictors of clinical benefit to anti-epidermal growth factor receptor antibody therapy in patients with KRAS wild-type metastatic colorectal cancer. Clin Colorectal Cancer. 2012 Jun;11(2):143-50.<br/>38. Bouali S, Chretien AS,Ramacci C, et al. PTEN expression controls cellular response to cetuximab by mediating PI3K/AKT and RAS/RAF/MAPK downstream signaling in KRAS wild-type, hormone refractory prostate cancer cells. Oncol Rep, 2009, 21(3): 731-735.<br/>39. Peeters M, Oliner K S, Price T J, et al. Analysis of KRAS/NRAS mutations in a phase III study of panitumumab with FOLFIRI compared with FOLFIRI alone as second-line treatment for metastatic colorectal cancer[J]. Clinical Cancer Research, 2015, 21(24): 5469-5479.<br/>40. Ohashi K, Sequist L V, Arcila M E, et al. Lung cancers with acquired resistance to EGFR inhibitors occasionally harbor BRAF gene mutations but lack mutations in KRAS, NRAS, or MEK1[J]. Proceedings of the National Academy of Sciences, 2012, 109(31): E2127-E2133.<br/>41. De Roock W, Claes B, Bernasconi D, et al. Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysis[J]. The lancet oncology, 2010, 11(8): 753-762.<br/>42. Ohashi K, Sequist L V, Arcila M E, et al. Characteristics of lung cancers harboring NRAS mutations.[J]. Clinical Cancer Research, 2013, 19(9):2584-2591.<br/>43. Eberlein C A, Stetson D, Markovets A A, et al. Acquired resistance to mutant-selective EGFR inhibitor AZD9291 is associated with increased dependence on RAS signaling in preclinical models.[J]. Cancer Research, 2015, 75(12):2489-2500. <br/>]]>
 </parameter>
 
 
@@ -196,6 +102,11 @@
         <parameter id="catalog710M" value="七、本次检测的基因列表"/>
         <parameter id="hasChemotherapy" value="true"/>
 
+        <parameter id="checkResultPart1" value=""><![CDATA[<br/>本项检测基于新一代测序平台，检测内容参考《非小细胞肺癌NCCN临床实践指南》定制。全面涵盖目前临床非小细胞肺癌常用药物的敏感/耐药检测位点。可以一次性对<style  font_color='#607b3f' font='fzltchjw' italic='true'>ALK</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>BRAF</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>EGFR</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>HER2</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>KRAS</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>MET</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>NRAS</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>PIK3CA</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>RET</style>、<style  font_color='#607b3f' font='fzltchjw' italic='true'>ROS1</style>基因的突变、扩增、融合位点进行筛查。与传统检测相比，技术上和经济上具有无可比拟的优势。<br/><br/>本次基因检测结果显示：<style  font_color='#607b3f' font='fzltchjw'>您的样品中检测到</style><style  font_color='#607b3f' font='fzltchjw'> </style><style  font_color='#607b3f' font='fzltchjw' italic='true'>EGFR </style><style  font_color='#607b3f' font='fzltchjw'>基因突变。</style>建议您参考本报告结果并和医生讨论以确定最佳的靶向用药方案。<br/><br/>]]></parameter>
+
+        <parameter id="checkResultPart2" value=""><![CDATA[<style  font='fzltchjw'>用药提示</style>：<br/>本次检测样本中存在<style  font_color='#607b3f' font='fzltchjw' italic='true'>EGFR </style><style  font_color='#607b3f' font='fzltchjw'>p.</style><style  font_color='#607b3f' font='fzltchjw'>L858R</style><style  font_color='#607b3f' font='fzltchjw'>点突变</style>，提示患者对吉非替尼、厄洛替尼、阿法替尼和埃克替尼等EGFR-TKI类药物敏感。<style  font_color='#607b3f' font='fzltchjw'>请由您的临床医生根据患者情况实施最适合的治疗方案。</style>]]></parameter>
+
+        <parameter id="checkResultPart3" value=""><![CDATA[注：突变频率指在该位点所有的等位基因中，突变的等位基因的占比（相对野生型等位基因）。例如，突变频率40%意为该位点含有40%的突变型等位基因和60%的野生型等位基因。根据目前临床常用的ARMS法检测的灵敏度数据总结，认为突变频率小于1%的突变位点，意味着相应靶向药物的临床效果可能会非常有限。同时监控突变频率变化对于预测靶向药物的用药效果及耐药情况可能有重要意义。<br/>]]></parameter>
 
         <table id="userReportInfo">
             <headers>
@@ -220,6 +131,50 @@
                 <cell row="1"  column="3" value="$sampleType"/>
                 <cell row="2"  column="3" value="$collectDate"/>
                 <cell row="3"  column="3" value="$receiveDate"/>
+            </rows>
+        </table>
+
+
+        <table id='diagnosesAndFamilyHistory'>
+            <headers>
+            </headers>
+            <rows>
+                <cell  row='0' column='0' value=''><![CDATA[临床诊断：]]></cell>
+                <cell  row='0' column='1' value=''><![CDATA[右肺上叶肺中分化腺癌，肿瘤部分呈腺泡状生长，约占60％，部分呈乳头状及微乳头状生长约占20％，部分呈附壁状生长，约20％。淋巴结可见癌转移]]></cell>
+                <cell  row='0' column='2' value=''><![CDATA[吸烟史：]]></cell>
+                <cell  row='0' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='0' value=''><![CDATA[病理诊断类型：]]></cell>
+                <cell  row='1' column='1' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='2' value=''><![CDATA[肿瘤家族史：]]></cell>
+                <cell  row='1' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='2' column='0' value=''><![CDATA[病理分期：]]></cell>
+                <cell  row='2' column='1' value=''><![CDATA[/]]></cell>
+                <cell  row='2' column='2' value=''><![CDATA[用药及治疗史：]]></cell>
+                <cell  row='2' column='3' value=''><![CDATA[/]]></cell>
+            </rows>
+        </table>
+
+        <table id='checkResultPartTable'>
+            <headers></headers>
+            <rows>
+                <cell  row='0' column='0' value=''><![CDATA[<style  italic='true'>EGFR</style><br/>p.L858R<br/>NM_005228]]></cell>
+                <cell  row='0' column='1' value=''><![CDATA[45.04%]]></cell>
+                <cell  row='0' column='2' value=''><![CDATA[吉非替尼<br/>厄洛替尼<br/>阿法替尼<br/>埃克替尼]]></cell>
+                <cell  row='0' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='0' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='0' column='5' value=''><![CDATA[/]]></cell>
+                <cell  row='0' column='6' value=''><![CDATA[/]]></cell>
+                <cell  row='0' column='7' value=''><![CDATA[/]]></cell>
+
+
+                <cell  row='1' column='0' value=''><![CDATA[<style  italic='true'>EGFR</style><br/>p.L858R<br/>NM_005228]]></cell>
+                <cell  row='1' column='1' value=''><![CDATA[45.04%]]></cell>
+                <cell  row='1' column='2' value=''><![CDATA[吉非替尼<br/>厄洛替尼<br/>阿法替尼<br/>埃克替尼]]></cell>
+                <cell  row='1' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='5' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='6' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='7' value=''><![CDATA[/]]></cell>
             </rows>
         </table>
 
@@ -491,41 +446,590 @@
             </rows>
         </table>
 
-        <table id="targetedDrug">
+        <!--<table id="targetedDrug">-->
+            <!--<headers>-->
+                <!--<header column="0" value="药物名称"/>-->
+                <!--<header column="1" value="英文名称"/>-->
+                <!--<header column="1" value="商品名"/>-->
+                <!--<header column="2" value="对应靶点基因"/>-->
+                <!--<header column="3" value="获批适应症"/>-->
+            <!--</headers>-->
+            <!--<rows>-->
+                <!--<cell row="0"  column="0" value="厄洛替尼"/>-->
+                <!--<cell row="1"  column="0" value="吉非替尼"/>-->
+                <!--<cell row="2"  column="0" value="克唑替尼"/>-->
+                <!--<cell row="3"  column="0" value="阿法替尼"/>-->
+
+                <!--<cell row="0"  column="1" value="Erlotinib"/>-->
+                <!--<cell row="1"  column="1" value="Gefitinib"/>-->
+                <!--<cell row="2"  column="1" value="Crizotinib"/>-->
+                <!--<cell row="3"  column="1" value="Afatinib"/>-->
+
+                <!--<cell row="0"  column="2" value="Iressa"/>-->
+                <!--<cell row="1"  column="2" value="Tarceva"/>-->
+                <!--<cell row="2"  column="2" value="Gilotrif"/>-->
+                <!--<cell row="3"  column="2" value="凯美纳"/>-->
+
+                <!--<cell row="0"  column="3" value="EGFR"/>-->
+                <!--<cell row="1"  column="3" value="EGFR"/>-->
+                <!--<cell row="2"  column="3" value="EGFR"/>-->
+                <!--<cell row="3"  column="3" value="EGFR"/>-->
+
+                <!--<cell row="0"  column="4" value="非小细胞肺癌"/>-->
+                <!--<cell row="1"  column="4" value="非小细胞肺癌"/>-->
+                <!--<cell row="2"  column="4" value="非小细胞肺癌"/>-->
+                <!--<cell row="3"  column="4" value="非小细胞肺癌"/>-->
+            <!--</rows>-->
+        <!--</table>-->
+
+
+        <parameter id="targetDrugTitle" value="靶向药物："/>
+        <parameter id="targetDrugSummary" value=""><![CDATA[<style font='fzltchjw' font_color='#000000' font_size='10'>药物简介：</style><br/><br/><style  font_color='#607b3f' char_spacing='1.1' bold='true'>吉非替尼</style>是一类靶向EGFR的小分子酪氨酸激酶抑制剂，该类药物主要通过阻断表皮生长因子受体（EGFR）的激酶活性而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，即抑制肿瘤细胞的增生、分化，同时也能提高化疗和放疗的抗肿瘤疗效。吉非替尼的作用靶点为EGFR，主要检测靶点为BRAF、EGFR、KRAS。当EGFR的18/19/21号外显子突变时，对该药物敏感，提示临床优先使用；当EGFR20号外显子突变、KRAS突变时，则对吉非替尼耐药，临床不建议使用。FDA批准一线治疗EGFR基因第19外显子缺失或第21外显子突变(L858R)的转移性非小细胞肺癌。CFDA已批准在中国上市。<br/><br/><style  font_color='#607b3f' char_spacing='1.1' bold='true'>厄洛替尼</style>是一类靶向EGFR的小分子酪氨酸激酶抑制剂，用于治疗非小细胞肺癌（NSCLC）和胰腺癌。厄洛替尼的作用靶点为EGFR，主要检测靶点为BRAF、EGFR、KRAS。当EGFR的18/19/21号外显子突变时，对该药物敏感，提示临床优先使用；当EGFR20号外显子突变、KRAS突变时，则对厄洛替尼耐药，临床不建议使用。FDA批准一线、维持、至少一次化疗进展后的二线或更多线的EGFR基因第19外显子缺失或第21外显子突变(L858R)的转移性非小细胞肺癌。CFDA已批准在中国上市。<br/><br/><style  font_color='#607b3f' char_spacing='1.1' bold='true'>阿法替尼</style>是一类靶向EGFR/HER2小分子酪氨酸激酶的不可逆抑制剂，作为第二代高效双重非可逆性的酪氨酸激酶抑制剂，可同时抑制EGFR和HER2两种受体，共价结合EGFR、HER2的激酶区域，不可逆的抑制酪氨酸激酶的自磷酸化，导致下游信号通路的下调，抑制肿瘤细胞的增殖和生长。2013年7月，FDA批准用于EGFR突变阳性的非小细胞肺癌治疗。<br/><br/><style  font_color='#607b3f' char_spacing='1.1' bold='true'>埃克替尼</style>是一种选择性表皮生长因子受体(EGFR)酪氨酸激酶抑制剂，对野生型和突变型EGFR均有抑制作用。CFDA批准的适应症为EGFR敏感突变的局部晚期或转移性非小细胞肺癌(NSCLC)的一线治疗，或既往接受过至少一个化疗方案(主要铂类药物为基础)失败的局部晚期或转移性NSCLC的治疗。<br/><br/>]]></parameter>
+        <table id='targetDrug'>
             <headers>
-                <header column="0" value="药物名称"/>
-                <header column="1" value="英文名称"/>
-                <header column="1" value="商品名"/>
-                <header column="2" value="对应靶点基因"/>
-                <header column="3" value="获批适应症"/>
+                <header  column='0' value=''><![CDATA[药物名称]]></header>
+                <header  column='1' value=''><![CDATA[英文名]]></header>
+                <header  column='2' value=''><![CDATA[商品名]]></header>
+                <header  column='3' value=''><![CDATA[对应靶点基因]]></header>
+                <header  column='4' value=''><![CDATA[获批适应症]]></header>
             </headers>
             <rows>
-                <cell row="0"  column="0" value="厄洛替尼"/>
-                <cell row="1"  column="0" value="吉非替尼"/>
-                <cell row="2"  column="0" value="克唑替尼"/>
-                <cell row="3"  column="0" value="阿法替尼"/>
-
-                <cell row="0"  column="1" value="Erlotinib"/>
-                <cell row="1"  column="1" value="Gefitinib"/>
-                <cell row="2"  column="1" value="Crizotinib"/>
-                <cell row="3"  column="1" value="Afatinib"/>
-
-                <cell row="0"  column="2" value="Iressa"/>
-                <cell row="1"  column="2" value="Tarceva"/>
-                <cell row="2"  column="2" value="Gilotrif"/>
-                <cell row="3"  column="2" value="凯美纳"/>
-
-                <cell row="0"  column="3" value="EGFR"/>
-                <cell row="1"  column="3" value="EGFR"/>
-                <cell row="2"  column="3" value="EGFR"/>
-                <cell row="3"  column="3" value="EGFR"/>
-
-                <cell row="0"  column="4" value="非小细胞肺癌"/>
-                <cell row="1"  column="4" value="非小细胞肺癌"/>
-                <cell row="2"  column="4" value="非小细胞肺癌"/>
-                <cell row="3"  column="4" value="非小细胞肺癌"/>
+                <cell  row='0' column='0' value=''><![CDATA[吉非替尼]]></cell>
+                <cell  row='0' column='1' value=''><![CDATA[Gefitinib]]></cell>
+                <cell  row='0' column='2' value=''><![CDATA[Iressa]]></cell>
+                <cell  row='0' column='3' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='0' column='4' value=''><![CDATA[非小细胞肺癌]]></cell>
+                <cell  row='1' column='0' value=''><![CDATA[厄洛替尼]]></cell>
+                <cell  row='1' column='1' value=''><![CDATA[Erlotinib]]></cell>
+                <cell  row='1' column='2' value=''><![CDATA[Tarceva]]></cell>
+                <cell  row='1' column='3' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='1' column='4' value=''><![CDATA[非小细胞肺癌、胰腺癌]]></cell>
+                <cell  row='2' column='0' value=''><![CDATA[阿法替尼]]></cell>
+                <cell  row='2' column='1' value=''><![CDATA[Afatinib]]></cell>
+                <cell  row='2' column='2' value=''><![CDATA[Gilotrif]]></cell>
+                <cell  row='2' column='3' value=''><![CDATA[EGFR、HER2]]></cell>
+                <cell  row='2' column='4' value=''><![CDATA[非小细胞肺癌]]></cell>
+                <cell  row='3' column='0' value=''><![CDATA[埃克替尼]]></cell>
+                <cell  row='3' column='1' value=''><![CDATA[Icotinib]]></cell>
+                <cell  row='3' column='2' value=''><![CDATA[Conmana]]></cell>
+                <cell  row='3' column='3' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='3' column='4' value=''><![CDATA[非小细胞肺癌]]></cell>
             </rows>
         </table>
+
+
+        <table id='geneSiteChecked'>
+            <headers>
+                <header  column='0' value=''><![CDATA[基因]]></header>
+                <header  column='1' value=''><![CDATA[突变类型]]></header>
+                <header  column='2' value=''><![CDATA[检测位点]]></header>
+                <header  column='3' value=''><![CDATA[检出突变]]></header>
+                <header  column='4' value=''><![CDATA[突变频率]]></header>
+            </headers>
+            <rows>
+                <cell  row='1' column='0' value=''><![CDATA[ALK]]></cell>
+                <cell  row='1' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='1' column='2' value=''><![CDATA[p.C1156Y]]></cell>
+                <cell  row='1' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='1' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='2' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='2' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='2' column='2' value=''><![CDATA[p.F1174L]]></cell>
+                <cell  row='2' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='2' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='3' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='3' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='3' column='2' value=''><![CDATA[p.G1202R]]></cell>
+                <cell  row='3' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='3' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='4' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='4' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='4' column='2' value=''><![CDATA[p.G1269A]]></cell>
+                <cell  row='4' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='4' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='5' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='5' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='5' column='2' value=''><![CDATA[p.L1152R]]></cell>
+                <cell  row='5' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='5' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='6' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='6' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='6' column='2' value=''><![CDATA[p.L1196M]]></cell>
+                <cell  row='6' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='6' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='7' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='7' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='7' column='2' value=''><![CDATA[p.S1206Y]]></cell>
+                <cell  row='7' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='7' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='8' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='8' column='1' value=''><![CDATA[融合/重排]]></cell>
+                <cell  row='8' column='2' value=''><![CDATA[融合/重排]]></cell>
+                <cell  row='8' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='8' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='9' column='0' value=''><![CDATA[BRAF]]></cell>
+                <cell  row='9' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='9' column='2' value=''><![CDATA[p.G466V]]></cell>
+                <cell  row='9' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='9' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='10' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='10' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='10' column='2' value=''><![CDATA[p.G469A]]></cell>
+                <cell  row='10' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='10' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='11' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='11' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='11' column='2' value=''><![CDATA[p.G469L]]></cell>
+                <cell  row='11' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='11' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='12' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='12' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='12' column='2' value=''><![CDATA[p.L597V]]></cell>
+                <cell  row='12' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='12' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='13' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='13' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='13' column='2' value=''><![CDATA[p.V600E]]></cell>
+                <cell  row='13' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='13' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='14' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='14' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='14' column='2' value=''><![CDATA[p.Y472C]]></cell>
+                <cell  row='14' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='14' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='15' column='0' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='15' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='15' column='2' value=''><![CDATA[p.A763_Y764insFQEA]]></cell>
+                <cell  row='15' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='15' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='16' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='16' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='16' column='2' value=''><![CDATA[p.D770_N771insG]]></cell>
+                <cell  row='16' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='16' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='17' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='17' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='17' column='2' value=''><![CDATA[p.D770_N771insNPG]]></cell>
+                <cell  row='17' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='17' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='18' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='18' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='18' column='2' value=''><![CDATA[p.D770_N771insSVQ]]></cell>
+                <cell  row='18' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='18' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='19' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='19' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='19' column='2' value=''><![CDATA[p.H773_V774insH]]></cell>
+                <cell  row='19' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='19' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='20' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='20' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='20' column='2' value=''><![CDATA[p.V769_D770insASV]]></cell>
+                <cell  row='20' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='20' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='21' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='21' column='1' value=''><![CDATA[插入/缺失]]></cell>
+                <cell  row='21' column='2' value=''><![CDATA[Exon19]]></cell>
+                <cell  row='21' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='21' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='22' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='22' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='22' column='2' value=''><![CDATA[p.C797S]]></cell>
+                <cell  row='22' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='22' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='23' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='23' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='23' column='2' value=''><![CDATA[p.G719A]]></cell>
+                <cell  row='23' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='23' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='24' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='24' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='24' column='2' value=''><![CDATA[p.G719C]]></cell>
+                <cell  row='24' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='24' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='25' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='25' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='25' column='2' value=''><![CDATA[p.G719S]]></cell>
+                <cell  row='25' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='25' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='26' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='26' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='26' column='2' value=''><![CDATA[p.L858R]]></cell>
+                <cell  row='26' column='3' value=''><![CDATA[p.L858R]]></cell>
+                <cell  row='26' column='4' value=''><![CDATA[45.04%]]></cell>
+                <cell  row='27' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='27' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='27' column='2' value=''><![CDATA[p.L861Q]]></cell>
+                <cell  row='27' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='27' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='28' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='28' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='28' column='2' value=''><![CDATA[p.S768I]]></cell>
+                <cell  row='28' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='28' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='29' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='29' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='29' column='2' value=''><![CDATA[p.T790M]]></cell>
+                <cell  row='29' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='29' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='30' column='0' value=''><![CDATA[HER2]]></cell>
+                <cell  row='30' column='1' value=''><![CDATA[扩增]]></cell>
+                <cell  row='30' column='2' value=''><![CDATA[拷贝数扩增]]></cell>
+                <cell  row='30' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='30' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='31' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='31' column='1' value=''><![CDATA[插入]]></cell>
+                <cell  row='31' column='2' value=''><![CDATA[Exon20]]></cell>
+                <cell  row='31' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='31' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='32' column='0' value=''><![CDATA[KRAS]]></cell>
+                <cell  row='32' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='32' column='2' value=''><![CDATA[p.A146P]]></cell>
+                <cell  row='32' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='32' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='33' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='33' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='33' column='2' value=''><![CDATA[p.A146T]]></cell>
+                <cell  row='33' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='33' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='34' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='34' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='34' column='2' value=''><![CDATA[p.A146V]]></cell>
+                <cell  row='34' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='34' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='35' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='35' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='35' column='2' value=''><![CDATA[p.A59E]]></cell>
+                <cell  row='35' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='35' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='36' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='36' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='36' column='2' value=''><![CDATA[p.A59G]]></cell>
+                <cell  row='36' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='36' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='37' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='37' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='37' column='2' value=''><![CDATA[p.A59T]]></cell>
+                <cell  row='37' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='37' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='38' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='38' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='38' column='2' value=''><![CDATA[p.G12A]]></cell>
+                <cell  row='38' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='38' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='39' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='39' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='39' column='2' value=''><![CDATA[p.G12C]]></cell>
+                <cell  row='39' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='39' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='40' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='40' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='40' column='2' value=''><![CDATA[p.G12D]]></cell>
+                <cell  row='40' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='40' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='41' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='41' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='41' column='2' value=''><![CDATA[p.G12F]]></cell>
+                <cell  row='41' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='41' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='42' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='42' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='42' column='2' value=''><![CDATA[p.G12R]]></cell>
+                <cell  row='42' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='42' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='43' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='43' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='43' column='2' value=''><![CDATA[p.G12S]]></cell>
+                <cell  row='43' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='43' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='44' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='44' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='44' column='2' value=''><![CDATA[p.G12V]]></cell>
+                <cell  row='44' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='44' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='45' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='45' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='45' column='2' value=''><![CDATA[p.G13A]]></cell>
+                <cell  row='45' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='45' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='46' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='46' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='46' column='2' value=''><![CDATA[p.G13C]]></cell>
+                <cell  row='46' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='46' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='47' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='47' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='47' column='2' value=''><![CDATA[p.G13D]]></cell>
+                <cell  row='47' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='47' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='48' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='48' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='48' column='2' value=''><![CDATA[p.G13R]]></cell>
+                <cell  row='48' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='48' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='49' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='49' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='49' column='2' value=''><![CDATA[p.G13S]]></cell>
+                <cell  row='49' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='49' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='50' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='50' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='50' column='2' value=''><![CDATA[p.G13V]]></cell>
+                <cell  row='50' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='50' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='51' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='51' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='51' column='2' value=''><![CDATA[p.K117N]]></cell>
+                <cell  row='51' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='51' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='52' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='52' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='52' column='2' value=''><![CDATA[p.Q61H]]></cell>
+                <cell  row='52' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='52' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='53' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='53' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='53' column='2' value=''><![CDATA[p.Q61K]]></cell>
+                <cell  row='53' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='53' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='54' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='54' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='54' column='2' value=''><![CDATA[p.Q61L]]></cell>
+                <cell  row='54' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='54' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='55' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='55' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='55' column='2' value=''><![CDATA[p.Q61R]]></cell>
+                <cell  row='55' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='55' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='56' column='0' value=''><![CDATA[MET]]></cell>
+                <cell  row='56' column='1' value=''><![CDATA[扩增]]></cell>
+                <cell  row='56' column='2' value=''><![CDATA[拷贝数扩增]]></cell>
+                <cell  row='56' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='56' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='57' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='57' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='57' column='2' value=''><![CDATA[c.G3028A]]></cell>
+                <cell  row='57' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='57' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='58' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='58' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='58' column='2' value=''><![CDATA[c.G3028C]]></cell>
+                <cell  row='58' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='58' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='59' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='59' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='59' column='2' value=''><![CDATA[c.G3028T]]></cell>
+                <cell  row='59' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='59' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='60' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='60' column='1' value=''><![CDATA[缺失]]></cell>
+                <cell  row='60' column='2' value=''><![CDATA[c.2888delA]]></cell>
+                <cell  row='60' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='60' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='61' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='61' column='1' value=''><![CDATA[缺失]]></cell>
+                <cell  row='61' column='2' value=''><![CDATA[c.3001_3021del]]></cell>
+                <cell  row='61' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='61' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='62' column='0' value=''><![CDATA[NRAS]]></cell>
+                <cell  row='62' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='62' column='2' value=''><![CDATA[p.G12A]]></cell>
+                <cell  row='62' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='62' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='63' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='63' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='63' column='2' value=''><![CDATA[p.G12C]]></cell>
+                <cell  row='63' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='63' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='64' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='64' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='64' column='2' value=''><![CDATA[p.G12D]]></cell>
+                <cell  row='64' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='64' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='65' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='65' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='65' column='2' value=''><![CDATA[p.G12R]]></cell>
+                <cell  row='65' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='65' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='66' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='66' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='66' column='2' value=''><![CDATA[p.G12S]]></cell>
+                <cell  row='66' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='66' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='67' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='67' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='67' column='2' value=''><![CDATA[p.G12V]]></cell>
+                <cell  row='67' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='67' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='68' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='68' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='68' column='2' value=''><![CDATA[p.G13A]]></cell>
+                <cell  row='68' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='68' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='69' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='69' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='69' column='2' value=''><![CDATA[p.G13C]]></cell>
+                <cell  row='69' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='69' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='70' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='70' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='70' column='2' value=''><![CDATA[p.G13D]]></cell>
+                <cell  row='70' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='70' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='71' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='71' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='71' column='2' value=''><![CDATA[p.G13R]]></cell>
+                <cell  row='71' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='71' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='72' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='72' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='72' column='2' value=''><![CDATA[p.G13S]]></cell>
+                <cell  row='72' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='72' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='73' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='73' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='73' column='2' value=''><![CDATA[p.G13V]]></cell>
+                <cell  row='73' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='73' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='74' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='74' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='74' column='2' value=''><![CDATA[p.Q61H]]></cell>
+                <cell  row='74' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='74' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='75' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='75' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='75' column='2' value=''><![CDATA[p.Q61K]]></cell>
+                <cell  row='75' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='75' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='76' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='76' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='76' column='2' value=''><![CDATA[p.Q61L]]></cell>
+                <cell  row='76' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='76' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='77' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='77' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='77' column='2' value=''><![CDATA[p.Q61R]]></cell>
+                <cell  row='77' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='77' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='78' column='0' value=''><![CDATA[PIK3CA]]></cell>
+                <cell  row='78' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='78' column='2' value=''><![CDATA[p.E542K]]></cell>
+                <cell  row='78' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='78' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='79' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='79' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='79' column='2' value=''><![CDATA[p.E545K]]></cell>
+                <cell  row='79' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='79' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='80' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='80' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='80' column='2' value=''><![CDATA[p.E545Q]]></cell>
+                <cell  row='80' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='80' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='81' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='81' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='81' column='2' value=''><![CDATA[p.H1047L]]></cell>
+                <cell  row='81' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='81' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='82' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='82' column='1' value=''><![CDATA[点突变]]></cell>
+                <cell  row='82' column='2' value=''><![CDATA[p.H1047R]]></cell>
+                <cell  row='82' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='82' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='83' column='0' value=''><![CDATA[RET]]></cell>
+                <cell  row='83' column='1' value=''><![CDATA[融合/重排]]></cell>
+                <cell  row='83' column='2' value=''><![CDATA[融合/重排]]></cell>
+                <cell  row='83' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='83' column='4' value=''><![CDATA[/]]></cell>
+                <cell  row='84' column='0' value=''><![CDATA[ROS1]]></cell>
+                <cell  row='84' column='1' value=''><![CDATA[融合/重排]]></cell>
+                <cell  row='84' column='2' value=''><![CDATA[融合/重排]]></cell>
+                <cell  row='84' column='3' value=''><![CDATA[/]]></cell>
+                <cell  row='84' column='4' value=''><![CDATA[/]]></cell>
+            </rows>
+        </table>
+
+        <parameter id="geneCancerSummary"><![CDATA[<br/>肺癌是我国最常见的恶性肿瘤。引起肺癌的环境因素主要包括吸烟、吸入环境中的有害气体等。根据病理组织学类型世界卫生组织把肺癌的分成：非小细胞肺癌（non-small-cell lung cancer，NSCLC）和小细胞肺癌（small-cell lung cancer，SCLC）两大类。其中非小细胞肺癌的病例约占病例总数的85%。随着“精准医疗”的开展和“个体化治疗”的应用，最新的研究证据表明，针对相应驱动基因突变而设计的分子靶向治疗方案，不但具有上佳的疗效和疾病控制率，且毒副反应较轻，是临床上肺癌患者治疗的最佳选择。但传统检测方法检测位点有限并且费用高昂，常常不能保证检测的全面准确性还会为患者造成经济负担。建立在计算机技术、聚合酶工程技术、数据存储分析技术发展上的新一代高通量测序技术（next generation sequencing，NGS），大大降低了检测费用，能够针对肿瘤发生的基因变异进行全方位筛查，为进行个体化治疗提供全面、可靠、有效的治疗靶点筛查，具有革命性的意义。<br/><br/><style  font_size='12' font='fzltchjw'>本次</style><style  font_size='12' font='fzltchjw'>检测</style><style  font_size='12' font='fzltchjw'>的基因</style><style  font_size='12' font='fzltchjw'>简介</style><style  font_size='12' font='fzltchjw'>如下：</style><br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>ALK</style><style  font_size='10' font_color='#607b3f' bold='true'>融合基因检测</style><br/>EML4-ALK融合基因（棘皮动物微管相关蛋白样4-间变性淋巴瘤激酶echinoderm mcrotubule-as-sociated protein-like 4-anaplastic lymphoma kinase）是ALK基因重排的常见分型，最初由Soda等在非小细胞肺癌中发现，由第2号染色体短臂插入引起。分析这些融合基因的结构发现，其ALK部分均包括开始于第20外显子的编码细胞内酪氨酸激酶结构域的基因片段，EML4部分则包括长短不一的编码蛋白N端部分的基因片段。经检测，所有这些融合基因均有生物学功能，其表达产物为一种嵌合酪氨酸激酶。体内和体外实验证实EML4-ALK具有致癌活性。EML4-ALK融合基因是肺癌发生的关键因子之一。克唑替尼（Crizotinib）是2011年由FDA批准的治疗肺癌的药物，是ALK/ROS1/c-MET小分子抑制剂。在携带ALK基因重排的非小细胞肺癌患者中，克唑替尼治疗反应率达到65%，其有效率明显高于传统化疗。尤其对于分子靶向药物吉非替尼、厄洛替尼治疗无效的患者，该药能取得很好效果。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>BRAF</style><style  font_size='10' font_color='#607b3f' bold='true'>基因突变检测</style><br/>BRAF（B-raf）是一种癌基因，它编码一种丝/苏氨酸特异性激酶，是RAS/RAF/MEK/ERK/MAPK通路重要的转导因子，参与调控细胞内多种生物学事件，如细胞生长、分化和凋亡等。研究表明，在多种人类恶性肿瘤中，如恶性黑色素瘤、结直肠癌、肺癌、甲状腺癌、肝癌及胰腺癌等均存在不同比例的BRAF基因突变，约66%恶性黑色素瘤和15%的结肠癌中存在BRAF基因体细胞错义突变。大约80-90%的BRAF基因突变发生在Exon15的1799核苷酸上，T突变为A，导致其编码的谷氨酸由缬氨酸取代（V600E）。目前认为，V600E突变可模拟T599和S602两个位点的磷酸化过程，从而使B-raf蛋白异常激活。该突变可导致K-ras野生型肿瘤患者对抗体类药物如西妥昔单抗产生耐药性。在结直肠癌患者中，存在B-raf基因V600E位点突变时，一线治疗进展后使用抗EGFR单抗（西妥昔单抗）治疗是无效的。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>EGFR</style><style  font_size='10' font_color='#607b3f' bold='true'>基因（</style><style  font_size='10' font_color='#607b3f' bold='true'>Exon18</style><style  font_size='10' font_color='#607b3f' bold='true'>/</style><style  font_size='10' font_color='#607b3f' bold='true'>19</style><style  font_size='10' font_color='#607b3f' bold='true'>/</style><style  font_size='10' font_color='#607b3f' bold='true'>21</style><style  font_size='10' font_color='#607b3f' bold='true'>）</style><style  font_size='10' font_color='#607b3f' bold='true'>突变检测</style><br/>大量研究资料表明EGFR基因突变主要集中在酪氨酸激酶区（外显子18-2l），其中19外显子多为框内缺失（746-753）性突变，约占所有突变的45%；21外显子多为替代突变（主要是L858R），约占所有突变的40%。EGFR基因编码区外显子18、19和21的基因突变是患者对临床EGFR-TKI靶向治疗药物有效的必要前提。研究发现，非小细胞肺癌细胞中EGFR酪氨酸激酶基因编码区外显子18、19或21突变的患者，酪氨酸激酶抑制剂（TKIs）如易瑞沙（吉非替尼）、特罗凯（厄洛替尼）治疗的有效性显著增强。美国国立综合癌症网络（NCCN）临床指南已明确指出，肿瘤EGFR突变的前提下，推荐吉非替尼、厄洛替尼和阿法替尼为非小细胞肺癌一线治疗药物。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>EGFR</style><style  font_size='10' font_color='#607b3f' bold='true'>基因（</style><style  font_size='10' font_color='#607b3f' bold='true'>Exon20</style><style  font_size='10' font_color='#607b3f' bold='true'>）突变检测</style><br/>EGFR第20外显子（T790M、INS）突变可引起吉非替尼、厄洛替尼等TKIs的耐药。EGFR少见突变，包括S768I等突变，对于一代EGFR-TKIs的敏感性介于EGFR敏感性突变和EGFR野生型之间。相对于一代EGFR-TKIs而言，二代EGFR-TKIs可能更适用于EGFR少见突变的治疗。如果对于一个病人的EGFR检测中，发现耐药突变例如：T790M则提示其对于酪氨酸激酶抑制剂（TKIs），如：易瑞沙（吉非替尼）、特罗凯（厄洛替尼）的耐药。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>HER2</style><style  font_size='10' font_color='#607b3f' bold='true'>基因突变检测</style><br/>HER2/ErbB2是表皮生长因子受体（epidermal growth factor receptor，EGFR）家族的一员。HER2拷贝数增加（又称基因扩增）在乳腺癌是重要的分子亚型。HER2的基因变异形式除了扩增以外，还有基因序列突变。其中常见的是第20号外显子中的插入突变。在非小细胞肺癌中，HER2突变约占2-4%，其中无吸烟史的肺腺癌患者中占比更高。HER2的20号外显子插入突变可以增强HER2蛋白的活性，从而进一步激活下游的肿瘤细胞增殖通路。2014年版的美国国家综合癌症网络（NCCN）的肺癌治疗指南明确提出针对晚期NSCLC靶向药物除EGFR、ALK之外的MET、ROS1、RET、BRAF、HER2共5个明确的分子靶点。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>KRAS</style><style  font_size='10' font_color='#607b3f' bold='true'>基因（</style><style  font_size='10' font_color='#607b3f' bold='true'>Exon2/3</style><style  font_size='10' font_color='#607b3f' bold='true'>）突变检测</style><br/>KRAS（K-ras）基因是最重要的肿瘤致病基因之一，参与EGFR信号传导过程。KRAS基因突变导致EGFR信号通路持续激活进而加速肿瘤细胞增殖，常见的突变包括KRAS基因的第2外显子的12和13密码子、第3外显子的61密码子。研究表明，KRAS基因突变状态与非小细胞肺癌对易瑞沙（吉非替尼）、特罗凯（厄洛替尼）等靶向治疗药物的原发性耐药有关。另外，对于结直肠癌患者，KRAS基因突变检测用于决定患者是否适用EGFR单抗药物如爱必妥（西妥昔单抗）、维克替比（帕尼单抗）的治疗。美国国立综合癌症网络（NCCN）2015年版临床治疗指南指出：KRAS基因突变是EGFR酪氨酸激酶抑制剂疗效的预测指标，肿瘤患者在接受EGFR靶向药物治疗前必须进行KRAS基因突变检测，以帮助决定患者是否接受EGFR酪氨酸激酶抑制剂类药物治疗。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>MET</style><style  font_size='10' font_color='#607b3f' bold='true'>基因扩增检测及（</style><style  font_size='10' font_color='#607b3f' bold='true'>Exon</style><style  font_size='10' font_color='#607b3f' bold='true'>14</style><style  font_size='10' font_color='#607b3f' bold='true'>）</style><style  font_size='10' font_color='#607b3f' bold='true'>突变检测</style><br/>MET（c-Met）是一种由c-Met原癌基因编码的蛋白产物，为肝细胞生长因子受体，具有酪氨酸激酶活性，与多种癌基因产物和调节蛋白相关，参与细胞信息传导、细胞骨架重排的调控，是细胞增殖、分化和运动的重要因素。研究表明：肝细胞生长因子（HGF）/c-Met信号通路在原发性肿瘤的形成及继发转移中起着至关重要的作用。c-Met广泛表达于多种人体正常组织，但在肺癌、结肠癌、肝癌、直肠癌、胃癌、卵巢癌、肾癌、神经胶质瘤、黑素瘤、乳腺癌、前列腺癌等肿瘤组织中呈现出异常的高表达、突变或活性改变。当c-Met信号通路被活化后，通过一系列的磷酸化反应活化PI-3K，ERL1/2，PLC-γ，STAT和FAK等重要的信号分子及相应的信号通路，从而调节肿瘤细胞的增殖、迁移和侵袭能力。克唑替尼是一种强效的，ATP竞争性小分子c-Met激酶抑制剂。克唑替尼强效抑制c-Met磷酸化和信号转导，并抑制体外c-Met依赖的致癌性肿瘤细胞和内皮细胞。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>NRAS</style><style  font_size='10' font_color='#607b3f' bold='true'>基因（</style><style  font_size='10' font_color='#607b3f' bold='true'>Exon2/3</style><style  font_size='10' font_color='#607b3f' bold='true'>）突变检测</style><br/>NRAS（N-ras）基因为原癌基因，属于RAS基因家族，RAS是人体肿瘤中常见的致癌基因。NRAS突变多发生在以第61密码子。这些密码子编码的氨基酸是Ras蛋白和GTP酶活化蛋白（GAP）的作用位点。突变导致Ras-GTP处于持续激活状态，引起细胞恶性增殖和转移。约l%的NSCLC患者存在NRAS体细胞突变。NRAS突变在腺癌及有吸烟史的肺癌患者中发生率较高，与部分EGFR-TKI类药物耐药有关。研究表明，NRAS基因突变状态与非小细胞肺癌对MEK1/2抑制剂的敏感性有关。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>PIK3CA</style><style  font_size='10' font_color='#607b3f' bold='true'>基因（</style><style  font_size='10' font_color='#607b3f' bold='true'>Exon9/20</style><style  font_size='10' font_color='#607b3f' bold='true'>）</style><style  font_size='10' font_color='#607b3f' bold='true'>突变检测</style><br/>磷脂酰肌醇-3-激酶（PI3K）是一种脂质激酶，可参与细胞存活、运动、黏附和凋亡等多种细胞生理功能的调节。PI3K是由调节亚基p85和催化亚基p110组成的异源二聚体。PIK3CA编码PI3K的p110α催化亚基，它是目前PI3K家族成员中发现的唯一一个可以发生体细胞突变而致癌的基因。EGFR主要是通过二聚化后刺激Ras蛋白,导致磷酸化级联反应而激活PI3K/Akt信号通路，从而引起肿瘤的发生、发展。抗EGFR靶向治疗正是基于此机理而特异性的阻断此信号通路从而达到治疗目的。但当PIK3CA突变而导致功能异常时，则可绕过EGFR的初始信号而使下游信号通路持续激活，导致抗EGFR的靶向药物疗效不佳。大量数据表明PIK3CA的突变约4/5发生在螺旋区（9号外显子）和激酶区（20号外显子）两个热点区域上；这些突变都能使PI3K的脂质激酶活性增强，引起PI3K/Akt信号通路持续性活化，PI3K作为EGFR下游信号分子被激活，导致肿瘤细胞对EGFR-TKI（EGFR抑制剂）等药物的耐药。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>RET</style><style  font_size='10' font_color='#607b3f' bold='true'>融合基因</style><style  font_size='10' font_color='#607b3f' bold='true'>检测</style><br/>RET（Ret Proto-Oncogene）基因是钙粘蛋白超家族的成员之一，负责编码受体酪氨酸激酶蛋白，在细胞表面分子，对细胞生长和分化的信号转导起着重要作用。携带RET融合的肿瘤患者对RET抑制剂敏感。在非小细胞肺癌患者中，对于RET融合的临床意义比较明确。2015年，卡博替尼被NCCN指南推荐用于RET重排的非小细胞肺癌患者。<br/><br/><style  font_size='10' font_color='#607b3f' bold='true' italic='true'>ROS1</style><style  font_size='10' font_color='#607b3f' bold='true'>融合基因检测</style><br/>ROS1受体酪氨酸激酶基因染色体重排是非小细胞肺癌（NSCLC）一个分子亚型，肺癌患者ROS1基因重排阳性率约0.9%。在体外细胞实验证实ROS1基因重排可以导致ROS1融合激酶的表达，并且增强细胞对ROS激酶抑制剂的敏感性。临床研究表明，ROS1基因重排的局部晚期或转移性非小细胞肺癌能够从克唑替尼治疗中获益，检测ROS1基因重排是筛选适合克唑替尼患者的重要前提。2017版NCCN指南更是首次将ROS1基因融合检测纳入晚期NSCLC一线治疗方案中。<br/><br/>]]></parameter>
+
+        <parameter id="fdaNccnDescription"><![CDATA[<style font='fzltchjw' font_color='#000000' font_size='13'>获批适应症：</style><br/><br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Erlotinib</style><br/>可用于治疗既往接受过至少一个化疗方案失败后的局部晚期或转移的非小细胞肺癌。NCCN临床指南（2017.V7）明确指出，肿瘤EGFR突变的前提下，推荐厄洛替尼为非小细胞肺癌一线治疗药物。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Gefitinib</style><br/>可用于非小细胞肺癌的二线治疗。NCCN临床指南（2017.V7）明确指出，肿瘤EGFR突变的前提下，推荐吉非替尼为非小细胞肺癌一线治疗药物。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Afatinib</style><br/>可用于EGFR 突变阳性的非小细胞肺癌治疗。NCCN临床指南（2017.V7）明确指出，肿瘤EGFR突变的前提下，推荐阿法替尼为非小细胞肺癌一线治疗药物。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Icotinib</style><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>：</style><br/>CFDA批准的适应症为EGFR敏感突变的局部晚期或转移性非小细胞肺癌(NSCLC)的一线治疗，或既往接受过至少一个化疗方案(主要铂类药物为基础)失败的局部晚期或转移性NSCLC的治疗。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Osimertinib</style><br/>可用于治疗EGFR-T790M突变阳性的非小细胞肺癌。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Necitumumab</style><br/>适用与吉西他滨和顺铂联用为有转移鳞状非小细胞肺癌患者的一线治疗。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Crizotinib</style><br/>可用于治疗ALK 阳性的局部进展或晚期非小细胞肺癌。NCCN临床指南（2017.V7）明确指出，肿瘤ALK重排的前提下，推荐克唑替尼为非小细胞肺癌一线治疗药物。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Alectinib</style><br/>可用于治疗非小细胞肺癌进展或不能耐受克唑替尼。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Ceritinib</style><br/>可用于ALK阳性的转移性非小细胞肺癌（NSCLC）患者的一线治疗。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Brigatinib</style><br/>用于治疗罹患间变性淋巴瘤激酶（ALK）阳性非小细胞肺癌，且在克唑替尼Crizotinib治疗后病情出现进展或不耐受的患者。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Dabrafenib+ trametinib</style><br/>用于BRAF V600E突变的非小细胞肺癌。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Ramucirumab</style><br/>可用于治疗转移性非小细胞肺癌(经铂类联合多西他赛治疗期间或治疗后疾病仍然无进展的患者)。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Bevacizumab</style><br/>可用于治疗转移性非小细胞肺癌。NCCN临床指南（2017.V7）明确指出，贝伐单抗结合卡铂和紫杉醇作为(PS 0-1)非小细胞肺癌的一线治疗方案。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Pembrolizumab</style><br/>用于表达PDL1的转移性非小细胞肺癌（NSCLC）患者。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Nivolumab</style><br/>可用于治疗转移性鳞状非小细胞肺癌。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Atezolizumab</style><br/>用于疾病进展的非小细胞癌患者。<br/><br/><style font='fzltchjw' font_color='#000000' font_size='13'>药物简介：</style><br/><br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Erlotinib</style><br/>是一类靶向EGFR的小分子酪氨酸激酶抑制剂，该类药物通过阻断表皮生长因子受体(EGFR)的激酶活性而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，抑制肿瘤细胞的增生、分化同时也能增加化疗和放疗的抗肿瘤疗效。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Gefitinib</style><br/>是一类靶向EGFR的小分子酪氨酸激酶抑制剂，该类药物通过阻断表皮生长因子受体(EGFR)的激酶活性而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，抑制肿瘤细胞的增生、分化同时也能增加化疗和放疗的抗肿瘤疗效。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Afatinib</style><br/>是靶向EGFR/HER2小分子酪氨酸激酶的不可逆抑制剂，作为第二代高效双重非可逆性的酪氨酸激酶抑制剂，可同时抑制EGFR和HER2两种受体，共价结合EGFR、HER2的激酶区域，不可逆的抑制酪氨酸激酶的自磷酸化，导致下游信号通路的下调，抑制肿瘤细胞的增殖和生长。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Icotinib</style><br/>是一种选择性表皮生长因子受体(EGFR)酪氨酸激酶抑制剂，对野生型和突变型EGFR均有抑制作用。CFDA批准的适应症为EGFR敏感突变的局部晚期或转移性非小细胞肺癌(NSCLC)的一线治疗，或既往接受过至少一个化疗方案(主要铂类药物为基础)失败的局部晚期或转移性NSCLC的治疗。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Osimertinib</style><br/>是第三代表皮生长因子(EGFR) 酪氨酸激酶抑制剂药物(TKI)。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Necitumumab</style><br/>是一种表皮生长因子受体(EGFR)拮抗剂。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Crizotinib</style><br/>是靶向ALK/MET的小分子酪氨酸双激酶抑制剂，该药物以ATP竞争的方式，结合并抑制ALK激酶ALK融合蛋白。此外，克唑替尼还抑制MET激酶，阻断细胞内信号转导，从而抑制癌细胞的增殖。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Alectinib</style><br/>是一种ALK抑制剂。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Ceritinib</style><br/>是一种ALK抑制剂。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Brigatinib</style><br/>是一种ALK抑制剂。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Dabrafenib</style><br/>是一种激酶抑制剂。<style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Trametinib</style><br/>为小分子MEK1和MEK2激酶制剂。<style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'> </style><br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Ramucirumab</style><br/>是实体肿瘤的治疗开发的完全人单克隆抗体(IgG1)。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Bevacizumab</style><br/>为重组人源化单克隆抗体。通过体内、体外检测系统证实IgG1抗体能与人血管内皮生长因子(VEGF)结合并阻断其生物活性。而阿瓦斯汀包含了人源抗体的结构区和可结合VEGF的鼠源单抗的互补决定区。因此阿瓦斯汀能与VEGF结合从而使VEGF不能与它的受体FLT-1和KDR在内皮细胞表面结合，从而抑制内皮细胞增殖和新的肿瘤血管形成。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Pembrolizumab</style><br/>是用于癌症免疫治疗的人源化抗体，它靶向程序性细胞死亡1（PD-1）受体，阻断癌细胞的保护机制，使得免疫系统能破坏这些癌细胞。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Nivolumab</style><br/>是一种人类的IgG4和抗PD-1单克隆抗体。<br/><style  font_size='10' char_spacing='1.1' font_color='#607b3f' bold='true'>Atezolizumab</style><br/>是一个单克隆抗体结合PD-L1，解除PD-L1/PD-1介导的免疫反应的抑制作用。<br/>]]></parameter>
+        <table id='fdaNccnTable'>
+            <headers>
+                <header  column='0' value=''><![CDATA[药品]]></header>
+                <header  column='1' value=''><![CDATA[英文名称]]></header>
+                <header  column='2' value=''><![CDATA[靶点]]></header>
+                <header  column='3' value=''><![CDATA[获批资格]]></header>
+            </headers>
+            <rows>
+                <cell  row='1' column='0' value=''><![CDATA[厄洛替尼]]></cell>
+                <cell  row='1' column='1' value=''><![CDATA[Erlotinib]]></cell>
+                <cell  row='1' column='2' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='1' column='3' value=''><![CDATA[FDA/CFDA]]></cell>
+                <cell  row='2' column='0' value=''><![CDATA[吉非替尼]]></cell>
+                <cell  row='2' column='1' value=''><![CDATA[Gefitinib]]></cell>
+                <cell  row='2' column='2' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='2' column='3' value=''><![CDATA[FDA/CFDA]]></cell>
+                <cell  row='3' column='0' value=''><![CDATA[阿法替尼]]></cell>
+                <cell  row='3' column='1' value=''><![CDATA[Afatinib]]></cell>
+                <cell  row='3' column='2' value=''><![CDATA[EGFR/HER2/ERBB4]]></cell>
+                <cell  row='3' column='3' value=''><![CDATA[FDA/CFDA]]></cell>
+                <cell  row='4' column='0' value=''><![CDATA[埃克替尼]]></cell>
+                <cell  row='4' column='1' value=''><![CDATA[Icotinib]]></cell>
+                <cell  row='4' column='2' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='4' column='3' value=''><![CDATA[CFDA]]></cell>
+                <cell  row='5' column='0' value=''><![CDATA[奥希替尼]]></cell>
+                <cell  row='5' column='1' value=''><![CDATA[Osimertinib]]></cell>
+                <cell  row='5' column='2' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='5' column='3' value=''><![CDATA[FDA/CFDA]]></cell>
+                <cell  row='6' column='0' value=''><![CDATA[Portrazza]]></cell>
+                <cell  row='6' column='1' value=''><![CDATA[Necitumumab]]></cell>
+                <cell  row='6' column='2' value=''><![CDATA[EGFR]]></cell>
+                <cell  row='6' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='7' column='0' value=''><![CDATA[克唑替尼]]></cell>
+                <cell  row='7' column='1' value=''><![CDATA[Crizotinib]]></cell>
+                <cell  row='7' column='2' value=''><![CDATA[ALK/ROS1/MET]]></cell>
+                <cell  row='7' column='3' value=''><![CDATA[FDA/CFDA]]></cell>
+                <cell  row='8' column='0' value=''><![CDATA[艾乐替尼]]></cell>
+                <cell  row='8' column='1' value=''><![CDATA[Alectinib]]></cell>
+                <cell  row='8' column='2' value=''><![CDATA[ALK]]></cell>
+                <cell  row='8' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='9' column='0' value=''><![CDATA[色瑞替尼]]></cell>
+                <cell  row='9' column='1' value=''><![CDATA[Ceritinib]]></cell>
+                <cell  row='9' column='2' value=''><![CDATA[ALK/IGF1R]]></cell>
+                <cell  row='9' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='10' column='0' value=''><![CDATA[Alunbrig]]></cell>
+                <cell  row='10' column='1' value=''><![CDATA[Brigatinib]]></cell>
+                <cell  row='10' column='2' value=''><![CDATA[ALK]]></cell>
+                <cell  row='10' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='11' column='0' value=''><![CDATA[达拉非尼+曲美替尼]]></cell>
+                <cell  row='11' column='1' value=''><![CDATA[Dabrafenib+ trametinib]]></cell>
+                <cell  row='11' column='2' value=''><![CDATA[BRAF V600E]]></cell>
+                <cell  row='11' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='12' column='0' value=''><![CDATA[雷莫芦单抗]]></cell>
+                <cell  row='12' column='1' value=''><![CDATA[Ramucirumab]]></cell>
+                <cell  row='12' column='2' value=''><![CDATA[VEGFR-2]]></cell>
+                <cell  row='12' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='13' column='0' value=''><![CDATA[贝伐珠单抗]]></cell>
+                <cell  row='13' column='1' value=''><![CDATA[Bevacizumab]]></cell>
+                <cell  row='13' column='2' value=''><![CDATA[VEGF/KDR]]></cell>
+                <cell  row='13' column='3' value=''><![CDATA[FDA/CFDA]]></cell>
+                <cell  row='14' column='0' value=''><![CDATA[帕姆单抗]]></cell>
+                <cell  row='14' column='1' value=''><![CDATA[Pembrolizumab]]></cell>
+                <cell  row='14' column='2' value=''><![CDATA[PD-1]]></cell>
+                <cell  row='14' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='15' column='0' value=''><![CDATA[纳武单抗]]></cell>
+                <cell  row='15' column='1' value=''><![CDATA[Nivolumab]]></cell>
+                <cell  row='15' column='2' value=''><![CDATA[PD-1]]></cell>
+                <cell  row='15' column='3' value=''><![CDATA[FDA]]></cell>
+                <cell  row='16' column='0' value=''><![CDATA[Tecentriq]]></cell>
+                <cell  row='16' column='1' value=''><![CDATA[Atezolizumab]]></cell>
+                <cell  row='16' column='2' value=''><![CDATA[PD-L1]]></cell>
+                <cell  row='16' column='3' value=''><![CDATA[FDA]]></cell>
+            </rows>
+        </table>
+
+
+
         <parameter id="targetedDrugInfo" value="">
 <![CDATA[
 吉非替尼是一类靶向EGFR 的小分子酪氨酸激酶抑制剂，该类药物主要通过阻断表皮生长因子受体(EGFR)的激酶活性 而抑制其磷酸化和下游信号传导，从而起到抗肿瘤作用，即抑制肿瘤细胞的增生、分化，同时也能提高化疗和放疗的抗肿 瘤疗效。适用于治疗既往接受过化学治疗或不适于化疗的局部、晚期或转移性非小细胞肺癌(NSCLC)。厄洛替尼的作 用靶点为 EGFR ，主要检测靶点为 BRAF、EGFR、KRAS 。当 EGFR 的 18/19/21 号外显子突变时，对该药物敏感， 提示临床优先使用;当 EGFR 第 20 号外显子突变、KRAS 突变时，则对吉非替尼耐药，临床不建议使用。2016 年， NCCN 指南推荐吉非替尼用于非小细胞肺癌的一线治疗。<br/><br/>
@@ -838,43 +1342,6 @@
                 <cell row="22"  column="4" value="3"/>
             </rows>
         </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

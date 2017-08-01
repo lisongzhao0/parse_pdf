@@ -74,7 +74,7 @@ public class HeaderDef extends AbstractDef implements IXml<HeaderDef> {
         List<CellDef> cells = getComponentsArea();
         for (int i = 0; i < cells.size(); i++) {
             CellDef tmp = cells.get(i);
-            if (null!=tmp.getText() && null!=headers) {
+            if (null!=tmp.getText() && null!=headers && !headers.isEmpty()) {
                 tmp.getText().setValue(headers.get(i).getName());
             }
             try { headerAreaRect = tmp.getArea(width * columnsWidth[i]); } catch (Exception ex) { headerAreaRect = null;}

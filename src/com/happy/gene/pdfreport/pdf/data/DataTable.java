@@ -82,6 +82,7 @@ public class DataTable implements IXml<DataTable> {
             for (Element tmp : elements) {
                 DataTable.Header def = new DataTable.Header();
                 def.name = tmp.attributeValue("value");
+                if (null==def.name || "".equals(def.name)) { def.name = tmp.getTextTrim(); }
                 try {def.column = Integer.parseInt(tmp.attributeValue("column")); } catch (Exception ex) { def.column = 0; }
                 headers.add(def);
             }

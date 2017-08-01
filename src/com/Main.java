@@ -30,7 +30,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/template_target_has_chemotherapy.xml";
+        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/template_10_gene_chemotherapy.xml";
         String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/test_data.xml";
 
         XmlDataParser parser = XmlDataParser.getInstance();

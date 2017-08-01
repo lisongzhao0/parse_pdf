@@ -59,6 +59,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
     private boolean crossPage;
     private float   topY;
     private float   bottomY;
+    private float   marginTop;
 
     public String getValue() {
         return value;
@@ -252,6 +253,13 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         return this;
     }
 
+    public float getMarginTop() {
+        return marginTop;
+    }
+    public void setMarginTop(float marginTop) {
+        this.marginTop = marginTop;
+    }
+
     public float lastY() {
         return lastY;
     }
@@ -298,9 +306,10 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         try { this.italic    = Boolean.parseBoolean(element.attributeValue("italic"));   } catch (Exception ex) {this.italic   = false;}
         try { this.underline = Boolean.parseBoolean(element.attributeValue("underline"));} catch (Exception ex) {this.underline= false;}
         try { this.autoLayout= Boolean.parseBoolean(element.attributeValue("auto_layout"));} catch (Exception ex) {this.autoLayout= false;}
-        try { this.crossPage = Boolean.parseBoolean(element.attributeValue("cross_page"));} catch (Exception ex) {this.crossPage = false;}
-        try { this.topY      = Float.parseFloat(element.attributeValue("top_y"));         } catch (Exception ex) {this.topY      = Float.MAX_VALUE;}
-        try { this.bottomY   = Float.parseFloat(element.attributeValue("bottom_y"));      } catch (Exception ex) {this.bottomY   = 0.0f;}
+        try { this.crossPage = Boolean.parseBoolean(element.attributeValue("cross_page")); } catch (Exception ex) {this.crossPage = false;}
+        try { this.topY      = Float.parseFloat(element.attributeValue("top_y"));          } catch (Exception ex) {this.topY      = Float.MAX_VALUE;}
+        try { this.bottomY   = Float.parseFloat(element.attributeValue("bottom_y"));       } catch (Exception ex) {this.bottomY   = 0.0f;}
+        try { this.marginTop = Float.parseFloat(element.attributeValue("margin_top"));     } catch (Exception ex) {this.marginTop = 0.0f;}
         try { this.calculateWidthInTextBox = Boolean.parseBoolean(element.attributeValue("calculate_width_in_box")); } catch (Exception ex) {this.calculateWidthInTextBox = false;}
         try { this.calculateHeightInTextBox = Boolean.parseBoolean(element.attributeValue("calculate_height_in_box")); } catch (Exception ex) {this.calculateHeightInTextBox = false;}
         this.lastY(this.y);
@@ -321,11 +330,12 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         if (null!=page) {
             Paragraph paragraph = getText();
             List<LineRenderer> lineAreas = isCrossPage() ? new ArrayList<>() : null;
-            float[] area = getAreaLine(getWidth(), lineAreas);
+            float[] area      = getAreaLine(getWidth(), lineAreas);
+            float   marginTop = getMarginTop();
             if (isAutoLayout()) {
                 if (!isCrossPage()) {
                     if (null!=area) {
-                        lastY(lastY() - area[1]);
+                        lastY(lastY() - area[1] - marginTop);
                     }
                     pageNumber = pdf.getPdfDocument().getPageNumber(page);
                     setPageStartNumberInPdf(pageNumber);
@@ -338,13 +348,13 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                 }
                 else {
                     if (null!=area) {
-                        if (lastY() - area[1] < bottomY) {
+                        if (lastY() - area[1] - marginTop < bottomY) {
                             page = pdf.getPdfDocument().addNewPage();
                             pageDef.rendererPage(pdf, pageDef);
                             page = pdf.getPdfDocument().getLastPage();
                             lastY(topY);
                         }
-                        lastY(lastY() - area[1]);
+                        lastY(lastY() - area[1] - marginTop);
                     }
                     pageNumber = pdf.getPdfDocument().getPageNumber(page);
                     setPageStartNumberInPdf(pageNumber);
@@ -358,12 +368,12 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
             }
             else {
                 if (null!=area) {
-                    lastY(getY() - area[1]);
+                    lastY(getY() - area[1] - marginTop);
                 }
                 page = pdf.getPdfDocument().getLastPage();
                 pageNumber = pdf.getPdfDocument().getPageNumber(page);
                 setPageStartNumberInPdf(pageNumber);
-                paragraph.setFixedPosition(pageNumber, getX(), getY(), getWidth());
+                paragraph.setFixedPosition(pageNumber, getX(), getY()-marginTop, getWidth());
                 if (null!=pdf) {
                     pdf.add(paragraph);
                 }
@@ -597,6 +607,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         newOne.crossPage  = this.crossPage;
         newOne.topY       = this.topY;
         newOne.bottomY    = this.bottomY;
+        newOne.marginTop  = this.marginTop;
 
         return newOne;
     }
