@@ -368,7 +368,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
             }
             else {
                 if (null!=area) {
-                    lastY(getY() - area[1] - marginTop);
+                    lastY(getY() - marginTop);
                 }
                 page = pdf.getPdfDocument().getLastPage();
                 pageNumber = pdf.getPdfDocument().getPageNumber(page);

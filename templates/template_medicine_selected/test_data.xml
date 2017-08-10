@@ -5,6 +5,7 @@
         <font id="fzlthjw"    embedded="true" name="fzlthjw"    ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzlthjw.ttf"/>
         <font id="fzltchjw"   embedded="true" name="fzltchjw"   ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzltchjw.ttf"/>
         <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzltxh_gbk.ttf"/>
+        <font id="arial" embedded="true" name="arial" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/arial.ttf"/>
     </fonts>
 
 

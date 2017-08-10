@@ -4,6 +4,7 @@ import com.happy.gene.pdfreport.pdf.IBound;
 import com.happy.gene.pdfreport.pdf.IXml;
 import com.happy.gene.pdfreport.pdf.IZOrder;
 import com.happy.gene.pdfreport.pdf.data.DataTable;
+import com.happy.gene.pdfreport.pdf.def.AreaDef;
 import com.happy.gene.pdfreport.pdf.def.PageDef;
 import com.happy.gene.pdfreport.pdf.def.element.*;
 import com.happy.gene.pdfreport.pdf.util.DefFactory;
@@ -67,7 +68,7 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
         if (condition.contains("==")) {
             String split[] = condition.split("==");
             if (split.length!=2) {
-                return false;
+                split = new String[]{split[0], ""};
             }
             split[0] = split[0].replace("col", "");
             Integer colIndex = NumberUtil.newInstance().parseInteger(split[0]);
@@ -80,7 +81,7 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
         else if (condition.contains("!=")) {
             String split[] = condition.split("!=");
             if (split.length!=2) {
-                return false;
+                split = new String[]{split[0], ""};
             }
             split[0] = split[0].replace("col", "");
             Integer colIndex = NumberUtil.newInstance().parseInteger(split[0]);
@@ -202,6 +203,10 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
                     if (tmp instanceof PathDef) {
                         ((PathDef) tmp).translate(0, deltaY);
                         ((PathDef) tmp).generate(pdf, pageDef);
+                    }
+                    if (tmp instanceof AreaDef) {
+                        ((AreaDef) tmp).translate(0, deltaY);
+                        ((AreaDef) tmp).generate(pdf, pageDef);
                     }
                 }
             }

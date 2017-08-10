@@ -30,8 +30,8 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/template_10_gene_chemotherapy.xml";
-        String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/test_data.xml";
+        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/template001.xml";
+        String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/test_data.xml";
 
         XmlDataParser parser = XmlDataParser.getInstance();
         XmlDataCache cache  = XmlDataCache.getInstance();
@@ -54,8 +54,8 @@ public class Main {
         cache.setParameters(XmlDataCache.TOP_KEY_TEMPLATE, templates);
 
 
-        int totalPageNumber = getTotalPageNumber(cache, groups);
-        cache.setParameter("totalPage", totalPageNumber>99 ? ""+totalPageNumber : (totalPageNumber>9 ? "0"+totalPageNumber : "00"+totalPageNumber));
+//        int totalPageNumber = getTotalPageNumber(cache, groups, templateFilePath);
+//        cache.setParameter("totalPage", totalPageNumber>99 ? ""+totalPageNumber : (totalPageNumber>9 ? "0"+totalPageNumber : "00"+totalPageNumber));
 
         ByteArrayOutputStream baos      = new ByteArrayOutputStream(64280);
         PdfWriter             pdfWriter = new PdfWriter(baos);
@@ -186,110 +186,109 @@ public class Main {
         System.out.println();
     }
 
-    public static int getTotalPageNumber(XmlDataCache cache, List<Group> groups) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/template_target_has_chemotherapy.xml";
-
-        XmlDataParser parser = XmlDataParser.getInstance();
-
-        Map<String, FontDef>    fonts   = (Map<String, FontDef>) cache.getParameters(XmlDataCache.TOP_KEY_FONT);
-
-
-        ByteArrayOutputStream baos      = new ByteArrayOutputStream(64280);
-        PdfWriter             pdfWriter = new PdfWriter(baos);
-        PdfDocument           pdfDoc    = new PdfDocument(pdfWriter);
-        pdfDoc.setDefaultPageSize(PageSize.A4);
-        Document doc = new com.itextpdf.layout.Document(pdfDoc, PageSize.A4);
-
-        Collection<FontDef> fontCollection = fonts.values();
-        for (FontDef tmp : fontCollection) {
-            if ("true".equals(tmp.getEmbedded())) {
-                if (null!=tmp.getTtfPath() && !"".equalsIgnoreCase(tmp.getTtfPath())) {
-                    PdfFont embededFont = PdfFontFactory.createFont(tmp.getTtfPath(), PdfEncodings.IDENTITY_H, true);
-                    tmp.setFont(embededFont);
-                    fonts.put(tmp.getId(), tmp);
-                }
-            }
-            else if ("system".equals(tmp.getEmbedded())) {
-                PdfFont embededFont = PdfFontFactory.createFont(tmp.getName(), PdfEncodings.IDENTITY_H, true);
-                tmp.setFont(embededFont);
-                fonts.put(tmp.getId(), tmp);
-            }
-        }
-
-        UserGeneCheckReportTemplatePageRenderer testRender = new UserGeneCheckReportTemplatePageRenderer();
-        List<AbstractDef> pages = parser.getPages(templateFilePath, testRender);
-        Collections.sort(pages, IZOrder.comparator);
-        int nextPageIndex = 1;
-
-        int totalPageNumber = 0;
-        List<PageDef> needRepaintPages = new ArrayList<>();
-        for (int i = 0; i < pages.size(); i ++) {
-            AbstractDef tmp = pages.get(i);
-            if (tmp instanceof PageDef) {
-                ((PageDef)tmp).setPageStartNumber(nextPageIndex);
-                if (((PageDef) tmp).getBooleanProperty("repaint_after_all")) {
-                    needRepaintPages.add(((PageDef) tmp));
-                    ((PageDef) tmp).setStopGenerate(true);
-                    ((PageDef) tmp).setStopRenderer(true);
-                }
-                ((PageDef)tmp).generate(doc, ((PageDef)tmp));
-                nextPageIndex = ((PageDef)tmp).getPageEndNumber() + 1;
-            }
-            else if (tmp instanceof PageGroupDef) {
-                for (Group groupData : groups) {
-                    PageGroupDef pageGroup = ((PageGroupDef) tmp).clone();
-                    String catalog = groupData.getProperty("catalog");
-                    String needReplaceCatalog = pageGroup.getProperty("catalog");
-                    List<AbstractDef> components = pageGroup.getComponents();
-                    for (AbstractDef def : components) {
-                        if (!(def instanceof PageDef)) {
-                            continue;
-                        }
-                        PageDef page = (PageDef) def;
-                        String pageCatalog = page.getProperty("catalog");
-                        if (pageCatalog.contains(needReplaceCatalog)) {
-                            pageCatalog = pageCatalog.replace(needReplaceCatalog, catalog);
-                            page.setProperty("catalog", pageCatalog);
-                        }
-                    }
-
-                    Map<String, Parameter> groupParams = groupData.getParams();
-                    Map<String, DataTable> groupTables = groupData.getTables();
-                    Map<String, TreeNode>  groupTrees  = groupData.getTrees();
-                    Set<String> keys = null;
-                    keys = groupParams.keySet();
-                    for (String key : keys) {
-                        cache.setParameter(key, groupParams.get(key));
-                    }
-                    keys = groupTables.keySet();
-                    for (String key : keys) {
-                        cache.setTable(key, groupTables.get(key));
-                    }
-
-                    for (AbstractDef def : components) {
-                        if (!(def instanceof PageDef)) {
-                            def.generate(doc, null);
-                            continue;
-                        }
-
-                        PageDef page = (PageDef) def;
-                        page.setPageStartNumber(nextPageIndex);
-                        page.generate(doc, page);
-                        nextPageIndex = page.getPageEndNumber() + 1;
-                        if (page.getBooleanProperty("repaint_after_all")) {
-                            needRepaintPages.add(((PageDef) tmp));
-                        }
-                    }
-                }
-            }
-            if (i>0 && totalPageNumber==0 && tmp.getZOrder()>=1000000000) {
-                totalPageNumber = ((PageDef)pages.get(i-1)).getPageEndNumber();
-                System.out.println(totalPageNumber);
-            }
-        }
-
-        pdfDoc.close();
-        baos.close();
-        return totalPageNumber;
-    }
+//    public static int getTotalPageNumber(XmlDataCache cache, List<Group> groups, String templateFilePath) throws Exception {
+//
+//        XmlDataParser parser = XmlDataParser.getInstance();
+//
+//        Map<String, FontDef>    fonts   = (Map<String, FontDef>) cache.getParameters(XmlDataCache.TOP_KEY_FONT);
+//
+//
+//        ByteArrayOutputStream baos      = new ByteArrayOutputStream(64280);
+//        PdfWriter             pdfWriter = new PdfWriter(baos);
+//        PdfDocument           pdfDoc    = new PdfDocument(pdfWriter);
+//        pdfDoc.setDefaultPageSize(PageSize.A4);
+//        Document doc = new com.itextpdf.layout.Document(pdfDoc, PageSize.A4);
+//
+//        Collection<FontDef> fontCollection = fonts.values();
+//        for (FontDef tmp : fontCollection) {
+//            if ("true".equals(tmp.getEmbedded())) {
+//                if (null!=tmp.getTtfPath() && !"".equalsIgnoreCase(tmp.getTtfPath())) {
+//                    PdfFont embededFont = PdfFontFactory.createFont(tmp.getTtfPath(), PdfEncodings.IDENTITY_H, true);
+//                    tmp.setFont(embededFont);
+//                    fonts.put(tmp.getId(), tmp);
+//                }
+//            }
+//            else if ("system".equals(tmp.getEmbedded())) {
+//                PdfFont embededFont = PdfFontFactory.createFont(tmp.getName(), PdfEncodings.IDENTITY_H, true);
+//                tmp.setFont(embededFont);
+//                fonts.put(tmp.getId(), tmp);
+//            }
+//        }
+//
+//        UserGeneCheckReportTemplatePageRenderer testRender = new UserGeneCheckReportTemplatePageRenderer();
+//        List<AbstractDef> pages = parser.getPages(templateFilePath, testRender);
+//        Collections.sort(pages, IZOrder.comparator);
+//        int nextPageIndex = 1;
+//
+//        int totalPageNumber = 0;
+//        List<PageDef> needRepaintPages = new ArrayList<>();
+//        for (int i = 0; i < pages.size(); i ++) {
+//            AbstractDef tmp = pages.get(i);
+//            if (tmp instanceof PageDef) {
+//                ((PageDef)tmp).setPageStartNumber(nextPageIndex);
+//                if (((PageDef) tmp).getBooleanProperty("repaint_after_all")) {
+//                    needRepaintPages.add(((PageDef) tmp));
+//                    ((PageDef) tmp).setStopGenerate(true);
+//                    ((PageDef) tmp).setStopRenderer(true);
+//                }
+//                ((PageDef)tmp).generate(doc, ((PageDef)tmp));
+//                nextPageIndex = ((PageDef)tmp).getPageEndNumber() + 1;
+//            }
+//            else if (tmp instanceof PageGroupDef) {
+//                for (Group groupData : groups) {
+//                    PageGroupDef pageGroup = ((PageGroupDef) tmp).clone();
+//                    String catalog = groupData.getProperty("catalog");
+//                    String needReplaceCatalog = pageGroup.getProperty("catalog");
+//                    List<AbstractDef> components = pageGroup.getComponents();
+//                    for (AbstractDef def : components) {
+//                        if (!(def instanceof PageDef)) {
+//                            continue;
+//                        }
+//                        PageDef page = (PageDef) def;
+//                        String pageCatalog = page.getProperty("catalog");
+//                        if (pageCatalog.contains(needReplaceCatalog)) {
+//                            pageCatalog = pageCatalog.replace(needReplaceCatalog, catalog);
+//                            page.setProperty("catalog", pageCatalog);
+//                        }
+//                    }
+//
+//                    Map<String, Parameter> groupParams = groupData.getParams();
+//                    Map<String, DataTable> groupTables = groupData.getTables();
+//                    Map<String, TreeNode>  groupTrees  = groupData.getTrees();
+//                    Set<String> keys = null;
+//                    keys = groupParams.keySet();
+//                    for (String key : keys) {
+//                        cache.setParameter(key, groupParams.get(key));
+//                    }
+//                    keys = groupTables.keySet();
+//                    for (String key : keys) {
+//                        cache.setTable(key, groupTables.get(key));
+//                    }
+//
+//                    for (AbstractDef def : components) {
+//                        if (!(def instanceof PageDef)) {
+//                            def.generate(doc, null);
+//                            continue;
+//                        }
+//
+//                        PageDef page = (PageDef) def;
+//                        page.setPageStartNumber(nextPageIndex);
+//                        page.generate(doc, page);
+//                        nextPageIndex = page.getPageEndNumber() + 1;
+//                        if (page.getBooleanProperty("repaint_after_all")) {
+//                            needRepaintPages.add(((PageDef) tmp));
+//                        }
+//                    }
+//                }
+//            }
+//            if (i>0 && totalPageNumber==0 && tmp.getZOrder()>=1000000000) {
+//                totalPageNumber = ((PageDef)pages.get(i-1)).getPageEndNumber();
+//                System.out.println(totalPageNumber);
+//            }
+//        }
+//
+//        pdfDoc.close();
+//        baos.close();
+//        return totalPageNumber;
+//    }
 }

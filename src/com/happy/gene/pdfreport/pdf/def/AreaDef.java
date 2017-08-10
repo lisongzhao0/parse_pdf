@@ -1,5 +1,7 @@
 package com.happy.gene.pdfreport.pdf.def;
 
+import com.happy.gene.pdfreport.pdf.IBound;
+import com.happy.gene.pdfreport.pdf.IPosition;
 import com.happy.gene.pdfreport.pdf.IVariable;
 import com.happy.gene.pdfreport.pdf.IXml;
 import com.happy.gene.pdfreport.pdf.def.element.AbstractDef;
@@ -20,7 +22,7 @@ import java.util.List;
 /**
  * Created by zhaolisong on 14/07/2017.
  */
-public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
+public class AreaDef extends AbstractDef implements IBound, IXml<AreaDef>, IVariable, IPosition<AreaDef> {
 
     private float x = 0, y = 0, w = 0, h = 0;
     private float marginL=0,marginT=0,marginR=0,marginB=0;
@@ -50,6 +52,12 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
         return this;
     }
 
+    public AreaDef translate(float deltaX, float deltaY) {
+        this.x += deltaX;
+        this.y += deltaY;
+        return this;
+    }
+
     public float getW() {
         return w;
     }
@@ -64,6 +72,10 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
     public AreaDef setH(float h) {
         this.h = h;
         return this;
+    }
+
+    public float[] minMaxXY() {
+        return new float[]{x, y-h, x+w, y};
     }
 
     public float getMarginL() {
@@ -201,6 +213,7 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
         PdfPage page = pdf.getPdfDocument().getLastPage();
 
         float startY = (isAutoLayout() ? lastY() : getY());
+        startY = startY<=0.0f ? getY() : startY;
         float startX = getX();
         if (isAutoLayout() && (startY-getH())<getBottomY()) {
             setY(getTopY());
@@ -227,7 +240,7 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
             if (clone instanceof RectDef) {
                 RectDef rec = ((RectDef) clone);
                 float[] bound = rec.getBound();
-                rec.setBound(bound[0]+startX, startY-bound[1], bound[2]+startX, startY-bound[3], bound[4]);
+                rec.setBound(bound[0]+startX, startY-bound[1], bound[2], bound[3], bound[4]);
                 rec.generate(pdf, pageDef);
             }
             if (clone instanceof ImageDef) {
@@ -242,10 +255,10 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
             PdfCanvas rect = new PdfCanvas(page);
             rect.saveState();
             rect.setColor(Color.BLACK, false);
-            rect.moveTo(x, y);
-            rect.lineTo(x + getW(), y);
-            rect.lineTo(x + getW(), y - getH());
-            rect.lineTo(x, y - getH());
+            rect.moveTo(x, startY);
+            rect.lineTo(x + getW(), startY);
+            rect.lineTo(x + getW(), startY - getH());
+            rect.lineTo(x, startY - getH());
             rect.closePath();
             rect.setLineWidth(1.0f);
             rect.stroke();
@@ -258,6 +271,7 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
     @Override
     public AbstractDef clone() {
         AreaDef newOne = new AreaDef();
+        newOne.setZOrder(this.getZOrder());
         newOne.x    = this.x;
         newOne.y    = this.y;
         newOne.w    = this.w;
@@ -274,6 +288,8 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
         newOne.bottomY  = this.bottomY;
         newOne.lastY    = this.lastY();
 
+        newOne.borderShown = this.borderShown;
+
         for (AbstractDef obj : this.components) {
             if (obj instanceof AbstractDef) {
                 AbstractDef clone = obj.clone();
@@ -284,5 +300,4 @@ public class AreaDef extends AbstractDef implements IXml<AreaDef>, IVariable {
         }
         return newOne;
     }
-
 }

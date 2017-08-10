@@ -115,9 +115,7 @@
             <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="三、项目内容"/>
         </text_box>
         <rect z_order="15" auto_layout="true" border_margin="0 5 0 5" border_color="#ffffff" border_width="1" path="maxx 510 maxy 636 minx 500 miny 636"/>
-        <paragraph z_order="16" auto_layout="true" font="fzltxh_gbk" font_size="9" color="#404040" x="58" y="545" bottom_y="93" top_y="755" width="460" line_leading="1.3" value="">
-<![CDATA[$checkContent]]>
-        </paragraph>
+        <paragraph z_order="16" auto_layout="true" font="fzltxh_gbk" font_size="9" color="#404040" x="58" y="545" bottom_y="93" top_y="755" width="460" line_leading="1.3" value="$programContent"/>
     </page>
 
 
@@ -185,10 +183,10 @@
     <!--********************************************************************************************-->
     <!--***********************************  第五项 靶向药物简述  *************************************-->
     <!--********************************************************************************************-->
-    <page z_order="8" catalog="4 0 0" page_header="true" page_number="true" type="appendix">
+    <page z_order="8" catalog="4 0 0" page_header="true" page_number="true" type="appendix" visible="$isPositive">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3" catalog="4 1 0">
-            <value id="detailJiBingXiaoBiaoTi" value="五、靶向药物简述"/>
+            <value id="detailJiBingXiaoBiaoTi" value="$fiveChapterName"/>
             <value id="detailJiBing" value=""/>
         </template>
 
@@ -231,7 +229,7 @@
     <page z_order="9" catalog="5 0 0" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3" catalog="5 1 0">
-            <value id="detailJiBingXiaoBiaoTi" value="六、具体检出位点"/>
+            <value id="detailJiBingXiaoBiaoTi" value="$sixChapterName"/>
             <value id="detailJiBing" value=""/>
         </template>
 
@@ -287,15 +285,39 @@
     <!--*************************************************************************************************-->
     <!--*********************************  第七项 疾病与基因简介  *********************************-->
     <!--*************************************************************************************************-->
-    <page z_order="10" catalog="6 0 0" page_header="true" page_number="true" type="appendix" visible="$hasChemotherapy">
+    <page z_order="10" catalog="6 0 0" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3" catalog="6 1 0">
-            <value id="detailJiBingXiaoBiaoTi" value="七、疾病与基因简介"/>
+            <value id="detailJiBingXiaoBiaoTi" value="$sevenChapterName"/>
             <value id="detailJiBing" value=""/>
         </template>
 
-        <paragraph z_order="3" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="747" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
-            <![CDATA[$geneCancerSummary<br/>]]>
+        <paragraph z_order="2" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="747" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+            <![CDATA[$geneCancerSummary1<br/><br/>]]>
+        </paragraph>
+
+        <vertical_table z_order="3" auto_layout="true" gap_h="6" data="$checkResultPartDrugTable"  x="58" y="727" top_y="747" bottom_y="50" width="479"
+                        column_width="0.13 0.15 0.215 0.125 0.38" header_in_every_page="true" cell_center_v="true" gap_header_row="6"
+                        header_split_line="true" header_split_line_color="#607b3f" header_split_line_width="0.17" visible="$isCheckResultPartDrugVisible">
+            <header>
+                <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="9" color="#404040" value="$0"/>
+                <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="9" color="#404040" value="$1"/>
+                <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="9" color="#404040" value="$2"/>
+                <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="9" color="#404040" value="$3"/>
+                <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="9" color="#404040" value="$4"/>
+            </header>
+            <row>
+                <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$0"/>
+                <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
+                <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
+                <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
+                <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
+            </row>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+        </vertical_table>
+
+        <paragraph z_order="4" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="747" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+            <![CDATA[$geneCancerSummary2<br/>]]>
         </paragraph>
     </page>
 
@@ -342,29 +364,33 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
         <text z_order="7" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="472" width="180" value="北京元码医学检验所有限公司"/>
         <rect z_order="8" path="maxX 330 maxY 470.1 minX 130 minY 470" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
 
-        <text z_order="9"  line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="440" width="100" value="检验者"/>
-        <text z_order="10" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="442" width="180" value=""/>
-        <rect z_order="11" path="maxX 330 maxY 440.1 minX 130 minY 440" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
+        <text  z_order="31"  line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="440" width="100" value="检验者"/>
+        <image z_order="33" id="member" type="JPG"  x="150" y="440" height="18" width="159.9476" url="$jianYanSign"/>
+        <rect  z_order="32" path="maxX 330 maxY 440.1 minX 130 minY 440" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
 
-        <text z_order="12" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="410" width="100" value="检验日期"/>
-        <text z_order="13" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="412" width="180" value=""/>
-        <rect z_order="14" path="maxX 330 maxY 410.1 minX 130 minY 410" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
+        <text z_order="42" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="410" width="100" value="检验日期"/>
+        <text z_order="43" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="412" width="180" value="$geneCheckDate"/>
+        <rect z_order="44" path="maxX 330 maxY 410.1 minX 130 minY 410" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
 
-        <text z_order="15" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="380" width="100" value="核对者"/>
-        <text z_order="16" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="382" width="180" value=""/>
-        <rect z_order="17" path="maxX 330 maxY 380.1 minX 130 minY 380" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
+        <text  z_order="51" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="380" width="100" value="核对者"/>
+        <image z_order="54" id="member" type="JPG"  x="150" y="381" height="18" width="159.9476" url="$heDuiSign"/>
+        <rect  z_order="53" path="maxX 330 maxY 380.1 minX 130 minY 380" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
 
-        <text z_order="18" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="350" width="100" value="报告日期"/>
-        <text z_order="19" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="352" width="180" value=""/>
-        <rect z_order="20" path="maxX 330 maxY 350.1 minX 130 minY 350" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
+        <text  z_order="61" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="350" width="100" value="报告日期"/>
+        <text  z_order="62" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="352" width="180" value="$reportDate"/>
+        <rect  z_order="63" path="maxX 330 maxY 350.1 minX 130 minY 350" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
 
-        <text   z_order="21" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="320" width="100" value="审核者签章"/>
-        <circle z_order="22" cx="200" cy="275" r="41.413" border_width="0.4" border_color="#000000" dash_on="12" dash_off="8"/>
+        <text   z_order="71" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="320" width="100" value="审核者签章"/>
+        <rect   z_order="72" path="maxX 330 maxY 320.1 minX 130 minY 320" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
+        <circle z_order="73" cx="200" cy="275" r="41.413" border_width="0.4" border_color="#000000" dash_on="12" dash_off="8"/>
+        <image  z_order="33" id="member" type="JPG"  x="150" y="321" height="18" width="159.9476" url="$shenHeSign"/>
+        <image  z_order="75" id="member" type="JPG" fit="a" x="150" y="220" height="100" width="159.9476" url="./images/orginal_code.jpg"/>
 
-        <text   z_order="23" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="200" width="100" value="产品提供"/>
-        <text   z_order="24" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="202" width="180" value="北京幸福基石科技有限公司"/>
-        <rect   z_order="25" path="maxX 330 maxY 200.1 minX 130 minY 200" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
-        <circle z_order="26" cx="200" cy="140" r="41.413" border_width="0.4" border_color="#000000" dash_on="12" dash_off="8"/>
+        <text   z_order="83" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="200" width="100" value="产品提供"/>
+        <text   z_order="84" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="202" width="180" value="北京幸福基石科技有限公司"/>
+        <rect   z_order="85" path="maxX 330 maxY 200.1 minX 130 minY 200" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
+        <circle z_order="86" cx="200" cy="140" r="41.413" border_width="0.4" border_color="#000000" dash_on="12" dash_off="8"/>
+        <image  z_order="87" id="member" type="JPG" fit="a" x="150" y="90" height="100" width="100" url="./images/happygene_company.jpg"/>
 
 
         <text z_order="100" line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" x="58" y="59" width="479" value="">
@@ -428,7 +454,7 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
             <value id="detailJiBing" value=""/>
         </template>
 
-        <paragraph z_order="2" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="$appendixReferences"/>
+        <paragraph z_order="2" line_leading="1.2" font="arial" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="$appendixReferences"/>
     </page>
 
 
@@ -448,6 +474,6 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
     <!--*************************************************************************************************-->
     <page z_order="1000000000" type="back_cover">
         <image z_order="1" id="member" type="JPG" fit="a" x="210" y="396" height="50" width="176" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/logo.jpg"/>
-        <image z_order="1" id="member" type="GIF" fit="a" x="58" y="58" height="150" width="162.9393" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/back_cover.png"/>
+        <image z_order="2" id="member" type="GIF" fit="a" x="58" y="58" height="150" width="162.9393" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/back_cover.png"/>
     </page>
 </pdf>

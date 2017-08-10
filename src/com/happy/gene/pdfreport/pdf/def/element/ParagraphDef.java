@@ -768,6 +768,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         ParagraphDef newOne = new ParagraphDef();
         newOne.setZOrder(this.getZOrder());
         newOne.value   = this.value;
+        newOne.autoLayout = this.autoLayout;
         newOne.x       = this.x;
         newOne.y       = this.y;
         newOne.topY    = this.topY;

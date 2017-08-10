@@ -290,6 +290,15 @@ public class XmlDataParser {
 
     public Map<String, Repeat> getRepeats(String templateFilePath) {
         Element root  = getRootElement(templateFilePath);
+        return getRepeats(root);
+    }
+
+    public Map<String, Repeat> getRepeats(Document document) {
+        Element root  = null==document ? null : document.getRootElement();
+        return getRepeats(root);
+    }
+
+    public Map<String, Repeat> getRepeats(Element root) {
         if (null == root) {
             return null;
         }
