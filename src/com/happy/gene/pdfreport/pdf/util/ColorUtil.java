@@ -42,4 +42,10 @@ public class ColorUtil {
         String resColor = "#"+Integer.toHexString(random.intValue());
         return resColor;
     }
+
+    public String parseColor(byte[] rgb) {
+        if (null==rgb || rgb.length<3) { return "#000000"; }
+        String resColor = "#"+Integer.toHexString(rgb[0])+Integer.toHexString(rgb[1])+Integer.toHexString(rgb[2]);
+        return resColor;
+    }
 }
