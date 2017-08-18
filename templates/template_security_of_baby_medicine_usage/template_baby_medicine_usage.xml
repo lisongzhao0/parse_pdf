@@ -29,8 +29,8 @@
         </template>
         <template name="sub_catalog_cover">
             <text_box z_order="1" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-                <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="24" color="#5a7134" bold="" italic="" underline="" x="0" y="0"   width="200" value="$detailMedicineType"/>
-                <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#5a7134" bold="" italic="" underline="" x="0" y="-14" width="200" value="$detailMedicineTypeEnglish"/>
+                <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="24" color="#5a7134" bold="" italic="" underline="" x="0" y="0"   width="300" value="$detailMedicineType"/>
+                <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#5a7134" bold="" italic="" underline="" x="0" y="-14" width="300" value="$detailMedicineTypeEnglish"/>
                 <rect                               z_order="3" fill_color="#b9c832" path="maxX 16 maxY 25 minX 0 minY 0" border_margin="0 0 20 2"/>
             </text_box>
         </template>
@@ -52,8 +52,9 @@
         <image z_order="0" id="cover" type="JPG" x="0" y="0"  height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/cover.jpg"/>
         <image z_order="1" id="logo"  type="JPG" x="59"  y="43"  height="35"  width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/logo.jpg"/>
         <path z_order="2" path="m 2 303 l 331 303 l 372 132 l 2 132 h"  border_width=""    border_color=""        opacity="0.8" fill_color="#404040" shading="2 382 #b4c348 372 382 #799c44"/>
-        <text z_order="5" font="fzltxh_gbk" font_size="18" color="#ffffff" bold="" italic="" underline="" x="50" y="230" width="330" value="HG 心安 基因检测报告"/>
-        <text z_order="6" font="fzltchjw"   font_size="40" color="#ffffff" bold="" italic="" underline="" x="50" y="160" width="330" value="儿童用药安全"/>
+        <text z_order="4" font="fzltxh_gbk" font_size="18" color="#ffffff" bold="" italic="" underline="" x="50"  y="230" width="330" value="HG 心安  基因检测报告"/>
+        <text z_order="5" font="fzlthjw"    font_size="6"  color="#ffffff" bold="" italic="" underline="" x="115" y="250" width="15"  h_alignment="R" value="TM"/>
+        <text z_order="6" font="fzltchjw"   font_size="40" color="#ffffff" bold="" italic="" underline="" x="50"  y="160" width="330" value="儿童用药安全"/>
     </page>
 
     <!--*****************************************************************************************-->
@@ -295,7 +296,7 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
     <!--*************************************************************************************************-->
     <!--**************************************  报告概述  (cover)  ***************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="20" catalog="3 0" page_header="false" page_number="false" type="summary">
+    <page z_order="20" catalog="2 0" page_header="false" page_number="false" type="summary">
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/chapter_3_cover.jpg"/>
         <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#404040"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
@@ -307,7 +308,7 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
     <!--*************************************************************************************************-->
     <!--**************************************  用药建议  (介绍)  ****************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="21" catalog="3 1" page_header="true" page_number="true" type="summary">
+    <page z_order="21" catalog="2 1" page_header="true" page_number="true" type="summary">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
             <value id="detailXiaoBiaoTi" value="用药建议"/>
@@ -357,7 +358,7 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
     <!--*************************************************************************************************-->
     <!--***********************************  报告详情 （cover）  **************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="24" catalog="4 0" page_header="false" page_number="false" type="detail">
+    <page z_order="24" catalog="3 0" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/chapter_4_cover.jpg"/>
         <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#404040"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
@@ -370,11 +371,11 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
 
 
 
-    <page_group z_order="25" name="specific_medicine_type" catalog="4 x" data="">
+    <page_group z_order="25" name="specific_medicine_type" catalog="3 x" data="">
         <!--****************************************************************************************-->
         <!--********************************  检测结果详解 (cover)  **********************************-->
         <!--****************************************************************************************-->
-        <page z_order="1" catalog="4 x 0" page_header="false" page_number="false">
+        <page z_order="1" catalog="3 x 0" page_header="false" page_number="false">
             <template z_order="1" name="sub_catalog_cover" condition="">
             </template>
         </page>
@@ -382,7 +383,7 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
         <!--*****************************************************************************************-->
         <!--*****************************  检测结果详解 (检测结果/用药评估)  ****************************-->
         <!--*****************************************************************************************-->
-        <page z_order="2" catalog="4 x 1" page_header="true" page_number="true">
+        <page z_order="2" catalog="3 x 1" page_header="true" page_number="true">
             <!--*****************************  检测结果  ****************************-->
             <template z_order="1" name="page_header" condition="3">
                 <value id="detailXiaoBiaoTi" value="$detailMedicineType相关基因检测结果"/>
@@ -390,7 +391,7 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
             </template>
 
             <vertical_table z_order="2" data="$detailZhiBingJiYinTuBian" x="59" y="737" top_y="747" gap_h="2" bottom_y="50" width="474"
-                            column_width="0.12 0.13 0.085 0.145 0.25 0.09 0.2" header_in_every_page="" cell_center_v="false" gap_header_row="6"
+                            column_width="0.12 0.13 0.085 0.145 0.25 0.09 0.2 0.1" header_in_every_page="" cell_center_v="false" gap_header_row="6"
                             header_split_line="true" header_split_line_color="#607b3f" header_split_line_width="0.12">
                 <header>
                     <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="10" value="$0"/>
@@ -400,8 +401,12 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
                     <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="10" value="$4"/>
                     <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="10" value="$5"/>
                     <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="10" value="$6"/>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="10" value="$7"/>
                 </header>
-                <row>
+                <row condition="col7==　">
+                    <area z_order="-1" x="58" y="706" width="479" height="15" top_y="747" bottom_y="59">
+                        <rect z_order="1" path="minX 0 minY 7.05 maxX 475 maxY 7.00" border_margin="0 0 0 0" border_width="0.1" fill_color="#404040" opacity="1"/>
+                    </area>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="8" italic="true" value="$0"/>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$1"/>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="8" h_alignment="C" value="$2"/>
@@ -409,6 +414,17 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$4"/>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="8" h_alignment="C" value="$5"/>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$6"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$7"/>
+                </row>
+                <row condition="col7!=　">
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" italic="true" value="$0"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$1"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" h_alignment="C" value="$2"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$3"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$4"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" h_alignment="C" value="$5"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$6"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$7"/>
                 </row>
             </vertical_table>
 
@@ -419,13 +435,13 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
                 <text z_order="3" font="fzltxh_gbk" color="#404040" font_size="7" x="38" y="11" width="30" value="高危"/>
                 <text z_order="4" font="fzltxh_gbk" color="#404040" font_size="7" x="98" y="11" width="30" value="中等风险"/>
                 <text z_order="5" font="fzltchjw" color="#607b3f" font_size="11" x="0" y="36" width="479" value="* 注：根据 pharmGKB 推荐临床用药证据等级参考如下："/>
-                <text z_order="6" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="0" y="52" width="230" value="见P10使用指南临床用药等级"/>
+                <text z_order="6" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="0" y="52" width="230" value="见P003使用指南临床用药等级"/>
             </area>
 
 
             <!--*****************************  用药评估  ****************************-->
             <rect z_order="5"  auto_layout="true" path="maxx 100 maxy 2 minx 0 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
-            <text_box z_order="6" catalog="3 1 0" auto_layout="true" x="58" y="550" width="479" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
+            <text_box z_order="6" catalog="3 x 2" auto_layout="true" x="58" y="550" width="479" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
                 <rect z_order="1" path="maxX -477 maxY 37 minX 0 minY 0" border_width="" border_color="" opacity="1.0" fill_color="#b9c832" x="0" y="0"/>
                 <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="用药安全评估与建议"/>
             </text_box>
@@ -463,22 +479,57 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
 
     <!--******************************************  参考文献 *****************************************-->
     <!--*********************************************************************************************-->
-    <page z_order="102996" catalog="10000 1" page_header="true" page_number="true" type="appendix">
+    <page z_order="102996" catalog="10000 1" page_header="true" page_number="false" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
-            <value id="detailXiaoBiaoTi" value="参考文献"/>
+            <value id="detailXiaoBiaoTi" value="III、参考文献"/>
             <value id="detailDesc" value=""/>
         </template>
 
-        <paragraph z_order="2" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="$appendixReferences"/>
+        <paragraph z_order="2" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+<![CDATA[1.　　Bruck, H. et al. The Gln27Glu beta2-adrenoceptor polymorphism slows the onset of desensitization of cardiac functional responses in vivo. Pharmacogenetics 13, 59-66 (2003).
+<br/>2.　　Whirl-Carrillo, M. et al. Pharmacogenomics knowledge for personalized medicine. Clin Pharmacol Ther 92, 414-7 (2012).
+<br/>3.　　Franke, R.M. et al. Effect of ABCC2 (MRP2) transport function on erythromycin metabolism. Clin Pharmacol Ther 89, 693-701 (2011).
+<br/>4.　　Li, X. et al. Effect of cytochrome P450 2C19 polymorphisms on the clinical outcomes of voriconazole: a systematic review and meta-analysis. Eur J Clin Pharmacol 72, 1185-1193 (2016).
+<br/>5.　　Sugimoto, M. et al. Comparison of acid inhibition with standard dosages of proton pump inhibitors in relation to CYP2C19 genotype in Japanese. Eur J Clin Pharmacol 70, 1073-8 (2014).
+<br/>6.　　Qiu, F. et al. Effects of the Chinese herbal formula "Zuojin Pill" on the pharmacokinetics of dextromethorphan in healthy Chinese volunteers with CYP2D6*10 genotype. Eur J Clin Pharmacol 72, 689-95 (2016).
+<br/>7.　　Jing, W. et al. Mitochondrial mutations associated with aminoglycoside ototoxicity and hearing loss susceptibility identified by meta-analysis. J Med Genet 52, 95-103 (2015).
+<br/>8.　　Kim, W.J. et al. Association between CRHR1 polymorphism and improved lung function in response to inhaled corticosteroid in patients with COPD. Respirology 14, 260-3 (2009).
+<br/>9.　　Karazniewicz-Lada, M., Luczak, M. & Glowka, F. Pharmacokinetic studies of enantiomers of ibuprofen and its chiral metabolites in humans with different variants of genes coding CYP2C8 and CYP2C9 isoenzymes. Xenobiotica 39, 476-85 (2009).
+<br/>10.　　Lee, Y.S., Kim, H., Wu, T.X., Wang, X.M. & Dionne, R.A. Genetically mediated interindividual variation in analgesic responses to cyclooxygenase inhibitory drugs. Clin Pharmacol Ther 79, 407-18 (2006).
+<br/>11.　　Foster, A., Mobley, E. & Wang, Z. Complicated pain management in a CYP450 2D6 poor metabolizer. Pain Pract 7, 352-6 (2007).
+<br/>12.　　Court, M.H. et al. The UDP-glucuronosyltransferase (UGT) 1A polymorphism c.2042C>G (rs8330) is associated with increased human liver acetaminophen glucuronidation, increased UGT1A exon 5a/5b splice variant mRNA ratio, and decreased risk of unintentional acetaminophen-induced acute liver failure. J Pharmacol Exp Ther 345, 297-307 (2013).
+<br/>13.　　Ayuso, P. et al. Association study of genetic variants in PLA2G4A, PLCG1, LAT, SYK, and TNFRS11A genes in NSAIDs-induced urticaria and/or angioedema patients. Pharmacogenet Genomics 25, 618-21 (2015).
+<br/>14.　　Pilotto, A. et al. Genetic susceptibility to nonsteroidal anti-inflammatory drug-related gastroduodenal bleeding: role of cytochrome P450 2C9 polymorphisms. Gastroenterology 133, 465-71 (2007).
+<br/>15.　　VanderVaart, S. et al. CYP2D6 polymorphisms and codeine analgesia in postpartum pain management: a pilot study. Ther Drug Monit 33, 425-32 (2011).
+<br/>16.　　Cai, J. et al. Effects of 22 Novel CYP2D6 Variants Found in the Chinese Population on the Bufuralol and Dextromethorphan Metabolisms In Vitro. Basic Clin Pharmacol Toxicol 118, 190-9 (2016).
+<br/>17.　　Dahlin, A. et al. Genome-Wide Association Study Identifies Novel Pharmacogenomic Loci For Therapeutic Response to Montelukast in Asthma. PLoS One 10, e0129385 (2015).
+<br/>18.　　Kim, K.A., Lee, H.M., Joo, H.J., Park, I.B. & Park, J.Y. Effects of polymorphisms of the SLCO2B1 transporter gene on the pharmacokinetics of montelukast in humans. J Clin Pharmacol 53, 1186-93 (2013).
+<br/>19.　　Perin, P. & Potocnik, U. Polymorphisms in recent GWA identified asthma genes CA10, SGK493, and CTNNA3 are associated with disease severity and treatment response in childhood asthma. Immunogenetics 66, 143-51 (2014).
+<br/>20.　　Stocker, S.L. et al. The effect of novel promoter variants in MATE1 and MATE2 on the pharmacokinetics and pharmacodynamics of metformin. Clin Pharmacol Ther 93, 186-94 (2013).
+<br/>21.　　Zhou, K. et al. Variation in the glucose transporter gene SLC2A2 is associated with glycemic response to metformin. Nat Genet 48, 1055-1059 (2016).
+<br/>22.　　Yoon, H., Cho, H.Y., Yoo, H.D., Kim, S.M. & Lee, Y.B. Influences of organic cation transporter polymorphisms on the population pharmacokinetics of metformin in healthy subjects. AAPS J 15, 571-80 (2013).
+<br/>23.　　Carette, C., Dubois-Laforgue, D., Gautier, J.F. & Timsit, J. Diabetes mellitus and glucose-6-phosphate dehydrogenase deficiency: from one crisis to another. Diabetes Metab 37, 79-82 (2011).
+<br/>24.　　Spraggs, C. et al. Genetic variants in the epithelial sodium channel associate with oedema in type 2 diabetic patients receiving the peroxisome proliferator-activated receptor gamma agonist farglitazar. Pharmacogenet Genomics 17, 1065-76 (2007).
+<br/>25.　　Aquilante, C.L. et al. Impact of the CYP2C8 *3 polymorphism on the drug-drug interaction between gemfibrozil and pioglitazone. Br J Clin Pharmacol 75, 217-26 (2013).
+<br/>26.　　Yang, H. et al. Adiponectin gene polymorphism rs2241766 T/G is associated with response to pioglitazone treatment in type 2 diabetic patients from southern China. PLoS One 9, e112480 (2014).
+<br/>27.　　Thaker, S.J. et al. A prospective study to assess the association between genotype, phenotype and Prakriti in individuals on phenytoin monotherapy. J Ayurveda Integr Med 8, 37-41 (2017).
+<br/>28.　　Tate, S.K. et al. A common polymorphism in the SCN1A gene associates with phenytoin serum levels at maintenance dose. Pharmacogenet Genomics 16, 721-6 (2006).
+<br/>29.　　Inomata, S. et al. CYP2C19 genotype affects diazepam pharmacokinetics and emergence from general anesthesia. Clin Pharmacol Ther 78, 647-55 (2005).
+<br/>30.　　Ma, C.L. et al. Association between PK/PD-involved gene polymorphisms and carbamazepine-individualized therapy. Pharmacogenomics 16, 1499-512 (2015).
+<br/>31.　　Puranik, Y.G. et al. Association of carbamazepine major metabolism and transport pathway gene polymorphisms and pharmacokinetics in patients with epilepsy. Pharmacogenomics 14, 35-45 (2013).
+<br/>32.　　Hung, S.I. et al. Genetic susceptibility to carbamazepine-induced cutaneous adverse drug reactions. Pharmacogenet Genomics 16, 297-306 (2006).
+<br/>33.　　中华人民共和国国家卫生计生委医政医管局. 《药物代谢酶和药物作用靶点基因检测技术指南（试行）》. 2015-7-29
+]]>
+        </paragraph>
     </page>
 
     <!--*****************************  附录I：本次检测的全部基因位点检测结果 *****************************-->
     <!--*********************************************************************************************-->
-    <page z_order="102997" catalog="10000 2" page_header="true" page_number="true" type="appendix">
+    <page z_order="102997" catalog="10000 2" page_header="true" page_number="false" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
-            <value id="detailXiaoBiaoTi" value="附录I：本次检测的全部基因位点检测结果"/>
+            <value id="detailXiaoBiaoTi" value="IV、本次检测的全部基因位点检测结果"/>
             <value id="detailDesc" value=""/>
         </template>
 
@@ -494,7 +545,7 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
             </header>
             <row condition="col0==　">
                 <area z_order="-1" x="58" y="706" width="479" height="15" top_y="747" bottom_y="59">
-                    <rect z_order="1" path="minX 0 minY 24 maxX 479 maxY 23.88" border_margin="0 0 0 0" border_width="0.1" fill_color="#749b32" opacity="1"/>
+                    <rect z_order="1" path="minX 0 minY 23.00 maxX 475 maxY 22.95" border_margin="0 0 0 0" border_width="0.1" fill_color="#404040" opacity="1"/>
                 </area>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$0"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="8" value="$1"/>
@@ -514,10 +565,10 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
 
     <!--*************************************  附录II：提示与声明 *************************************-->
     <!--*********************************************************************************************-->
-    <page z_order="102998" catalog="10000 3" page_header="true" page_number="true" type="appendix">
+    <page z_order="102998" catalog="10000 3" page_header="true" page_number="false" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
-            <value id="detailXiaoBiaoTi" value="附录II：提示与声明"/>
+            <value id="detailXiaoBiaoTi" value="V、提示与声明"/>
             <value id="detailDesc" value=""/>
         </template>
 
@@ -541,7 +592,12 @@ Level 4：注释仅基于少量病例、非权威研究或体外的分子功能�
 
 
     <page z_order="103000" type="back_cover">
-        <image z_order="1" id="member" type="JPG" fit="a" x="210" y="396" height="50" width="176" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/logo.jpg"/>
-        <image z_order="2" id="member" type="GIF" fit="a" x="58" y="58" height="150" width="162.9393" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/back_cover.png"/>
+        <image z_order="1" id="member" type="JPG" fit="a" x="210" y="396" height="50" width="176" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/logo.jpg"/>
+        <image z_order="2" id="member" type="GIF" fit="" x="58" y="120" height="70" width="70" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_security_of_baby_medicine_usage/2dcode.jpg"/>
+
+        <text z_order="3" font="fzltxh_gbk" font_size="8" char_spacing="1.1" color="#000000" x="60" y="100" width="400" value="北京幸福基石科技有限公司"/>
+        <text z_order="4" font="fzltxh_gbk" font_size="8" char_spacing="1.1" color="#000000" x="60" y="86" width="400" value="北京市朝阳区东四环中路 56 号远洋国际 A 座 7 层"/>
+        <text z_order="5" font="fzltxh_gbk" font_size="8" char_spacing="1.1" color="#000000" x="60" y="72" width="400" value="400-066-9816"/>
+        <text z_order="6" font="fzltxh_gbk" font_size="8" char_spacing="1.1" color="#000000" x="60" y="58" width="400" value="www.happy-gene.com"/>
     </page>
 </pdf>

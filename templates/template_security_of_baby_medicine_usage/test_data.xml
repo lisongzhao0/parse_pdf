@@ -14,10 +14,8 @@
 
 
     <data>
-        <parameter id="name"   value="王辉"/>
-        <parameter id="gender" value="女"/>
-        <parameter id="age" value="55"/>
-        <parameter id="sampleNumb" value="1234567890123456"/>
+
+
 
 
 
@@ -31,25 +29,137 @@
                 </tree_node>
             </tree_node>
             <tree_node value="报告指南" english="Instructions" page="" catalog="1 0">
-                <tree_node english="Instructions" page="001" value="报告指南" catalog="1 1">
+                <tree_node english="Instructions" page="xxx" value="报告指南" catalog="1 1">
                 </tree_node>
             </tree_node>
-            <tree_node value="报告概述" english="Report to review" page="" catalog="3 0">
-                <tree_node english="" page="xxx" value="报告概述" catalog="3 1"/>
+            <tree_node value="报告概述" english="Report to review" page="" catalog="2 0">
+                <tree_node english="" page="xxx" value="报告概述" catalog="2 1"/>
             </tree_node>
-            <tree_node value="报告详解" english="Detailed report" page="" catalog="4 0">
-                <tree_node english="" page="xxx" value="抗菌类"   catalog="4 1 0"/>
-                <tree_node english="" page="xxx" value="胃肠消化类药物"     catalog="4 2 0"/>
-                <tree_node english="" page="xxx" value="肥胖 / 代谢综合症类药物"     catalog="4 3 0"/>
-                <tree_node english="" page="xxx" value="镇定安神类药物"  catalog="4 4 0"/>
+            <tree_node value="报告详解" english="Detailed report" page="" catalog="3 0">
+                <tree_node english="" page="xxx" value="抗菌类"   catalog="3 1 0"/>
+                <tree_node english="" page="xxx" value="胃肠消化类药物"     catalog="3 2 0"/>
+                <tree_node english="" page="xxx" value="肥胖 / 代谢综合症类药物"     catalog="3 3 0"/>
+                <tree_node english="" page="xxx" value="镇定安神类药物"  catalog="3 4 0"/>
             </tree_node>
             <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
-                <tree_node english="" page="xxx" value="参考文献" catalog="10000 1"/>
-                <tree_node english="" page="xxx" value="本次检测的全部基因位点检测结果" catalog="10000 2"/>
-                <tree_node english="" page="xxx" value="提示与声明" catalog="10000 3"/>
+                <tree_node english="" page="III" value="参考文献" catalog=""/>
+                <tree_node english="" page="IV" value="本次检测的全部基因位点检测结果" catalog=""/>
+                <tree_node english="" page="V" value="提示与声明" catalog=""/>
             </tree_node>
         </tree_node>
 
+
+
+
+
+        <group order="1" id="catalog_3_1" value="3 1" catalog="3 1">
+            <parameter id="detailMedicineType" value="抗菌药"/>
+            <parameter id="detailMedicineTypeEnglish" value="Antibacterial"/>
+            <parameter id="medicineTypeEvaluate" value="">
+<![CDATA[<style font="fzltchjw" font_size="13" font_color="#607b3f">1、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#607b3f">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#607b3f">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+
+<style font="fzltchjw" font_size="13" font_color="#607b3f">2、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#607b3f">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#607b3f">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+
+<style font="fzltchjw" font_size="13" font_color="#607b3f">3、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#607b3f">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#607b3f">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="TNFRSF11A"/>
+                    <cell row="0" column="1" value="rs001128425"/>
+                    <cell row="0" column="2" value="*1xN/*10"/>
+                    <cell row="0" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="0" column="4" value="致聋高风险"/>
+                    <cell row="0" column="5" value="1B"/>
+                    <cell row="0" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素禁用氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+
+                    <cell row="1" column="0" value="MT-RNR1"/>
+                    <cell row="1" column="1" value="rs001128425"/>
+                    <cell row="1" column="2" value="T"/>
+                    <cell row="1" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="1" column="4" value="致聋低风险"/>
+                    <cell row="1" column="5" value="2B"/>
+                    <cell row="1" column="6" value=""/>
+                    <cell row="1" column="7" value=""/>
+
+                    <cell row="2" column="0" value="MT-RNR2FF"/>
+                    <cell row="2" column="1" value="rs001128425"/>
+                    <cell row="2" column="2" value="T"/>
+                    <cell row="2" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="2" column="4" value="致聋低风险"/>
+                    <cell row="2" column="5" value="2B"/>
+                    <cell row="2" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <parameter id="name"   value="王辉"/>
+        <parameter id="gender" value="女"/>
+        <parameter id="age" value="55"/>
+        <parameter id="sampleNumb" value="1234567890123456"/>
+        <parameter id="sampleType" value="口腔黏膜细胞"/>
+        <parameter id="technology" value="Agena核酸质谱"/>
+        <parameter id="collectionDate" value="2017年7月15日"/>
+        <parameter id="checkDate" value="2017年7月23日"/>
+        <parameter id="reportDate" value="2017年7月25日"/>
+        <parameter id="organization" value="北京幸福基石科技有限公司"/>
 
 
         <table id="userReportInfo">
@@ -61,7 +171,7 @@
                 <cell row="0"  column="1" value="$name"/>
                 <cell row="1"  column="1" value="$age"/>
                 <cell row="0"  column="2" value="性　　别："/>
-                <cell row="1"  column="2" value="用户 ID："/>
+                <cell row="1"  column="2" value=""><![CDATA[用<style font_size='5'>　</style>户<style font_size='5'>　</style>ID：]]></cell>
                 <cell row="0"  column="3" value="$gender"/>
                 <cell row="1"  column="3" value="$sampleNumb"/>
             </rows>
@@ -72,20 +182,21 @@
             <headers>
             </headers>
             <rows>
-                <cell  row='0' column='0' value=''><![CDATA[样本类型：]]></cell>
-                <cell  row='0' column='1' value=''><![CDATA[口腔黏膜细胞]]></cell>
-                <cell  row='0' column='2' value=''><![CDATA[检测技术：]]></cell>
-                <cell  row='0' column='3' value=''><![CDATA[Agena核酸质谱]]></cell>
-                <cell  row='1' column='0' value=''><![CDATA[采样日期：]]></cell>
-                <cell  row='1' column='1' value=''><![CDATA[2017年7月15日]]></cell>
-                <cell  row='1' column='2' value=''><![CDATA[检测日期：]]></cell>
-                <cell  row='1' column='3' value=''><![CDATA[2017年7月23日]]></cell>
-                <cell  row='2' column='0' value=''><![CDATA[报告日期：]]></cell>
-                <cell  row='2' column='1' value=''><![CDATA[2017年7月25日]]></cell>
-                <cell  row='2' column='2' value=''><![CDATA[检测机构：]]></cell>
-                <cell  row='2' column='3' value=''><![CDATA[北京幸福基石科技有限公司]]></cell>
+                <cell  row='0' column='0' value='样本类型：'/>
+                <cell  row='0' column='1' value='$sampleType'/>
+                <cell  row='0' column='2' value='检测技术：'/>
+                <cell  row='0' column='3' value='$technology'/>
+                <cell  row='1' column='0' value='采样日期：'/>
+                <cell  row='1' column='1' value='$collectionDate'></cell>
+                <cell  row='1' column='2' value='检测日期：'/>
+                <cell  row='1' column='3' value='$checkDate'></cell>
+                <cell  row='2' column='0' value='报告日期：'/>
+                <cell  row='2' column='1' value='$reportDate'/>
+                <cell  row='2' column='2' value='检测机构：'/>
+                <cell  row='2' column='3' value='$organization'/>
             </rows>
         </table>
+
 
         <repeat id="allTypesOfMedicines">
             <group id="0" order="0">
@@ -97,20 +208,20 @@
                         <header column="2" value="用药建议"/>
                     </headers>
                     <rows>
-                        <cell row="0"  column="0" value="氨基糖胺类抗生素, 庆大霉素, 链霉素, 卡那霉素, 妥布霉素, 大观霉素, 新霉素, 巴龙霉素, 小诺霉素, 核糖霉素, 奈替美星, 阿司美星, 依替米星, 异帕米星, 阿米卡星, 西索米星"/>
-                        <cell row="1"  column="0" value="红霉素, 依托红霉素, 琥乙红霉素"/>
-                        <cell row="2"  column="0" value="伏立康唑, 伏立康唑片, 威凡, 匹纳普 , 丽福康, 美大康"/>
-                        <cell row="3"  column="0" value="黄连素"/>
+                        <cell row='0'  column='0' value='氨基糖胺类抗生素, 庆大霉素, 链霉素, 卡那霉素, 妥布霉素, 大观霉素, 新霉素, 巴龙霉素, 小诺霉素, 核糖霉素, 奈替美星, 阿司美星, 依替米星, 异帕米星, 阿米卡星, 西索米星'/>
+                        <cell row='1'  column='0' value='红霉素, 依托红霉素, 琥乙红霉素'/>
+                        <cell row='2'  column='0' value='伏立康唑, 伏立康唑片, 威凡, 匹纳普 , 丽福康, 美大康'/>
+                        <cell row='3'  column='0' value='黄连素'/>
 
-                        <cell row="0"  column="1" value="氨基糖苷类抗生素"/>
-                        <cell row="1"  column="1" value="伏立康唑"/>
-                        <cell row="2"  column="1" value="红霉素"/>
-                        <cell row="3"  column="1" value="黄连素"/>
+                        <cell row='0'  column='1' value='氨基糖苷类抗生素'/>
+                        <cell row='1'  column='1' value='伏立康唑'/>
+                        <cell row='2'  column='1' value='红霉素'/>
+                        <cell row='3'  column='1' value='黄连素'/>
 
-                        <cell row="0"  column="2" value="禁用氨基糖苷类抗生素"/>
-                        <cell row="1"  column="2" value="减少用药剂量"/>
-                        <cell row="2"  column="2" value="正常使用"/>
-                        <cell row="3"  column="2" value="正常使用"/>
+                        <cell row='0'  column='2' value=''><![CDATA[<style font_color='#FF0000' bold="true">禁用氨基糖苷类抗生素</style>]]></cell>
+                        <cell row='1'  column='2' value='减少用药剂量'/>
+                        <cell row='2'  column='2' value='正常使用'/>
+                        <cell row='3'  column='2' value='正常使用'/>
                     </rows>
                 </table>
             </group>
@@ -195,114 +306,45 @@
         </repeat>
 
 
-
-
-
-        <group order="1" id="catalog_4_1" value="4 1" catalog="4 1">
-            <parameter id="detailMedicineType" value="抗菌药"/>
-            <parameter id="detailMedicineTypeEnglish" value="Antibacterial"/>
-            <parameter id="medicineTypeEvaluate" value="">
-<![CDATA[<style font="fzltchjw" font_size="13" font_color="#607b3f">1、氨基糖苷类抗生素：</style><br/>
-<style font="fzlthjw"  font_color="#607b3f">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
-使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
-<style font="fzlthjw" font_size="11" font_color="#607b3f">建议：</style><br/>
-使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
-<br/>
-
-<style font="fzltchjw" font_size="13" font_color="#607b3f">2、氨基糖苷类抗生素：</style><br/>
-<style font="fzlthjw"  font_color="#607b3f">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
-使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
-<style font="fzlthjw" font_size="11" font_color="#607b3f">建议：</style><br/>
-使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
-<br/>
-
-<style font="fzltchjw" font_size="13" font_color="#607b3f">3、氨基糖苷类抗生素：</style><br/>
-<style font="fzlthjw"  font_color="#607b3f">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
-使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
-<style font="fzlthjw" font_size="11" font_color="#607b3f">建议：</style><br/>
-使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
-<br/>
-]]>
-            </parameter>
-            <table id="detailZhiBingJiYinTuBian">
-                <headers>
-                    <header column="0" value="基因"/>
-                    <header column="1" value="点位"/>
-                    <header column="2" value="基因型"/>
-                    <header column="3" value="有效成分"/>
-                    <header column="4" value="结果分析"/>
-                    <header column="5" value="置信等级"/>
-                    <header column="6" value="用药建议"/>
-                </headers>
-                <rows>
-                    <cell row="0" column="0" value="TNFRSF11A"/>
-                    <cell row="0" column="1" value="rs001128425"/>
-                    <cell row="0" column="2" value="*1xN/*10"/>
-                    <cell row="0" column="3" value="氨基糖苷类抗生素"/>
-                    <cell row="0" column="4" value="致聋高风险"/>
-                    <cell row="0" column="5" value="1B"/>
-                    <cell row="0" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素禁用氨基糖苷类抗生素</style>]]></cell>
-
-                    <cell row="1" column="0" value="MT-RNR1"/>
-                    <cell row="1" column="1" value="rs001128425"/>
-                    <cell row="1" column="2" value="T"/>
-                    <cell row="1" column="3" value="氨基糖苷类抗生素"/>
-                    <cell row="1" column="4" value="致聋低风险"/>
-                    <cell row="1" column="5" value="2B"/>
-                    <cell row="1" column="6" value=""/>
-
-                    <cell row="2" column="0" value="MT-RNR2FF"/>
-                    <cell row="2" column="1" value="rs001128425"/>
-                    <cell row="2" column="2" value="T"/>
-                    <cell row="2" column="3" value="氨基糖苷类抗生素"/>
-                    <cell row="2" column="4" value="致聋低风险"/>
-                    <cell row="2" column="5" value="2B"/>
-                    <cell row="2" column="6" value=""/>
-                </rows>
-            </table>
-        </group>
-
-
-
-        <table id="appendixAllCheckingResult">
+        <table id='appendixAllCheckingResult'>
             <headers>
-                <header column="0" value="类别"/>
-                <header column="1" value="有效成分"/>
-                <header column="2" value="基因"/>
-                <header column="3" value="位点"/>
-                <header column="4" value="基因型"/>
+                <header column='0' value='类别'/>
+                <header column='1' value='有效成分'/>
+                <header column='2' value='基因'/>
+                <header column='3' value='位点'/>
+                <header column='4' value='基因型'/>
             </headers>
             <rows>
-                <cell row="0"   column="0" value="抗炎药"/>
-                <cell row="1"   column="0" value=""/>
-                <cell row="2"   column="0" value=""/>
-                <cell row="3"   column="0" value=""/>
-                <cell row="4"   column="0" value="　"/>
-                <cell row="5"   column="0" value="肠胃不适"/>
-                <cell row="6"   column="0" value=""/>
-                <cell row="7"   column="0" value=""/>
-                <cell row="8"   column="0" value="　"/>
-                <cell row="9"   column="0" value="雾化吸入"/>
-                <cell row="10"  column="0" value="　"/>
-                <cell row="11"  column="0" value="退热药"/>
-                <cell row="12"  column="0" value=""/>
-                <cell row="13"  column="0" value=""/>
-                <cell row="14"  column="0" value=""/>
-                <cell row="15"  column="0" value=""/>
-                <cell row="16"  column="0" value=""/>
-                <cell row="17"  column="0" value=""/>
-                <cell row="18"  column="0" value=""/>
-                <cell row="19"  column="0" value=""/>
-                <cell row="20"  column="0" value=""/>
-                <cell row="21"  column="0" value=""/>
-                <cell row="22"  column="0" value="　"/>
+                <cell row='0'   column='0' value='抗炎药'/>
+                <cell row='1'   column='0' value=''/>
+                <cell row='2'   column='0' value=''/>
+                <cell row='3'   column='0' value=''/>
+                <cell row='4'   column='0' value='　'/>
+                <cell row='5'   column='0' value='肠胃不适'/>
+                <cell row='6'   column='0' value=''/>
+                <cell row='7'   column='0' value=''/>
+                <cell row='8'   column='0' value='　'/>
+                <cell row='9'   column='0' value='雾化吸入'/>
+                <cell row='10'  column='0' value='　'/>
+                <cell row='11'  column='0' value='退热药'/>
+                <cell row='12'  column='0' value=''/>
+                <cell row='13'  column='0' value=''/>
+                <cell row='14'  column='0' value=''/>
+                <cell row='15'  column='0' value=''/>
+                <cell row='16'  column='0' value=''/>
+                <cell row='17'  column='0' value=''/>
+                <cell row='18'  column='0' value=''/>
+                <cell row='19'  column='0' value=''/>
+                <cell row='20'  column='0' value=''/>
+                <cell row='21'  column='0' value=''/>
+                <cell row='22'  column='0' value='　'/>
 
-                <cell row="0"   column="1" value="氨基糖苷类抗生素x x x x x x x x x x x x x x x x x x x x x x x x x"/>
-                <cell row="1"   column="1" value="氨基糖苷类抗生素"/>
-                <cell row="2"   column="1" value="伏立康唑"/>
-                <cell row="3"   column="1" value="红霉素"/>
-                <cell row="4"   column="1" value="红霉素"/>
-                <cell row="5"   column="1" value="奥美拉唑"/>
+                <cell row='0'   column='1' value='氨基糖苷类抗生素x x x x x x x x x x x x x x x x x x x x x x x x x'/>
+                <cell row='1'   column='1' value='氨基糖苷类抗生素'/>
+                <cell row='2'   column='1' value='伏立康唑'/>
+                <cell row='3'   column='1' value='红霉素'/>
+                <cell row='4'   column='1' value='红霉素'/>
+                <cell row='5'   column="1" value="奥美拉唑"/>
                 <cell row="6"   column="1" value="兰索拉唑"/>
                 <cell row="7"   column="1" value="泮托拉唑"/>
                 <cell row="8"   column="1" value="黄连素"/>

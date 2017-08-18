@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pdf>
+    <data>
+        <parameter id="name" value=""><![CDATA[鸾娇]]></parameter>
+        <parameter id="gender" value=""><![CDATA[女]]></parameter>
+        <parameter id="age" value=""><![CDATA[5岁]]></parameter>
+        <parameter id="sampleNumb" value=""><![CDATA[01162092]]></parameter>
+        <table id="userReportInfo">
+            <headers/>
+            <rows>
+                <cell row="0" column="0" value="姓　　名："/>
+                <cell row="1" column="0" value="年　　龄："/>
+                <cell row="0" column="1" value="$name"/>
+                <cell row="1" column="1" value="$age"/>
+                <cell row="0" column="2" value="性　　别："/>
+                <cell row="1" column="2" value="">
+                    <![CDATA[用<style font_size='5'>　</style>户<style font_size='5'>　</style>ID：]]></cell>
+                <cell row="0" column="3" value="$gender"/>
+                <cell row="1" column="3" value="$sampleNumb"/>
+            </rows>
+        </table>
+        <parameter id="sampleType" value=""><![CDATA[口腔黏膜细胞]]></parameter>
+        <parameter id="technology" value=""><![CDATA[Agena核酸质谱]]></parameter>
+        <parameter id="organization" value=""><![CDATA[北京幸福基石科技有限公司]]></parameter>
+        <parameter id="collectionDate" value=""><![CDATA[]]></parameter>
+        <parameter id="checkDate" value=""><![CDATA[2017年07月28日]]></parameter>
+        <parameter id="reportDate" value=""><![CDATA[2017年08月15日]]></parameter>
+        <table id="sampleAndDate">
+            <headers/>
+            <rows>
+                <cell row="0" column="0" value="样本类型："/>
+                <cell row="0" column="1" value="$sampleType"/>
+                <cell row="0" column="2" value="检测技术："/>
+                <cell row="0" column="3" value="$technology"/>
+                <cell row="1" column="0" value="采样日期："/>
+                <cell row="1" column="1" value="$collectionDate"/>
+                <cell row="1" column="2" value="检测日期："/>
+                <cell row="1" column="3" value="$checkDate"/>
+                <cell row="2" column="0" value="报告日期："/>
+                <cell row="2" column="1" value="$reportDate"/>
+                <cell row="2" column="2" value="检测机构："/>
+                <cell row="2" column="3" value="$organization"/>
+            </rows>
+        </table>
+        <table id="appendixAllCheckingResult">
+            <headers>
+                <header column="0" value="类别"/>
+                <header column="1" value="有效成分"/>
+                <header column="2" value="基因"/>
+                <header column="3" value="位点"/>
+                <header column="4" value="基因型"/>
+            </headers>
+            <rows>
+                <cell row="0" column="0" value=""><![CDATA[抗炎药]]></cell>
+                <cell row="0" column="1" value=""><![CDATA[氨基糖苷类抗生素]]></cell>
+                <cell row="0" column="2" value=""><![CDATA[MT-RNR1]]></cell>
+                <cell row="0" column="3" value=""><![CDATA[rs267606617]]></cell>
+                <cell row="0" column="4" value=""><![CDATA[A]]></cell>
+                <cell row="1" column="0" value=""/>
+                <cell row="1" column="1" value=""><![CDATA[氨基糖苷类抗生素]]></cell>
+                <cell row="1" column="2" value=""><![CDATA[MT-RNR1]]></cell>
+                <cell row="1" column="3" value=""><![CDATA[rs267606619]]></cell>
+                <cell row="1" column="4" value=""><![CDATA[C]]></cell>
+                <cell row="2" column="0" value=""/>
+                <cell row="2" column="1" value=""><![CDATA[伏立康唑]]></cell>
+                <cell row="2" column="2" value=""><![CDATA[CYP2C19]]></cell>
+                <cell row="2" column="3" value=""><![CDATA[*1，*2，*3，*17]]></cell>
+                <cell row="2" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="3" column="0" value=""/>
+                <cell row="3" column="1" value=""><![CDATA[红霉素]]></cell>
+                <cell row="3" column="2" value=""><![CDATA[G6PD]]></cell>
+                <cell row="3" column="3" value=""><![CDATA[-]]></cell>
+                <cell row="3" column="4" value=""><![CDATA[野生型]]></cell>
+                <cell row="4" column="0" value="　"/>
+                <cell row="4" column="1" value=""><![CDATA[红霉素]]></cell>
+                <cell row="4" column="2" value=""><![CDATA[ABCC2]]></cell>
+                <cell row="4" column="3" value=""><![CDATA[rs717620]]></cell>
+                <cell row="4" column="4" value=""><![CDATA[CT]]></cell>
+                <cell row="5" column="0" value=""><![CDATA[肠胃不适]]></cell>
+                <cell row="5" column="1" value=""><![CDATA[奥美拉唑]]></cell>
+                <cell row="5" column="2" value=""><![CDATA[CYP2C19]]></cell>
+                <cell row="5" column="3" value=""><![CDATA[*1，*2，*3，*17]]></cell>
+                <cell row="5" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="6" column="0" value=""/>
+                <cell row="6" column="1" value=""><![CDATA[兰索拉唑]]></cell>
+                <cell row="6" column="2" value=""><![CDATA[CYP2C19]]></cell>
+                <cell row="6" column="3" value=""><![CDATA[*1，*2，*3，*17]]></cell>
+                <cell row="6" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="7" column="0" value=""/>
+                <cell row="7" column="1" value=""><![CDATA[泮托拉唑]]></cell>
+                <cell row="7" column="2" value=""><![CDATA[CYP2C19]]></cell>
+                <cell row="7" column="3" value=""><![CDATA[*1，*2，*3，*17]]></cell>
+                <cell row="7" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="8" column="0" value="　"/>
+                <cell row="8" column="1" value=""><![CDATA[黄连素]]></cell>
+                <cell row="8" column="2" value=""><![CDATA[CYP2D6]]></cell>
+                <cell row="8" column="3" value=""><![CDATA[*1，*2，*3，*4，*10，*41]]></cell>
+                <cell row="8" column="4" value=""><![CDATA[*1/*10x2]]></cell>
+                <cell row="9" column="0" value=""><![CDATA[雾化吸入]]></cell>
+                <cell row="9" column="1" value=""><![CDATA[硫酸特布他林]]></cell>
+                <cell row="9" column="2" value=""><![CDATA[ADRB2]]></cell>
+                <cell row="9" column="3" value=""><![CDATA[rs1042714]]></cell>
+                <cell row="9" column="4" value=""><![CDATA[GC]]></cell>
+                <cell row="10" column="0" value="　"/>
+                <cell row="10" column="1" value=""><![CDATA[布地奈德]]></cell>
+                <cell row="10" column="2" value=""><![CDATA[CRHR1]]></cell>
+                <cell row="10" column="3" value=""><![CDATA[rs1876828]]></cell>
+                <cell row="10" column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="11" column="0" value=""><![CDATA[退热药]]></cell>
+                <cell row="11" column="1" value=""><![CDATA[布洛芬]]></cell>
+                <cell row="11" column="2" value=""><![CDATA[CYP2C9]]></cell>
+                <cell row="11" column="3" value=""><![CDATA[*1，*2，*3]]></cell>
+                <cell row="11" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="12" column="0" value=""/>
+                <cell row="12" column="1" value=""><![CDATA[布洛芬]]></cell>
+                <cell row="12" column="2" value=""><![CDATA[CYP2C8]]></cell>
+                <cell row="12" column="3" value=""><![CDATA[*1，*2，*3]]></cell>
+                <cell row="12" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="13" column="0" value=""/>
+                <cell row="13" column="1" value=""><![CDATA[布洛芬]]></cell>
+                <cell row="13" column="2" value=""><![CDATA[PTGS2]]></cell>
+                <cell row="13" column="3" value=""><![CDATA[rs20417]]></cell>
+                <cell row="13" column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="14" column="0" value=""/>
+                <cell row="14" column="1" value=""><![CDATA[右旋布洛芬]]></cell>
+                <cell row="14" column="2" value=""><![CDATA[CYP2C8]]></cell>
+                <cell row="14" column="3" value=""><![CDATA[*1，*2，*3]]></cell>
+                <cell row="14" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="15" column="0" value=""/>
+                <cell row="15" column="1" value=""><![CDATA[右旋布洛芬]]></cell>
+                <cell row="15" column="2" value=""><![CDATA[PTGS2]]></cell>
+                <cell row="15" column="3" value=""><![CDATA[rs20417]]></cell>
+                <cell row="15" column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="16" column="0" value=""/>
+                <cell row="16" column="1" value=""><![CDATA[对乙酰氨基酚]]></cell>
+                <cell row="16" column="2" value=""><![CDATA[CYP2D6]]></cell>
+                <cell row="16" column="3" value=""><![CDATA[*1，*2，*3，*10，*41]]></cell>
+                <cell row="16" column="4" value=""><![CDATA[*1/*10x2]]></cell>
+                <cell row="17" column="0" value=""/>
+                <cell row="17" column="1" value=""><![CDATA[对乙酰氨基酚]]></cell>
+                <cell row="17" column="2" value=""><![CDATA[UGT1A]]></cell>
+                <cell row="17" column="3" value=""><![CDATA[rs10929303]]></cell>
+                <cell row="17" column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="18" column="0" value=""/>
+                <cell row="18" column="1" value=""><![CDATA[对乙酰氨基酚]]></cell>
+                <cell row="18" column="2" value=""><![CDATA[PLA2G4A]]></cell>
+                <cell row="18" column="3" value=""><![CDATA[rs12746200]]></cell>
+                <cell row="18" column="4" value=""><![CDATA[AA]]></cell>
+                <cell row="19" column="0" value=""/>
+                <cell row="19" column="1" value=""><![CDATA[对乙酰氨基酚]]></cell>
+                <cell row="19" column="2" value=""><![CDATA[TNFRSF11A]]></cell>
+                <cell row="19" column="3" value=""><![CDATA[rs1805034]]></cell>
+                <cell row="19" column="4" value=""><![CDATA[CT]]></cell>
+                <cell row="20" column="0" value=""/>
+                <cell row="20" column="1" value=""><![CDATA[双氯芬酸钠]]></cell>
+                <cell row="20" column="2" value=""><![CDATA[CYP2C9]]></cell>
+                <cell row="20" column="3" value=""><![CDATA[*1，*2，*3]]></cell>
+                <cell row="20" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="21" column="0" value=""/>
+                <cell row="21" column="1" value=""><![CDATA[双氯芬酸钠]]></cell>
+                <cell row="21" column="2" value=""><![CDATA[PLA2G4A]]></cell>
+                <cell row="21" column="3" value=""><![CDATA[rs12746200]]></cell>
+                <cell row="21" column="4" value=""><![CDATA[AA]]></cell>
+                <cell row="22" column="0" value="　"/>
+                <cell row="22" column="1" value=""><![CDATA[双氯芬酸钠]]></cell>
+                <cell row="22" column="2" value=""><![CDATA[TNFRSF11A]]></cell>
+                <cell row="22" column="3" value=""><![CDATA[rs1805034]]></cell>
+                <cell row="22" column="4" value=""><![CDATA[CT]]></cell>
+                <cell row="23" column="0" value=""><![CDATA[止咳平喘]]></cell>
+                <cell row="23" column="1" value=""><![CDATA[可待因]]></cell>
+                <cell row="23" column="2" value=""><![CDATA[CYP2D6]]></cell>
+                <cell row="23" column="3" value=""><![CDATA[*1，*2，*3，*10，*41]]></cell>
+                <cell row="23" column="4" value=""><![CDATA[*1/*10x2]]></cell>
+                <cell row="24" column="0" value=""/>
+                <cell row="24" column="1" value=""><![CDATA[右美沙芬]]></cell>
+                <cell row="24" column="2" value=""><![CDATA[CYP2D6]]></cell>
+                <cell row="24" column="3" value=""><![CDATA[*1，*2，*3，*10，*41]]></cell>
+                <cell row="24" column="4" value=""><![CDATA[*1/*10x2]]></cell>
+                <cell row="25" column="0" value=""/>
+                <cell row="25" column="1" value=""><![CDATA[孟鲁司特钠]]></cell>
+                <cell row="25" column="2" value=""><![CDATA[-]]></cell>
+                <cell row="25" column="3" value=""><![CDATA[rs1364805]]></cell>
+                <cell row="25" column="4" value=""><![CDATA[GG]]></cell>
+                <cell row="26" column="0" value=""/>
+                <cell row="26" column="1" value=""><![CDATA[孟鲁司特钠]]></cell>
+                <cell row="26" column="2" value=""><![CDATA[SLCO2B1]]></cell>
+                <cell row="26" column="3" value=""><![CDATA[rs12422149]]></cell>
+                <cell row="26" column="4" value=""><![CDATA[GG]]></cell>
+                <cell row="27" column="0" value="　"/>
+                <cell row="27" column="1" value=""><![CDATA[孟鲁司特钠]]></cell>
+                <cell row="27" column="2" value=""><![CDATA[CA10]]></cell>
+                <cell row="27" column="3" value=""><![CDATA[rs967676]]></cell>
+                <cell row="27" column="4" value=""><![CDATA[CT]]></cell>
+                <cell row="28" column="0" value=""><![CDATA[肥胖]]></cell>
+                <cell row="28" column="1" value=""><![CDATA[二甲双胍]]></cell>
+                <cell row="28" column="2" value=""><![CDATA[SLC47A2]]></cell>
+                <cell row="28" column="3" value=""><![CDATA[rs12943590]]></cell>
+                <cell row="28" column="4" value=""><![CDATA[GA]]></cell>
+                <cell row="29" column="0" value=""/>
+                <cell row="29" column="1" value=""><![CDATA[二甲双胍]]></cell>
+                <cell row="29" column="2" value=""><![CDATA[SLC2A2]]></cell>
+                <cell row="29" column="3" value=""><![CDATA[rs8192675]]></cell>
+                <cell row="29" column="4" value=""><![CDATA[TT]]></cell>
+                <cell row="30" column="0" value=""/>
+                <cell row="30" column="1" value=""><![CDATA[二甲双胍]]></cell>
+                <cell row="30" column="2" value=""><![CDATA[SLC22A1]]></cell>
+                <cell row="30" column="3" value=""><![CDATA[rs2282143]]></cell>
+                <cell row="30" column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="31" column="0" value=""/>
+                <cell row="31" column="1" value=""><![CDATA[格列本脲]]></cell>
+                <cell row="31" column="2" value=""><![CDATA[G6PD]]></cell>
+                <cell row="31" column="3" value=""><![CDATA[-]]></cell>
+                <cell row="31" column="4" value=""><![CDATA[野生型]]></cell>
+                <cell row="32" column="0" value=""/>
+                <cell row="32" column="1" value=""><![CDATA[格列本脲]]></cell>
+                <cell row="32" column="2" value=""><![CDATA[SCNN1B]]></cell>
+                <cell row="32" column="3" value=""><![CDATA[rs889299]]></cell>
+                <cell row="32" column="4" value=""><![CDATA[AG]]></cell>
+                <cell row="33" column="0" value=""/>
+                <cell row="33" column="1" value=""><![CDATA[马来酸格列酮]]></cell>
+                <cell row="33" column="2" value=""><![CDATA[CYP2C8]]></cell>
+                <cell row="33" column="3" value=""><![CDATA[*1, *2, *3]]></cell>
+                <cell row="33" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="34" column="0" value="　"/>
+                <cell row="34" column="1" value=""><![CDATA[马来酸格列酮]]></cell>
+                <cell row="34" column="2" value=""><![CDATA[ADIPOQ]]></cell>
+                <cell row="34" column="3" value=""><![CDATA[rs2241766]]></cell>
+                <cell row="34" column="4" value=""><![CDATA[TT]]></cell>
+                <cell row="35" column="0" value=""><![CDATA[镇静安神]]></cell>
+                <cell row="35" column="1" value=""><![CDATA[苯妥英钠]]></cell>
+                <cell row="35" column="2" value=""><![CDATA[CYP2C9]]></cell>
+                <cell row="35" column="3" value=""><![CDATA[*1，*2，*3]]></cell>
+                <cell row="35" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="36" column="0" value=""/>
+                <cell row="36" column="1" value=""><![CDATA[苯妥英钠]]></cell>
+                <cell row="36" column="2" value=""><![CDATA[SCN1A]]></cell>
+                <cell row="36" column="3" value=""><![CDATA[rs3812718]]></cell>
+                <cell row="36" column="4" value=""><![CDATA[CT]]></cell>
+                <cell row="37" column="0" value=""/>
+                <cell row="37" column="1" value=""><![CDATA[地西泮]]></cell>
+                <cell row="37" column="2" value=""><![CDATA[CYP2C19]]></cell>
+                <cell row="37" column="3" value=""><![CDATA[*1，*2，*3，*17]]></cell>
+                <cell row="37" column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="38" column="0" value=""/>
+                <cell row="38" column="1" value=""><![CDATA[卡马西平]]></cell>
+                <cell row="38" column="2" value=""><![CDATA[SCN1A]]></cell>
+                <cell row="38" column="3" value=""><![CDATA[rs3812718]]></cell>
+                <cell row="38" column="4" value=""><![CDATA[CT]]></cell>
+                <cell row="39" column="0" value=""/>
+                <cell row="39" column="1" value=""><![CDATA[卡马西平]]></cell>
+                <cell row="39" column="2" value=""><![CDATA[UGT2B7]]></cell>
+                <cell row="39" column="3" value=""><![CDATA[rs28365063]]></cell>
+                <cell row="39" column="4" value=""><![CDATA[GA]]></cell>
+                <cell row="40" column="0" value="　"/>
+                <cell row="40" column="1" value=""><![CDATA[卡马西平]]></cell>
+                <cell row="40" column="2" value=""><![CDATA[PRRC2A]]></cell>
+                <cell row="40" column="3" value=""><![CDATA[rs750332]]></cell>
+                <cell row="40" column="4" value=""><![CDATA[CT]]></cell>
+            </rows>
+        </table>
+        <repeat id="allTypesOfMedicines">
+            <group id="0" order="0">
+                <parameter id="everyTypeMedicineName" value="一、抗炎药"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value="">
+                            <![CDATA[庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[氨基糖苷类抗生素]]></cell>
+                        <cell row="0" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[伏立康唑片、威凡、匹纳普 、丽福康、美大康]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[伏立康唑]]></cell>
+                        <cell row="1" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="2" column="0" value=""><![CDATA[依托红霉素、琥乙红霉素]]></cell>
+                        <cell row="2" column="1" value=""><![CDATA[红霉素]]></cell>
+                        <cell row="2" column="2" value=""><![CDATA[正常使用]]></cell>
+                    </rows>
+                </table>
+            </group>
+            <group id="1" order="1">
+                <parameter id="everyTypeMedicineName" value="二、肠胃不适"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value=""><![CDATA[奥美拉唑, 奥美拉唑肠溶胶囊, 洛赛克, 奥克]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[奥美拉唑]]></cell>
+                        <cell row="0" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>见效慢，遵医嘱增加剂量</style>]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[兰索拉唑, 达克普隆, 兰悉多, 普托平, 安圣通, 可意林, 兰索星, 恒坤]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[兰索拉唑]]></cell>
+                        <cell row="1" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>见效慢，遵医嘱增加剂量</style>]]></cell>
+                        <cell row="2" column="0" value=""><![CDATA[泮托拉唑, 泮托拉唑肠溶胶囊, 潘舒泰克, 健朗晨, 泮立苏, 诺森]]></cell>
+                        <cell row="2" column="1" value=""><![CDATA[泮托拉唑]]></cell>
+                        <cell row="2" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>见效慢，遵医嘱增加剂量</style>]]></cell>
+                        <cell row="3" column="0" value=""><![CDATA[黄连素]]></cell>
+                        <cell row="3" column="1" value=""><![CDATA[黄连素]]></cell>
+                        <cell row="3" column="2" value=""><![CDATA[正常使用]]></cell>
+                    </rows>
+                </table>
+            </group>
+            <group id="2" order="2">
+                <parameter id="everyTypeMedicineName" value="三、雾化吸入"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value=""><![CDATA[硫酸特布他林, 博利康尼, 喘康速]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[硫酸特布他林]]></cell>
+                        <cell row="0" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[布地奈德, 普米克, 信必可都保, 乐冰, 吉舒]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[布地奈德]]></cell>
+                        <cell row="1" column="2" value=""><![CDATA[正常使用]]></cell>
+                    </rows>
+                </table>
+            </group>
+            <group id="3" order="3">
+                <parameter id="everyTypeMedicineName" value="四、退热药"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value=""><![CDATA[布洛芬, 布洛芬缓释胶囊, 芬必得, 美林, 布洛芬颗粒, 右旋布洛芬胶囊, 同泽安]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[布洛芬]]></cell>
+                        <cell row="0" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[布洛芬, 布洛芬缓释胶囊, 芬必得, 美林, 布洛芬颗粒, 右旋布洛芬胶囊, 同泽安]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[右旋布洛芬]]></cell>
+                        <cell row="1" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="2" column="0" value="">
+                            <![CDATA[对乙酰氨基酚, 对乙酰氨基酚片, 泰诺林, 扑热息痛, 百服宁, 必理通, 泰诺, 优卡丹, 代尔卡, 保达琳, 明感静, 小儿氨酚黄那敏颗粒, 护彤, 小儿快克]]></cell>
+                        <cell row="2" column="1" value=""><![CDATA[对乙酰氨基酚]]></cell>
+                        <cell row="2" column="2" value="">
+                            <![CDATA[<style font_color='#AF2429' bold='true'>遵医嘱严禁过量使用</style>]]></cell>
+                        <cell row="3" column="0" value=""><![CDATA[双氯芬酸钠, 双氯芬酸钠栓, 扶他林, 思孚欣, 戴芬, 奥尔芬, 英太青, 芬迪]]></cell>
+                        <cell row="3" column="1" value=""><![CDATA[双氯芬酸钠]]></cell>
+                        <cell row="3" column="2" value=""><![CDATA[正常使用]]></cell>
+                    </rows>
+                </table>
+            </group>
+            <group id="4" order="4">
+                <parameter id="everyTypeMedicineName" value="五、止咳平喘"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value=""><![CDATA[可待因, 联邦止咳露, 奥亭]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[可待因]]></cell>
+                        <cell row="0" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[右美沙芬, 惠菲宁, 美敏伪麻口服液, 氢溴酸右美沙芬, 普西兰, 可乐尔]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[右美沙芬]]></cell>
+                        <cell row="1" column="2" value=""><![CDATA[正常使用]]></cell>
+                        <cell row="2" column="0" value=""><![CDATA[孟鲁司特钠, 顺尔宁]]></cell>
+                        <cell row="2" column="1" value=""><![CDATA[孟鲁司特钠]]></cell>
+                        <cell row="2" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>使用效果可能不佳</style>]]></cell>
+                    </rows>
+                </table>
+            </group>
+            <group id="5" order="5">
+                <parameter id="everyTypeMedicineName" value="六、肥胖"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value=""><![CDATA[二甲双胍, 捷诺达, 盐酸二甲双胍片, 泰白, 格华止]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[二甲双胍]]></cell>
+                        <cell row="0" column="2" value=""><![CDATA[使用效果好]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[格列本脲, 格列本脲片]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[格列本脲]]></cell>
+                        <cell row="1" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当减少剂量</style>]]></cell>
+                        <cell row="2" column="0" value=""><![CDATA[马来酸罗格列酮, 文达敏, 文迪雅]]></cell>
+                        <cell row="2" column="1" value=""><![CDATA[马来酸格列酮]]></cell>
+                        <cell row="2" column="2" value=""><![CDATA[正常使用]]></cell>
+                    </rows>
+                </table>
+            </group>
+            <group id="6" order="6">
+                <parameter id="everyTypeMedicineName" value="七、镇静安神"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0" column="0" value=""><![CDATA[苯妥英钠, 苯妥英钠片]]></cell>
+                        <cell row="0" column="1" value=""><![CDATA[苯妥英钠]]></cell>
+                        <cell row="0" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当增加剂量</style>]]></cell>
+                        <cell row="1" column="0" value=""><![CDATA[地西泮, 复方地西泮片]]></cell>
+                        <cell row="1" column="1" value=""><![CDATA[地西泮]]></cell>
+                        <cell row="1" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当增加剂量</style>]]></cell>
+                        <cell row="2" column="0" value=""><![CDATA[卡马西平, 卡马西平片, 得理多]]></cell>
+                        <cell row="2" column="1" value=""><![CDATA[卡马西平]]></cell>
+                        <cell row="2" column="2" value="">
+                            <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当增加剂量</style>]]></cell>
+                    </rows>
+                </table>
+            </group>
+        </repeat>
+        <group id="catalog_3_1" order="1" value="3 1" catalog="3 1">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >MT-RNR1</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs267606617</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >A</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >氨基糖苷类抗生素致聋低风险</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1B</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >MT-RNR1</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs267606619</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >C</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >氨基糖苷类抗生素致聋低风险</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >2B</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="1" column="7" value=""/>
+                    <cell row="2" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C19</style>]]></cell>
+                    <cell row="2" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3，*17</style>]]></cell>
+                    <cell row="2" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="2" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >伏立康唑</style>]]></cell>
+                    <cell row="2" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C19正常代谢型，伏立康唑代谢速度正常</style>]]></cell>
+                    <cell row="2" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1A</style>]]></cell>
+                    <cell row="2" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                    <cell row="3" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >G6PD</style>]]></cell>
+                    <cell row="3" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >-</style>]]></cell>
+                    <cell row="3" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >野生型</style>]]></cell>
+                    <cell row="3" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >红霉素</style>]]></cell>
+                    <cell row="3" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >红霉素溶血低风险</style>]]></cell>
+                    <cell row="3" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1A</style>]]></cell>
+                    <cell row="3" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="3" column="7" value="　"/>
+                    <cell row="4" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >ABCC2</style>]]></cell>
+                    <cell row="4" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs717620</style>]]></cell>
+                    <cell row="4" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CT</style>]]></cell>
+                    <cell row="4" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >红霉素</style>]]></cell>
+                    <cell row="4" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >红霉素代谢较快</style>]]></cell>
+                    <cell row="4" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="4" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="4" column="7" value=""/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、氨基糖苷类抗生素：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+氨基糖苷类抗生素是一类针对革兰氏阴性菌及部分兼性厌氧菌（肺炎杆菌、大肠杆菌等）感染的抗生素，通过抑制细菌蛋白合成达到抗菌的效果。药物基因组学研究表明，人类基因组线粒体DNA中<style italic='true'>RNR1</style>基因突变与氨基糖苷类抗生素耳聋毒性强相关，突变携带者应禁用此类药物。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果不支持您孩子携带<style italic='true'>RNR1</style>基因突变，可正常使用药物。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、伏立康唑：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：伏立康唑片、威凡、匹纳普 、丽福康、美大康</style><br/>
+伏立康唑是一种三唑类抗真菌药物，主要用于治疗侵入性曲霉菌、食道念珠菌、尖端赛多孢子菌等真菌感染。其通过抑制真菌细胞膜主要成分麦角固醇合成，实现抗菌效果。人类基因组<style italic='true'>CYP2C19</style>基因多态与伏立康唑代谢速度相关，是伏立康唑药效及毒副作用主要影响因素。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子属于<style italic='true'>CYP2C19</style>正常代谢型，伏立康唑代谢正常，可正常使用。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>3、红霉素：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：依托红霉素、琥乙红霉素</style><br/>
+红霉素是大环内酯类抗生素的一种，主要应用于链球菌感染（肺炎链球菌、金黄色葡萄球菌等）。通过抑制细菌蛋白合成达到抗菌效果。临床研究表明，葡萄糖-6-磷酸脱氢酶缺乏症患者（<style italic='true'>G6PD</style>基因突变），使用红霉素会造成溶血等恶性毒副作用。药物基因组学研究还提示，<style italic='true'>ABCC2</style>基因多态与红霉素代谢速度相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果不支持您孩子携带<style italic='true'>G6PD</style>基因突变。红霉素代谢正常，可正常使用药物。]]></parameter>
+            <parameter id="detailMedicineType" value="抗炎药"/>
+            <parameter id="detailMedicineTypeEnglish" value="Antibacterial"/>
+        </group>
+        <group id="catalog_3_2" order="2" value="3 2" catalog="3 2">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1，*2，*3，*17</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1/*1</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >奥美拉唑</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19正常代谢型，奥美拉唑药效较差</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >2A</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>见效慢，遵医嘱增加剂量</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1，*2，*3，*17</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1/*1</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >兰索拉唑</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19正常代谢型，兰索拉唑药效较差</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >2A</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>见效慢，遵医嘱增加剂量</style>]]></cell>
+                    <cell row="1" column="7" value="　"/>
+                    <cell row="2" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19</style>]]></cell>
+                    <cell row="2" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1，*2，*3，*17</style>]]></cell>
+                    <cell row="2" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1/*1</style>]]></cell>
+                    <cell row="2" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >泮托拉唑</style>]]></cell>
+                    <cell row="2" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19正常代谢型，泮托拉唑药效较差</style>]]></cell>
+                    <cell row="2" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >3</style>]]></cell>
+                    <cell row="2" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>见效慢，遵医嘱增加剂量</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                    <cell row="3" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6</style>]]></cell>
+                    <cell row="3" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3，*4，*10，*41</style>]]></cell>
+                    <cell row="3" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*10x2</style>]]></cell>
+                    <cell row="3" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >黄连素</style>]]></cell>
+                    <cell row="3" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6 *10单体型携带，使用黄连素导致的右美沙芬药效降低风险低</style>]]></cell>
+                    <cell row="3" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="3" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="3" column="7" value="　"/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、奥美拉唑：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：奥美拉唑, 奥美拉唑肠溶胶囊, 洛赛克, 奥克</style><br/>
+奥美拉唑是一类离子泵抑制剂，通过抑制胃部H+/K+ATP酶活性，实现抑制胃酸分泌的效果。主要用于治疗胃酸过多、胃反流，同时还可用于治疗胃部幽门螺杆菌感染。人类基因组<style italic='true'>CYP2C19</style>基因多态与奥美拉唑代谢速度相关，奥美拉唑代谢越快，局部浓度越低，药效越差。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子属于<style italic='true'>CYP2C19</style>正常代谢型，奥美拉唑代谢快，药效较差，可遵医嘱增加用药剂量。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、兰索拉唑：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：兰索拉唑, 达克普隆, 兰悉多, 普托平, 安圣通, 可意林, 兰索星, 恒坤</style><br/>
+兰索拉唑是一类与奥美拉唑类似的离子泵抑制剂，通过抑制胃部H+/K+ATP酶活性，实现抑制胃酸分泌的效果。主要用于治疗胃酸过多、胃反流，同时还可用于治疗胃部幽门螺杆菌感染，其治疗效果优于奥美拉唑。人类基因组<style italic='true'>CYP2C19</style>基因多态同样与兰索拉唑代谢速度相关，兰索拉唑代谢越快，局部浓度越低，药效越差。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子属于<style italic='true'>CYP2C19</style>正常代谢型，兰索拉唑代谢快，药效较差，可遵医嘱增加用药剂量。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>3、泮托拉唑：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：泮托拉唑, 泮托拉唑肠溶胶囊, 潘舒泰克, 健朗晨, 泮立苏, 诺森</style><br/>
+泮托拉唑同样也是一类离子泵抑制剂，通过抑制胃部H+/K+ATP酶活性，实现抑制胃酸分泌的效果。主要用于治疗胃酸过多、胃反流，其治疗效果优于奥美拉唑。人类基因组<style italic='true'>CYP2C19</style>基因多态同样与泮托拉唑代谢速度相关，兰索拉唑代谢越快，局部浓度越低，药效越差。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子属于<style italic='true'>CYP2C19</style>正常代谢型，泮托拉唑代谢快，药效较差，可遵医嘱增加用药剂量。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>4、黄连素：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：黄连素</style><br/>
+黄连素是一种重要的生物碱，是我国应用很久的中药，在临床中一直作为非处方药用于治疗腹泻。有药物基因组学研究表明，使用黄连素会抑制右美沙芬治疗效果，<style italic='true'>CYP2D6</style>基因*10单体型携带者此种抑制作用效果低。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子携带<style italic='true'>CYP2D6 </style>*10单体型，可正常使用黄连素。]]></parameter>
+            <parameter id="detailMedicineType" value="肠胃不适"/>
+            <parameter id="detailMedicineTypeEnglish" value="The stomach and intestine"/>
+        </group>
+        <group id="catalog_3_3" order="3" value="3 3" catalog="3 3">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >ADRB2</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs1042714</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >GC</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >硫酸特布他林</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >特布他林治疗效果较好</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >4</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CRHR1</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs1876828</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CC</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布地奈德</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布地奈德见效慢，治疗效果好</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >2B</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="1" column="7" value="　"/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、硫酸特布他林：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：硫酸特布他林, 博利康尼, 喘康速</style><br/>
+硫酸特布他林是一类选择性的β2肾上腺素支气管扩张剂，通过刺激β肾上腺素受体提高气管平滑肌细胞内部cAMP水平，降低气管平滑肌紧张水平，从而缓解哮喘症状。药物基因组学及群体遗传学研究表明，<style italic='true'>ADRB2</style>基因多态与特布他林药物治疗效果相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子使用特布他林治疗效果较好，可正常使用。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、布地奈德：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：布地奈德, 普米克, 信必可都保, 乐冰, 吉舒</style><br/>
+布地奈德是一类糖皮质激素，具有高效局部抗炎作用，抑制免疫反应和降低抗体合成，从而使组胺等过敏活性介质的释放减少和活性降低。主要用于糖皮质激素依赖性或非依赖性的支气管哮喘和哮喘性慢性支气管炎患者。药物基因组学及群体遗传学研究表明，<style italic='true'>CRHR1</style>基因多态与布地奈德药物见效速度和长期效果相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子使用特布他林治疗效果好，可正常使用。]]></parameter>
+            <parameter id="detailMedicineType" value="雾化吸入"/>
+            <parameter id="detailMedicineTypeEnglish" value="Aerosol inhalation"/>
+        </group>
+        <group id="catalog_3_4" order="4" value="3 4" catalog="3 4">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C9</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布洛芬</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布洛芬代谢正常</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >2B</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C8</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布洛芬</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布洛芬代谢正常</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >NA</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="1" column="7" value=""/>
+                    <cell row="2" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >PTGS2</style>]]></cell>
+                    <cell row="2" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs20417</style>]]></cell>
+                    <cell row="2" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CC</style>]]></cell>
+                    <cell row="2" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布洛芬</style>]]></cell>
+                    <cell row="2" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >布洛芬药效正常</style>]]></cell>
+                    <cell row="2" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="2" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="2" column="7" value=""/>
+                    <cell row="3" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C8</style>]]></cell>
+                    <cell row="3" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3</style>]]></cell>
+                    <cell row="3" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="3" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >右旋布洛芬</style>]]></cell>
+                    <cell row="3" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >右旋布洛芬代谢正常</style>]]></cell>
+                    <cell row="3" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >NA</style>]]></cell>
+                    <cell row="3" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="3" column="7" value="　"/>
+                    <cell row="4" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >PTGS2</style>]]></cell>
+                    <cell row="4" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs20417</style>]]></cell>
+                    <cell row="4" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CC</style>]]></cell>
+                    <cell row="4" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >右旋布洛芬</style>]]></cell>
+                    <cell row="4" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >右旋布洛芬药效正常</style>]]></cell>
+                    <cell row="4" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="4" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="4" column="7" value=""/>
+                    <cell row="5" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6</style>]]></cell>
+                    <cell row="5" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3，*10，*41</style>]]></cell>
+                    <cell row="5" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*10x2</style>]]></cell>
+                    <cell row="5" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >对乙酰氨基酚</style>]]></cell>
+                    <cell row="5" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6正常代谢型，对乙酰氨基酚代谢正常</style>]]></cell>
+                    <cell row="5" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >NA</style>]]></cell>
+                    <cell row="5" column="6" value="">
+                        <![CDATA[<style font_color='#AF2429' bold='true'>遵医嘱严禁过量使用</style>]]></cell>
+                    <cell row="5" column="7" value="　"/>
+                    <cell row="6" column="0" value="">
+                        <![CDATA[<style font_color='#AF2429'  bold='true' >UGT1A</style>]]></cell>
+                    <cell row="6" column="1" value="">
+                        <![CDATA[<style font_color='#AF2429'  bold='true' >rs10929303</style>]]></cell>
+                    <cell row="6" column="2" value="">
+                        <![CDATA[<style font_color='#AF2429'  bold='true' >CC</style>]]></cell>
+                    <cell row="6" column="3" value="">
+                        <![CDATA[<style font_color='#AF2429'  bold='true' >对乙酰氨基酚</style>]]></cell>
+                    <cell row="6" column="4" value="">
+                        <![CDATA[<style font_color='#AF2429'  bold='true' >过量使用对乙酰氨基酚肝毒性风险高</style>]]></cell>
+                    <cell row="6" column="5" value="">
+                        <![CDATA[<style font_color='#AF2429'  bold='true' >3</style>]]></cell>
+                    <cell row="6" column="6" value="">
+                        <![CDATA[<style font_color='#AF2429' bold='true'>    </style>]]></cell>
+                    <cell row="6" column="7" value=""/>
+                    <cell row="7" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >PLA2G4A</style>]]></cell>
+                    <cell row="7" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs12746200</style>]]></cell>
+                    <cell row="7" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >AA</style>]]></cell>
+                    <cell row="7" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >对乙酰氨基酚</style>]]></cell>
+                    <cell row="7" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >副作用（皮疹）风险正常</style>]]></cell>
+                    <cell row="7" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="7" column="6" value="">
+                        <![CDATA[<style font_color='#AF2429' bold='true'>    </style>]]></cell>
+                    <cell row="7" column="7" value=""/>
+                    <cell row="8" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >TNFRSF11A</style>]]></cell>
+                    <cell row="8" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs1805034</style>]]></cell>
+                    <cell row="8" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CT</style>]]></cell>
+                    <cell row="8" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >对乙酰氨基酚</style>]]></cell>
+                    <cell row="8" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >副作用（皮疹）风险中等</style>]]></cell>
+                    <cell row="8" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="8" column="6" value="">
+                        <![CDATA[<style font_color='#AF2429' bold='true'>    </style>]]></cell>
+                    <cell row="8" column="7" value=""/>
+                    <cell row="9" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C9</style>]]></cell>
+                    <cell row="9" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3</style>]]></cell>
+                    <cell row="9" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="9" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >双氯芬酸钠</style>]]></cell>
+                    <cell row="9" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >代谢正常，副作用风险低</style>]]></cell>
+                    <cell row="9" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >2A</style>]]></cell>
+                    <cell row="9" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="9" column="7" value="　"/>
+                    <cell row="10" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >PLA2G4A</style>]]></cell>
+                    <cell row="10" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs12746200</style>]]></cell>
+                    <cell row="10" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >AA</style>]]></cell>
+                    <cell row="10" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >双氯芬酸钠</style>]]></cell>
+                    <cell row="10" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >副作用（皮疹）风险正常</style>]]></cell>
+                    <cell row="10" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="10" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="10" column="7" value=""/>
+                    <cell row="11" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >TNFRSF11A</style>]]></cell>
+                    <cell row="11" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs1805034</style>]]></cell>
+                    <cell row="11" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CT</style>]]></cell>
+                    <cell row="11" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >双氯芬酸钠</style>]]></cell>
+                    <cell row="11" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >副作用（皮疹）风险中等</style>]]></cell>
+                    <cell row="11" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="11" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="11" column="7" value=""/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、布洛芬：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：布洛芬, 布洛芬缓释胶囊, 芬必得, 美林, 布洛芬颗粒, 右旋布洛芬胶囊, 同泽安</style><br/>
+布洛芬是一种非选择性的环氧酶抑制剂。布洛芬的准确药物作用机制目前并不清除，研究认为其实通过抑制环氧酶2活性，进而降低能导致炎症、发热及疼痛的前列腺素的合成，最终实现退热的效果。药物基因组学研究提示、布洛芬的代谢与<style italic='true'>CYP2C8</style>及<style italic='true'>CYP2C9</style>基因多态有关。同时，群体遗传学分析发现<style italic='true'>PTGS2</style>基因多态与布洛芬药效有关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子对布洛芬代谢及药效均正常，可正常使用。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、右旋布洛芬：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：布洛芬, 布洛芬缓释胶囊, 芬必得, 美林, 布洛芬颗粒, 右旋布洛芬胶囊, 同泽安</style><br/>
+R-布洛芬为布洛芬的右旋体（分子式相同，空间结果不同），起疗效好于传统布洛芬。药物基因组学研究提示，布洛芬的代谢与<style italic='true'>CYP2C8</style>基因多态有关。同时，群体遗传学分析发现<style italic='true'>PTGS2</style>基因多态与布洛芬药效有关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子对R-布洛芬代谢及药效均正常，可正常使用。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>3、对乙酰氨基酚：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：对乙酰氨基酚, 对乙酰氨基酚片, 泰诺林, 扑热息痛, 百服宁, 必理通, 泰诺, 优卡丹, 代尔卡, 保达琳, 明感静, 小儿氨酚黄那敏颗粒, 护彤, 小儿快克</style><br/>
+对乙酰氨基酚是一种常用的退热镇痛药物。其作用机制目前仍不十分清楚。与布洛芬不同，对乙酰氨基酚不是直接作用于受累组织的环氧酶，而是作用于中枢神经系统，通过下丘脑的温度调节中枢实现舒张血管，退热镇痛的效果。药物基因组学研究表明，对乙酰氨基酚代谢与<style italic='true'>CYP2D6</style>基因多态相关。同时，群体遗传学分析结果提示<style italic='true'>UGT1A</style>，<style italic='true'>PLA2G4A</style>和<style italic='true'>TNFRSF11A</style>基因多态与对乙酰氨基酚毒副作用风险相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2D6</style>属于正常代谢型，对乙酰氨基酚代谢正常。<style italic='true'>UGT1A</style>基因型提示过量使用对乙酰氨基酚会有高肝毒性风险。其他毒副作用风险中等。综上，请慎用对乙酰氨基酚类药物，做到遵医嘱不过量。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>4、双氯芬酸钠：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：双氯芬酸钠, 双氯芬酸钠栓, 扶他林, 思孚欣, 戴芬, 奥尔芬, 英太青, 芬迪</style><br/>
+双氯芬酸钠是一类非激素类抗炎药物，其通过抑制免疫细胞迁移及直接抑制受累组织环氧酶活性，进而抑制前列腺素合成实现退热消炎的效果。药物基因组学研究表明，双氯芬酸钠代谢与<style italic='true'>CYP2C9</style>基因多态直接相关，代谢越强毒副作用越低。同时，有研究表明<style italic='true'>PLA2G4A</style>和<style italic='true'>TNFRSF11A</style>基因多态与双氯芬酸钠毒副作用风险相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2C9</style>为正常代谢型，双氯芬酸钠代谢正常副作用低。<style italic='true'>PLA2G4A</style>和<style italic='true'>TNFRSF11A</style>基因多态引起的毒副作用风险中等，可正常使用。]]></parameter>
+            <parameter id="detailMedicineType" value="退热药"/>
+            <parameter id="detailMedicineTypeEnglish" value="Antifebrile"/>
+        </group>
+        <group id="catalog_3_5" order="5" value="3 5" catalog="3 5">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3，*10，*41</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*10x2</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >可待因</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6正常代谢型，对可待因代谢正常，副作用低</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1A</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3，*10，*41</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*10x2</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >右美沙芬</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2D6正常代谢型，对右美沙芬代谢正常，副作用低</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1B</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="1" column="7" value="　"/>
+                    <cell row="2" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >-</style>]]></cell>
+                    <cell row="2" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs1364805</style>]]></cell>
+                    <cell row="2" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >GG</style>]]></cell>
+                    <cell row="2" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >孟鲁司特钠</style>]]></cell>
+                    <cell row="2" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >药效正常</style>]]></cell>
+                    <cell row="2" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="2" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>使用效果可能不佳</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                    <cell row="3" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >SLCO2B1</style>]]></cell>
+                    <cell row="3" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >rs12422149</style>]]></cell>
+                    <cell row="3" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >GG</style>]]></cell>
+                    <cell row="3" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >孟鲁司特钠</style>]]></cell>
+                    <cell row="3" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >药效差</style>]]></cell>
+                    <cell row="3" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >3</style>]]></cell>
+                    <cell row="3" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>    </style>]]></cell>
+                    <cell row="3" column="7" value=""/>
+                    <cell row="4" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CA10</style>]]></cell>
+                    <cell row="4" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs967676</style>]]></cell>
+                    <cell row="4" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CT</style>]]></cell>
+                    <cell row="4" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >孟鲁司特钠</style>]]></cell>
+                    <cell row="4" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >药效较好</style>]]></cell>
+                    <cell row="4" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="4" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>    </style>]]></cell>
+                    <cell row="4" column="7" value=""/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、可待因：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：可待因, 联邦止咳露, 奥亭</style><br/>
+可待因是一种中枢神经系统阿片受体激动剂。通过激活阿片受体，抑制多巴胺、乙酰胆碱等神经递质释放，进而降低神经系统兴奋性，实现止咳平喘效果。药物基因组学研究表明，可待因代谢速度与<style italic='true'>CYP2D6</style>基因多态直接相关，代谢慢则更易产生毒副作用。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2D6</style>属于正常代谢型，可待因代谢正常，毒副作用低。可正常使用。<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、右美沙芬：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：右美沙芬, 惠菲宁, 美敏伪麻口服液, 氢溴酸右美沙芬, 普西兰, 可乐尔</style><br/>
+右美沙芬是一种类阿片药物，作为类阿片受体激动剂及N-甲基-D-天门冬氨酸谷氨酸能受体拮抗剂，其可直接作用在位于大脑髓质的咳嗽中枢，通过抑制其活性实现镇咳效果。药物基因组学研究表明，右美沙芬代谢速度与<style italic='true'>CYP2D6</style>基因多态直接相关，代谢慢则更易产生毒副作用。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2D6</style>属于正常代谢型，右美沙芬代谢正常，毒副作用低。可正常使用<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>3、孟鲁司特钠：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：孟鲁司特钠, 顺尔宁</style><br/>
+孟鲁司特钠是一类白三烯受体拮抗剂，通过抑制LTD4和CLT1受体，缓解气道水肿，平滑肌收缩，达到止咳平喘效果。药物基因组及群体遗传学研究表明，19号染色体基因间区多态，<style italic='true'>SLCO2B1</style>、<style italic='true'>CA10</style>等基因多态与孟鲁司特钠药效相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>SLCO2B1</style>的多态类型可能导致孟鲁司特钠药效较差。]]></parameter>
+            <parameter id="detailMedicineType" value="止咳平喘"/>
+            <parameter id="detailMedicineTypeEnglish" value="Relieving cough and asthma"/>
+        </group>
+        <group id="catalog_3_6" order="6" value="3 6" catalog="3 6">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >SLC47A2</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs12943590</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >GA</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >二甲双胍</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >代谢慢，药效好</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >2B</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>使用效果好</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >SLC2A2</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs8192675</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >TT</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >二甲双胍</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >药效正常</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="1" column="7" value=""/>
+                    <cell row="2" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >SLC22A1</style>]]></cell>
+                    <cell row="2" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs2282143</style>]]></cell>
+                    <cell row="2" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CC</style>]]></cell>
+                    <cell row="2" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >二甲双胍</style>]]></cell>
+                    <cell row="2" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >代谢正常</style>]]></cell>
+                    <cell row="2" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="2" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="2" column="7" value=""/>
+                    <cell row="3" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >G6PD</style>]]></cell>
+                    <cell row="3" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >-</style>]]></cell>
+                    <cell row="3" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >野生型</style>]]></cell>
+                    <cell row="3" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >格列本脲</style>]]></cell>
+                    <cell row="3" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >格列本脲溶血低风险</style>]]></cell>
+                    <cell row="3" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1A</style>]]></cell>
+                    <cell row="3" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当减少剂量</style>]]></cell>
+                    <cell row="3" column="7" value="　"/>
+                    <cell row="4" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >SCNN1B</style>]]></cell>
+                    <cell row="4" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >rs889299</style>]]></cell>
+                    <cell row="4" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >AG</style>]]></cell>
+                    <cell row="4" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >格列本脲</style>]]></cell>
+                    <cell row="4" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >副作用风险较高</style>]]></cell>
+                    <cell row="4" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >3</style>]]></cell>
+                    <cell row="4" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>    </style>]]></cell>
+                    <cell row="4" column="7" value=""/>
+                    <cell row="5" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C8</style>]]></cell>
+                    <cell row="5" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1, *2, *3</style>]]></cell>
+                    <cell row="5" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="5" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >马来酸格列酮</style>]]></cell>
+                    <cell row="5" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >代谢正常</style>]]></cell>
+                    <cell row="5" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="5" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>正常使用</style>]]></cell>
+                    <cell row="5" column="7" value="　"/>
+                    <cell row="6" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >ADIPOQ</style>]]></cell>
+                    <cell row="6" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs2241766</style>]]></cell>
+                    <cell row="6" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >TT</style>]]></cell>
+                    <cell row="6" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >马来酸格列酮</style>]]></cell>
+                    <cell row="6" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >药效正常</style>]]></cell>
+                    <cell row="6" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="6" column="6" value="">
+                        <![CDATA[<style font_color='#000000' bold='false'>    </style>]]></cell>
+                    <cell row="6" column="7" value=""/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、二甲双胍：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：二甲双胍, 捷诺达, 盐酸二甲双胍片, 泰白, 格华止</style><br/>
+二甲双胍是一类口服抗高血糖药。其通过激活肝脏AMPK激酶活性，抑制肝糖原分解，同时降低肠道葡萄糖吸收，促进组织摄取和利用葡萄糖，最终实现降低血糖，提高胰岛素敏感性的目的。药物基因组学及群体遗传学研究提示，<style italic='true'>SLC47A2</style>基因多态与二甲双胍代谢及药效相关，<style italic='true'>SLC2A2</style>基因多态与二甲双胍药效相关，<style italic='true'>SLC22A1</style>与二甲双胍代谢相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子二甲双胍药效好。可正常使用<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、格列本脲：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：格列本脲, 格列本脲片</style><br/>
+格列本脲是第二代磺酰脲类抗糖尿病药。其通过结合胰岛细胞表面的ATP活性钾离子通道，实现细胞膜去极化，进而促进细胞吸收钙离子，从而提高胰岛素分泌。临床研究表明，葡萄糖-6-磷酸脱氢酶缺乏症患者（<style italic='true'>G6PD</style>基因突变），使用格列本脲会造成溶血等恶性毒副作用。药物基因组学研究还提示，<style italic='true'>SCNN1B</style>基因多态与格列本脲毒副作用相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果不支持您孩子携带<style italic='true'>G6PD</style>基因突变。<style italic='true'>SCNN1B</style>多态类型提示毒副作用风险较高。建议减少用量<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>3、马来酸格列酮：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：马来酸罗格列酮, 文达敏, 文迪雅</style><br/>
+马来酸格列酮是一类胰岛素增敏剂，其通过激活过氧化物酶体增殖物激活受体信号通路(PPAR signaling pathway)，提高胰岛素敏感基因的表达，从而实现降低胰岛素拮抗症状，达到降低血糖，缓解2型糖尿病目的。药物基因组学研究表明，马来酸格列酮代谢与<style italic='true'>CYP2C8</style>基因多态相关，同时，<style italic='true'>ADIPOQ</style>基因多态与马来酸格列酮药效相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2C8</style>属于正常代谢型，马来酸格列酮代谢正常。同时<style italic='true'>ADIPOQ</style>多态类型提示药物效正常，可正常使用。]]></parameter>
+            <parameter id="detailMedicineType" value="肥胖"/>
+            <parameter id="detailMedicineTypeEnglish" value="Fat and metabolic syndrome"/>
+        </group>
+        <group id="catalog_3_7" order="7" value="3 7" catalog="3 7">
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >CYP2C9</style>]]></cell>
+                    <cell row="0" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1，*2，*3</style>]]></cell>
+                    <cell row="0" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >*1/*1</style>]]></cell>
+                    <cell row="0" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >苯妥英钠</style>]]></cell>
+                    <cell row="0" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >代谢正常，副作用低</style>]]></cell>
+                    <cell row="0" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >1A</style>]]></cell>
+                    <cell row="0" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当增加剂量</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+                    <cell row="1" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >SCN1A</style>]]></cell>
+                    <cell row="1" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >rs3812718</style>]]></cell>
+                    <cell row="1" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CT</style>]]></cell>
+                    <cell row="1" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >苯妥英钠</style>]]></cell>
+                    <cell row="1" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >较高剂量</style>]]></cell>
+                    <cell row="1" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >2B</style>]]></cell>
+                    <cell row="1" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>    </style>]]></cell>
+                    <cell row="1" column="7" value=""/>
+                    <cell row="2" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19</style>]]></cell>
+                    <cell row="2" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1，*2，*3，*17</style>]]></cell>
+                    <cell row="2" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >*1/*1</style>]]></cell>
+                    <cell row="2" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >地西泮</style>]]></cell>
+                    <cell row="2" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CYP2C19正常代谢型，地西泮药效持续时间短</style>]]></cell>
+                    <cell row="2" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >3</style>]]></cell>
+                    <cell row="2" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当增加剂量</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                    <cell row="3" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >SCN1A</style>]]></cell>
+                    <cell row="3" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >rs3812718</style>]]></cell>
+                    <cell row="3" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CT</style>]]></cell>
+                    <cell row="3" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >卡马西平</style>]]></cell>
+                    <cell row="3" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >药效好，使用剂量中等</style>]]></cell>
+                    <cell row="3" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >2A</style>]]></cell>
+                    <cell row="3" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>遵医嘱适当增加剂量</style>]]></cell>
+                    <cell row="3" column="7" value="　"/>
+                    <cell row="4" column="0" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >UGT2B7</style>]]></cell>
+                    <cell row="4" column="1" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >rs28365063</style>]]></cell>
+                    <cell row="4" column="2" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >GA</style>]]></cell>
+                    <cell row="4" column="3" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >卡马西平</style>]]></cell>
+                    <cell row="4" column="4" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >代谢较快</style>]]></cell>
+                    <cell row="4" column="5" value="">
+                        <![CDATA[<style font_color='#000000'  bold='false' >3</style>]]></cell>
+                    <cell row="4" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>    </style>]]></cell>
+                    <cell row="4" column="7" value=""/>
+                    <cell row="5" column="0" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >PRRC2A</style>]]></cell>
+                    <cell row="5" column="1" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >rs750332</style>]]></cell>
+                    <cell row="5" column="2" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >CT</style>]]></cell>
+                    <cell row="5" column="3" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >卡马西平</style>]]></cell>
+                    <cell row="5" column="4" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >副作用风险中等</style>]]></cell>
+                    <cell row="5" column="5" value="">
+                        <![CDATA[<style font_color='#FDB934'  bold='true' >3</style>]]></cell>
+                    <cell row="5" column="6" value="">
+                        <![CDATA[<style font_color='#FDB934' bold='true'>    </style>]]></cell>
+                    <cell row="5" column="7" value=""/>
+                </rows>
+            </table>
+            <parameter id="medicineTypeEvaluate" value=""><![CDATA[<style font='fzltchjw' font_size='13' font_color='#607b3f'>1、苯妥英钠：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：苯妥英钠, 苯妥英钠片</style><br/>
+苯妥英钠是一类抗癫痫药，通过结合神经细胞细胞膜上的离子通道，稳定神经冲动阈值，控制各种因素导致的神经超兴奋性，进而抑制癫痫活性和传播。药物基因组学研究表明，苯妥英钠代谢速度与<style italic='true'>CYP2C9</style>基因多态直接相关，代谢越快副作用越低。群体基因组学研究还表明<style italic='true'>SCN1A</style>基因多态与苯妥英钠药效相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2C9</style>属于正常代谢型，苯妥英钠代谢正常，副作用低。<style italic='true'>SCN1A</style>多态提示药效稍差。正常使用，可提高用要剂量<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>2、地西泮：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：地西泮, 复方地西泮片</style><br/>
+地西泮是一类苯二氮平类药物，其通过非特异性结合神经细胞苯二氮受体，促进睡眠，肌肉放松，抗痉挛，促进协调及记忆。药物基因组研究提示，地西泮代谢与<style italic='true'>CYP2C19</style>基因多态相关，代谢越快地西泮药效持续时间越短。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子<style italic='true'>CYP2C19</style>属于正常代谢型，地西泮代谢正常，药效持续时间短。遵医嘱适当提高用药剂量<br/><br/><style font='fzltchjw' font_size='13' font_color='#607b3f'>3、卡马西平：</style><br/>
+<style font='fzlthjw'  font_color='#607b3f'>常见药品：卡马西平, 卡马西平片, 得理多</style><br/>
+卡马西平是一类抗痉挛药物，通过阻断神经细胞离子通道，抑制持续神经兴奋，从而降低细胞的兴奋性，延长不应期。用于治疗癫痫，神经源性疼痛（如三叉神经痛）、躁郁症等疾病。药物基因组及群体遗传学研究提示，<style italic='true'>SCN1A</style>基因多态与卡马西平药效相关，<style italic='true'>UGT2B7</style>基因多态与卡马西平代谢相关，<style italic='true'>PRRC2A</style>多态与卡马西平毒副作用相关。<br/>
+<style font='fzlthjw' font_size='11' font_color='#607b3f'>建议：</style><br/>
+检测结果提示，您孩子对卡马西平代谢较快；由<style italic='true'>PRRC2A</style>导致的毒副作用风险中等；使用较高剂量药效好。遵医嘱可适当提高剂量。]]></parameter>
+            <parameter id="detailMedicineType" value="镇静安神"/>
+            <parameter id="detailMedicineTypeEnglish" value="Soothe the nerves"/>
+        </group>
+        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
+            <tree_node value="致家长的一封信" english="A letter to parents" page="" catalog="0 0">
+                <tree_node english="User Manual" page="I" value="　　　　" catalog="0 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告索引" english="Report index" page="" catalog="0 0">
+                <tree_node english="Report index" page="II" value="　　　　" catalog="0 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告指南" english="Instructions" page="" catalog="1 0">
+                <tree_node english="Instructions" page="xxx" value="报告指南" catalog="1 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告概述" english="Report to review" page="" catalog="2 0">
+                <tree_node english="            " page="xxx" value="报告概述" catalog="2 1"/>
+            </tree_node>
+            <tree_node value="报告详解" english="Detailed report" page="" catalog="3 0">
+                <tree_node english="" page="xxx" value="抗炎药" catalog="3 1 0"/>
+                <tree_node english="" page="xxx" value="肠胃不适" catalog="3 2 0"/>
+                <tree_node english="" page="xxx" value="雾化吸入" catalog="3 3 0"/>
+                <tree_node english="" page="xxx" value="退热药" catalog="3 4 0"/>
+                <tree_node english="" page="xxx" value="止咳平喘" catalog="3 5 0"/>
+                <tree_node english="" page="xxx" value="肥胖" catalog="3 6 0"/>
+                <tree_node english="" page="xxx" value="镇静安神" catalog="3 7 0"/>
+            </tree_node>
+            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
+                <tree_node english="" page="III" value="参考文献" catalog=""/>
+                <tree_node english="" page="IV" value="本次检测的全部基因位点检测结果" catalog=""/>
+                <tree_node english="" page="V" value="提示与声明" catalog=""/>
+            </tree_node>
+        </tree_node>
+    </data>
+</pdf>

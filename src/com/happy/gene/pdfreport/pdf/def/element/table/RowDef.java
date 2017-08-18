@@ -205,7 +205,8 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
                         ((PathDef) tmp).generate(pdf, pageDef);
                     }
                     if (tmp instanceof AreaDef) {
-                        ((AreaDef) tmp).translate(0, deltaY);
+                        float areaDeltaY = y - ((AreaDef) tmp).getY();
+                        ((AreaDef) tmp).translate(0, areaDeltaY);
                         ((AreaDef) tmp).generate(pdf, pageDef);
                     }
                 }
