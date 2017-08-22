@@ -1,6 +1,7 @@
 package com.happy.gene.pdfreport.pdf.util;
 
 import com.itextpdf.kernel.color.Color;
+import com.itextpdf.kernel.color.DeviceCmyk;
 import com.itextpdf.kernel.color.DeviceRgb;
 
 /**
@@ -31,6 +32,20 @@ public class ColorUtil {
                     (intColor >> 0)  & 0xFF
             );
         }
+        else if(color.startsWith("CMYK")) {
+            color = color.replace("CMYK", "").trim();
+            String[] cmyk = color.split("[ ,]+");
+            Integer[] iCMYK = new Integer[4];
+            for (int i = 0; i < cmyk.length; i ++) {
+                try { iCMYK[i] = Integer.parseInt(cmyk[i]); } catch (Exception ex) { iCMYK[i] = 0; }
+            }
+            return new DeviceCmyk(
+                    null==iCMYK[0] ? 0 : iCMYK[0],
+                    null==iCMYK[1] ? 0 : iCMYK[1],
+                    null==iCMYK[2] ? 0 : iCMYK[2],
+                    null==iCMYK[3] ? 0 : iCMYK[3]
+            );
+        }
         if (null!=defaultColor) {
             return defaultColor;
         }
@@ -45,7 +60,16 @@ public class ColorUtil {
 
     public String parseColor(byte[] rgb) {
         if (null==rgb || rgb.length<3) { return "#000000"; }
-        String resColor = "#"+Integer.toHexString(rgb[0])+Integer.toHexString(rgb[1])+Integer.toHexString(rgb[2]);
+        int color = (
+                ((rgb[0] & 0xFF) << 16) |
+                ((rgb[1] & 0xFF) << 8)  |
+                (rgb[2]  & 0xFF)
+        );
+        String resColor = "#"+Integer.toHexString(color);
         return resColor;
+    }
+
+    public static void main(String[] args) {
+        ColorUtil.getInstance().parseColor("cmyk", null);
     }
 }

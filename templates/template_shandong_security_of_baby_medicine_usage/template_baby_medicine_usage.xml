@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+
+
+    <templates>
+        <template name="page_header">
+            <condition index="0">
+                <rect z_order="0" path="maxx 125 maxy 784 minx 59  miny 768" border_width="" border_color="" opacity="1.0" fill_color="#214c8d"/>
+            </condition>
+            <condition index="1">
+                <rect z_order="0" path="maxx 537 maxy 784 minx 470 miny 768" border_width="" border_color="" opacity="1.0" fill_color="#214c8d"/>
+            </condition>
+            <condition index="3">
+                <rect z_order="1" path="maxx 537 maxy 784 minx 59 miny 747" border_width="" border_color="" opacity="1.0" fill_color="#214c8d"/>
+                <text_box z_order="1" x="59" y="747" width="479" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
+                    <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" bold="" italic="" underline="" x="16" y="10" width="457" value="">
+                        <![CDATA[$detailXiaoBiaoTi<style font="fzltxh_gbk" font_size="12" bold="false">$detailDesc</style>]]>
+                    </text>
+                </text_box>
+            </condition>
+        </template>
+        <template name="page_tail">
+            <condition index="0">
+                <text z_order="1" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="7" color="#3f3a3a" x="59" y="40" width="479" value="$pageNumber"/>
+            </condition>
+            <condition index="1">
+                <text z_order="1" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="7" color="#3f3a3a" x="59" y="40" width="479" value="$pageNumber"/>
+            </condition>
+        </template>
+        <template name="sub_catalog_cover">
+            <text_box z_order="1" x="122" y="410" width="140" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
+                <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="24" color="#214c8d" bold="" italic="" underline="" x="0" y="0"   width="300" value="$detailMedicineType"/>
+                <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#214c8d" bold="" italic="" underline="" x="0" y="-14" width="300" value="$detailMedicineTypeEnglish"/>
+                <rect                               z_order="3" fill_color="#214c8d" path="maxX 16 maxY 25 minX 0 minY 0" border_margin="0 0 20 2"/>
+            </text_box>
+        </template>
+    </templates>
+
+
+
+
+
+
+
+
+
+
+    <!--*****************************************************************************************-->
+    <!--****************************************  封面  ******************************************-->
+    <!--*****************************************************************************************-->
+    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="cover">
+        <image z_order="0" id="cover" type="JPG" x="-1" y="-1"  height="844" width="605" url="./cover.jpg"/>
+        <image z_order="1" id="logo"  type="JPG" x="59"  y="747"  height="35"  width="130" url="./logo.png"/>
+        <path z_order="2" path="m -20 303 l 331 303 l 372 132 l -20 132 h"  border_width=""    border_color="" opacity="1" fill_color="#3f3a3a" shading="-2 382 #214c8d 372 382 #214c8d"/>
+        <text z_order="4" font="fzltxh_gbk" font_size="18" color="#ffffff" bold="" italic="" underline="" x="50"  y="230" width="330" value="HG 心安  基因检测报告"/>
+        <text z_order="5" font="fzlthjw"    font_size="6"  color="#ffffff" bold="" italic="" underline="" x="115" y="250" width="15"  h_alignment="R" value="TM"/>
+        <text z_order="6" font="fzltchjw"   font_size="40" color="#ffffff" bold="" italic="" underline="" x="50"  y="160" width="330" value="儿童用药安全"/>
+    </page>
+
+    <!--*****************************************************************************************-->
+    <!--***************************************  空白面  *****************************************-->
+    <!--*****************************************************************************************-->
+    <!--<page z_order="2" catalog="-1 0" page_header="false" page_number="false" type="blank">-->
+    <!--</page>-->
+
+    <!--*****************************************************************************************-->
+    <!--***************************************  内封面  *****************************************-->
+    <!--*****************************************************************************************-->
+    <page z_order="2" catalog="-1 0" page_header="false" page_number="false" type="insideFrontCover">
+        <image z_order="0" id="logo"  type="JPG" x="78"  y="403"  height="75"  width="130" url="./logo_2.png"/>
+        <rect z_order="1" path="maxx 32  maxy 458 minx -20 miny 383 r 24" border_width="" border_color="" opacity="1.0" fill_color="#214c8d"/>
+        <path z_order="2" path="m 600 383 l 600 458 l 277 458 c 253 458 253 458 253 434 l 253 407 c 253 383 253 383 277 383 h" border_width="" border_color="" opacity="1.0" fill_color="#214c8d"/>
+        <text z_order="3" font="fzltxh_gbk" font_size="16" color="#ffffff" bold="bold" italic="" underline="" x="320" y="405" width="200" value="致家长的一封信"/>
+    </page>
+
+    <!--*****************************************************************************************-->
+    <!--****************************************  前言  ******************************************-->
+    <!--*****************************************************************************************-->
+    <page z_order="3" catalog="-1 0" page_header="false" page_number="false" type="preface">
+        <rect z_order="1" path="maxx 540 maxy 784 minx 470 miny 768" border_width="" border_color="" opacity="1.0" fill_color="#214c8d"/>
+        <text z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#3f3a3a" bold="true" italic="" underline="" x="59" y="705" width="200" value="尊敬的$name家长，您好："/>
+        <text z_order="3" line_leading="1.8" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#3f3a3a" bold="" italic="" underline="" x="59" y="210" width="480" box="59 660 475 800" value="">
+<![CDATA[感谢您对东方海洋的信任与选择。<br/>
+<br/>
+基因是每个人的生命密码，包含了每个人从出生就携带的遗传信息。我们每个人的基因组都 是独一无二的，这种个体差异决定了不同的人对同一种药物的反应也会不同。同样的药物， 有的人吃了效果好，有的人吃了效果不佳，有的人甚至会出现毒性反应。<br/>
+<br/>
+随着科学的进步，越来越多的与药物相关的基因位点被发现，其作用机理也被证实。本产品 选择的基因位点，都是根据相关国际指南及权威文献挑选，同时经儿科医生及药剂师共同甄 选的，具有权威性、科学性、解读性及实用意义。我们本着科学负责的态度，基因与药物作 用不具备强证据的位点均不予采纳。<br/>
+<br/>
+人的基因终身不变，所以本次检测的结果对于被检测人始终有效。<br/>
+<br/>
+本产品所检测基因覆盖七大类儿童常见药物，家长可以将此报告结果作为给孩子用药的辅助 参考。当孩子生病时，我们自行选择常用药物，或者去医生开药，均可参考本报告，以便为 孩子选择更加适合他自己的药物。从而避免孩子服用他对毒性不耐受的药物，或对他药效不 明显的药物等。<br/>
+<br/>
+医疗及药物的个体化、精准化，是现代医学进步的大势所趋。关爱孩子，从选择性用药开始! 也希望通过我们的努力，能让中国每一位家长像您一样，对孩子给予科学的爱与关怀。<br/>
+<br/>
+祝您的孩子健康成长!<br/>
+]]>
+        </text>
+        <!--<image z_order="4" id="doctor_sign" type="JPG" x="410" y="120" height="90" width="130" url="./doctor_sign.jpg"/>-->
+        <!--<text  z_order="5" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#3f3a3a" bold="true" italic="" underline="" x="333" y="120" width="200" value="张大可 ,PhD"/>-->
+        <text  z_order="6" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#3f3a3a" bold="true" italic="" underline="" x="333" y="95"  width="200" value="山东东方海洋科技股份有限公司"/>
+    </page>
+
+    <!--*****************************************************************************************-->
+    <!--**************************************  用户信息  ****************************************-->
+    <!--*****************************************************************************************-->
+    <page z_order="4" catalog="-1 0" page_header="false" page_number="false" type="userInfo">
+        <image z_order="1" id="logo"  type="JPG" x="59"  y="764"  height="35"  width="130" url="./logo.png"/>
+        <text  z_order="2" font="fzltchjw" font_size="26" color="#214c8d" bold="" italic="" underline="" x="58" y="550" width="479" value="儿童用药安全基因检测报告"/>
+        <rect z_order="3" auto_layout="true" border_margin="0 10 0 10" border_color="#ffffff" border_width="1" path="maxx 510 maxy 636 minx 500 miny 636"/>
+        <!--********************************** 1. 个人信息 **********************************-->
+        <text_box z_order="4" catalog="-1 0" auto_layout="true" x="58" y="550" width="479" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
+            <rect z_order="1" path="maxX -477 maxY 37 minX 0 minY 0" border_width="" border_color="" opacity="1.0" fill_color="#214c8d" x="0" y="0"/>
+            <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="个人信息"/>
+        </text_box>
+        <rect z_order="5" auto_layout="true" border_margin="0 5 0 0" border_color="#ffffff" border_width="1" path="maxx 510 maxy 636 minx 500 miny 636"/>
+        <vertical_table z_order="5" auto_layout="true" gap_h="2" data="$userReportInfo"  x="58" y="737" top_y="747" bottom_y="50" width="479"
+                        column_width="0.15 0.3 0.15 0.4" header_in_every_page="false" cell_center_v="true" gap_header_row="6"
+                        header_split_line="false" header_split_line_color="#214c8d" header_split_line_width="0.17">
+            <header v_alignment="T"></header>
+            <row>
+                <text v_alignment="C" font="fzltchjw" font_size="12.5" color="#214c8d" value="$0"/>
+                <text v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" value="$1"/>
+                <text v_alignment="C" font="fzltchjw" font_size="12.5" color="#214c8d" value="$2"/>
+                <text v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" value="$3"/>
+            </row>
+        </vertical_table>
+        <rect z_order="7" auto_layout="true" border_margin="0 10 0 10" border_color="#ffffff" border_width="1" path="maxx 510 maxy 636 minx 500 miny 636"/>
+
+        <!--********************************** 2. 样本信息 **********************************-->
+        <text_box z_order="10" catalog="-1 0" auto_layout="true" x="58" y="550" width="479" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
+            <rect z_order="1" path="maxX -477 maxY 37 minX 0 minY 0" border_width="" border_color="" opacity="1.0" fill_color="#214c8d" x="0" y="0"/>
+            <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="样本信息"/>
+        </text_box>
+        <rect z_order="11" auto_layout="true" border_margin="0 1 0 0" border_color="#ffffff" border_width="1" path="maxx 510 maxy 636 minx 500 miny 636"/>
+        <vertical_table z_order="12" auto_layout="true" gap_h="2" data="$sampleAndDate"  x="58" y="737" top_y="747" bottom_y="50" width="479"
+                        column_width="0.15 0.3 0.15 0.4" header_in_every_page="false" cell_center_v="false" gap_header_row="6"
+                        header_split_line="false" header_split_line_color="#214c8d" header_split_line_width="0.17">
+            <header v_alignment="T">
+            </header>
+            <row>
+                <text v_alignment="C" font="fzltchjw" font_size="12.5" color="#214c8d" value="$0"/>
+                <text v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a"  margin_top="5" value="$1"/>
+                <text v_alignment="C" font="fzltchjw" font_size="12.5" color="#214c8d" value="$2"/>
+                <text v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a"  margin_top="5" value="$3"/>
+            </row>
+            <rect table_split="row" table_split_top_bottom="B" path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 0 0 5" border_width="0.1" border_color="" opacity="0.5" fill_color="#ffffff"/>
+        </vertical_table>
+    </page>
+
+    <!--*****************************************************************************************-->
+    <!--************************************  顾客/检查日期  **************************************-->
+    <!--*****************************************************************************************-->
+    <!--<page z_order="6" catalog="-1 0" page_header="false" page_number="false" type="userAndReportDate">-->
+        <!--<image z_order="0" id="info" fit="a" type="JPG" x="-1"  y="-1"  height="844"  width="597" url="./info.jpg"/>-->
+    <!--</page>-->
+
+    <!--*********************************************************************************-->
+    <!--************************************  目录 **************************************-->
+    <!--*********************************************************************************-->
+    <page z_order="2000000000" catalog="0 0" page_header="false" page_number="false" type="catalog" fixed_page_number="5">
+        <catalog data="catalog">
+            <header>
+                <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="#214c8d" bold="" italic="" underline="" x="430" y="725" width="100" value="索引"/>
+                <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="#214c8d" bold="" italic="" underline="" x="430" y="692" width="100" value="INDEX"/>
+                <rect z_order="0" path="maxx 530 maxy 690 minx 135 miny 690" border_width="0.1" border_color="#214c8d" opacity="1.0" fill_color=""/>
+            </header>
+
+            <repeat min_unit_y="-18" last_need_tail="false">
+                <main_heading z_order="0">
+                    <text z_order="0" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#3f3a3a" bold="" italic="" underline="" x="135" y="630" width="187.5" value="$value"/>
+                    <text z_order="0" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#3f3a3a" bold="" italic="" underline="" x="135" y="620" width="187.5" value="$english"/>
+                </main_heading>
+                <sub_heading z_order="0" repeat="true" unit_y_size="1">
+                    <text z_order="0" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" bold="" italic="" underline="" x="322.5" y="635" width="158" value="$value"/>
+                    <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" bold="" italic="" underline="" x="480.5" y="635" width="49.5" value="$page"/>
+                </sub_heading>
+                <sub_heading_tail z_order="1" unit_y_size="2">
+                    <rect z_order="0" path="maxx 530 maxy 636 minx 322.5 miny 636" border_width="0.1" border_color="#3f3a3a" opacity="1.0" fill_color=""/>
+                </sub_heading_tail>
+            </repeat>
+        </catalog>
+    </page>
+
+
+
+
+
+
+
+
+
+    <!--*************************************************************************************************-->
+    <!--****************************************  使用指南  封面 ******************************************-->
+    <!--*************************************************************************************************-->
+    <page z_order="6" catalog="1 0" page_header="false" page_number="false" page_number_start="1" type="userManual">
+        <image z_order="1" id="member" type="JPG" fit="a" x="-1" y="315.75" height="211" width="597" url="./chapter_1_cover.jpg"/>
+        <rect  z_order="2" path="maxx 600  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#3f3a3a"/>
+        <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="使用指南"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Instructions"/>
+        </text_box>
+    </page>
+
+    <!--*************************************************************************************************-->
+    <!--****************************************  使用指南  内容 ******************************************-->
+    <!--*************************************************************************************************-->
+    <page z_order="7" catalog="1 1" page_header="true" page_number="true" type="userManual">
+        <!-- page header -->
+        <template z_order="1" name="page_header" condition="3">
+            <value id="detailXiaoBiaoTi" value="使用指南"/>
+            <value id="detailDesc" value=""/>
+        </template>
+
+
+        <text z_order="3" font="fzltchjw" font_size="28" bold="true" color="#e9ece5" x="59" y="690" width="200" value="Instructions"/>
+        <text z_order="4" font="fzltchjw" font_size="14"             color="#214c8d" x="59" y="645" width="200" value="名词解释"/>
+        <rect z_order="5" path="maxx 297 maxy 640 minx 59 miny 640" border_width="0.3" border_color="#5c753e" opacity="1.0" fill_color=""/>
+
+        <paragraph z_order="6" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="58" y="630" bottom_y="59" top_y="755" char_spacing="0" width="479" line_leading="1.2" value="">
+<![CDATA[
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">药效（敏感度、耐药、剂量）：</style><br/>
+使用药物进行治疗的效果。根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面存在差异。检测结果可用于提示药物用量、见效时间等信息。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">代谢（快、慢、中间、正常）：</style><br/>
+一些药物需要经过细胞内部酶的加工作用形成有效成成分才能行使治疗效果；同时，药物也需要细胞内部酶的分解作用实现在体内的清除。代谢指的就是酶的加工及分解作用的强弱。根据编码代谢酶的多态位点的特征，可由快到慢分为快代谢、正常代谢、中间代谢、慢代谢4种类型。对于需要加工才能发挥药效的药物，代谢慢导致有效成分量少，使得药效变差。对于直接形式功能的药物，代谢快反而使得药物浓度迅速下降导致药效变差。同时代谢慢往往会增加药物的毒副作用。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">毒副作用（风险高、低）：</style><br/>
+药物的毒副作用是用药中不可避免的现象。研究表明不同基因多态位点类型的个体，产生药物毒副作用的风险不同。一些重要基因存在突变的个体，往往会产生严重副作用，如耳聋、溶血等。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#AF2429" bold="true">禁用：</style><br/>
+使用此类药物将产生极强毒副作用，在治疗疾病时绝对禁止使用此类药物。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#AF2429" bold="true">慎用：</style><br/>
+使用此类药物将产生一定毒副作用，请根据临床症状及医生指导使用。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#AF2429" bold="true">严禁过量：</style><br/>
+过量使用毒副作用风险高，请谨遵医嘱使用。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#FDB934" bold="true">减少用药剂量：</style><br/>
+此类药物代谢速度慢，常规剂量具有产生毒副作用的风险，需遵医嘱减少用药剂量。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#FDB934" bold="true">增加用药剂量：</style><br/>
+此类药物代谢速度快，常规用药剂量无法产生足够的药效浓度，需遵医嘱增加用药剂量。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#FDB934" bold="true">药效不佳：</style><br/>
+使用此类药物存在见效慢，治疗效果不佳的可能。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">基因：</style><br/>
+携带遗传信息的 DNA 片段，是遗传的分子单元，负责存储生命过程的全部信息。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">多态位点：</style><br/>
+人群中同样的基因位置上 DNA 序列的差异，这些差异是造成人与人之间差别的重要因素。当这种差异在 1% 以上的人中存在时，称为多态位点。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">突变：</style><br/>
+DNA 序列差异仅在不足 1% 的人中存在时，称为突变。突变有时会直接导致遗传性疾病的产生。<br/>
+<br/>
+<style font="fzltxh_gbk" font_size="12" font_color="#214c8d" bold="true">野生型：</style><br/>
+针对突变位点，存在于99%以上人中的DNA序列称为野生型序列。<br/>
+<br/>
+]]>
+        </paragraph>
+
+
+        <!--**********************************  注释  ************************************-->
+        <rect z_order="7" auto_layout="true" path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 20 0 20" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+        <area z_order="8" auto_layout="true" x="58" y="300" top_y="747" bottom_y="50" width="479" height="400">
+            <text  z_order="1" font="fzltchjw" color="#214c8d" font_size="12" x="0" y="0" width="479" value="临床用药证据等级"/>
+            <rect  z_order="2" path="maxx 225 maxy 3 minx 0 miny 3" border_width="0.3" border_color="#5c753e" border_margin="0 5 0 5" opacity="1.0" fill_color=""/>
+            <text  z_order="3" font="fzltchjw" color="#214c8d" font_size="10" x="0" y="23" width="479" value="本检测依据 pharmGKB 推荐临床用药证据等级"/>
+            <text  z_order="4" line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="0" y="70" width="230" value="临床药物基因组学实施联盟（CPIC）及医学协会推荐的用药基因组合"/>
+            <text  z_order="5" line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="0" y="120" width="230" value="在多项研究中存在明显用药差异的药物与基因变异组合"/>
+            <text  z_order="6" line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="0" y="185" width="230" value="在多项研究中存在用药差异的用药基因组合，但未有研究重复"/>
+            <text  z_order="7" line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="0" y="230" width="230" value="在某些病例报道或体外研究或差异不显著的用药基因组合"/>
+            <image z_order="8" id="info" fit="a" type="JPG" x="235" y="32" height="217.41545" width="204" url="./medicine_usage_info.png"/>
+            <text  z_order="9" line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="0" y="400" width="479" value="">
+<![CDATA[
+Level 的划分：依据 PharmGKB 网站 http://www.pharmgkb.org/page/clinAnnLevels<br/>
+Level 1A：注释基于被医学会认可的指南或经某些重大卫生系统的认可；<br/>
+Level 1B：注释基于多项有统计显著的研究；<br/>
+Level 2A：注释基于多项重复研究，故药效关系很有可能是有意义的；<br/>
+Level 2B：注释基于多项重复研究，但某些研究可能无统计显著性或样本数量少；<br/>
+Level 3：注释仅基于 1 项有显著差异的研究（未重复）或多项研究但缺乏明显药效关联性；<br/>
+Level 4：注释仅基于少量病例、非权威研究或体外的分子功能研究。<br/>
+NA：pharmGKB尚未收录，但被FDA（美国食品药品监督管理局）及EMA（欧盟药品管理局）收录，或临床队列研究已有初步结论。<br/>
+]]>
+            </text>
+        </area>
+    </page>
+
+
+
+
+
+
+
+
+    <!--*************************************************************************************************-->
+    <!--**************************************  报告概述  (cover)  ***************************************-->
+    <!--*************************************************************************************************-->
+    <page z_order="20" catalog="2 0" page_header="false" page_number="false" type="summary">
+        <image z_order="1" id="member" type="JPG" fit="a" x="-1" y="315.75" height="211" width="597" url="./chapter_3_cover.jpg"/>
+        <rect  z_order="2" path="maxx 600  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#3f3a3a"/>
+        <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="概述"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Summary"/>
+        </text_box>
+    </page>
+
+    <!--*************************************************************************************************-->
+    <!--**************************************  用药建议  (介绍)  ****************************************-->
+    <!--*************************************************************************************************-->
+    <page z_order="21" catalog="2 1" page_header="true" page_number="true" type="summary">
+        <!-- page header -->
+        <template z_order="1" name="page_header" condition="3">
+            <value id="detailXiaoBiaoTi" value="用药建议"/>
+            <value id="detailDesc" value=""/>
+        </template>
+
+        <!-- 用药建议 -->
+        <repeat z_order="2" data="$allTypesOfMedicines">
+            <!-- 药物分类 -->
+            <text z_order="1" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#214c8d" font_size="14" x="58" y="737" width="479" cross_page="true" top_y="747" bottom_y="59" value="$everyTypeMedicineName"/>
+            <!-- 药物详细 -->
+            <vertical_table z_order="2" auto_layout="true" gap_h="6" data="$everyTypeMedicine"  x="58" y="727" top_y="747" bottom_y="50" width="479"
+                            column_width="0.6 0.16 0.24" header_in_every_page="true" cell_center_v="true" gap_header_row="6"
+                            header_split_line="true" header_split_line_color="#214c8d" header_split_line_width="0.12">
+                <header>
+                    <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="12" color="#3f3a3a" value="$0"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="12" color="#3f3a3a" value="$1"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" bold="true" font_size="12" color="#3f3a3a" value="$2"/>
+                </header>
+                <row>
+                    <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" value="$0"/>
+                    <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" value="$1"/>
+                    <text line_leading="1.4" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#3f3a3a" value="$2"/>
+                </row>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            </vertical_table>
+
+            <!-- adaptation disease -->
+            <rect z_order="3" auto_layout="true" table_split="row"  path="maxx 20 maxy 10 minx 0 miny 0" border_margin="0 0 0 0" opacity="1" fill_color="#ffffff"/>
+        </repeat>
+
+        <area z_order="11" x="58" y="65" top_y="747" bottom_y="50" width="479" height="10">
+            <rect z_order="1" path="maxx 30 maxy 20 minx 0  miny 10" border_margin="0 0 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#AF2429"/>
+            <rect z_order="2" path="maxx 90 maxy 20 minx 60 miny 10" border_margin="0 0 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#FDB934"/>
+            <text z_order="3" font="fzltxh_gbk" color="#3f3a3a" font_size="7" x="38" y="11" width="30" value="高危"/>
+            <text z_order="4" font="fzltxh_gbk" color="#3f3a3a" font_size="7" x="98" y="11" width="30" value="中等风险"/>
+        </area>
+    </page>
+
+
+
+
+
+
+
+
+    <!--*************************************************************************************************-->
+    <!--***********************************  报告详情 （cover）  **************************************-->
+    <!--*************************************************************************************************-->
+    <page z_order="24" catalog="3 0" page_header="false" page_number="false" type="detail">
+        <image z_order="1" id="member" type="JPG" fit="a" x="-1" y="315.75" height="211" width="597" url="./chapter_4_cover.jpg"/>
+        <rect  z_order="2" path="maxx 600  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#3f3a3a"/>
+        <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="详情"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Details"/>
+        </text_box>
+    </page>
+
+
+
+
+
+    <page_group z_order="25" name="specific_medicine_type" catalog="3 x" data="">
+        <!--****************************************************************************************-->
+        <!--********************************  检测结果详解 (cover)  **********************************-->
+        <!--****************************************************************************************-->
+        <page z_order="1" catalog="3 x 0" page_header="false" page_number="false">
+            <template z_order="1" name="sub_catalog_cover" condition="">
+            </template>
+        </page>
+
+        <!--*****************************************************************************************-->
+        <!--*****************************  检测结果详解 (检测结果/用药评估)  ****************************-->
+        <!--*****************************************************************************************-->
+        <page z_order="2" catalog="3 x 1" page_header="true" page_number="true">
+            <!--*****************************  检测结果  ****************************-->
+            <template z_order="1" name="page_header" condition="3">
+                <value id="detailXiaoBiaoTi" value="$detailMedicineType相关基因检测结果"/>
+                <value id="detailDesc" value=""/>
+            </template>
+
+            <vertical_table z_order="2" data="$detailZhiBingJiYinTuBian" x="59" y="742" top_y="747" gap_h="2" bottom_y="50" width="474"
+                            column_width="0.13 0.13 0.095 0.165 0.16 0.12 0.2 0.1" header_in_every_page="" cell_center_v="false" gap_header_row="6"
+                            header_split_line="true" header_split_line_color="#214c8d" header_split_line_width="0.17">
+                <header>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$0"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$1"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$2"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$3"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$4"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$5"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$6"/>
+                    <text line_leading="1" font="fzltchjw" color="#3f3a3a" font_size="12" value="$7"/>
+                </header>
+                <row condition="col7==　">
+                    <area z_order="-1" x="58" y="706" width="479" height="15" top_y="747" bottom_y="59">
+                        <rect z_order="1" path="minX 0 minY 0.67 maxX 475 maxY 0.5" border_margin="0 0 0 0" border_width="0.17" fill_color="#214c8d" opacity="1"/>
+                    </area>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" italic="true" value="$0"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$1"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" h_alignment="C" value="$2"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$3"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$4"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" h_alignment="C" value="$5"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$6"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$7"/>
+                </row>
+                <row condition="col7!=　">
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" italic="true" value="$0"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$1"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" h_alignment="C" value="$2"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$3"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$4"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" h_alignment="C" value="$5"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$6"/>
+                    <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$7"/>
+                </row>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            </vertical_table>
+
+            <rect z_order="3"  auto_layout="true" path="maxx 100 maxy 2 minx 0 miny 0" border_margin="0 8 0 8" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <area z_order="4" auto_layout="true" x="58" y="100" top_y="747" bottom_y="50" width="479" height="52">
+                <rect z_order="1" path="maxx 30 maxy 20 minx 0  miny 10" border_margin="0 0 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#AF2429"/>
+                <rect z_order="2" path="maxx 90 maxy 20 minx 60 miny 10" border_margin="0 0 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#FDB934"/>
+                <text z_order="3" font="fzltxh_gbk" color="#3f3a3a" font_size="7" x="38" y="11" width="30" value="高危"/>
+                <text z_order="4" font="fzltxh_gbk" color="#3f3a3a" font_size="7" x="98" y="11" width="30" value="中等风险"/>
+                <text z_order="6" line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="0" y="36" width="230" value="# 注：见第003页使用指南临床用药等级"/>
+            </area>
+
+
+            <!--*****************************  用药评估  ****************************-->
+            <text_box z_order="6" catalog="3 x 2" auto_layout="true" x="58" y="550" width="479" height="37" bottom_y="55" top_y="755" h_alignment="" v_alignment="" cal_width="M" cal_height="">
+                <rect z_order="1" path="maxX -477 maxY 37 minX 0 minY 0" border_width="" border_color="" opacity="1.0" fill_color="#214c8d" x="0" y="0"/>
+                <text z_order="2" calculate_width_in_box="true" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" x="16" y="10" width="457" value="用药安全评估与建议"/>
+            </text_box>
+
+            <rect z_order="7"  auto_layout="true" path="maxx 100 maxy 2 minx 0 miny 0" border_margin="0 3 0 3" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <paragraph z_order="8" auto_layout="true" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="58" y="630" bottom_y="55" top_y="742" char_spacing="0" width="479" line_leading="1.2" value="$medicineTypeEvaluate"/>
+        </page>
+    </page_group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--*************************************************************************************************-->
+    <!--******************************************  附录 (cover) *****************************************-->
+    <!--*************************************************************************************************-->
+    <page z_order="102995" catalog="10000 0" page_header="false" page_number="false" type="appendix">
+        <image z_order="1" id="member" type="JPG" fit="a" x="-1" y="315.75" height="211" width="597" url="./chapter_appendix.jpg"/>
+        <rect  z_order="2" path="maxx 600  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#3f3a3a"/>
+        <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="附录"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Appendix"/>
+        </text_box>
+    </page>
+
+    <!--******************************************  参考文献 *****************************************-->
+    <!--*********************************************************************************************-->
+    <page z_order="102996" catalog="10000 1" page_header="true" page_number="false" type="appendix">
+        <!-- page header -->
+        <template z_order="1" name="page_header" condition="3">
+            <value id="detailXiaoBiaoTi" value="III、参考文献"/>
+            <value id="detailDesc" value=""/>
+        </template>
+
+        <paragraph z_order="2" line_leading="1.2" font="fzltxh_gbk" color="#3f3a3a" font_size="9" x="58" y="727" width="479" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+<![CDATA[1.　　Bruck, H. et al. The Gln27Glu beta2-adrenoceptor polymorphism slows the onset of desensitization of cardiac functional responses in vivo. Pharmacogenetics 13, 59-66 (2003).
+<br/>2.　　Whirl-Carrillo, M. et al. Pharmacogenomics knowledge for personalized medicine. Clin Pharmacol Ther 92, 414-7 (2012).
+<br/>3.　　Franke, R.M. et al. Effect of ABCC2 (MRP2) transport function on erythromycin metabolism. Clin Pharmacol Ther 89, 693-701 (2011).
+<br/>4.　　Li, X. et al. Effect of cytochrome P450 2C19 polymorphisms on the clinical outcomes of voriconazole: a systematic review and meta-analysis. Eur J Clin Pharmacol 72, 1185-1193 (2016).
+<br/>5.　　Sugimoto, M. et al. Comparison of acid inhibition with standard dosages of proton pump inhibitors in relation to CYP2C19 genotype in Japanese. Eur J Clin Pharmacol 70, 1073-8 (2014).
+<br/>6.　　Qiu, F. et al. Effects of the Chinese herbal formula "Zuojin Pill" on the pharmacokinetics of dextromethorphan in healthy Chinese volunteers with CYP2D6*10 genotype. Eur J Clin Pharmacol 72, 689-95 (2016).
+<br/>7.　　Jing, W. et al. Mitochondrial mutations associated with aminoglycoside ototoxicity and hearing loss susceptibility identified by meta-analysis. J Med Genet 52, 95-103 (2015).
+<br/>8.　　Kim, W.J. et al. Association between CRHR1 polymorphism and improved lung function in response to inhaled corticosteroid in patients with COPD. Respirology 14, 260-3 (2009).
+<br/>9.　　Karazniewicz-Lada, M., Luczak, M. & Glowka, F. Pharmacokinetic studies of enantiomers of ibuprofen and its chiral metabolites in humans with different variants of genes coding CYP2C8 and CYP2C9 isoenzymes. Xenobiotica 39, 476-85 (2009).
+<br/>10.　　Lee, Y.S., Kim, H., Wu, T.X., Wang, X.M. & Dionne, R.A. Genetically mediated interindividual variation in analgesic responses to cyclooxygenase inhibitory drugs. Clin Pharmacol Ther 79, 407-18 (2006).
+<br/>11.　　Foster, A., Mobley, E. & Wang, Z. Complicated pain management in a CYP450 2D6 poor metabolizer. Pain Pract 7, 352-6 (2007).
+<br/>12.　　Court, M.H. et al. The UDP-glucuronosyltransferase (UGT) 1A polymorphism c.2042C>G (rs8330) is associated with increased human liver acetaminophen glucuronidation, increased UGT1A exon 5a/5b splice variant mRNA ratio, and decreased risk of unintentional acetaminophen-induced acute liver failure. J Pharmacol Exp Ther 345, 297-307 (2013).
+<br/>13.　　Ayuso, P. et al. Association study of genetic variants in PLA2G4A, PLCG1, LAT, SYK, and TNFRS11A genes in NSAIDs-induced urticaria and/or angioedema patients. Pharmacogenet Genomics 25, 618-21 (2015).
+<br/>14.　　Pilotto, A. et al. Genetic susceptibility to nonsteroidal anti-inflammatory drug-related gastroduodenal bleeding: role of cytochrome P450 2C9 polymorphisms. Gastroenterology 133, 465-71 (2007).
+<br/>15.　　VanderVaart, S. et al. CYP2D6 polymorphisms and codeine analgesia in postpartum pain management: a pilot study. Ther Drug Monit 33, 425-32 (2011).
+<br/>16.　　Cai, J. et al. Effects of 22 Novel CYP2D6 Variants Found in the Chinese Population on the Bufuralol and Dextromethorphan Metabolisms In Vitro. Basic Clin Pharmacol Toxicol 118, 190-9 (2016).
+<br/>17.　　Dahlin, A. et al. Genome-Wide Association Study Identifies Novel Pharmacogenomic Loci For Therapeutic Response to Montelukast in Asthma. PLoS One 10, e0129385 (2015).
+<br/>18.　　Kim, K.A., Lee, H.M., Joo, H.J., Park, I.B. & Park, J.Y. Effects of polymorphisms of the SLCO2B1 transporter gene on the pharmacokinetics of montelukast in humans. J Clin Pharmacol 53, 1186-93 (2013).
+<br/>19.　　Perin, P. & Potocnik, U. Polymorphisms in recent GWA identified asthma genes CA10, SGK493, and CTNNA3 are associated with disease severity and treatment response in childhood asthma. Immunogenetics 66, 143-51 (2014).
+<br/>20.　　Stocker, S.L. et al. The effect of novel promoter variants in MATE1 and MATE2 on the pharmacokinetics and pharmacodynamics of metformin. Clin Pharmacol Ther 93, 186-94 (2013).
+<br/>21.　　Zhou, K. et al. Variation in the glucose transporter gene SLC2A2 is associated with glycemic response to metformin. Nat Genet 48, 1055-1059 (2016).
+<br/>22.　　Yoon, H., Cho, H.Y., Yoo, H.D., Kim, S.M. & Lee, Y.B. Influences of organic cation transporter polymorphisms on the population pharmacokinetics of metformin in healthy subjects. AAPS J 15, 571-80 (2013).
+<br/>23.　　Carette, C., Dubois-Laforgue, D., Gautier, J.F. & Timsit, J. Diabetes mellitus and glucose-6-phosphate dehydrogenase deficiency: from one crisis to another. Diabetes Metab 37, 79-82 (2011).
+<br/>24.　　Spraggs, C. et al. Genetic variants in the epithelial sodium channel associate with oedema in type 2 diabetic patients receiving the peroxisome proliferator-activated receptor gamma agonist farglitazar. Pharmacogenet Genomics 17, 1065-76 (2007).
+<br/>25.　　Aquilante, C.L. et al. Impact of the CYP2C8 *3 polymorphism on the drug-drug interaction between gemfibrozil and pioglitazone. Br J Clin Pharmacol 75, 217-26 (2013).
+<br/>26.　　Yang, H. et al. Adiponectin gene polymorphism rs2241766 T/G is associated with response to pioglitazone treatment in type 2 diabetic patients from southern China. PLoS One 9, e112480 (2014).
+<br/>27.　　Thaker, S.J. et al. A prospective study to assess the association between genotype, phenotype and Prakriti in individuals on phenytoin monotherapy. J Ayurveda Integr Med 8, 37-41 (2017).
+<br/>28.　　Tate, S.K. et al. A common polymorphism in the SCN1A gene associates with phenytoin serum levels at maintenance dose. Pharmacogenet Genomics 16, 721-6 (2006).
+<br/>29.　　Inomata, S. et al. CYP2C19 genotype affects diazepam pharmacokinetics and emergence from general anesthesia. Clin Pharmacol Ther 78, 647-55 (2005).
+<br/>30.　　Ma, C.L. et al. Association between PK/PD-involved gene polymorphisms and carbamazepine-individualized therapy. Pharmacogenomics 16, 1499-512 (2015).
+<br/>31.　　Puranik, Y.G. et al. Association of carbamazepine major metabolism and transport pathway gene polymorphisms and pharmacokinetics in patients with epilepsy. Pharmacogenomics 14, 35-45 (2013).
+<br/>32.　　Hung, S.I. et al. Genetic susceptibility to carbamazepine-induced cutaneous adverse drug reactions. Pharmacogenet Genomics 16, 297-306 (2006).
+<br/>33.　　中华人民共和国国家卫生计生委医政医管局. 《药物代谢酶和药物作用靶点基因检测技术指南（试行）》. 2015-7-29
+]]>
+        </paragraph>
+    </page>
+
+    <!--*****************************  附录I：本次检测的全部基因位点检测结果 *****************************-->
+    <!--*********************************************************************************************-->
+    <page z_order="102997" catalog="10000 2" page_header="true" page_number="false" type="appendix">
+        <!-- page header -->
+        <template z_order="1" name="page_header" condition="3">
+            <value id="detailXiaoBiaoTi" value="IV、受检基因位点及检测结果详表"/>
+            <value id="detailDesc" value=""/>
+        </template>
+
+        <vertical_table z_order="2" data="$appendixAllCheckingResult" x="59" y="737" top_y="747" gap_h="2" bottom_y="50" width="474"
+                        column_width="0.2 0.25 0.18 0.25 0.12" header_in_every_page="true" gap_header_row="6"
+                        header_split_line="true" header_split_line_color="#214c8d" header_split_line_width="0.17">
+            <header>
+                <text line_leading="1" font="fzltxh_gbk" color="#3f3a3a" bold="true" font_size="12" value="$0"/>
+                <text line_leading="1" font="fzltxh_gbk" color="#3f3a3a" bold="true" font_size="12" value="$1"/>
+                <text line_leading="1" font="fzltxh_gbk" color="#3f3a3a" bold="true" font_size="12" value="$2"/>
+                <text line_leading="1" font="fzltxh_gbk" color="#3f3a3a" bold="true" font_size="12" value="$3"/>
+                <text line_leading="1" font="fzltxh_gbk" color="#3f3a3a" bold="true" font_size="12" value="$4"/>
+            </header>
+            <row condition="col0==　">
+                <area z_order="-1" x="58" y="706" width="479" height="15" top_y="747" bottom_y="59">
+                    <rect z_order="1" path="minX 0 minY 27.00 maxX 475 maxY 26.83" border_margin="0 0 0 0" border_width="0.17" fill_color="#214c8d" opacity="1"/>
+                </area>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$0"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$1"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" italic="true" value="$2"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$3"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$4"/>
+            </row>
+            <row condition="col0!=　">
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$0"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$1"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" italic="true" value="$2"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$3"/>
+                <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$4"/>
+            </row>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 6 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+        </vertical_table>
+    </page>
+
+    <!--*************************************  附录II：提示与声明 *************************************-->
+    <!--*********************************************************************************************-->
+    <page z_order="102998" catalog="10000 3" page_header="true" page_number="false" type="appendix">
+        <!-- page header -->
+        <template z_order="1" name="page_header" condition="3">
+            <value id="detailXiaoBiaoTi" value="V、提示与声明"/>
+            <value id="detailDesc" value=""/>
+        </template>
+
+        <text z_order="3" font="fzltchjw" font_size="14" color="#214c8d" x="59" y="690" width="200" value="免责声明"/>
+        <rect z_order="5" path="maxx 297 maxy 680 minx 59 miny 680" border_width="0.17" border_color="#214c8d" opacity="1.0" fill_color=""/>
+        <paragraph z_order="7" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="58" y="680" width="484">
+<![CDATA[
+1. 本检测仅涵盖产品设计时已知的相关位点信息。依据受检位点检测结果所出具的建议，受基因的复杂性及目前科研水平局限，不能排除用药中的偶然因素、人体其他未知的遗传、非遗传因素对结果的影响。
+<br/><br/>2. 本检测结果仅针对药物的有效成分（原研药）。
+<br/><br/>3. 受限于检测技术，本检测不能给出准确的HLA（人类白细胞抗原）多态信息，因此，本检测结果仅指示在HLA非风险条件下的药物可能反应。
+<br/><br/>4. 鉴于当前医学检测技术水平的限制和受检者个体差异等原因，单次检测的结果仍有可能出现小概率的假阳性或假阴性。
+<br/><br/>5. 抗生素类药物过敏反应主要由人类免疫球蛋白（immunoglobulin）多样性引起，该多样性与后天免疫球蛋白基因加工相关，与遗传关联不大。因此，本检测不涉及抗生类过敏反应。
+<br/><br/>6. 葡萄糖-6-磷酸脱氢酶缺乏症主要是由<style italic='true'>G6PD</style>基因突变引起的代谢病，本检测包含了该基因中中国人最常见的致病突变位点。但鉴于疾病复杂性及突变多样性，本检测结果不能代替葡萄糖-6-磷酸脱氢酶缺乏症临床诊断。
+<br/><br/>7. 该检测服务仅为临床治疗提供参考，本检测的结果不是临床诊断结果，并且不可将本检测的结果作为最终诊断的唯一依据。
+<br/><br/>8. 本公司只对受检样本和检测结果的一致性负责，而不能对受检测者和受检样本的一致性负责。
+<br/><br/>9. 基因信息属于个人隐私，我们郑重承诺将妥善保管您的相关数据，未经您本人授权不会用于其他目的。
+]]>
+        </paragraph>
+        <image z_order="0" id="back" type="JPG" fit="a" x="300" y="-1" height="363.5418" width="597" url="./about_background.png"/>
+    </page>
+
+
+    <page z_order="102999" type="inside_back_cover">
+
+        <text z_order="3" font="fzltchjw" font_size="14" color="#214c8d" x="59" y="690" width="479" value="">
+<![CDATA[山东东方海洋科技股份有限公司<style font='fzltxh_gbk' font_size='10' bold='true'>（以下简称东方海洋）</style>]]>
+        </text>
+        <rect z_order="5" path="maxx 297 maxy 680 minx 59 miny 680" border_width="0.17" border_color="#214c8d" opacity="1.0" fill_color=""/>
+        <paragraph z_order="7" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="58" y="680" width="484">
+<![CDATA[
+成立于 2001 年，是山东东方海洋集团有限公司的控股子公司，2006 年 11 月在深交所上市。公司主要从事海水水产品苗种繁育、养殖、食品加工及保税仓储业务，是一家集海水养殖、冷藏加工、生物制品、医药中间体、医疗技术的开发服务咨询、科研推广及国际贸易于一体的国家级高新技术企业、农业产业化国家重点龙头企业、国家级水产良种场。<br/>
+<br/>
+2016 年，为完善在精准医疗市场的产业布局，在做大做强现有主业的基础上，公司成立了大健康事业部，全面负责精准医疗产业的发展与布局。先后收购了美国 Avioq 公司 100% 股权，完成了免疫诊断、质谱诊断、分子诊断、第三方实验室、东方海洋(北京)医学研究院等平台的布局，并规划建设了占地 350 余亩的山东省首个精准医疗科技园，以精准医疗为主业的大健康产业成为东方海洋两大主体产业之一。
+]]>
+        </paragraph>
+        <image z_order="13" id="back" type="JPG" fit="a" x="-1" y="-1" height="363.5418" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_shandong_security_of_baby_medicine_usage/about_background.png"/>
+    </page>
+
+
+    <page z_order="103000" type="back_cover">
+        <image z_order="1" id="member" type="JPG" fit="a" x="210" y="396" height="50" width="176" url="./logo.png"/>
+        <image z_order="2" id="member" type="GIF" fit="" x="58" y="120" height="70" width="70" url="./2dcode.jpg"/>
+
+        <text z_order="3" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="60" y="100" width="400" value="$organization"/>
+        <text z_order="4" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="60" y="86" width="400" value="$organizationAddress"/>
+        <text z_order="5" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="60" y="72" width="400" value="$organizationPhone"/>
+        <text z_order="6" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="60" y="58" width="400" value="$organizationWebsite"/>
+    </page>
+</pdf>

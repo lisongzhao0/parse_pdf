@@ -160,6 +160,9 @@
         <parameter id="checkDate" value="2017年7月23日"/>
         <parameter id="reportDate" value="2017年7月25日"/>
         <parameter id="organization" value="北京幸福基石科技有限公司"/>
+        <parameter id="organizationAddress" value="北京xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+        <parameter id="organizationPhone" value="400-066-9816"/>
+        <parameter id="organizationWebsite" value="www.happy-gene.com"/>
 
 
         <table id="userReportInfo">

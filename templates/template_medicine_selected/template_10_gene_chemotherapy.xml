@@ -384,13 +384,13 @@ HG 药选<style font_size='4' text_rise='4'>TM</style> 产品由北京幸福基�
         <rect   z_order="72" path="maxX 330 maxY 320.1 minX 130 minY 320" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
         <circle z_order="73" cx="200" cy="275" r="41.413" border_width="0.4" border_color="#000000" dash_on="12" dash_off="8"/>
         <image  z_order="33" id="member" type="JPG"  x="150" y="321" height="18" width="159.9476" url="$shenHeSign"/>
-        <image  z_order="75" id="member" type="JPG" fit="a" x="150" y="220" height="100" width="159.9476" url="./images/orginal_code.jpg"/>
+        <image  z_order="75" id="member" type="JPG" fit="a" x="150" y="220" height="100" width="159.9476" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/orginal_code.jpg"/>
 
         <text   z_order="83" line_leading="1.68" font="fzltchjw"   color="#000000" font_size="12" x="68"  y="200" width="100" value="产品提供"/>
         <text   z_order="84" line_leading="1.68" font="fzltxh_gbk" color="#000000" font_size="9"  x="140" y="202" width="180" value="北京幸福基石科技有限公司"/>
         <rect   z_order="85" path="maxX 330 maxY 200.1 minX 130 minY 200" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1"/>
         <circle z_order="86" cx="200" cy="140" r="41.413" border_width="0.4" border_color="#000000" dash_on="12" dash_off="8"/>
-        <image  z_order="87" id="member" type="JPG" fit="a" x="150" y="90" height="100" width="100" url="./images/happygene_company.jpg"/>
+        <image  z_order="87" id="member" type="JPG" fit="a" x="150" y="90" height="100" width="100" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/happygene_company.jpg"/>
 
 
         <text z_order="100" line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" x="58" y="59" width="479" value="">

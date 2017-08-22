@@ -379,6 +379,15 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         float         onPageContentHeight = 0.0f;
         for (int i=0; i < allParts.size(); i ++) {
             Style tmp = allParts.get(i);
+            if (0==i && tmp.pageIndex>0) {
+                pageIndex           = tmp.pageIndex;
+                onPageContentHeight = tmp.pageContentHeight;
+                startY              = getTopY();
+                pdf.getPdfDocument().addNewPage();
+                pageDef.rendererPage(pdf, pageDef);
+                page                = pdf.getPdfDocument().getLastPage();
+                paragraph           = getBaseParagraph();
+            }
             if (null==tmp.value || "".equals(tmp.value)) {
                 continue;
             }

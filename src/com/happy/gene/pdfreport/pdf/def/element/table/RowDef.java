@@ -265,6 +265,9 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
             if (tmp instanceof PathDef) {
                 ((PathDef) tmp).generate(pdf, pageDef);
             }
+            if (tmp instanceof AreaDef) {
+                ((AreaDef) tmp).generate(pdf, pageDef);
+            }
         }
         return page;
     }

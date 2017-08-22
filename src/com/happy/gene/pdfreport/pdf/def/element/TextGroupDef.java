@@ -25,6 +25,8 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
     private float x;
     private float y;
     private float lastY;
+    private float topY;
+    private float bottomY;
     private float width;
     private float height;
     private String hAlign;
@@ -32,6 +34,7 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
     private String calWidth;
     private String calHeight;
     private boolean autoLayout;
+    private boolean showBorder;
     private List<TextDef> components = new ArrayList<>();
     private RectDef prefixShape;
 
@@ -55,6 +58,18 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
     }
     public TextGroupDef setY(float y) {
         this.y = y;
+        return this;
+    }
+
+    public float getTopY() { return topY; }
+    public TextGroupDef setTopY(float topY) {
+        this.topY = topY;
+        return this;
+    }
+
+    public float getBottomY() { return bottomY; }
+    public TextGroupDef setBottomY(float bottomY) {
+        this.bottomY = bottomY;
         return this;
     }
 
@@ -96,6 +111,12 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
         return this;
     }
 
+    public boolean isShowBorder() { return showBorder; }
+    public TextGroupDef setShowBorder(boolean showBorder) {
+        this.showBorder = showBorder;
+        return this;
+    }
+
     public float lastY() {
         return lastY;
     }
@@ -128,6 +149,9 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
         this.calHeight = element.attributeValue("cal_height");
         this.calHeight = null==this.calHeight ? null : (!"MS".contains(this.calHeight.toUpperCase()) ? null : this.calHeight);
         try { this.setZOrder(Integer.parseInt(element.attributeValue("z_order")));} catch (Exception ex) {this.setZOrder(0);}
+        try { this.topY   = Float.parseFloat(element.attributeValue("top_y"));    } catch (Exception ex) {this.topY   = Float.MAX_VALUE;}
+        try { this.bottomY= Float.parseFloat(element.attributeValue("bottom_y")); } catch (Exception ex) {this.bottomY= 0.0f;}
+        try { this.showBorder= Boolean.parseBoolean(element.attributeValue("show_border")); } catch (Exception ex) {this.showBorder= false;}
         try { this.x      = Float.parseFloat(element.attributeValue("x"));        } catch (Exception ex) {this.x      = 0.0f;}
         try { this.y      = Float.parseFloat(element.attributeValue("y"));        } catch (Exception ex) {this.y      = 0.0f;}
         try { this.width  = Float.parseFloat(element.attributeValue("width"));    } catch (Exception ex) {this.width  = 0.0f;}
@@ -157,6 +181,14 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
         PdfPage page = pdf.getPdfDocument().getLastPage();
         if (getComponents().isEmpty()) {
             return null;
+        }
+        if (isAutoLayout()) {
+            if (lastY() - getHeight() < getBottomY()) {
+                lastY(getTopY());
+                pdf.getPdfDocument().addNewPage();
+                pageDef.rendererPage(pdf, pageDef);
+                page = pdf.getPdfDocument().getLastPage();
+            }
         }
 
         int pageNumber = pdf.getPdfDocument().getPageNumber(page);
@@ -256,6 +288,18 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
         }
         canvas.restoreState();
 
+        if (isShowBorder()) {
+            canvas.saveState();
+            canvas.setStrokeColor(colorUtil.parseColor("#000000", Color.BLACK));
+            canvas.moveTo(getX(), getY());
+            canvas.lineTo(getX(), getY() + getHeight());
+            canvas.lineTo(getX()+getWidth(), getY() + getHeight());
+            canvas.lineTo(getX()+getWidth(), getY());
+            canvas.closePath();
+            canvas.stroke();
+            canvas.restoreState();
+        }
+
         lastY(getY());
         return canvas;
     }
@@ -265,6 +309,8 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
         newOne.setZOrder(this.getZOrder());
         newOne.x          = this.x;
         newOne.y          = this.y;
+        newOne.topY       = this.topY;
+        newOne.bottomY    = this.bottomY;
         newOne.width      = this.width;
         newOne.height     = this.height;
         newOne.hAlign     = this.hAlign;
@@ -272,6 +318,7 @@ public class TextGroupDef extends AbstractDef implements IXml<TextGroupDef>, IPo
         newOne.calWidth   = this.calWidth;
         newOne.calHeight  = this.calHeight;
 		newOne.autoLayout = this.autoLayout;
+        newOne.showBorder = this.showBorder;
         newOne.prefixShape= null!=this.prefixShape ? this.prefixShape.clone() : null;
         if (this.components instanceof List) {
             for (TextDef tmp : this.components) {

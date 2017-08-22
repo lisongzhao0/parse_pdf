@@ -93,6 +93,10 @@ public class DefFactory {
         if (null!=newDef) {
             return newDef;
         }
+        newDef = (new LineDef()).parseElement(ele);
+        if (null!=newDef) {
+            return newDef;
+        }
         return null;
     }
 }

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+    <fonts>
+        <font id="simsun"     embedded="true" name="simsun"     ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/simsun.ttc,1"/>
+        <font id="fzlthjw"    embedded="true" name="fzlthjw"    ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzlthjw.ttf"/>
+        <font id="fzltchjw"   embedded="true" name="fzltchjw"   ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzltchjw.ttf"/>
+        <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzltxh_gbk.ttf"/>
+        <font id="arial" embedded="true" name="arial" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/arial.ttf"/>
+    </fonts>
+
+
+
+
+
+
+    <data>
+
+
+
+
+
+        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
+            <tree_node value="致家长的一封信" english="A letter to parents" page="" catalog="0 0">
+                <tree_node english="User Manual" page="I" value="　　　　" catalog="0 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告索引" english="Report index" page="" catalog="0 0">
+                <tree_node english="Report index" page="II" value="　　　　" catalog="0 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告指南" english="Instructions" page="" catalog="1 0">
+                <tree_node english="Instructions" page="xxx" value="报告指南" catalog="1 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告概述" english="Report to review" page="" catalog="2 0">
+                <tree_node english="" page="xxx" value="报告概述" catalog="2 1"/>
+            </tree_node>
+            <tree_node value="报告详解" english="Detailed report" page="" catalog="3 0">
+                <tree_node english="" page="xxx" value="抗菌类"   catalog="3 1 0"/>
+                <tree_node english="" page="xxx" value="胃肠消化类药物"     catalog="3 2 0"/>
+                <tree_node english="" page="xxx" value="肥胖 / 代谢综合症类药物"     catalog="3 3 0"/>
+                <tree_node english="" page="xxx" value="镇定安神类药物"  catalog="3 4 0"/>
+            </tree_node>
+            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
+                <tree_node english="" page="III" value="参考文献" catalog=""/>
+                <tree_node english="" page="IV" value="本次检测的全部基因位点检测结果" catalog=""/>
+                <tree_node english="" page="V" value="提示与声明" catalog=""/>
+            </tree_node>
+        </tree_node>
+
+
+
+
+
+        <group order="1" id="catalog_3_1" value="3 1" catalog="3 1">
+            <parameter id="detailMedicineType" value="抗菌药"/>
+            <parameter id="detailMedicineTypeEnglish" value="Antibacterial"/>
+            <parameter id="medicineTypeEvaluate" value="">
+<![CDATA[<style font="fzltchjw" font_size="13" font_color="#214c8d">1、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#214c8d">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#214c8d">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+
+<style font="fzltchjw" font_size="13" font_color="#214c8d">2、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#214c8d">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#214c8d">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+
+<style font="fzltchjw" font_size="13" font_color="#214c8d">3、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#214c8d">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#214c8d">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="TNFRSF11A"/>
+                    <cell row="0" column="1" value="rs001128425"/>
+                    <cell row="0" column="2" value="*1xN/*10"/>
+                    <cell row="0" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="0" column="4" value="致聋高风险"/>
+                    <cell row="0" column="5" value="1B"/>
+                    <cell row="0" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素禁用氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+
+                    <cell row="1" column="0" value="MT-RNR1"/>
+                    <cell row="1" column="1" value="rs001128425"/>
+                    <cell row="1" column="2" value="T"/>
+                    <cell row="1" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="1" column="4" value="致聋低风险"/>
+                    <cell row="1" column="5" value="2B"/>
+                    <cell row="1" column="6" value=""/>
+                    <cell row="1" column="7" value=""/>
+
+                    <cell row="2" column="0" value="MT-RNR2FF"/>
+                    <cell row="2" column="1" value="rs001128425"/>
+                    <cell row="2" column="2" value="T"/>
+                    <cell row="2" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="2" column="4" value="致聋低风险"/>
+                    <cell row="2" column="5" value="2B"/>
+                    <cell row="2" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <parameter id="name"   value="王辉"/>
+        <parameter id="gender" value="女"/>
+        <parameter id="age" value="55"/>
+        <parameter id="sampleNumb" value="1234567890123456"/>
+        <parameter id="sampleType" value="口腔黏膜细胞"/>
+        <parameter id="technology" value="Agena核酸质谱"/>
+        <parameter id="collectionDate" value="2017年7月15日"/>
+        <parameter id="checkDate" value="2017年7月23日"/>
+        <parameter id="reportDate" value="2017年7月25日"/>
+        <parameter id="organization" value="北京幸福基石科技有限公司"/>
+        <parameter id="organizationAddress" value="北京xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+        <parameter id="organizationPhone" value="400-066-9816"/>
+        <parameter id="organizationWebsite" value="www.happy-gene.com"/>
+
+
+        <table id="userReportInfo">
+            <headers>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="姓　　名："/>
+                <cell row="1"  column="0" value="年　　龄："/>
+                <cell row="0"  column="1" value="$name"/>
+                <cell row="1"  column="1" value="$age"/>
+                <cell row="0"  column="2" value="性　　别："/>
+                <cell row="1"  column="2" value=""><![CDATA[用<style font_size='5'>　</style>户<style font_size='5'>　</style>ID：]]></cell>
+                <cell row="0"  column="3" value="$gender"/>
+                <cell row="1"  column="3" value="$sampleNumb"/>
+            </rows>
+        </table>
+
+
+        <table id='sampleAndDate'>
+            <headers>
+            </headers>
+            <rows>
+                <cell  row='0' column='0' value='样本类型：'/>
+                <cell  row='0' column='1' value='$sampleType'/>
+                <cell  row='0' column='2' value='检测技术：'/>
+                <cell  row='0' column='3' value='$technology'/>
+                <cell  row='1' column='0' value='采样日期：'/>
+                <cell  row='1' column='1' value='$collectionDate'></cell>
+                <cell  row='1' column='2' value='检测日期：'/>
+                <cell  row='1' column='3' value='$checkDate'></cell>
+                <cell  row='2' column='0' value='报告日期：'/>
+                <cell  row='2' column='1' value='$reportDate'/>
+                <cell  row='2' column='2' value='检测机构：'/>
+                <cell  row='2' column='3' value='$organization'/>
+            </rows>
+        </table>
+
+
+        <repeat id="allTypesOfMedicines">
+            <group id="0" order="0">
+                <parameter id="everyTypeMedicineName" value="一、非小细胞肺癌"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row='0'  column='0' value='氨基糖胺类抗生素, 庆大霉素, 链霉素, 卡那霉素, 妥布霉素, 大观霉素, 新霉素, 巴龙霉素, 小诺霉素, 核糖霉素, 奈替美星, 阿司美星, 依替米星, 异帕米星, 阿米卡星, 西索米星'/>
+                        <cell row='1'  column='0' value='红霉素, 依托红霉素, 琥乙红霉素'/>
+                        <cell row='2'  column='0' value='伏立康唑, 伏立康唑片, 威凡, 匹纳普 , 丽福康, 美大康'/>
+                        <cell row='3'  column='0' value='黄连素'/>
+
+                        <cell row='0'  column='1' value='氨基糖苷类抗生素'/>
+                        <cell row='1'  column='1' value='伏立康唑'/>
+                        <cell row='2'  column='1' value='红霉素'/>
+                        <cell row='3'  column='1' value='黄连素'/>
+
+                        <cell row='0'  column='2' value=''><![CDATA[<style font_color='#FF0000' bold="true">禁用氨基糖苷类抗生素</style>]]></cell>
+                        <cell row='1'  column='2' value='减少用药剂量'/>
+                        <cell row='2'  column='2' value='正常使用'/>
+                        <cell row='3'  column='2' value='正常使用'/>
+                    </rows>
+                </table>
+            </group>
+            <group id="1" order="1">
+                <parameter id="everyTypeMedicineName" value="二、肝癌"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0"  column="0" value="氨基糖胺类抗生素, 庆大霉素, 链霉素, 卡那霉素, 妥布霉素, 大观霉素, 新霉素, 巴龙霉素, 小诺霉素, 核糖霉素, 奈替美星, 阿司美星, 依替米星, 异帕米星, 阿米卡星, 西索米星"/>
+                        <cell row="1"  column="0" value="红霉素, 依托红霉素, 琥乙红霉素"/>
+                        <cell row="2"  column="0" value="伏立康唑, 伏立康唑片, 威凡, 匹纳普 , 丽福康, 美大康"/>
+                        <cell row="3"  column="0" value="黄连素"/>
+
+                        <cell row="0"  column="1" value="氨基糖苷类抗生素"/>
+                        <cell row="1"  column="1" value="伏立康唑"/>
+                        <cell row="2"  column="1" value="红霉素"/>
+                        <cell row="3"  column="1" value="黄连素"/>
+
+                        <cell row="0"  column="2" value="禁用氨基糖苷类抗生素"/>
+                        <cell row="1"  column="2" value="减少用药剂量"/>
+                        <cell row="2"  column="2" value="正常使用"/>
+                        <cell row="3"  column="2" value="正常使用"/>
+                    </rows>
+                </table>
+            </group>
+            <group id="2" order="2">
+                <parameter id="everyTypeMedicineName" value="三、肺癌"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0"  column="0" value="氨基糖胺类抗生素, 庆大霉素, 链霉素, 卡那霉素, 妥布霉素, 大观霉素, 新霉素, 巴龙霉素, 小诺霉素, 核糖霉素, 奈替美星, 阿司美星, 依替米星, 异帕米星, 阿米卡星, 西索米星"/>
+                        <cell row="1"  column="0" value="红霉素, 依托红霉素, 琥乙红霉素"/>
+                        <cell row="2"  column="0" value="伏立康唑, 伏立康唑片, 威凡, 匹纳普 , 丽福康, 美大康"/>
+                        <cell row="3"  column="0" value="黄连素"/>
+
+                        <cell row="0"  column="1" value="氨基糖苷类抗生素"/>
+                        <cell row="1"  column="1" value="伏立康唑"/>
+                        <cell row="2"  column="1" value="红霉素"/>
+                        <cell row="3"  column="1" value="黄连素"/>
+
+                        <cell row="0"  column="2" value="禁用氨基糖苷类抗生素"/>
+                        <cell row="1"  column="2" value="减少用药剂量"/>
+                        <cell row="2"  column="2" value="正常使用"/>
+                        <cell row="3"  column="2" value="正常使用"/>
+                    </rows>
+                </table>
+            </group>
+            <group id="3" order="3">
+                <parameter id="everyTypeMedicineName" value="四、胰腺癌"/>
+                <table id="everyTypeMedicine">
+                    <headers>
+                        <header column="0" value="常用药品名"/>
+                        <header column="1" value="有效成分"/>
+                        <header column="2" value="用药建议"/>
+                    </headers>
+                    <rows>
+                        <cell row="0"  column="0" value="氨基糖胺类抗生素, 庆大霉素, 链霉素, 卡那霉素, 妥布霉素, 大观霉素, 新霉素, 巴龙霉素, 小诺霉素, 核糖霉素, 奈替美星, 阿司美星, 依替米星, 异帕米星, 阿米卡星, 西索米星"/>
+                        <cell row="1"  column="0" value="红霉素, 依托红霉素, 琥乙红霉素"/>
+                        <cell row="2"  column="0" value="伏立康唑, 伏立康唑片, 威凡, 匹纳普 , 丽福康, 美大康"/>
+                        <cell row="3"  column="0" value="黄连素"/>
+
+                        <cell row="0"  column="1" value="氨基糖苷类抗生素"/>
+                        <cell row="1"  column="1" value="伏立康唑"/>
+                        <cell row="2"  column="1" value="红霉素"/>
+                        <cell row="3"  column="1" value="黄连素"/>
+
+                        <cell row="0"  column="2" value="禁用氨基糖苷类抗生素"/>
+                        <cell row="1"  column="2" value="减少用药剂量"/>
+                        <cell row="2"  column="2" value="正常使用"/>
+                        <cell row="3"  column="2" value="正常使用"/>
+                    </rows>
+                </table>
+            </group>
+        </repeat>
+
+
+        <table id='appendixAllCheckingResult'>
+            <headers>
+                <header column='0' value='类别'/>
+                <header column='1' value='有效成分'/>
+                <header column='2' value='基因'/>
+                <header column='3' value='位点'/>
+                <header column='4' value='基因型'/>
+            </headers>
+            <rows>
+                <cell row='0'   column='0' value='抗炎药'/>
+                <cell row='1'   column='0' value=''/>
+                <cell row='2'   column='0' value=''/>
+                <cell row='3'   column='0' value=''/>
+                <cell row='4'   column='0' value='　'/>
+                <cell row='5'   column='0' value='肠胃不适'/>
+                <cell row='6'   column='0' value=''/>
+                <cell row='7'   column='0' value=''/>
+                <cell row='8'   column='0' value='　'/>
+                <cell row='9'   column='0' value='雾化吸入'/>
+                <cell row='10'  column='0' value='　'/>
+                <cell row='11'  column='0' value='退热药'/>
+                <cell row='12'  column='0' value=''/>
+                <cell row='13'  column='0' value=''/>
+                <cell row='14'  column='0' value=''/>
+                <cell row='15'  column='0' value=''/>
+                <cell row='16'  column='0' value=''/>
+                <cell row='17'  column='0' value=''/>
+                <cell row='18'  column='0' value=''/>
+                <cell row='19'  column='0' value=''/>
+                <cell row='20'  column='0' value=''/>
+                <cell row='21'  column='0' value=''/>
+                <cell row='22'  column='0' value='　'/>
+
+                <cell row='0'   column='1' value='氨基糖苷类抗生素x x x x x x x x x x x x x x x x x x x x x x x x x'/>
+                <cell row='1'   column='1' value='氨基糖苷类抗生素'/>
+                <cell row='2'   column='1' value='伏立康唑'/>
+                <cell row='3'   column='1' value='红霉素'/>
+                <cell row='4'   column='1' value='红霉素'/>
+                <cell row='5'   column="1" value="奥美拉唑"/>
+                <cell row="6"   column="1" value="兰索拉唑"/>
+                <cell row="7"   column="1" value="泮托拉唑"/>
+                <cell row="8"   column="1" value="黄连素"/>
+                <cell row="9"   column="1" value="硫酸特布他林"/>
+                <cell row="10"  column="1" value="布地奈德"/>
+                <cell row="11"  column="1" value="布洛芬"/>
+                <cell row="12"  column="1" value="布洛芬"/>
+                <cell row="13"  column="1" value="布洛芬"/>
+                <cell row="14"  column="1" value="右旋布洛芬"/>
+                <cell row="15"  column="1" value="右旋布洛芬"/>
+                <cell row="16"  column="1" value="对乙酰氨基酚"/>
+                <cell row="17"  column="1" value="对乙酰氨基酚"/>
+                <cell row="18"  column="1" value="对乙酰氨基酚"/>
+                <cell row="19"  column="1" value="对乙酰氨基酚"/>
+                <cell row="20"  column="1" value="双氯芬酸钠"/>
+                <cell row="21"  column="1" value="双氯芬酸钠"/>
+                <cell row="22"  column="1" value="双氯芬酸钠"/>
+
+                <cell row="0"   column="2" value="MT-RNR1"/>
+                <cell row="1"   column="2" value="MT-RNR1"/>
+                <cell row="2"   column="2" value="CYP2C19"/>
+                <cell row="3"   column="2" value="G6PD"/>
+                <cell row="4"   column="2" value="ABCC2"/>
+                <cell row="5"   column="2" value="CYP2C19"/>
+                <cell row="6"   column="2" value="CYP2C19"/>
+                <cell row="7"   column="2" value="CYP2C19"/>
+                <cell row="8"   column="2" value="CYP2D6"/>
+                <cell row="9"   column="2" value="ADRB2"/>
+                <cell row="10"  column="2" value="CRHR1"/>
+                <cell row="11"  column="2" value="CYP2C9"/>
+                <cell row="12"  column="2" value="CYP2C8"/>
+                <cell row="13"  column="2" value="PTGS2"/>
+                <cell row="14"  column="2" value="CYP2C8"/>
+                <cell row="15"  column="2" value="PTGS2"/>
+                <cell row="16"  column="2" value="CYP2D6"/>
+                <cell row="17"  column="2" value="UGT1A"/>
+                <cell row="18"  column="2" value="PLA2G4A"/>
+                <cell row="19"  column="2" value="TNFRSF11A"/>
+                <cell row="20"  column="2" value="CYP2C9"/>
+                <cell row="21"  column="2" value="PLA2G4A"/>
+                <cell row="22"  column="2" value="TNFRSF11A"/>
+
+                <cell row="0"   column="3" value=""><![CDATA[rs267606617]]></cell>
+                <cell row="1"   column="3" value=""><![CDATA[rs267606619]]></cell>
+                <cell row="2"   column="3" value=""><![CDATA[*1,*2,*3,*17]]></cell>
+                <cell row="3"   column="3" value=""><![CDATA[ ]]></cell>
+                <cell row="4"   column="3" value=""><![CDATA[rs717620]]></cell>
+                <cell row="5"   column="3" value=""><![CDATA[*1,*2,*3,*17]]></cell>
+                <cell row="6"   column="3" value=""><![CDATA[*1,*2,*3,*17]]></cell>
+                <cell row="7"   column="3" value=""><![CDATA[*1,*2,*3,*17]]></cell>
+                <cell row="8"   column="3" value=""><![CDATA[*1,*2,*3,*4,*10,*41]]></cell>
+                <cell row="9"   column="3" value=""><![CDATA[rs1042714]]></cell>
+                <cell row="10"  column="3" value=""><![CDATA[rs1876828]]></cell>
+                <cell row="11"  column="3" value=""><![CDATA[*1,*2,*3]]></cell>
+                <cell row="12"  column="3" value=""><![CDATA[*1,*2,*3]]></cell>
+                <cell row="13"  column="3" value=""><![CDATA[rs20417]]></cell>
+                <cell row="14"  column="3" value=""><![CDATA[*1,*2,*3]]></cell>
+                <cell row="15"  column="3" value=""><![CDATA[rs20417]]></cell>
+                <cell row="16"  column="3" value=""><![CDATA[*1,*2,*3,*10,*41]]></cell>
+                <cell row="17"  column="3" value=""><![CDATA[rs10929303]]></cell>
+                <cell row="18"  column="3" value=""><![CDATA[rs12746200]]></cell>
+                <cell row="19"  column="3" value=""><![CDATA[rs1805034]]></cell>
+                <cell row="20"  column="3" value=""><![CDATA[*1,*2,*3]]></cell>
+                <cell row="21"  column="3" value=""><![CDATA[rs12746200]]></cell>
+                <cell row="22"  column="3" value=""><![CDATA[rs1805034]]></cell>
+
+                <cell row="0"   column="4" value=""><![CDATA[A]]></cell>
+                <cell row="1"   column="4" value=""><![CDATA[C]]></cell>
+                <cell row="2"   column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="3"   column="4" value=""><![CDATA[野生型]]></cell>
+                <cell row="4"   column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="5"   column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="6"   column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="7"   column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="8"   column="4" value=""><![CDATA[*1xN/*10]]></cell>
+                <cell row="9"   column="4" value=""><![CDATA[GC]]></cell>
+                <cell row="10"  column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="11"  column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="12"  column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="13"  column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="14"  column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="15"  column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="16"  column="4" value=""><![CDATA[*1/*10]]></cell>
+                <cell row="17"  column="4" value=""><![CDATA[CC]]></cell>
+                <cell row="18"  column="4" value=""><![CDATA[AA]]></cell>
+                <cell row="19"  column="4" value=""><![CDATA[TT]]></cell>
+                <cell row="20"  column="4" value=""><![CDATA[*1/*1]]></cell>
+                <cell row="21"  column="4" value=""><![CDATA[AA]]></cell>
+                <cell row="22"  column="4" value=""><![CDATA[TT]]></cell>
+            </rows>
+        </table>
+        <parameter id="appendixReferences" value="">
+            <![CDATA[
+1.　　Bruck, H. et al. The Gln27Glu beta2-adrenoceptor polymorphism slows the onset of desensitization of cardiac functional responses in vivo. Pharmacogenetics 13, 59-66 (2003).
+<br/>2.　　Whirl-Carrillo, M. et al. Pharmacogenomics knowledge for personalized medicine. Clin Pharmacol Ther 92, 414-7 (2012).
+<br/>3.　　Franke, R.M. et al. Effect of ABCC2 (MRP2) transport function on erythromycin metabolism. Clin Pharmacol Ther 89, 693-701 (2011).
+<br/>4.　　Li, X. et al. Effect of cytochrome P450 2C19 polymorphisms on the clinical outcomes of voriconazole: a systematic review and meta-analysis. Eur J Clin Pharmacol 72, 1185-1193 (2016).
+<br/>5.　　Sugimoto, M. et al. Comparison of acid inhibition with standard dosages of proton pump inhibitors in relation to CYP2C19 genotype in Japanese. Eur J Clin Pharmacol 70, 1073-8 (2014).
+<br/>6.　　Qiu, F. et al. Effects of the Chinese herbal formula "Zuojin Pill" on the pharmacokinetics of dextromethorphan in healthy Chinese volunteers with CYP2D6*10 genotype. Eur J Clin Pharmacol 72, 689-95 (2016).
+<br/>7.　　Jing, W. et al. Mitochondrial mutations associated with aminoglycoside ototoxicity and hearing loss susceptibility identified by meta-analysis. J Med Genet 52, 95-103 (2015).
+<br/>8.　　Kim, W.J. et al. Association between CRHR1 polymorphism and improved lung function in response to inhaled corticosteroid in patients with COPD. Respirology 14, 260-3 (2009).
+<br/>9.　　Karazniewicz-Lada, M., Luczak, M. & Glowka, F. Pharmacokinetic studies of enantiomers of ibuprofen and its chiral metabolites in humans with different variants of genes coding CYP2C8 and CYP2C9 isoenzymes. Xenobiotica 39, 476-85 (2009).
+<br/>10.　　Lee, Y.S., Kim, H., Wu, T.X., Wang, X.M. & Dionne, R.A. Genetically mediated interindividual variation in analgesic responses to cyclooxygenase inhibitory drugs. Clin Pharmacol Ther 79, 407-18 (2006).
+<br/>11.　　Foster, A., Mobley, E. & Wang, Z. Complicated pain management in a CYP450 2D6 poor metabolizer. Pain Pract 7, 352-6 (2007).
+<br/>12.　　Court, M.H. et al. The UDP-glucuronosyltransferase (UGT) 1A polymorphism c.2042C>G (rs8330) is associated with increased human liver acetaminophen glucuronidation, increased UGT1A exon 5a/5b splice variant mRNA ratio, and decreased risk of unintentional acetaminophen-induced acute liver failure. J Pharmacol Exp Ther 345, 297-307 (2013).
+<br/>13.　　Ayuso, P. et al. Association study of genetic variants in PLA2G4A, PLCG1, LAT, SYK, and TNFRS11A genes in NSAIDs-induced urticaria and/or angioedema patients. Pharmacogenet Genomics 25, 618-21 (2015).
+<br/>14.　　Pilotto, A. et al. Genetic susceptibility to nonsteroidal anti-inflammatory drug-related gastroduodenal bleeding: role of cytochrome P450 2C9 polymorphisms. Gastroenterology 133, 465-71 (2007).
+<br/>15.　　VanderVaart, S. et al. CYP2D6 polymorphisms and codeine analgesia in postpartum pain management: a pilot study. Ther Drug Monit 33, 425-32 (2011).
+<br/>16.　　Cai, J. et al. Effects of 22 Novel CYP2D6 Variants Found in the Chinese Population on the Bufuralol and Dextromethorphan Metabolisms In Vitro. Basic Clin Pharmacol Toxicol 118, 190-9 (2016).
+<br/>17.　　Dahlin, A. et al. Genome-Wide Association Study Identifies Novel Pharmacogenomic Loci For Therapeutic Response to Montelukast in Asthma. PLoS One 10, e0129385 (2015).
+<br/>18.　　Kim, K.A., Lee, H.M., Joo, H.J., Park, I.B. & Park, J.Y. Effects of polymorphisms of the SLCO2B1 transporter gene on the pharmacokinetics of montelukast in humans. J Clin Pharmacol 53, 1186-93 (2013).
+<br/>19.　　Perin, P. & Potocnik, U. Polymorphisms in recent GWA identified asthma genes CA10, SGK493, and CTNNA3 are associated with disease severity and treatment response in childhood asthma. Immunogenetics 66, 143-51 (2014).
+<br/>20.　　Stocker, S.L. et al. The effect of novel promoter variants in MATE1 and MATE2 on the pharmacokinetics and pharmacodynamics of metformin. Clin Pharmacol Ther 93, 186-94 (2013).
+<br/>21.　　Zhou, K. et al. Variation in the glucose transporter gene SLC2A2 is associated with glycemic response to metformin. Nat Genet 48, 1055-1059 (2016).
+<br/>22.　　Yoon, H., Cho, H.Y., Yoo, H.D., Kim, S.M. & Lee, Y.B. Influences of organic cation transporter polymorphisms on the population pharmacokinetics of metformin in healthy subjects. AAPS J 15, 571-80 (2013).
+<br/>23.　　Carette, C., Dubois-Laforgue, D., Gautier, J.F. & Timsit, J. Diabetes mellitus and glucose-6-phosphate dehydrogenase deficiency: from one crisis to another. Diabetes Metab 37, 79-82 (2011).
+<br/>24.　　Spraggs, C. et al. Genetic variants in the epithelial sodium channel associate with oedema in type 2 diabetic patients receiving the peroxisome proliferator-activated receptor gamma agonist farglitazar. Pharmacogenet Genomics 17, 1065-76 (2007).
+<br/>25.　　Aquilante, C.L. et al. Impact of the CYP2C8 *3 polymorphism on the drug-drug interaction between gemfibrozil and pioglitazone. Br J Clin Pharmacol 75, 217-26 (2013).
+<br/>26.　　Yang, H. et al. Adiponectin gene polymorphism rs2241766 T/G is associated with response to pioglitazone treatment in type 2 diabetic patients from southern China. PLoS One 9, e112480 (2014).
+<br/>27.　　Thaker, S.J. et al. A prospective study to assess the association between genotype, phenotype and Prakriti in individuals on phenytoin monotherapy. J Ayurveda Integr Med 8, 37-41 (2017).
+<br/>28.　　Tate, S.K. et al. A common polymorphism in the SCN1A gene associates with phenytoin serum levels at maintenance dose. Pharmacogenet Genomics 16, 721-6 (2006).
+<br/>29.　　Inomata, S. et al. CYP2C19 genotype affects diazepam pharmacokinetics and emergence from general anesthesia. Clin Pharmacol Ther 78, 647-55 (2005).
+<br/>30.　　Ma, C.L. et al. Association between PK/PD-involved gene polymorphisms and carbamazepine-individualized therapy. Pharmacogenomics 16, 1499-512 (2015).
+<br/>31.　　Puranik, Y.G. et al. Association of carbamazepine major metabolism and transport pathway gene polymorphisms and pharmacokinetics in patients with epilepsy. Pharmacogenomics 14, 35-45 (2013).
+<br/>32.　　Hung, S.I. et al. Genetic susceptibility to carbamazepine-induced cutaneous adverse drug reactions. Pharmacogenet Genomics 16, 297-306 (2006).
+<br/>33.　　中华人民共和国国家卫生计生委医政医管局. 《药物代谢酶和药物作用靶点基因检测技术指南（试行）》. 2015-7-29
+]]>
+        </parameter>
+    </data>
+</pdf>

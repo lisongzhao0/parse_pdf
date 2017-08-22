@@ -4,10 +4,7 @@ import com.happy.gene.pdfreport.pdf.IBound;
 import com.happy.gene.pdfreport.pdf.IPosition;
 import com.happy.gene.pdfreport.pdf.IVariable;
 import com.happy.gene.pdfreport.pdf.IXml;
-import com.happy.gene.pdfreport.pdf.def.element.AbstractDef;
-import com.happy.gene.pdfreport.pdf.def.element.ImageDef;
-import com.happy.gene.pdfreport.pdf.def.element.RectDef;
-import com.happy.gene.pdfreport.pdf.def.element.TextDef;
+import com.happy.gene.pdfreport.pdf.def.element.*;
 import com.happy.gene.pdfreport.pdf.util.DefFactory;
 import com.happy.gene.pdfreport.pdf.util.ParametersUtil;
 import com.itextpdf.kernel.color.Color;
@@ -241,6 +238,12 @@ public class AreaDef extends AbstractDef implements IBound, IXml<AreaDef>, IVari
                 RectDef rec = ((RectDef) clone);
                 float[] bound = rec.getBound();
                 rec.setBound(bound[0]+startX, startY-bound[1], bound[2], bound[3], bound[4]);
+                rec.generate(pdf, pageDef);
+            }
+            if (clone instanceof LineDef) {
+                LineDef rec = ((LineDef) clone);
+                float[] bound = rec.getBound();
+                rec.setBound(bound[0]+startX, startY-bound[1], bound[2], bound[3]);
                 rec.generate(pdf, pageDef);
             }
             if (clone instanceof ImageDef) {

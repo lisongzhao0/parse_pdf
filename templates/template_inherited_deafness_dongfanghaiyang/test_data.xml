@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+    <fonts>
+        <font id="simsun"     embedded="true" name="simsun"     ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/simsun.ttc,1"/>
+        <font id="fzlthjw"    embedded="true" name="fzlthjw"    ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzlthjw.ttf"/>
+        <font id="fzltchjw"   embedded="true" name="fzltchjw"   ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzltchjw.ttf"/>
+        <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/fzltxh_gbk.ttf"/>
+        <font id="arial" embedded="true" name="arial" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_medicine_selected/arial.ttf"/>
+    </fonts>
+
+
+
+
+
+
+    <data>
+
+
+
+
+
+        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
+            <tree_node value="致家长的一封信" english="A letter to parents" page="" catalog="0 0">
+                <tree_node english="User Manual" page="I" value="　　　　" catalog="0 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告索引" english="Report index" page="" catalog="0 0">
+                <tree_node english="Report index" page="II" value="　　　　" catalog="0 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告指南" english="Instructions" page="" catalog="1 0">
+                <tree_node english="Instructions" page="xxx" value="报告指南" catalog="1 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="报告概述" english="Report to review" page="" catalog="2 0">
+                <tree_node english="" page="xxx" value="报告概述" catalog="2 1"/>
+            </tree_node>
+            <tree_node value="报告详解" english="Detailed report" page="" catalog="3 0">
+                <tree_node english="" page="xxx" value="抗菌类"   catalog="3 1 0"/>
+                <tree_node english="" page="xxx" value="胃肠消化类药物"     catalog="3 2 0"/>
+                <tree_node english="" page="xxx" value="肥胖 / 代谢综合症类药物"     catalog="3 3 0"/>
+                <tree_node english="" page="xxx" value="镇定安神类药物"  catalog="3 4 0"/>
+            </tree_node>
+            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
+                <tree_node english="" page="III" value="参考文献" catalog=""/>
+                <tree_node english="" page="IV" value="本次检测的全部基因位点检测结果" catalog=""/>
+                <tree_node english="" page="V" value="提示与声明" catalog=""/>
+            </tree_node>
+        </tree_node>
+
+
+
+
+
+        <group order="1" id="catalog_3_1" value="3 1" catalog="3 1">
+            <parameter id="detailMedicineType" value="抗菌药"/>
+            <parameter id="detailMedicineTypeEnglish" value="Antibacterial"/>
+            <parameter id="medicineTypeEvaluate" value="">
+<![CDATA[<style font="fzltchjw" font_size="13" font_color="#214c8d">1、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#214c8d">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#214c8d">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+
+<style font="fzltchjw" font_size="13" font_color="#214c8d">2、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#214c8d">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#214c8d">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+
+<style font="fzltchjw" font_size="13" font_color="#214c8d">3、氨基糖苷类抗生素：</style><br/>
+<style font="fzlthjw"  font_color="#214c8d">常见药品：庆大霉素、链霉素、卡那霉素、妥布霉素、大观霉素、新霉素、巴龙霉素、小诺霉素、核糖霉素、奈替美星、阿司美星、依替米星、异帕米星、阿米卡星、西索米星</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<style font="fzlthjw" font_size="11" font_color="#214c8d">建议：</style><br/>
+使用药物进行治疗的效果，根据个体多态位点状况，对于特定药物可能在耐药性、有效剂量或敏感性等方面的存在差异。检测结果可用于提示药物用量、使用时间、见效时间等信息。<br/>
+<br/>
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="点位"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="有效成分"/>
+                    <header column="4" value="结果分析"/>
+                    <header column="5" value="置信等级"/>
+                    <header column="6" value="用药建议"/>
+                    <header column="7" value="　"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="TNFRSF11A"/>
+                    <cell row="0" column="1" value="rs001128425"/>
+                    <cell row="0" column="2" value="*1xN/*10"/>
+                    <cell row="0" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="0" column="4" value="致聋高风险"/>
+                    <cell row="0" column="5" value="1B"/>
+                    <cell row="0" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素禁用氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="0" column="7" value=""/>
+
+                    <cell row="1" column="0" value="MT-RNR1"/>
+                    <cell row="1" column="1" value="rs001128425"/>
+                    <cell row="1" column="2" value="T"/>
+                    <cell row="1" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="1" column="4" value="致聋低风险"/>
+                    <cell row="1" column="5" value="2B"/>
+                    <cell row="1" column="6" value=""/>
+                    <cell row="1" column="7" value=""/>
+
+                    <cell row="2" column="0" value="MT-RNR2FF"/>
+                    <cell row="2" column="1" value="rs001128425"/>
+                    <cell row="2" column="2" value="T"/>
+                    <cell row="2" column="3" value="氨基糖苷类抗生素"/>
+                    <cell row="2" column="4" value="致聋低风险"/>
+                    <cell row="2" column="5" value="2B"/>
+                    <cell row="2" column="6" value=""><![CDATA[<style font_color="#AF2429" bold="true">禁用氨基糖苷类抗生素</style>]]></cell>
+                    <cell row="2" column="7" value="　"/>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <parameter id="code" value="320055380500"/>
+        <parameter id="gender" value="女"/>
+        <parameter id="fromOrganization" value="/"/>
+        <parameter id="age" value="20160820"/>
+        <parameter id="userName"   value="王辉"/>
+        <parameter id="admissionNumber" value="/"/>
+        <parameter id="fromDepartment" value="/"/>
+        <parameter id="contactPhone" value="15554539969"/>
+        <parameter id="sampleType" value="/"/>
+        <parameter id="sampleStatus" value="/"/>
+        <parameter id="diagnosis" value="/"/>
+        <parameter id="admissionNumber" value="1234543216897644655"/>
+        <parameter id="technology" value="Agena核酸质谱"/>
+        <parameter id="collectedDate" value="2017年7月15日"/>
+        <parameter id="specialInfo" value="/"/>
+        <parameter id="receiptDate" value="2017年7月23日"/>
+        <parameter id="fromDoctor" value="/"/>
+        <parameter id="diseaseHistory" value="/"/>
+        <parameter id="doctorPhone" value="15554539969"/>
+        <parameter id="disease" value="/"/>
+        <parameter id="programContent" value="">
+<![CDATA[<style font_size='10' font_color='#214c8d' bold='true'>结论：受检者不携带本检测中涉及的 20 个遗传性耳聋相关基因突变。</style><br/>
+· 检测方法：飞行质谱<br/>
+· 主要设备：Agena MassArray<br/>
+]]>
+        </parameter>
+        <parameter id="geneCheckDate" value="2017年7月16日"/>
+        <parameter id="reportDate" value="2017年7月25日"/>
+        <parameter id="organization" value="山东东方海洋科技股份有限公司"/>
+        <parameter id="organizationAddress" value="山东省烟台市莱山区澳柯玛大街 18 号"/>
+        <parameter id="organizationPhone" value="400-111-2086"/>
+        <parameter id="organizationWebsite" value="www.oceanbio.com"/>
+
+
+        <table id="userInfo">
+            <headers>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value=""><![CDATA[条<style font_size='6'>　</style>码<style font_size='6'>　</style>号：]]></cell>
+                <cell row="0"  column="1" value="$code"/>
+                <cell row="0"  column="2" value="性　　别："/>
+                <cell row="0"  column="3" value="$gender"/>
+                <cell row="1"  column="0" value="送检单位："/>
+                <cell row="1"  column="1" value="$fromOrganization"/>
+                <cell row="1"  column="2" value="年　　龄："/>
+                <cell row="1"  column="3" value="$age"/>
+                <cell row="2"  column="0" value="姓　　名："/>
+                <cell row="2"  column="1" value="$userName"/>
+                <cell row='2'  column='2' value='住院/门诊号：'/>
+                <cell row='2'  column='3' value='$admissionNumber'/>
+                <cell row='3'  column='0' value='送检科室：'/>
+                <cell row='3'  column='1' value='$fromDepartment'/>
+                <cell row='3'  column='2' value='联系电话：'/>
+                <cell row='3'  column='3' value='$contactPhone'></cell>
+                <cell row='4'  column='0' value='样本类型：'/>
+                <cell row='4'  column='1' value='$sampleType'></cell>
+                <cell row='4'  column='2' value='样本状态：'/>
+                <cell row='4'  column='3' value='$sampleStatus'/>
+                <cell row='5'  column='0' value='临床诊断：'/>
+                <cell row='5'  column='1' value='$diagnosis'/>
+                <cell row='5'  column='2' value='采样时间：'/>
+                <cell row='5'  column='3' value='$collectedDate'/>
+                <cell row='6'  column='0' value='特殊信息：'/>
+                <cell row='6'  column='1' value='$specialInfo'/>
+                <cell row='6'  column='2' value='接收时间：'/>
+                <cell row='6'  column='3' value='$receiptDate'/>
+                <cell row='7'  column='0' value='送检医生：'/>
+                <cell row='7'  column='1' value='$fromDoctor'/>
+                <cell row='7'  column='2' value='病　　史：'/>
+                <cell row='7'  column='3' value='$diseaseHistory'/>
+                <cell row='8'  column='0' value='医生电话：'/>
+                <cell row='8'  column='1' value='$doctorPhone'/>
+                <cell row='8'  column='2' value='病　　症：'/>
+                <cell row='8'  column='3' value='$disease'/>
+            </rows>
+        </table>
+
+
+
+        <table id='checkResult'>
+            <headers></headers>
+            <rows>
+                <cell  row='0' column='0' value=''><![CDATA[GJB2]]></cell>
+                <cell  row='0' column='1' value=''><![CDATA[35delG]]></cell>
+                <cell  row='0' column='2' value=''><![CDATA[G/G]]></cell>
+                <cell  row='0' column='3' value=''><![CDATA[正常]]></cell>
+
+                <cell  row='1' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='1' column='1' value=''><![CDATA[167delT]]></cell>
+                <cell  row='1' column='2' value=''><![CDATA[T/T]]></cell>
+                <cell  row='1' column='3' value=''><![CDATA[正常]]></cell>
+
+                <cell  row='2' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='2' column='1' value=''><![CDATA[176_191del16]]></cell>
+                <cell  row='2' column='2' value=''><![CDATA[GCTGCAAGAACGTGTG / GCTGCAAGAACGTGTG]]></cell>
+                <cell  row='2' column='3' value=''><![CDATA[正常]]></cell>
+
+                <cell  row='3' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='3' column='1' value=''><![CDATA[235delC]]></cell>
+                <cell  row='3' column='2' value=''><![CDATA[C/C]]></cell>
+                <cell  row='3' column='3' value=''><![CDATA[正常]]></cell>
+
+                <cell  row='4' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='4' column='1' value=''><![CDATA[299_300delAT]]></cell>
+                <cell  row='4' column='2' value=''><![CDATA[AT/AT]]></cell>
+                <cell  row='4' column='3' value=''><![CDATA[正常]]></cell>
+
+                <cell  row='5' column='0' value=''><![CDATA[GJB3]]></cell>
+                <cell  row='5' column='1' value=''><![CDATA[538C → T]]></cell>
+                <cell  row='5' column='2' value=''><![CDATA[C/C]]></cell>
+                <cell  row='5' column='3' value=''><![CDATA[正常]]></cell>
+
+                <cell  row='6' column='0' value=''><![CDATA[]]></cell>
+                <cell  row='6' column='1' value=''><![CDATA[547G → A]]></cell>
+                <cell  row='6' column='2' value=''><![CDATA[G/G]]></cell>
+                <cell  row='6' column='3' value=''><![CDATA[正常]]></cell>
+
+            </rows>
+        </table>
+
+    </data>
+</pdf>
