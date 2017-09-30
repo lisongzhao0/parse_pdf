@@ -82,111 +82,14 @@ public class MainMedicineSelectedDoctor {
         Collections.sort(pages, IZOrder.comparator);
         int nextPageIndex = 1;
 
-        List<PageDef> needRepaintPages = new ArrayList<>();
         for (AbstractDef tmp : pages) {
             System.out.println(tmp.getZOrder());
             if (tmp instanceof PageDef) {
                 ((PageDef)tmp).setPageStartNumber(nextPageIndex);
-                if (((PageDef) tmp).getBooleanProperty("repaint_after_all")) {
-                    needRepaintPages.add(((PageDef) tmp));
-                    ((PageDef) tmp).setStopGenerate(true);
-                    ((PageDef) tmp).setStopRenderer(true);
-                }
                 ((PageDef)tmp).generate(doc, ((PageDef)tmp));
                 nextPageIndex = ((PageDef)tmp).getPageEndNumber() + 1;
                 continue;
             }
-            if (tmp instanceof PageGroupDef) {
-                for (Group groupData : groups) {
-                    PageGroupDef pageGroup = ((PageGroupDef) tmp).clone();
-                    String catalog = groupData.getProperty("catalog");
-                    String needReplaceCatalog = pageGroup.getProperty("catalog");
-                    List<AbstractDef> components = pageGroup.getComponents();
-                    for (AbstractDef def : components) {
-                        if (!(def instanceof PageDef)) {
-                            continue;
-                        }
-                        PageDef page = (PageDef) def;
-                        String pageCatalog = page.getProperty("catalog");
-                        if (pageCatalog.contains(needReplaceCatalog)) {
-                            pageCatalog = pageCatalog.replace(needReplaceCatalog, catalog);
-                            page.setProperty("catalog", pageCatalog);
-                        }
-                    }
-
-                    Map<String, Parameter> groupParams = groupData.getParams();
-                    Map<String, DataTable> groupTables = groupData.getTables();
-                    Map<String, TreeNode>  groupTrees  = groupData.getTrees();
-                    Set<String> keys = null;
-                    keys = groupParams.keySet();
-                    for (String key : keys) {
-                        cache.setParameter(key, groupParams.get(key));
-                    }
-                    keys = groupTables.keySet();
-                    for (String key : keys) {
-                        cache.setTable(key, groupTables.get(key));
-                    }
-
-                    for (AbstractDef def : components) {
-                        if (!(def instanceof PageDef)) {
-                            def.generate(doc, null);
-                            continue;
-                        }
-
-                        PageDef page = (PageDef) def;
-                        page.setPageStartNumber(nextPageIndex);
-                        page.generate(doc, page);
-                        nextPageIndex = page.getPageEndNumber() + 1;
-                        if (page.getBooleanProperty("repaint_after_all")) {
-                            needRepaintPages.add(((PageDef) tmp));
-                        }
-                    }
-                }
-                continue;
-            }
-        }
-
-
-        DataTable table = tables.get("gaiShuJiYinFengXianPingFen");
-        List<DataTable.Row> rows = table.getRows();
-        Map<String, Integer> catalogNumber = testRender.getCatalogs();
-        for (DataTable.Row row : rows) {
-            if (row.getCellSize()==0) {
-                continue;
-            }
-            DataTable.Cell cell = row.getCell(row.getCellSize()-1);
-            Integer pageNumber = catalogNumber.get(cell.getValue());
-
-            cell.setValue(""+(pageNumber));
-        }
-
-        for (PageDef pageDef : needRepaintPages) {
-            int pageNumberInDoc = pageDef.getPageStartNumberInPdf();
-            pageDef.setStopGenerate(true);
-            pageDef.setStopRenderer(true);
-            pageDef.generate(doc, pageDef);
-            PdfPage lastPage = doc.getPdfDocument().getLastPage();
-            Integer lastPageNumber= doc.getPdfDocument().getPageNumber(lastPage);
-
-            List<Object> components = pageDef.getComponents();
-            Collections.sort(components, IZOrder.comparator);
-
-            Object preCom = null;
-            for (Object com : components) {
-                if (com instanceof IDrawable) {
-                    if (preCom instanceof IVariable && com instanceof IVariable) {
-                        float lastY = ((IVariable) preCom).lastY();
-                        ((IVariable) com).lastY(lastY);
-                    }
-                    ((IDrawable) com).generate(doc, pageDef);
-                    preCom = com;
-                }
-            }
-
-            testRender.rendererTail(doc, pageDef);
-            lastPage = doc.getPdfDocument().removePage(lastPageNumber);
-            doc.getPdfDocument().removePage(pageNumberInDoc+1);
-            doc.getPdfDocument().addPage(pageNumberInDoc+1, lastPage);
         }
 
         int pageSize = pdfDoc.getNumberOfPages();
