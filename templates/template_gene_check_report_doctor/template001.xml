@@ -261,12 +261,19 @@
         </template>
 
         <!--  肺癌  -->
-        <image z_order="10" id="member" type="JPG" fit="a" x="-10" y="291.75" height="258" width="610" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/inset4.png"/>
-        <image z_order="11" id="member" type="JPG" fit="a" x="-10" y="291.75" height="258" width="610" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/inset4.png"/>
+        <image z_order="10" id="member" type="PNG" fit="a" x="68" y="680" height="22.8" width="24" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/fei_ai_small.png"/>
+        <image z_order="11" id="member" type="PNG" fit="a" x="383" y="545" height="135.1" width="144.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/fei_ai_big.png"/>
+        <text  z_order="12" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="15" color="#607b3f" x="112" y="680"  width="200" value="肺癌"/>
 
         <!--  胃癌  -->
+        <image z_order="20" id="member" type="PNG" fit="a" x="68" y="480" height="27" width="19.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/wei_ai_small.png"/>
+        <image z_order="21" id="member" type="PNG" fit="a" x="383" y="253" height="185.7" width="128.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/wei_ai_big.png"/>
+        <text  z_order="22" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="15" color="#607b3f" x="112" y="480"  width="200" value="胃癌"/>
 
         <!--  食管癌  -->
+        <image z_order="30" id="member" type="PNG" fit="a" x="68" y="173" height="28.2" width="26.4" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/shi_guan_ai_small.png"/>
+        <image z_order="31" id="member" type="PNG" fit="a" x="383" y="60" height="136.1" width="128.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/shi_guan_ai_big.png"/>
+        <text  z_order="32" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="15" color="#607b3f" x="112" y="173"  width="200" value="食管癌"/>
 
     </page>
 
