@@ -263,7 +263,42 @@
         <!--  肺癌  -->
         <image z_order="10" id="member" type="PNG" fit="a" x="68" y="680" height="22.8" width="24" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/fei_ai_small.png"/>
         <image z_order="11" id="member" type="PNG" fit="a" x="383" y="545" height="135.1" width="144.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/fei_ai_big.png"/>
-        <text  z_order="12" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="15" color="#607b3f" x="112" y="680"  width="200" value="肺癌"/>
+        <text  z_order="12" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="15" color="#607b3f" x="112" y="680" width="200" value="肺癌"/>
+        <paragraph  z_order="13" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" x="112"  y="680" width="415" line_leading="1.8" value="">
+            <![CDATA[血清癌标记物检查<br/>低剂量 CT 检查（薄层）：利于小病灶发现<br/>PET-CT 检查<br/>支气管镜]]>
+        </paragraph>
+
+        <!--  胃癌  -->
+        <image z_order="20" id="member" type="PNG" fit="a" x="68" y="480" height="27" width="19.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/wei_ai_small.png"/>
+        <image z_order="21" id="member" type="PNG" fit="a" x="383" y="253" height="185.7" width="128.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/wei_ai_big.png"/>
+        <text  z_order="22" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="15" color="#607b3f" x="112" y="480"  width="200" value="胃癌"/>
+        <paragraph  z_order="23" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" x="112"  y="480" width="415" line_leading="1.8" value="">
+            <![CDATA[血常规<br/>粪便潜血试验<br/>肿瘤标记物：CEA、CA199、CA242、AFP<br/>胃镜检查及胃镜病理活检<br/>上消化道 X 线钡餐造影（有胃镜检查禁忌时）<br/>PET-CT 检查：对判断是否是胃癌约有 80% 以上的准确性（印戒细胞癌和粘液腺癌准确性约为 50%），并可了解全身有无转移灶<br/>增强 CT]]>
+        </paragraph>
+
+        <!--  食管癌  -->
+        <image z_order="30" id="member" type="PNG" fit="a" x="68" y="173" height="28.2" width="26.4" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/shi_guan_ai_small.png"/>
+        <image z_order="31" id="member" type="PNG" fit="a" x="383" y="60" height="136.1" width="128.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/shi_guan_ai_big.png"/>
+        <text  z_order="32" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="15" color="#607b3f" x="112" y="173"  width="200" value="食管癌"/>
+        <paragraph  z_order="33" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" x="112"  y="173" width="415" line_leading="1.8" value="">
+            <![CDATA[胃镜检查<br/>食管 X 线钡餐检查（有胃镜检查禁忌时）<br/>PET-CT 检查]]>
+        </paragraph>
+
+    </page>
+
+
+    <page z_order="12" catalog="4 " page_header="false" page_number="false" type="detail">
+        <!-- page header -->
+        <template z_order="1" name="page_header" condition="0">
+            <value id="detailJiBingXiaoBiaoTi" value=""/>
+            <value id="detailJiBing" value=""/>
+        </template>
+
+        <!--  肺癌  -->
+        <image z_order="10" id="member" type="PNG" fit="a" x="68" y="680" height="22.8" width="24" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/fei_ai_small.png"/>
+        <image z_order="11" id="member" type="PNG" fit="a" x="383" y="545" height="135.1" width="144.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/fei_ai_big.png"/>
+        <text  z_order="12" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="15" color="#607b3f" x="112" y="680" width="200" value="肺癌"/>
+
 
         <!--  胃癌  -->
         <image z_order="20" id="member" type="PNG" fit="a" x="68" y="480" height="27" width="19.2" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/wei_ai_small.png"/>
