@@ -25,6 +25,7 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
     private float y;
     private float width;
     private float height;
+    private float opacity;
 
     public String getId() {
         return id;
@@ -106,6 +107,7 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
         try { this.y      = Float.parseFloat(element.attributeValue("y"));        } catch (Exception ex) {this.y = 0.0f;}
         try { this.width  = Float.parseFloat(element.attributeValue("width"));    } catch (Exception ex) {this.width  = 0.0f;}
         try { this.height = Float.parseFloat(element.attributeValue("height"));   } catch (Exception ex) {this.height = 0.0f;}
+        try { this.opacity= Float.parseFloat(element.attributeValue("opacity"));  } catch (Exception ex) {this.opacity= 1.0f;}
         return this;
     }
 
@@ -129,6 +131,7 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
             }
             Image image = new Image(ImageDataFactory.create(tmpValue, false));
             image.setFixedPosition(pdf.getPdfDocument().getPageNumber(page), x, y);
+            image.setOpacity(opacity);
             if ("a".equalsIgnoreCase(fit)) {
                 image.scaleAbsolute(width, height);
             }
