@@ -53,6 +53,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
     private float  fontOpacity;
     private Color  fontColor;
     private Color  backgroundColor;
+    private float  backgroundOpacity;
     private float  fontSize;
     private Float  lineLeading;
     private Float  charSpacing;
@@ -263,6 +264,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         this.font      = element.attributeValue("font");
         this.fontColor = getColorUtil().parseColor(element.attributeValue("color"), Color.BLACK);
         this.backgroundColor = getColorUtil().parseColor(element.attributeValue("background"), Color.WHITE);
+        try { this.backgroundOpacity= Float.parseFloat(element.attributeValue("background_opacity")); } catch (Exception ex) {this.backgroundOpacity= 1.0f;}
         try { this.fontOpacity= Float.parseFloat(element.attributeValue("font_opacity")); } catch (Exception ex) {this.fontOpacity= 1.0f;}
         try { this.fontSize   = Float.parseFloat(element.attributeValue("font_size"));    } catch (Exception ex) {this.fontSize   = 12f;}
         try { this.lineLeading= Float.parseFloat(element.attributeValue("line_leading")); } catch (Exception ex) {this.lineLeading=null;}
@@ -411,6 +413,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             addPartToParagraph(tmp, paragraph);
         }
         paragraph.setFixedPosition(pdf.getPdfDocument().getPageNumber(page), getX(), startY-onPageContentHeight, getWidth());
+
         lastY = startY-onPageContentHeight;
         pdf.add(paragraph);
 
@@ -424,7 +427,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         paragraph.setCharacterSpacing(getCharSpacing());
         paragraph.setWordSpacing(getWordSpacing());
         paragraph.setOpacity(getFontOpacity());
-        paragraph.setBackgroundColor(getBackgroundColor());
+        paragraph.setBackgroundColor(getBackgroundColor(), backgroundOpacity);
         if (getWidth()>0) {
             paragraph.setWidth(getWidth());
         }
