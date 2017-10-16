@@ -30,7 +30,7 @@ import java.util.*;
 public class MainMedicineSelectedDoctor {
 
     public static void main(String[] args) throws Exception {
-//        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/template001.xml";
+//        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/template_male.xml";
         String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/template_female.xml";
         String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/test_data.xml";
 
