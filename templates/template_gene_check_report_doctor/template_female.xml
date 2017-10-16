@@ -260,7 +260,7 @@
 
         <!--  乳腺癌  -->
         <image z_order="10" id="member" type="PNG" fit="a" x="68" y="680" height="26" width="13" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/ru_xian_ai_small.png"/>
-        <image z_order="11" id="member" type="PNG" fit="a" x="383" y="495" height="192" width="95" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/ru_xian_ai_big.png"/>
+        <image z_order="11" id="member" type="PNG" fit="a" x="432" y="495" height="192" width="95" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/ru_xian_ai_big.png"/>
         <text  z_order="12" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="15" color="#607b3f" x="112" y="680" width="200" value="乳腺癌"/>
 
         <paragraph  z_order="13" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" background_opacity="0" x="112"  y="680" width="415" line_leading="1.8" value="">
@@ -407,7 +407,7 @@
 
         <!--  子宫内膜癌  -->
         <image z_order="10" id="member" type="PNG" fit="a" x="68" y="680" height="26" width="39" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/zi_gong_nei_mo_ai_small.png"/>
-        <image z_order="11" id="member" type="PNG" fit="a" x="364" y="585" height="100" width="143" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/zi_gong_nei_mo_ai_big.png"/>
+        <image z_order="11" id="member" type="PNG" fit="a" x="384" y="585" height="100" width="143" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/zi_gong_nei_mo_ai_big.png"/>
         <text  z_order="12" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="15" color="#607b3f" x="112" y="680" width="200" value="子宫内膜癌"/>
 
         <paragraph  z_order="13" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" background_opacity="0" x="112"  y="680" width="415" line_leading="1.8" value="">
