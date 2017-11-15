@@ -42,12 +42,12 @@
     <!--****************************************  封面  ******************************************-->
     <!--*****************************************************************************************-->
     <page z_order="0" catalog="-1 0" page_header="false" page_number="false" type="cover">
-        <image z_order="0" id="cover" type="JPG" x="-5" y="-5"  height="852" width="605" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/cover.jpg"/>
-        <image z_order="1" id="logo"  type="JPG" x="71"  y="630"  height="46"  width="173" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/logo.jpg"/>
+        <image z_order="0" id="cover" type="JPG" x="-5" y="-5"  height="852" width="605" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/cover.png"/>
+        <image z_order="1" id="logo"  type="JPG" x="71"  y="630"  height="46"  width="173" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/logo.png"/>
         <rect z_order="2" path="maxx 530 maxy 470 minx 65 miny 470"     border_width="0.5" border_color="#ffffff" opacity="1.0" fill_color=""/>
         <text z_order="3" font="fzltchjw"   font_size="47" color="#ffffff" bold="" italic="" underline="" x="63" y="465" width="490" value="幸福基石基因检测报告"/>
         <text z_order="4" font="fzlthjw"    font_size="21" color="#ffffff" bold="" italic="" underline="" x="65" y="425" width="490" value="医生咨询手册"/>
-        <image z_order="5" id="member" type="GIF" fit="a" x="225" y="40" height="24.316" width="145" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/happy_gene_company_name.jpg"/>
+        <image z_order="5" id="member" type="GIF" fit="a" x="225" y="40" height="24.316" width="145" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/happy_gene_company_name.png"/>
     </page>
 
 
@@ -488,7 +488,7 @@
     <!--**********************************************  封底  ********************************************-->
     <!--*************************************************************************************************-->
     <page z_order="103000" type="back_cover">
-        <image z_order="0" id="cover" type="JPG" x="-5" y="-5"  height="852" width="605" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/cover.jpg"/>
-        <image z_order="1" id="member" type="GIF" fit="a" x="225" y="40" height="24.316" width="145" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/happy_gene_company_name.jpg"/>
+        <image z_order="0" id="cover" type="JPG" x="-5" y="-5"  height="852" width="605" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/cover.png"/>
+        <image z_order="1" id="member" type="GIF" fit="a" x="225" y="40" height="24.316" width="145" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report_doctor/happy_gene_company_name.png"/>
     </page>
 </pdf>

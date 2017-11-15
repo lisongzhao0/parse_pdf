@@ -10,7 +10,15 @@ import com.itextpdf.io.image.ImageDataFactory;
 import com.itextpdf.kernel.pdf.PdfPage;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.Image;
+import com.twelvemonkeys.image.ResampleOp;
+import net.coobird.thumbnailator.Thumbnailator;
+import net.coobird.thumbnailator.Thumbnails;
 import org.dom4j.Element;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.awt.image.BufferedImageOp;
+import java.io.File;
 
 /**
  * Created by zhaolisong on 12/04/2017.
@@ -129,7 +137,19 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
             else {
                 return null;
             }
-            Image image = new Image(ImageDataFactory.create(tmpValue, false));
+            String outFilePath = System.getenv("HOME") + "/tmp/" + System.nanoTime();
+//            Thumbnails.of(tmpValue).scale(0.25).toFile(outFilePath);
+
+
+            Image image = null;
+            BufferedImage bufferedImage = zoomImage(tmpValue, 0.26f);
+            if (null!=bufferedImage) {
+                ImageIO.write(bufferedImage, tmpValue.substring(tmpValue.lastIndexOf(".") + 1), new File(outFilePath));
+                image = new Image(ImageDataFactory.create(outFilePath, false));
+            }
+            else {
+                image = new Image(ImageDataFactory.create(tmpValue, false));
+            }
             image.setFixedPosition(pdf.getPdfDocument().getPageNumber(page), x, y);
             image.setOpacity(opacity);
             if ("a".equalsIgnoreCase(fit)) {
@@ -161,5 +181,62 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
         newOne.height= this.height;
 
         return newOne;
+    }
+
+
+    /**
+     * @param src
+     *            原始图像路径
+     * @param fResizeTimes
+     *            倍数,比如0.5就是缩小一半,0.98等等double类型
+     * @return 返回处理后的图像
+     */
+    public BufferedImage zoomImage(String src, float fResizeTimes) {
+        BufferedImage result = null;
+        try {
+            System.out.println(src);
+            File srcfile = new File(src);
+            if (!srcfile.exists()) {
+                System.out.println("文件不存在");
+            }
+
+            BufferedImage im = null;
+            try { im = ImageIO.read(srcfile); } catch (Exception ex) { return null; }
+
+            if (srcfile.length()<200*1024) {
+                return im;
+            }
+
+
+            /* 原始图像的宽度和高度 */
+            int width = im.getWidth();
+            int height = im.getHeight();
+
+            float fWidth = getWidth()/width;
+            float fHeight= getHeight()/height;
+
+            fResizeTimes = Math.max(fHeight, fWidth);
+
+            //压缩计算
+            float resizeTimes = fResizeTimes;  /*这个参数是要转化成的倍数,如果是1就是转化成1倍*/
+
+            /* 调整后的图片的宽度和高度 */
+            int toWidth = (int) (width * resizeTimes);
+            int toHeight = (int) (height * resizeTimes);
+
+            /* 新生成结果图片 */
+            BufferedImageOp resampler = new ResampleOp(toWidth, toHeight, ResampleOp.FILTER_LANCZOS);
+            result = resampler.filter(im, null);
+
+
+        }
+        catch (NoClassDefFoundError ex) {
+            System.out.println("创建缩略图发生异常" + ex.getMessage());
+        }
+        catch (Exception ex) {
+            System.out.println("创建缩略图发生异常" + ex.getMessage());
+        }
+
+        return result;
     }
 }

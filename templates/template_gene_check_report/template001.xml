@@ -70,8 +70,8 @@
     <!--****************************************  封面  ******************************************-->
     <!--*****************************************************************************************-->
     <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="cover">
-        <image z_order="0" id="cover" type="JPG" x="169" y="43"  height="759" width="424" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cover.jpg"/>
-        <image z_order="1" id="logo"  type="JPG" x="59"  y="43"  height="35"  width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/logo.jpg"/>
+        <image z_order="0" id="cover" type="png" x="169" y="43"  height="759" width="424" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cover.png"/>
+        <image z_order="1" id="logo"  type="png" x="59"  y="43"  height="35"  width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/logo.png"/>
         <path z_order="2" path="m 2 453 l 331 453 l 372 282 l 2 282 h"  border_width=""    border_color=""        opacity="0.8" fill_color="#000000" shading="2 382 #b4c348 372 382 #799c44"/>
         <rect z_order="3" path="maxx 83 maxy 415 minx 71 miny 403"      border_width=""    border_color=""        opacity="1.0" fill_color="#ffffff"/>
         <rect z_order="4" path="maxx 283 maxy 340 minx 73 miny 340"     border_width="0.5" border_color="#ffffff" opacity="1.0" fill_color=""/>
@@ -84,7 +84,7 @@
     <!--***************************************  内封面  *****************************************-->
     <!--*****************************************************************************************-->
     <page z_order="2" catalog="-1 0" page_header="false" page_number="false" type="insideFrontCover">
-        <image z_order="0" id="logo"  type="JPG" x="78"  y="393"  height="75"  width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/logo_2.jpg"/>
+        <image z_order="0" id="logo"  type="png" x="78"  y="393"  height="75"  width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/logo_2.png"/>
         <rect z_order="1" path="maxx 32  maxy 458 minx -20 miny 383 r 24" border_width="" border_color="" opacity="1.0" fill_color="#b9c832"/>
         <path z_order="2" path="m 590 383 l 590 458 l 277 458 c 253 458 253 458 253 434 l 253 407 c 253 383 253 383 277 383 h" border_width="" border_color="" opacity="1.0" fill_color="#b9c832"/>
         <text z_order="3" font="fzltxh_gbk" font_size="16" color="#ffffff" bold="bold" italic="" underline="" x="320" y="405" width="200" value="致用户的一封信"/>
@@ -105,7 +105,7 @@
 <br/>
 感谢您选择幸福基石作为解密您的基因密码的伙伴！随着科学的进展带来更多基因的解密，我们将不断为您更新解读，努力呵护您与家人的健康。]]>
         </text>
-        <image z_order="4" id="doctor_sign" type="JPG" x="410" y="145" height="90" width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/doctor_sign.jpg"/>
+        <image z_order="4" id="doctor_sign" type="png" x="410" y="145" height="90" width="130" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/doctor_sign.png"/>
         <text  z_order="5" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#000000" bold="true" italic="" underline="" x="333" y="120" width="200" value="张大可 ,PhD"/>
         <text  z_order="6" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#000000" bold="true" italic="" underline="" x="333" y="90"  width="200" value="幸福基石生物科技 首席科学家"/>
     </page>
@@ -116,8 +116,8 @@
     <page z_order="4" catalog="-1 0" page_header="false" page_number="false" type="userAndReportDate">
         <image z_order="0" id="info" fit="a" type="JPG" x="0"  y="0"  height="842"  width="592.6" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/info.jpg"/>
         <rect  z_order="1" path="maxx 592.8  maxy 460 minx -20 miny 380" border_width="" border_color="" opacity="0.8" fill_color="#5a7f34"/>
-        <image z_order="2" id="member" type="JPG" x="90"  y="410"  height="22"  width="22" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/member.jpg"/>
-        <image z_order="3" id="report" type="JPG" x="300"  y="410"  height="22"  width="22" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/report.jpg"/>
+        <image z_order="2" id="member" type="png" x="90"  y="410"  height="22"  width="22" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/member.png"/>
+        <image z_order="3" id="report" type="png" x="300"  y="410"  height="22"  width="22" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/report.png"/>
         <text  z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#ffffff" bold="" italic="" underline="" x="122" y="410" width="200" value="会员：$name  $number"/>
         <text  z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#ffffff" bold="" italic="" underline="" x="332" y="410" width="200" value="报告日期：$reportDate"/>
     </page>
@@ -233,7 +233,7 @@
         <text z_order="7" line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#000000" x="68" y="59" width="474" value="">
             <![CDATA[*参考自 AACR CANCER PROGRESS REPORT 2016]]>
         </text>
-        <image z_order="8" id="member" type="GIF" x="300" y="126" height="410" width="246" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/user_manual_tail.jpg"/>
+        <image z_order="8" id="member" type="GIF" x="300" y="126" height="410" width="246" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/user_manual_tail.png"/>
     </page>
 
 
@@ -248,7 +248,7 @@
     <!--***************************************  关于肿瘤预防管理 *****************************************-->
     <!--*************************************************************************************************-->
     <page z_order="8" catalog="2 0" page_header="false" page_number="false" type="precaution_management">
-        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_2_cover.jpg"/>
+        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_2_cover.png"/>
         <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#000000"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="关于肿瘤预防管理"/>
@@ -260,10 +260,10 @@
         <template z_order="1" name="page_header" condition="1"/>
 
         <text z_order="2" auto_layout="false" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="720" width="460" value="肿瘤风险因素"/>
-        <image z_order="3" id="cancer_risk_factor" type="GIF" x="94" y="420" height="285" width="407.7" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_risk_factor.jpg"/>
+        <image z_order="3" id="cancer_risk_factor" type="GIF" x="94" y="420" height="285" width="407.7" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_risk_factor.png"/>
 
         <text z_order="2" auto_layout="false" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="390" width="460" value="吸烟引发多种癌症，不只是肺"/>
-        <image z_order="3" id="cancer_risk_factor" type="GIF" x="94" y="90" height="285" width="419.33" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_smoke.jpg"/>
+        <image z_order="3" id="cancer_risk_factor" type="GIF" x="94" y="90" height="285" width="419.33" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_smoke.png"/>
     </page>
     <page z_order="10" catalog="2 0 2" page_header="false" page_number="true" type="precaution_management">
         <!-- page header -->
@@ -271,21 +271,21 @@
 
         <text z_order="2" auto_layout="false" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="720" width="460" value="控制体重，健康饮食，积极运动"/>
         <text z_order="2" auto_layout="false" font="fzltxh_gbk" font_size="9" color="#000000" x="68" y="700" width="460" value="肥胖易引发的癌症"/>
-        <image z_order="3" id="cancer_risk_factor" type="GIF" x="94" y="370" height="304.08" width="442.45" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_fat.jpg"/>
+        <image z_order="3" id="cancer_risk_factor" type="GIF" x="94" y="370" height="304.08" width="442.45" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_fat.png"/>
 
         <text z_order="2" auto_layout="false" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="300" width="460" value="减少因肥胖、不运动、不良饮食引发的肿瘤风险"/>
         <text z_order="2" auto_layout="false" font="fzltxh_gbk" font_size="9" color="#000000" x="68" y="280" width="460" value="世界癌症组织给出了如下建议："/>
-        <image z_order="3" id="cancer_risk_factor" type="GIF" x="68" y="92.66" height="162.34" width="460" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_no_exercise_1.jpg"/>
+        <image z_order="3" id="cancer_risk_factor" type="GIF" x="68" y="92.66" height="162.34" width="460" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_no_exercise_1.png"/>
     </page>
     <page z_order="11" catalog="2 0 3" page_header="false" page_number="true" type="precaution_management">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="1"/>
 
-        <image z_order="3" id="cancer_risk_factor" type="GIF" x="68" y="640" height="162.34" width="460" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_no_exercise_2.jpg"/>
+        <image z_order="3" id="cancer_risk_factor" type="GIF" x="68" y="640" height="162.34" width="460" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_by_no_exercise_2.png"/>
 
         <text z_order="2" auto_layout="false" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="590" width="460" value="预防易引发癌症的病原体的感染"/>
         <text z_order="2" auto_layout="false" font="fzltxh_gbk" font_size="9" color="#000000" x="68" y="570" width="460" value="预防或消除 4 种主要的致癌病原体感染："/>
-        <image z_order="3" id="cancer_risk_factor" type="GIF" x="68" y="105.77" height="439.23" width="460" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_prevention.jpg"/>
+        <image z_order="3" id="cancer_risk_factor" type="GIF" x="68" y="105.77" height="439.23" width="460" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/cancer_prevention.png"/>
     </page>
 
 
@@ -299,7 +299,7 @@
     <!--************************************  检测结果概述  (cover)  **************************************-->
     <!--*************************************************************************************************-->
     <page z_order="20" catalog="3 0" page_header="false" page_number="false" type="summary">
-        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_3_cover.jpg"/>
+        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_3_cover.png"/>
         <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#000000"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果概述"/>
@@ -437,7 +437,7 @@
     <!--***********************************  检测结果详解 （cover）  **************************************-->
     <!--*************************************************************************************************-->
     <page z_order="24" catalog="4 0" page_header="false" page_number="false" type="detail">
-        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_4_cover.jpg"/>
+        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_4_cover.png"/>
         <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#000000"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果详解"/>
@@ -694,7 +694,7 @@
     <!--******************************************  附录 (cover) *****************************************-->
     <!--*************************************************************************************************-->
     <page z_order="102995" catalog="10000 0" page_header="false" page_number="false" type="appendix">
-        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_appendix.jpg"/>
+        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="315.75" height="210.5" width="592.8" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/chapter_appendix.png"/>
         <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#000000"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="附录"/>
@@ -766,7 +766,7 @@
     <page z_order="102999" type="inside_back_cover">
     </page>
     <page z_order="103000" type="back_cover">
-        <image z_order="1" id="member" type="JPG" fit="a" x="210" y="396" height="50" width="176" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/logo.jpg"/>
+        <image z_order="1" id="member" type="png" fit="a" x="210" y="396" height="50" width="176" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/logo.png"/>
         <image z_order="1" id="member" type="GIF" fit="a" x="240" y="65" height="19.94" width="117" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/happy_gene_company_name.png"/>
         <!--<text_box z_order="3" x="246" y="65" width="105" height="30" h_alignment="C" v_alignment="" cal_width="M" cal_height="">-->
             <!--<text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9"   color="#5c743f" x="0" y="0"  width="200" value="北京幸福基石科技有限公司"/>-->

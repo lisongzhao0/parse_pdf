@@ -21,8 +21,10 @@ public class Test {
 //        for (String tmp : styles) {
 //            System.out.println(tmp);
 //        }
-
-        System.out.println(Integer.MAX_VALUE);
+//        System.out.println(System.getenv());
 //
+//        System.out.println(Integer.MAX_VALUE);
+//
+        System.out.println("12345678901".matches("^[\\d]{11,11}$"));
     }
 }
