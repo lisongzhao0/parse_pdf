@@ -15,6 +15,7 @@ public class ReadYuanMengProduct {
         for (int i = 0; i < sheetSize; i ++) {
             Sheet sheet = officeFile.getExcelSheet(workbook, i);
 
+            System.out.println(sheet.getSheetName());
 
             int[] rowColumnStartEnd = officeFile.getSheetRowColumnStartEnd(sheet);
             Object[][] cells = officeFile.getExcelArea(sheet, rowColumnStartEnd[0], rowColumnStartEnd[1], rowColumnStartEnd[2], rowColumnStartEnd[3]);
@@ -65,7 +66,10 @@ public class ReadYuanMengProduct {
                         }
                     }
                     if (null!=val) {
-                        row.append(val.toString().replace('\n', ' ')+"\t\t");
+                        row.append("[" + val.toString().replace("\n", "") + "]");
+                    }
+                    else {
+                        row.append("[N/A]");
                     }
                 }
                 if (rowNotNull) {
