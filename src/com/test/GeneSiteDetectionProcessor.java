@@ -159,7 +159,7 @@ public class GeneSiteDetectionProcessor {
         }
         System.out.println("\n\n");
 
-        Object[][] lResPer = processor.calculateResult(result[0], resultParamIn);
+        Object[][] lResPer = processor.calculateResult(result[0], resultParamIn, 1);
 
         StringBuilder row = new StringBuilder();
         for (int r = 0; r < lResPer.length; r ++) {
@@ -309,12 +309,12 @@ public class GeneSiteDetectionProcessor {
         return null;
     }
 
-    public Object[][] calculateResult(String result, Integer[] resultParamIdx) {
+    public Object[][] calculateResult(String result, Integer[] resultParamIdx, Integer resultGeneTypeIdx /*基因结果结果当中基因型是那一列*/) {
         List<String> resultLines = readTextByLine(result);
         if (null==resultLines || resultLines.isEmpty()) { return null; }
 
         Object[][] lResult       = utility.parseDSP(resultLines, titlesSize);
-        Object[][] lResultPercent= utility.getResultDSP(lPercent, lResult, dspParamIdxs, resultParamIdx);
+        Object[][] lResultPercent= utility.getResultDSP(lPercent, lResult, dspParamIdxs, resultParamIdx, resultGeneTypeIdx);
 
         if (null!=lFormula && !lFormula.isEmpty()) {
             for (Formula f : lFormula) {
@@ -841,7 +841,7 @@ public class GeneSiteDetectionProcessor {
             return rArrayDSP;
         }
 
-        public  Object[][]  getResultDSP(Object[][] dsp, Object[][] result, Integer[] dspCompareColumn, Integer[] resultCompareColumn) {
+        public  Object[][]  getResultDSP(Object[][] dsp, Object[][] result, Integer[] dspCompareColumn, Integer[] resultCompareColumn, Integer resultGeneTypeIdx /*基因结果结果当中基因型是那一列*/) {
             if (null==dsp || dsp.length == 0) { return null; }
             if (null==result || result.length == 0) { return null; }
             if (null==dspCompareColumn || dspCompareColumn.length == 0) { return null; }
@@ -849,6 +849,7 @@ public class GeneSiteDetectionProcessor {
 
             Map<String, Integer> resultKey = new HashMap<>();
             StringBuilder        key       = new StringBuilder();
+
             for (int row = 0; row < result.length; row ++) {
                 for (int col = 0; col < resultCompareColumn.length; col ++) {
                     key.append("[").append(result[row][resultCompareColumn[col]]).append("]");
@@ -860,16 +861,22 @@ public class GeneSiteDetectionProcessor {
 
             int         rowSize     = 0;
             Object[][]  destDSP     = new Object[dsp.length][dsp[0].length];
+
             for (int row = 0; row < dsp.length; row ++) {
                 key.setLength(0);
 
-                for (int col = 0; col < dspCompareColumn.length; col ++) {
-                    key.append("[").append(dsp[row][dspCompareColumn[col]]).append("]");
+                boolean equal = false;
+                for (int resRow = 0; resRow < result.length; resRow ++) {
+                    int equalNum = 0;
+                    for (int col = 0; col < dspCompareColumn.length; col++) {
+                        if (compare(dsp[row][dspCompareColumn[col]], result[resRow][resultCompareColumn[col]], resultCompareColumn[col]==resultGeneTypeIdx)) {
+                            equalNum++;
+                        }
+                    }
+                    if (equalNum==resultCompareColumn.length) { equal = true; }
                 }
+                if (!equal) { continue; }
 
-                if (!resultKey.containsKey(key.toString())) {
-                    continue;
-                }
 
                 System.arraycopy(dsp[row], 0, destDSP[rowSize], 0, dsp[row].length);
                 rowSize ++;
@@ -879,6 +886,46 @@ public class GeneSiteDetectionProcessor {
 
             System.arraycopy(destDSP, 0, resultDSP, 0, rowSize);
             return resultDSP;
+        }
+
+        private boolean compare(Object dsp, Object result, boolean isResultGeneType) {
+            if (isResultGeneType) {
+                String strDsp    = ""+dsp;
+                String strResult = ""+result;
+                if (strResult.length()!=strDsp.length()) { return false; }
+
+                StringBuilder resNoDuplicated = new StringBuilder();
+                StringBuilder dspNoDuplicated = new StringBuilder();
+                Map<Character, Integer> resNoDuplicatedSet = new HashMap<>();
+                Map<Character, Integer> dspNoDuplicatedSet = new HashMap<>();
+                for (int i = 0, count = strResult.length(); i < count; i ++) {
+                    char resC = strResult.charAt(i);
+                    if (!resNoDuplicatedSet.containsKey(resC)) {
+                        resNoDuplicated.append(resC);
+                        resNoDuplicatedSet.put(resC, null);
+                    }
+                    char dspC = strDsp.charAt(i);
+                    if (!dspNoDuplicatedSet.containsKey(dspC)) {
+                        dspNoDuplicated.append(dspC);
+                        dspNoDuplicatedSet.put(dspC, null);
+                    }
+                }
+
+
+                strDsp    = dspNoDuplicated.toString();
+                strResult = resNoDuplicated.toString();
+                if (strResult.length()!=strDsp.length()) { return false; }
+
+                boolean equal = true;
+                for (int i = 0, count = strResult.length(); i < count; i ++) {
+                    char c = strResult.charAt(i);
+                    if (strDsp.indexOf(c)<0) { equal = false; break; }
+                }
+                return equal;
+            }
+            else {
+                return (""+dsp).equals(""+result);
+            }
         }
     }
 }
