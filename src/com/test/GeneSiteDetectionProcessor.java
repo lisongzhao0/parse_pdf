@@ -5,10 +5,7 @@ import javax.script.ScriptEngineManager;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class GeneSiteDetectionProcessor {
 
@@ -18,16 +15,18 @@ public class GeneSiteDetectionProcessor {
     public static void main(String[] args) {
         Integer[] resultParamIn = new Integer[]{0,1};
         String[]  result = new String[]{
-                "[rs2308327][GG]\n" +
-                "[rs763317][GG]\n" +
-                "[rs2274223][AA]\n" +
-                "[rs2240688][GT]\n" +
-                "[rs7574865][GT]\n" +
-                "[rs17401966][AA]\n" +
-                "[rs4939827][CC]\n" +
-                "[rs719725][AA]\n" +
-                "[rs1867277][GG]\n" +
-                "[rs2279115][GT]"
+                        "[rs2308327][AA][0.972][风险][1.01][19.3]\n" + //[等级标准：0-0.8；0.8-1.25；1.25-1.5；1.5以上][19.3][N/A]
+                        "[rs763317][AA][0.036][风险][2.55][19.3]\n" +
+                        "[rs2274223][AA][0.585][正常][0.81][18.4]\n" +
+                        "[rs2240688][TT][0.532][正常][0.77][18.4]\n" +
+                        "[rs7574865][TT][0.113][正常][0.58][22.2]\n" +
+                        "[rs17401966][AA][0.53][风险][1.27][22.2]\n" +
+                        "[rs4939827][TT][0.125][风险][1.28][4.1]\n" +
+                        "[rs719725][AA][0.544][风险][1.2][4.1]\n" +
+//                        "[rs144848][AA][0.52][正常][0.8455948104155294][17.2]\n" + // [女]
+//                        "[rs9485372][GG][0.335][风险][1.0994187922554741][17.2]\n"
+                        "[rs4430796][GG][0.087][正常][0.7843694003378281][11.7]\n" + // [男]
+                        "[rs6983267][GG][0.171][风险][1.2965258293875732][11.7]\n"
         };
         String[] arrayDSP = new String[]{
                 "[套餐][产品编号][检测内容][基因名称][基因位点][基因型][中国人群占比][风险/正常][相对风险值][中国人群平均遗传风险指数][检测者遗传风险指数][风险等级]\n" +
@@ -138,13 +137,13 @@ public class GeneSiteDetectionProcessor {
                 "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][CCAT2][rs6983267][GG][0.171][风险][1.2965258293875732][11.7]\n" +
                 "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][CCAT2][rs6983267][GT][0.435][风险][1.0534219866266459][11.7]\n" +
                 "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][CCAT2][rs6983267][TT][0.395][正常][0.8103205668678559][11.7]\n" +
-                "[@FORMULA][@RESULT_CELL_x_10][@GROUP_COLUMN_2][@RESULT_TYPE_DOUBLE][var result = @CELL_0_8 * @CELL_1_8;]\n" +
-                "[@FORMULA][@RESULT_CELL_x_11][@GROUP_COLUMN_2][@RESULT_TYPE_INT][var result = 1; if (@CELL_0_10 < 0.8) { result = 1; } else if (@CELL_0_10 < 1.25) { result = 2; } else if (@CELL_0_10 < 1.5) { result = 3; } else { result = 4;}]\n" +
+                "[@FORMULA][@RESULT_CELL_x_10][@GROUP_COLUMN_2][@RESULT_TYPE_DOUBLE][var result = @CELL_0_8 * @CELL_1_8 * @CELL_0_9;]\n" +
+                "[@FORMULA][@RESULT_CELL_x_11][@GROUP_COLUMN_2][@RESULT_TYPE_INT][var result = 1; var value = @CELL_0_8 * @CELL_1_8; if (value < 0.8) { result = 1; } else if (value < 1.25) { result = 2; } else if (value < 1.5) { result = 3; } else { result = 4;}]\n" +
                 "[@RESULT_DSP_PARAM_4_5]",
         };
 
         GeneSiteDetectionProcessor processor = GeneSiteDetectionProcessor.newInstance();
-        processor.setDetection(arrayDSP[0]);
+        processor.setDetection(arrayDSP[2]);
 
         String[] titles    = processor.getTitles();
         int      titleSize = processor.getTitlesSize();
@@ -159,7 +158,7 @@ public class GeneSiteDetectionProcessor {
         }
         System.out.println("\n\n");
 
-        Object[][] lResPer = processor.calculateResult(result[0], resultParamIn, 1);
+        Object[][] lResPer = processor.calculateResult(result[0], resultParamIn, 1, Arrays.asList(new String[]{"女"}));
 
         StringBuilder row = new StringBuilder();
         for (int r = 0; r < lResPer.length; r ++) {
@@ -309,12 +308,12 @@ public class GeneSiteDetectionProcessor {
         return null;
     }
 
-    public Object[][] calculateResult(String result, Integer[] resultParamIdx, Integer resultGeneTypeIdx /*基因结果结果当中基因型是那一列*/) {
+    public Object[][] calculateResult(String result, Integer[] resultParamIdx, Integer resultGeneTypeIdx /*基因结果结果当中基因型是那一列*/, List<String> genderNot) {
         List<String> resultLines = readTextByLine(result);
         if (null==resultLines || resultLines.isEmpty()) { return null; }
 
         Object[][] lResult       = utility.parseDSP(resultLines, titlesSize);
-        Object[][] lResultPercent= utility.getResultDSP(lPercent, lResult, dspParamIdxs, resultParamIdx, resultGeneTypeIdx);
+        Object[][] lResultPercent= utility.getResultDSP(lPercent, lResult, dspParamIdxs, resultParamIdx, resultGeneTypeIdx, genderNot);
 
         if (null!=lFormula && !lFormula.isEmpty()) {
             for (Formula f : lFormula) {
@@ -841,7 +840,11 @@ public class GeneSiteDetectionProcessor {
             return rArrayDSP;
         }
 
-        public  Object[][]  getResultDSP(Object[][] dsp, Object[][] result, Integer[] dspCompareColumn, Integer[] resultCompareColumn, Integer resultGeneTypeIdx /*基因结果结果当中基因型是那一列*/) {
+        public  Object[][]  getResultDSP(Object[][] dsp, Object[][] result,
+                                         Integer[] dspCompareColumn, Integer[] resultCompareColumn,
+                                         Integer resultGeneTypeIdx, /*基因结果结果当中基因型是那一列*/
+                                         List<String> genderNot
+        ) {
             if (null==dsp || dsp.length == 0) { return null; }
             if (null==result || result.length == 0) { return null; }
             if (null==dspCompareColumn || dspCompareColumn.length == 0) { return null; }
@@ -864,6 +867,20 @@ public class GeneSiteDetectionProcessor {
 
             for (int row = 0; row < dsp.length; row ++) {
                 key.setLength(0);
+
+                if (null!=genderNot && !genderNot.isEmpty()) {
+                    Object tmp  = null;
+                    boolean containt = false;
+                    for (String g : genderNot) {
+                        for (int col = 0, count = null == dsp[0] ? 0 : dsp[0].length; col < count; col++) {
+                            tmp = dsp[row][col];
+                            if (!(tmp instanceof String)) { continue; }
+                            if (((String) tmp).contains(g)) { containt = true; break;}
+                        }
+                        if (containt) { break; }
+                    }
+                    if (containt) { continue; }
+                }
 
                 boolean equal = false;
                 for (int resRow = 0; resRow < result.length; resRow ++) {
