@@ -33,7 +33,7 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
     private float y;
     private float width;
     private float height;
-    private float opacity;
+    private float opacity = 1.0f;
 
     public String getId() {
         return id;
@@ -125,18 +125,23 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
         setPageStartNumberInPdf(pdf.getPdfDocument().getPageNumber(page));
         try {
             ParametersUtil parametersUtil = ParametersUtil.getInstance();
-            String tmpValue = null;
-            if (null!=url && !"".equals(url.trim())) {
-                if ('.' == url.trim().charAt(0)) {
-                    tmpValue = XmlDataCache.getInstance().getParameter(XmlDataCache.SECOND_KEY_IMAGE_BASE_DIR) + url.trim();
+            String tmpValue = parametersUtil.replaceParameter(url);
+
+            if (null!=tmpValue && !"".equals(tmpValue.trim())) {
+                if (tmpValue.indexOf("$") >= 0){
+                    tmpValue = parametersUtil.replaceParameter(tmpValue);
                 }
-                else {
-                    tmpValue = parametersUtil.replaceParameter(url);
+                if ('.' == tmpValue.trim().charAt(0)) {
+                    tmpValue = XmlDataCache.getInstance().getParameter(XmlDataCache.SECOND_KEY_IMAGE_BASE_DIR) + tmpValue.trim();
+                }
+                if (tmpValue.indexOf("$") >= 0){
+                    return null;
                 }
             }
             else {
                 return null;
             }
+
             String outFilePath = System.getenv("HOME") + "/tmp/" + System.nanoTime();
 //            Thumbnails.of(tmpValue).scale(0.25).toFile(outFilePath);
 

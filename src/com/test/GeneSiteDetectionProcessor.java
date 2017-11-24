@@ -18,7 +18,7 @@ public class GeneSiteDetectionProcessor {
     public static void main(String[] args) {
         Integer[] resultParamIn = new Integer[]{0,1};
         String[]  result = new String[]{
-                "[rs2308327][AA]\n" +
+                "[rs2308327][GG]\n" +
                 "[rs763317][GG]\n" +
                 "[rs2274223][AA]\n" +
                 "[rs2240688][GT]\n" +
@@ -63,7 +63,84 @@ public class GeneSiteDetectionProcessor {
                 "[肿瘤类疾病][yg002][甲状腺癌][BCL2][rs2279115][TT][0.159][正常][0.5915341408365891][4.7]\n" +
                 "[@FORMULA][@RESULT_CELL_x_10][@GROUP_COLUMN_2][@RESULT_TYPE_DOUBLE][var result = @CELL_0_8 * @CELL_1_8 * @CELL_x_9;]\n" +
                 "[@FORMULA][@RESULT_CELL_x_11][@GROUP_COLUMN_2][@RESULT_TYPE_INT][var result = 1; if (@CELL_0_10 < 0.8) { result = 1; } else if (@CELL_0_10 < 1.25) { result = 2; } else if (@CELL_0_10 < 1.5) { result = 3; } else { result = 4;}]\n" +
-                "[@RESULT_DSP_PARAM_4_5]"
+                "[@RESULT_DSP_PARAM_4_5]",
+
+                "[套餐名称][产品编号][检测内容][基因名称][基因位点][基因型][中国人群占比][风险/正常][相对风险值][风险等级]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][ALDH2][rs671][GG][0.692][正常]\n" + //[高风险：rs671-AA较高风险：rs671-AG+rs1229984-TT/CT正常：rs671-AG+rs1229984-CC或rs671-GG+rs1229984-TT/CT低风险：rs671-GG+rs1229984-CC][N/A]
+                "[笑傲江湖][yc001][酒精代谢能力][ALDH2][rs671][AG][0.268][风险]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][ALDH2][rs671][AA][0.04][风险]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][ADH1B][rs1229984][TT][0.484][风险]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][ADH1B][rs1229984][CT][0.427][风险]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][ADH1B][rs1229984][CC][0.089][正常]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][CYP2E1][rs3813867][GG][0.651][正常]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][CYP2E1][rs3813867][CG][0.294][风险]\n" +
+                "[笑傲江湖][yc001][酒精代谢能力][CYP2E1][rs3813867][CC][0.056][风险]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CHRNA4][rs1044396][GG][0.536][风险]\n" +  //[N/A][高风险：3个风险结果较高风险：2个风险结果正常：1个风险结果低风险：无风险结果][N/A]
+                "[笑傲江湖][yc001][香烟代谢能力][CHRNA4][rs1044396][AG][0.393][正常]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CHRNA4][rs1044396][AA][0.071][正常]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CHRNA3][rs1051730][GG][0.946][正常]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CHRNA3][rs1051730][AG][0.054][风险]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CHRNA3][rs1051730][AA][0.0][风险]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CNR1][rs806368][TT][0.276][正常]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CNR1][rs806368][CT][0.462][正常]\n" +
+                "[笑傲江湖][yc001][香烟代谢能力][CNR1][rs806368][CC][0.262][风险]\n" +
+                "[笑傲江湖][yc001][肥胖][APOA2][rs5082][GG][0.016][风险][1.6027660393506609]\n" + //[等级标准：0-0.8；0.8-1.25；1.25-1.5；1.5以上][N/A]
+                "[笑傲江湖][yc001][肥胖][APOA2][rs5082][AG][0.165][风险][1.2256032466941622]\n" +
+                "[笑傲江湖][yc001][肥胖][APOA2][rs5082][AA][0.819][正常][0.94274786138647]\n" +
+                "[笑傲江湖][yc001][肥胖][APOA5 ][rs662799][GG][0.073][正常][0.595848841667976]\n" +
+                "[笑傲江湖][yc001][肥胖][APOA5 ][rs662799][AG][0.429][正常][0.8461243087427018]\n" +
+                "[笑傲江湖][yc001][肥胖][APOA5 ][rs662799][AA][0.498][风险][1.191761245242446]\n" +
+                "[笑傲江湖][yc001][肥胖][PPARG][rs1801282][CC][0.95][正常][0.9916865371336706]\n" +
+                "[笑傲江湖][yc001][肥胖][PPARG][rs1801282][CG][0.048][风险][1.150372721287243]\n" +
+                "[笑傲江湖][yc001][肥胖][PPARG][rs1801282][GG][0.002][风险][1.3289000664854618]\n" +
+                "[笑傲江湖][yc001][肥胖][FTO][rs9939609][TT][0.7][正常][0.9050970174527042]\n" +
+                "[笑傲江湖][yc001][肥胖][FTO][rs9939609][AT][0.262][风险][1.1766547207757891]\n" +
+                "[笑傲江湖][yc001][肥胖][FTO][rs9939609][AA][0.038][风险][1.5296994704778841]\n" +
+                "[@FORMULA][@RESULT_CELL_x_9][@GROUP_COLUMN_2][@RESULT_TYPE_STRING][var result; if ('@CELL_0_4'=='rs671' && '@CELL_1_4'=='rs1229984' && '@CELL_2_4'=='rs3813867') { if ('@CELL_0_5'=='AA') { result='高风险'; } else if ('@CELL_0_5'=='AG' && ('@CELL_1_5'=='TT' || '@CELL_1_5'=='CT')) { result='较高风险'; } else if (('@CELL_0_5'=='AG' && '@CELL_1_5'=='CC') || ('@CELL_0_5'=='GG' && ('@CELL_1_5'=='TT' || '@CELL_1_5'=='CT'))) { result='正常'; } else if ('@CELL_0_5'=='GG' && '@CELL_1_5'=='CC') { result='低风险'; }} else { result='nochanged'; } ]\n" +
+                "[@FORMULA][@RESULT_CELL_x_9][@GROUP_COLUMN_2][@RESULT_TYPE_STRING][var result; if ('@CELL_0_4'=='rs1044396' && '@CELL_1_4'=='rs1051730' && '@CELL_2_4'=='rs806368') { var riskSize = 0; riskSize += '@CELL_0_5'=='GG' ? 1 : 0; riskSize += '@CELL_1_5'!='GG' ? 1 : 0; riskSize += '@CELL_0_5'=='CC' ? 1 : 0; if (riskSize==3) { result='高风险'; } else if (riskSize==2) { result='较高风险'; } else if (riskSize==1) { result='正常'; } else { result='低风险'; }} else { result='nochanged'; }  ]\n" +
+                "[@FORMULA][@RESULT_CELL_x_9][@GROUP_COLUMN_2][@RESULT_TYPE_INT][var result; if (@CELL_0_8!=null) { result = @CELL_0_8 * @CELL_1_8 * @CELL_2_8 * @CELL_3_8; if (result<0.8) { result = 1; } else if (result<1.25) { result = 2; } else if (result<1.5) { result = 3; } else { result = 4;} } else { result='nochanged' }]\n" +
+                "[@RESULT_DSP_PARAM_4_5]",
+
+                "[套餐][产品编号][检测内容][基因名称][基因位点][基因型][中国人群占比][风险/正常][相对风险值][中国人群平均遗传风险指数][检测者遗传风险指数][风险等级]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肺癌][MGMT][rs2308327][AA][0.972][风险][1.01][19.3]\n" + //[等级标准：0-0.8；0.8-1.25；1.25-1.5；1.5以上][19.3][N/A]
+                "[肿瘤基础0新增][zljc0-xz][肺癌][MGMT][rs2308327][AG][0.028][正常][0.61][19.3]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肺癌][MGMT][rs2308327][GG][0.0][正常][0.1][19.3]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肺癌][EGFR][rs763317][AA][0.036][风险][2.55][19.3]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肺癌][EGFR][rs763317][AG][0.333][风险][1.35][19.3]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肺癌][EGFR][rs763317][GG][0.631][正常][0.72][19.3]\n" +
+                "[肿瘤基础0新增][zljc0-xz][胃癌][PLCE1][rs2274223][AA][0.585][正常][0.81][18.4]\n" +
+                "[肿瘤基础0新增][zljc0-xz][胃癌][PLCE1][rs2274223][AG][0.351][风险][1.22][18.4]\n" +
+                "[肿瘤基础0新增][zljc0-xz][胃癌][PLCE1][rs2274223][GG][0.063][风险][1.54][18.4]\n" +
+                "[肿瘤基础0新增][zljc0-xz][胃癌][PROM1][rs2240688][TT][0.532][正常][0.77][18.4]\n" +
+                "[肿瘤基础0新增][zljc0-xz][胃癌][PROM1][rs2240688][GT][0.397][风险][1.17][18.4]\n" +
+                "[肿瘤基础0新增][zljc0-xz][胃癌][PROM1][rs2240688][GG][0.071][风险][1.74][18.4]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肝癌][STAT4][rs7574865][TT][0.113][正常][0.58][22.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肝癌][STAT4][rs7574865][GT][0.468][正常][0.82][22.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肝癌][STAT4][rs7574865][GG][0.419][风险][1.32][22.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肝癌][KIF1B][rs17401966][AA][0.53][风险][1.27][22.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肝癌][KIF1B][rs17401966][AG][0.365][正常][0.77][22.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][肝癌][KIF1B][rs17401966][GG][0.105][正常][0.46][22.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][大肠癌][SMAD7][rs4939827][TT][0.125][风险][1.28][4.1]\n" +
+                "[肿瘤基础0新增][zljc0-xz][大肠癌][SMAD7][rs4939827][CT][0.371][风险][1.06][4.1]\n" +
+                "[肿瘤基础0新增][zljc0-xz][大肠癌][SMAD7][rs4939827][CC][0.504][正常][0.89][4.1]\n" +
+                "[肿瘤基础0新增][zljc0-xz][大肠癌][TPD52L3||UHRF2][rs719725][AA][0.544][风险][1.2][4.1]\n" +
+                "[肿瘤基础0新增][zljc0-xz][大肠癌][TPD52L3||UHRF2][rs719725][AC][0.387][正常][0.8][4.1]\n" +
+                "[肿瘤基础0新增][zljc0-xz][大肠癌][TPD52L3||UHRF2][rs719725][CC][0.069][正常][0.53][4.1]\n" +
+                "[肿瘤基础0新增][zljc0-xz][乳腺癌（女）][BRCA2][rs144848][AA][0.52][正常][0.8455948104155294][17.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][乳腺癌（女）][BRCA2][rs144848][AC][0.391][风险][1.1077351543416902][17.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][乳腺癌（女）][BRCA2][rs144848][CC][0.089][风险][1.4290723226485413][17.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][乳腺癌（女）][TAB2][rs9485372][GG][0.335][风险][1.0994187922554741][17.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][乳腺癌（女）][TAB2][rs9485372][AG][0.484][正常][0.9762814231293004][17.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][乳腺癌（女）][TAB2][rs9485372][AA][0.181][正常][0.8795310692151371][17.2]\n" +
+                "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][HNF1B][rs4430796][GG][0.087][正常][0.7843694003378281][11.7]\n" +
+                "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][HNF1B][rs4430796][AG][0.379][正常][0.933402438057365][11.7]\n" +
+                "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][HNF1B][rs4430796][AA][0.534][风险][1.0824363864097413][11.7]\n" +
+                "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][CCAT2][rs6983267][GG][0.171][风险][1.2965258293875732][11.7]\n" +
+                "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][CCAT2][rs6983267][GT][0.435][风险][1.0534219866266459][11.7]\n" +
+                "[肿瘤基础0新增][zljc0-xz][前列腺癌（男）][CCAT2][rs6983267][TT][0.395][正常][0.8103205668678559][11.7]\n" +
+                "[@FORMULA][@RESULT_CELL_x_10][@GROUP_COLUMN_2][@RESULT_TYPE_DOUBLE][var result = @CELL_0_8 * @CELL_1_8;]\n" +
+                "[@FORMULA][@RESULT_CELL_x_11][@GROUP_COLUMN_2][@RESULT_TYPE_INT][var result = 1; if (@CELL_0_10 < 0.8) { result = 1; } else if (@CELL_0_10 < 1.25) { result = 2; } else if (@CELL_0_10 < 1.5) { result = 3; } else { result = 4;}]\n" +
+                "[@RESULT_DSP_PARAM_4_5]",
         };
 
         GeneSiteDetectionProcessor processor = GeneSiteDetectionProcessor.newInstance();
@@ -72,16 +149,22 @@ public class GeneSiteDetectionProcessor {
         String[] titles    = processor.getTitles();
         int      titleSize = processor.getTitlesSize();
 
+        StringBuilder cell = new StringBuilder();
+        for (int r = 0; r < processor.lPercent.length; r ++) {
+            for (int c = 0; c < processor.lPercent[0].length; c++) {
+                cell.append("[").append(processor.lPercent[r][c]).append("]");
+            }
+            System.out.println(cell.toString());
+            cell.setLength(0);
+        }
+        System.out.println("\n\n");
+
         Object[][] lResPer = processor.calculateResult(result[0], resultParamIn);
 
-        Object[][] newResPer = new Object[lResPer.length+1][lResPer[0].length];
-        System.arraycopy(lResPer, 0, newResPer,    1, lResPer.length);
-        System.arraycopy(titles,  0, newResPer[0], 0, titleSize);
-
         StringBuilder row = new StringBuilder();
-        for (int r = 0; r < newResPer.length; r ++) {
-            for (int c = 0; c < newResPer[0].length; c++) {
-                row.append("[").append(newResPer[r][c]).append("]");
+        for (int r = 0; r < lResPer.length; r ++) {
+            for (int c = 0; c < lResPer[0].length; c++) {
+                row.append("[").append(lResPer[r][c]).append("]");
             }
             System.out.println(row.toString());
             row.setLength(0);
@@ -118,9 +201,10 @@ public class GeneSiteDetectionProcessor {
     public static final String      FormulaMark     = "[@FORMULA]";
     public static final String      GroupColumn     = "@GROUP_COLUMN_";
     public static final String      ResultCell      = "@RESULT_CELL_";
-    public static final String      Formula         = "var result = ";
+    public static final String      Formula         = "var result";
     public static final String      Cell            = "@CELL_";
     public static final String      ResultDSPParam  = "@RESULT_DSP_PARAM_";
+    public static final String      ResultNoChanged = "nochanged";
 
 
     private String          detection;
@@ -154,19 +238,18 @@ public class GeneSiteDetectionProcessor {
     }
 
     private void parse() {
+        titles      = null;
+        titlesSize  = 0;
+        lPercent    = null;
+        lFormula    = null;
+        dspParamIdxs= null;
         if (null==detection || detection.trim().isEmpty()) {
-            titles      = null;
-            titlesSize  = 0;
-            lPercent    = null;
-            lFormula    = null;
+            return;
         }
         else {
             List<String>   lines            = readTextByLine(detection);
             if (null==lines || lines.isEmpty()) {
-                titles      = null;
-                titlesSize  = 0;
-                lPercent    = null;
-                lFormula    = null;
+                return;
             }
 
             String         strResDspParam   = null;
@@ -239,7 +322,11 @@ public class GeneSiteDetectionProcessor {
             }
         }
 
-        return lResultPercent;
+        Object[][] newResPer = new Object[lResultPercent.length+1][lResultPercent[0].length];
+        System.arraycopy(lResultPercent, 0, newResPer,    1, lResultPercent.length);
+        System.arraycopy(titles,  0, newResPer[0], 0, titlesSize);
+
+        return newResPer;
     }
 
 
@@ -602,22 +689,25 @@ public class GeneSiteDetectionProcessor {
                 scriptEngine.eval(logicF);
                 val = scriptEngine.get("result");
                 if (null!=val) {
-                    if (ResultTypeInt.equalsIgnoreCase(resultType)) {
+                    if (null==val) {
+                        val = null;
+                    }
+                    else if (ResultTypeInt.equalsIgnoreCase(resultType)) {
                         val = ((Integer) val).intValue();
                     }
-                    if (ResultTypeLong.equalsIgnoreCase(resultType)) {
+                    else if (ResultTypeLong.equalsIgnoreCase(resultType)) {
                         val = ((Double) val).longValue();
                     }
-                    if (ResultTypeFloat.equalsIgnoreCase(resultType)) {
+                    else if (ResultTypeFloat.equalsIgnoreCase(resultType)) {
                         val = ((Double) val).floatValue();
                     }
-                    if (ResultTypeDouble.equalsIgnoreCase(resultType)) {
+                    else if (ResultTypeDouble.equalsIgnoreCase(resultType)) {
                         val = ((Double) val).doubleValue();
                     }
-                    if (ResultTypeBool.equalsIgnoreCase(resultType)) {
+                    else if (ResultTypeBool.equalsIgnoreCase(resultType)) {
                         val = (Boolean) val;
                     }
-                    if (ResultTypeString.equalsIgnoreCase(resultType)) {
+                    else if (ResultTypeString.equalsIgnoreCase(resultType)) {
                         val = (String) val;
                     }
                 }
@@ -629,6 +719,7 @@ public class GeneSiteDetectionProcessor {
         private void    setResultValue(LogicCell resultCell, GroupIndex groupIndex, Object[][] dsp) {
             if (null==resultCell) { return; }
             if (null==dsp || dsp.length==0) { return; }
+            if ((resultCell.val instanceof String) && ResultNoChanged.equalsIgnoreCase((String)resultCell.val)) { return; }
 
             Integer row = resultCell.row;
             Integer col = resultCell.col;
@@ -684,6 +775,7 @@ public class GeneSiteDetectionProcessor {
             List<Integer> idxs = new ArrayList<>();
             Integer i = null;
             for (String si : strIdxs) {
+                i = null;
                 try { i = Integer.parseInt(si); } catch (Exception ex){} // row
                 if (null==i) { i = getTitleIndex(si, titles); }
 

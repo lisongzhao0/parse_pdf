@@ -267,7 +267,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         try { this.backgroundOpacity= Float.parseFloat(element.attributeValue("background_opacity")); } catch (Exception ex) {this.backgroundOpacity= 1.0f;}
         try { this.fontOpacity= Float.parseFloat(element.attributeValue("font_opacity")); } catch (Exception ex) {this.fontOpacity= 1.0f;}
         try { this.fontSize   = Float.parseFloat(element.attributeValue("font_size"));    } catch (Exception ex) {this.fontSize   = 12f;}
-        try { this.lineLeading= Float.parseFloat(element.attributeValue("line_leading")); } catch (Exception ex) {this.lineLeading=null;}
+        try { this.lineLeading= Float.parseFloat(element.attributeValue("line_leading")); } catch (Exception ex) {this.lineLeading=1.2f;}
         try { this.charSpacing= Float.parseFloat(element.attributeValue("char_spacing")); } catch (Exception ex) {this.charSpacing=0.0f;}
         try { this.wordSpacing= Float.parseFloat(element.attributeValue("word_spacing")); } catch (Exception ex) {this.wordSpacing=0.0f;}
         try { this.bold       = Boolean.parseBoolean(element.attributeValue("bold"));     } catch (Exception ex) {this.bold       =false;}
@@ -291,6 +291,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         StringBuilder finalStr = new StringBuilder();
         for (int i = 0; i < values.length; i ++) {
             String tmp = values[i];
+            tmp = tmp.replace("\n", "");
             tmp = tmp.replace("<br/>", "\n");
             tmp = tmp.replace("&nbsp;", " ");
             tmp = tmp.replace("&tab;", "\t");

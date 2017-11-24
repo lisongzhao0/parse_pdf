@@ -52,7 +52,7 @@ public class Parameter implements IXml<Parameter> {
         def.group = element.attributeValue("group");
         def.value = element.attributeValue("value");
         if (null==def.value || "".equalsIgnoreCase(def.value)) {
-            def.value = element.getTextTrim();
+            def.value = element.getStringValue();
         }
         return def;
     }

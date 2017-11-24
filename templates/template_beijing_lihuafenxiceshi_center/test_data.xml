@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+    <fonts>
+        <font id="simsun"     embedded="true" name="simsun"     ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/simsun.ttc,1"/>
+        <font id="fzlthjw"    embedded="true" name="fzlthjw"    ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzlthjw.ttf"/>
+        <font id="fzltchjw"   embedded="true" name="fzltchjw"   ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzltchjw.ttf"/>
+        <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzltxh_gbk.ttf"/>
+    </fonts>
+    <data>
+        <parameter id="id" value="01160001"/>
+        <parameter id="oralMucosaChecked"  value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect.png"/>
+        <parameter id="bloodChecked"       value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect_angle.png"/>
+        <parameter id="program"    value="笑傲江湖"/>
+        <parameter id="technology" value="MarryNa"/>
+        <parameter id="beiJingLiHuaCenter" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/beijing_yuan_ma.png"/>
+
+        <parameter id="r1c1" value="MUTY"/>
+        <parameter id="r1c2" value="BAIB"/>
+        <parameter id="r1c3" value="ATDD"/>
+        <parameter id="r1c4" value="ETNP"/>
+        <parameter id="r1c5" value="ENEN"/>
+        <parameter id="r1c6" value="NPOI"/>
+        <parameter id="r1c7" value="XWER"/>
+        <parameter id="r1c8" value="POIU"/>
+        <parameter id="r1c9" value="UEIS"/>
+        <parameter id="r1c10" value="FDSE"/>
+        <parameter id="r2c1" value="rs123456421"/>
+        <parameter id="r2c2" value="rs123456421"/>
+        <parameter id="r2c3" value="rs123456421"/>
+        <parameter id="r2c4" value="rs123456421"/>
+        <parameter id="r2c5" value="rs123456421"/>
+        <parameter id="r2c6" value="rs123456421"/>
+        <parameter id="r2c7" value="rs123456421"/>
+        <parameter id="r2c8" value="rs123456421"/>
+        <parameter id="r2c9" value="rs123456421"/>
+        <parameter id="r2c10" value="rs123456421"/>
+        <parameter id="r3c1" value="AA"/>
+        <parameter id="r3c2" value="GG"/>
+        <parameter id="r3c3" value="TT"/>
+        <parameter id="r3c4" value="CC"/>
+        <parameter id="r3c5" value="AT"/>
+        <parameter id="r3c6" value="GC"/>
+        <parameter id="r3c7" value="CG"/>
+        <parameter id="r3c8" value="TA"/>
+        <parameter id="r3c9" value="GG"/>
+        <parameter id="r3c10" value="CC"/>
+    </data>
+</pdf>
