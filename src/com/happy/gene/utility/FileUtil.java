@@ -150,6 +150,10 @@ public class FileUtil {
         output.close();
     }
 
+    public void writeFile(InputStream input, String outputFile) throws IOException {
+        writeFile(input, new File(outputFile));
+    }
+
     public boolean copyFile(File fromFile, File toFile) {
         FileInputStream in = null;
         FileOutputStream out = null;
@@ -350,6 +354,22 @@ public class FileUtil {
                 System.err.println("fail to delete file="+relPath);
             }
         }
+    }
+
+    public List<String> readTextByLine(String text) {
+        if (null==text || text.trim().isEmpty()) { return null; }
+        try {
+            BufferedReader reader   = new BufferedReader(new InputStreamReader(new ByteArrayInputStream(text.getBytes("UTF-8"))));
+            List<String>   lines    = new ArrayList<>();
+
+            String  strRow = null;
+            while (null!=(strRow=reader.readLine())) {
+                lines.add(strRow);
+            }
+            return lines;
+        }
+        catch (Exception ex){}
+        return null;
     }
 
     /*=================================================================

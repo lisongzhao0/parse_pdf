@@ -1,9 +1,7 @@
 package com.happy.gene.utility;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by zhaolisong on 31/05/2017.
@@ -35,6 +33,21 @@ public class NumberUtil {
         }
     }
 
+    public  String numList2String(Set ids) {
+        if (null==ids||ids.isEmpty()) {
+            return "";
+        }
+        Iterator        iter    = ids.iterator();
+        StringBuilder   strIds  = new StringBuilder("");
+        for (int i = 0; iter.hasNext(); i ++) {
+            Object o = iter.next();
+            if (0==i) { strIds.append(""+o); }
+            else { strIds.append(",").append(""+o); }
+        }
+
+        return strIds.toString();
+    }
+
     public boolean isIds(String ids) {
         if (ids instanceof String) {
             if (ids.contains(".")) {
@@ -43,6 +56,23 @@ public class NumberUtil {
             return ids.matches(IDS);
         }
         return false;
+    }
+
+    public List<String> parseStringIds(String ids) {
+        List<String>  recordIds = new ArrayList<>();
+        if (null==ids || "".equals(ids.trim())) { return recordIds; }
+
+        String[]      strArray  = ids.split(",");
+        try {
+            for (String tmp : strArray) {
+                if (null==tmp || "".equals(tmp.trim())) { continue; }
+                recordIds.add(tmp.trim());
+            }
+        }
+        catch (Exception ex) {
+            recordIds.clear();
+        }
+        return recordIds;
     }
 
     public List<String> parseMongoStringIds(String ids) {

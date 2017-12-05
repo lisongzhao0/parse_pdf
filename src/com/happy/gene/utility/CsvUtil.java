@@ -1,21 +1,12 @@
 package com.happy.gene.utility;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.StringReader;
+import java.io.*;
 import java.nio.charset.Charset;
 import java.text.NumberFormat;
 import java.util.HashMap;
 
 /**
- * A stream based parser for parsing delimited text data from a file or a
- * stream.
+ * A stream based parser for parsing delimited text data from a file or a stream.
  */
 public class CsvUtil {
 	private Reader 			inputStream = null;
@@ -46,40 +37,24 @@ public class CsvUtil {
 	private boolean 		initialized = false;
 	private boolean 		closed = false;
 
-	/**
-	 * Double up the text qualifier to represent an occurance of the text
-	 * qualifier.
-	 */
+	/** Double up the text qualifier to represent an occurance of the text qualifier. */
 	public static final int ESCAPE_MODE_DOUBLED = 1;
 
-	/**
-	 * Use a backslash character before the text qualifier to represent an
-	 * occurance of the text qualifier.
-	 */
+	/** Use a backslash character before the text qualifier to represent an occurance of the text qualifier. */
 	public static final int ESCAPE_MODE_BACKSLASH = 2;
 
 	/**
-	 * Creates a {@link CsvUtil CsvReader} object using a file
-	 * as the data source.
-	 * 
-	 * @param fileName
-	 *            The path to the file to use as the data source.
-	 * @param delimiter
-	 *            The character to use as the column delimiter.
-	 * @param charset
-	 *            The {@link Charset Charset} to use while
-	 *            parsing the data.
+	 * Creates a {@link CsvUtil} object using a file as the data source.
+	 *
+	 * @param fileName The path to the file to use as the data source.
+	 * @param delimiter The character to use as the column delimiter.
+	 * @param charset The {@link Charset Charset} to use while
+	 *                parsing the data.
 	 */
 	public CsvUtil(String fileName, char delimiter, Charset charset) throws FileNotFoundException {
-		if (fileName == null) {
-			throw new IllegalArgumentException("Parameter fileName can not be null.");
-		}
-		if (charset == null) {
-			throw new IllegalArgumentException("Parameter charset can not be null.");
-		}
-		if (!new File(fileName).exists()) {
-			throw new FileNotFoundException("File " + fileName + " does not exist.");
-		}
+		if (fileName == null) { throw new IllegalArgumentException("Parameter fileName can not be null."); }
+		if (charset == null) { throw new IllegalArgumentException("Parameter charset can not be null."); }
+		if (!new File(fileName).exists()) { throw new FileNotFoundException("File " + fileName + " does not exist."); }
 
 		this.fileName = fileName;
 		this.userSettings.delimiter = delimiter;
@@ -89,40 +64,33 @@ public class CsvUtil {
 	}
 
 	/**
-	 * Creates a {@link CsvUtil CsvReader} object using a file
-	 * as the data source.&nbsp;Uses ISO-8859-1 as the
-	 * {@link Charset Charset}.
-	 * 
-	 * @param fileName
-	 *            The path to the file to use as the data source.
-	 * @param delimiter
-	 *            The character to use as the column delimiter.
+	 * Creates a {@link CsvUtil} object using a file
+	 * as the data source.&nbsp;Uses ISO-8859-1 as the {@link Charset Charset}.
+	 *
+	 * @param fileName The path to the file to use as the data source.
+	 * @param delimiter The character to use as the column delimiter.
 	 */
-	public CsvUtil(String fileName, char delimiter)
-			throws FileNotFoundException {
+	public CsvUtil(String fileName, char delimiter) throws FileNotFoundException {
 		this(fileName, delimiter, Charset.forName("ISO-8859-1"));
 	}
 
 	/**
-	 * Creates a {@link CsvUtil CsvReader} object using a file
+	 * Creates a {@link CsvUtil} object using a file
 	 * as the data source.&nbsp;Uses a comma as the column delimiter and
 	 * ISO-8859-1 as the {@link Charset Charset}.
-	 * 
-	 * @param fileName
-	 *            The path to the file to use as the data source.
+	 *
+	 * @param fileName The path to the file to use as the data source.
 	 */
 	public CsvUtil(String fileName) throws FileNotFoundException {
 		this(fileName, Letters.COMMA);
 	}
 
 	/**
-	 * Constructs a {@link CsvUtil CsvReader} object using a
+	 * Constructs a {@link CsvUtil} object using a
 	 * {@link Reader Reader} object as the data source.
-	 * 
-	 * @param inputStream
-	 *            The stream to use as the data source.
-	 * @param delimiter
-	 *            The character to use as the column delimiter.
+	 *
+	 * @param inputStream The stream to use as the data source.
+	 * @param delimiter The character to use as the column delimiter.
 	 */
 	public CsvUtil(Reader inputStream, char delimiter) {
 		if (inputStream == null) {
@@ -138,10 +106,10 @@ public class CsvUtil {
 	}
 
 	/**
-	 * Constructs a {@link CsvUtil CsvReader} object using a
+	 * Constructs a {@link CsvUtil} object using a
 	 * {@link Reader Reader} object as the data source.&nbsp;Uses a
 	 * comma as the column delimiter.
-	 * 
+	 *
 	 * @param inputStream
 	 *            The stream to use as the data source.
 	 */
@@ -150,9 +118,9 @@ public class CsvUtil {
 	}
 
 	/**
-	 * Constructs a {@link CsvUtil CsvReader} object using an
+	 * Constructs a {@link CsvUtil} object using an
 	 * {@link InputStream InputStream} object as the data source.
-	 * 
+	 *
 	 * @param inputStream
 	 *            The stream to use as the data source.
 	 * @param delimiter
@@ -166,10 +134,10 @@ public class CsvUtil {
 	}
 
 	/**
-	 * Constructs a {@link CsvUtil CsvReader} object using an
+	 * Constructs a {@link CsvUtil} object using an
 	 * {@link InputStream InputStream} object as the data
 	 * source.&nbsp;Uses a comma as the column delimiter.
-	 * 
+	 *
 	 * @param inputStream
 	 *            The stream to use as the data source.
 	 * @param charset
@@ -195,7 +163,7 @@ public class CsvUtil {
 	/**
 	 * Gets whether leading and trailing whitespace characters are being trimmed
 	 * from non-textqualified column data. Default is true.
-	 * 
+	 *
 	 * @return Whether leading and trailing whitespace characters are being
 	 *         trimmed from non-textqualified column data.
 	 */
@@ -206,7 +174,7 @@ public class CsvUtil {
 	/**
 	 * Sets whether leading and trailing whitespace characters should be trimmed
 	 * from non-textqualified column data or not. Default is true.
-	 * 
+	 *
 	 * @param trimWhitespace
 	 *            Whether leading and trailing whitespace characters should be
 	 *            trimmed from non-textqualified column data or not.
@@ -218,7 +186,7 @@ public class CsvUtil {
 	/**
 	 * Gets the character being used as the column delimiter. Default is comma,
 	 * ','.
-	 * 
+	 *
 	 * @return The character being used as the column delimiter.
 	 */
 	public char getDelimiter() {
@@ -227,7 +195,7 @@ public class CsvUtil {
 
 	/**
 	 * Sets the character to use as the column delimiter. Default is comma, ','.
-	 * 
+	 *
 	 * @param delimiter
 	 *            The character to use as the column delimiter.
 	 */
@@ -241,7 +209,7 @@ public class CsvUtil {
 
 	/**
 	 * Sets the character to use as the record delimiter.
-	 * 
+	 *
 	 * @param recordDelimiter
 	 *            The character to use as the record delimiter. Default is
 	 *            combination of standard end of line characters for Windows,
@@ -254,7 +222,7 @@ public class CsvUtil {
 
 	/**
 	 * Gets the character to use as a text qualifier in the data.
-	 * 
+	 *
 	 * @return The character to use as a text qualifier in the data.
 	 */
 	public char getTextQualifier() {
@@ -263,7 +231,7 @@ public class CsvUtil {
 
 	/**
 	 * Sets the character to use as a text qualifier in the data.
-	 * 
+	 *
 	 * @param textQualifier
 	 *            The character to use as a text qualifier in the data.
 	 */
@@ -273,7 +241,7 @@ public class CsvUtil {
 
 	/**
 	 * Whether text qualifiers will be used while parsing or not.
-	 * 
+	 *
 	 * @return Whether text qualifiers will be used while parsing or not.
 	 */
 	public boolean getUseTextQualifier() {
@@ -282,7 +250,7 @@ public class CsvUtil {
 
 	/**
 	 * Sets whether text qualifiers will be used while parsing or not.
-	 * 
+	 *
 	 * @param useTextQualifier
 	 *            Whether to use a text qualifier while parsing or not.
 	 */
@@ -292,7 +260,7 @@ public class CsvUtil {
 
 	/**
 	 * Gets the character being used as a comment signal.
-	 * 
+	 *
 	 * @return The character being used as a comment signal.
 	 */
 	public char getComment() {
@@ -301,7 +269,7 @@ public class CsvUtil {
 
 	/**
 	 * Sets the character to use as a comment signal.
-	 * 
+	 *
 	 * @param comment
 	 *            The character to use as a comment signal.
 	 */
@@ -311,7 +279,7 @@ public class CsvUtil {
 
 	/**
 	 * Gets whether comments are being looked for while parsing or not.
-	 * 
+	 *
 	 * @return Whether comments are being looked for while parsing or not.
 	 */
 	public boolean getUseComments() {
@@ -320,7 +288,7 @@ public class CsvUtil {
 
 	/**
 	 * Sets whether comments are being looked for while parsing or not.
-	 * 
+	 *
 	 * @param useComments
 	 *            Whether comments are being looked for while parsing or not.
 	 */
@@ -331,7 +299,7 @@ public class CsvUtil {
 	/**
 	 * Gets the current way to escape an occurance of the text qualifier inside
 	 * qualified data.
-	 * 
+	 *
 	 * @return The current way to escape an occurance of the text qualifier
 	 *         inside qualified data.
 	 */
@@ -342,7 +310,7 @@ public class CsvUtil {
 	/**
 	 * Sets the current way to escape an occurance of the text qualifier inside
 	 * qualified data.
-	 * 
+	 *
 	 * @param escapeMode
 	 *            The way to escape an occurance of the text qualifier inside
 	 *            qualified data.
@@ -372,7 +340,7 @@ public class CsvUtil {
 	 * the file format is known and tested. With the switch off, the max column
 	 * lengths and max column count per record supported by the parser will
 	 * greatly increase. Default is true.
-	 * 
+	 *
 	 * @return The current setting of the safety switch.
 	 */
 	public boolean getSafetySwitch() {
@@ -386,7 +354,7 @@ public class CsvUtil {
 	 * the file format is known and tested. With the switch off, the max column
 	 * lengths and max column count per record supported by the parser will
 	 * greatly increase. Default is true.
-	 * 
+	 *
 	 * @param safetySwitch
 	 */
 	public void setSafetySwitch(boolean safetySwitch) {
@@ -395,7 +363,7 @@ public class CsvUtil {
 
 	/**
 	 * Gets the count of columns found in this record.
-	 * 
+	 *
 	 * @return The count of columns found in this record.
 	 */
 	public int getColumnCount() {
@@ -404,7 +372,7 @@ public class CsvUtil {
 
 	/**
 	 * Gets the index of the current record.
-	 * 
+	 *
 	 * @return The index of the current record.
 	 */
 	public long getCurrentRecord() {
@@ -414,7 +382,7 @@ public class CsvUtil {
 	/**
 	 * Gets the count of headers read in by a previous call to
 	 * {@link CsvUtil#readHeaders readHeaders()}.
-	 * 
+	 *
 	 * @return The count of headers read in by a previous call to
 	 *         {@link CsvUtil#readHeaders readHeaders()}.
 	 */
@@ -424,7 +392,7 @@ public class CsvUtil {
 
 	/**
 	 * Returns the header values as a string array.
-	 * 
+	 *
 	 * @return The header values as a String array.
 	 * @exception IOException
 	 *                Thrown if this object has already been closed.
@@ -472,7 +440,7 @@ public class CsvUtil {
 
 	/**
 	 * Returns the current column value for a given column index.
-	 * 
+	 *
 	 * @param columnIndex The index of the column.
 	 * @return The current column value.
 	 * @exception IOException Thrown if this object has already been closed.
@@ -489,7 +457,7 @@ public class CsvUtil {
 
 	/**
 	 * Returns the current column value for a given column header name.
-	 * 
+	 *
 	 * @param headerName The header name of the column.
 	 * @return The current column value.
 	 * @exception IOException Thrown if this object has already been closed.
@@ -501,12 +469,12 @@ public class CsvUtil {
 	}
 
 	/**
-	 * Creates a {@link CsvUtil CsvReader} object using a string
+	 * Creates a {@link CsvUtil} object using a string
 	 * of data as the source.&nbsp;Uses ISO-8859-1 as the
 	 * {@link Charset Charset}.
-	 * 
+	 *
 	 * @param data The String of data to use as the source.
-	 * @return A {@link CsvUtil CsvReader} object using the
+	 * @return A {@link CsvUtil} object using the
 	 *         String of data as the source.
 	 */
 	public static CsvUtil parse(String data) {
@@ -519,7 +487,7 @@ public class CsvUtil {
 
 	/**
 	 * Reads another record.
-	 * 
+	 *
 	 * @return Whether another record was successfully read or not.
 	 * @exception IOException
 	 *                Thrown if an error occurs while reading data from the
@@ -1109,7 +1077,7 @@ public class CsvUtil {
 
 	/**
 	 * Read the first record of data as column headers.
-	 * 
+	 *
 	 * @return Whether the header record was successfully read or not.
 	 * @exception IOException
 	 *                Thrown if an error occurs while reading data from the
@@ -1145,7 +1113,7 @@ public class CsvUtil {
 
 	/**
 	 * Returns the column header value for a given column index.
-	 * 
+	 *
 	 * @param columnIndex The index of the header column being requested.
 	 * @return The value of the column header at the given column index.
 	 * @exception IOException Thrown if this object has already been closed.
@@ -1300,7 +1268,7 @@ public class CsvUtil {
 
 	/**
 	 * Gets the corresponding column index for a given column header name.
-	 * 
+	 *
 	 * @param headerName The header name of the column.
 	 * @return The column index for the given column header name.
 	 *         Returns -1 if not found.
@@ -1432,7 +1400,7 @@ public class CsvUtil {
 	 */
 	private void checkClosed() throws IOException {
 		if (closed) {
-			throw new IOException("This instance of the CsvReader class has already been closed.");
+			throw new IOException("This instance of the CsvUtil class has already been closed.");
 		}
 	}
 
@@ -1566,7 +1534,7 @@ public class CsvUtil {
 	private class StaticSettings {
 		// these are static instead of final so they can be changed in unit test
 		// isn't visible outside this class and is only accessed once during
-		// CsvReader construction
+		// CsvUtil construction
 		public static final int MAX_BUFFER_SIZE 			= 1024;
 		public static final int MAX_FILE_BUFFER_SIZE 		= 4 * 1024;
 		public static final int INITIAL_COLUMN_COUNT 		= 10;

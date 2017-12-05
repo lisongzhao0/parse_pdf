@@ -109,4 +109,24 @@ public class SetUtil {
 
         return resultSet;
     }
+
+    public void removeListNullVal(List list) {
+        if (isListEmpty(list)) { return; }
+
+        for (int i=0, count=list.size(); i < count; i ++) {
+            Object obj = list.get(i);
+            if (null==obj) {
+                list.remove(i);
+                i --;
+                count --;
+                continue;
+            }
+            if ((obj instanceof String) && "".equals(obj)) {
+                list.remove(i);
+                i --;
+                count --;
+                continue;
+            }
+        }
+    }
 }

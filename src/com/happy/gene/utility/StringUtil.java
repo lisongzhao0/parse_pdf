@@ -27,6 +27,12 @@ public class StringUtil {
         return (null==str || "".equals(str));
     }
 
+    public boolean isChanged(String oldV, String newV) {
+        if (null==newV && null==oldV) { return false; }
+        if (null==newV && null!=oldV) { return true;  }
+        if (null!=newV && null==oldV) { return true;  }
+        return !oldV.equals(newV);
+    }
 
     public boolean like(String src, String like) {
         if (null==src && null==like) { return true;  }
@@ -132,6 +138,17 @@ public class StringUtil {
             map.put("data", xml);
             map.put("exception", ex.toString());
         }
+        return map;
+    }
+
+    /**
+     * @Description：将响应的返回的json格式转换为Map
+     * @param json  响应的返回的json
+     * @return
+     */
+    public static Map<String, Object> parseResponseJson(String json){
+        JsonUtil jsonUtil = JsonUtil.newInstance();
+        final Map<String, Object> map = jsonUtil.parseJsonMap(json, String.class, Object.class);
         return map;
     }
 }
