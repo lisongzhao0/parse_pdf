@@ -61,21 +61,20 @@ public class ExcelTemplateTest {
             sheet.getRow(senderRowColIndex[0][0]).getCell(senderRowColIndex[0][1]).setCellType(CellType.STRING);
             sheet.getRow(senderRowColIndex[0][0]).getCell(senderRowColIndex[0][1]).setCellValue(sender);
 
-            Row row;
-            Cell cell = null;
-            int a = 5;
-//            HSSFCellStyle style = getStyle(workbook);
-            for(int i =0;i<value.length;i++)
+            Row     row         = null;
+            Cell    cell        = null;
+            int     rowIndex    = 5;
+            for(int i=0; i<value.length; i++)
             {
-                row = sheet.createRow(a);
+                row = sheet.createRow(rowIndex);
                 //该行以前得部分从模板中取得;
-                for (int j=0; j < value[0].length; j ++)
+                for (int j=0; j<value[0].length; j++)
                 {
                     cell = row.createCell((short) j,CellType.STRING);
                     cell.setCellValue(value[i][j]);
                 }
 
-                a++;
+                rowIndex++;
             }
             FileOutputStream out = new FileOutputStream("/Users/zhaolisong/Documents/dispatch_sample_table_output.xlsx");
             workbook.write(out);
@@ -83,48 +82,6 @@ public class ExcelTemplateTest {
             out.close();
         }
         catch(Exception e)
-        {
-            e.printStackTrace();
-        }
-    }
-    public static HSSFCellStyle getStyle(Workbook workbook)
-    {
-//     设置字体;
-        HSSFFont font = ((HSSFWorkbook)workbook).createFont();
-        //设置字体大小;
-        font.setFontHeightInPoints((short)9);
-        //设置字体名字;
-        font.setFontName("Courier New");
-        //font.setItalic(true);
-        //font.setStrikeout(true);
-//     设置样式;
-        HSSFCellStyle style =((HSSFWorkbook)workbook).createCellStyle();
-        ExtendedFormatRecord format = new ExtendedFormatRecord();
-        //设置底边框;
-        format.setIndentNotParentBorder(true);
-        format.setBorderBottom(HSSFCellStyle.BORDER_THIN);
-        //设置底边框颜色;
-        format.setBottomBorderPaletteIdx(HSSFColor.BLACK.index);
-        //设置左边框;
-        style.setBorderLeft(HSSFCellStyle.BORDER_THIN);
-        //设置左边框颜色;
-        style.setLeftBorderColor(HSSFColor.BLACK.index);
-        //设置右边框;
-        style.setBorderRight(HSSFCellStyle.BORDER_THIN);
-        //设置右边框颜色;
-        style.setRightBorderColor(HSSFColor.BLACK.index);
-        //设置顶边框;
-        style.setBorderTop(HSSFCellStyle.BORDER_THIN);
-        //设置顶边框颜色;
-        style.setTopBorderColor(HSSFColor.BLACK.index);
-        //在样式用应用设置的字体;
-        style.setFont(font);
-        //设置自动换行;
-        style.setWrapText(false);
-        //设置水平对齐的样式为居中对齐;
-        style.setAlignment(HSSFCellStyle.ALIGN_CENTER);
-        //设置垂直对齐的样式为居中对齐;
-        style.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);
-        return style;
+        { e.printStackTrace(); }
     }
 }
