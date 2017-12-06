@@ -7,6 +7,7 @@ import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.*;
 
 import java.io.FileOutputStream;
+import java.util.*;
 
 public class ExcelTemplateTest {
 
@@ -35,8 +36,26 @@ public class ExcelTemplateTest {
 
     public static void main(String[] args) {
 
+        List<String> productOrds = Arrays.asList(new String[]{
+                "17500001",
+                "17500003",
+                "17500004",
+                "17500005",
+                "17500002"
+        });
+        Collections.sort(productOrds, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if (null==o1 && null==o2) { return 0; }
+                if (null!=o1 && null==o2) { return 1; }
+                if (null==o1 && null!=o2) { return -1; }
+                return o1.compareTo(o2);
+            }
+        });
+        System.out.println(productOrds);
+
         OfficeFileUtil officeFileUtil = OfficeFileUtil.newInstance();
-        Workbook    workbook    = officeFileUtil.getExcel("/Users/zhaolisong/Documents/dispatch_sample_table.xlsx");
+        Workbook    workbook    = officeFileUtil.getExcel("/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/dispatch_sample_table.xlsx");
         try
         {
 
@@ -46,7 +65,7 @@ public class ExcelTemplateTest {
             final Cell[][] cells = officeFileUtil.getExcelCellArea(sheet, range[0], range[1], range[2], range[3]);
             final Integer[][] sampleSizeColIndex        = officeFileUtil.getExcelContentRowColIndex(cells, "sampleSize", true, false, true);
             final Integer[][] dispatchorRowColIndex     = officeFileUtil.getExcelContentRowColIndex(cells, "dispatchor", true, false, true);
-            final Integer[][] dispatchorDateRowColIndex = officeFileUtil.getExcelContentRowColIndex(cells, "dispatchorDate", true, false, true);
+            final Integer[][] dispatchorDateRowColIndex = officeFileUtil.getExcelContentRowColIndex(cells, "dispatchDate", true, false, true);
             final Integer[][] senderRowColIndex         = officeFileUtil.getExcelContentRowColIndex(cells, "sender", true, false, true);
 
             sheet.getRow(sampleSizeColIndex[0][0]).getCell(sampleSizeColIndex[0][1]).setCellType(CellType.STRING);
