@@ -58,8 +58,8 @@ public class MainBeijingLiHuaCenter {
         ByteArrayOutputStream baos      = new ByteArrayOutputStream(64280);
         PdfWriter             pdfWriter = new PdfWriter(baos);
         PdfDocument           pdfDoc    = new PdfDocument(pdfWriter);
-        pdfDoc.setDefaultPageSize(PageSize.A4);
-        Document doc = new Document(pdfDoc, PageSize.A4);
+        pdfDoc.setDefaultPageSize(new PageSize(612.24f, 824.88f));
+        Document doc = new Document(pdfDoc, new PageSize(612.24f, 824.88f));
 
         Collection<FontDef> fontCollection = fonts.values();
         for (FontDef tmp : fontCollection) {

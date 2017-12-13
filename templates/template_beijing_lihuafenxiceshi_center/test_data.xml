@@ -7,44 +7,44 @@
         <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzltxh_gbk.ttf"/>
     </fonts>
     <data>
-        <parameter id="id" value="01160001"/>
+        <parameter id="id" value="TX00007010"/>
         <parameter id="oralSwab"    value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect.png"/>
         <parameter id="saliva"      value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect.png"/>
-        <parameter id="bloodCard"   value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect.png"/>
+        <parameter id="bloodCard"   value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect_angle.png"/>
         <parameter id="venousBlood" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect.png"/>
-        <parameter id="program"    value="笑傲江湖"/>
-        <parameter id="technology" value="MarryNa"/>
+        <parameter id="program"    value="基因位点检测"/>
+        <parameter id="technology" value="核酸质谱SNP分析"/>
         <parameter id="beiJingLiHuaCenter" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/beijing_yuan_ma.png"/>
 
-        <parameter id="c1r1" value="MUTY"/>
-        <parameter id="c1r2" value="BAIB"/>
-        <parameter id="c1r3" value="ATDD"/>
-        <parameter id="c1r4" value="ETNP"/>
-        <parameter id="c1r5" value="ENEN"/>
-        <parameter id="c1r6" value="NPOI"/>
-        <parameter id="c1r7" value="XWER"/>
-        <parameter id="c1r8" value="POIU"/>
-        <parameter id="c1r9" value="UEIS"/>
-        <parameter id="c1r10" value="FDSE"/>
-        <parameter id="c2r1" value="rs123456421"/>
-        <parameter id="c2r2" value="rs123456421"/>
-        <parameter id="c2r3" value="rs123456421"/>
-        <parameter id="c2r4" value="rs123456421"/>
-        <parameter id="c2r5" value="rs123456421"/>
-        <parameter id="c2r6" value="rs123456421"/>
-        <parameter id="c2r7" value="rs123456421"/>
-        <parameter id="c2r8" value="rs123456421"/>
-        <parameter id="c2r9" value="rs123456421"/>
-        <parameter id="c2r10" value="rs123456421"/>
+        <parameter id="c1r1" value="MGMT"/>
+        <parameter id="c1r2" value="EGFR"/>
+        <parameter id="c1r3" value="PLCE1"/>
+        <parameter id="c1r4" value="PROM1"/>
+        <parameter id="c1r5" value="STAT4"/>
+        <parameter id="c1r6" value="KIF1B"/>
+        <parameter id="c1r7" value="SMAD7"/>
+        <parameter id="c1r8" value="TPD52L3||UHRF2"/>
+        <parameter id="c1r9" value="BRCA2"/>
+        <parameter id="c1r10" value="TAB2"/>
+        <parameter id="c2r1" value="rs2308327"/>
+        <parameter id="c2r2" value="rs763317"/>
+        <parameter id="c2r3" value="rs2274223"/>
+        <parameter id="c2r4" value="rs2240688"/>
+        <parameter id="c2r5" value="rs7574865"/>
+        <parameter id="c2r6" value="rs17401966"/>
+        <parameter id="c2r7" value="rs4939827"/>
+        <parameter id="c2r8" value="rs719725"/>
+        <parameter id="c2r9" value="rs144848"/>
+        <parameter id="c2r10" value="rs9485372"/>
         <parameter id="c3r1" value="AA"/>
         <parameter id="c3r2" value="GG"/>
-        <parameter id="c3r3" value="TT"/>
-        <parameter id="c3r4" value="CC"/>
-        <parameter id="c3r5" value="AT"/>
-        <parameter id="c3r6" value="GC"/>
-        <parameter id="c3r7" value="CG"/>
-        <parameter id="c3r8" value="TA"/>
-        <parameter id="c3r9" value="GG"/>
-        <parameter id="c3r10" value="CC"/>
+        <parameter id="c3r3" value="AG"/>
+        <parameter id="c3r4" value="GT"/>
+        <parameter id="c3r5" value="GG"/>
+        <parameter id="c3r6" value="GG"/>
+        <parameter id="c3r7" value="CC"/>
+        <parameter id="c3r8" value="AA"/>
+        <parameter id="c3r9" value="AA"/>
+        <parameter id="c3r10" value="GG"/>
     </data>
 </pdf>

@@ -30,7 +30,7 @@ public class PdfPageMergeTest {
                 "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/HD2_TX00011561_5a17b8674b28afb749ab8afb.pdf",
                 "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/HD2_TX00011561_5a17b8674b28afb749ab8afb.pdf",
                 "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/HD2_TX00011561_5a17b8674b28afb749ab8afb.pdf",
-                "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/HD2_TX00011561.pdf",
+                "/Users/zhaolisong/Downloads/远盟/理化盖章页.pdf",
                 "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/HD2_TX00011561_5a17b8674b28afb749ab8afb.pdf",
         };
         getBatchPdfs(
