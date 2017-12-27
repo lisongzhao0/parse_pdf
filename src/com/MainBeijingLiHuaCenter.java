@@ -31,7 +31,7 @@ import java.util.*;
 public class MainBeijingLiHuaCenter {
 
     public static void main(String[] args) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/template_beijing_lihua_sign_page39.xml";
+        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/template_beijing_lihua_sign_page76.xml";
         String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/test_data.xml";
 
         XmlDataParser parser = XmlDataParser.getInstance();
