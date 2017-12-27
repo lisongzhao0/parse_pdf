@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+
+    <!--*****************************************************************************************-->
+    <!--****************************************  封面  ******************************************-->
+    <!--******   112 168 68     84 84 84     232 232 232          *********-->
+    <!--*****************************************************************************************-->
+    <page z_order="0" catalog="-1 0" page_header="false" page_number="false" type="cover">
+        <text z_order="10" font="fzltchjw" font_size="30" color="#70a844" bold="" italic="" underline="" x="125" y="715" width="345" value="北京市理化分析测试中心"/>
+        <text z_order="11" font="fzltchjw" font_size="30" color="#70a844" bold="" italic="" underline="" x="230" y="672" width="490" value="检测结果"/>
+
+        <!-- area 1 -->
+        <!-- area 1 -->
+        <rect z_order="20"  path="maxx 258 minx 70  maxy 642 miny 615 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <rect z_order="20"  path="maxx 522 minx 262 maxy 642 miny 615 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <path z_order="21"  path="m 136 642 l 136 615 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 346 642 l 346 615 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="22"  x="80"  y="618" width="84"  font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="样本编码"/>
+        <text z_order="23"  x="282" y="618" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="送检单位"/>
+        <text z_order="24"  x="356" y="618" width="216" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="远盟康健科技有限公司"/>
+
+        <!-- 参数 -->
+        <text z_order="26"  x="146" y="618" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$id"/>
+
+        <!-- area 2 -->
+        <!-- area 2 -->
+        <rect z_order="30"  path="maxx 258 minx 70  maxy 611 miny 584 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <rect z_order="30"  path="maxx 522 minx 262 maxy 611 miny 584 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <path z_order="31"  path="m 136 611 l 136 584 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="31"  path="m 346 611 l 346 584 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="32"  x="80"  y="587" width="84" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测项目"/>
+        <text z_order="32"  x="282" y="587" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测技术"/>
+
+        <!-- 参数 -->
+        <text z_order="33"  x="146" y="587" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$program"/>
+        <text z_order="34"  x="356" y="587" width="150" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$technology"/>
+
+        <!-- area 3 -->
+        <!-- area 3 -->
+        <rect z_order="40"  path="maxx 522 minx 70  maxy 580 miny 553 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <path z_order="41"  path="m 136 580 l 136 553 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="42"  x="80"  y="556" width="84"  font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="样本类型"/>
+        <text z_order="43"  x="166" y="556" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="口腔拭子"/>
+        <text z_order="43"  x="256" y="556" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="唾液"/>
+        <text z_order="43"  x="356" y="556" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="血卡"/>
+        <text z_order="43"  x="456" y="556" width="120" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="静脉血"/>
+
+        <!-- 参数 -->
+        <image z_order="44" id="cover" type="png" x="146" y="559"  height="13" width="13" url="$oralSwab"/>
+        <image z_order="45" id="cover" type="png" x="236" y="559"  height="13" width="13" url="$saliva"/>
+        <image z_order="46" id="cover" type="png" x="336" y="559"  height="13" width="13" url="$bloodCard"/>
+        <image z_order="47" id="cover" type="png" x="436" y="559"  height="13" width="13" url="$venousBlood"/>
+
+        <!-- area 4 -->
+        <!-- area 4 -->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 525 miny 501" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 477 miny 453" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 429 miny 405" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 381 miny 357" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 333 miny 309" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 284 miny 259" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 234 miny 209" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 184 miny 159" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 134 miny 109" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <!-- rect rect -->
+        <rect z_order="61"  path="maxx 522 minx 70  maxy 549 miny 85 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <!-- vertical line -->
+        <path z_order="62"  path="m 136 549 l 136 85 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 260 549 l 260 85 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 390 549 l 390 85 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- horizon line -->
+        <path z_order="63"  path="m 136 525 l 522 525 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 501 l 522 501 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 477 l 522 477 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 453 l 522 453 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 429 l 522 429 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 405 l 522 405 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 381 l 522 381 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 357 l 522 357 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 333 l 522 333 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 309 l 522 309 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 284 l 522 284 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 259 l 522 259 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 234 l 522 234 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 209 l 522 209 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 184 l 522 184 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 159 l 522 159 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 134 l 522 134 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 109 l 522 109 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- first column -->
+        <text z_order="63"  x="80" y="335" width="84" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测结果"/>
+
+        <text z_order="6100" h_alignment="C" x="136" y="527" width="124" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="基因名称"/>
+        <text z_order="6200" h_alignment="C" x="260" y="527" width="130" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="位点名称"/>
+        <text z_order="6300" h_alignment="C" x="390" y="527" width="132" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="您的基因型"/>
+
+        <!-- 参数 -->
+        <text z_order="6101" h_alignment="C" x="136" y="503" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r1"/>
+        <text z_order="6102" h_alignment="C" x="136" y="480" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r2"/>
+        <text z_order="6103" h_alignment="C" x="136" y="456" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r3"/>
+        <text z_order="6104" h_alignment="C" x="136" y="431" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r4"/>
+        <text z_order="6105" h_alignment="C" x="136" y="408" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r5"/>
+        <text z_order="6106" h_alignment="C" x="136" y="383" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r6"/>
+        <text z_order="6107" h_alignment="C" x="136" y="359" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r7"/>
+        <text z_order="6108" h_alignment="C" x="136" y="335" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r8"/>
+        <text z_order="6109" h_alignment="C" x="136" y="312" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r9"/>
+        <text z_order="6110" h_alignment="C" x="136" y="287" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r10"/>
+        <text z_order="6110" h_alignment="C" x="136" y="262" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r11"/>
+        <text z_order="6110" h_alignment="C" x="136" y="237" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r12"/>
+        <text z_order="6110" h_alignment="C" x="136" y="212" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r13"/>
+        <text z_order="6110" h_alignment="C" x="136" y="187" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r14"/>
+        <text z_order="6110" h_alignment="C" x="136" y="162" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r15"/>
+        <text z_order="6110" h_alignment="C" x="136" y="137" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r16"/>
+        <text z_order="6110" h_alignment="C" x="136" y="112" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r17"/>
+        <text z_order="6110" h_alignment="C" x="136" y="87"  width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r18"/>
+
+        <text z_order="6201" h_alignment="C" x="260" y="503" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r1"/>
+        <text z_order="6202" h_alignment="C" x="260" y="480" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r2"/>
+        <text z_order="6203" h_alignment="C" x="260" y="456" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r3"/>
+        <text z_order="6204" h_alignment="C" x="260" y="431" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r4"/>
+        <text z_order="6205" h_alignment="C" x="260" y="408" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r5"/>
+        <text z_order="6206" h_alignment="C" x="260" y="383" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r6"/>
+        <text z_order="6207" h_alignment="C" x="260" y="359" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r7"/>
+        <text z_order="6208" h_alignment="C" x="260" y="335" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r8"/>
+        <text z_order="6209" h_alignment="C" x="260" y="312" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r9"/>
+        <text z_order="6210" h_alignment="C" x="260" y="287" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r10"/>
+        <text z_order="6210" h_alignment="C" x="260" y="262" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r11"/>
+        <text z_order="6210" h_alignment="C" x="260" y="237" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r12"/>
+        <text z_order="6210" h_alignment="C" x="260" y="212" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r13"/>
+        <text z_order="6210" h_alignment="C" x="260" y="187" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r14"/>
+        <text z_order="6210" h_alignment="C" x="260" y="162" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r15"/>
+        <text z_order="6210" h_alignment="C" x="260" y="137" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r16"/>
+        <text z_order="6110" h_alignment="C" x="260" y="112" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r17"/>
+        <text z_order="6110" h_alignment="C" x="260" y="87"  width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r18"/>
+
+        <text z_order="6301" h_alignment="C" x="390" y="503" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r1"/>
+        <text z_order="6302" h_alignment="C" x="390" y="480" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r2"/>
+        <text z_order="6303" h_alignment="C" x="390" y="456" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r3"/>
+        <text z_order="6304" h_alignment="C" x="390" y="431" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r4"/>
+        <text z_order="6305" h_alignment="C" x="390" y="408" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r5"/>
+        <text z_order="6306" h_alignment="C" x="390" y="383" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r6"/>
+        <text z_order="6307" h_alignment="C" x="390" y="359" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r7"/>
+        <text z_order="6308" h_alignment="C" x="390" y="335" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r8"/>
+        <text z_order="6309" h_alignment="C" x="390" y="312" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r9"/>
+        <text z_order="6310" h_alignment="C" x="390" y="287" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r10"/>
+        <text z_order="6310" h_alignment="C" x="390" y="262" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r11"/>
+        <text z_order="6310" h_alignment="C" x="390" y="237" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r12"/>
+        <text z_order="6310" h_alignment="C" x="390" y="212" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r13"/>
+        <text z_order="6310" h_alignment="C" x="390" y="187" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r14"/>
+        <text z_order="6310" h_alignment="C" x="390" y="162" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r15"/>
+        <text z_order="6310" h_alignment="C" x="390" y="137" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r16"/>
+        <text z_order="6110" h_alignment="C" x="390" y="112" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r17"/>
+        <text z_order="6110" h_alignment="C" x="390" y="87"  width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r18"/>
+
+    </page>
+    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="cover">
+
+        <!-- area 4 -->
+        <!-- area 4 -->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 730 miny 705" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>    <!-- rectY-24-->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 680 miny 655" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 630 miny 605" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 580 miny 555" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 530 miny 505" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 480 miny 455" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 430 miny 405" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 380 miny 355" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 330 miny 305" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 280 miny 255" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 230 miny 205" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 180 miny 155" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 130 miny 105" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <!-- rect rect -->
+        <rect z_order="61"  path="maxx 522 minx 70  maxy 755 miny 80 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <!-- vertical line -->
+        <path z_order="62"  path="m 136 755 l 136 80 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 260 755 l 260 80 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 390 755 l 390 80 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- horizon line -->
+        <path z_order="63"  path="m 136 730 l 522 730 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>   <!-- rectY-25-->
+        <path z_order="63"  path="m 136 705 l 522 705 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 680 l 522 680 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 655 l 522 655 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 630 l 522 630 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 605 l 522 605 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 580 l 522 580 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 555 l 522 555 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 530 l 522 530 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 505 l 522 505 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 480 l 522 480 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 455 l 522 455 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 430 l 522 430 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 405 l 522 405 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 380 l 522 380 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 355 l 522 355 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 330 l 522 330 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 305 l 522 305 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 280 l 522 280 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 255 l 522 255 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 230 l 522 230 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 205 l 522 205 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 180 l 522 180 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 155 l 522 155 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 130 l 522 130 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 105 l 522 105 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- first column -->
+        <text z_order="63"  x="80" y="409" width="84" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测结果"/>
+
+        <text z_order="6100" h_alignment="C" x="136" y="733" width="124" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="基因名称"/>  <!-- rectY-22-->
+        <text z_order="6200" h_alignment="C" x="260" y="733" width="130" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="位点名称"/>
+        <text z_order="6300" h_alignment="C" x="390" y="733" width="132" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="您的基因型"/>
+
+        <!-- 参数 -->
+        <text z_order="6101" h_alignment="C" x="136" y="709" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r19"/>
+        <text z_order="6102" h_alignment="C" x="136" y="684" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r20"/>
+        <text z_order="6103" h_alignment="C" x="136" y="659" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r21"/>
+        <text z_order="6104" h_alignment="C" x="136" y="634" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r22"/>
+        <text z_order="6105" h_alignment="C" x="136" y="609" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r23"/>
+        <text z_order="6106" h_alignment="C" x="136" y="584" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r24"/>
+        <text z_order="6107" h_alignment="C" x="136" y="559" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r25"/>
+        <text z_order="6107" h_alignment="C" x="136" y="534" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r26"/>
+        <text z_order="6107" h_alignment="C" x="136" y="509" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r27"/>
+        <text z_order="6107" h_alignment="C" x="136" y="484" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r28"/>
+        <text z_order="6107" h_alignment="C" x="136" y="459" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r29"/>
+        <text z_order="6107" h_alignment="C" x="136" y="434" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r30"/>
+        <text z_order="6107" h_alignment="C" x="136" y="409" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r31"/>
+        <text z_order="6107" h_alignment="C" x="136" y="384" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r32"/>
+        <text z_order="6107" h_alignment="C" x="136" y="359" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r33"/>
+        <text z_order="6107" h_alignment="C" x="136" y="334" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r34"/>
+        <text z_order="6107" h_alignment="C" x="136" y="309" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r35"/>
+        <text z_order="6107" h_alignment="C" x="136" y="284" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r36"/>
+        <text z_order="6107" h_alignment="C" x="136" y="259" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r37"/>
+        <text z_order="6107" h_alignment="C" x="136" y="234" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r38"/>
+        <text z_order="6107" h_alignment="C" x="136" y="209" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r39"/>
+        <text z_order="6107" h_alignment="C" x="136" y="184" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r40"/>
+        <text z_order="6107" h_alignment="C" x="136" y="159" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r41"/>
+        <text z_order="6107" h_alignment="C" x="136" y="134" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r42"/>
+        <text z_order="6107" h_alignment="C" x="136" y="109" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r43"/>
+        <text z_order="6107" h_alignment="C" x="136" y="84"  width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r44"/>
+
+        <text z_order="6201" h_alignment="C" x="260" y="709" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r19"/>
+        <text z_order="6202" h_alignment="C" x="260" y="684" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r20"/>
+        <text z_order="6203" h_alignment="C" x="260" y="659" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r21"/>
+        <text z_order="6204" h_alignment="C" x="260" y="634" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r22"/>
+        <text z_order="6205" h_alignment="C" x="260" y="609" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r23"/>
+        <text z_order="6206" h_alignment="C" x="260" y="584" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r24"/>
+        <text z_order="6207" h_alignment="C" x="260" y="559" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r25"/>
+        <text z_order="6207" h_alignment="C" x="260" y="534" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r26"/>
+        <text z_order="6207" h_alignment="C" x="260" y="509" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r27"/>
+        <text z_order="6207" h_alignment="C" x="260" y="484" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r28"/>
+        <text z_order="6207" h_alignment="C" x="260" y="459" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r29"/>
+        <text z_order="6207" h_alignment="C" x="260" y="434" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r30"/>
+        <text z_order="6207" h_alignment="C" x="260" y="409" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r31"/>
+        <text z_order="6207" h_alignment="C" x="260" y="384" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r32"/>
+        <text z_order="6207" h_alignment="C" x="260" y="359" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r33"/>
+        <text z_order="6207" h_alignment="C" x="260" y="334" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r34"/>
+        <text z_order="6207" h_alignment="C" x="260" y="309" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r35"/>
+        <text z_order="6207" h_alignment="C" x="260" y="284" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r36"/>
+        <text z_order="6207" h_alignment="C" x="260" y="259" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r37"/>
+        <text z_order="6207" h_alignment="C" x="260" y="234" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r38"/>
+        <text z_order="6207" h_alignment="C" x="260" y="209" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r39"/>
+        <text z_order="6207" h_alignment="C" x="260" y="184" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r40"/>
+        <text z_order="6207" h_alignment="C" x="260" y="159" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r41"/>
+        <text z_order="6207" h_alignment="C" x="260" y="134" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r42"/>
+        <text z_order="6207" h_alignment="C" x="260" y="109" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r43"/>
+        <text z_order="6207" h_alignment="C" x="260" y="84"  width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r44"/>
+
+        <text z_order="6301" h_alignment="C" x="390" y="709" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r19"/>
+        <text z_order="6302" h_alignment="C" x="390" y="684" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r20"/>
+        <text z_order="6303" h_alignment="C" x="390" y="659" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r21"/>
+        <text z_order="6304" h_alignment="C" x="390" y="634" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r22"/>
+        <text z_order="6305" h_alignment="C" x="390" y="609" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r23"/>
+        <text z_order="6306" h_alignment="C" x="390" y="584" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r24"/>
+        <text z_order="6307" h_alignment="C" x="390" y="559" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r25"/>
+        <text z_order="6307" h_alignment="C" x="390" y="534" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r26"/>
+        <text z_order="6307" h_alignment="C" x="390" y="509" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r27"/>
+        <text z_order="6307" h_alignment="C" x="390" y="484" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r28"/>
+        <text z_order="6307" h_alignment="C" x="390" y="459" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r29"/>
+        <text z_order="6307" h_alignment="C" x="390" y="434" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r30"/>
+        <text z_order="6307" h_alignment="C" x="390" y="409" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r31"/>
+        <text z_order="6307" h_alignment="C" x="390" y="384" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r32"/>
+        <text z_order="6307" h_alignment="C" x="390" y="359" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r33"/>
+        <text z_order="6307" h_alignment="C" x="390" y="334" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r34"/>
+        <text z_order="6307" h_alignment="C" x="390" y="309" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r35"/>
+        <text z_order="6307" h_alignment="C" x="390" y="284" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r36"/>
+        <text z_order="6307" h_alignment="C" x="390" y="259" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r37"/>
+        <text z_order="6307" h_alignment="C" x="390" y="234" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r38"/>
+        <text z_order="6307" h_alignment="C" x="390" y="209" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r39"/>
+        <text z_order="6307" h_alignment="C" x="390" y="184" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r40"/>
+        <text z_order="6307" h_alignment="C" x="390" y="159" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r41"/>
+        <text z_order="6307" h_alignment="C" x="390" y="134" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r42"/>
+        <text z_order="6307" h_alignment="C" x="390" y="109" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r43"/>
+        <text z_order="6307" h_alignment="C" x="390" y="84"  width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r44"/>
+    </page>
+    <page z_order="2" catalog="-1 0" page_header="false" page_number="false" type="cover">
+
+        <!-- area 4 -->
+        <!-- area 4 -->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 730 miny 705" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>    <!-- rectY-24-->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 680 miny 655" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 630 miny 605" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 580 miny 555" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 530 miny 505" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 480 miny 455" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 430 miny 405" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 380 miny 355" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 330 miny 305" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 280 miny 255" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 230 miny 205" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 180 miny 155" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 130 miny 105" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <!-- rect rect -->
+        <rect z_order="61"  path="maxx 522 minx 70  maxy 755 miny 80 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <!-- vertical line -->
+        <path z_order="62"  path="m 136 755 l 136 80 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 260 755 l 260 80 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 390 755 l 390 80 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- horizon line -->
+        <path z_order="63"  path="m 136 730 l 522 730 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>   <!-- rectY-25-->
+        <path z_order="63"  path="m 136 705 l 522 705 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 680 l 522 680 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 655 l 522 655 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 630 l 522 630 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 605 l 522 605 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 580 l 522 580 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 555 l 522 555 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 530 l 522 530 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 505 l 522 505 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 480 l 522 480 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 455 l 522 455 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 430 l 522 430 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 405 l 522 405 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 380 l 522 380 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 355 l 522 355 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 330 l 522 330 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 305 l 522 305 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 280 l 522 280 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 255 l 522 255 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 230 l 522 230 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 205 l 522 205 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 180 l 522 180 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 155 l 522 155 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 130 l 522 130 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 105 l 522 105 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- first column -->
+        <text z_order="63"  x="80" y="409" width="84" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测结果"/>
+
+        <text z_order="6100" h_alignment="C" x="136" y="733" width="124" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="基因名称"/>  <!-- rectY-22-->
+        <text z_order="6200" h_alignment="C" x="260" y="733" width="130" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="位点名称"/>
+        <text z_order="6300" h_alignment="C" x="390" y="733" width="132" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="您的基因型"/>
+
+        <!-- 参数 -->
+        <text z_order="6101" h_alignment="C" x="136" y="709" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r45"/>
+        <text z_order="6102" h_alignment="C" x="136" y="684" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r46"/>
+        <text z_order="6103" h_alignment="C" x="136" y="659" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r47"/>
+        <text z_order="6104" h_alignment="C" x="136" y="634" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r48"/>
+        <text z_order="6105" h_alignment="C" x="136" y="609" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r49"/>
+        <text z_order="6106" h_alignment="C" x="136" y="584" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r50"/>
+        <text z_order="6107" h_alignment="C" x="136" y="559" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r51"/>
+        <text z_order="6107" h_alignment="C" x="136" y="534" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r52"/>
+        <text z_order="6107" h_alignment="C" x="136" y="509" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r53"/>
+        <text z_order="6107" h_alignment="C" x="136" y="484" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r54"/>
+        <text z_order="6107" h_alignment="C" x="136" y="459" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r55"/>
+        <text z_order="6107" h_alignment="C" x="136" y="434" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r56"/>
+        <text z_order="6107" h_alignment="C" x="136" y="409" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r57"/>
+        <text z_order="6107" h_alignment="C" x="136" y="384" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r58"/>
+        <text z_order="6107" h_alignment="C" x="136" y="359" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r59"/>
+        <text z_order="6107" h_alignment="C" x="136" y="334" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r60"/>
+        <text z_order="6107" h_alignment="C" x="136" y="309" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r61"/>
+        <text z_order="6107" h_alignment="C" x="136" y="284" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r62"/>
+        <text z_order="6107" h_alignment="C" x="136" y="259" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r63"/>
+        <text z_order="6107" h_alignment="C" x="136" y="234" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r64"/>
+        <text z_order="6107" h_alignment="C" x="136" y="209" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r65"/>
+        <text z_order="6107" h_alignment="C" x="136" y="184" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r66"/>
+        <text z_order="6107" h_alignment="C" x="136" y="159" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r67"/>
+        <text z_order="6107" h_alignment="C" x="136" y="134" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r68"/>
+        <text z_order="6107" h_alignment="C" x="136" y="109" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r69"/>
+        <text z_order="6107" h_alignment="C" x="136" y="84"  width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r70"/>
+
+        <text z_order="6201" h_alignment="C" x="260" y="709" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r45"/>
+        <text z_order="6202" h_alignment="C" x="260" y="684" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r46"/>
+        <text z_order="6203" h_alignment="C" x="260" y="659" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r47"/>
+        <text z_order="6204" h_alignment="C" x="260" y="634" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r48"/>
+        <text z_order="6205" h_alignment="C" x="260" y="609" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r49"/>
+        <text z_order="6206" h_alignment="C" x="260" y="584" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r50"/>
+        <text z_order="6207" h_alignment="C" x="260" y="559" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r51"/>
+        <text z_order="6207" h_alignment="C" x="260" y="534" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r52"/>
+        <text z_order="6207" h_alignment="C" x="260" y="509" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r53"/>
+        <text z_order="6207" h_alignment="C" x="260" y="484" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r54"/>
+        <text z_order="6207" h_alignment="C" x="260" y="459" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r55"/>
+        <text z_order="6207" h_alignment="C" x="260" y="434" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r56"/>
+        <text z_order="6207" h_alignment="C" x="260" y="409" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r57"/>
+        <text z_order="6207" h_alignment="C" x="260" y="384" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r58"/>
+        <text z_order="6207" h_alignment="C" x="260" y="359" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r59"/>
+        <text z_order="6207" h_alignment="C" x="260" y="334" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r60"/>
+        <text z_order="6207" h_alignment="C" x="260" y="309" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r61"/>
+        <text z_order="6207" h_alignment="C" x="260" y="284" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r62"/>
+        <text z_order="6207" h_alignment="C" x="260" y="259" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r63"/>
+        <text z_order="6207" h_alignment="C" x="260" y="234" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r64"/>
+        <text z_order="6207" h_alignment="C" x="260" y="209" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r65"/>
+        <text z_order="6207" h_alignment="C" x="260" y="184" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r66"/>
+        <text z_order="6207" h_alignment="C" x="260" y="159" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r67"/>
+        <text z_order="6207" h_alignment="C" x="260" y="134" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r68"/>
+        <text z_order="6207" h_alignment="C" x="260" y="109" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r69"/>
+        <text z_order="6207" h_alignment="C" x="260" y="84"  width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r70"/>
+
+        <text z_order="6301" h_alignment="C" x="390" y="709" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r45"/>
+        <text z_order="6302" h_alignment="C" x="390" y="684" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r46"/>
+        <text z_order="6303" h_alignment="C" x="390" y="659" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r47"/>
+        <text z_order="6304" h_alignment="C" x="390" y="634" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r48"/>
+        <text z_order="6305" h_alignment="C" x="390" y="609" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r49"/>
+        <text z_order="6306" h_alignment="C" x="390" y="584" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r50"/>
+        <text z_order="6307" h_alignment="C" x="390" y="559" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r51"/>
+        <text z_order="6307" h_alignment="C" x="390" y="534" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r52"/>
+        <text z_order="6307" h_alignment="C" x="390" y="509" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r53"/>
+        <text z_order="6307" h_alignment="C" x="390" y="484" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r54"/>
+        <text z_order="6307" h_alignment="C" x="390" y="459" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r55"/>
+        <text z_order="6307" h_alignment="C" x="390" y="434" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r56"/>
+        <text z_order="6307" h_alignment="C" x="390" y="409" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r57"/>
+        <text z_order="6307" h_alignment="C" x="390" y="384" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r58"/>
+        <text z_order="6307" h_alignment="C" x="390" y="359" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r59"/>
+        <text z_order="6307" h_alignment="C" x="390" y="334" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r60"/>
+        <text z_order="6307" h_alignment="C" x="390" y="309" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r61"/>
+        <text z_order="6307" h_alignment="C" x="390" y="284" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r62"/>
+        <text z_order="6307" h_alignment="C" x="390" y="259" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r63"/>
+        <text z_order="6307" h_alignment="C" x="390" y="234" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r64"/>
+        <text z_order="6307" h_alignment="C" x="390" y="209" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r65"/>
+        <text z_order="6307" h_alignment="C" x="390" y="184" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r66"/>
+        <text z_order="6307" h_alignment="C" x="390" y="159" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r67"/>
+        <text z_order="6307" h_alignment="C" x="390" y="134" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r68"/>
+        <text z_order="6307" h_alignment="C" x="390" y="109" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r69"/>
+        <text z_order="6307" h_alignment="C" x="390" y="84"  width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r70"/>
+    </page>
+    <page z_order="3" catalog="-1 0" page_header="false" page_number="false" type="cover">
+
+        <!-- area 4 -->
+        <!-- area 4 -->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 730 miny 705" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>    <!-- rectY-24-->
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 680 miny 655" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 630 miny 605" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 580 miny 555" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 530 miny 505" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 480 miny 455" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 430 miny 405" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 380 miny 355" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 330 miny 305" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <rect z_order="60"  path="maxx 522 minx 136 maxy 280 miny 255" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
+        <!-- rect rect -->
+        <rect z_order="61"  path="maxx 522 minx 70  maxy 755 miny 230 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <!-- vertical line -->
+        <path z_order="62"  path="m 136 755 l 136 230 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 260 755 l 260 230 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 390 755 l 390 230 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- horizon line -->
+        <path z_order="63"  path="m 136 730 l 522 730 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>   <!-- rectY-25-->
+        <path z_order="63"  path="m 136 705 l 522 705 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 680 l 522 680 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 655 l 522 655 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 630 l 522 630 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 605 l 522 605 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 580 l 522 580 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 555 l 522 555 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 530 l 522 530 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 505 l 522 505 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 480 l 522 480 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 455 l 522 455 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 430 l 522 430 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 405 l 522 405 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 380 l 522 380 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 355 l 522 355 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 330 l 522 330 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 305 l 522 305 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 280 l 522 280 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="63"  path="m 136 255 l 522 255 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- first column -->
+        <text z_order="63"  x="80" y="484" width="84" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测结果"/>
+
+        <text z_order="6100" h_alignment="C" x="136" y="733" width="124" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="基因名称"/>  <!-- rectY-22-->
+        <text z_order="6200" h_alignment="C" x="260" y="733" width="130" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="位点名称"/>
+        <text z_order="6300" h_alignment="C" x="390" y="733" width="132" font="fzlthjw" font_size="12" color="#545454" bold="" italic="" underline="" value="您的基因型"/>
+
+        <!-- 参数 -->
+        <text z_order="6101" h_alignment="C" x="136" y="709" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r71"/>
+        <text z_order="6102" h_alignment="C" x="136" y="684" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r72"/>
+        <text z_order="6103" h_alignment="C" x="136" y="659" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r73"/>
+        <text z_order="6104" h_alignment="C" x="136" y="634" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r74"/>
+        <text z_order="6105" h_alignment="C" x="136" y="609" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r75"/>
+        <text z_order="6106" h_alignment="C" x="136" y="584" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r76"/>
+        <text z_order="6107" h_alignment="C" x="136" y="559" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r77"/>
+        <text z_order="6107" h_alignment="C" x="136" y="534" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r78"/>
+        <text z_order="6107" h_alignment="C" x="136" y="509" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r79"/>
+        <text z_order="6107" h_alignment="C" x="136" y="484" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r80"/>
+        <text z_order="6107" h_alignment="C" x="136" y="459" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r81"/>
+        <text z_order="6107" h_alignment="C" x="136" y="434" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r82"/>
+        <text z_order="6107" h_alignment="C" x="136" y="409" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r83"/>
+        <text z_order="6107" h_alignment="C" x="136" y="384" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r84"/>
+        <text z_order="6107" h_alignment="C" x="136" y="359" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r85"/>
+        <text z_order="6107" h_alignment="C" x="136" y="334" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r86"/>
+        <text z_order="6107" h_alignment="C" x="136" y="309" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r87"/>
+        <text z_order="6107" h_alignment="C" x="136" y="284" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r88"/>
+        <text z_order="6107" h_alignment="C" x="136" y="259" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r89"/>
+        <text z_order="6107" h_alignment="C" x="136" y="234" width="124" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c1r90"/>
+
+        <text z_order="6201" h_alignment="C" x="260" y="709" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r71"/>
+        <text z_order="6202" h_alignment="C" x="260" y="684" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r72"/>
+        <text z_order="6203" h_alignment="C" x="260" y="659" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r73"/>
+        <text z_order="6204" h_alignment="C" x="260" y="634" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r74"/>
+        <text z_order="6205" h_alignment="C" x="260" y="609" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r75"/>
+        <text z_order="6206" h_alignment="C" x="260" y="584" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r76"/>
+        <text z_order="6207" h_alignment="C" x="260" y="559" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r77"/>
+        <text z_order="6207" h_alignment="C" x="260" y="534" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r78"/>
+        <text z_order="6207" h_alignment="C" x="260" y="509" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r79"/>
+        <text z_order="6207" h_alignment="C" x="260" y="484" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r80"/>
+        <text z_order="6207" h_alignment="C" x="260" y="459" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r81"/>
+        <text z_order="6207" h_alignment="C" x="260" y="434" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r82"/>
+        <text z_order="6207" h_alignment="C" x="260" y="409" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r83"/>
+        <text z_order="6207" h_alignment="C" x="260" y="384" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r84"/>
+        <text z_order="6207" h_alignment="C" x="260" y="359" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r85"/>
+        <text z_order="6207" h_alignment="C" x="260" y="334" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r86"/>
+        <text z_order="6207" h_alignment="C" x="260" y="309" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r87"/>
+        <text z_order="6207" h_alignment="C" x="260" y="284" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r88"/>
+        <text z_order="6207" h_alignment="C" x="260" y="259" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r89"/>
+        <text z_order="6207" h_alignment="C" x="260" y="234" width="130" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c2r90"/>
+
+        <text z_order="6301" h_alignment="C" x="390" y="709" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r71"/>
+        <text z_order="6302" h_alignment="C" x="390" y="684" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r72"/>
+        <text z_order="6303" h_alignment="C" x="390" y="659" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r73"/>
+        <text z_order="6304" h_alignment="C" x="390" y="634" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r74"/>
+        <text z_order="6305" h_alignment="C" x="390" y="609" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r75"/>
+        <text z_order="6306" h_alignment="C" x="390" y="584" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r76"/>
+        <text z_order="6307" h_alignment="C" x="390" y="559" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r77"/>
+        <text z_order="6307" h_alignment="C" x="390" y="534" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r78"/>
+        <text z_order="6307" h_alignment="C" x="390" y="509" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r79"/>
+        <text z_order="6307" h_alignment="C" x="390" y="484" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r80"/>
+        <text z_order="6307" h_alignment="C" x="390" y="459" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r81"/>
+        <text z_order="6307" h_alignment="C" x="390" y="434" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r82"/>
+        <text z_order="6307" h_alignment="C" x="390" y="409" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r83"/>
+        <text z_order="6307" h_alignment="C" x="390" y="384" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r84"/>
+        <text z_order="6307" h_alignment="C" x="390" y="359" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r85"/>
+        <text z_order="6307" h_alignment="C" x="390" y="334" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r86"/>
+        <text z_order="6307" h_alignment="C" x="390" y="309" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r87"/>
+        <text z_order="6307" h_alignment="C" x="390" y="284" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r88"/>
+        <text z_order="6307" h_alignment="C" x="390" y="259" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r89"/>
+        <text z_order="6307" h_alignment="C" x="390" y="234" width="132" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="$c3r90"/>
+
+        <!-- area 5 -->
+        <!-- area 5 -->
+        <rect z_order="50"  path="maxx 522 minx 70  maxy 225 miny 145 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <path z_order="51"  path="m 136 225 l 136 145 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="52"  x="80"  y="175" width="84"  font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测机构"/>
+        <text z_order="52"  x="256" y="175" width="348" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="北京市理化分析测试中心"/>
+
+        <!-- 参数 -->
+        <image z_order="53" id="cover" type="png" x="300" y="135"  height="92" width="147" url="$beiJingLiHuaCenter"/>
+    </page>
+</pdf>

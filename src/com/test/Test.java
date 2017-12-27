@@ -26,5 +26,41 @@ public class Test {
 //        System.out.println(Integer.MAX_VALUE);
 //
         System.out.println("12345678901".matches("^[\\d]{11,11}$"));
+
+
+
+
+        Object[][] dest  = new Object[3][3];
+        Object[][] src   = new Object[][]{
+            {"A", "B", "C"},
+            {1, 2, 3},
+            {null, null, true},
+        };
+        int destIdx = 0;
+        for (int i=0; i<src.length; i ++) {
+            if (null==src[i][0]) { continue; }
+            System.arraycopy(src[i], 0, dest[destIdx], 0, 3);
+            destIdx ++;
+        }
+        Object[][] dest2  = new Object[destIdx][3];
+        System.arraycopy(dest, 0, dest2, 0, destIdx);
+        System.out.println(destIdx);
+        System.out.println(dest);
+        src[0][0] = "aaa";
+        System.out.println(dest);
+
+
+
+        int start = 480;
+        int step  = -25;
+
+        for (int i=0; i < 90; i++) {
+            if (i < 10) {
+                System.out.println("==0" + i + "==>" + (start + step * i));
+            }
+            else {
+                System.out.println("==" + i + "==>" + (start + step * i));
+            }
+        }
     }
 }

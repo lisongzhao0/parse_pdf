@@ -10,7 +10,7 @@ public class ReadYuanMengProduct {
     public static void main(String[] args) {
         OfficeFileUtil officeFile = OfficeFileUtil.newInstance();
 
-        Workbook workbook = officeFile.getExcel("/Users/zhaolisong/Downloads/远盟/套餐名称和检测位点信息（2017-12-07 邮件）.xlsx");
+        Workbook workbook = officeFile.getExcel("/Users/zhaolisong/Downloads/远盟/20171215-邮件/90模板-男女.xlsx");
         int sheetSize = officeFile.getExcelSheetSize(workbook);
         for (int i = 0; i < sheetSize; i ++) {
             Sheet sheet = officeFile.getExcelSheet(workbook, i);
@@ -21,60 +21,54 @@ public class ReadYuanMengProduct {
             Object[][] cells = officeFile.getExcelArea(sheet, rowColumnStartEnd[0], rowColumnStartEnd[1], rowColumnStartEnd[2], rowColumnStartEnd[3]);
 
 
-            String col1 = null;
-            String col2 = null;
-            String col3 = null;
-            String col4 = null;
-            String col5 = null;
-            boolean rowNotNull = false;
-            StringBuilder row = new StringBuilder();
+            String col1 = null, col2 = null, col3 = null, col4 = null, col5 = null;
+            boolean rowNotNull       = false;
+            StringBuilder row        = new StringBuilder();
+            String[]      rowCopy    = new String[cells[0].length];
+            String[]      rowPreCopy = new String[cells[0].length];
             for (int r = 0; r < cells.length; r ++) {
                 rowNotNull = false;
                 for (int c = 0; c < cells[0].length; c ++) {
                     Object val = cells[r][c];
                     rowNotNull = rowNotNull || (null!=val);
-                    if (null!=cells[r][c] && c==0) {
-                        col1 = (String)cells[r][c];
-                    }
-                    if (null!=cells[r][c] && c==1) {
-                        col2 = (String)cells[r][c];
-                    }
-                    if (null!=cells[r][c] && c==2) {
-                        col3 = (String)cells[r][c];
-                    }
-                    if (null!=cells[r][c] && c==3) {
-                        col4 = (String)cells[r][c];
-                    }
-                    if (null!=cells[r][c] && c==4) {
-                        col5 = (String)cells[r][c];
-                    }
+                    if (null!=cells[r][c] && c==0) { col1 = (String)cells[r][c]; }
+                    if (null!=cells[r][c] && c==1) { col2 = (String)cells[r][c]; }
+                    if (null!=cells[r][c] && c==2) { col3 = (String)cells[r][c]; }
+                    if (null!=cells[r][c] && c==3) { col4 = (String)cells[r][c]; }
+                    if (null!=cells[r][c] && c==4) { col5 = (String)cells[r][c]; }
                     if (null==val) {
-                        if (c==0) {
-                            val = col1;
-                        }
-                        if (c==1) {
-                            val = col2;
-                        }
-                        if (c==2) {
-                            val = col3;
-                        }
-                        if (c==3) {
-                            val = col4;
-                        }
-                        if (c==4) {
-                            val = col5;
-                        }
+                        val = rowPreCopy[c];
                     }
+                    if (null!=col4 && null!=rowPreCopy[3] && !col4.equals(rowPreCopy[3]) &&
+                        null!=col5 && null!=rowPreCopy[4] && !col5.equals(rowPreCopy[4])) {
+                        StringBuilder tmp = new StringBuilder();
+                        String        tmpV= null;
+                        for (int idx = 0; idx < rowPreCopy.length; idx++) {
+                            tmpV = rowPreCopy[idx];
+                            if (idx==5) { tmpV = "0"; }
+                            if (idx==6) { tmpV = "--"; }
+                            if (idx==7) { tmpV = "--"; }
+                            if (idx==8) { tmpV = "1.0"; }
+                            tmp.append("["+tmpV+"]");
+                            rowPreCopy[idx] = null;
+                        }
+                        System.out.println(tmp);
+                    }
+
+                    String cv = "N/A";
                     if (null!=val) {
-                        row.append("[" + val.toString().replace("\n", "") + "]");
+                        cv = val.toString().replace("\n", "").trim();
                     }
-                    else {
-                        row.append("[N/A]");
-                    }
+                    row.append("["+cv+"]");
+
+                    rowCopy[c] = cv;
                 }
                 if (rowNotNull) {
                     System.out.println(row.toString());
+                    System.arraycopy(rowCopy, 0, rowPreCopy, 0, rowCopy.length);
                 }
+
+                col1 = col2 = col3 = col4 = col5 = null;
                 row.setLength(0);
             }
             System.out.println("\n\n\n\n\n");
