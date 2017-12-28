@@ -236,12 +236,12 @@
 
         <!-- area 5 -->
         <!-- area 5 -->
-        <rect z_order="50"  path="maxx 522 minx 70  maxy 325 miny 245 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
-        <path z_order="51"  path="m 136 325 l 136 245 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
-        <text z_order="52"  x="80"  y="275" width="84"  font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测机构"/>
-        <text z_order="52"  x="256" y="275" width="348" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="北京市理化分析测试中心"/>
+        <rect z_order="50"  path="maxx 522 minx 70  maxy 400 miny 320 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <path z_order="51"  path="m 136 400 l 136 320 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="52"  x="80"  y="350" width="84"  font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="检测机构"/>
+        <text z_order="52"  x="256" y="350" width="348" font="fzltxh_gbk" font_size="11" color="#545454" bold="" italic="" underline="" value="北京市理化分析测试中心"/>
 
         <!-- 参数 -->
-        <image z_order="53" id="cover" type="png" x="295" y="240"  height="92" width="147" url="$beiJingLiHuaCenter"/>
+        <image z_order="53" id="cover" type="png" x="295" y="315"  height="92" width="147" url="$beiJingLiHuaCenter"/>
     </page>
 </pdf>
