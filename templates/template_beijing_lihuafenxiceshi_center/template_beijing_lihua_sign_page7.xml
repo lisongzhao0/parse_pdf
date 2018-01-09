@@ -58,11 +58,11 @@
         <rect z_order="60"  path="maxx 522 minx 136 maxy 429 miny 405" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
         <rect z_order="60"  path="maxx 522 minx 136 maxy 381 miny 357" border_margin="0 0 0 0" border_width="0" border_color="" opacity="1" fill_color="#e8e8e8"/>
         <!-- rect rect -->
-        <rect z_order="61"  path="maxx 522 minx 70  maxy 549 miny 360 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+        <rect z_order="61"  path="maxx 522 minx 70  maxy 549 miny 357 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
         <!-- vertical line -->
-        <path z_order="62"  path="m 136 549 l 136 360 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
-        <path z_order="62"  path="m 260 549 l 260 360 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
-        <path z_order="62"  path="m 390 549 l 390 360 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 136 549 l 136 357 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 260 549 l 260 357 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="62"  path="m 390 549 l 390 357 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
         <!-- horizon line -->
         <path z_order="63"  path="m 136 525 l 522 525 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
         <path z_order="63"  path="m 136 501 l 522 501 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>

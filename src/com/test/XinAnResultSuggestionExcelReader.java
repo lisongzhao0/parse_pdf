@@ -64,55 +64,55 @@ public class XinAnResultSuggestionExcelReader {
                     tmp.append(detail);
                 }
                 else if (c==0) {
-                    if (r==0) { tmp.append("组编号").append('\t'); }
+                    if (r==0) { tmp.append("组编号").append('\t').append("|").append('\t'); }
                     else {
-                        if (null!=groupChange && groupChange) { tmp.append(groupIndex).append('\t'); groupChange=null; }
-                        else { tmp.append("").append('\t'); }
+                        if (null!=groupChange && groupChange) { tmp.append(groupIndex).append('\t').append("|").append('\t'); groupChange=null; }
+                        else { tmp.append("").append('\t').append("|").append('\t'); }
                     }
 
-                    tmp.append(cells[r][c].toString()).append('\t');
+                    tmp.append(cells[r][c].toString()).append('\t').append("|").append('\t');
 
                     XSSFCellStyle cellStyle8= (XSSFCellStyle) cells[r][c].getCellStyle();
                     byte[]        rgb8      = null==cellStyle8.getFillForegroundColorColor() ? null : ((XSSFColor)cellStyle8.getFillForegroundColorColor()).getRGB();
                     String        color8    = null==rgb8 ? null : colorUtil.parseColor(rgb8);
                     if (null==rgb8) {
                         if (r!=0) {
-                            tmp.append(DEFAULT_COLOR).append('\t');
+                            tmp.append(DEFAULT_COLOR).append('\t').append("|").append('\t');
                         }
                         else {
-                            tmp.append("编号颜色").append('\t');
+                            tmp.append("编号颜色").append('\t').append("|").append('\t');
                         }
                     }
                     else {
-                        tmp.append(color8).append('\t');
+                        tmp.append(color8).append('\t').append("|").append('\t');
                     }
                 }
                 else if (c==1) {
                     String sug = cells[r][c].toString();
-                    tmp.append(sug).append('\t');
+                    tmp.append(sug).append('\t').append("|").append('\t');
 
                     XSSFCellStyle cellStyle8= (XSSFCellStyle) cells[r][c].getCellStyle();
                     byte[]        rgb8      = null==cellStyle8.getFillForegroundColorColor() ? null : ((XSSFColor)cellStyle8.getFillForegroundColorColor()).getRGB();
                     String        color8    = null==rgb8 ? null : colorUtil.parseColor(rgb8);
                     if (null==rgb8) {
                         if (r==0) {
-                            tmp.append("用药建议颜色").append('\t');
+                            tmp.append("用药建议颜色").append('\t').append("|").append('\t');
                         }
                         else {
                             if (!stringUtil.isEmpty(sug)) {
-                                tmp.append(DEFAULT_COLOR).append('\t');
+                                tmp.append(DEFAULT_COLOR).append('\t').append("|").append('\t');
                             }
                             else {
-                                tmp.append("").append('\t');
+                                tmp.append("").append('\t').append("|").append('\t');
                             }
                         }
                     }
                     else {
                         if (!stringUtil.isEmpty(sug)) {
-                            tmp.append(color8).append('\t');
+                            tmp.append(color8).append('\t').append("|").append('\t');
                         }
                         else {
-                            tmp.append("").append('\t');
+                            tmp.append("").append('\t').append("|").append('\t');
                         }
                     }
                 }

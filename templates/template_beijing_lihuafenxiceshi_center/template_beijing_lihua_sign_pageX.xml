@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+
+    <!--*****************************************************************************************-->
+    <!--****************************************  封面  ******************************************-->
+    <!--******   112 168 68     84 84 84     232 232 232          *********-->
+    <!--*****************************************************************************************-->
+    <page z_order="0" catalog="-1 0" page_header="false" page_number="false" type="cover">
+        <text z_order="10" font="fzltchjw" font_size="30" color="#70a844" bold="" italic="" underline="" x="125" y="685" width="345" value="北京市理化分析测试中心"/>
+        <text z_order="11" font="fzltchjw" font_size="30" color="#70a844" bold="" italic="" underline="" x="230" y="642" width="490" value="检测结果"/>
+
+        <!-- area 1 -->
+        <!-- area 1 -->
+        <!--<rect z_order="20"  path="maxx 226 minx 70  maxy 612 miny 585 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <text z_order="21"  x="80"  y="588" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="样本编码"/>
+        <!-- area 1-1 -->
+        <!-- area 1-1 -->
+        <!--<rect z_order="20"  path="maxx 532 minx 230  maxy 612 miny 585 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <text z_order="21"  x="250"  y="588" width="84"  font="fzltchjw"   font_size="12" color="#545454" bold="" italic="" underline="" value="样本类型"/>
+
+        <!-- 参数 -->
+        <text z_order="22"  x="146" y="590" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$id"/>
+        <!-- 参数 1-1 -->
+        <text z_order="23"  x="341" y="590" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="口腔拭子"/>
+        <text z_order="23"  x="404" y="590" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="唾液"/>
+        <text z_order="23"  x="450" y="590" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="血卡"/>
+        <text z_order="23"  x="496" y="590" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="静脉血"/>
+        <image z_order="24" id="cover" type="png" x="324" y="591"  height="13" width="13" url="$oralSwab"/>
+        <image z_order="25" id="cover" type="png" x="387" y="591"  height="13" width="13" url="$saliva"/>
+        <image z_order="26" id="cover" type="png" x="433" y="591"  height="13" width="13" url="$bloodCard"/>
+        <image z_order="27" id="cover" type="png" x="479" y="591"  height="13" width="13" url="$venousBlood"/>
+
+        <!-- area 2 -->
+        <!-- area 2 -->
+        <!--<rect z_order="30"  path="maxx 226 minx 70  maxy 581 miny 554 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <!--<rect z_order="30"  path="maxx 532 minx 230 maxy 581 miny 554 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <text z_order="32"  x="80"  y="557" width="84" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="接收日期"/>
+        <text z_order="32"  x="250" y="557" width="120" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="完成日期"/>
+
+        <!-- 参数 -->
+        <text z_order="33"  x="146" y="559" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$receiveDate"/>
+        <text z_order="34"  x="324" y="559" width="150" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$completeDate"/>
+
+        <!-- area 3 -->
+        <!-- area 3 -->
+        <!--<rect z_order="40"  path="maxx 226 minx 70  maxy 550 miny 523 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <!--<rect z_order="40"  path="maxx 532 minx 230 maxy 550 miny 523 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <text z_order="42"  x="80"  y="526" width="84" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测项目"/>
+        <text z_order="42"  x="250" y="526" width="120" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="送检单位"/>
+
+        <!-- 参数 -->
+        <text z_order="43"  x="146" y="528" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$program"/>
+        <text z_order="44"  x="324" y="528" width="150" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="远盟康健科技有限公司"/>
+
+        <!-- area 4 -->
+        <!-- area 4 -->
+        <!--<rect z_order="50"  path="maxx 226 minx 70  maxy 519 miny 492 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <!--<rect z_order="50"  path="maxx 532 minx 230 maxy 519 miny 492 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <text z_order="52"  x="80"  y="495" width="84" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测技术"/>
+        <text z_order="52"  x="250" y="495" width="120" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测项目"/>
+
+        <!-- 参数 -->
+        <text z_order="53"  x="146" y="497" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$technology"/>
+        <text z_order="54"  x="324" y="497" width="150" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$program"/>
+
+
+        <!-- area 5 -->
+        <text z_order="60"  x="80"  y="433" width="84" font="fzltchjw" font_size="12" color="#70a844" bold="" italic="" underline="" value="免责声明："/>
+        <paragraph z_order="62" line_leading="1.6" font="fzltxh_gbk" color="#000000" font_size="9" x="95" y="432" width="433" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+<![CDATA[
+鉴于基因的复杂性及科研水平局限性，本产品并不能检测所有突变位点并提供完整的遗传信息；<br/>
+本产品中疾病易感性是产品所涵盖疾病的遗传易感性风险评估。分析结果中具有较高风险的人不一定必然得病，分析结果风险相对较低的人也仍存在患病可能。风险评估检测不是确定的诊断检测。不能使用本报告进行疾病的诊断或治疗；<br/>
+报告中给出的疾病遗传易感性风险评估，需要结合家族史、个人健康状况等信息，由遗传解读师或医生，共同给出针对您个人的综合建议；<br/>
+鉴于当前检测技术水平的限制和受检者个体差异等原因：1）单次检测的结果仍可能出现小概率的假阳性或假阴性，2）本检测结果仅针对分型成功的位点进行解读；<br/>
+本检测的结果不是临床诊断结果，本检测服务仅为遗传筛查、临床诊断、治疗和预防提供参考；<br/>
+本检测机构只对受检样本和检测结果的一致性负责。
+]]>
+        </paragraph>
+        <paragraph z_order="61" line_leading="1.6" font="fzltxh_gbk" color="#000000" font_size="9" x="80" y="432" width="448" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+<![CDATA[
+1. <br/>
+2. <br/><br/><br/>
+3. <br/><br/>
+4. <br/><br/>
+5. <br/>
+6. <br/>
+]]>
+        </paragraph>>
+
+        <!-- area 6 -->
+        <!-- area 6 -->
+        <!--<rect z_order="70"  path="maxx 522 minx 70  maxy 130 miny 50 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>-->
+        <text z_order="72"  x="312"  y="80" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测机构"/>
+        <path z_order="70"  path="m 376 82 l 540 82 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="72"  x="396" y="82" width="348" font="fzltxh_gbk" font_size="10" color="#545454" bold="" italic="" underline="" value="北京市理化分析测试中心"/>
+
+        <!-- 参数 -->
+        <image z_order="73" id="cover" type="png" x="420" y="30"  height="92" width="147" url="$beiJingLiHuaCenter"/>
+
+    </page>
+</pdf>

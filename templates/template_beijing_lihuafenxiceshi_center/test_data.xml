@@ -14,20 +14,46 @@
         <parameter id="venousBlood" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/rect.png"/>
         <parameter id="program"    value="基因位点检测"/>
         <parameter id="technology" value="核酸质谱SNP分析"/>
+        <parameter id="receiveDate" value="20170905"/>
+        <parameter id="completeDate" value="20170912"/>
         <parameter id="beiJingLiHuaCenter" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/beijing_yuan_ma.png"/>
 
-        <parameter id="c1r1" value="MGMT"/>
-        <parameter id="c1r2" value="EGFR"/>
-        <parameter id="c1r3" value="PLCE1"/>
-        <parameter id="c1r4" value="PROM1"/>
-        <parameter id="c1r5" value="STAT4"/>
-        <parameter id="c1r6" value="KIF1B"/>
-        <parameter id="c1r7" value="SMAD7"/>
-        <parameter id="c1r8" value="TPD52L3||UHRF2"/>
-        <parameter id="c1r9" value="BRCA2"/>
-        <parameter id="c1r10" value="10-TAB2"/>
-        <parameter id="c1r11" value="11-TPD52L3||UHRF2"/>
-        <parameter id="c1r12" value="12-BRCA2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <parameter id="c1r1"  value="FTO"/>
+        <parameter id="c1r2"  value="TCF7L2"/>
+        <parameter id="c1r3"  value="PPARG"/>
+        <parameter id="c1r4"  value="TCF7L2"/>
+        <parameter id="c1r5"  value="IGF2BP2"/>
+        <parameter id="c1r6"  value="KCNJ11"/>
+        <parameter id="c1r7"  value="LRP1"/>
+        <parameter id="c1r8"  value="APOA2"/>
+        <parameter id="c1r9"  value="FTO"/>
+        <parameter id="c1r10" value="FTO"/>
+        <parameter id="c1r11" value="PPARG"/>
+        <parameter id="c1r12" value="LIPC"/>
         <parameter id="c1r13" value="13-TAB2"/>
         <parameter id="c1r14" value="14-TAB2"/>
         <parameter id="c1r15" value="15-TPD52L3||UHRF2"/>
@@ -106,17 +132,43 @@
         <parameter id="c1r88" value="88-TAB2"/>
         <parameter id="c1r89" value="89-TPD52L3||UHRF2"/>
         <parameter id="c1r90" value="90-BRCA2"/>
-        <parameter id="c2r1" value="rs2308327"/>
-        <parameter id="c2r2" value="rs763317"/>
-        <parameter id="c2r3" value="rs2274223"/>
-        <parameter id="c2r4" value="rs2240688"/>
-        <parameter id="c2r5" value="rs7574865"/>
-        <parameter id="c2r6" value="rs17401966"/>
-        <parameter id="c2r7" value="rs4939827"/>
-        <parameter id="c2r8" value="rs719725"/>
-        <parameter id="c2r9" value="rs144848"/>
-        <parameter id="c2r10" value="10-rs9485372"/>
-        <parameter id="c2r11" value="11-rs9485372"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <parameter id="c2r1"  value="rs9939609"/>
+        <parameter id="c2r2"  value="rs7903146"/>
+        <parameter id="c2r3"  value="rs1801282"/>
+        <parameter id="c2r4"  value="rs12255372"/>
+        <parameter id="c2r5"  value="rs4402960"/>
+        <parameter id="c2r6"  value="rs5219"/>
+        <parameter id="c2r7"  value="rs1799986"/>
+        <parameter id="c2r8"  value="rs5082"/>
+        <parameter id="c2r9"  value="rs9939609"/>
+        <parameter id="c2r10" value="rs1801282"/>
+        <parameter id="c2r11" value="rs1800588"/>
         <parameter id="c2r12" value="12-rs9485372"/>
         <parameter id="c2r13" value="13-rs9485372"/>
         <parameter id="c2r14" value="14-rs9485372"/>
@@ -196,17 +248,42 @@
         <parameter id="c2r88" value="88-rs4433"/>
         <parameter id="c2r89" value="89-rs5544"/>
         <parameter id="c2r90" value="90-rs6655"/>
-        <parameter id="c3r1" value="AA"/>
-        <parameter id="c3r2" value="GG"/>
-        <parameter id="c3r3" value="AG"/>
-        <parameter id="c3r4" value="GT"/>
-        <parameter id="c3r5" value="GG"/>
-        <parameter id="c3r6" value="GG"/>
-        <parameter id="c3r7" value="CC"/>
-        <parameter id="c3r8" value="AA"/>
-        <parameter id="c3r9" value="AA"/>
-        <parameter id="c3r10" value="10-GG"/>
-        <parameter id="c3r11" value="11-GG"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <parameter id="c3r1"  value="TT"/>
+        <parameter id="c3r2"  value="CC"/>
+        <parameter id="c3r3"  value="CC"/>
+        <parameter id="c3r4"  value="GG"/>
+        <parameter id="c3r5"  value="TG"/>
+        <parameter id="c3r6"  value="TC"/>
+        <parameter id="c3r7"  value="TC"/>
+        <parameter id="c3r8"  value="AG"/>
+        <parameter id="c3r9"  value="TT"/>
+        <parameter id="c3r10" value="CC"/>
+        <parameter id="c3r11" value="TC"/>
         <parameter id="c3r12" value="12-GG"/>
         <parameter id="c3r13" value="13-GG"/>
         <parameter id="c3r14" value="14-GG"/>
