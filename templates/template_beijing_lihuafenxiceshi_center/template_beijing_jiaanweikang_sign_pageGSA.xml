@@ -64,24 +64,30 @@
 
         <!-- area 5 -->
         <text z_order="60"  x="80"  y="433" width="84" font="fzltchjw" font_size="12" color="#70a844" bold="" italic="" underline="" value="免责声明："/>
-        <paragraph z_order="62" line_leading="1.6" font="fzltxh_gbk" color="#000000" font_size="9" x="95" y="432" width="433" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+        <paragraph z_order="62" line_leading="1.45" font="fzltxh_gbk" color="#000000" font_size="9" x="95" y="432" width="435" top_y="747" bottom_y="59" char_spacing="0.0" value="">
 <![CDATA[
 鉴于基因的复杂性及科研水平局限性，本产品并不能检测所有突变位点并提供完整的遗传信息；<br/>
+本产品所检测的基因位点，是基于 Illumina 公司的 GSA 芯片所覆盖。GSA 芯片没有覆盖的变异无法检测。本报告是根据 ClinVar 数据库进行筛选解读，根据 ClinVar 界定的致病或疑似致病变异进行分级。此项目不会检测疾病所有相关的基因变异，因为随着科学的进步，在未来会有更多相关基因变异被发现；<br/>
 本产品中疾病易感性是产品所涵盖疾病的遗传易感性风险评估。分析结果中具有较高风险的人不一定必然得病，分析结果风险相对较低的人也仍存在患病可能。风险评估检测不是确定的诊断检测。不能使用本报告进行疾病的诊断或治疗；<br/>
 报告中给出的疾病遗传易感性风险评估，需要结合家族史、个人健康状况等信息，由遗传解读师或医生，共同给出针对您个人的综合建议；<br/>
-鉴于当前检测技术水平的限制和受检者个体差异等原因：1）单次检测的结果仍可能出现小概率的假阳性或假阴性，2）本检测结果仅针对分型成功的位点进行解读；<br/>
-本检测的结果不是临床诊断结果，本检测服务仅为遗传筛查、临床诊断、治疗和预防提供参考；<br/>
-本检测机构只对受检样本和检测结果的一致性负责。
+药物反应不完全与基因多态相关；<br/>
+限于现在的临床及科研水平，不是所有药物反应相关基因都被发现；<br/>
+鉴于当前医学检测技术水平的限制和受检者个体差异等原因，单次检测的结果仍可能出现小概率的假阳性或假阴性；<br/>
+该检测服务仅为遗传筛查、临床诊断、治疗和预防提供参考，本检测的结果不是临床诊断结果，并且不可将本检测的结果作为诊断最终诊断的唯一依据；<br/>
+本检测机构只对受检样本和检测结果的一致性负责。<br/>
 ]]>
         </paragraph>
-        <paragraph z_order="61" line_leading="1.6" font="fzltxh_gbk" color="#000000" font_size="9" x="80" y="432" width="448" top_y="747" bottom_y="59" char_spacing="0.0" value="">
+        <paragraph z_order="61" line_leading="1.45" font="fzltxh_gbk" color="#000000" font_size="9" x="80" y="432" width="448" top_y="747" bottom_y="59" char_spacing="0.0" value="">
 <![CDATA[
 1. <br/>
 2. <br/><br/><br/>
-3. <br/><br/>
+3. <br/><br/><br/>
 4. <br/><br/>
 5. <br/>
 6. <br/>
+7. <br/><br/>
+8. <br/><br/>
+9. <br/>
 ]]>
         </paragraph>>
 
