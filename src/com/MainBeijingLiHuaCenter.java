@@ -31,9 +31,12 @@ import java.util.*;
 public class MainBeijingLiHuaCenter {
 
     public static void main(String[] args) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/template_beijing_jiaanweikang_sign_pageGSA.xml";
+        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/template_beijing_lihua_result_page12.xml";
         String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/test_data.xml";
+for (int i = 1; i < 12; i ++) {
+    System.out.println(528.0f - 22.0*i);
 
+}
         XmlDataParser parser = XmlDataParser.getInstance();
         XmlDataCache  cache  = XmlDataCache.getInstance();
         cache.clearCache();

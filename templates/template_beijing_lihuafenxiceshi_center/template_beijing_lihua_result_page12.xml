@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+
+    <!--*****************************************************************************************-->
+    <!--****************************************  封面  ******************************************-->
+    <!--******   112 168 68     84 84 84     232 232 232          *********-->
+    <!--*****************************************************************************************-->
+    <page z_order="0" catalog="-1 0" page_header="false" page_number="false" type="cover">
+        <text z_order="1" font="fzltxh_gbk" font_size="12" color="#545454"  bold="" italic="" underline="" x="357" y="772" width="345" value="报告编号：$reportNumber"/>
+        <text z_order="10" font="fzlthjw" font_size="20" color="#545454" bold="true" italic="" underline="" x="167" y="725" width="345" value="北 京 市 理 化 分 析 测 试 中 心"/>
+        <text z_order="11" font="fzlthjw" font_size="20" color="#545454" bold="true" italic="" underline="" x="237" y="697" width="490" value="检　验　报　告"/>
+        <!-- area 1 -->
+        <!-- area 1 -->
+        <rect z_order="20"  path="maxx 522 minx 70  maxy 683 miny 100" border_margin="0 0 0 0" border_width="0.1" border_color="#545454" opacity="1" fill_color=""/>
+        <!-- v -->
+        <path z_order="21"  path="m 187 683 l 187 262 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 346 683 l 346 262 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 420 683 l 420 559 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- -->
+        <path z_order="21"  path="m 151 231 l 151 200 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- h -->
+        <path z_order="21"  path="m 70 652 l 522 652 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 621 l 522 621 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 590 l 522 590 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 559 l 522 559 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 528 l 522 528 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- -->
+        <path z_order="21"  path="m 70 262 l 522 262 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 231 l 522 231 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 200 l 522 200 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- -->
+        <path z_order="21"  path="m 346 395 l 522 395 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <!-- -->
+        <path z_order="21"  path="m 70 506 l 187 506 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 484 l 187 484 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 462 l 187 462 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 440 l 187 440 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 418 l 187 418 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 396 l 187 396 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 374 l 187 374 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 352 l 187 352 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 330 l 187 330 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 308 l 187 308 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <path z_order="21"  path="m 70 286 l 187 286 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+        <text z_order="22"  x="70" y="511" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP01"/>
+        <text z_order="22"  x="70" y="489" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP02"/>
+        <text z_order="22"  x="70" y="467" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP03"/>
+        <text z_order="22"  x="70" y="445" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP04"/>
+        <text z_order="22"  x="70" y="423" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP05"/>
+        <text z_order="22"  x="70" y="401" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP06"/>
+        <text z_order="22"  x="70" y="379" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP07"/>
+        <text z_order="22"  x="70" y="357" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP08"/>
+        <text z_order="22"  x="70" y="335" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP09"/>
+        <text z_order="22"  x="70" y="313" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP10"/>
+        <text z_order="22"  x="70" y="291" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP11"/>
+        <text z_order="22"  x="70" y="269" width="117" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$SNP12"/>
+        <!-- l1 -->
+        <text z_order="22"  x="70"  y="657" width="117" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="样品名称"/>
+        <text z_order="23"  x="187" y="657" width="159" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="$batchNumber"/>
+        <text z_order="24"  x="346" y="657" width="74"  font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="收样日期"/>
+        <text z_order="24"  x="420" y="657" width="102" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="$receiveDate"/>
+        <!-- l2 -->
+        <text z_order="22"  x="70"  y="626" width="117" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="委托单位"/>
+        <text z_order="23"  x="187" y="626" width="159" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="远盟康健科技有限公司"/>
+        <text z_order="24"  x="346" y="626" width="74"  font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="商　标"/>
+        <text z_order="24"  x="420" y="626" width="102" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="——"/>
+        <!-- l3 -->
+        <text z_order="22"  x="70"  y="595" width="117" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="生产单位"/>
+        <text z_order="23"  x="187" y="595" width="159" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="——"/>
+        <text z_order="24"  x="346" y="595" width="74"  font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="样品状态"/>
+        <text z_order="24"  x="420" y="595" width="102" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="正常"/>
+        <!-- l4 -->
+        <text z_order="22"  x="70"  y="564" width="117" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="样品规格/型号"/>
+        <text z_order="23"  x="187" y="564" width="159" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="——"/>
+        <text z_order="24"  x="346" y="564" width="74"  font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="样品数量"/>
+        <text z_order="24"  x="420" y="564" width="102" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="$sampleNumber"/>
+        <!-- l5 -->
+        <text z_order="22"  x="70"  y="533" width="117" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="检验项目"/>
+        <text z_order="23"  x="187" y="533" width="159" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="检验标准（方法）"/>
+        <text z_order="24"  x="346" y="533" width="176" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="主要检验仪器名称"/>
+        <!-- l6 -->
+        <text z_order="23"  x="187" y="389" width="159" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="核酸质谱 SNP 分析"/>
+        <text z_order="24"  x="346" y="462" width="176" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="核酸质谱仪"/>
+        <text z_order="24"  x="346" y="329" width="176" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="PCR 仪"/>
+        <!-- l7 -->
+        <text z_order="22"  x="80"  y="236" width="452" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="L" value="检验项目以下空白"/>
+        <!-- l8 -->
+        <text z_order="22"  x="70"  y="205" width="81"  font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="备　注"/>
+        <text z_order="23"  x="151" y="205" width="371" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="C" value="客户送样，样品信息为客户提供，实验室不负责其真实性。"/>
+        <!-- l9 -->
+        <text z_order="22"  x="80" y="163" width="452" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="L" value="编制：　　　　　　　　　　审核：　　　　　　　　　　批准："/>
+        <text z_order="23"  x="80" y="121" width="452" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="L" value="签发日期：　　　　　年　　　月　　　日"/>
+        <text z_order="23"  x="80" y="105" width="430" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="R" value="（检验检测专用章）"/>
+    </page>
+    <page_group z_order="20" name="specific_sample" catalog="4 x" data="">
+        <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="tail">
+            <text z_order="1" font="fzltxh_gbk" font_size="12" color="#545454"  bold="" italic="" underline="" x="357" y="772" width="345" value="报告编号：$reportNumber"/>
+            <text z_order="2" font="fzlthjw" font_size="20" color="#545454" h_alignment="C"  x="167" y="725" width="261" value="检 验 结 果"/>
+            <vertical_table z_order="2" auto_layout="true" data="$GeneTypeCheckout"
+                            x="80" y="747" top_y="747" gap_h="2" bottom_y="50" width="474" column_width="0.266 0.067 0.266 0.067 0.266 0.067" header_in_every_page="">
+                <header>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" value="$0"/>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" value="$1"/>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" value="$2"/>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" value="$3"/>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" value="$4"/>
+                    <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" value="$5"/>
+                </header>
+                <row>
+                    <text line_leading="1.2" font="fzltxh_gbk" font_size="10" text_rise="5" value="$0"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" font_size="10" text_rise="5" value="$1"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" font_size="10" text_rise="5" value="$2"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" font_size="10" text_rise="5" value="$3"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" font_size="10" text_rise="5" value="$4"/>
+                    <text line_leading="1.2" font="fzltxh_gbk" font_size="10" text_rise="5" value="$5"/>
+                </row>
+                <rect table_split="row"  path="maxx 0 maxy .2 minx 1 miny 0" border_margin="0 2 0 0" border_width="0.2" border_color="" opacity="1" fill_color="#545454"/>
+            </vertical_table>
+        </page>
+    </page_group>
+    <page z_order="100000000" catalog="-1 0" page_header="false" page_number="false" type="tail">
+        <text z_order="1" font="fzltxh_gbk" font_size="12" color="#545454"  bold="" italic="" underline="" x="357" y="772" width="345" value="报告编号：$reportNumber"/>
+        <rect z_order="2" path="maxx 522 minx 70  maxy 760 miny 92" border_margin="0 0 0 0" border_width="0.1" border_color="#545454" opacity="1" fill_color=""/>
+        <text z_order="3" x="80" y="734" width="430" font="fzltxh_gbk" font_size="11" color="#545454" h_alignment="L" value="检验数据、结果仅供委托方内部使用"/>
+    </page>
+</pdf>
