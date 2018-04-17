@@ -31,7 +31,7 @@ import java.util.*;
 public class AllGene_Mega {
 
     public static void main(String[] args) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/happy_gene_template.xml";
+        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/mega_template.xml";
         String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/test_data.xml";
 
         XmlDataParser parser = XmlDataParser.getInstance();

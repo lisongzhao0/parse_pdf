@@ -95,6 +95,9 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
     }
 
     public String getColor() {
+        if (null!=color && color.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(color);
+        }
         return color;
     }
     public TextDef setColor(String color) {

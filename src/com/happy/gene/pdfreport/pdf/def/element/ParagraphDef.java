@@ -6,6 +6,7 @@ import com.happy.gene.pdfreport.pdf.IXml;
 import com.happy.gene.pdfreport.pdf.def.FontDef;
 import com.happy.gene.pdfreport.pdf.def.PageDef;
 import com.happy.gene.pdfreport.pdf.util.ColorUtil;
+import com.happy.gene.pdfreport.pdf.util.ParametersUtil;
 import com.happy.gene.pdfreport.pdf.util.XmlDataCache;
 import com.happy.gene.pdfreport.pdf.util.XmlDataParser;
 import com.happy.gene.pdfreport.pdf.util.log.Logger;
@@ -51,8 +52,8 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
     // font relative parameter
     private String font;
     private float  fontOpacity;
-    private Color  fontColor;
-    private Color  backgroundColor;
+    private String  fontColor;
+    private String  backgroundColor;
     private float  backgroundOpacity;
     private float  fontSize;
     private Float  lineLeading;
@@ -159,18 +160,24 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         return this;
     }
 
-    public Color getFontColor() {
+    public String getFontColor() {
+        if (null!=fontColor && fontColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(fontColor);
+        }
         return fontColor;
     }
-    public ParagraphDef setFontColor(Color fontColor) {
+    public ParagraphDef setFontColor(String fontColor) {
         this.fontColor = fontColor;
         return this;
     }
 
-    public Color getBackgroundColor() {
+    public String getBackgroundColor() {
+        if (null!=backgroundColor && backgroundColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(backgroundColor);
+        }
         return backgroundColor;
     }
-    public ParagraphDef setBackgroundColor(Color backgroundColor) {
+    public ParagraphDef setBackgroundColor(String backgroundColor) {
         this.backgroundColor = backgroundColor;
         return this;
     }
@@ -262,8 +269,8 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         this.vAlignment = (null==this.vAlignment||"".equals(this.vAlignment)) ? "C" : this.vAlignment;
 
         this.font      = element.attributeValue("font");
-        this.fontColor = getColorUtil().parseColor(element.attributeValue("color"), Color.BLACK);
-        this.backgroundColor = getColorUtil().parseColor(element.attributeValue("background"), Color.WHITE);
+        this.fontColor = element.attributeValue("color");
+        this.backgroundColor = element.attributeValue("background");
         try { this.backgroundOpacity= Float.parseFloat(element.attributeValue("background_opacity")); } catch (Exception ex) {this.backgroundOpacity= 1.0f;}
         try { this.fontOpacity= Float.parseFloat(element.attributeValue("font_opacity")); } catch (Exception ex) {this.fontOpacity= 1.0f;}
         try { this.fontSize   = Float.parseFloat(element.attributeValue("font_size"));    } catch (Exception ex) {this.fontSize   = 12f;}
@@ -428,7 +435,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         paragraph.setCharacterSpacing(getCharSpacing());
         paragraph.setWordSpacing(getWordSpacing());
         paragraph.setOpacity(getFontOpacity());
-        paragraph.setBackgroundColor(getBackgroundColor(), backgroundOpacity);
+        paragraph.setBackgroundColor(ColorUtil.getInstance().parseColor(getBackgroundColor(), Color.WHITE), backgroundOpacity);
         if (getWidth()>0) {
             paragraph.setWidth(getWidth());
         }
@@ -456,7 +463,7 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             paragraph.setVerticalAlignment(VerticalAlignment.BOTTOM);
         }
 
-        Color fontColor = getFontColor();
+        Color fontColor = getColorUtil().parseColor(getFontColor(), Color.BLACK);
         paragraph.setFontColor(fontColor);
 
         if (null!= getLineLeading()) {

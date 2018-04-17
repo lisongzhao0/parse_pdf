@@ -43,6 +43,9 @@ public class LineDef extends AbstractDef implements IXml<LineDef>, IPosition<Lin
     }
 
     public String getBorderColor() {
+        if (null!=borderColor && borderColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(borderColor);
+        }
         return borderColor;
     }
     public void setBorderColor(String borderColor) {

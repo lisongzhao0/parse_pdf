@@ -48,6 +48,9 @@ public class RectDef extends AbstractDef implements IXml<RectDef>, IPosition<Rec
     }
 
     public String getBorderColor() {
+        if (null!=borderColor && borderColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(borderColor);
+        }
         return borderColor;
     }
     public void setBorderColor(String borderColor) {
@@ -62,6 +65,9 @@ public class RectDef extends AbstractDef implements IXml<RectDef>, IPosition<Rec
     }
 
     public String getFillColor() {
+        if (null!=fillColor && fillColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(fillColor);
+        }
         return fillColor;
     }
     public void setFillColor(String fillColor) {

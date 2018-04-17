@@ -5,6 +5,7 @@ import com.happy.gene.pdfreport.pdf.IXml;
 import com.happy.gene.pdfreport.pdf.def.PageDef;
 import com.happy.gene.pdfreport.pdf.util.ColorUtil;
 import com.happy.gene.pdfreport.pdf.IBound;
+import com.happy.gene.pdfreport.pdf.util.ParametersUtil;
 import com.itextpdf.kernel.color.Color;
 import com.itextpdf.kernel.color.DeviceRgb;
 import com.itextpdf.kernel.pdf.PdfPage;
@@ -105,6 +106,9 @@ public class PathDef extends AbstractDef implements IXml<PathDef>, IPosition<Pat
     }
 
     public String getBorderColor() {
+        if (null!=borderColor && borderColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(borderColor);
+        }
         return borderColor;
     }
     public void setBorderColor(String borderColor) {
@@ -119,6 +123,9 @@ public class PathDef extends AbstractDef implements IXml<PathDef>, IPosition<Pat
     }
 
     public String getFillColor() {
+        if (null!=fillColor && fillColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(fillColor);
+        }
         return fillColor;
     }
     public void setFillColor(String fillColor) {

@@ -73,6 +73,9 @@ public class PercentDef extends AbstractDef implements IXml<PercentDef>, IVariab
     }
 
     public String getFullColor() {
+        if (null!=fullColor && fullColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(fullColor);
+        }
         return fullColor;
     }
     public void setFullColor(String fullColor) {
@@ -220,6 +223,9 @@ public class PercentDef extends AbstractDef implements IXml<PercentDef>, IVariab
     }
 
     public String getShowScaleFontColor() {
+        if (null!=showScaleFontColor && showScaleFontColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(showScaleFontColor);
+        }
         return showScaleFontColor;
     }
     public void setShowScaleFontColor(String showScaleFontColor) {
@@ -255,6 +261,15 @@ public class PercentDef extends AbstractDef implements IXml<PercentDef>, IVariab
     }
 
     public String[] getRegionColors() {
+        String[] tmpColors = null;
+        for (int i=0,size=null==regionColors ? 0 : regionColors.length; i<size; i++) {
+            if (null==tmpColors) { tmpColors = new String[size]; }
+            tmpColors[i] = regionColors[i];
+            if (null!=tmpColors[i] && tmpColors[i].indexOf('$')>=0) {
+                tmpColors[i] = ParametersUtil.getInstance().replaceParameter(tmpColors[i]);
+            }
+        }
+        if (null!=tmpColors) { return tmpColors; }
         return regionColors;
     }
     public void setRegionColors(String[] regionColors) {

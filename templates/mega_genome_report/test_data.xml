@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+    <fonts>
+        <font id="simsun"     embedded="true" name="simsun"     ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/simsun.ttc,1"/>
+        <font id="fzlthjw"    embedded="true" name="fzlthjw"    ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzlthjw.ttf"/>
+        <font id="fzltchjw"   embedded="true" name="fzltchjw"   ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzltchjw.ttf"/>
+        <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/fzltxh_gbk.ttf"/>
+    </fonts>
+    <data>
+        <parameter id="mainColor" value="#37669c"/>
+
+        <table id="zhiBingJiYinYuZhongLiuGuanXi">
+            <headers>
+                <header column="0" value="癌种"/>
+                <header column="1" value="基因数目"/>
+                <header column="2" value="基因"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="乳腺癌"/>
+                <cell row="1"  column="0" value="卵巢癌"/>
+                <cell row="2"  column="0" value="结直肠癌"/>
+                <cell row="3"  column="0" value="胃癌"/>
+                <cell row="4"  column="0" value="肾癌"/>
+                <cell row="5"  column="0" value="前列腺癌"/>
+                <cell row="6"  column="0" value="胰腺癌"/>
+                <cell row="7"  column="0" value="子宫内膜癌"/>
+                <cell row="8"  column="0" value="甲状腺癌"/>
+                <cell row="9"  column="0" value="甲状旁腺癌"/>
+                <cell row="10" column="0" value="肺癌"/>
+                <cell row="11" column="0" value="肝癌"/>
+                <cell row="12" column="0" value="食管癌"/>
+                <cell row="13" column="0" value="膀胱癌"/>
+                <cell row="14" column="0" value="胶质瘤"/>
+                <cell row="15" column="0" value="淋巴瘤"/>
+
+                <cell row="0"  column="1" value="21"/>
+                <cell row="1"  column="1" value="23"/>
+                <cell row="2"  column="1" value="18"/>
+                <cell row="3"  column="1" value="9"/>
+                <cell row="4"  column="1" value="18"/>
+                <cell row="5"  column="1" value="10"/>
+                <cell row="6"  column="1" value="15"/>
+                <cell row="7"  column="1" value="23"/>
+                <cell row="8"  column="1" value="2"/>
+                <cell row="9"  column="1" value="2"/>
+                <cell row="10" column="1" value="5"/>
+                <cell row="11" column="1" value="4"/>
+                <cell row="12" column="1" value="4"/>
+                <cell row="13" column="1" value="4"/>
+                <cell row="14" column="1" value="4"/>
+                <cell row="15" column="1" value="4"/>
+
+                <cell row="0"  column="2" value="BRCA1, BRCA2, CHEK2, PALB2, BRIP1, TP53, PTEN, STK11, CDH1, ATM, BARD1, MLH1,MRE11A, MSH2, MSH6, MUTYH, NBN, PMS1, PMS2, RAD50, RAD51C"/>
+                <cell row="1"  column="2" value="ATM, BARD1, BRCA1, BRCA2, BRIP1, CDH1, CHEK2, EPCAM, MLH1, MRE11A, MSH2, MSH6, MUTYH, NBN, NF1, PALB2, PMS2, PTEN, RAD50, RAD51C, RAD51D, STK11, TP53"/>
+                <cell row="2"  column="2" value="APC, BMPR1A, CDH1, CHEK2, EPCAM, MLH1, MSH2, MSH6, MUTYH, PMS2, MET, PTEN, SMAD4, STK11, TP53, AXIN2, MLH3, BUB1"/>
+                <cell row="3"  column="2" value="CDH1, TP53, MET, MLH1, MSH2, MSH6, PMS2, EPCAM, APC"/>
+                <cell row="4"  column="2" value="EPCAM, FH, FLCN, MET, MITF, MLH1, MSH2, MSH6, PMS2, PTEN, SDHA, SDHB, SDHC, SDHD, TP53, TSC1, TSC2, VHL"/>
+                <cell row="5"  column="2" value="BRCA2, BRCA1, CHEK2, NBN, HOXB13, ELAC2, HSD17B3, HSD3B2,  RNASEL, SRD5A2"/>
+                <cell row="6"  column="2" value="APC, ATM, BRCA1, BRCA2, CDKN2A, EPCAM, MLH1, MSH2, MSH6, PALB2, PMS2, STK11, TP53, PRSS1, SPINK1"/>
+                <cell row="7"  column="2" value="ATM, BARD1, BRCA1, BRCA2, BRIP1, CDH1, CHEK2, EPCAM, MLH1, MRE11A, MSH2, MSH6, MUTYH, NBN, NF1, PALB2, PMS2, PTEN, RAD50, RAD51C, RAD51D, STK11, TP53"/>
+                <cell row="8"  column="2" value="RET,NTRK1"/>
+                <cell row="9"  column="2" value="MEN1, CDC73"/>
+                <cell row="10" column="2" value="EGFR, PIK3CA, KRAS, BRAF, TP53"/>
+                <cell row="11" column="2" value="TP53, IQGAP1, IQGAP2, CTNNB1"/>
+                <cell row="12" column="2" value="RHBDF2, ADH1B, ALDH2, CYP2E1"/>
+                <cell row="13" column="2" value="KRAS, RB1, FGFR3, HRAS"/>
+                <cell row="14" column="2" value="P53, IDH1, IDH2, PTEN"/>
+                <cell row="15" column="2" value="KLHDC8B, ATM, MYC, PRF1"/>
+            </rows>
+        </table>
+
+
+
+
+
+
+
+
+
+
+        <parameter id="name"   value="王辉"/>
+        <parameter id="gender" value="女士"/>
+        <parameter id="gender2" value="女"/>
+        <parameter id="number" value="01160001"/>
+        <parameter id="reportDate" value="2016年 8月 1日"/>
+        <parameter id="mobile" value="400-56569-6325"/>
+
+
+
+
+
+
+
+
+
+
+        <parameter id="gaiShuZhiBingJiYinJianShu" value="">
+            <![CDATA[检出致病突变<br/>根据 NCBI GeneReviews <style font="simsun">®</style>, 该杂合突变者的直结肠癌风险轻微增加。<br/>请向医生或遗传咨询师咨询。<br/>]]>
+        </parameter>
+        <parameter id="gaiShuZhiBingJiYinJianChu" value="">
+            <![CDATA[基因名词：<style italic="true">MUTYH</style> <br/> 该基因突变的可致疾病：直结肠癌 家族性腺瘤性息肉病<br/> 基因名词：<style italic="true">FAT3</style> <br/>该基因突变的可致疾病：直结肠癌 遗传性非息肉病<br/>]]>
+        </parameter>
+        <parameter id="gaiShuJiBingGeShu" value="15"/>
+        <parameter id="gaiShuFengXianYuFangJianYi" value="">
+<![CDATA[
+<style font_size="12">根据肿瘤致病基因和风险基因的检测结果，您有结直肠癌的致病基因检出阳性</style><br/>
+<style font_size="12">风险基因评分均 &lt;1.5</style><br/>
+<style font_size="12">您的主要肿瘤风险为：</style>
+<style font="fzlthjw" font_size="12" font_color="#738c34" bold="true">结直肠癌。</style> <br/>
+<style font_size="12">请参考如下建议：</style><br/>
+(参见结直肠癌的健康管理措施)<br/><br/>
+<style font="fzltchjw" font_size="14" font_color="#607b3f">注意饮食</style><br/>
+少吃脂肪，多吃富含膳食纤维的饮食。（剑桥大学的研究表明，高纤维饮食能有效减低患上致命癌症的危险几率达 40%，特别是结肠癌及直肠癌。）<br/>
+· 膳食纤维主要来自天然的蔬菜、水果、谷类及豆类。蔬菜中的十字花科蔬菜（包括花椰菜、芥菜、白菜等）。<br/>
+· 黄色和绿色蔬果，以及洋葱、苹果皮等食物中，含有丰富类黄酮素，多吃也有助于预防癌症。<br/><br/>
+<style font="fzltchjw" font_size="14" font_color="#607b3f">戒烟</style><br/><br/>
+<style font="fzltchjw" font_size="14" font_color="#607b3f">坚持规律锻炼</style><br/><br/>
+<style font="fzltchjw" font_size="14" font_color="#607b3f">定期筛查</style><br/>
+美国癌症协会建议，从 50 岁开始，所有人都应该选择以下 5 种筛查方案中的一种执行，如果筛查结果为阳性，则需要做结肠镜检查。<br/>
+· 每年进行粪便潜血试验（FOBT） 或者是粪便免疫化学试验（FIT）;<br/>
+· 每五年乙状结肠镜检查，时间灵活;<br/>
+· 每年（FOBT）或（FIT），加上每五年一次时间灵活的乙状结肠镜检查; · 每五年结肠双对比造影;<br/>
+· 每十年结肠镜检查。<br/><br/>
+<style font="fzltchjw" font_size="14" font_color="#607b3f">高危人群</style><br/>
+有炎症性肠道疾病或有结肠癌家族史的人群应该尽早就医，遵医嘱进行相关检查并随诊。<br/><br/>
+<style font_size="11" font_color="#738c34" bold="true">经幸福基石的特约医生对您进行包括个人健康状况、家族史等全面评估后，会给出更具体建议，请遵照医生咨询后的建议。</style>
+]]>
+        </parameter>
+        <table id="gaiShuZhiBingJiYinLieBiao">
+            <headers>
+                <header column="0" value="基因"/>
+                <header column="1" value="突变位置"/>
+                <header column="2" value="类型"/>
+                <header column="3" value="致病性证据 *"/>
+                <header column="4" value="人群频率 **"/>
+            </headers>
+            <rows>
+                <cell row="0" column="0" value="MUTYH"/>
+                <cell row="0" column="1" value="NM_001128425.1:c.934-2A>G"/>
+                <cell row="0" column="2" value="杂合，可变剪切位点突变 splice acceptor variant"/>
+                <cell row="0" column="3" value="Likely pathogenic（2 例）; Probably pathogencic（1 例）"/>
+                <cell row="0" column="4" value="1%"/>
+
+                <cell row="1" column="0" value="FAT3"/>
+                <cell row="1" column="1" value="NM_001008781:exon9:c.A8263G:p.I2755V"/>
+                <cell row="1" column="2" value="纯和，非同义突变"/>
+                <cell row="1" column="3" value="无"/>
+                <cell row="1" column="4" value="14%"/>
+            </rows>
+        </table>
+        <table id="gaiShuJiYinFengXianPingFen">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+                <header column="3" value="详解页码"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="乳腺癌"/>
+                <cell row="1"  column="0" value="结直肠癌"/>
+                <cell row="2"  column="0" value="甲状腺癌"/>
+                <cell row="3"  column="0" value="子宫颈癌"/>
+
+                <cell row="0"  column="1" value="4.76"/>
+                <cell row="1"  column="1" value="4.41"/>
+                <cell row="2"  column="1" value="2.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+
+                <cell row="0"  column="2" value="1.46"/>
+                <cell row="1"  column="2" value="1.41"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+
+                <cell row="0"  column="3" value="4 1 0"/>
+                <cell row="1"  column="3" value="4 2 0"/>
+                <cell row="2"  column="3" value="4 3 0"/>
+                <cell row="3"  column="3" value="4 4 0"/>
+            </rows>
+        </table>
+
+
+
+
+
+
+
+
+
+
+        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
+            <tree_node value="报告使用说明" english="User Manual" page="" catalog="1 0">
+                <tree_node english="User Manual" page="001" value="使用说明" catalog="1 1">
+                </tree_node>
+            </tree_node>
+            <tree_node value="关于肿瘤预防管理" english="Prevention And Management Of Cancer" page="" catalog="2 0">
+                <tree_node english="" page="xxx" value="肿瘤预防管理" catalog="2 0"/>
+            </tree_node>
+            <tree_node value="检测结果概述" english="Report Summary" page="" catalog="3 0">
+                <tree_node english="" page="xxx" value="致病基因" catalog="3 1"/>
+                <tree_node english="" page="xxx" value="风险基因" catalog="3 2"/>
+                <tree_node english="" page="xxx" value="预防建议" catalog="3 3"/>
+            </tree_node>
+            <tree_node value="检测结果详解" english="Detailed Report" page="" catalog="4 0">
+                <tree_node english="" page="xxx" value="乳腺癌"   catalog="4 1 0"/>
+                <tree_node english="" page="xxx" value="肺癌"     catalog="4 2 0"/>
+                <tree_node english="" page="xxx" value="胃癌"     catalog="4 3 0"/>
+                <tree_node english="" page="xxx" value="结直肠癌"  catalog="4 4 0"/>
+            </tree_node>
+            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
+                <tree_node english="" page="xxx" value="致病基因与肿瘤关系列表" catalog="10000 1"/>
+                <tree_node english="" page="xxx" value="免责声明"             catalog="10000 2"/>
+                <tree_node english="" page="xxx" value="幸福基石服务介绍"      catalog="10000 3"/>
+            </tree_node>
+        </tree_node>
+
+
+
+
+
+
+
+
+
+        <group order="1" id="catalog_4_1" value="4 1" catalog="4 1">
+            <parameter id="detailJiBing" value="乳腺癌"/>
+            <parameter id="detailJiBingEnglish" value="Mammary Cancer"/>
+            <parameter id="detailZhibingjiyinJianChu" value="">
+                <![CDATA[基因名词：<style italic="true">MUTYH</style> <br/> 该基因突变的可致疾病：直结肠癌 家族性腺瘤性息肉病 <br/>]]>
+            </parameter>
+            <parameter id="detailFengXianJiYinPingFen" value="0.98"/>
+            <parameter id="detailFengXianJiYinPingFenMiaoShu" value="与东亚人群相比，您患肺癌的相对风险降低 63.36%，是普通人的 0.37 倍。"/>
+            <parameter id="detailRenQunPingJunFaBingLv" value="0.0280%"/>
+            <parameter id="detailGeRenFaBingLv" value="0.0103%"/>
+            <parameter id="detailJiBingGaiShu" value="">
+<![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
+长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
+城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
+· 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
+· 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
+· 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
+· 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ 如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+· 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
+ · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
+<style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
+<style font_color="#607b3f" font_size="5">______________________________________________________________________________</style> <br/><br/>
+肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ 修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ 重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ 既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
+            </parameter>
+            <parameter id="detailCanKaoWenXian" value="">
+<![CDATA[1. Bogdanova, N. et al. Association of two mutations in the CHEK2 gene with breast cancer. Int J Cancer 116, 263-6 (2005).
+<br/><br/>2. Cai, Q. et al. Genome-wide association study identifies breast cancer risk variant at 10q21.2: results from the Asia Breast Cancer Consortium. Hum Mol Genet 20, 4991-9 (2011).
+<br/><br/>3. Cai, Q. et al. Genome-wide association analysis in East Asians identifies breast cancer susceptibility loci at 1q32.1, 5q14.3 and 15q26.1. Nat Genet 46, 886-90 (2014).
+<br/><br/>4. Chen, F. et al. A genome-wide association study of breast cancer in women of African ancestry. Hum Genet 132, 39-48 (2013).
+<br/><br/>5. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. &amp; Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>6. Easton, D.F. et al. Genome-wide association study identifies novel breast cancer susceptibility loci. Nature 447, 1087-93 (2007).
+<br/><br/>7. Elgazzar, S. et al. A genome-wide association study identifies a genetic variant in the SIAH2 locus associated with hormonal receptor-positive breast cancer in Japanese. J Hum Genet 57, 766-71 (2012).
+<br/><br/>8. Fletcher, O. et al. Novel breast cancer susceptibility locus at 9q31.2: results of a genome-wide association study. J Natl Cancer Inst 103, 425-35 (2011).
+<br/><br/>9. Frank, B. et al. BRIP1 (BACH1) variants and familial breast cancer risk: a case-control study. BMC Cancer 7, 83 (2007).
+<br/><br/>10. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>11. Garcia-Closas, M. et al. Genome-wide association studies identify four ER negative-specific breast cancer risk loci. Nat Genet 45, 392-8, 398e1-2 (2013).
+<br/><br/>12. Kim, H.C. et al. A genome-wide association study identifies a breast cancer risk variant in ERBB4 at 2q34: results from the Seoul Breast Cancer Study. Breast Cancer Res 14, R56 (2012).
+<br/><br/>13. Li, J. et al. A combined analysis of genome-wide association studies in breast cancer. Breast Cancer Res Treat 126, 717-27 (2011).
+<br/><br/>14. Long, J. et al. Identification of a functional genetic variant at 16q12.1 for breast cancer risk: results from the Asia Breast Cancer Consortium. PLoS Genet 6, e1001002 (2010).
+<br/><br/>15. Long, J. et al. Genome-wide association study in east Asians identifies novel susceptibility loci for breast cancer. PLoS Genet 8, e1002532 (2012).
+<br/><br/>16. Lynch, E.D. et al. Inherited mutations in PTEN that are associated with breast cancer, cowden disease, and juvenile polyposis. Am J Hum Genet 61, 1254-60 (1997).
+<br/><br/>17. Masciari, S. et al. Germline E-cadherin mutations in familial lobular breast cancer. J Med Genet 44, 726-31 (2007).
+<br/><br/>18. Merino, D. &amp; Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>19. Michailidou, K. et al. Large-scale genotyping identifies 41 new loci associated with breast cancer risk. Nat Genet 45, 353-61, 361e1-2 (2013).
+<br/><br/>20. Milne, R.L. Variants in the ATM gene and breast cancer susceptibility. Genome Med 1, 12 (2009).
+<br/><br/>21. Monsees, G.M., Kraft, P., Chanock, S.J., Hunter, D.J. &amp; Han, J. Comprehensive screen of genetic variation in DNA repair pathway genes and postmenopausal breast cancer risk. Breast Cancer Res Treat 125, 207-14 (2011).
+<br/><br/>22. Rebbeck, T.R. et al. Genetic heterogeneity in hereditary breast cancer: role of BRCA1 and BRCA2. Am J Hum Genet 59, 547-53 (1996).
+<br/><br/>23. Rennert, G. et al. MutYH mutation carriers have increased breast cancer risk. Cancer 118, 1989-93 (2012). 24. Rinella, E.S. et al. Genetic variants associated with breast cancer risk for Ashkenazi Jewish women with strong family histories but no identifiable BRCA1/2 mutation. Hum Genet 132, 523-36 (2013).
+<br/><br/>25. Siddiq, A. et al. A meta-analysis of genome-wide association studies of breast cancer identifies two novel susceptibility loci at 6q14 and 20q11. Hum Mol Genet 21, 5373-84 (2012).
+<br/><br/>26. Song, C. et al. A genome-wide scan for breast cancer risk haplotypes among African American women. PLoS One 8, e57298 (2013).
+<br/><br/>27. Stone, J.G. et al. Contribution of germline MLH1 and MSH2 mutations to lobular carcinoma in situ of the breast. Cancer Lett 167, 171-4 (2001).
+<br/><br/>28. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+<br/><br/>29. Tischkowitz, M. et al. Rare germline mutations in PALB2 and breast cancer risk: a population-based study. Hum Mutat 33, 674-80 (2012).
+<br/><br/>30. Turnbull, C. et al. Genome-wide association study identifies five new breast cancer susceptibility loci. Nat Genet 42, 504-7 (2010).
+<br/><br/>31. Walsh, T. &amp; King, M.C. Ten genes for inherited breast cancer. Cancer Cell 11, 103-5 (2007).
+<br/><br/>32. Zheng, W. et al. Genome-wide association study identifies a new breast cancer susceptibility locus at 6q25.1. Nat Genet 41, 324-8 (2009).
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="突变位置"/>
+                    <header column="2" value="类型"/>
+                    <header column="3" value="致病性证据 *"/>
+                    <header column="4" value="人群频率 **"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="MUTYH"/>
+                    <cell row="0" column="1" value="NM_001128425.1:c.934-2A>G"/>
+                    <cell row="0" column="2" value="杂合，可变剪切位点突变 splice acceptor variant"/>
+                    <cell row="0" column="3" value="Likely pathogenic（2 例）; Probably pathogencic（1 例）"/>
+                    <cell row="0" column="4" value="1%"/>
+                </rows>
+            </table>
+            <table id="detailZhiBingJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因名称"/>
+                    <header column="1" value="检测点位数"/>
+                    <header column="2" value="变异点位"/>
+                    <header column="3" value="检测结果"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="ATM"/>
+                    <cell row="1"  column="0" value="BARD1"/>
+                    <cell row="2"  column="0" value="BRCA1"/>
+                    <cell row="3"  column="0" value="BRCA2"/>
+                    <cell row="4"  column="0" value="BRIP1"/>
+                    <cell row="5"  column="0" value="CDH1"/>
+                    <cell row="6"  column="0" value="CHEK2"/>
+
+                    <cell row="0"  column="1" value="150"/>
+                    <cell row="1"  column="1" value="14"/>
+                    <cell row="2"  column="1" value="320"/>
+                    <cell row="3"  column="1" value="382"/>
+                    <cell row="4"  column="1" value="37"/>
+                    <cell row="5"  column="1" value="9"/>
+                    <cell row="6"  column="1" value="40"/>
+
+                    <cell row="0"  column="2" value="无"/>
+                    <cell row="1"  column="2" value="无"/>
+                    <cell row="2"  column="2" value="rs77542170"/>
+                    <cell row="3"  column="2" value="无"/>
+                    <cell row="4"  column="2" value="rs77542170"/>
+                    <cell row="5"  column="2" value="无"/>
+                    <cell row="6"  column="2" value="无"/>
+
+                    <cell row="0"  column="3" value="（-）"/>
+                    <cell row="1"  column="3" value="（-）"/>
+                    <cell row="2"  column="3" value="（+）"/>
+                    <cell row="3"  column="3" value="（-）"/>
+                    <cell row="4"  column="3" value="（+）"/>
+                    <cell row="5"  column="3" value="（-）"/>
+                    <cell row="6"  column="3" value="（-）"/>
+                </rows>
+            </table>
+            <table id="detailFengXianJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险值"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <table id="detailJianKangGuanLiCuoShi">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="4"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="5"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="6"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="7"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="4"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="5"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="6"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="7"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="8"   column="1" value="">
+    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+
+
+
+
+        <group order="2" id="catalog_4_2" value="4 2" catalog="4 2">
+            <parameter id="detailJiBing" value="肺癌"/>
+            <parameter id="detailJiBingEnglish" value="Mammary Cancer"/>
+            <parameter id="detailZhibingjiyinJianChu" value="">
+                <![CDATA[基因名词：<style italic="true">MUTYH</style> <br/> 该基因突变的可致疾病：肺癌 家族性腺瘤性息肉病 <br/>]]>
+            </parameter>
+            <parameter id="detailFengXianJiYinPingFen" value="0.98"/>
+            <parameter id="detailFengXianJiYinPingFenMiaoShu" value="与东亚人群相比，您患肺癌的相对风险降低 63.36%，是普通人的 0.37 倍。"/>
+            <parameter id="detailRenQunPingJunFaBingLv" value="0.0280%"/>
+            <parameter id="detailGeRenFaBingLv" value="0.0103%"/>
+            <parameter id="detailJiBingGaiShu" value="">
+                <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
+长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
+城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
+· 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
+· 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
+· 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
+· 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ 如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+· 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
+ · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ 修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ 重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ 既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
+            </parameter>
+            <parameter id="detailCanKaoWenXian" value="">
+                <![CDATA[1. Bogdanova, N. et al. Association of two mutations in the CHEK2 gene with breast cancer. Int J Cancer 116, 263-6 (2005).
+<br/><br/>2. Cai, Q. et al. Genome-wide association study identifies breast cancer risk variant at 10q21.2: results from the Asia Breast Cancer Consortium. Hum Mol Genet 20, 4991-9 (2011).
+<br/><br/>3. Cai, Q. et al. Genome-wide association analysis in East Asians identifies breast cancer susceptibility loci at 1q32.1, 5q14.3 and 15q26.1. Nat Genet 46, 886-90 (2014).
+<br/><br/>4. Chen, F. et al. A genome-wide association study of breast cancer in women of African ancestry. Hum Genet 132, 39-48 (2013).
+<br/><br/>5. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. &amp; Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>6. Easton, D.F. et al. Genome-wide association study identifies novel breast cancer susceptibility loci. Nature 447, 1087-93 (2007).
+<br/><br/>7. Elgazzar, S. et al. A genome-wide association study identifies a genetic variant in the SIAH2 locus associated with hormonal receptor-positive breast cancer in Japanese. J Hum Genet 57, 766-71 (2012).
+<br/><br/>8. Fletcher, O. et al. Novel breast cancer susceptibility locus at 9q31.2: results of a genome-wide association study. J Natl Cancer Inst 103, 425-35 (2011).
+<br/><br/>9. Frank, B. et al. BRIP1 (BACH1) variants and familial breast cancer risk: a case-control study. BMC Cancer 7, 83 (2007).
+<br/><br/>10. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>11. Garcia-Closas, M. et al. Genome-wide association studies identify four ER negative-specific breast cancer risk loci. Nat Genet 45, 392-8, 398e1-2 (2013).
+<br/><br/>12. Kim, H.C. et al. A genome-wide association study identifies a breast cancer risk variant in ERBB4 at 2q34: results from the Seoul Breast Cancer Study. Breast Cancer Res 14, R56 (2012).
+<br/><br/>13. Li, J. et al. A combined analysis of genome-wide association studies in breast cancer. Breast Cancer Res Treat 126, 717-27 (2011).
+<br/><br/>14. Long, J. et al. Identification of a functional genetic variant at 16q12.1 for breast cancer risk: results from the Asia Breast Cancer Consortium. PLoS Genet 6, e1001002 (2010).
+<br/><br/>15. Long, J. et al. Genome-wide association study in east Asians identifies novel susceptibility loci for breast cancer. PLoS Genet 8, e1002532 (2012).
+<br/><br/>16. Lynch, E.D. et al. Inherited mutations in PTEN that are associated with breast cancer, cowden disease, and juvenile polyposis. Am J Hum Genet 61, 1254-60 (1997).
+<br/><br/>17. Masciari, S. et al. Germline E-cadherin mutations in familial lobular breast cancer. J Med Genet 44, 726-31 (2007).
+<br/><br/>18. Merino, D. &amp; Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>19. Michailidou, K. et al. Large-scale genotyping identifies 41 new loci associated with breast cancer risk. Nat Genet 45, 353-61, 361e1-2 (2013).
+<br/><br/>20. Milne, R.L. Variants in the ATM gene and breast cancer susceptibility. Genome Med 1, 12 (2009).
+<br/><br/>21. Monsees, G.M., Kraft, P., Chanock, S.J., Hunter, D.J. &amp; Han, J. Comprehensive screen of genetic variation in DNA repair pathway genes and postmenopausal breast cancer risk. Breast Cancer Res Treat 125, 207-14 (2011).
+<br/><br/>22. Rebbeck, T.R. et al. Genetic heterogeneity in hereditary breast cancer: role of BRCA1 and BRCA2. Am J Hum Genet 59, 547-53 (1996).
+<br/><br/>23. Rennert, G. et al. MutYH mutation carriers have increased breast cancer risk. Cancer 118, 1989-93 (2012). 24. Rinella, E.S. et al. Genetic variants associated with breast cancer risk for Ashkenazi Jewish women with strong family histories but no identifiable BRCA1/2 mutation. Hum Genet 132, 523-36 (2013).
+<br/><br/>25. Siddiq, A. et al. A meta-analysis of genome-wide association studies of breast cancer identifies two novel susceptibility loci at 6q14 and 20q11. Hum Mol Genet 21, 5373-84 (2012).
+<br/><br/>26. Song, C. et al. A genome-wide scan for breast cancer risk haplotypes among African American women. PLoS One 8, e57298 (2013).
+<br/><br/>27. Stone, J.G. et al. Contribution of germline MLH1 and MSH2 mutations to lobular carcinoma in situ of the breast. Cancer Lett 167, 171-4 (2001).
+<br/><br/>28. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+<br/><br/>29. Tischkowitz, M. et al. Rare germline mutations in PALB2 and breast cancer risk: a population-based study. Hum Mutat 33, 674-80 (2012).
+<br/><br/>30. Turnbull, C. et al. Genome-wide association study identifies five new breast cancer susceptibility loci. Nat Genet 42, 504-7 (2010).
+<br/><br/>31. Walsh, T. &amp; King, M.C. Ten genes for inherited breast cancer. Cancer Cell 11, 103-5 (2007).
+<br/><br/>32. Zheng, W. et al. Genome-wide association study identifies a new breast cancer susceptibility locus at 6q25.1. Nat Genet 41, 324-8 (2009).
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="突变位置"/>
+                    <header column="2" value="类型"/>
+                    <header column="3" value="致病性证据 *"/>
+                    <header column="4" value="人群频率 **"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="MUTYH"/>
+                    <cell row="0" column="1" value="NM_001128425.1:c.934-2A>G"/>
+                    <cell row="0" column="2" value="杂合，可变剪切位点突变 splice acceptor variant"/>
+                    <cell row="0" column="3" value="Likely pathogenic（2 例）; Probably pathogencic（1 例）"/>
+                    <cell row="0" column="4" value="1%"/>
+                </rows>
+            </table>
+            <table id="detailZhiBingJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因名称"/>
+                    <header column="1" value="检测点位数"/>
+                    <header column="2" value="变异点位"/>
+                    <header column="3" value="检测结果"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="ATM"/>
+                    <cell row="1"  column="0" value="BARD1"/>
+                    <cell row="2"  column="0" value="BRCA1"/>
+                    <cell row="3"  column="0" value="BRCA2"/>
+                    <cell row="4"  column="0" value="BRIP1"/>
+                    <cell row="5"  column="0" value="CDH1"/>
+                    <cell row="6"  column="0" value="CHEK2"/>
+
+                    <cell row="0"  column="1" value="150"/>
+                    <cell row="1"  column="1" value="14"/>
+                    <cell row="2"  column="1" value="320"/>
+                    <cell row="3"  column="1" value="382"/>
+                    <cell row="4"  column="1" value="37"/>
+                    <cell row="5"  column="1" value="9"/>
+                    <cell row="6"  column="1" value="40"/>
+
+                    <cell row="0"  column="2" value="无"/>
+                    <cell row="1"  column="2" value="无"/>
+                    <cell row="2"  column="2" value="rs77542170"/>
+                    <cell row="3"  column="2" value="无"/>
+                    <cell row="4"  column="2" value="rs77542170"/>
+                    <cell row="5"  column="2" value="无"/>
+                    <cell row="6"  column="2" value="无"/>
+
+                    <cell row="0"  column="3" value="（-）"/>
+                    <cell row="1"  column="3" value="（-）"/>
+                    <cell row="2"  column="3" value="（+）"/>
+                    <cell row="3"  column="3" value="（-）"/>
+                    <cell row="4"  column="3" value="（+）"/>
+                    <cell row="5"  column="3" value="（-）"/>
+                    <cell row="6"  column="3" value="（-）"/>
+                </rows>
+            </table>
+            <table id="detailFengXianJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险值"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <table id="detailJianKangGuanLiCuoShi">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="4"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="5"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="6"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="7"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="4"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="5"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="6"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="7"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="8"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+
+
+
+
+        <group order="3" id="catalog_4_3" value="4 3" catalog="4 3">
+            <parameter id="detailJiBing" value="胃癌"/>
+            <parameter id="detailJiBingEnglish" value="Mammary Cancer"/>
+            <parameter id="detailZhibingjiyinJianChu" value="">
+                <![CDATA[基因名词：<style italic="true">MUTYH</style> <br/> 该基因突变的可致疾病：胃癌 家族性腺瘤性息肉病 <br/>]]>
+            </parameter>
+            <parameter id="detailFengXianJiYinPingFen" value="0.98"/>
+            <parameter id="detailFengXianJiYinPingFenMiaoShu" value="与东亚人群相比，您患肺癌的相对风险降低 63.36%，是普通人的 0.37 倍。"/>
+            <parameter id="detailRenQunPingJunFaBingLv" value="0.0280%"/>
+            <parameter id="detailGeRenFaBingLv" value="0.0103%"/>
+            <parameter id="detailJiBingGaiShu" value="">
+                <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
+长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
+城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
+· 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
+· 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
+· 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
+· 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ 如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+· 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
+ · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ 修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ 重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ 既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
+            </parameter>
+            <parameter id="detailCanKaoWenXian" value="">
+                <![CDATA[1. Bogdanova, N. et al. Association of two mutations in the CHEK2 gene with breast cancer. Int J Cancer 116, 263-6 (2005).
+<br/><br/>2. Cai, Q. et al. Genome-wide association study identifies breast cancer risk variant at 10q21.2: results from the Asia Breast Cancer Consortium. Hum Mol Genet 20, 4991-9 (2011).
+<br/><br/>3. Cai, Q. et al. Genome-wide association analysis in East Asians identifies breast cancer susceptibility loci at 1q32.1, 5q14.3 and 15q26.1. Nat Genet 46, 886-90 (2014).
+<br/><br/>4. Chen, F. et al. A genome-wide association study of breast cancer in women of African ancestry. Hum Genet 132, 39-48 (2013).
+<br/><br/>5. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. &amp; Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>6. Easton, D.F. et al. Genome-wide association study identifies novel breast cancer susceptibility loci. Nature 447, 1087-93 (2007).
+<br/><br/>7. Elgazzar, S. et al. A genome-wide association study identifies a genetic variant in the SIAH2 locus associated with hormonal receptor-positive breast cancer in Japanese. J Hum Genet 57, 766-71 (2012).
+<br/><br/>8. Fletcher, O. et al. Novel breast cancer susceptibility locus at 9q31.2: results of a genome-wide association study. J Natl Cancer Inst 103, 425-35 (2011).
+<br/><br/>9. Frank, B. et al. BRIP1 (BACH1) variants and familial breast cancer risk: a case-control study. BMC Cancer 7, 83 (2007).
+<br/><br/>10. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>11. Garcia-Closas, M. et al. Genome-wide association studies identify four ER negative-specific breast cancer risk loci. Nat Genet 45, 392-8, 398e1-2 (2013).
+<br/><br/>12. Kim, H.C. et al. A genome-wide association study identifies a breast cancer risk variant in ERBB4 at 2q34: results from the Seoul Breast Cancer Study. Breast Cancer Res 14, R56 (2012).
+<br/><br/>13. Li, J. et al. A combined analysis of genome-wide association studies in breast cancer. Breast Cancer Res Treat 126, 717-27 (2011).
+<br/><br/>14. Long, J. et al. Identification of a functional genetic variant at 16q12.1 for breast cancer risk: results from the Asia Breast Cancer Consortium. PLoS Genet 6, e1001002 (2010).
+<br/><br/>15. Long, J. et al. Genome-wide association study in east Asians identifies novel susceptibility loci for breast cancer. PLoS Genet 8, e1002532 (2012).
+<br/><br/>16. Lynch, E.D. et al. Inherited mutations in PTEN that are associated with breast cancer, cowden disease, and juvenile polyposis. Am J Hum Genet 61, 1254-60 (1997).
+<br/><br/>17. Masciari, S. et al. Germline E-cadherin mutations in familial lobular breast cancer. J Med Genet 44, 726-31 (2007).
+<br/><br/>18. Merino, D. &amp; Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>19. Michailidou, K. et al. Large-scale genotyping identifies 41 new loci associated with breast cancer risk. Nat Genet 45, 353-61, 361e1-2 (2013).
+<br/><br/>20. Milne, R.L. Variants in the ATM gene and breast cancer susceptibility. Genome Med 1, 12 (2009).
+<br/><br/>21. Monsees, G.M., Kraft, P., Chanock, S.J., Hunter, D.J. &amp; Han, J. Comprehensive screen of genetic variation in DNA repair pathway genes and postmenopausal breast cancer risk. Breast Cancer Res Treat 125, 207-14 (2011).
+<br/><br/>22. Rebbeck, T.R. et al. Genetic heterogeneity in hereditary breast cancer: role of BRCA1 and BRCA2. Am J Hum Genet 59, 547-53 (1996).
+<br/><br/>23. Rennert, G. et al. MutYH mutation carriers have increased breast cancer risk. Cancer 118, 1989-93 (2012). 24. Rinella, E.S. et al. Genetic variants associated with breast cancer risk for Ashkenazi Jewish women with strong family histories but no identifiable BRCA1/2 mutation. Hum Genet 132, 523-36 (2013).
+<br/><br/>25. Siddiq, A. et al. A meta-analysis of genome-wide association studies of breast cancer identifies two novel susceptibility loci at 6q14 and 20q11. Hum Mol Genet 21, 5373-84 (2012).
+<br/><br/>26. Song, C. et al. A genome-wide scan for breast cancer risk haplotypes among African American women. PLoS One 8, e57298 (2013).
+<br/><br/>27. Stone, J.G. et al. Contribution of germline MLH1 and MSH2 mutations to lobular carcinoma in situ of the breast. Cancer Lett 167, 171-4 (2001).
+<br/><br/>28. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+<br/><br/>29. Tischkowitz, M. et al. Rare germline mutations in PALB2 and breast cancer risk: a population-based study. Hum Mutat 33, 674-80 (2012).
+<br/><br/>30. Turnbull, C. et al. Genome-wide association study identifies five new breast cancer susceptibility loci. Nat Genet 42, 504-7 (2010).
+<br/><br/>31. Walsh, T. &amp; King, M.C. Ten genes for inherited breast cancer. Cancer Cell 11, 103-5 (2007).
+<br/><br/>32. Zheng, W. et al. Genome-wide association study identifies a new breast cancer susceptibility locus at 6q25.1. Nat Genet 41, 324-8 (2009).
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="突变位置"/>
+                    <header column="2" value="类型"/>
+                    <header column="3" value="致病性证据 *"/>
+                    <header column="4" value="人群频率 **"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="MUTYH"/>
+                    <cell row="0" column="1" value="NM_001128425.1:c.934-2A>G"/>
+                    <cell row="0" column="2" value="杂合，可变剪切位点突变 splice acceptor variant"/>
+                    <cell row="0" column="3" value="Likely pathogenic（2 例）; Probably pathogencic（1 例）"/>
+                    <cell row="0" column="4" value="1%"/>
+                </rows>
+            </table>
+            <table id="detailZhiBingJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因名称"/>
+                    <header column="1" value="检测点位数"/>
+                    <header column="2" value="变异点位"/>
+                    <header column="3" value="检测结果"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="ATM"/>
+                    <cell row="1"  column="0" value="BARD1"/>
+                    <cell row="2"  column="0" value="BRCA1"/>
+                    <cell row="3"  column="0" value="BRCA2"/>
+                    <cell row="4"  column="0" value="BRIP1"/>
+                    <cell row="5"  column="0" value="CDH1"/>
+                    <cell row="6"  column="0" value="CHEK2"/>
+
+                    <cell row="0"  column="1" value="150"/>
+                    <cell row="1"  column="1" value="14"/>
+                    <cell row="2"  column="1" value="320"/>
+                    <cell row="3"  column="1" value="382"/>
+                    <cell row="4"  column="1" value="37"/>
+                    <cell row="5"  column="1" value="9"/>
+                    <cell row="6"  column="1" value="40"/>
+
+                    <cell row="0"  column="2" value="无"/>
+                    <cell row="1"  column="2" value="无"/>
+                    <cell row="2"  column="2" value="rs77542170"/>
+                    <cell row="3"  column="2" value="无"/>
+                    <cell row="4"  column="2" value="rs77542170"/>
+                    <cell row="5"  column="2" value="无"/>
+                    <cell row="6"  column="2" value="无"/>
+
+                    <cell row="0"  column="3" value="（-）"/>
+                    <cell row="1"  column="3" value="（-）"/>
+                    <cell row="2"  column="3" value="（+）"/>
+                    <cell row="3"  column="3" value="（-）"/>
+                    <cell row="4"  column="3" value="（+）"/>
+                    <cell row="5"  column="3" value="（-）"/>
+                    <cell row="6"  column="3" value="（-）"/>
+                </rows>
+            </table>
+            <table id="detailFengXianJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险值"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <table id="detailJianKangGuanLiCuoShi">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="4"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="5"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="6"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="7"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="4"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="5"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="6"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="7"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="8"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+
+
+
+
+        <group order="4" id="catalog_4_4" value="4 4" catalog="4 4">
+            <parameter id="detailJiBing" value="结直肠癌"/>
+            <parameter id="detailJiBingEnglish" value="Mammary Cancer"/>
+            <parameter id="detailZhibingjiyinJianChu" value="">
+                <![CDATA[基因名词：<style italic="true">MUTYH</style> <br/> 该基因突变的可致疾病：结直肠癌 家族性腺瘤性息肉病 <br/>]]>
+            </parameter>
+            <parameter id="detailFengXianJiYinPingFen" value="0.98"/>
+            <parameter id="detailFengXianJiYinPingFenMiaoShu" value="与东亚人群相比，您患肺癌的相对风险降低 63.36%，是普通人的 0.37 倍。"/>
+            <parameter id="detailRenQunPingJunFaBingLv" value="0.0280%"/>
+            <parameter id="detailGeRenFaBingLv" value="0.0103%"/>
+            <parameter id="detailJiBingGaiShu" value="">
+                <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
+长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
+城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
+· 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
+· 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
+· 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
+· 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ 如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+· 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
+ · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
+ <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
+ <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ 修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ 重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
+ <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ 既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
+            </parameter>
+            <parameter id="detailCanKaoWenXian" value="">
+                <![CDATA[1. Bogdanova, N. et al. Association of two mutations in the CHEK2 gene with breast cancer. Int J Cancer 116, 263-6 (2005).
+<br/><br/>2. Cai, Q. et al. Genome-wide association study identifies breast cancer risk variant at 10q21.2: results from the Asia Breast Cancer Consortium. Hum Mol Genet 20, 4991-9 (2011).
+<br/><br/>3. Cai, Q. et al. Genome-wide association analysis in East Asians identifies breast cancer susceptibility loci at 1q32.1, 5q14.3 and 15q26.1. Nat Genet 46, 886-90 (2014).
+<br/><br/>4. Chen, F. et al. A genome-wide association study of breast cancer in women of African ancestry. Hum Genet 132, 39-48 (2013).
+<br/><br/>5. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. &amp; Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>6. Easton, D.F. et al. Genome-wide association study identifies novel breast cancer susceptibility loci. Nature 447, 1087-93 (2007).
+<br/><br/>7. Elgazzar, S. et al. A genome-wide association study identifies a genetic variant in the SIAH2 locus associated with hormonal receptor-positive breast cancer in Japanese. J Hum Genet 57, 766-71 (2012).
+<br/><br/>8. Fletcher, O. et al. Novel breast cancer susceptibility locus at 9q31.2: results of a genome-wide association study. J Natl Cancer Inst 103, 425-35 (2011).
+<br/><br/>9. Frank, B. et al. BRIP1 (BACH1) variants and familial breast cancer risk: a case-control study. BMC Cancer 7, 83 (2007).
+<br/><br/>10. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>11. Garcia-Closas, M. et al. Genome-wide association studies identify four ER negative-specific breast cancer risk loci. Nat Genet 45, 392-8, 398e1-2 (2013).
+<br/><br/>12. Kim, H.C. et al. A genome-wide association study identifies a breast cancer risk variant in ERBB4 at 2q34: results from the Seoul Breast Cancer Study. Breast Cancer Res 14, R56 (2012).
+<br/><br/>13. Li, J. et al. A combined analysis of genome-wide association studies in breast cancer. Breast Cancer Res Treat 126, 717-27 (2011).
+<br/><br/>14. Long, J. et al. Identification of a functional genetic variant at 16q12.1 for breast cancer risk: results from the Asia Breast Cancer Consortium. PLoS Genet 6, e1001002 (2010).
+<br/><br/>15. Long, J. et al. Genome-wide association study in east Asians identifies novel susceptibility loci for breast cancer. PLoS Genet 8, e1002532 (2012).
+<br/><br/>16. Lynch, E.D. et al. Inherited mutations in PTEN that are associated with breast cancer, cowden disease, and juvenile polyposis. Am J Hum Genet 61, 1254-60 (1997).
+<br/><br/>17. Masciari, S. et al. Germline E-cadherin mutations in familial lobular breast cancer. J Med Genet 44, 726-31 (2007).
+<br/><br/>18. Merino, D. &amp; Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>19. Michailidou, K. et al. Large-scale genotyping identifies 41 new loci associated with breast cancer risk. Nat Genet 45, 353-61, 361e1-2 (2013).
+<br/><br/>20. Milne, R.L. Variants in the ATM gene and breast cancer susceptibility. Genome Med 1, 12 (2009).
+<br/><br/>21. Monsees, G.M., Kraft, P., Chanock, S.J., Hunter, D.J. &amp; Han, J. Comprehensive screen of genetic variation in DNA repair pathway genes and postmenopausal breast cancer risk. Breast Cancer Res Treat 125, 207-14 (2011).
+<br/><br/>22. Rebbeck, T.R. et al. Genetic heterogeneity in hereditary breast cancer: role of BRCA1 and BRCA2. Am J Hum Genet 59, 547-53 (1996).
+<br/><br/>23. Rennert, G. et al. MutYH mutation carriers have increased breast cancer risk. Cancer 118, 1989-93 (2012). 24. Rinella, E.S. et al. Genetic variants associated with breast cancer risk for Ashkenazi Jewish women with strong family histories but no identifiable BRCA1/2 mutation. Hum Genet 132, 523-36 (2013).
+<br/><br/>25. Siddiq, A. et al. A meta-analysis of genome-wide association studies of breast cancer identifies two novel susceptibility loci at 6q14 and 20q11. Hum Mol Genet 21, 5373-84 (2012).
+<br/><br/>26. Song, C. et al. A genome-wide scan for breast cancer risk haplotypes among African American women. PLoS One 8, e57298 (2013).
+<br/><br/>27. Stone, J.G. et al. Contribution of germline MLH1 and MSH2 mutations to lobular carcinoma in situ of the breast. Cancer Lett 167, 171-4 (2001).
+<br/><br/>28. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+<br/><br/>29. Tischkowitz, M. et al. Rare germline mutations in PALB2 and breast cancer risk: a population-based study. Hum Mutat 33, 674-80 (2012).
+<br/><br/>30. Turnbull, C. et al. Genome-wide association study identifies five new breast cancer susceptibility loci. Nat Genet 42, 504-7 (2010).
+<br/><br/>31. Walsh, T. &amp; King, M.C. Ten genes for inherited breast cancer. Cancer Cell 11, 103-5 (2007).
+<br/><br/>32. Zheng, W. et al. Genome-wide association study identifies a new breast cancer susceptibility locus at 6q25.1. Nat Genet 41, 324-8 (2009).
+]]>
+            </parameter>
+            <table id="detailZhiBingJiYinTuBian">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="突变位置"/>
+                    <header column="2" value="类型"/>
+                    <header column="3" value="致病性证据 *"/>
+                    <header column="4" value="人群频率 **"/>
+                </headers>
+                <rows>
+                    <cell row="0" column="0" value="MUTYH"/>
+                    <cell row="0" column="1" value="NM_001128425.1:c.934-2A>G"/>
+                    <cell row="0" column="2" value="杂合，可变剪切位点突变 splice acceptor variant"/>
+                    <cell row="0" column="3" value="Likely pathogenic（2 例）; Probably pathogencic（1 例）"/>
+                    <cell row="0" column="4" value="1%"/>
+                </rows>
+            </table>
+            <table id="detailZhiBingJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因名称"/>
+                    <header column="1" value="检测点位数"/>
+                    <header column="2" value="变异点位"/>
+                    <header column="3" value="检测结果"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="ATM"/>
+                    <cell row="1"  column="0" value="BARD1"/>
+                    <cell row="2"  column="0" value="BRCA1"/>
+                    <cell row="3"  column="0" value="BRCA2"/>
+                    <cell row="4"  column="0" value="BRIP1"/>
+                    <cell row="5"  column="0" value="CDH1"/>
+                    <cell row="6"  column="0" value="CHEK2"/>
+
+                    <cell row="0"  column="1" value="150"/>
+                    <cell row="1"  column="1" value="14"/>
+                    <cell row="2"  column="1" value="320"/>
+                    <cell row="3"  column="1" value="382"/>
+                    <cell row="4"  column="1" value="37"/>
+                    <cell row="5"  column="1" value="9"/>
+                    <cell row="6"  column="1" value="40"/>
+
+                    <cell row="0"  column="2" value="无"/>
+                    <cell row="1"  column="2" value="无"/>
+                    <cell row="2"  column="2" value="rs77542170"/>
+                    <cell row="3"  column="2" value="无"/>
+                    <cell row="4"  column="2" value="rs77542170"/>
+                    <cell row="5"  column="2" value="无"/>
+                    <cell row="6"  column="2" value="无"/>
+
+                    <cell row="0"  column="3" value="（-）"/>
+                    <cell row="1"  column="3" value="（-）"/>
+                    <cell row="2"  column="3" value="（+）"/>
+                    <cell row="3"  column="3" value="（-）"/>
+                    <cell row="4"  column="3" value="（+）"/>
+                    <cell row="5"  column="3" value="（-）"/>
+                    <cell row="6"  column="3" value="（-）"/>
+                </rows>
+            </table>
+            <table id="detailFengXianJiYinLieBiao">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险值"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <table id="detailJianKangGuanLiCuoShi">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="4"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="5"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="6"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="7"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="4"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="5"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="6"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="7"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="8"   column="1" value="">
+                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+    </data>
+</pdf>
