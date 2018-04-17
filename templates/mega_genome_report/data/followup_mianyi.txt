@@ -1,0 +1,13 @@
+cancer_title_hyperthyroidism:健康饮食
+cancer_content_hyperthyroidism:·世界卫生组织推荐人体每天正常摄入碘 150 一 200 微克，过量或过少的碘摄入都应加以调整<br/>
+
+
+cancer_title_hypothyroidism:健康饮食
+cancer_content_hypothyroidism:·世界卫生组织推荐人体每天正常摄入碘 150 一 200 微克，过量或过少的碘摄入都应加以调整<br/>
+
+cancer_title_mianyiyufang:心情愉快，减轻压力
+cancer_content_mianyiyufang:·避免精神长期保持在过度紧张的状态，适当减轻生活和工作带来的过量心理或身体负担<br/>·在安排日常生活、学习和工作时，注意放松自己，劳逸结合<br/>·保持作息规律，保证充足的睡眠时间，平常尽量不要熬夜<br/>
+cancer_title_mianyiyufang:锻炼身体
+cancer_content_mianyiyufang:世界卫生组织建议：<br/>·5 岁至 17 岁的儿童和青少年每天至少要进行 60 分钟的中度至剧烈的体力活动<br/>·18 岁至 64 岁的成年人一周内至少要做 150 分钟的中等强度有氧运动<br/>·65 岁以上老年人可参照成年人的锻炼量，量力而行<br/>·尤其活动量较少或肥胖者应加强身体锻炼<br/>
+cancer_title_mianyiyufang:积极治疗
+cancer_content_mianyiyufang:·有炎症反应如发烧等时应尽早治疗，避免因反复发作而造成的免疫系统长期紊乱<br/>

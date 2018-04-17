@@ -1,0 +1,12 @@
+
+白癜风	 vitiligo			male_0.019			female_0.019
+过敏性鼻炎  	 allergic			male_0.133			female_0.07
+强直性脊柱炎  	ankylosing 			male_0.0036			female_0.0016
+甲状腺机能减退	 hypothyroidism			male_0.0033			female_0.0066
+哮喘	asthma			male_0.012			female_0.01
+原发性胆汁性肝硬化 	  primary			male_0.000492			female_0.00156
+克罗恩氏病	   crohns			male_0.000027			female_0.000019
+银屑病	 psoriasis			male_0.0054			female_0.0044
+甲状腺机能亢进 	hyperthyroidism			male_0.0126			female_0.0126
+类风湿性关节炎	 rheumatoid			male_0.0046			female_0.019
+系统性红斑狼疮	 systemic			male_0.00007			female_0.00068

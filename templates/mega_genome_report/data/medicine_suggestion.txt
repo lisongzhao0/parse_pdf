@@ -1,0 +1,302 @@
+cancer_summary_二甲双胍:<style font='fzltchjw' font_color='#607b3f' font_size='14'>二甲双胍	Metformin/Dimethylbiguanide/Difrex</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+二甲双胍能够延缓葡萄糖由胃肠道的摄取 , 通过提高胰岛素的敏感性而增加外周葡萄糖的利用 , 以及抑制肝、肾过度的糖原异生，减少肝糖输出的同时改善胰岛素抵抗。人类基因C11orf65 基因多态对2 型糖尿病患者的二甲双胍应答有一定影响。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+首选用于非胰岛素依赖型的 2 型糖尿病，特别是肥胖的 2 型糖尿病<br/>
+对于 1 型或 2 型糖尿病，二甲双胍与胰岛素合用，可增加胰岛素的降血糖作用，减少胰岛素用量，防止低血糖发生<br/>
+与磺脲类口服降血糖药合用，具协同作用<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+cancer_summary_磺脲类:<style font='fzltchjw' font_color='#607b3f' font_size='14'>磺脲类  Sulfonamides</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+磺脲类药物能够刺激胰岛 β 细胞分泌胰岛素，包括依赖 ATP 敏感的钾通道和不依赖 ATP 敏感的钾通道刺激胰岛 β 细胞分泌胰岛素。同时能提高胰岛素敏感性，改善胰岛素抵抗。其中格列美脲可能具有葡萄糖依赖性的促胰岛素分泌作用。磺脲类药物可使外周葡萄糖利用率增加 10% ～ 52%，而人类基因组TCF7L2 基因多态作为 2 型糖尿病危险等位基因有弱化磺脲类药物疗效的相关风险。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+二甲双胍不耐受或治疗血糖控制不佳的 2 型糖尿病患者<br/>
+经饮食、运动治疗，血糖控制仍不稳定者<br/>
+体重正常或较轻的 2 型糖尿病患者<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_瑞格列奈:<style font='fzltchjw' font_color='#607b3f' font_size='14'>瑞格列奈  Repaglinide</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+瑞格列奈属于非磺酰脲类促胰岛素释放剂，与胰岛 β 细胞上的 ATP 敏感钾通道受体结合使钾通道关闭，β细胞去极化，钙通道开放，钙离子内流，促进胰岛素分泌，其作用快于磺酰脲类，故餐后降血糖作用较快。口服后使血浆胰岛素浓度随其血浆药物浓度的升高而增加。人类基因组KCNJ11基因多态对瑞格列奈的疗效有显著影响。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+用于饮食控制及运动锻炼不能有效控制高血糖的 2 型糖尿病 ( 非胰岛素依赖性 ) 患者，可与二甲双胍合用<br/>
+轻中度肾功能不全的 2 型糖尿病患者<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_噻唑烷二酮类:<style font='fzltchjw' font_color='#607b3f' font_size='14'>噻唑烷二酮类	Thiazolidinedione (TZDs)</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+噻唑烷二酮类药物能够激动过氧化物酶体一增殖体活化受体γ（PPARγ），增加脂肪细胞、肝细胞及骨骼肌细胞对胰岛素的敏感性，促进胰岛素靶细胞对血糖的摄取、转运和氧化利用；同时降低血糖及游离脂肪酸的水平，增强对葡萄糖的摄取， 实现对血糖的长期控制，以此降低糖尿病并发症发生的危险。人类基因组CYP2C8基因多态会影响噻唑烷二酮类药物的代谢从而影响其药效和毒副作用。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+当饮食控制、体育锻炼和单药治疗不能满意控制血糖时，它也可与磺脲、二甲双胍或胰岛素合用<br/>
+胰岛素相对不足的 2 型糖尿病患者<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_母贝塔受体阻滞剂:<style font='fzltchjw' font_color='#607b3f' font_size='14'>贝塔受体阻滞剂   β-receptor blocker</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+贝塔受体阻滞剂可以管理异常的心脏节律，竞争性阻断交感神经系统中肾上腺素贝塔受体与内源性儿茶酚胺肾上腺素和去甲肾上腺素的结合，从而拮抗交感神经系统的过度激活而发挥降压作用。主要的降压机制涉及降低心排血量 , 改善压力感受器的血压调整节功能 , 以及抑制肾素血管紧张素醛固酮系统，还可以通过降低交感神经张力而预防儿茶酚胺的心脏毒性作用。<br/>
+人类基因组CYP2D6 基因多态对脂溶性的 β 受体阻滞剂如美托洛尔的代谢影响较大，有两个以上有效等位基因的携带者为超速代谢型，有两个无效等位基因的携带者为弱代谢型。CYP2D6 弱代谢型患者在使用美托洛尔治疗过程中毒性风险有所增加，而在中国人群中比较常见的CYP2D6*10 携带者对美托洛尔代谢减弱。美托洛尔弱代谢型的高血压患者可应用小剂量加以治疗。另一组人类基因ABCB1 基因多态则与 β 受体阻滞剂的毒副作用相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+心率较快的年轻的高血压患者<br/>
+快速性心律失常( 如窦性心动过速、心房颤动)、冠状动脉粥样硬化性心脏病( 冠心病, 如心绞痛、心肌梗死后)、慢性心力衰竭, 以及交感神经活性增高如焦虑、紧张等精神压力增加 , 围手术期高血压患者优先使用 β 受体阻滞剂<br/>
+冠心病患者做二级预防<br/>
+降低心脏性猝死，预防心力衰竭<br/>
+遗传性 QT 延长综合征患者<br/>
+二尖瓣脱垂症、扩张性 / 肥厚型心肌病、右房室瓣脱垂，二尖瓣脱垂症<br/>
+甲状腺功能亢进症<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_利尿剂:<style font='fzltchjw' font_color='#607b3f' font_size='14'>利尿剂  Diuretics</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+利尿剂通过利尿作用减少体内水钠总量，使细胞外液和血浆容量，从而减少心排出量，使血压下降。钠离子浓度的降低同时也能降低血管平滑肌对儿茶酚胺等加压物质的敏感性而降压。人类基因组NEDD4L  是水钠代谢通路的重要组成部分， 也是利尿药物的降压作用相关基因。而另一组YEATS4  基因多态则与利尿剂的舒张反应相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+单纯收缩期高血压，无合并症的高血压患者<br/>
+老年高血压<br/>
+伴有心力衰竭的高血压患者<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+cancer_summary_钙通道阻滞剂:<style font='fzltchjw' font_color='#607b3f' font_size='14'>钙通道阻滞剂  Calcium Channel Blockers</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+钙通道阻滞剂由一大类不同结构的化学药物构成。能与心肌细胞和血管平滑肌细胞的细胞膜上的钙通道蛋白结合，阻止钙离子内流进入细胞，降低胞质内钙离子浓度，从而达到松弛血管平滑肌、降低心肌收缩力进而降低血压。钙通道阻滞剂的药效受人类基因组学TANC2  基因多态影响。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+老年高血压<br/>
+单纯收缩期高血压，无合并症的高血压患者<br/>
+高血压伴稳定性心绞痛<br/>
+高血压伴有冠状动脉或颈动脉粥样硬化及周围血管病者<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_血管紧张素II受体阻滞剂:<style font='fzltchjw' font_color='#607b3f' font_size='14'>血管紧张素 II 受体阻滞剂    Angiotensin II receptor blockers</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+血管紧张素 II  受体阻滞剂是通过直接对血管紧张素Ⅱ受体的阻滞来阻断血管紧张素Ⅱ发生作用所导致的收缩血管、升高血压、促进醛固酮分泌、水钠潴留、交感神经兴奋等效果，从而发挥降压作用。 群体遗传学发现人类基因组 APOB 与血管紧张素 II 受体阻滞剂的药效相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+有胰岛素抵抗 / 糖尿病 / 左心功能不全 / 心力衰竭 / 心肌梗死的高血压患者<br/>
+高血压患者预防脑卒中<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+cancer_summary_血管紧张素转换酶抑制剂/苯那普利:<style font='fzltchjw' font_color='#607b3f' font_size='14'>血管紧张素转换酶抑制剂 ACE inhibitor</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+血管紧张素转换酶抑制剂能够抑制血管紧张素转换酶，减少血管紧张素Ⅰ转化为血管紧张素Ⅱ，降低循环与血管组织肾素  - 血管紧张素系统 (RAS) 活性。血管紧张素转换酶Ⅰ主要作用于RAS，通过抑制 RAS 中的血管紧张素转换酶，减少血管紧张素Ⅱ的生成，放松血管并减少血容量，从而控制血压。人类基因组学PRCP 基因多态对血管紧张素转换酶抑制剂的药效有一定影响。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+预防急性心肌梗死（心脏病发作）<br/>
+预防心力衰竭（左室收缩功能障碍）<br/>
+合并糖尿病 / 肾病 / 蛋白尿 / 代谢综合征 / 慢性心力衰竭 / 心肌梗死的高血压患者<br/>
+合并有心功能不全，糖尿病肾病的高血压患者<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+cancer_summary_他汀类:<style font='fzltchjw' font_color='#607b3f' font_size='14'>他汀类 Statins</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+他汀类药物是一组羟甲基戊二酰辅酶  A（HMG-CoA）还原酶抑制剂。通过抑制  HMG-CoA  还原酶阻断细胞内羟甲酸代谢途径、限制 HMG-CoA  还原酶通路效率以及限制体内产生胆固醇的代谢途径从而降低血清胆固醇水平。他汀类药物对降低低密度脂蛋白的浓度具有较高效能。他汀类药物治疗的低密度脂蛋白胆固醇反应性与人类基因组LPA 基因多态显著相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+原发性高胆固醇血症<br/>
+纯合子型家族性高脂血症<br/>
+原发性异常 beta 脂蛋白血症<br/>
+冠心病合并高胆固醇血症<br/>
+混合型血脂异常<br/>
+高三酰甘油血症<br/>
+心血管事件的一级、二级预防<br/>
+混合型血脂异常<br/>
+非致死性心脏病发作 <br/>
+致死性与非致死性卒中<br/>
+住院心力衰竭患者<br/>
+部分心脏手术<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+
+cancer_summary_阿托伐他汀:<style font='fzltchjw' font_color='#607b3f' font_size='14'>阿托伐他汀</style><br/>
+ <style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+ 他汀类药物是一组羟甲基戊二酰辅酶  A（HMG-CoA）还原酶抑制剂。通过抑制  HMG-CoA  还原酶阻断细胞内羟甲酸代谢途径、限制 HMG-CoA  还原酶通路效率以及限制体内产生胆固醇的代谢途径从而降低血清胆固醇水平。他汀类药物对降低低密度脂蛋白的浓度具有较高效能。他汀类药物治疗的低密度脂蛋白胆固醇反应性与人类基因组LPA 基因多态显著相关。<br/><br/>
+ <style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+ 原发性高胆固醇血症<br/>
+ 纯合子型家族性高脂血症<br/>
+ 原发性异常 beta 脂蛋白血症<br/>
+ 冠心病合并高胆固醇血症<br/>
+ 混合型血脂异常<br/>
+ 高三酰甘油血症<br/>
+ 心血管事件的一级、二级预防<br/>
+ 混合型血脂异常<br/>
+ 非致死性心脏病发作 <br/>
+ 致死性与非致死性卒中<br/>
+ 住院心力衰竭患者<br/>
+ 部分心脏手术<br/><br/>
+ <style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+ <style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_匹伐他汀:<style font='fzltchjw' font_color='#607b3f' font_size='14'>匹伐他汀</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+他汀类药物是一组羟甲基戊二酰辅酶  A（HMG-CoA）还原酶抑制剂。通过抑制  HMG-CoA  还原酶阻断细胞内羟甲酸代谢途径、限制 HMG-CoA  还原酶通路效率以及限制体内产生胆固醇的代谢途径从而降低血清胆固醇水平。他汀类药物对降低低密度脂蛋白的浓度具有较高效能。他汀类药物治疗的低密度脂蛋白胆固醇反应性与人类基因组LPA 基因多态显著相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+原发性高胆固醇血症<br/>
+纯合子型家族性高脂血症<br/>
+原发性异常 beta 脂蛋白血症<br/>
+冠心病合并高胆固醇血症<br/>
+混合型血脂异常<br/>
+高三酰甘油血症<br/>
+心血管事件的一级、二级预防<br/>
+混合型血脂异常<br/>
+非致死性心脏病发作 <br/>
+致死性与非致死性卒中<br/>
+住院心力衰竭患者<br/>
+部分心脏手术<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+
+cancer_summary_普伐他丁:<style font='fzltchjw' font_color='#607b3f' font_size='14'>普伐他丁</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+他汀类药物是一组羟甲基戊二酰辅酶  A（HMG-CoA）还原酶抑制剂。通过抑制  HMG-CoA  还原酶阻断细胞内羟甲酸代谢途径、限制 HMG-CoA  还原酶通路效率以及限制体内产生胆固醇的代谢途径从而降低血清胆固醇水平。他汀类药物对降低低密度脂蛋白的浓度具有较高效能。他汀类药物治疗的低密度脂蛋白胆固醇反应性与人类基因组LPA 基因多态显著相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+原发性高胆固醇血症<br/>
+纯合子型家族性高脂血症<br/>
+原发性异常 beta 脂蛋白血症<br/>
+冠心病合并高胆固醇血症<br/>
+混合型血脂异常<br/>
+高三酰甘油血症<br/>
+心血管事件的一级、二级预防<br/>
+混合型血脂异常<br/>
+非致死性心脏病发作 <br/>
+致死性与非致死性卒中<br/>
+住院心力衰竭患者<br/>
+部分心脏手术<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style>
+
+
+
+
+cancer_summary_辛伐他汀:<style font='fzltchjw' font_color='#607b3f' font_size='14'>辛伐他汀</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+他汀类药物是一组羟甲基戊二酰辅酶  A（HMG-CoA）还原酶抑制剂。通过抑制  HMG-CoA  还原酶阻断细胞内羟甲酸代谢途径、限制 HMG-CoA  还原酶通路效率以及限制体内产生胆固醇的代谢途径从而降低血清胆固醇水平。他汀类药物对降低低密度脂蛋白的浓度具有较高效能。他汀类药物治疗的低密度脂蛋白胆固醇反应性与人类基因组LPA 基因多态显著相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+原发性高胆固醇血症<br/>
+纯合子型家族性高脂血症<br/>
+原发性异常 beta 脂蛋白血症<br/>
+冠心病合并高胆固醇血症<br/>
+混合型血脂异常<br/>
+高三酰甘油血症<br/>
+心血管事件的一级、二级预防<br/>
+混合型血脂异常<br/>
+非致死性心脏病发作 <br/>
+致死性与非致死性卒中<br/>
+住院心力衰竭患者<br/>
+部分心脏手术<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_阿司匹林:<style font='fzltchjw' font_color='#607b3f' font_size='14'>阿司匹林 Aspirin</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+阿司匹林也叫乙酰水杨酸， 低浓度的阿司匹林能不可逆的抑制血小板的前列腺素环氧酶（COX），阻断血栓素 A2（TXA2） 的转化途径，从而抑制血小板的聚集。人类基因组CYP2C19 基因多态是阿司匹林药效及毒副作用主要影响因素。 药物基因组学研究证明，人类PTGS1 基因多态会影响 COX-1 的表达从而阿司匹林抵抗性，另一人类LTC4S 基因多态则与阿司匹林可能会引发的哮喘有潜在相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+低剂量治疗冠心病、脑血管疾病、房颤、人工心脏瓣膜、动静脉痿或其他术后血栓形成<br/>
+急性心肌梗死，不稳定心绞痛及心肌梗死二期预防<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+
+cancer_summary_氯吡格雷:<style font='fzltchjw' font_color='#607b3f' font_size='14'>氯吡格雷  Clopidogrel</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+氯吡格雷是一种前体药物，经机体代谢后产生抗凝血的生物活性，选择性地抑制 ADP 与血小板受体的结合及抑制 ADP 介导的糖蛋白 GP Ⅱ h/ Ⅲ a 复合物的活化，从而抑制血小板聚集。也可抑制非 ADP 引起的血小板聚集。肝酶 CYP2C19 在代谢转化氯吡格雷的过程中具有重要用途，人类基因组CYP2C19 基因多态与药酶活性个体差异相关，并因此对氯吡格雷的转化效率产生影响。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+冠状动脉支架置入术的抗凝药，降低术后主要不良心血管事件风险<br/>
+因血小板高聚集引起的心、脑及其他动脉循环障碍疾病如脑卒中、急性心肌梗死、外周动脉疾病等<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+
+cancer_summary_华法林:<style font='fzltchjw' font_color='#607b3f' font_size='14'>华法林 Warfarin</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+华法林是一种香豆素类口服抗凝药，其化学结构与维生素类似，可通过抑制维生素 K 环氧化物还原酶复合体（VKORC） 的作用来竞争性抑制维生素 K、减少在肝脏细胞中维生素 K 依赖性凝血因子的合成，从而起到抗凝的效果。服药后起效和停药后失效都较慢，易与多种食物和药物产生相互作用且有效治疗窗较窄，剂量不足时无法预防血栓栓塞，过量使用时则可导致抗凝过度并引发出血，尤其在老年患者中有致死性大出血的风险。人类基因组CYP2C9 基因多态可造成华法林代谢速度下降，使华法林累积并造成抗凝过度；而人类基因组VKORC1 基因多态可影响维生素 K 环氧化物还原酶复合体活性增强从而影响对华法林的敏感度；人类基因组CYP4F2 基因多态可影响肝微粒对维生素 K 代谢活性，从而决定是否需加大华法林的用量以达到抗凝效果。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+血栓性疾病：如深静脉血栓形成、肺栓塞、四肢动脉栓塞、内脏动脉栓塞、门静脉血栓形成、心腔内血栓形成、肠系膜静脉/脾静脉血栓形成<br/>
+心脏瓣膜疾病、心脏瓣膜置换术后<br/>
+非瓣膜性房颤<br/>
+慢性房颤<br/>
+外科围手术期的调理<br/>
+动脉狭窄/闭塞性疾病手术治疗后<br/>
+其他血液高凝状态<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+
+
+cancer_summary_别嘌呤醇:<style font='fzltchjw' font_color='#607b3f' font_size='14'>别嘌醇  Allopurinol</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+别嘌醇，又称别嘌呤醇，是次黄嘌呤的异构体，同时也是黄嘌呤氧化酶(XO) 的抑制剂。它可以通过竞争性抑制黄嘌呤氧化酶， 使黄嘌呤和次黄嘌呤不能利用该酶转化为尿酸，避免尿酸盐微结晶的沉积，还可以有助于结石的重新溶解，以达到治疗痛 风的目的。人类基因组ABCG2  基因对尿酸排泄起到重要作用，因而其基因多态可影响别嘌醇的药效。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+尿酸生成过多且对排尿酸药过敏或无效的患者<br/>
+不宜使用排尿酸药物（如有肾功能不全）的患者<br/>
+慢性原发性或继发性痛风<br/>
+伴有或不伴有痛风症状的尿酸性肾病<br/>
+反复发作性尿酸结石患者<br/>
+预防及溶解白血病、淋巴瘤或其他肿瘤在化疗或放疗后继发的组织内尿酸盐沉积、肾结石等<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+
+
+cancer_summary_二膦酸盐:<style font='fzltchjw' font_color='#607b3f' font_size='14'>二膦酸盐类  Bisphosphonates</style><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>作用机制：</style><br/>
+二膦酸盐，又称双磷酸盐，是抗骨吸收的一类新药。实验证明，二膦酸盐可以直接改变破骨细胞的超微结构从而抑制其功能并降低对骨的吸收和转换；可与骨基质理化结合，直接干扰骨吸收；直接抑制可加速骨吸收的细胞因子如 IL-6、TNF的产生。人类基因组 VDR 基因多态与二膦酸盐的药效相关。<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>适应症：</style><br/>
+骨痛症<br/>
+以骨量减少和骨结构破坏为特征而导致骨脆性和骨折率增加的骨质疏松症<br/>
+防治变形性骨炎<br/>
+由多发性骨髓瘤、乳腺癌、前列腺癌及肺癌等恶性肿瘤骨转移引起的骨代谢异常所致的高钙血症<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>用药建议：</style><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>

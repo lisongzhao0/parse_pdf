@@ -1,0 +1,14 @@
+
+白癜风	 vitiligo 	   Vitiligo  	  male  	  female
+过敏性鼻炎 	  allergic   	 Allergic Sensitization	  male   	 female
+强直性脊柱炎 	 ankylosing 	 Ankylosing Spondylitis 	  male 	   female
+甲状腺机能减退	 hypothyroidism	  Hypothyroidism	  male	    female
+哮喘 	 asthma 	 Asthma  	  male	  female
+原发性胆汁性肝硬化 	  primary	 Primary Biliary Cirrhosis  	 male 	   female
+克罗恩氏病 	  crohns  	Crohns Disease 	 male  	  female
+银屑病	 psoriasis 	   Psoriasis 	 male  	  female
+甲状腺机能亢进	 hyperthyroidism	 Hyperthyroidism	 male 	   female
+类风湿性关节炎	rheumatoid 	   Rheumatoid Arthritis  	  male 	female
+系统性红斑狼疮 	systemic 	   Systemic Lupus Erythematosus 	   male  	  female
+
+

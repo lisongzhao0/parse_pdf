@@ -47,7 +47,7 @@
         <!-- area 6 -->
         <!-- area 6 -->
         <text z_order="71"  x="190" y="250" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测技术："/>
-        <text z_order="72"  x="256" y="252" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="基因组SNP分析"/>
+        <text z_order="72"  x="256" y="252" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="核酸质谱SNP分析"/>
 
         <!-- area 7 -->
         <!-- area 7 -->

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+
+<!--*****************************************************************************************-->
+<!--****************************************  封面  ******************************************-->
+<!--******   112 168 68     84 84 84     232 232 232          *********-->
+<!--*****************************************************************************************-->
+<page z_order="0" catalog="-1 0" page_header="false" page_number="false" type="cover">
+
+    <image z_order="1" id="title" type="png" x="260" y="645"  height="75" width="75" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/huancaimeiyuan_sign_title_icon.jpg"/>
+    <text  z_order="2" font="fzltchjw" font_size="30" color="#d51769" bold="" italic="" underline="" x="135" y="565" width="345" value="北京市理化分析测试中心"/>
+    <text  z_order="3" font="fzltchjw" font_size="30" color="#d51769" bold="" italic="" underline="" x="240" y="525" width="490" value="检测结果"/>
+    <rect  z_order="4" path="maxx 532 minx 80  maxy 475 miny 181 r 5" border_margin="0 0 0 0" border_width="0.1" border_color="#000000" opacity="1" fill_color=""/>
+
+    <!-- area 1 -->
+    <!-- area 1 -->
+    <text z_order="11"  x="190" y="420" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="样本编码："/>
+    <text z_order="12"  x="256" y="422" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$id"/>
+
+    <!-- area 2 -->
+    <!-- area 2 -->
+    <text z_order="21"  x="190" y="386" width="84"  font="fzltchjw"   font_size="12" color="#545454" bold="" italic="" underline="" value="样本类型："/>
+    <text z_order="22"  x="272" y="388" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="口腔拭子"/>
+    <text z_order="22"  x="336" y="388" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="口腔刮棒"/>
+    <text z_order="22"  x="399" y="388" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="唾液"/>
+    <text z_order="22"  x="445" y="388" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="血卡"/>
+    <text z_order="22"  x="491" y="388" width="120" font="fzltxh_gbk" font_size="9"  color="#545454" bold="" italic="" underline="" value="静脉血"/>
+    <image z_order="23" id="cover" type="png" x="256" y="389"  height="13" width="13" url="$oralSwab"/>
+    <image z_order="23" id="cover" type="png" x="320" y="389"  height="13" width="13" url="$oralScraper"/>
+    <image z_order="23" id="cover" type="png" x="383" y="389"  height="13" width="13" url="$saliva"/>
+    <image z_order="23" id="cover" type="png" x="429" y="389"  height="13" width="13" url="$bloodCard"/>
+    <image z_order="23" id="cover" type="png" x="475" y="389"  height="13" width="13" url="$venousBlood"/>
+
+    <!-- area 5   x+110 y-168-->
+    <!-- area 5 -->
+    <text z_order="51"  x="190" y="352" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测项目："/>
+    <text z_order="52"  x="256" y="354" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$program"/>
+
+    <!-- area 3 -->
+    <!-- area 3   x+110 y-168-->
+    <text z_order="31"  x="190" y="318" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="接收日期："/>
+    <text z_order="32"  x="256" y="320" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$receiveDate"/>
+
+    <!-- area 4 -->
+    <!-- area 4   x-60 y-168-->
+    <text z_order="41"  x="190" y="284" width="120" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="完成日期："/>
+    <text z_order="42"  x="256" y="286" width="150" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="$completeDate"/>
+
+    <!-- area 6 -->
+    <!-- area 6 -->
+    <text z_order="71"  x="190" y="250" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测技术："/>
+    <text z_order="72"  x="256" y="252" width="120" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="核酸质谱SNP分析"/>
+
+    <!-- area 7 -->
+    <!-- area 7 -->
+    <text z_order="61"  x="190" y="216" width="120" font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="送检单位："/>
+    <text z_order="62"  x="256" y="218" width="150" font="fzltxh_gbk" font_size="9" color="#545454" bold="" italic="" underline="" value="远盟康健科技有限公司"/>
+
+
+    <!-- area 8 -->
+    <!-- area 8 -->
+    <text z_order="72"  x="312"  y="80" width="84"  font="fzltchjw" font_size="12" color="#545454" bold="" italic="" underline="" value="检测机构"/>
+    <path z_order="70"  path="m 376 82 l 540 82 h" border_width="0.1" border_color="#545454"  opacity="0.8" fill_color="" shading=""/>
+    <text z_order="72"  x="396" y="82" width="348" font="fzltxh_gbk" font_size="10" color="#545454" bold="" italic="" underline="" value="北京市理化分析测试中心"/>
+    <image z_order="73" id="cover" type="png" x="420" y="30"  height="92" width="147" url="$beiJingLiHuaCenter"/>
+
+</page>
+    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="tail">
+        <text z_order="2" font="fzlthjw"    font_size="20" color="#545454" h_alignment="C" x="167" y="754.54" width="261" value="检 验 结 果"/>
+        <!-- rect -->
+        <rect z_order="3"  path="maxx 550 minx 70 maxy 753.5 miny 57" border_margin="0 0 0 0" border_width="0.3" border_color="#545454" opacity="1" fill_color=""/>
+        <!-- title-v -->
+        <path z_order="3"  path="m 190 753.5 l 190 734.258 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="3"  path="m 310 753.5 l 310 734.258 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="3"  path="m 430 753.5 l 430 734.258 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <!-- title-txt -->
+        <text z_order="3"  x="071" y="735.833" width="120" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="实验室流转号"/>
+        <text z_order="3"  x="191" y="735.833" width="120" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$transferNum"/>
+        <text z_order="3"  x="311" y="735.833" width="120" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="样本编码"/>
+        <text z_order="3"  x="431" y="735.833" width="120" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$id"/>
+
+        <text z_order="3"  x="071" y="718.011" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="检测项目"/>
+        <text z_order="3"  x="196" y="718.011" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="实测结果"/>
+        <text z_order="3"  x="231" y="718.011" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="检测项目"/>
+        <text z_order="3"  x="356" y="718.011" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="实测结果"/>
+        <text z_order="3"  x="391" y="718.011" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="检测项目"/>
+        <text z_order="3"  x="516" y="718.011" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="实测结果"/>
+	<!-- foot-txt -->
+        <text z_order="3"  x="73" y="058.597" width="474" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="L" value=""><![CDATA[相关项目未取得资质认定，检测结果、数据仅作为科研、教学或内部质量控制使用<br/>以下空白]]></text>
+
+        <!-- v -->
+        <path z_order="3"  path="m 195 734.258 l 195 092.666 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="3"  path="m 230 734.258 l 230 092.666 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="3"  path="m 355 734.258 l 355 092.666 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="3"  path="m 390 734.258 l 390 092.666 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="3"  path="m 515 734.258 l 515 092.666 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <!-- h -->
+        <path z_order="4"  path="m 70 734.258 l 550 734.258 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 716.436 l 550 716.436 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 698.614 l 550 698.614 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 680.792 l 550 680.792 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 662.970 l 550 662.970 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 645.148 l 550 645.148 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 627.326 l 550 627.326 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 609.504 l 550 609.504 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 591.682 l 550 591.682 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 573.860 l 550 573.860 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 556.038 l 550 556.038 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 538.216 l 550 538.216 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 520.394 l 550 520.394 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 502.572 l 550 502.572 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 484.750 l 550 484.750 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 466.928 l 550 466.928 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 449.106 l 550 449.106 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 431.284 l 550 431.284 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 413.462 l 550 413.462 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 395.640 l 550 395.640 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 377.818 l 550 377.818 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 359.996 l 550 359.996 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 342.174 l 550 342.174 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 324.352 l 550 324.352 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 306.530 l 550 306.530 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 288.708 l 550 288.708 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 270.886 l 550 270.886 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 253.064 l 550 253.064 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 235.242 l 550 235.242 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 217.420 l 550 217.420 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 199.598 l 550 199.598 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 181.776 l 550 181.776 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 163.954 l 550 163.954 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 146.132 l 550 146.132 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 128.310 l 550 128.310 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 110.488 l 550 110.488 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+        <path z_order="4"  path="m 70 092.666 l 550 092.666 h" border_width="0.3" border_color="#545454"  opacity="1" fill_color="" shading=""/>
+
+        <!-- txt -->
+        <text z_order="50000"  x="071" y="700.189" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0000"/>
+        <text z_order="50100"  x="071" y="682.367" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0100"/>
+        <text z_order="50200"  x="071" y="664.545" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0200"/>
+        <text z_order="50300"  x="071" y="646.723" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0300"/>
+        <text z_order="50400"  x="071" y="628.901" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0400"/>
+        <text z_order="50500"  x="071" y="611.079" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0500"/>
+        <text z_order="50600"  x="071" y="593.257" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0600"/>
+        <text z_order="50700"  x="071" y="575.435" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0700"/>
+        <text z_order="50800"  x="071" y="557.613" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0800"/>
+        <text z_order="50900"  x="071" y="539.791" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0900"/>
+        <text z_order="51000"  x="071" y="521.969" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1000"/>
+        <text z_order="51100"  x="071" y="504.147" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1100"/>
+        <text z_order="51200"  x="071" y="486.325" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1200"/>
+        <text z_order="51300"  x="071" y="468.503" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1300"/>
+        <text z_order="51400"  x="071" y="450.681" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1400"/>
+        <text z_order="51500"  x="071" y="432.859" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1500"/>
+        <text z_order="51600"  x="071" y="415.037" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1600"/>
+        <text z_order="51700"  x="071" y="397.215" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1700"/>
+        <text z_order="51800"  x="071" y="379.393" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1800"/>
+        <text z_order="51900"  x="071" y="361.571" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1900"/>
+        <text z_order="52000"  x="071" y="343.749" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2000"/>
+        <text z_order="52100"  x="071" y="325.927" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2100"/>
+        <text z_order="52200"  x="071" y="308.105" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2200"/>
+        <text z_order="52300"  x="071" y="290.283" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2300"/>
+        <text z_order="52400"  x="071" y="272.461" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2400"/>
+        <text z_order="52500"  x="071" y="254.639" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2500"/>
+        <text z_order="52600"  x="071" y="236.817" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2600"/>
+        <text z_order="52700"  x="071" y="218.995" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2700"/>
+        <text z_order="52800"  x="071" y="201.173" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2800"/>
+        <text z_order="52900"  x="071" y="183.351" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2900"/>
+        <text z_order="53000"  x="071" y="165.529" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3000"/>
+        <text z_order="53100"  x="071" y="147.707" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3100"/>
+        <text z_order="53200"  x="071" y="129.885" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3200"/>
+        <text z_order="53300"  x="071" y="112.063" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3300"/>
+        <text z_order="53400"  x="071" y="094.241" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3400"/>
+
+        <text z_order="50001"  x="196" y="700.189" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0001"/>
+        <text z_order="50101"  x="196" y="682.367" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0101"/>
+        <text z_order="50201"  x="196" y="664.545" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0201"/>
+        <text z_order="50301"  x="196" y="646.723" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0301"/>
+        <text z_order="50401"  x="196" y="628.901" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0401"/>
+        <text z_order="50501"  x="196" y="611.079" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0501"/>
+        <text z_order="50601"  x="196" y="593.257" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0601"/>
+        <text z_order="50701"  x="196" y="575.435" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0701"/>
+        <text z_order="50801"  x="196" y="557.613" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0801"/>
+        <text z_order="50901"  x="196" y="539.791" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0901"/>
+        <text z_order="51001"  x="196" y="521.969" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1001"/>
+        <text z_order="51101"  x="196" y="504.147" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1101"/>
+        <text z_order="51201"  x="196" y="486.325" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1201"/>
+        <text z_order="51301"  x="196" y="468.503" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1301"/>
+        <text z_order="51401"  x="196" y="450.681" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1401"/>
+        <text z_order="51501"  x="196" y="432.859" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1501"/>
+        <text z_order="51601"  x="196" y="415.037" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1601"/>
+        <text z_order="51701"  x="196" y="397.215" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1701"/>
+        <text z_order="51801"  x="196" y="379.393" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1801"/>
+        <text z_order="51901"  x="196" y="361.571" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1901"/>
+        <text z_order="52001"  x="196" y="343.749" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2001"/>
+        <text z_order="52101"  x="196" y="325.927" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2101"/>
+        <text z_order="52201"  x="196" y="308.105" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2201"/>
+        <text z_order="52301"  x="196" y="290.283" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2301"/>
+        <text z_order="52401"  x="196" y="272.461" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2401"/>
+        <text z_order="52501"  x="196" y="254.639" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2501"/>
+        <text z_order="52601"  x="196" y="236.817" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2601"/>
+        <text z_order="52701"  x="196" y="218.995" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2701"/>
+        <text z_order="52801"  x="196" y="201.173" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2801"/>
+        <text z_order="52901"  x="196" y="183.351" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2901"/>
+        <text z_order="53001"  x="196" y="165.529" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3001"/>
+        <text z_order="53101"  x="196" y="147.707" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3101"/>
+        <text z_order="53201"  x="196" y="129.885" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3201"/>
+        <text z_order="53301"  x="196" y="112.063" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3301"/>
+        <text z_order="53401"  x="196" y="094.241" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3401"/>
+
+        <text z_order="50002"  x="231" y="700.189" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0002"/>
+        <text z_order="50102"  x="231" y="682.367" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0102"/>
+        <text z_order="50202"  x="231" y="664.545" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0202"/>
+        <text z_order="50302"  x="231" y="646.723" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0302"/>
+        <text z_order="50402"  x="231" y="628.901" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0402"/>
+        <text z_order="50502"  x="231" y="611.079" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0502"/>
+        <text z_order="50602"  x="231" y="593.257" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0602"/>
+        <text z_order="50702"  x="231" y="575.435" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0702"/>
+        <text z_order="50802"  x="231" y="557.613" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0802"/>
+        <text z_order="50902"  x="231" y="539.791" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0902"/>
+        <text z_order="51002"  x="231" y="521.969" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1002"/>
+        <text z_order="51102"  x="231" y="504.147" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1102"/>
+        <text z_order="51202"  x="231" y="486.325" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1202"/>
+        <text z_order="51302"  x="231" y="468.503" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1302"/>
+        <text z_order="51402"  x="231" y="450.681" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1402"/>
+        <text z_order="51502"  x="231" y="432.859" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1502"/>
+        <text z_order="51602"  x="231" y="415.037" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1602"/>
+        <text z_order="51702"  x="231" y="397.215" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1702"/>
+        <text z_order="51802"  x="231" y="379.393" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1802"/>
+        <text z_order="51902"  x="231" y="361.571" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1902"/>
+        <text z_order="52002"  x="231" y="343.749" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2002"/>
+        <text z_order="52102"  x="231" y="325.927" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2102"/>
+        <text z_order="52202"  x="231" y="308.105" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2202"/>
+        <text z_order="52302"  x="231" y="290.283" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2302"/>
+        <text z_order="52402"  x="231" y="272.461" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2402"/>
+        <text z_order="52502"  x="231" y="254.639" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2502"/>
+        <text z_order="52602"  x="231" y="236.817" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2602"/>
+        <text z_order="52702"  x="231" y="218.995" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2702"/>
+        <text z_order="52802"  x="231" y="201.173" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2802"/>
+        <text z_order="52902"  x="231" y="183.351" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2902"/>
+        <text z_order="53002"  x="231" y="165.529" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3002"/>
+        <text z_order="53102"  x="231" y="147.707" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3102"/>
+        <text z_order="53202"  x="231" y="129.885" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3202"/>
+        <text z_order="53302"  x="231" y="112.063" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3302"/>
+        <text z_order="53402"  x="231" y="094.241" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3402"/>
+
+        <text z_order="50003"  x="356" y="700.189" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0003"/>
+        <text z_order="50103"  x="356" y="682.367" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0103"/>
+        <text z_order="50203"  x="356" y="664.545" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0203"/>
+        <text z_order="50303"  x="356" y="646.723" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0303"/>
+        <text z_order="50403"  x="356" y="628.901" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0403"/>
+        <text z_order="50503"  x="356" y="611.079" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0503"/>
+        <text z_order="50603"  x="356" y="593.257" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0603"/>
+        <text z_order="50703"  x="356" y="575.435" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0703"/>
+        <text z_order="50803"  x="356" y="557.613" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0803"/>
+        <text z_order="50903"  x="356" y="539.791" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0903"/>
+        <text z_order="51003"  x="356" y="521.969" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1003"/>
+        <text z_order="51103"  x="356" y="504.147" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1103"/>
+        <text z_order="51203"  x="356" y="486.325" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1203"/>
+        <text z_order="51303"  x="356" y="468.503" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1303"/>
+        <text z_order="51403"  x="356" y="450.681" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1403"/>
+        <text z_order="51503"  x="356" y="432.859" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1503"/>
+        <text z_order="51603"  x="356" y="415.037" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1603"/>
+        <text z_order="51703"  x="356" y="397.215" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1703"/>
+        <text z_order="51803"  x="356" y="379.393" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1803"/>
+        <text z_order="51903"  x="356" y="361.571" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1903"/>
+        <text z_order="52003"  x="356" y="343.749" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2003"/>
+        <text z_order="52103"  x="356" y="325.927" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2103"/>
+        <text z_order="52203"  x="356" y="308.105" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2203"/>
+        <text z_order="52303"  x="356" y="290.283" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2303"/>
+        <text z_order="52403"  x="356" y="272.461" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2403"/>
+        <text z_order="52503"  x="356" y="254.639" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2503"/>
+        <text z_order="52603"  x="356" y="236.817" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2603"/>
+        <text z_order="52703"  x="356" y="218.995" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2703"/>
+        <text z_order="52803"  x="356" y="201.173" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2803"/>
+        <text z_order="52903"  x="356" y="183.351" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2903"/>
+        <text z_order="53003"  x="356" y="165.529" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3003"/>
+        <text z_order="53103"  x="356" y="147.707" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3103"/>
+        <text z_order="53203"  x="356" y="129.885" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3203"/>
+        <text z_order="53303"  x="356" y="112.063" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3303"/>
+        <text z_order="53403"  x="356" y="094.241" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3403"/>
+
+        <text z_order="50004"  x="391" y="700.189" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0004"/>
+        <text z_order="50104"  x="391" y="682.367" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0104"/>
+        <text z_order="50204"  x="391" y="664.545" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0204"/>
+        <text z_order="50304"  x="391" y="646.723" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0304"/>
+        <text z_order="50404"  x="391" y="628.901" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0404"/>
+        <text z_order="50504"  x="391" y="611.079" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0504"/>
+        <text z_order="50604"  x="391" y="593.257" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0604"/>
+        <text z_order="50704"  x="391" y="575.435" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0704"/>
+        <text z_order="50804"  x="391" y="557.613" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0804"/>
+        <text z_order="50904"  x="391" y="539.791" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0904"/>
+        <text z_order="51004"  x="391" y="521.969" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1004"/>
+        <text z_order="51104"  x="391" y="504.147" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1104"/>
+        <text z_order="51204"  x="391" y="486.325" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1204"/>
+        <text z_order="51304"  x="391" y="468.503" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1304"/>
+        <text z_order="51404"  x="391" y="450.681" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1404"/>
+        <text z_order="51504"  x="391" y="432.859" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1504"/>
+        <text z_order="51604"  x="391" y="415.037" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1604"/>
+        <text z_order="51704"  x="391" y="397.215" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1704"/>
+        <text z_order="51804"  x="391" y="379.393" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1804"/>
+        <text z_order="51904"  x="391" y="361.571" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1904"/>
+        <text z_order="52004"  x="391" y="343.749" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2004"/>
+        <text z_order="52104"  x="391" y="325.927" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2104"/>
+        <text z_order="52204"  x="391" y="308.105" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2204"/>
+        <text z_order="52304"  x="391" y="290.283" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2304"/>
+        <text z_order="52404"  x="391" y="272.461" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2404"/>
+        <text z_order="52504"  x="391" y="254.639" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2504"/>
+        <text z_order="52604"  x="391" y="236.817" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2604"/>
+        <text z_order="52704"  x="391" y="218.995" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2704"/>
+        <text z_order="52804"  x="391" y="201.173" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2804"/>
+        <text z_order="52904"  x="391" y="183.351" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2904"/>
+        <text z_order="53004"  x="391" y="165.529" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3004"/>
+        <text z_order="53104"  x="391" y="147.707" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3104"/>
+        <text z_order="53204"  x="391" y="129.885" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3204"/>
+        <text z_order="53304"  x="391" y="112.063" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3304"/>
+        <text z_order="53404"  x="391" y="094.241" width="125" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3404"/>
+
+        <text z_order="50005"  x="516" y="700.189" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0005"/>
+        <text z_order="50105"  x="516" y="682.367" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0105"/>
+        <text z_order="50205"  x="516" y="664.545" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0205"/>
+        <text z_order="50305"  x="516" y="646.723" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0305"/>
+        <text z_order="50405"  x="516" y="628.901" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0405"/>
+        <text z_order="50505"  x="516" y="611.079" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0505"/>
+        <text z_order="50605"  x="516" y="593.257" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0605"/>
+        <text z_order="50705"  x="516" y="575.435" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0705"/>
+        <text z_order="50805"  x="516" y="557.613" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0805"/>
+        <text z_order="50905"  x="516" y="539.791" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$0905"/>
+        <text z_order="51005"  x="516" y="521.969" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1005"/>
+        <text z_order="51105"  x="516" y="504.147" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1105"/>
+        <text z_order="51205"  x="516" y="486.325" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1205"/>
+        <text z_order="51305"  x="516" y="468.503" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1305"/>
+        <text z_order="51405"  x="516" y="450.681" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1405"/>
+        <text z_order="51505"  x="516" y="432.859" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1505"/>
+        <text z_order="51605"  x="516" y="415.037" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1605"/>
+        <text z_order="51705"  x="516" y="397.215" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1705"/>
+        <text z_order="51805"  x="516" y="379.393" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1805"/>
+        <text z_order="51905"  x="516" y="361.571" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$1905"/>
+        <text z_order="52005"  x="516" y="343.749" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2005"/>
+        <text z_order="52105"  x="516" y="325.927" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2105"/>
+        <text z_order="52205"  x="516" y="308.105" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2205"/>
+        <text z_order="52305"  x="516" y="290.283" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2305"/>
+        <text z_order="52405"  x="516" y="272.461" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2405"/>
+        <text z_order="52505"  x="516" y="254.639" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2505"/>
+        <text z_order="52605"  x="516" y="236.817" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2605"/>
+        <text z_order="52705"  x="516" y="218.995" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2705"/>
+        <text z_order="52805"  x="516" y="201.173" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2805"/>
+        <text z_order="52905"  x="516" y="183.351" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$2905"/>
+        <text z_order="53005"  x="516" y="165.529" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3005"/>
+        <text z_order="53105"  x="516" y="147.707" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3105"/>
+        <text z_order="53205"  x="516" y="129.885" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3205"/>
+        <text z_order="53305"  x="516" y="112.063" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3305"/>
+        <text z_order="53405"  x="516" y="094.241" width="035" font="fzltxh_gbk" font_size="8" color="#545454" h_alignment="C" value="$3405"/>
+
+    </page>
+</pdf>

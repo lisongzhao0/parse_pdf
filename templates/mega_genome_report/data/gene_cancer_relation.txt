@@ -1,0 +1,184 @@
+乳腺癌		BRCA1
+乳腺癌		BRCA2
+乳腺癌		CHEK2
+乳腺癌		PALB2
+乳腺癌		BRIP1
+乳腺癌		TP53
+乳腺癌		PTEN
+乳腺癌		STK11
+乳腺癌		CDH1
+乳腺癌		ATM
+乳腺癌		BARD1
+乳腺癌		MLH1
+乳腺癌		MRE11A
+乳腺癌		MSH2
+乳腺癌		MSH6
+乳腺癌		MUTYH
+乳腺癌		NBN
+乳腺癌		PMS1
+乳腺癌		PMS2
+乳腺癌		RAD50
+乳腺癌		RAD51C
+
+卵巢癌		ATM
+卵巢癌		BARD1
+卵巢癌		BRCA1
+卵巢癌		BRCA2
+卵巢癌		BRIP1
+卵巢癌		CDH1
+卵巢癌		CHEK2
+卵巢癌		EPCAM
+卵巢癌		MLH1
+卵巢癌		MRE11A
+卵巢癌		MSH2
+卵巢癌		MSH6
+卵巢癌		MUTYH
+卵巢癌		NBN
+卵巢癌		NF1
+卵巢癌		PALB2
+卵巢癌		PMS2
+卵巢癌		PTEN
+卵巢癌		RAD50
+卵巢癌		RAD51C
+卵巢癌		RAD51D
+卵巢癌		STK11
+卵巢癌		TP53
+
+结直肠癌		APC
+结直肠癌		BMPR1A
+结直肠癌		CDH1
+结直肠癌		CHEK2
+结直肠癌		EPCAM
+结直肠癌		MLH1
+结直肠癌		MSH2
+结直肠癌		MSH6
+结直肠癌		MUTYH
+结直肠癌		PMS2
+结直肠癌		MET
+结直肠癌		PTEN
+结直肠癌		SMAD4
+结直肠癌		STK11
+结直肠癌		TP53
+结直肠癌		AXIN2
+结直肠癌		MLH3
+结直肠癌		BUB1
+
+胃癌		CDH1
+胃癌		TP53
+胃癌		MET
+胃癌		MLH1
+胃癌		MSH2
+胃癌		MSH6
+胃癌		PMS2
+胃癌		EPCAM
+胃癌		APC
+
+肾癌		EPCAM
+肾癌		FH
+肾癌		FLCN
+肾癌		MET
+肾癌		MITF
+肾癌		MLH1
+肾癌		MSH2
+肾癌		MSH6
+肾癌		PMS2
+肾癌		PTEN
+肾癌		SDHA
+肾癌		SDHB
+肾癌		SDHC
+肾癌		SDHD
+肾癌		TP53
+肾癌		TSC1
+肾癌		TSC2
+肾癌		VHL
+
+前列腺癌		BRCA2
+前列腺癌		BRCA1
+前列腺癌		CHEK2
+前列腺癌		NBN
+前列腺癌		HOXB13
+前列腺癌		ELAC2
+前列腺癌		HSD17B3
+前列腺癌		HSD3B2
+前列腺癌		RNASEL
+前列腺癌		SRD5A2
+
+胰腺癌		APC
+胰腺癌		ATM
+胰腺癌		BRCA1
+胰腺癌		BRCA2
+胰腺癌		CDKN2A
+胰腺癌		EPCAM
+胰腺癌		MLH1
+胰腺癌		MSH2
+胰腺癌		MSH6
+胰腺癌		PALB2
+胰腺癌		PMS2
+胰腺癌		STK11
+胰腺癌		TP53
+胰腺癌		PRSS1
+胰腺癌		SPINK1
+
+子宫内膜癌		ATM
+子宫内膜癌		BARD1
+子宫内膜癌		BRCA1
+子宫内膜癌		BRCA2
+子宫内膜癌		BRIP1
+子宫内膜癌		CDH1
+子宫内膜癌		CHEK2
+子宫内膜癌		EPCAM
+子宫内膜癌		MLH1
+子宫内膜癌		MRE11A
+子宫内膜癌		MSH2
+子宫内膜癌		MSH6
+子宫内膜癌		MUTYH
+子宫内膜癌		NBN
+子宫内膜癌		NF1
+子宫内膜癌		PALB2
+子宫内膜癌		PMS2
+子宫内膜癌		PTEN
+子宫内膜癌		RAD50
+子宫内膜癌		RAD51C
+子宫内膜癌		RAD51D
+子宫内膜癌		STK11
+子宫内膜癌		TP53
+
+甲状腺癌		RET
+甲状腺癌		NTRK1
+
+肺癌		EGFR
+肺癌		PIK3CA
+肺癌		KRAS
+肺癌		BRAF
+肺癌		TP53
+
+肝癌		TP53
+肝癌		IQGAP1
+肝癌		IQGAP2
+肝癌		CTNNB1
+
+食管癌		RHBDF2
+食管癌		ADH1B
+食管癌		ALDH2
+食管癌		CYP2E1
+
+膀胱癌		KRAS
+膀胱癌		RB1
+膀胱癌		FGFR3
+膀胱癌		HRAS
+
+神经胶质瘤		TP53
+神经胶质瘤		IDH1
+神经胶质瘤		IDH2
+神经胶质瘤		PTEN
+
+淋巴瘤		KLHDC8B
+淋巴瘤		ATM
+淋巴瘤		MYC
+淋巴瘤		PRF1
+淋巴瘤		BLM
+
+
+子宫颈癌？？？
+白血病？？？
+脑瘤？？？？

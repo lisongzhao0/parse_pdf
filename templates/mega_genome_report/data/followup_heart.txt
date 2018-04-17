@@ -1,0 +1,35 @@
+cancer_title_atrial:合理膳食
+cancer_content_atrial:·淡食慎味：WHO 在预防高血压措施中建议每人每日摄盐量应控制在 5g 以下<br/>·吃大量蔬菜可增加钾摄入量，能保护动脉不受钠的不良作用影响，多食用富含纤维质的蔬菜有助于排便通畅<br/>·增加膳食中的钙摄入量<br/>·选择清淡、易消化、富含维生素及低脂肪食物，忌食油腻、肥甘、辛辣，宜少食多餐<br/>·早晨忌空腹，以防止低血糖及脑血栓形成的发生<br/>·失眠者睡前忌茶与咖啡
+cancer_title_atrial:生活习惯
+cancer_content_atrial:·生活规律，保持良好的睡眠<br/>·坚持锻炼，运动强度不要过大，适当的运动能够促进身体的新陈代谢以及血液的循环
+cancer_title_atrial:忌酒戒烟
+cancer_content_atrial:·节制饮酒，并戒除饮用烈酒<br/>·戒烟可以避免损害心脏功能，烟中所含的尼古丁能收缩血管，以致动脉壁缺氧而造成动脉损伤。烟民应在指导下制定戒烟计划，并拒绝二手烟污染
+cancer_title_atrial:避免熬夜
+cancer_content_atrial:·最好不要经常熬夜工作，避免给心肌带来负担，避免过度劳累<br/>
+cancer_title_atrial:保持心理平衡
+cancer_content_atrial:·轻松、愉快的情绪，能有效地预防疾病。 生活中适当的放松自己，学会给自己减压，工作中注意劳逸结合
+cancer_title_atrial:减肥
+cancer_content_atrial:·中国人作为参考的正常 BMI 指数应在 18.5 ～ 23.9 之间，重度肥胖者应适当减重
+cancer_title_atrial:定期体检
+cancer_content_atrial:·40 岁以上中年人应定期体检，早期发现病症。高危人群注意检查血压，测量血脂、血糖 ( 葡萄糖耐量试验 )，及时发现病情并及时治疗
+cancer_title_atrial:看医生
+cancer_content_atrial:高危人群（见下文），及早就医，主动做乳腺癌筛查，遵医嘱进行定期检查及随访
+
+
+cancer_title_sangao:控制三高
+cancer_content_sangao:·每日检测并控制血压，遵循医嘱服用药物降血压、降脂、降血糖，患者应努力将空腹血糖、餐后 2 小时的血糖、甘油三酯水平控制在正常范围
+cancer_title_sangao:少量葡萄酒
+cancer_content_sangao:·适量饮用低度数的有色酒（例如葡萄酒）可降低冠状动脉粥样硬化性心脏病的危险性，因为少量葡萄酒可使高密度脂蛋白浓度增高
+cancer_title_sangao:防寒保暖
+cancer_content_sangao:·注意防寒保暖，天气变化时要及时更换衣着。特别是严冬季节，50 岁以上人群在清晨起床或夜间临厕时更应多加小心<br/>
+cancer_title_sangao:定期体检
+cancer_content_sangao:·听从医生建议做好定期的慢性疾病评估如肾脏病评估、眼底病变检查，以及心脑血管方面的心电图、心脏超声、血管超声等检测
+
+cancer_title_patientatrial:
+cancer_content_patientatrial:
+
+
+cancer_title_venous:术后调理
+cancer_content_venous:·手术后病人卧床期间对下肢由远端向近端进行按摩，必要时穿着医用弹力袜，术后尽早下床活动<br/>
+cancer_title_venous:旅行须知
+cancer_content_venous:·旅行坐长途大巴或航班时穿压力袜，并摄取足够水分，尽量不饮用含咖啡因或酒精的饮品。情况允许下主动走动与活动小腿肌肉

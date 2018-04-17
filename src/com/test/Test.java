@@ -51,15 +51,16 @@ public class Test {
 
 
 
-        int start = 480;
-        int step  = -25;
+        double start = 734.258;
+        double step  = -17.822;
+        double delta = 1.575;
 
         for (int i=0; i < 90; i++) {
             if (i < 10) {
-                System.out.println("==0" + i + "==>" + (start + step * i));
+                System.out.println("==0" + i + "==>" + (start + step * i + delta));
             }
             else {
-                System.out.println("==" + i + "==>" + (start + step * i));
+                System.out.println("==" + i + "==>" + (start + step * i + delta));
             }
         }
     }

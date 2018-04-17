@@ -1,0 +1,6 @@
+高甘油三酯血症	hypertriglyceridemia	male_0.1991	female_0.1548
+肥胖 	 obesity	male_0.057	female_0.068
+骨质疏松 	   osteoporosis	male_0.069	female_0.113
+高同型半胱氨酸血症  	 hyperhomocysteinemia	male_0.348	female_0.187
+2型糖尿病  	 type	male_0.152	female_0.144
+痛风 	 gout	male_0.015	female_0.009

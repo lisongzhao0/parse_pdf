@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pdf>
+    <fonts>
+        <font id="simsun"     embedded="true" name="simsun"     ttf_path="./fonts/simsun.ttc,1"/>
+        <font id="fzlthjw"    embedded="true" name="fzlthjw"    ttf_path="./fonts/fzlthjw.ttf"/>
+        <font id="fzltchjw"   embedded="true" name="fzltchjw"   ttf_path="./fonts/fzltchjw.ttf"/>
+        <font id="fzltxh_gbk" embedded="true" name="fzltxh_gbk" ttf_path="./fonts/fzltxh_gbk.ttf"/>
+    </fonts>
+</pdf>

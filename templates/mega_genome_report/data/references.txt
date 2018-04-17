@@ -1,0 +1,280 @@
+cancer_refs_breast:
+1. Bogdanova, N. et al. Association of two mutations in the CHEK2 gene with breast cancer. Int J Cancer 116, 263-6 (2005).
+<br/><br/>2. Cai, Q. et al. Genome-wide association study identifies breast cancer risk variant at 10q21.2: results from the Asia Breast Cancer Consortium. Hum Mol Genet 20, 4991-9 (2011).
+<br/><br/>3. Cai, Q. et al. Genome-wide association analysis in East Asians identifies breast cancer susceptibility loci at 1q32.1, 5q14.3 and 15q26.1. Nat Genet 46, 886-90 (2014).
+<br/><br/>4. Chen, F. et al. A genome-wide association study of breast cancer in women of African ancestry. Hum Genet 132, 39-48 (2013).
+<br/><br/>5. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. & Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>6. Easton, D.F. et al. Genome-wide association study identifies novel breast cancer susceptibility loci. Nature 447, 1087-93 (2007).
+<br/><br/>7. Elgazzar, S. et al. A genome-wide association study identifies a genetic variant in the SIAH2 locus associated with hormonal receptor-positive breast cancer in Japanese. J Hum Genet 57, 766-71 (2012).
+<br/><br/>8. Fletcher, O. et al. Novel breast cancer susceptibility locus at 9q31.2: results of a genome-wide association study. J Natl Cancer Inst 103, 425-35 (2011).
+<br/><br/>9. Frank, B. et al. BRIP1 (BACH1) variants and familial breast cancer risk: a case-control study. BMC Cancer 7, 83 (2007).
+<br/><br/>10. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>11. Garcia-Closas, M. et al. Genome-wide association studies identify four ER negative-specific breast cancer risk loci. Nat Genet 45, 392-8, 398e1-2 (2013).
+<br/><br/>12. Kim, H.C. et al. A genome-wide association study identifies a breast cancer risk variant in ERBB4 at 2q34: results from the Seoul Breast Cancer Study. Breast Cancer Res 14, R56 (2012).
+<br/><br/>13. Li, J. et al. A combined analysis of genome-wide association studies in breast cancer. Breast Cancer Res Treat 126, 717-27 (2011).
+<br/><br/>14. Long, J. et al. Identification of a functional genetic variant at 16q12.1 for breast cancer risk: results from the Asia Breast Cancer Consortium. PLoS Genet 6, e1001002 (2010).
+<br/><br/>15. Long, J. et al. Genome-wide association study in east Asians identifies novel susceptibility loci for breast cancer. PLoS Genet 8, e1002532 (2012).
+<br/><br/>16. Lynch, E.D. et al. Inherited mutations in PTEN that are associated with breast cancer, cowden disease, and juvenile polyposis. Am J Hum Genet 61, 1254-60 (1997).
+<br/><br/>17. Masciari, S. et al. Germline E-cadherin mutations in familial lobular breast cancer. J Med Genet 44, 726-31 (2007).
+<br/><br/>18. Merino, D. & Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>19. Michailidou, K. et al. Large-scale genotyping identifies 41 new loci associated with breast cancer risk. Nat Genet 45, 353-61, 361e1-2 (2013).
+<br/><br/>20. Milne, R.L. Variants in the ATM gene and breast cancer susceptibility. Genome Med 1, 12 (2009).
+<br/><br/>21. Monsees, G.M., Kraft, P., Chanock, S.J., Hunter, D.J. & Han, J. Comprehensive screen of genetic variation in DNA repair pathway genes and postmenopausal breast cancer risk. Breast Cancer Res Treat 125, 207-14 (2011).
+<br/><br/>22. Rebbeck, T.R. et al. Genetic heterogeneity in hereditary breast cancer: role of BRCA1 and BRCA2. Am J Hum Genet 59, 547-53 (1996).
+<br/><br/>23. Rennert, G. et al. MutYH mutation carriers have increased breast cancer risk. Cancer 118, 1989-93 (2012).
+<br/><br/>24. Rinella, E.S. et al. Genetic variants associated with breast cancer risk for Ashkenazi Jewish women with strong family histories but no identifiable BRCA1/2 mutation. Hum Genet 132, 523-36 (2013).
+<br/><br/>25. Siddiq, A. et al. A meta-analysis of genome-wide association studies of breast cancer identifies two novel susceptibility loci at 6q14 and 20q11. Hum Mol Genet 21, 5373-84 (2012).
+<br/><br/>26. Song, C. et al. A genome-wide scan for breast cancer risk haplotypes among African American women. PLoS One 8, e57298 (2013).
+<br/><br/>27. Stone, J.G. et al. Contribution of germline MLH1 and MSH2 mutations to lobular carcinoma in situ of the breast. Cancer Lett 167, 171-4 (2001).
+<br/><br/>28. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+<br/><br/>29. Tischkowitz, M. et al. Rare germline mutations in PALB2 and breast cancer risk: a population-based study. Hum Mutat 33, 674-80 (2012).
+<br/><br/>30. Turnbull, C. et al. Genome-wide association study identifies five new breast cancer susceptibility loci. Nat Genet 42, 504-7 (2010).
+<br/><br/>31. Walsh, T. & King, M.C. Ten genes for inherited breast cancer. Cancer Cell 11, 103-5 (2007).
+<br/><br/>32. Zheng, W. et al. Genome-wide association study identifies a new breast cancer susceptibility locus at 6q25.1. Nat Genet 41, 324-8 (2009).
+
+
+cancer_refs_ovarian:
+1. Bolton, K.L. et al. Common variants at 19p13 are associated with susceptibility to ovarian cancer. Nat Genet 42, 880-4 (2010).
+<br/><br/>2. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. & Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>3. Chen, K. et al. Genome-wide association study identifies new susceptibility loci for epithelial ovarian cancer in Han Chinese women. Nat Commun 5, 4682 (2014).
+<br/><br/>4. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>5. Gallion, H.H., Pieretti, M., DePriest, P.D. & van Nagell, J.R., Jr. The molecular basis of ovarian cancer. Cancer 76, 1992-7 (1995).
+<br/><br/>6. Goode, E.L. et al. A genome-wide association study identifies susceptibility loci for ovarian cancer at 2q31 and 8q24. Nat Genet 42, 874-9 (2010).
+<br/><br/>7. Heubner, M. et al. Single nucleotide polymorphisms of the EpCAM-coding gene TACSTD1 in patients with ovarian cancer and their potential translational aspects. Arch Gynecol Obstet 292, 1367-72 (2015).
+<br/><br/>8. Ichikawa, Y. et al. Microsatellite instability and expression of MLH1 and MSH2 in normal and malignant endometrial and ovarian epithelium in hereditary nonpolyposis colorectal cancer family members. Cancer Genet Cytogenet 112, 2-8 (1999).
+<br/><br/>9. Kuchenbaecker, K.B. et al. Identification of six new susceptibility loci for invasive epithelial ovarian cancer. Nat Genet 47, 164-71 (2015).
+<br/><br/>10. Li, Y. et al. E-cadherin gene polymorphisms and haplotype associated with the occurrence of epithelial ovarian cancer in Chinese. Gynecol Oncol 108, 409-14 (2008).
+<br/><br/>11. McConechy, M.K. et al. Ovarian and endometrial endometrioid carcinomas have distinct CTNNB1 and PTEN mutation profiles. Mod Pathol 27, 128-34 (2014).
+<br/><br/>12. Nishioka, Y. et al. Mutational analysis of STK11 gene in ovarian carcinomas. Jpn J Cancer Res 90, 629-32 (1999).
+<br/><br/>13. Porhanova, N.V. et al. Ovarian cancer patient with germline mutations in both BRCA1 and NBN genes. Cancer Genet Cytogenet 186, 122-4 (2008).
+<br/><br/>14. Rafnar, T. et al. Mutations in BRIP1 confer high risk of ovarian cancer. Nat Genet 43, 1104-7 (2011).
+<br/><br/>15. Sangha, N. et al. Neurofibromin 1 (NF1) defects are common in human ovarian serous carcinomas and co-occur with TP53 mutations. Neoplasia 10, 1362-72, following 1372 (2008).
+<br/><br/>16. Song, H. et al. Common variants in mismatch repair genes and risk of invasive ovarian cancer. Carcinogenesis 27, 2235-42 (2006).
+<br/><br/>17. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+<br/><br/>18. Thorstenson, Y.R. et al. Contributions of ATM mutations to familial breast and ovarian cancer. Cancer Res 63, 3325-33 (2003).
+<br/><br/>19. Williams, L.H., Choong, D., Johnson, S.A. & Campbell, I.G. Genetic and epigenetic analysis of CHEK2 in sporadic breast, colon, and ovarian cancers. Clin Cancer Res 12, 6967-72 (2006).
+
+
+cancer_refs_colorectal:
+1. Al-Tassan, N.A. et al. A new GWAS and meta-analysis with 1000Genomes imputation identifies novel risk variants for colorectal cancer. Sci Rep 5, 10442 (2015).
+<br/><br/>2. Cui, R. et al. Common variant in 6q26-q27 is associated with distal colon cancer in an Asian population. Gut 60, 799-805 (2011).
+<br/><br/>3. Grunhage, F. et al. Association of familial colorectal cancer with variants in the E-cadherin (CDH1) and cyclin D1 (CCND1) genes. Int J Colorectal Dis 23, 147-54 (2008).
+<br/><br/>4. Herynk, M.H. et al. Down-regulation of c-Met inhibits growth in the liver of human colorectal carcinoma cells. Cancer Res 63, 2990-6 (2003).
+<br/><br/>5. Jia, W.H. et al. Genome-wide association analyses in East Asians identify new susceptibility loci for colorectal cancer. Nat Genet 45, 191-6 (2013).
+<br/><br/>6. Kempers, M.J. et al. Risk of colorectal and endometrial cancers in EPCAM deletion-positive Lynch syndrome: a cohort study. Lancet Oncol 12, 49-55 (2011).
+<br/><br/>7. Koessler, T. et al. Common variants in mismatch repair genes and risk of colorectal cancer. Gut 57, 1097-101 (2008).
+<br/><br/>8. Lammi, L. et al. Mutations in AXIN2 cause familial tooth agenesis and predispose to colorectal cancer. Am J Hum Genet 74, 1043-50 (2004).
+<br/><br/>9. Lawes, D.A., Pearson, T., Sengupta, S. & Boulos, P.B. The role of MLH1, MSH2 and MSH6 in the development of multiple colorectal cancers. Br J Cancer 93, 472-7 (2005).
+<br/><br/>10. Lynch, E.D. et al. Inherited mutations in PTEN that are associated with breast cancer, cowden disease, and juvenile polyposis. Am J Hum Genet 61, 1254-60 (1997).
+<br/><br/>11. Merino, D. & Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>12. Ngeow, J. et al. Prevalence of germline PTEN, BMPR1A, SMAD4, STK11, and ENG mutations in patients with moderate-load colorectal polyps. Gastroenterology 144, 1402-9, 1409 e1-5 (2013).
+<br/><br/>13. Nielsen, M. et al. Germline mutations in APC and MUTYH are responsible for the majority of families with attenuated familial adenomatous polyposis. Clin Genet 71, 427-33 (2007).
+<br/><br/>14. Peters, U. et al. Identification of Genetic Susceptibility Loci for Colorectal Tumors in a Genome-Wide Meta-analysis. Gastroenterology 144, 799-807 e24 (2013).
+<br/><br/>15. Schumacher, F.R. et al. Genome-wide association study of colorectal cancer identifies six new susceptibility loci. Nat Commun 6, 7138 (2015).
+<br/><br/>16. Study, C. et al. Meta-analysis of genome-wide association data identifies four new susceptibility loci for colorectal cancer. Nat Genet 40, 1426-35 (2008).
+<br/><br/>17. Tenesa, A. et al. Genome-wide association scan identifies a colorectal cancer susceptibility locus on 11q23 and replicates risk loci at 8q24 and 18q21. Nat Genet 40, 631-7 (2008).
+<br/><br/>18. Thompson, E. et al. Hereditary non-polyposis colorectal cancer and the role of hPMS2 and hEXO1 mutations. Clin Genet 65, 215-25 (2004).
+<br/><br/>19. Valle, L. et al. New insights into POLE and POLD1 germline mutations in familial colorectal cancer and polyposis. Hum Mol Genet 23, 3506-12 (2014).
+<br/><br/>20. Verma, L. et al. Germline mutation analysis of the transforming growth factor beta receptor type II (TGFBR2) and E-cadherin (CDH1) genes in early onset and familial colorectal cancer. J Med Genet 38, E7 (2001).
+<br/><br/>21. Wang, H. et al. Trans-ethnic genome-wide association study of colorectal cancer identifies a new susceptibility locus in VTI1A. Nat Commun 5, 4613 (2014).
+<br/><br/>22. Weren, R.D. et al. A germline homozygous mutation in the base-excision repair gene NTHL1 causes adenomatous polyposis and colorectal cancer. Nat Genet 47, 668-71 (2015).
+<br/><br/>23. Whiffin, N. et al. Identification of susceptibility loci for colorectal cancer in a genome-wide meta-analysis. Hum Mol Genet 23, 4729-37 (2014).
+<br/><br/>24. Williams, L.H., Choong, D., Johnson, S.A. & Campbell, I.G. Genetic and epigenetic analysis of CHEK2 in sporadic breast, colon, and ovarian cancers. Clin Cancer Res 12, 6967-72 (2006).
+<br/><br/>25. Worthley, D.L. et al. Familial mutations in PMS2 can cause autosomal dominant hereditary nonpolyposis colorectal cancer. Gastroenterology 128, 1431-6 (2005).
+<br/><br/>26. Zhang, B. et al. Large-scale genetic study in East Asians identifies six new loci associated with colorectal cancer risk. Nat Genet 46, 533-42 (2014).
+
+
+cancer_refs_gastric:
+1. Abnet, C.C. et al. A shared susceptibility locus in PLCE1 at 10q23 for gastric adenocarcinoma and esophageal squamous cell carcinoma. Nat Genet 42, 764-7 (2010).
+<br/><br/>2. Al-Moundhri, M.S. et al. Association of E-cadherin (CDH1) gene polymorphisms and gastric cancer risk. World J Gastroenterol 16, 3432-6 (2010).
+<br/><br/>3. Fang, D.C. et al. Mutation analysis of APC gene in gastric cancer with microsatellite instability. World J Gastroenterol 8, 787-91 (2002).
+<br/><br/>4. Helgason, H. et al. Loss-of-function variants in ATM confer risk of gastric cancer. Nat Genet 47, 906-10 (2015).
+<br/><br/>5. Hu, N. et al. Genome-wide association study of gastric adenocarcinoma in Asia: a comparison of associations between cardia and non-cardia tumours. Gut 65, 1611-8 (2016).
+<br/><br/>6. Imano, M. et al. High expression of epithelial cellular adhesion molecule in peritoneal metastasis of gastric cancer. Target Oncol 8, 231-5 (2013).
+<br/><br/>7. Jin, G. et al. Genetic variants at 6p21.1 and 7p15.3 are associated with risk of multiple cancers in Han Chinese. Am J Hum Genet 91, 928-34 (2012).
+<br/><br/>8. Lee, H.E. et al. MET in gastric carcinomas: comparison between protein expression and gene copy number and impact on clinical outcome. Br J Cancer 107, 325-33 (2012).
+<br/><br/>9. Merino, D. & Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>10. Zhu, H. et al. Polymorphisms in mismatch repair genes are associated with risk and microsatellite instability of gastric cancer, and interact with life exposures. Gene 579, 52-7 (2016).
+
+
+cancer_refs_kidney:
+1. Bertolotto, C. et al. A SUMOylation-defective MITF germline mutation predisposes to melanoma and renal carcinoma. Nature 480, 94-8 (2011).
+<br/><br/>2. Deguchi, M. et al. DNA mismatch repair genes in renal cell carcinoma. J Urol 169, 2365-71 (2003).
+<br/><br/>3. Gallou, C. et al. Mutations of the VHL gene in sporadic renal cell carcinoma: definition of a risk factor for VHL patients to develop an RCC. Hum Mutat 13, 464-75 (1999).
+<br/><br/>4. Khoo, S.K. et al. Inactivation of BHD in sporadic renal tumors. Cancer Res 63, 4583-7 (2003).
+<br/><br/>5. Klatte, T. et al. Cytogenetic and molecular tumor profiling for type 1 and type 2 papillary renal cell carcinoma. Clin Cancer Res 15, 1162-9 (2009).
+<br/><br/>6. Lee, H.J. et al. Prognostic significance of biallelic loss of PTEN in clear cell renal cell carcinoma. J Urol 192, 940-6 (2014).
+<br/><br/>7. Merino, D. & Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>8. Parry, L. et al. Analysis of the TSC1 and TSC2 genes in sporadic renal cell carcinomas. Br J Cancer 85, 1226-30 (2001).
+<br/><br/>9. Renkema, G.H. et al. SDHA mutations causing a multisystem mitochondrial disease: novel mutations and genetic overlap with hereditary tumors. Eur J Hum Genet 23, 202-9 (2015).
+<br/><br/>10. Ricketts, C. et al. Germline SDHB mutations and familial renal cell carcinoma. J Natl Cancer Inst 100, 1260-2 (2008).
+<br/><br/>11. Ricketts, C.J. et al. Succinate dehydrogenase kidney cancer: an aggressive example of the Warburg effect in cancer. J Urol 188, 2063-71 (2012).
+<br/><br/>12. Schmidt, L. et al. Germline and somatic mutations in the tyrosine kinase domain of the MET proto-oncogene in papillary renal carcinomas. Nat Genet 16, 68-73 (1997).
+
+
+cancer_refs_prostate:
+1. Al Olama, A.A. et al. A meta-analysis of 87,040 individuals identifies 23 new susceptibility loci for prostate cancer. Nat Genet 46, 1103-9 (2014).
+<br/><br/>2. Amin Al Olama, A. et al. A meta-analysis of genome-wide association studies to identify prostate cancer susceptibility loci associated with aggressive and non-aggressive disease. Hum Mol Genet 22, 408-15 (2013).
+<br/><br/>3. Berndt, S.I. et al. Two susceptibility loci identified for prostate cancer aggressiveness. Nat Commun 6, 6889 (2015).
+<br/><br/>4. Beuten, J. et al. Single and multigenic analysis of the association between variants in 12 steroid hormone metabolism genes and risk of prostate cancer. Cancer Epidemiol Biomarkers Prev 18, 1869-80 (2009).
+<br/><br/>5. Cheng, I. et al. Evaluating genetic risk for prostate cancer among Japanese and Latinos. Cancer Epidemiol Biomarkers Prev 21, 2048-58 (2012).
+<br/><br/>6. Cybulski, C. et al. NBS1 is a prostate cancer susceptibility gene. Cancer Res 64, 1215-9 (2004).
+<br/><br/>7. Eeles, R.A. et al. Multiple newly identified loci associated with prostate cancer susceptibility. Nat Genet 40, 316-21 (2008).
+<br/><br/>8. Eeles, R.A. et al. Identification of 23 new prostate cancer susceptibility loci using the iCOGS custom genotyping array. Nat Genet 45, 385-91, 391e1-2 (2013).
+<br/><br/>9. Ewing, C.M. et al. Germline mutations in HOXB13 and prostate-cancer risk. N Engl J Med 366, 141-9 (2012).
+<br/><br/>10. Gudmundsson, J. et al. Genome-wide association and replication studies identify four variants associated with prostate cancer susceptibility. Nat Genet 41, 1122-6 (2009).
+<br/><br/>11. Gudmundsson, J. et al. Common sequence variants on 2p15 and Xp11.22 confer susceptibility to prostate cancer. Nat Genet 40, 281-3 (2008).
+<br/><br/>12. Hoffmann, T.J. et al. A large multiethnic genome-wide association study of prostate cancer identifies novel risk variants and substantial ethnic differences. Cancer Discov 5, 878-91 (2015).
+<br/><br/>13. Kote-Jarai, Z. et al. Seven prostate cancer susceptibility loci identified by a multi-stage genome-wide association study. Nat Genet 43, 785-91 (2011).
+<br/><br/>14. Lange, E.M. et al. Genome-wide association scan for variants associated with early-onset prostate cancer. PLoS One 9, e93436 (2014).
+<br/><br/>15. Li, D., Kumaraswamy, E., Harlan-Williams, L.M. & Jensen, R.A. The role of BRCA1 and BRCA2 in prostate cancer. Front Biosci (Landmark Ed) 18, 1445-59 (2013).
+<br/><br/>16. Rokman, A. et al. Germline alterations of the RNASEL gene, a candidate HPC1 gene at 1q25, in patients and families with prostate cancer. Am J Hum Genet 70, 1299-304 (2002).
+<br/><br/>17. Schumacher, F.R. et al. Genome-wide association study identifies new prostate cancer susceptibility loci. Hum Mol Genet 20, 3867-75 (2011).
+<br/><br/>18. Seppala, E.H. et al. CHEK2 variants associate with hereditary prostate cancer. Br J Cancer 89, 1966-70 (2003).
+<br/><br/>19. Severi, G. et al. ELAC2/HPC2 polymorphisms, prostate-specific antigen levels, and prostate cancer. J Natl Cancer Inst 95, 818-24 (2003).
+<br/><br/>20. Takata, R. et al. Genome-wide association study identifies five new susceptibility loci for prostate cancer in the Japanese population. Nat Genet 42, 751-4 (2010).
+<br/><br/>21. Thomas, G. et al. Multiple loci identified in a genome-wide association study of prostate cancer. Nat Genet 40, 310-5 (2008).
+<br/><br/>22. Wang, M. et al. Large-scale association analysis in Asians identifies new susceptibility loci for prostate cancer. Nat Commun 6, 8469 (2015).
+<br/><br/>23. Xu, J. et al. Genome-wide association study in Chinese men identifies two new prostate cancer risk loci at 9q31.2 and 19q13.4. Nat Genet 44, 1231-5 (2012).
+
+
+cancer_refs_pancreatic:
+1. Abraham, S.C. et al. Genetic and immunohistochemical analysis of pancreatic acinar cell carcinoma: frequent allelic loss on chromosome 11p and alterations in the APC/beta-catenin pathway. Am J Pathol 160, 953-62 (2002).
+<br/><br/>2. Akita, H. et al. Ep-CAM is a significant prognostic factor in pancreatic cancer patients by suppressing cell activity. Oncogene 30, 3468-76 (2011).
+<br/><br/>3. Childs, E.J. et al. Common variation at 2p13.3, 3q29, 7p13 and 17q25.1 associated with susceptibility to pancreatic cancer. Nat Genet 47, 911-6 (2015).
+<br/><br/>4. Gargiulo, S. et al. Germline MLH1 and MSH2 mutations in Italian pancreatic cancer patients with suspected Lynch syndrome. Fam Cancer 8, 547-53 (2009).
+<br/><br/>5. Jones, S. et al. Exomic sequencing identifies PALB2 as a pancreatic cancer susceptibility gene. Science 324, 217 (2009).
+<br/><br/>6. Low, S.K. et al. Genome-wide association study of pancreatic cancer in Japanese population. PLoS One 5, e11824 (2010).
+<br/><br/>7. Merino, D. & Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>8. Petersen, G.M. et al. A genome-wide association study identifies pancreatic cancer susceptibility loci on chromosomes 13q22.1, 1q32.1 and 5p15.33. Nat Genet 42, 224-8 (2010).
+<br/><br/>9. Roberts, N.J. et al. ATM mutations in patients with hereditary pancreatic cancer. Cancer Discov 2, 41-6 (2012).
+<br/><br/>10. Slater, E.P. et al. Prevalence of BRCA2 and CDKN2a mutations in German familial pancreatic cancer families. Fam Cancer 9, 335-43 (2010).
+<br/><br/>11. Su, G.H. et al. Germline and somatic mutations of the STK11/LKB1 Peutz-Jeghers gene in pancreatic and biliary cancers. Am J Pathol 154, 1835-40 (1999).
+<br/><br/>12. Vitone, L.J., Greenhalf, W., Howes, N.R. & Neoptolemos, J.P. Hereditary pancreatitis and secondary screening for early pancreatic cancer. Rocz Akad Med Bialymst 50, 73-84 (2005).
+<br/><br/>13. Wolpin, B.M. et al. Genome-wide association study identifies multiple susceptibility loci for pancreatic cancer. Nat Genet 46, 994-1000 (2014).
+<br/><br/>14. Wu, C. et al. Genome-wide association study of survival in patients with pancreatic adenocarcinoma. Gut 63, 152-60 (2014).
+<br/><br/>15. Wu, C. et al. Genome-wide association study identifies five loci associated with susceptibility to pancreatic cancer in Chinese populations. Nat Genet 44, 62-6 (2011).
+
+
+cancer_refs_endometrial:
+1. Barnetson, R.A. et al. Germline mutation prevalence in the base excision repair gene, MYH, in patients with endometrial cancer. Clin Genet 72, 551-5 (2007).
+<br/><br/>2. Co, N.N. et al. Loss of LKB1 in high-grade endometrial carcinoma: LKB1 is a novel transcriptional target of p53. Cancer 120, 3457-68 (2014).
+<br/><br/>3. Einarsdottir, K. et al. Effect of ATM, CHEK2 and ERBB2 TAGSNPs and haplotypes on endometrial cancer risk. Hum Mol Genet 16, 154-64 (2007).
+<br/><br/>4. Fiolka, R. et al. Promoter hypermethylation of the tumor-suppressor genes RASSF1A, GSTP1 and CDH1 in endometrial cancer. Oncol Rep 30, 2878-86 (2013).
+<br/><br/>5. Fukuda, T. et al. Alterations of the double-strand break repair gene MRE11 in cancer. Cancer Res 61, 23-6 (2001).
+<br/><br/>6. Hampel, H. et al. Screening for Lynch syndrome (hereditary nonpolyposis colorectal cancer) among endometrial cancer patients. Cancer Res 66, 7810-7 (2006).
+<br/><br/>7. Ichikawa, Y. et al. Microsatellite instability and expression of MLH1 and MSH2 in normal and malignant endometrial and ovarian epithelium in hereditary nonpolyposis colorectal cancer family members. Cancer Genet Cytogenet 112, 2-8 (1999).
+<br/><br/>8. Kempers, M.J. et al. Risk of colorectal and endometrial cancers in EPCAM deletion-positive Lynch syndrome: a cohort study. Lancet Oncol 12, 49-55 (2011).
+<br/><br/>9. Levine, D.A. et al. Risk of endometrial carcinoma associated with BRCA mutation. Gynecol Oncol 80, 395-8 (2001).
+<br/><br/>10. McConechy, M.K. et al. Ovarian and endometrial endometrioid carcinomas have distinct CTNNB1 and PTEN mutation profiles. Mod Pathol 27, 128-34 (2014).
+<br/><br/>11. Merino, D. & Malkin, D. p53 and hereditary cancer. Subcell Biochem 85, 1-16 (2014).
+<br/><br/>12. Thai, T.H. et al. Mutations in the BRCA1-associated RING domain (BARD1) gene in primary breast, ovarian and uterine cancers. Hum Mol Genet 7, 195-202 (1998).
+
+
+cancer_refs_thyroid:
+1. Gimm, O. et al. Mutation analysis reveals novel sequence variants in NTRK1 in sporadic human medullary thyroid carcinoma. J Clin Endocrinol Metab 84, 2784-7 (1999).
+<br/><br/>2. Gudmundsson, J. et al. Discovery of common variants associated with low TSH levels and thyroid cancer risk. Nat Genet 44, 319-22 (2012).
+<br/><br/>3. Gudmundsson, J. et al. Common variants on 9q22.33 and 14q13.3 predispose to thyroid cancer in European populations. Nat Genet 41, 460-4 (2009).
+<br/><br/>4. Kohler, A. et al. Genome-wide association study on differentiated thyroid cancer. J Clin Endocrinol Metab 98, E1674-81 (2013).
+<br/><br/>5. Mancikova, V. et al. Thyroid cancer GWAS identifies 10q26.12 and 6q14.1 as novel susceptibility loci and reveals genetic heterogeneity among populations. Int J Cancer 137, 1870-8 (2015).
+<br/><br/>6. Pigny, P. et al. A novel 9-base pair duplication in RET exon 8 in familial medullary thyroid carcinoma. J Clin Endocrinol Metab 84, 1700-4 (1999).
+<br/><br/>7. Sato, M. et al. A newly recognized germline mutation of MEN1 gene identified in a patient with parathyroid adenoma and carcinoma. Endocrine 12, 223-6 (2000).
+<br/><br/>8. Shattuck, T.M. et al. Somatic and germ-line mutations of the HRPT2 gene in sporadic parathyroid carcinoma. N Engl J Med 349, 1722-9 (2003).
+
+
+cancer_refs_lung:
+1. Amos, C.I. et al. Genome-wide association scan of tag SNPs identifies a susceptibility locus for lung cancer at 15q25.1. Nat Genet 40, 616-22 (2008).
+<br/><br/>2. Hu, Z. et al. A genome-wide association study identifies two new lung cancer susceptibility loci at 13q12.12 and 22q12.2 in Han Chinese. Nat Genet 43, 792-6 (2011).
+<br/><br/>3. Jin, G. et al. Genetic variants at 6p21.1 and 7p15.3 are associated with risk of multiple cancers in Han Chinese. Am J Hum Genet 91, 928-34 (2012).
+<br/><br/>4. Lan, Q. et al. Genome-wide association analysis identifies new lung cancer susceptibility loci in never-smoking women in Asia. Nat Genet 44, 1330-5 (2012).
+<br/><br/>5. Landi, M.T. et al. A genome-wide association study of lung cancer identifies a region of chromosome 5p15 associated with risk for adenocarcinoma. Am J Hum Genet 85, 679-91 (2009).
+<br/><br/>6. Li, Y. et al. Genetic variants and risk of lung cancer in never smokers: a genome-wide association study. Lancet Oncol 11, 321-30 (2010).
+<br/><br/>7. McKay, J.D. et al. Lung cancer susceptibility locus at 5p15.33. Nat Genet 40, 1404-6 (2008).
+<br/><br/>8. Shiraishi, K. et al. A genome-wide association study identifies two new susceptibility loci for lung adenocarcinoma in the Japanese population. Nat Genet 44, 900-3 (2012).
+<br/><br/>9. Wang, Y. et al. Common 5p15.33 and 6p21.33 variants influence lung cancer risk. Nat Genet 40, 1407-9 (2008).
+<br/><br/>10. Wang, Y. et al. Rare variants of large effect in BRCA2 and CHEK2 affect risk of lung cancer. Nat Genet 46, 736-41 (2014).
+<br/><br/>11. Yoon, K.A. et al. A genome-wide association study reveals susceptibility variants for non-small cell lung cancer in the Korean population. Hum Mol Genet 19, 4948-54 (2010).
+<br/><br/>12. Zhang, R. et al. A genome-wide gene-environment interaction analysis for tobacco smoke and lung cancer susceptibility. Carcinogenesis 35, 1528-35 (2014).
+
+
+cancer_refs_liver:
+1. Jiang, D.K. et al. Genetic variants in STAT4 and HLA-DQ genes confer risk of hepatitis B virus-related hepatocellular carcinoma. Nat Genet 45, 72-5 (2013).
+<br/><br/>2. Kumar, V. et al. Genome-wide association study identifies a susceptibility locus for HCV-induced hepatocellular carcinoma. Nat Genet 43, 455-8 (2011).
+<br/><br/>3. Li, S. et al. GWAS identifies novel susceptibility loci on 6p21.32 and 21q21.3 for hepatocellular carcinoma in chronic hepatitis B virus carriers. PLoS Genet 8, e1002791 (2012).
+<br/><br/>4. Zhang, H. et al. Genome-wide association study identifies 1p36.22 as a new susceptibility locus for hepatocellular carcinoma in chronic hepatitis B virus carriers. Nat Genet 42, 755-8 (2010).
+
+
+cancer_refs_esophageal:
+1. Abnet, C.C. et al. A shared susceptibility locus in PLCE1 at 10q23 for gastric adenocarcinoma and esophageal squamous cell carcinoma. Nat Genet 42, 764-7 (2010).
+<br/><br/>2. Cui, R. et al. Functional variants in ADH1B and ALDH2 coupled with alcohol and smoking synergistically enhance esophageal cancer risk. Gastroenterology 137, 1768-75 (2009).
+<br/><br/>3. Jin, G. et al. Genetic variants at 6p21.1 and 7p15.3 are associated with risk of multiple cancers in Han Chinese. Am J Hum Genet 91, 928-34 (2012).
+<br/><br/>4. Levine, D.M. et al. A genome-wide association study identifies new susceptibility loci for esophageal adenocarcinoma and Barrett's esophagus. Nat Genet 45, 1487-93 (2013).
+<br/><br/>5. Wu, C. et al. Genome-wide association study identifies three new susceptibility loci for esophageal squamous-cell carcinoma in Chinese populations. Nat Genet 43, 679-84 (2011).
+<br/><br/>6. Wu, C. et al. Genome-wide association analyses of esophageal squamous cell carcinoma in Chinese identify multiple susceptibility loci and gene-environment interactions. Nat Genet 44, 1090-7 (2012).
+<br/><br/>7. Wu, C. et al. Joint analysis of three genome-wide association studies of esophageal squamous cell carcinoma in Chinese populations. Nat Genet 46, 1001-6 (2014).
+
+
+cancer_refs_bladder:
+1. Figueroa, J.D. et al. Genome-wide association study identifies multiple loci associated with bladder cancer risk. Hum Mol Genet 23, 1387-98 (2014).
+<br/><br/>2. Matsuda, K. et al. Genome-wide association study identified SNP on 15q24 associated with bladder cancer risk in Japanese population. Hum Mol Genet 24, 1177-84 (2015).
+<br/><br/>3. Rafnar, T. et al. European genome-wide association study identifies SLC14A1 as a new urinary bladder cancer susceptibility gene. Hum Mol Genet 20, 4268-81 (2011).
+<br/><br/>4. Rothman, N. et al. A multi-stage genome-wide association study of bladder cancer identifies multiple susceptibility loci. Nat Genet 42, 978-84 (2010).
+
+
+cancer_refs_cervical:
+1. Chen, J.J., Silver, D., Cantor, S., Livingston, D.M. & Scully, R. BRCA1, BRCA2, and Rad51 operate in a common DNA damage response pathway. Cancer Res 59, 1752s-1756s (1999).
+<br/><br/>2. Miura, K. et al. Genome-wide association study of HPV-associated cervical cancer in Japanese women. J Med Virol 86, 1153-8 (2014).
+<br/><br/>3. Shi, Y. et al. A genome-wide association study identifies two new cervical cancer susceptibility loci at 4q12 and 17q12. Nat Genet 45, 918-22 (2013).
+<br/><br/>4. Van de Putte, G., Kristensen, G.B., Baekelandt, M., Lie, A.K. & Holm, R. E-cadherin and catenins in early squamous cervical carcinoma. Gynecol Oncol 94, 521-7 (2004)
+
+
+cancer_refs_leukemia:
+1. Cerhan, J.R. et al. Genome-wide association study identifies multiple susceptibility loci for diffuse large B cell lymphoma. Nat Genet 46, 1233-8 (2014).
+<br/><br/>2. Conde, L. et al. Genome-wide association study of follicular lymphoma identifies a risk locus at 6p21.32. Nat Genet 42, 661-4 (2010).
+<br/><br/>3. Cozen, W. et al. A meta-analysis of Hodgkin lymphoma reveals 19p13.3 TCF3 as a novel susceptibility locus. Nat Commun 5, 3856 (2014).
+<br/><br/>4. Enciso-Mora, V. et al. A genome-wide association study of Hodgkin's lymphoma identifies new susceptibility loci at 2p16.1 (REL), 8q24.21 and 10p14 (GATA3). Nat Genet 42, 1126-30 (2010).
+<br/><br/>5. Frampton, M. et al. Variation at 3p24.1 and 6q23.3 influences the risk of Hodgkin's lymphoma. Nat Commun 4, 2549 (2013).
+<br/><br/>6. Skibola, C.F. et al. Genome-wide association study identifies five susceptibility loci for follicular lymphoma outside the HLA region. Am J Hum Genet 95, 462-71 (2014).
+<br/><br/>7. Skibola, C.F. et al. Genetic variants at 6p21.33 are associated with susceptibility to follicular lymphoma. Nat Genet 41, 873-5 (2009).
+<br/><br/>8. Smedby, K.E. et al. GWAS of follicular lymphoma reveals allelic heterogeneity at 6p21.32 and suggests shared genetic susceptibility with diffuse large B-cell lymphoma. PLoS Genet 7, e1001378 (2011).
+<br/><br/>9. Tan, D.E. et al. Genome-wide association study of B cell non-Hodgkin lymphoma identifies 3q27 as a susceptibility locus in the Chinese population. Nat Genet 45, 804-7 (2013).
+<br/><br/>10. Vijai, J. et al. Susceptibility loci associated with specific and shared subtypes of lymphoid malignancies. PLoS Genet 9, e1003220 (2013).
+<br/><br/>11. Vijai, J. et al. A genome-wide association study of marginal zone lymphoma shows association to the HLA region. Nat Commun 6, 5751 (2015).
+
+
+cancer_refs_intracranial:
+1. Rajaraman, P. et al. Genome-wide association study of glioma and meta-analysis. Hum Genet 131, 1877-88 (2012).
+<br/><br/>2. Sanson, M. et al. Chromosome 7p11.2 (EGFR) variation influences glioma risk. Hum Mol Genet 20, 2897-904 (2011).
+<br/><br/>3. Shete, S. et al. Genome-wide association study identifies five susceptibility loci for glioma. Nat Genet 41, 899-904 (2009).
+<br/><br/>4. Walsh, K.M. et al. Variants near TERT and TERC influencing telomere length are associated with high-grade glioma risk. Nat Genet 46, 731-5 (2014).
+<br/><br/>5. Wrensch, M. et al. Variants in the CDKN2B and RTEL1 regions are associated with high-grade glioma susceptibility. Nat Genet 41, 905-8 (2009).
+<br/><br/>6. Rasmussen, S.A. & Friedman, J.M. NF1 gene and neurofibromatosis 1. Am J Epidemiol 151, 33-40 (2000).
+<br/><br/>7. Yohay, K.H. The genetic and molecular pathogenesis of NF1 and NF2. Semin Pediatr Neurol 13, 21-6 (2006).
+
+
+cancer_refs_lymphoma:
+1. Cerhan, J.R. et al. Genome-wide association study identifies multiple susceptibility loci for diffuse large B cell lymphoma. Nat Genet 46, 1233-8 (2014).
+<br/><br/>2. Conde, L. et al. Genome-wide association study of follicular lymphoma identifies a risk locus at 6p21.32. Nat Genet 42, 661-4 (2010).
+<br/><br/>3. Cozen, W. et al. A meta-analysis of Hodgkin lymphoma reveals 19p13.3 TCF3 as a novel susceptibility locus. Nat Commun 5, 3856 (2014).
+<br/><br/>4. Enciso-Mora, V. et al. A genome-wide association study of Hodgkin's lymphoma identifies new susceptibility loci at 2p16.1 (REL), 8q24.21 and 10p14 (GATA3). Nat Genet 42, 1126-30 (2010).
+<br/><br/>5. Frampton, M. et al. Variation at 3p24.1 and 6q23.3 influences the risk of Hodgkin's lymphoma. Nat Commun 4, 2549 (2013).
+<br/><br/>6. Skibola, C.F. et al. Genome-wide association study identifies five susceptibility loci for follicular lymphoma outside the HLA region. Am J Hum Genet 95, 462-71 (2014).
+<br/><br/>7. Skibola, C.F. et al. Genetic variants at 6p21.33 are associated with susceptibility to follicular lymphoma. Nat Genet 41, 873-5 (2009).
+<br/><br/>8. Smedby, K.E. et al. GWAS of follicular lymphoma reveals allelic heterogeneity at 6p21.32 and suggests shared genetic susceptibility with diffuse large B-cell lymphoma. PLoS Genet 7, e1001378 (2011).
+<br/><br/>9. Tan, D.E. et al. Genome-wide association study of B cell non-Hodgkin lymphoma identifies 3q27 as a susceptibility locus in the Chinese population. Nat Genet 45, 804-7 (2013).
+<br/><br/>10. Vijai, J. et al. Susceptibility loci associated with specific and shared subtypes of lymphoid malignancies. PLoS Genet 9, e1003220 (2013).
+<br/><br/>11. Vijai, J. et al. A genome-wide association study of marginal zone lymphoma shows association to the HLA region. Nat Commun 6, 5751 (2015).
+
+
+cancer_refs_glioblastoma:
+1. Rajaraman, P. et al. Genome-wide association study of glioma and meta-analysis. Hum Genet 131, 1877-88 (2012).
+<br/><br/>2. Sanson, M. et al. Chromosome 7p11.2 (EGFR) variation influences glioma risk. Hum Mol Genet 20, 2897-904 (2011).
+<br/><br/>3. Shete, S. et al. Genome-wide association study identifies five susceptibility loci for glioma. Nat Genet 41, 899-904 (2009).
+<br/><br/>4. Walsh, K.M. et al. Variants near TERT and TERC influencing telomere length are associated with high-grade glioma risk. Nat Genet 46, 731-5 (2014).
+<br/><br/>5. Wrensch, M. et al. Variants in the CDKN2B and RTEL1 regions are associated with high-grade glioma susceptibility. Nat Genet 41, 905-8 (2009).
+<br/><br/>6. Rasmussen, S.A. & Friedman, J.M. NF1 gene and neurofibromatosis 1. Am J Epidemiol 151, 33-40 (2000).
+<br/><br/>7. Yohay, K.H. The genetic and molecular pathogenesis of NF1 and NF2. Semin Pediatr Neurol 13, 21-6 (2006).
+
+
+
+

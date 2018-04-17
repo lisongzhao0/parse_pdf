@@ -1,0 +1,24 @@
+乳腺癌		breast		Breast Cancer		female		female
+卵巢癌		ovarian		Ovarian Cancer		female		female
+结直肠癌		colorectal		Colorectal Cancer		male		female
+胃癌		gastric		Gastric Cancer		male		female
+前列腺癌		prostate		Prostate Cancer		male		male
+胰腺癌		pancreatic		Pancreatic Cancer		male		female
+子宫内膜癌		endometrial		Endometrial Cancer		female		female
+甲状腺癌		thyroid		Thyroid Carcinoma		male		female
+肺癌		lung		Lung Cancer		male		female
+肝癌		liver		Liver Cancer		male		female
+食管癌		esophageal		Esophageal Cancer		male		female
+膀胱癌		bladder		Bladder Cancer		male		female
+宫颈癌		cervical		Cervical Cancer		female		female
+淋巴瘤		lymphoma		Lymphoma		male		female
+神经胶质瘤		glioblastoma		Glioma		male		female
+慢性髓性白血病		chronic		Chronic Myeloid Leukemia		male		female
+急性淋巴细胞白血病		acute		Acute Lymphoblastic Leukemia		male		female
+慢性淋巴细胞白血病		chroniclymphocytic		Chroniclymphocytic Leukemia		male		female
+口腔癌		oral		Oral Cavity and Pharyngeal Cancer		male		female
+喉癌		laryngeal		Laryngeal Cacinoma		male		female
+鼻咽癌		nasopharyngeal		Nasopharyngeal Carcinoma		male		female
+肾癌		renal		Renal Cell Carcinoma		male		female
+基底细胞癌		basal		Basal Cell Carcinoma		male		female
+黑色素瘤		melanoma		Melanoma		male		female

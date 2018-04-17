@@ -1,0 +1,57 @@
+cancer_title_obesity:控制体质指数
+cancer_content_obesity:·世界卫生组织建议亚太地区人群的体质指数BMI应保持在18.5至22.9之间
+cancer_title_obesity:健康饮食
+cancer_content_obesity:·限制总脂肪的能量摄入，将脂肪消耗从饱和脂肪转移到不饱和脂肪和消除反式脂肪酸<br/>·限制游离糖的摄入量<br/>·增加水果和蔬菜、豆类、全谷类和坚果的摄入<br/>·多喝水，限制饮用含糖饮料
+cancer_title_obesity:锻炼身体
+cancer_content_obesity:·世界卫生组织建议每日至少做 30 分钟的规律性、中等强度的活动<br/>·避免长时间端坐或久卧、每两小时应起身活动一下<br/>·可制定适合自己的减肥锻炼计划并坚持执行
+
+
+cancer_title_gout:饮食控制
+cancer_content_gout:·减少食用含嘌呤过高的食物，如动物内脏（特别是肝脏）、浓汤肉汁（火锅）、鱼卵、沙丁鱼等<br/>·控制总热量摄入，尤其是高糖分饮食的摄入，避免过度饮食让自身肥胖<br/>·服用维生素 C、饮食低脂肪奶制品
+cancer_title_gout:药物选择
+cancer_content_gout:·避免服用使血尿酸升高的药物如利尿剂、小剂量阿司匹林、复方降压片、吡嗪酰胺、硝苯地平和普萘洛尔等<br/>
+cancer_title_gout:少饮酒
+cancer_content_gout:·戒除酒精类饮品，尤其注意不要将啤酒配海鲜一同饮食<br/>
+cancer_title_gout:积极治疗
+cancer_content_gout:·及时诊治肥胖、高血压、高脂血症、糖尿病等原发疾病<br/>
+
+
+cancer_title_hypertriglyceridemia:戒烟忌酒
+cancer_content_hypertriglyceridemia:·烟民在指导下制定戒烟计划，限制饮酒量<br/>
+cancer_title_hypertriglyceridemia:控制饮食
+cancer_content_hypertriglyceridemia:·限制高脂肪、高胆固醇的饮食，做菜时少放油，少吃煎炸食品<br/>·限制高糖类饮食，鼓励高纤维膳食<br/>
+cancer_title_hypertriglyceridemia:锻炼身体
+cancer_content_hypertriglyceridemia:·控制肥胖是预防血脂过高的重要措施之一，坚持体育锻炼如慢跑、太极拳、乒乓球等<br/>·宜经常参加体力劳动，静坐一段时间后宜进行适当活动<br/>
+cancer_title_hypertriglyceridemia:积极治疗
+cancer_content_hypertriglyceridemia:·遵循医嘱及时治疗各种原发疾病，高危人<br/>
+
+
+cancer_title_type:健康饮食
+cancer_content_type:·摄入更多全谷类、水果和蔬菜，较少摄入含糖饮料和饱和脂肪（美国预防糖尿病计划推荐脂肪摄入量< 总热量的 25%），减少酒精与单糖的摄入量<br/>
+cancer_title_type:锻炼身体
+cancer_content_type:·参加适当的文娱活动、体育运动和体力劳动 , 可促进糖的利用从而减轻胰岛负担<br/>·每天进行至少 20 分钟的中等强度活动，超重者制定适合自己的减重计划并坚持执行<br/>
+cancer_title_type:戒烟
+cancer_content_type:·烟民应在指导下制定戒烟计划；拒绝二手烟污染<br/>
+cancer_title_type:心情愉快
+cancer_content_type:·保持心情的愉快能对大部分疾病起到一定的预防作用<br/>
+cancer_title_type:定期体检
+cancer_content_type:·常规体检中包含的空腹血糖可确诊部分病例，在高危人群中及时通过葡萄糖耐量试验、胰岛素、C 肽释放试验筛查将更有利于糖尿病患者的早期诊治<br/>
+
+
+
+cancer_title_osteoporosis:饮食均衡
+cancer_content_osteoporosis:·钙、磷摄入：青少年时期日摄入钙量（元素钙）为 1000-1200mg; 成人为 800 － 1000mg; 绝经后妇女每天 1000 －1500mg;65 岁以后男性以及其他具有骨质疏松症危险因素的患者，推荐钙的摄入量为 1500mg。含钙高的食物包括牛奶、奶制品、鸡蛋黄、豆腐干、虾皮、海带、豆类、芝麻酱等<br/>·优质蛋白：增加优质蛋白如牛奶及奶制品、鸡蛋、瘦禽肉、鱼肉等的摄取比例<br/>·低盐：建议每天的盐摄入量严格控制在 4g 以下，或改吃高钾低钠盐<br/>·蔬果：过多的摄入蔬菜和水果，其中的膳食纤维会增加肠内钙的排出。建议高危人群每天摄入  300-400g  蔬菜和水果即可<br/>·避免吸烟、饮酒、喝浓茶、咖啡等<br/>
+cancer_title_osteoporosis:规律运动
+cancer_content_osteoporosis:·儿童及青少年时期如果坚持规律运动，其骨量较之不进行规律运动者要高，各种运动中以负重运动为佳。适当的运动量有助于升高骨密度并延缓骨质流失，每天应至少坚持 30 分钟，每周 3-5 次的体育锻炼<br/>
+cancer_title_osteoporosis:日晒
+cancer_content_osteoporosis:·户外日光浴可使皮肤中７－羟脱氢胆固醇转化为维生素 D，从而调节骨钙代谢，尽量保证每日有 10 分钟的充足日晒<br/>
+cancer_title_osteoporosis:定期体检
+cancer_content_osteoporosis:·50 岁以上的男性以及绝经后女性应每隔 3 ～ 5 年检查一次骨密度<br/>
+
+
+cancer_title_hyperhomocysteinemia:增加叶酸及维生素摄入
+cancer_content_hyperhomocysteinemia:·叶酸与同型半胱氨酸代谢密切相关，增加也算摄入可有效降低血浆同型半胱氨酸水平<br/>
+cancer_title_hyperhomocysteinemia:减少动物性蛋白摄入
+cancer_content_hyperhomocysteinemia:·动物性蛋白是同型半胱氨酸的主要来源，减少其摄入同样可以降低血浆同型半胱氨酸水平。<br/>
+
+

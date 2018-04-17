@@ -1,0 +1,154 @@
+cancer_summary_钙吸收能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>钙</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，18 岁 -49 岁的正常成年人对钙的每日推荐摄入量为 800mg ； 14-17 岁的正常青少年以及 50 岁以上的正常成年人对钙的每日推荐摄入量为 1000mg。可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的钙摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+cancer_summary_VD吸收能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>维生素 D</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，14 岁～ 64 岁的健康人群对维生素 D 的每日推荐摄入量为 10μg，65 岁以上增加至 15 μg。可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的维生素 D 摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+cancer_summary_VB12吸收能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>维生素 B12</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，14 岁以上的健康人群对维生素 B12 的每日推荐摄入量为 2.4μg， 可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的维生素 B12 摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_叶酸（VB9）吸收能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>叶酸</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，14 岁以上的健康人群对叶酸的每日推荐摄入量为  400μgDFE（膳食叶酸当量），可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的叶酸摄入量不在此推荐人群内， 相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+cancer_summary_VA吸收能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>维生素 A</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，14-17 岁的正常青少年男性对维生素 A 的每日推荐摄入量为
+820μgRAE（视黄醇活性当量）、青少年女性为 630μgRAE。18 岁以上的健康成年男性对维生素 A 的每日推荐摄入量为 800μgRAE、成年女性为 700 μgRAE。可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的维生素 A 摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_DHA吸收能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>DHA</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，14 岁以上的健康人群对 DHA 与 EPA 的每日宏量营养素可接受范围为0.25 ～ 2.0g，可依据您的营养需求在此范围内进行适当的增减。（孕妇及哺乳期妇女的DHA 摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_咖啡因摄入:<style font='fzltchjw' font_color='#607b3f' font_size='14'>咖啡因摄入</style><br/>
+根据欧盟食品科学专家委员会评估，健康成年人每日摄取的咖啡因应不超过 300mg。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_咖啡因敏感性:<style font='fzltchjw' font_color='#607b3f' font_size='14'>咖啡因敏感</style><br/>
+对咖啡因敏感度低的人群需要饮用更多的咖啡才能获得同样的醒神效果，但需要注意不应超过 300mg 的咖啡因摄入量。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_咖啡因代谢能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>咖啡因代谢</style><br/>
+咖啡因代谢能力弱者睡前不应饮用咖啡以避免无法入睡，减少咖啡的饮用量以避免体内咖啡因累积过量。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_酒精代谢能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>酒精代谢</style><br/>
+酒精代谢能力代谢一般或低者，减少或避免饮用酒精类饮品。酒精代谢能力高者也需注意不可过量饮酒，成年男性一天饮用酒的酒精量不应超过 25g，女性不超过 15g，孕妇不应饮酒。酒精通过乙醇脱氢酶和乙醛脱氢酶代谢。主要受 rs671 及rs1229984  两个多态位点调节<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_碳水化合物摄入倾向:<style font='fzltchjw' font_color='#607b3f' font_size='14'>碳水化合物摄入</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，总碳水化合物摄入所产生的能量应在总摄入能量的 50% ～ 65% 之间，可依据您的营养需求在此范围内进行适当的增减。《中国居民膳食指南》中认为平衡膳食中不要求食用蔗糖、蜂蜜、甜味添加剂等添加糖（游离糖），若需要摄入每天应不超过 50g，最好控制在约 25 克以下，摄入量应小于总摄入能量的10%。（孕妇及哺乳期妇女的碳水化合物摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_黑色素产生能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>黑色素分泌</style><br/>
+黑色素分泌能力较弱者应注意防晒，避免晒伤；黑色素分泌能力较强者出于美观考虑也应注意防晒，美白可使用含有熊果苷等抑制黑色素产生或含有维生素 C 等促进黑色素分解的护肤品。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_胶原蛋白分泌能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>胶原蛋白分泌</style><br/>
+胶原蛋白分泌能力较弱者较为容易显现老态，需多注意防晒、护肤避免细纹等皮肤问题。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+
+cancer_summary_抗氧化能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>抗氧化</style><br/>
+抗氧化能力较弱者应注意防晒，多食用富含抗氧化维生素如维生素 C、E 等的蔬果，日常可使用含有维 A 醇等抗氧化成分的护肤品。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+cancer_summary_抗紫外线能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>抗紫外线</style><br/>
+抗紫外线能力较弱者应注意防晒，避免晒伤。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+cancer_summary_皮肤抗老化能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>皮肤易老化倾向</style><br/>
+皮肤易老化倾向较明显者应注意防晒、抗氧化，日常尽可能远离污染，戒除烟酒，保持良好的作息习惯。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+
+cancer_summary_脂代谢:<style font='fzltchjw' font_color='#607b3f' font_size='14'>脂代谢</style><br/>
+世界卫生组织建议，总脂肪的摄入所产生的能量应小于总摄入能量的 30%。可依据您的营养需求在此范围内进行适当的增减，脂代谢较慢者应减少食用动物性油脂。（孕妇及哺乳期妇女的总脂肪摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+
+cancer_summary_碳水化合物敏感性:<style font='fzltchjw' font_color='#607b3f' font_size='14'>碳水化合物代谢</style><br/>
+代谢率较低的人群推荐食用糙米等低升糖指数的食物，减少高升糖指数食物的摄入量。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+
+cancer_summary_饱和脂肪酸敏感性:<style font='fzltchjw' font_color='#607b3f' font_size='14'>饱和脂肪酸摄入</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，总饱和脂肪酸摄入所产生的能量应小于总摄入能量的 8%，可依据您的营养需求在此范围内进行适当的增减。（孕妇及哺乳期妇女的饱和脂肪酸摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_总热量摄入倾向:<style font='fzltchjw' font_color='#607b3f' font_size='14'>总热量摄入</style><br/>
+中国居民膳食指南推荐轻体力劳动者每天能量摄入量男性为 2250kcal，女性为 1800kcal；中、重体力劳动者或活动量大的人，每天能量摄入应适当增加 300-500kcal，可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的总热量摄入量不在此推荐人群内，相关信息可咨询医师）<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+cancer_summary_饮食对体重的影响:<style font='fzltchjw' font_color='#607b3f' font_size='14'>饮食对体重影响</style><br/>
+饮食对体重影响较为明显的人群可适当调整饮食习惯、并坚持实行有助于减重的饮食计划以控制体重。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_运动对体重的影响:<style font='fzltchjw' font_color='#607b3f' font_size='14'>运动对体重影响</style><br/>
+运动对体重影响较为明显的人群可适当加强身体锻炼、坚持系统性的锻炼以控制体重。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_耐力表现:<style font='fzltchjw' font_color='#607b3f' font_size='14'>耐力</style><br/>
+耐力强的人群在长跑等时间较长的中等强度运动中表现出色，锻炼时可适当增加有氧运动的时长。耐力弱的人群可适当减少此类运动的强度。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_爆发力表现:<style font='fzltchjw' font_color='#607b3f' font_size='14'>爆发力</style><br/>
+爆发力强的人群可在短时间高强度的速度力量型运动、抗阻运动如举重等运动中表现出色，爆发力弱的人群可适当减少此类运动的强度。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_运动积极性:<style font='fzltchjw' font_color='#607b3f' font_size='14'>运动积极性</style><br/>
+运动积极性较低者可与积极性高的锻炼伙伴一同锻炼，并选择多种运动方式降低枯燥感，可有助于坚持锻练。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+cancer_summary_肌肉耐劳度提升:<style font='fzltchjw' font_color='#607b3f' font_size='14'>肌肉耐劳力提升</style><br/>
+肌肉耐劳力提升较大的人群可通过适当的运动提升身体素质。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+cancer_summary_最大摄氧量提升:<style font='fzltchjw' font_color='#607b3f' font_size='14'>最大摄氧量提升</style><br/>
+最大摄氧量提升空间较高者可适当加强有氧运动的锻炼强度，从而提升心肺功能。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+cancer_summary_腰椎间盘保护能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>腰椎间盘保护能力</style><br/>
+腰椎间盘保护能力较弱者应注意站姿或坐姿中保持腰部的挺直，尽可能以下蹲等腿部弯曲动作代替弯腰动作。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+
+cancer_summary_跟腱保护能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>跟腱保护能力</style><br/>
+跟腱保护能力较弱者注意避免短跑等易损伤跟腱的体育运动。运动前做好热身活动如踝关节绕环，单 / 双足跳等，进行篮球或打羽毛球等弹跳较多的运动是穿着气垫鞋，运动时感觉到小腿发硬应停止并休息以保护跟腱。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>
+
+cancer_summary_膝盖前交叉韧带保护能力:<style font='fzltchjw' font_color='#607b3f' font_size='14'>膝盖前交叉韧带保护能力</style><br/>
+膝盖前交叉韧带保护能力较弱者坐时避免膝盖内翻，注意锻炼臀部、腿部等核心肌肉力量（如平板支撑等）有助于稳定膝关节， 防止损伤。热身时注意做好韧带拉伸。<br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='10'>$suggestion</style><br/><br/>

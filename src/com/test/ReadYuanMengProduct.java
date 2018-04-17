@@ -10,7 +10,7 @@ public class ReadYuanMengProduct {
     public static void main(String[] args) {
         OfficeFileUtil officeFile = OfficeFileUtil.newInstance();
 
-        Workbook workbook = officeFile.getExcel("/Users/zhaolisong/Downloads/远盟/20171215-邮件/90模板-男女.xlsx");
+        Workbook workbook = officeFile.getExcel("/Users/zhaolisong/Downloads/远盟产品 - 计算配置文件/远盟产品/LHA021 丽人守护--原有方式.xlsx");
         int sheetSize = officeFile.getExcelSheetSize(workbook);
         for (int i = 0; i < sheetSize; i ++) {
             Sheet sheet = officeFile.getExcelSheet(workbook, i);

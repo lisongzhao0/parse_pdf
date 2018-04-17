@@ -1,0 +1,12 @@
+
+心房颤动		atrial				male_0.00062		female_0.00038
+冠心病			coronary			male_0.00137		female_0.001
+缺血性脑卒中    ischaemic		male_0.0018		female_0.0015
+脑出血			intracerebral			male_0.00069		female_0.00062
+心肌梗死		myocardial			male_0.00078		female_0.0005
+高血压			hypertension		male_0.1275		female_0.1004
+静脉血栓		venous			male_0.00084		female_0.00103
+心源性猝死		sudden		male_0.00044		female_0.00039
+扩张性心肌病	dilated			male_0.000071		female_0.000019
+肥厚性心肌病	hypertrophic		male_0.000063		female_0.000035
+

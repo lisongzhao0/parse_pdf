@@ -1,0 +1,25 @@
+乳腺癌			breast			male_0.0003393		female_0.0003393
+卵巢癌			ovarian			male_0.0000617		female_0.0000617
+结直肠癌			colorectal		male_0.0002337		female_0.0001809
+胃癌				gastric			male_0.0003177		female_0.0001392
+甲状腺癌			thyroid			male_0.0000478		female_0.0001462
+子宫颈癌			cervical		male_0.0001291		female_0.0001291
+膀胱癌			bladder			male_0.0000694		female_0.0000205
+食管癌			esophageal		male_0.0002164		female_0.0000895
+肝癌				liver			male_0.0002878		female_0.0001409
+淋巴瘤			lymphoma		male_0.0000508		female_0.0000337
+神经胶质瘤		glioblastoma		male_0.0000248		female_0.0000234
+肺癌				lung			male_0.0005476		female_0.0002855
+胰腺癌			pancreatic		male_0.0000528		female_0.0000372
+肝癌（乙肝病毒感染）		liver HBV		male_0.0022841		female_0.0008325
+子宫内膜癌		endometrial		male_0.0000790		female_0.0000790
+
+慢性髓性白血病			chronic			male_0.0000109		female_0.00000594
+急性淋巴细胞白血病			acute		male_0.0001106		female_0.00000579
+慢性淋巴细胞白血病				chroniclymphocytic			male_0.00000220		female_0.00000119
+口腔癌			oral		male_0.0000478		female_0.000026
+喉癌		laryngeal		male_0.0000364		female_0.000004
+鼻咽癌				nasopharyngeal			male_0.0000666		female_0.0000266
+肾癌			renal		male_0.0000664		female_0.0000363
+基底细胞癌		basal		male_0.00000584		female_0.00000415
+黑色素瘤		melanoma		male_0.00000661		female_0.00000569

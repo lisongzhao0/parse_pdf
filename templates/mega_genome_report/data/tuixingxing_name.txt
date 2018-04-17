@@ -1,0 +1,14 @@
+精神分裂	schizophrenia	Schizophrenia	male	female
+青光眼	 glaucoma	   Glaucoma 	 male	  female
+癫痫	  epilepsy 	   Epilepsy    	male	    female
+帕金森氏症 	  parkinsons	 Parkinsons Disease	   male	 female
+重度抑郁 	   major 	  Major Depressive Disorder	   male 	   female
+进行性核上性麻痹 	   progressive 	Progressive Supranuclear Palsy 	 male  	  female
+老年性黄斑变性	  agerelated	 Agerelated Macular Degeneration	   male 	female
+自杀倾向 	   suicide	 Suicide Behavier	    male	    female
+酒精依赖 	   alcohol   	 Alcohol Dependence 	   male	    female
+病理性近视 	   pathological  	      Pathological Myopia  	      male 	     female
+阿尔兹海默病  	    alzheimere4+    	 Alzheimere4+ Disease   	 male  	   female
+阿尔兹海默病  	    alzheimere4-    	 Alzheimere4- Disease   	 male  	   female
+肌萎缩性脊髓侧索硬化症   	     amyotrophic   	  Amyotrophic Lateral Sclerosis   	    male   	   female
+躁郁症   	     bipolar    	       Bipolar disorder    	     male     	 female

@@ -12,13 +12,19 @@ import com.happy.gene.pdfreport.pdf.def.element.AbstractDef;
 import com.happy.gene.pdfreport.pdf.util.XmlDataCache;
 import com.happy.gene.pdfreport.pdf.util.XmlDataParser;
 import com.itextpdf.io.font.PdfEncodings;
+import com.itextpdf.kernel.color.Color;
 import com.itextpdf.kernel.font.PdfFont;
 import com.itextpdf.kernel.font.PdfFontFactory;
 import com.itextpdf.kernel.geom.PageSize;
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfPage;
 import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.kernel.pdf.canvas.PdfCanvas;
+import com.itextpdf.layout.Canvas;
 import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Paragraph;
+import com.itextpdf.layout.property.TextAlignment;
+import com.itextpdf.layout.property.VerticalAlignment;
 import com.template.UserGeneCheckReportTemplatePageRenderer;
 
 import java.io.ByteArrayOutputStream;
@@ -31,12 +37,9 @@ import java.util.*;
 public class MainBeijingLiHuaCenter {
 
     public static void main(String[] args) throws Exception {
-        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/template_beijing_lihua_result_page12.xml";
+        String templateFilePath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/template_beijing_lihua_sign_pageHuan4cai3mei3yan2.xml";
         String templateDataPath = "/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_beijing_lihuafenxiceshi_center/test_data.xml";
-for (int i = 1; i < 12; i ++) {
-    System.out.println(528.0f - 22.0*i);
 
-}
         XmlDataParser parser = XmlDataParser.getInstance();
         XmlDataCache  cache  = XmlDataCache.getInstance();
         cache.clearCache();
@@ -179,9 +182,27 @@ for (int i = 1; i < 12; i ++) {
             doc.getPdfDocument().addPage(pageNumberInDoc+1, lastPage);
         }
 
+        // paint page number
+
+        for (int pageNum = 1, totalNum = pdfDoc.getNumberOfPages(); pageNum <= totalNum; pageNum ++) {
+            if (pageNum==1) {continue;}
+            PdfPage toPage = pdfDoc.getPage(pageNum);
+            String pageFormat = null;
+            pageFormat = "第 pageNum 页 / 共 totalNum 页".replace("pageNum", ""+pageNum);
+            pageFormat = pageFormat.replace("totalNum", ""+totalNum);
+
+            PdfCanvas under = new PdfCanvas(toPage);
+            Canvas canvas = new Canvas(under, pdfDoc, pdfDoc.getDefaultPageSize());
+            Paragraph p = new Paragraph(pageFormat).setFontSize(9).setFontColor(com.itextpdf.kernel.color.Color.BLACK);
+            if (null!=fonts.get("fzltxh_gbk")) { p.setFont((fonts.get("fzltxh_gbk").getFont())); }
+            float x = toPage.getPageSize().getWidth() / 2;
+            float y = 45;
+            canvas.showTextAligned(p, x, y, 1, TextAlignment.CENTER, com.itextpdf.layout.property.VerticalAlignment.MIDDLE, 0);
+        }
+
 
         pdfDoc.close();
-        baos.writeTo(new FileOutputStream("/Users/zhaolisong/Desktop/Example_TEST1.pdf"));
+        baos.writeTo(new FileOutputStream("/Users/zhaolisong/Desktop/LihuaSignPage_TEST.pdf"));
 //        baos.writeTo(new FileOutputStream("/Users/zhaolisong/Desktop/Example_TEST2.pdf"));
 
 

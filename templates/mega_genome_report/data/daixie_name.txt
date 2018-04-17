@@ -1,0 +1,6 @@
+高甘油三酯血症	hypertriglyceridemia	Hypertriglyceridemia	male	female
+肥胖	obesity 	Obesity 	male 	   female
+骨质疏松  	  osteoporosis  	  Osteoporosis  	  male	    female
+高同型半胱氨酸血症	hyperhomocysteinemia	Hyperhomocysteinemia	male	female
+2型糖尿病	type	Type 2 Diabetes	male	female
+痛风 	 gout 	Gout	 male	  female

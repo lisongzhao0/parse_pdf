@@ -1,0 +1,119 @@
+cancer_title_alzheimere4+:合理膳食
+cancer_content_alzheimere4+:·多食用富含叶酸与维生素 K 的菠菜等深绿色蔬菜<br/>·硒不足可进食黄豆、大蒜、洋葱、鸡、海鲜、全谷类等补硒<br/>·限制热量与盐分：每日膳食总热量为 2400 ～ 1500kcal 为宜，每日盐分摄入不超过 5g<br/>·适量的蛋白：每日摄入 1 ～ 1.5g/kg, 以全蛋白质较好，增加多不饱和脂肪酸成分如鱼虾类食品 , 减少饱和脂肪酸<br/>
+cancer_title_alzheimere4+:体育活动
+cancer_content_alzheimere4+:·适量的有氧运动如步行、慢跑、太极拳等<br/>
+cancer_title_alzheimere4+:记忆训练
+cancer_content_alzheimere4+:·多动脑有助于降低患阿兹海默病和其他痴呆的风险，进行有趣味的简单记忆训练也有一定帮助<br/>
+cancer_title_alzheimere4+:心理健康
+cancer_content_alzheimer:·家属应多陪伴家中老人，随时沟通并鼓励老人多思考，读书看报听新闻，多参与社交活动<br/>
+cancer_title_alzheimere4+:维生素补充
+cancer_content_alzheimere4+:·长期坚持适当服用维生素 C 结合维生素 E 有助于降低发病，清除自由基<br/>
+
+cancer_title_alzheimere4-:合理膳食
+cancer_content_alzheimere4-:·多食用富含叶酸与维生素 K 的菠菜等深绿色蔬菜<br/>·硒不足可进食黄豆、大蒜、洋葱、鸡、海鲜、全谷类等补硒<br/>·限制热量与盐分：每日膳食总热量为 2400 ～ 1500kcal 为宜，每日盐分摄入不超过 5g<br/>·适量的蛋白：每日摄入 1 ～ 1.5g/kg, 以全蛋白质较好，增加多不饱和脂肪酸成分如鱼虾类食品 , 减少饱和脂肪酸<br/>
+cancer_title_alzheimere4-:体育活动
+cancer_content_alzheimere4-:·适量的有氧运动如步行、慢跑、太极拳等<br/>
+cancer_title_alzheimere4-:记忆训练
+cancer_content_alzheimere4-:·多动脑有助于降低患阿兹海默病和其他痴呆的风险，进行有趣味的简单记忆训练也有一定帮助<br/>
+cancer_title_alzheimere4-:心理健康
+cancer_content_alzheimere4-:·家属应多陪伴家中老人，随时沟通并鼓励老人多思考，读书看报听新闻，多参与社交活动<br/>
+cancer_title_alzheimere4-:维生素补充
+cancer_content_alzheimere4-:·长期坚持适当服用维生素 C 结合维生素 E 有助于降低发病，清除自由基<br/>
+
+cancer_title_alcohol:饮用量限制
+cancer_content_alcohol:·成年女性的酒精类饮品每日饮用量应不超过 42 克纯酒精，每周不超过 98 克<br/>·成年男性的酒精类饮品每日应不超过 56 克纯酒精，每周不超过 196 克<br/>·限制或禁止未成年人饮酒<br/>
+
+
+cancer_title_suicide:自我心理调节
+cancer_content_suicide:·调整认知结构，完善自我意识，塑造健全人格，精神疾病的预防还要学会情绪控制，提高适应能力，掌握自我调节的方法， 例如：写日记、定期倾诉、转移注意力等<br/> 
+cancer_title_suicide:锻炼身体
+cancer_content_suicide:·运动锻炼体育活动可以促进新陈代谢，增强各器官的生理机能，提高身体素质。如跑步等体力运动时人体内的脑啡呔分泌增加，可使人心情愉快<br/> 
+cancer_title_suicide:寻求帮助
+cancer_content_suicide:·除了重视自我调节外，还应积极取得家庭、学校和社会的支持，争取亲朋好友的帮助，心理负荷较重，自己不易调节时， 应及时寻求心理咨询的帮助<br/> 
+cancer_title_suicide:心理卫生知识
+cancer_content_suicide:·可通过心理卫生课或讲座，通过阅读心理卫生书刊等途径接受心理卫生教育，提高自己的耐受挫折的能力，努力保持心理健康<br/> 
+
+
+cancer_title_agerelated:戒除香烟
+cancer_content_agerelated:·停止吸烟并避免吸入二手烟<br/> 
+cancer_title_agerelated:定期体检
+cancer_content_agerelated:·45 岁以上者至少间隔 2-3 年做散瞳检查一次，以便尽早发现问题并采取治疗措施<br/> 
+cancer_title_agerelated:注意用眼
+cancer_content_agerelated:·养成良好的用眼习惯，避免在黑暗中看手机和电脑等发光屏幕<br/> ·注意用眼的强度和时间，休息时可远眺或看绿色植物<br/> 
+
+
+cancer_title_major:自我心理调节
+cancer_content_major:·调整认知结构，完善自我意识，塑造健全人格，精神疾病的预防还要学会情绪控制，提高适应能力，掌握自我调节的方法， 例如：写日记、定期倾诉、转移注意力等<br/> 
+cancer_title_major:锻炼身体
+cancer_content_major:·运动锻炼体育活动可以促进新陈代谢，增强各器官的生理机能，提高身体素质。如跑步等体力运动时人体内的脑啡呔分泌增加，可使人心情愉快，从而起到预防抑郁症的效果<br/> 
+cancer_title_major:寻求帮助
+cancer_content_major:·除了重视自我调节外，还应积极取得家庭、学校和社会的支持，争取亲朋好友的帮助，心理负荷较重，自己不易调节时， 应及时寻求心理咨询的帮助<br/> 
+cancer_title_major:心理卫生知识
+cancer_content_major:·可通过心理卫生课或讲座，通过阅读心理卫生书刊等途径接受心理卫生教育，提高自己的耐受挫折的能力，努力保持心理健康<br/> 
+
+cancer_title_bipolar:自我心理调节
+cancer_content_bipolar:·调整认知结构，完善自我意识，塑造健全人格，精神疾病的预防还要学会情绪控制，提高适应能力，掌握自我调节的方法， 例如：写日记、定期倾诉、转移注意力等<br/> 
+cancer_title_bipolar:锻炼身体
+cancer_content_bipolar:·运动锻炼体育活动可以促进新陈代谢，增强各器官的生理机能，提高身体素质。如跑步等体力运动时人体内的脑啡呔分泌增加，可使人心情愉快<br/> 
+cancer_title_bipolar:寻求帮助
+cancer_content_bipolar:·除了重视自我调节外，还应积极取得家庭、学校和社会的支持，争取亲朋好友的帮助，心理负荷较重，自己不易调节时， 应及时寻求心理咨询的帮助<br/> 
+cancer_title_bipolar:心理卫生知识
+cancer_content_bipolar:·可通过心理卫生课或讲座，通过阅读心理卫生书刊等途径接受心理卫生教育，提高自己的耐受挫折的能力，努力保持心理健康<br/> 
+
+
+cancer_title_glaucoma:注意用眼
+cancer_content_glaucoma:·养成良好的用眼习惯，避免在黑暗中看手机和电脑等发光屏幕，避免长时间注视强光<br/> ·注意用眼的强度和时间，休息时可远眺或看绿色植物<br/> 
+cancer_title_glaucoma:定期体检
+cancer_content_glaucoma:·老年人每年要测一次眼压，尤其是高血压病人。<br/> 
+cancer_title_glaucoma:积极治疗
+cancer_content_glaucoma:·白内障、虹膜炎等眼部疾病要及时治疗，以免引起继发性青光眼。高血压患者注意控制血压<br/>
+
+
+
+cancer_title_parkinsons:适当加强体育运动及脑力活动
+cancer_content_parkinsons:<br/>
+cancer_title_parkinsons:避免接触神经系统毒性物质
+cancer_content_parkinsons:<br/>
+cancer_title_parkinsons:防止动脉粥样硬化
+cancer_content_parkinsons:<br/>
+cancer_title_parkinsons:适当饮茶
+cancer_content_parkinsons:<br/>
+cancer_title_parkinsons:早期发现症状,早期治疗
+cancer_content_parkinsons:<br/>
+
+
+cancer_title_pathological:注意用眼卫生
+cancer_content_pathological:<br/>
+cancer_title_pathological:增加户外活动
+cancer_content_pathological:<br/>
+cancer_title_pathological:合理安排作息，避免近视度数加深
+cancer_content_pathological:<br/>
+cancer_title_pathological:注意检查眼底病变，防止并发症产生
+cancer_content_pathological:<br/>
+
+
+cancer_title_amyotrophic:加强体育锻炼
+cancer_content_amyotrophic:<br/>
+cancer_title_amyotrophic:避免神经系统外伤
+cancer_content_amyotrophic:<br/>
+cancer_title_amyotrophic:调整心理状态
+cancer_content_amyotrophic:<br/>
+
+
+cancer_title_epilepsy:调整心理状态，避免紧张情绪
+cancer_content_epilepsy:<br/>
+cancer_title_epilepsy:防止神经系统外伤
+cancer_content_epilepsy:<br/>
+cancer_title_epilepsy:避免颅内感染
+cancer_content_epilepsy:<br/>
+cancer_title_epilepsy:防止重金属中毒
+cancer_content_epilepsy:<br/>
+cancer_title_epilepsy:控制脑血管疾病
+cancer_content_epilepsy:<br/>
+
+
+cancer_title_schizophrenia:及早发现治疗
+cancer_content_schizophrenia:·由于精神分裂的疾病原因及发病机理并不十分清楚，故预防主要以早期发现，早期诊断，早期治疗为主。请注意精神分裂相关表型的变化。<br/>
+
+cancer_title_progressive:及早发现治疗
+cancer_content_progressive:·本疾病尚无有效预防措施，但有研究发现使用左旋多巴和安坦等帕金森式症药物可使症状减轻。<br/>

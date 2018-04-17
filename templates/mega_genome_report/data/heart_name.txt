@@ -1,0 +1,11 @@
+心房颤动		atrial		 Atrial Fibrillation		male		female
+冠心病			coronary	 Coronary Heart Disease		male		female
+缺血性脑卒中		ischaemic		  Ischaemic Stroke		male		female
+出血性脑卒中	intracerebral	 Intracerebral Haemorrhage		male		female
+心肌梗死		myocardial		 Myocardial Infarction	male	female
+高血压			hypertension	 Hypertension	male		female
+静脉血栓		venous	  Venous Thromboembolism		male		female
+心源性猝死		sudden	  Sudden Cardiac	male		female
+扩张性心肌病	dilated	  Dilated Cardiomyopathy		male		female
+肥厚性心肌病	hypertrophic	  Hypertrophic Cardiomyopathy	male		female
+
