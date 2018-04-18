@@ -80,11 +80,58 @@
 
         <parameter id="name"   value="王辉"/>
         <parameter id="gender" value="女士"/>
-        <parameter id="gender2" value="女"/>
         <parameter id="number" value="01160001"/>
         <parameter id="reportDate" value="2016年 8月 1日"/>
         <parameter id="mobile" value="400-56569-6325"/>
+        <parameter id="program" value="个人基因组芯片套餐"/>
+        <parameter id="comment" value="美因基因"/>
+        <parameter id="sender" value="美因基因"/>
+        <parameter id="birthday" value="2016年 8月 1日"/>
+        <parameter id="sendingDay" value="2016年 8月 1日"/>
 
+
+
+
+
+
+
+
+
+
+
+
+        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
+            <tree_node value="前言" english="Introduction" page="" catalog="1 0">
+                <tree_node english="" page="003" value="重要声明" catalog="1 1"/>
+                <tree_node english="" page="005" value="致用户的一封信" catalog="1 2"/>
+                <tree_node english="" page="007" value="阅读指南" catalog="1 3"/>
+            </tree_node>
+            <tree_node value="检测结果概述" english="Report Summary" page="" catalog="2 0">
+                <tree_node english="" page="xxx" value="常见疾病风险评估检测结果汇总" catalog="2 1"/>
+                <tree_node english="" page="xxx" value="高危遗传病检测结果汇总" catalog="2 2"/>
+                <tree_node english="" page="xxx" value="携带者检测检测结果汇总" catalog="2 3"/>
+                <tree_node english="" page="xxx" value="药物基因组检测结果汇总" catalog="2 4"/>
+                <tree_node english="" page="xxx" value="运动营养类检测结果汇总" catalog="2 5"/>
+            </tree_node>
+            <tree_node value="检测结果详解" english="Detailed Report" page="" catalog="3 0">
+                <tree_node english="" page="xxx" value="常见高发肿瘤检测内容" catalog="3 1"/>
+                <tree_node english="" page="xxx" value="常见疾病检测内容"    catalog="3 2"/>
+                <tree_node english="" page="xxx" value="" catalog="3 3"><![CDATA[<style italic="true">　　心脑血管疾病检测内容</style>]]></tree_node>
+                <tree_node english="" page="xxx" value="" catalog="3 4"><![CDATA[<style italic="true">　　代谢性疾病检测内容</style>]]></tree_node>
+                <tree_node english="" page="xxx" value="" catalog="3 5"><![CDATA[<style italic="true">　　退行性及精神类疾病检测内容</style>]]></tree_node>
+                <tree_node english="" page="xxx" value="" catalog="3 6"><![CDATA[<style italic="true">　　自身免疫类疾病检测内容</style>]]></tree_node>
+                <tree_node english="" page="xxx" value="高危遗传病检测内容"    catalog="3 8"/>
+                <tree_node english="" page="xxx" value="携带者检测检测内容"    catalog="3 9"/>
+                <tree_node english="" page="xxx" value="药物基因组检测内容"    catalog="3 10"/>
+                <tree_node english="" page="xxx" value="运动营养类检测内容"    catalog="3 11"/>
+            </tree_node>
+            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
+                <tree_node english="" page="xxx" value="ACMG 高危遗传病列表" catalog="10000 1"/>
+                <tree_node english="" page="xxx" value="携带者检测列表"      catalog="10000 2"/>
+                <tree_node english="" page="xxx" value="药物基因组证据等级"   catalog="10000 3"/>
+                <tree_node english="" page="xxx" value="免责声明"           catalog="10000 4"/>
+            </tree_node>
+        </tree_node>
 
 
 
@@ -184,34 +231,6 @@
 
 
 
-
-
-
-        <tree_node id="catalog" value="目录" english="" page="" catalog="0 0">
-            <tree_node value="报告使用说明" english="User Manual" page="" catalog="1 0">
-                <tree_node english="User Manual" page="001" value="使用说明" catalog="1 1">
-                </tree_node>
-            </tree_node>
-            <tree_node value="关于肿瘤预防管理" english="Prevention And Management Of Cancer" page="" catalog="2 0">
-                <tree_node english="" page="xxx" value="肿瘤预防管理" catalog="2 0"/>
-            </tree_node>
-            <tree_node value="检测结果概述" english="Report Summary" page="" catalog="3 0">
-                <tree_node english="" page="xxx" value="致病基因" catalog="3 1"/>
-                <tree_node english="" page="xxx" value="风险基因" catalog="3 2"/>
-                <tree_node english="" page="xxx" value="预防建议" catalog="3 3"/>
-            </tree_node>
-            <tree_node value="检测结果详解" english="Detailed Report" page="" catalog="4 0">
-                <tree_node english="" page="xxx" value="乳腺癌"   catalog="4 1 0"/>
-                <tree_node english="" page="xxx" value="肺癌"     catalog="4 2 0"/>
-                <tree_node english="" page="xxx" value="胃癌"     catalog="4 3 0"/>
-                <tree_node english="" page="xxx" value="结直肠癌"  catalog="4 4 0"/>
-            </tree_node>
-            <tree_node value="附录" english="Appendix" page="" catalog="10000 0 0">
-                <tree_node english="" page="xxx" value="致病基因与肿瘤关系列表" catalog="10000 1"/>
-                <tree_node english="" page="xxx" value="免责声明"             catalog="10000 2"/>
-                <tree_node english="" page="xxx" value="幸福基石服务介绍"      catalog="10000 3"/>
-            </tree_node>
-        </tree_node>
 
 
 

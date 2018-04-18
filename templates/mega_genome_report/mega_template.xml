@@ -3,13 +3,13 @@
     <templates>
         <template name="page_header">
             <condition index="0">
-                <rect z_order="0" path="maxx 125 maxy 784 minx 68  miny 768" border_width="" border_color="" opacity="1.0" fill_color="#b9c832"/>
+                <rect z_order="0" path="maxx 125 maxy 784 minx 68  miny 768" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
             </condition>
             <condition index="1">
-                <rect z_order="0" path="maxx 527 maxy 784 minx 470 miny 768" border_width="" border_color="" opacity="1.0" fill_color="#b9c832"/>
+                <rect z_order="0" path="maxx 527 maxy 784 minx 470 miny 768" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
             </condition>
             <condition index="3">
-                <rect z_order="1" path="maxx 527 maxy 784 minx 68 miny 747" border_width="" border_color="" opacity="1.0" fill_color="#b9c832"/>
+                <rect z_order="1" path="maxx 527 maxy 784 minx 68 miny 747" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
                 <text_box z_order="1" x="68" y="747" width="457" height="37" h_alignment="" v_alignment="" cal_width="M" cal_height="">
                     <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="18" color="#ffffff" bold="" italic="" underline="" x="16" y="10" width="457" value="">
                         <![CDATA[$detailJiBingXiaoBiaoTi<style font="fzltxh_gbk" font_size="12" bold="false">$detailJiBing</style>]]>
@@ -55,10 +55,10 @@
         </template>
         <template name="morbidity">
             <text    z_order="1" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect    z_order="2" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect    z_order="2" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <percent z_order="3" auto_layout="true" x="68" width="300" opacity="1.0" color="#acbd52" height="30" r="10" padding="5 5 5 5" origin="0" region_color="#5c7640 #efbb43 #fd722e" region_scale="1.5 3.0 4.5" show_scale="true" show_percent_font_size="14" percent="$riskScore"/>
 
-            <rect    z_order="4" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect    z_order="4" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text    z_order="5" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$riskDescription"/>
 
             <rect    z_order="6" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 30 0 0" border_width="1" border_color="" opacity="1.0" fill_color="#5c7640"/>
@@ -66,7 +66,7 @@
             <text    z_order="7" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
             <text    z_order="8" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$averageMorbidity"/>
 
-            <rect    z_order="9" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect    z_order="9" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text    z_order="10" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
 
             <rect    z_order="11" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.3" border_color="" opacity="1.0" fill_color="#5c7640"/>
@@ -89,17 +89,35 @@
     <!--****************************************  封面  ******************************************-->
     <!--*****************************************************************************************-->
     <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="cover">
-        <image z_order="0" id="cover" type="JPG" x="0" y="0"  height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/cover.jpg"/>
+        <image z_order="0" id="cover" type="JPG" x="0" y="0"  height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/./images/cover.jpg"/>
     </page>
     <!--****************************************  空白  ******************************************-->
     <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="inside-cover">
+    </page>
+    <!--***************************************  重要声明  ***************************************-->
+    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="nside-cover">
+        <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="$mainColor" bold="" italic="" underline="" x="140" y="700" width="390" value="重要声明"/>
+        <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="$mainColor" bold="" italic="" underline="" x="140" y="667" width="390" value="Declaration"/>
+        <rect z_order="0" path="maxx 530 maxy 665 minx 140 miny 665" border_width="0.3" border_color="$mainColor" opacity="1.0" fill_color=""/>
+
+        <text z_order="1" line_leading="2.3" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="59" y="110" width="500" box="59 660 475 800" value="">
+            <![CDATA[我们美因健康科技有限公司秉承“基因科技，让人类更美更健康”的美好愿景，始终以满足客户需求为己任。本报告从基因检测开始，为您全方位解读基因信息，让您全面了解自身情况，力求打造完美的健康解读体验。为了使您更好的理解报告内容，我公司郑重声明：<br/>
+<br/>
+1. 此项服务所检测的基因位点，是基于 illumina 公司的 GSA 芯片所覆盖。本报告是根据 ClinVar 数据库进行筛选解读，根据 ClinVar 界定的致病或疑似致病变异进行分级。此项目不会检测疾病所有相关的基因变异，因为随着科学的进步，在未来会有更多相关基因变异被发现。<br/>
+<br/>
+2. 此项服务是风险评估检测。分析结果中具有较高风险的人不一定必然得病，分析结果风险相对较低的人也仍存在患病可能。风险评估检测不是确定的诊断检测。不能使用本报告进行疾病的诊断或治疗。<br/>
+<br/>
+3. 报告中给出的风险评估，需要结合家族史、个人健康状况等信息，由遗传解读师与医生，共同给出针对您个人的综合建议。<br/>
+<br/>
+4. 公司谨遵医学伦理学，本报告仅在受检者阅读并签写知情同意书后实施。出于对受检者隐私的保护，本报告限受检人本人亲阅。]]>
+        </text>
     </page>
 
     <!--*****************************************************************************************-->
     <!--***************************************  内封面  *****************************************-->
     <!--*****************************************************************************************-->
     <page z_order="2" catalog="-1 0" page_header="false" page_number="false" type="insideFrontCover">
-        <image z_order="0" id="logo"  type="JPG" x="32"  y="383"  height="75"  width="221" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/./images/logo_icon_name.jpg"/>
+        <image z_order="0" id="logo"  type="JPG" x="32"  y="383"  height="75"  width="221" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/./images/logo_rect.jpg"/>
         <rect z_order="1" path="maxx 32  maxy 458 minx -20 miny 383 r 24" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
         <path z_order="2" path="m 595 383 l 595 458 l 277 458 c 253 458 253 458 253 434 l 253 407 c 253 383 253 383 277 383 h" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
         <text z_order="3" font="fzltxh_gbk" font_size="16" color="#ffffff" bold="bold" italic="" underline="" x="320" y="405" width="200" value="致用户的一封信"/>
@@ -112,17 +130,17 @@
         <rect z_order="1" path="maxx 129 maxy 784 minx 59 miny 768" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
         <text z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="true" italic="" underline="" x="59" y="720" width="200" value="尊敬的$name$gender："/>
         <text z_order="3" line_leading="1.9" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="59" y="110" width="500" box="59 660 475 800" value="">
-<![CDATA[您好!感谢您信任并选择美因基因“全基因组基因检测报告”产品为自己的健康保驾护航!<br/>
+<![CDATA[您好！感谢您信任并选择美因基因“全基因组基因检测报告”产品为自己的健康保驾护航！<br/>
 <br/>
-随着社会不断地发展，生活水平的不断提高，我们越来越注重生活的质量。而想要体会高质 量的幸福生活，就不得不时刻关注健康，因为拥有健康的身体才是一切幸福来源的前提和基 础。据可靠调查显示，影响我们身体健康的因素有很多，其中心脑血管疾病、癌症、事故等 的占比最高。以目前的大多数肿瘤为例，我们有方法诊断，却没有有效的方法完全治愈。造 成这种现象的原因有两个:第一，整个肿瘤医疗行业还处于起步阶段。我们现在掌握的信息， 只不过是只言片语。要将其串联成句子再到整篇文章，还有很长的路要走。第二，大多诱发 肿瘤的突变会造成所在基因功能受损或者失活;要治疗，就必须用一定的方法恢复、重现基 因功能。这在药物水平上是非常难以实现的。<br/>
+随着社会不断地发展，生活水平的不断提高，我们越来越注重生活的质量。而想要体会高质量的幸福生活，就不得不时刻关注健康，因为拥有健康的身体才是一切幸福来源的前提和基础。据可靠调查显示，影响我们身体健康的因素有很多，其中心脑血管疾病、癌症、事故等的占比最高。以目前的大多数肿瘤为例，我们有方法诊断，却没有有效的方法完全治愈。造成这种现象的原因有两个：第一，整个肿瘤医疗行业还处于起步阶段。我们现在掌握的信息，只不过是只言片语。要将其串联成句子再到整篇文章，还有很长的路要走。第二，大多诱发肿瘤的突变会造成所在基因功能受损或者失活；要治疗，就必须用一定的方法恢复、重现基因功能。这在药物水平上是非常难以实现的。<br/>
 <br/>
-对此，我们可以后退一步，让自己的眼界开阔些，让眼光不再局限于那些病人身上、或者什 么突变引发了什么疾病，而是把目光放在健康人身上。当然不是所有的健康人，而是其中一 部分，指那些携带致病突变或者生存于恶劣的内外环境而仍未引起足够重视的人。发现并提 示他们可能出现的风险和可以加以干预的措施，是我们向着健康管理迈出的更坚实的一步。<br/>
+对此，我们可以后退一步，让自己的眼界开阔些，让眼光不再局限于那些病人身上、或者什么突变引发了什么疾病，而是把目光放在健康人身上。当然不是所有的健康人，而是其中一部分，指那些携带致病突变或者生存于恶劣的内外环境而仍未引起足够重视的人。发现并提示他们可能出现的风险和可以加以干预的措施，是我们向着健康管理迈出的更坚实的一步。<br/>
 <br/>
-因此，本报告从常见肿瘤、心脑血管疾病、免疫力代谢、遗传疾病、个体特征、营养素吸收 及药物反应等七个方面(根据检测内容调整)进行探索，在基因层面全面、科学地为您揭示 身体内部的奥秘并提供了极具价值和参考性的指导性建议。<br/>
+因此，本报告从常见肿瘤、心脑血管疾病、免疫力代谢、遗传疾病、个体特征、营养素吸收及药物反应等七个方面（根据检测内容调整）进行探索，在基因层面全面、科学地为您揭示身体内部的奥秘并提供了极具价值和参考性的指导性建议。<br/>
 <br/>
-但值得我们注意的是，目前基因科学指导下的健康管理仍不同于临床诊断，其结果不能直接 作为判断受检者是否确切患有某种疾病的诊断依据，只能够作为疾病预防和个性化健康管理 方案设计的重要参考。<br/>
+但值得我们注意的是，目前基因科学指导下的健康管理仍不同于临床诊断，其结果不能直接作为判断受检者是否确切患有某种疾病的诊断依据，只能够作为疾病预防和个性化健康管理方案设计的重要参考。<br/>
 <br/>
-最后，希望我们的每一个报告结果都能贡献一份绵薄之力，为您的身体健康构建一道更坚实 的保护墙。]]>
+最后，希望我们的每一个报告结果都能贡献一份绵薄之力，为您的身体健康构建一道更坚实的保护墙。]]>
         </text>
         <text  z_order="4" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="true" italic="" underline="" x="333" y="70"  width="200" value="美因健康科技有限公司"/>
     </page>
@@ -136,32 +154,66 @@
         <image z_order="2" id="barcode" fit="a" type="PNG" x="226" y="506" height="51" width="143" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/barcode.png"/>
         <text z_order="3" line_leading="" h_alignment="C" v_alignment="C" font="fzlthjw" font_size="12" color="#404040" bold="" italic="" underline="" x="226" y="477.47" width="143" value="$number"/>
 
-        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="420" width="72" value="姓名"/>
-        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="420" width="185" value="$name"/>
-        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="380" width="72" value="姓别"/>
-        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="380" width="185" value="$gender"/>
-        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="340" width="72" value="联系方式"/>
-        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="340" width="185" value="$mobile"/>
+        <text z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="420" width="72" value="姓名"/>
+        <text z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="420" width="185" value="$name"/>
+        <text z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="380" width="72" value="姓别"/>
+        <text z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="380" width="185" value="$gender"/>
+        <text z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="340" width="72" value="联系方式"/>
+        <text z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="340" width="185" value="$mobile"/>
 
+        <rect z_order="0" path="maxx 125 maxy 318 minx 470 miny 318" border_width="0.1" border_color="#000000" opacity="1.0" fill_color=""/>
 
-<!--        <rect  z_order="11" path="maxx 592.8  maxy 460 minx -20 miny 380" border_width="" border_color="" opacity="0.8" fill_color="#5a7f34"/>
-        <image z_order="12" id="member" type="JPG" x="90"  y="410"  height="22"  width="22" url="./images/member.jpg"/>
-        <image z_order="13" id="report" type="JPG" x="300"  y="410"  height="22"  width="22" url="./images/report.jpg"/>-->
-        <text  z_order="14" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#ffffff" bold="" italic="" underline="" x="175" y="440" width="200" value="会员："/>
-        <text  z_order="14" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#ffffff" bold="" italic="" underline="" x="175" y="420" width="200" value="$name"/>
-        <text  z_order="15" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#ffffff" bold="" italic="" underline="" x="452" y="400" width="200" value="报告日期："/>
-        <text  z_order="15" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#ffffff" bold="" italic="" underline="" x="432" y="380" width="200" value="$reportDate"/>
+        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="282" width="72" value="出生日期"/>
+        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="282" width="185" value="$birthday"/>
+        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="248" width="72" value="送检日期"/>
+        <text z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="248" width="185" value="$sendingDay"/>
+
+        <rect z_order="0" path="maxx 125 maxy 218 minx 470 miny 218" border_width="0.1" border_color="#000000" opacity="1.0" fill_color=""/>
+
+        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="190" width="72" value="检测项目"/>
+        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="190" width="185" value="$program"/>
+        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="148" width="72" value="备注信息"/>
+        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="148" width="185" value="$comment"/>
+        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzlthjw" font_size="12" color="#000000" bold="" italic="" underline="" x="202" y="108" width="72" value="送检单位"/>
+        <text z_order="6" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="" italic="" underline="" x="284" y="108" width="185" value="$sender"/>
+    </page>
+
+    <!--*****************************************************************************************-->
+    <!--***************************************  阅读指南  ***************************************-->
+    <!--*****************************************************************************************-->
+    <page z_order="5" catalog="-1 0" page_header="false" page_number="false" type="nside-cover">
+        <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="$mainColor" bold="" italic="" underline="" x="140" y="700" width="390" value="阅读指南"/>
+        <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="$mainColor" bold="" italic="" underline="" x="140" y="667" width="390" value="Reading Guide"/>
+        <rect z_order="0" path="maxx 530 maxy 665 minx 140 miny 665" border_width="0.3" border_color="$mainColor" opacity="1.0" fill_color=""/>
+
+        <text z_order="1" line_leading="2.3" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="59" y="212" width="480" box="59 660 475 800" value="">
+            <![CDATA[<style bold="true">美因全基因组报告检测内容：</style><br/>
+本报告检测包括检测结果概述、检测结果详情及附录等三大章节，涵盖常见高发肿瘤、常见疾病、高危遗传病、携带者检测、药物基因组、运动营养类检测等 6 部分内容。<br/>
+<br/>
+其中常见高发肿瘤，男性报告中包含肿瘤 20 项（男性特异肿瘤 1 项），女性报告中包含肿瘤 23 项（女性特异肿瘤 4 项）。常见疾病包含心脑血管疾病 10 项、代谢性疾病 6 项、退行性及精神类疾病 13 项、自身免疫病 11 项。高危遗传病包含美国医学遗传学与基因组学学会推荐的 67 项（33 类）高风险遗传综合征的致病基因检测。携带者检测则涵盖 379 项罕见疾病的致病基因检测。药物基因组章节包含 20 余种常见药物成分的药物基因组检测结果，针对不同药物，从药效、代谢、毒副作用风险等三个方面给出针对您的个体化用药建议。此外，本报告还会向您提供 27 项生运动营养类的分析结果，从营养代谢、科学减重、运动能力、运动效果、抗运动损伤能力、皮肤与衰老特征、饮品的代谢与敏感度等方面为您提供生活方式上的建议。<br/>
+<br/>
+本报告根据 SNP 检测结果，对您患某种疾病的相关易感基因进行综合风险评估，分为较低风险、一般风险和较高风险三个档次，并给出相应的预防建议及措施。]]>
+        </text>
+        <text z_order="1" line_leading="2.4" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="297" y="75" width="240" box="59 660 475 800" value="">
+            <![CDATA[如果您有任何的疑虑和问题，可以随时通过<br/>400-008-0280 联系我们。如果需要进一步<br/>了解基因及基因检测，请关注美因健康管理公<br/>司的微信公众号。]]>
+        </text>
+
+        <image z_order="2" id="code_wechat" fit="a" type="PNG" x="59" y="98" height="85" width="85" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/code_wechat.png"/>
+        <image z_order="2" id="code_app"    fit="a" type="PNG" x="183" y="98" height="85" width="85" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/code_app.png"/>
+
+        <text z_order="3" char_spacing="" word_spacing="" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="59"  y="71" width="85" box="59 660 475 800" value="微信公众号"/>
+        <text z_order="3" char_spacing="" word_spacing="" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="183" y="71" width="85" box="59 660 475 800" value="美因生命 APP"/>
     </page>
 
     <!--*********************************************************************************-->
     <!--************************************  目录 **************************************-->
     <!--*********************************************************************************-->
-    <page z_order="2000000000" catalog="0 0" page_header="false" page_number="false" type="catalog" fixed_page_number="5">
+    <page z_order="2000000000" catalog="0 0" page_header="false" page_number="false" type="catalog" fixed_page_number="8">
         <catalog data="catalog">
             <header>
-                <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="#5b7d34" bold="" italic="" underline="" x="430" y="725" width="100" value="索引"/>
-                <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="#5b7d34" bold="" italic="" underline="" x="430" y="692" width="100" value="INDEX"/>
-                <rect z_order="0" path="maxx 530 maxy 690 minx 135 miny 690" border_width="0.3" border_color="#5b7d34" opacity="1.0" fill_color=""/>
+                <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="$mainColor" bold="" italic="" underline="" x="430" y="725" width="100" value="索引"/>
+                <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="$mainColor" bold="" italic="" underline="" x="430" y="692" width="100" value="INDEX"/>
+                <rect z_order="0" path="maxx 530 maxy 690 minx 135 miny 690" border_width="0.3" border_color="$mainColor" opacity="1.0" fill_color=""/>
             </header>
 
             <repeat min_unit_y="-18" last_need_tail="false">
@@ -187,13 +239,13 @@
 
 
     <!--*************************************************************************************************-->
-    <!--****************************************  使用说明  封面 ******************************************-->
+    <!--****************************************  检测结果概述  封面 ******************************************-->
     <!--*************************************************************************************************-->
     <page z_order="5" catalog="1 0" page_header="false" page_number="false" page_number_start="1" type="userManual">
-        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="./images/chapter_1_cover1.jpg"/>
+        <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/./images/cover_flag_right.jpg"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="报告使用说明"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="User Manual"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果概述"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Report Summary"/>
         </text_box>
     </page>
 
@@ -276,8 +328,8 @@
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="./images/chapter_2_cover1.jpg"/>
 <!--        <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#404040"/>-->
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="常见疾病的预防管理"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Prevention and control of common diseases"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="常见疾病的预防管理"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Prevention and control of common diseases"/>
         </text_box>
     </page>
     <page z_order="8" catalog="2 0 1" page_header="false" page_number="true" type="precaution_management">
@@ -327,8 +379,8 @@
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="./images/chapter_3_cover1.jpg"/>
 <!--        <rect  z_order="2" path="maxx 592.8  maxy 450 minx -20 miny 390" border_width="" border_color="" opacity="0.6" fill_color="#404040"/>-->
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果概述"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Report Summary"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果概述"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Report Summary"/>
         </text_box>
     </page>
 
@@ -363,7 +415,7 @@
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
 
         <percent  z_order="5"  opacity="1.0" color="#404040" x="120" y="126" width="85" height="9" r="0" padding="0 0 0 0"
@@ -566,7 +618,7 @@
                 <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" color="#3f3a3a" font_size="9" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
     </page>
 
@@ -608,9 +660,9 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
-        <rect z_order="4" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+        <rect z_order="4" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
         <vertical_table z_order="4"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
                 <text font="fzltchjw" font_size="14" color="#607b3f" bold="" value=""><![CDATA[减重]]></text>
@@ -639,9 +691,9 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
-        <rect z_order="6" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+        <rect z_order="6" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
         <vertical_table z_order="6"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
                 <text font="fzltchjw" font_size="14" color="#607b3f" bold="" value=""><![CDATA[运动能力]]></text>
@@ -670,9 +722,9 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
-        <rect z_order="8" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+        <rect z_order="8" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
         <vertical_table z_order="8"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
                 <text font="fzltchjw" font_size="14" color="#607b3f" bold="" value=""><![CDATA[运动效果]]></text>
@@ -701,9 +753,9 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
-        <rect z_order="10" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+        <rect z_order="10" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
 
         <vertical_table z_order="10"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
@@ -733,9 +785,9 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
-        <rect z_order="12" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+        <rect z_order="12" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
 
         <vertical_table z_order="12"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
@@ -765,9 +817,9 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
-        <rect z_order="14" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+        <rect z_order="14" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
         <vertical_table z_order="14"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
                 <text font="fzltchjw" font_size="14" color="#607b3f" bold="" value=""><![CDATA[饮品]]></text>
@@ -796,7 +848,7 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
     </page>
 
@@ -831,8 +883,8 @@
     <page z_order="17" catalog="4 -1 0" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="./images/chapter_4_cover1.jpg"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果详解"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Detailed Explanation"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果详解"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Detailed Explanation"/>
         </text_box>
     </page>
 
@@ -843,8 +895,8 @@
     <page z_order="18" catalog="4 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="常见高发肿瘤"/>
-            <text                               z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Common Tumors "/>
+            <text calculate_width_in_box="true" z_order="4" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="常见高发肿瘤"/>
+            <text                               z_order="5" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Common Tumors "/>
         </text_box>
     </page>
 
@@ -875,7 +927,7 @@
                 <percent z_order="4" opacity="1.0" color="#cfcfcf" height="13" origin="0" region_color="#b9c832 #f8b83a #ff6d19" region_scale="1.5 3.0 4.5" percent="$1"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
 
         <percent  z_order="8"  opacity="1.0" color="#404040" x="120" y="126" width="85" height="9" r="0" padding="0 0 0 0"
@@ -973,7 +1025,7 @@
                     <rect   z_order="-1" path="minX 68 minY 690 maxX 528 maxY 706" border_width="0.3" fill_color="#749b32" opacity="1"/>
                     <circle z_order="-2" cx="68" cy="698" r="8" border_width="0.3" fill_color="#749b32" opacity="1"/>
 
-                    <circle z_order="-3" cx="527.4" cy="697.7" r="8" border_color="#ffffff" border_width="3"/>
+                    <circle z_order="-3" cx="527.4" cy="697.7" r="8" border_color="#000000" border_width="3"/>
                     <circle z_order="-4" cx="527.4" cy="697.7" r="8" fill_color="#b9c832" opacity="1"/>
                     <path   z_order="-5" path=" M 526.7 692.4
                                                 C 526.7 693.9 527.1 694.3 527.6 694.3
@@ -986,13 +1038,13 @@
                                                 L 528.0 695.4
                                                 L 527.5 695.4
                                                 L 526.9 702.3
-                                                h" fill_color="#ffffff" opacity="1"/>
-                    <text z_order="11" line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="9" color="#ffffff" value="$0"/>
-                    <text z_order="12" line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltchjw" font_size="9" color="#ffffff" value="$1"/>
-                    <text z_order="13" line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltchjw" font_size="9" color="#ffffff" value="$2"/>
-                    <text z_order="14" line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltchjw" font_size="9" color="#ffffff" value="$3"/>
+                                                h" fill_color="#000000" opacity="1"/>
+                    <text z_order="11" line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="9" color="#000000" value="$0"/>
+                    <text z_order="12" line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltchjw" font_size="9" color="#000000" value="$1"/>
+                    <text z_order="13" line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltchjw" font_size="9" color="#000000" value="$2"/>
+                    <text z_order="14" line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltchjw" font_size="9" color="#000000" value="$3"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy .1 minx 1 miny 0" border_margin="0 5 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy .1 minx 1 miny 0" border_margin="0 5 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
 
 
@@ -1013,18 +1065,18 @@
 
 
             <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <percent z_order="4" auto_layout="true" x="68" width="300" opacity="1.0" color="#b9c832" height="30" r="10" padding="5 5 5 5" origin="0"
                      show_scale="true" show_scale_region_description_font="fzltxh_gbk" show_scale_font_color="#5a7134" show_scale_font_size="10" show_percent_font_size="10"
                      region_color="#5a7134 #5a7134" region_scale="1.5 3.0" percent="$detailFengXianJiYinPingFen"/>
-            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="6" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailFengXianJiYinPingFenMiaoShu"/>
 
             <rect z_order="7"  auto_layout="true" path="maxx 368 maxy 747.15 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.15" border_color="" opacity="1.0" fill_color="#607b3f"/>
 
             <text z_order="8" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
             <text z_order="9" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailRenQunPingJunFaBingLv"/>
-            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="11" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
 
             <rect z_order="12" auto_layout="true" path="maxx 368 maxy 747.12 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.12" border_color="" opacity="1.0" fill_color="#607b3f"/>
@@ -1060,7 +1112,7 @@
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
 
 
@@ -1087,7 +1139,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
 
 
@@ -1123,8 +1175,8 @@
     <page z_order="23" catalog="5 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="心脑血管疾病"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Cardiovascular Diseases"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="心脑血管疾病"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Cardiovascular Diseases"/>
         </text_box>
     </page>
 
@@ -1155,7 +1207,7 @@
                 <percent z_order="4" opacity="1.0" color="#cfcfcf" height="13" origin="0" region_color="#b9c832 #f8b83a #ff6d19" region_scale="1.5 3.0 4.5" percent="$1"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
 
         <percent  z_order="8"  opacity="1.0" color="#404040" x="120" y="126" width="85" height="9" r="0" padding="0 0 0 0"
@@ -1194,18 +1246,18 @@
 
 
             <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <percent z_order="4" auto_layout="true" x="68" width="300" opacity="1.0" color="#b9c832" height="30" r="10" padding="5 5 5 5" origin="0"
                      show_scale="true" show_scale_region_description_font="fzltxh_gbk" show_scale_font_color="#5a7134" show_scale_font_size="10" show_percent_font_size="10"
                      region_color="#5a7134 #5a7134" region_scale="1.5 3.0" percent="$detailFengXianJiYinPingFen"/>
-            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="6" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailFengXianJiYinPingFenMiaoShu"/>
 
             <rect z_order="7"  auto_layout="true" path="maxx 368 maxy 747.15 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.15" border_color="" opacity="1.0" fill_color="#607b3f"/>
 
             <text z_order="8" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
             <text z_order="9" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailRenQunPingJunFaBingLv"/>
-            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="11" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
 
             <rect z_order="12" auto_layout="true" path="maxx 368 maxy 747.12 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.12" border_color="" opacity="1.0" fill_color="#607b3f"/>
@@ -1241,7 +1293,7 @@
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1277,7 +1329,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1297,7 +1349,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1317,7 +1369,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
     </page_group>
@@ -1331,8 +1383,8 @@
     <page z_order="40" catalog="6 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="代谢性疾病"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Metabolic Diseases"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="代谢性疾病"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Metabolic Diseases"/>
         </text_box>
     </page>
 
@@ -1362,7 +1414,7 @@
                 <percent z_order="4" opacity="1.0" color="#cfcfcf" height="13" origin="0" region_color="#b9c832 #f8b83a #ff6d19" region_scale="1.5 3.0 4.5" percent="$1"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
 
         <percent  z_order="8"  opacity="1.0" color="#404040" x="120" y="126" width="85" height="9" r="0" padding="0 0 0 0"
@@ -1400,18 +1452,18 @@
             </template>
 
             <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <percent z_order="4" auto_layout="true" x="68" width="300" opacity="1.0" color="#b9c832" height="30" r="10" padding="5 5 5 5" origin="0"
                      show_scale="true" show_scale_region_description_font="fzltxh_gbk" show_scale_font_color="#5a7134" show_scale_font_size="10" show_percent_font_size="10"
                      region_color="#5a7134 #5a7134" region_scale="1.5 3.0" percent="$detailFengXianJiYinPingFen"/>
-            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="6" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailFengXianJiYinPingFenMiaoShu"/>
 
             <rect z_order="7"  auto_layout="true" path="maxx 368 maxy 747.15 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.15" border_color="" opacity="1.0" fill_color="#607b3f"/>
 
             <text z_order="8" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
             <text z_order="9" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailRenQunPingJunFaBingLv"/>
-            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="11" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
 
             <rect z_order="12" auto_layout="true" path="maxx 368 maxy 747.12 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.12" border_color="" opacity="1.0" fill_color="#607b3f"/>
@@ -1448,7 +1500,7 @@
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1481,7 +1533,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1498,7 +1550,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1515,7 +1567,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
     </page_group>
@@ -1532,8 +1584,8 @@
     <page z_order="70" catalog="7 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="125" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="神经及精神类疾病"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Neurological Diseases and Mental Disorders"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="神经及精神类疾病"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Neurological Diseases and Mental Disorders"/>
         </text_box>
     </page>
 
@@ -1564,7 +1616,7 @@
                 <percent z_order="4" opacity="1.0" color="#cfcfcf" height="13" origin="0" region_color="#b9c832 #f8b83a #ff6d19" region_scale="1.5 3.0 4.5" percent="$1"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
 
         <percent  z_order="8"  opacity="1.0" color="#404040" x="120" y="126" width="85" height="9" r="0" padding="0 0 0 0"
@@ -1602,18 +1654,18 @@
             </template>
 
             <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <percent z_order="4" auto_layout="true" x="68" width="300" opacity="1.0" color="#b9c832" height="30" r="10" padding="5 5 5 5" origin="0"
                      show_scale="true" show_scale_region_description_font="fzltxh_gbk" show_scale_font_color="#5a7134" show_scale_font_size="10" show_percent_font_size="10"
                      region_color="#5a7134 #5a7134" region_scale="1.5 3.0" percent="$detailFengXianJiYinPingFen"/>
-            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="6" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailFengXianJiYinPingFenMiaoShu"/>
 
             <rect z_order="7"  auto_layout="true" path="maxx 368 maxy 747.15 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.15" border_color="" opacity="1.0" fill_color="#607b3f"/>
 
             <text z_order="8" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
             <text z_order="9" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailRenQunPingJunFaBingLv"/>
-            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="11" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
 
             <rect z_order="12" auto_layout="true" path="maxx 368 maxy 747.12 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.12" border_color="" opacity="1.0" fill_color="#607b3f"/>
@@ -1649,7 +1701,7 @@
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1682,7 +1734,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1699,7 +1751,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1716,7 +1768,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
     </page_group>
@@ -1733,8 +1785,8 @@
     <page z_order="80" catalog="8 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="自身免疫类疾病"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Autoimmune Diseases"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="自身免疫类疾病"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Autoimmune Diseases"/>
         </text_box>
     </page>
 
@@ -1764,7 +1816,7 @@
                 <percent z_order="4" opacity="1.0" color="#cfcfcf" height="13" origin="0" region_color="#b9c832 #f8b83a #ff6d19" region_scale="1.5 3.0 4.5" percent="$1"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="B" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 3 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
 
         <percent  z_order="8"  opacity="1.0" color="#404040" x="120" y="126" width="85" height="9" r="0" padding="0 0 0 0"
@@ -1815,7 +1867,7 @@
                 <image width="50" height="50" fit="a" url="$0"/>
                 <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
     </page>
 
@@ -1839,18 +1891,18 @@
             </template>
 
             <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="3" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <percent z_order="4" auto_layout="true" x="68" width="300" opacity="1.0" color="#b9c832" height="30" r="10" padding="5 5 5 5" origin="0"
                      show_scale="true" show_scale_region_description_font="fzltxh_gbk" show_scale_font_color="#5a7134" show_scale_font_size="10" show_percent_font_size="10"
                      region_color="#5a7134 #5a7134" region_scale="1.5 3.0" percent="$detailFengXianJiYinPingFen"/>
-            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="5" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="6" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailFengXianJiYinPingFenMiaoShu"/>
 
             <rect z_order="7"  auto_layout="true" path="maxx 368 maxy 747.15 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.15" border_color="" opacity="1.0" fill_color="#607b3f"/>
 
             <text z_order="8" auto_layout="true" line_leading="1.68" font="fzltchjw" color="#607b3f" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
             <text z_order="9" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$detailRenQunPingJunFaBingLv"/>
-            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="10" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="11" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
 
             <rect z_order="12" auto_layout="true" path="maxx 368 maxy 747.12 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.12" border_color="" opacity="1.0" fill_color="#607b3f"/>
@@ -1886,7 +1938,7 @@
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
                     <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 5 0 5" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1919,7 +1971,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1936,7 +1988,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -1953,7 +2005,7 @@
                     <image width="50" height="50" fit="a" url="$0"/>
                     <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 10 0 10" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
     </page_group>
@@ -1975,8 +2027,8 @@
     <page z_order="100" catalog="9 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="高危遗传病"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="High Risk Genetic Diseases"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="高危遗传病"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="High Risk Genetic Diseases"/>
         </text_box>
     </page>
 
@@ -2053,8 +2105,8 @@
     <page z_order="110" catalog="10 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="携带者检测"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Carrier Test"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="携带者检测"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Carrier Test"/>
         </text_box>
     </page>
 
@@ -2106,7 +2158,7 @@
                 </row>
                 <rect table_split="row"  path="maxx 0 maxy .1 minx 1 miny 0" border_margin="0 8 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#607b3f"/>
             </vertical_table>
-            <rect z_order="6" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#ffffff"/>
+            <rect z_order="6" auto_layout="true" path="maxx 0 maxy 10 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1.0" fill_color="#000000"/>
             <text z_order="6" auto_layout="true" line_leading="2" font="fzltxh_gbk" font_size="11" bold="" color="#607b3f" x="68" y="600" width="459" value="">
                 <![CDATA[本部分报告针对您的基因组信息中是否携带有可能导致罕见病发生的突变给出。罕见病是指那些发病率极低的疾病,根据世界卫生组织(WHO)的定义,罕见病为患病人数占总人口的 0.65‰~ 1‰的疾病。罕见病种类极多,病因复杂,其中一大部分是由于遗传物质发生改变所引起的。<br/><br/>
  携带者检测相关基因的杂合突变不会影响健康,但是可能影响后代的健康。如果父母双方均携带同一基因的某些特定突变位点,其后代会有 25% 的可能性出现严重健康问题。 对于有生育要求的育龄人群,如果某种携带者基因检测为阳性,建议您的配偶也针对这些阳性位点进行检测,这将有助于儿童遗传病的预防和早期检测。
@@ -2160,8 +2212,8 @@
     <page z_order="120" catalog="11 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="药物基因组"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Pharmacogenomics Testing"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="药物基因组"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Pharmacogenomics Testing"/>
         </text_box>
     </page>
 
@@ -2207,7 +2259,7 @@
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$5"/>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$6"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
         </page>
 
@@ -2238,8 +2290,8 @@
     <page z_order="130" catalog="12 -1 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="110" y="300" height="296" width="360" url="./images/detail_classify_cover.png"/>
         <text_box z_order="3" x="0" y="420" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="生活方式"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Lifestyle"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="生活方式"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Lifestyle"/>
         </text_box>
     </page>
 
@@ -2281,9 +2333,9 @@
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
                     <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
                 </row>
-                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+                <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 12 0 0" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             </vertical_table>
-            <rect z_order="7"  auto_layout="true" path="maxx 100 maxy 2 minx 0 miny 0" border_margin="0 3 0 3" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect z_order="7"  auto_layout="true" path="maxx 100 maxy 2 minx 0 miny 0" border_margin="0 3 0 3" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
             <paragraph z_order="8" auto_layout="true" font="fzltxh_gbk" font_size="9" color="#3f3a3a" x="58" y="630" bottom_y="55" top_y="742" char_spacing="0" width="459" line_leading="1.2" value="$detailShenghuoJianyi"/>
         </page>
     </page_group>
@@ -2298,8 +2350,8 @@
     <page z_order="102995" catalog="10000 -1 0" page_header="false" page_number="false" type="appendix">
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="./images/chapter_appendix1.jpg"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
-            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="附录"/>
-            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#ffffff" bold="" italic="" underline="" x="0" y="20" width="200" value="Appendix"/>
+            <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#000000" bold="" italic="" underline="" x="0" y="0"  width="200" value="附录"/>
+            <text                               z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#000000" bold="" italic="" underline="" x="0" y="20" width="200" value="Appendix"/>
         </text_box>
     </page>
 
@@ -2327,7 +2379,7 @@
                 <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" italic="true" value="$1"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" value="$2"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
     </page>
 
@@ -2375,10 +2427,13 @@
                 <text line_leading="1.4" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" value="$0"/>
                 <text line_leading="1.4" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" italic="true" value="$1"/>
             </row>
-            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1" fill_color="#ffffff"/>
+            <rect table_split="row"  path="maxx 0 maxy 0.1 minx 1 miny 0" border_margin="0 6 0 6" border_width="0.1" border_color="" opacity="1" fill_color="#000000"/>
         </vertical_table>
     </page>
 
+    <!--*********************************************************************************************-->
+    <!--**************************************  药物基因组证据等级  ************************************-->
+    <!--**********************************************************************************************-->
     <page z_order="103001" catalog="10000 -1 3" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
@@ -2386,51 +2441,50 @@
             <value id="detailJiBing" value=""/>
         </template>
 
-<!--        <text z_order="3" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="690" width="200" value="临床用药证据等级"/>
-        <rect z_order="4" path="maxx 297 maxy 680 minx 68 miny 680" border_width="0.17" border_color="#5c753e" opacity="1.0" fill_color=""/>
-        <text z_order="5" font="fzltchjw" font_size="12" color="#607b3f" x="68" y="660" width="200" value="本检测根据pharmGKB推荐临床用药证据等级"/>-->
+        <text z_order="3" font="fzltchjw" font_size="12" color="$mainColor" x="68" y="690" width="230" value="临床用药证据等级"/>
+        <rect z_order="4" path="maxx 297 maxy 690 minx 68 miny 690" border_width="0.17" border_color="$mainColor" opacity="1.0" fill_color=""/>
+        <text z_order="5" font="fzltchjw" font_size="10" color="$mainColor" x="68" y="670" width="230" value="本检测根据pharmGKB推荐临床用药证据等级"/>
         <image z_order="6" id="member" type="PNG" fit="a" x="68" y="400" height="300" width="459" url="./images/medical_evidence_rank.png"/>
-        <paragraph z_order="7" font="fzltxh_gbk" font_size="9.6" color="#404040" x="68" y="400" width="459" bottom_y="50">
+        <paragraph z_order="7" font="fzltxh_gbk" font_size="8" color="#404040" x="68" y="400" width="459" bottom_y="50">
             <![CDATA[<br/><br/><br/>Level 的划分：依据 PharmGKB 网站 http://www.pharmgkb.org/page/clinAnnLevels<br/>Level 1A：注释基于被医学会认可的指南或经某些重大卫生系统的认可；<br/>Level 1B：注释基于多项有统计显著的研究；<br/>Level 2A：注释基于多项重复研究，故药效关系很有可能是有意义的；<br/>Level 2B：注释基于多项重复研究，但某些研究可能无统计显著性或样本数量少；<br/>Level 3：注释仅基于 1 项有显著差异的研究（未重复）或多项研究但缺乏明显药效关联性；<br/>Level 4：注释仅基于少量病例、非权威研究或体外的分子功能研究。]]>
         </paragraph>
     </page>
-    <page z_order="103002" catalog="10000 -1 4" page_header="true" page_number="true" type="appendix">
+
+    <!--*********************************************************************************************-->
+    <!--******************************************  免责声明  *****************************************-->
+    <!--**********************************************************************************************-->
+    <page z_order="2100000000" catalog="10000 -1 4" page_header="true" page_number="true" type="appendix">
         <!-- page header -->
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="免责声明"/>
             <value id="detailJiBing" value=""/>
         </template>
 
-        <text z_order="3" font="fzltchjw" font_size="14" color="#607b3f" x="68" y="690" width="200" value="免责声明"/>
-        <rect z_order="5" path="maxx 297 maxy 680 minx 68 miny 680" border_width="0.17" border_color="#5c753e" opacity="1.0" fill_color=""/>
+        <text z_order="3" font="fzltchjw" font_size="14" color="$mainColor" x="68" y="690" width="200" value="免责声明"/>
+        <rect z_order="5" path="maxx 297 maxy 680 minx 68 miny 680" border_width="0.17" border_color="$mainColor" opacity="1.0" fill_color=""/>
         <paragraph z_order="7" font="fzltxh_gbk" font_size="9.6" color="#404040" x="68" y="680" width="459">
-<![CDATA[1. 此项服务所检测的基因位点，是基于illumina公司的GSA芯片所覆盖。GSA芯片没有覆盖的变异无法检测。本报告是根据 ClinVar 数据库进行筛选解读，根据 ClinVar 界定的致病或疑似致病变异进行分级。此项目不会检测疾病所有相关的基因变异，因为随着科学的进步，在未来会有更多相关基因变异被发现。本项服务会根据已成功检测基因位点的新研究进展为您不定期进行更新解读。<br/> <br/>
-2. 此项服务是风险评估检测。分析结果中具有较高风险的人不一定必然得病，分析结果风险相对较低的人也仍存在患病可能。风险评估检测不是确定的诊断检测。不能使用本报告进行疾病的诊断或治疗。<br/> <br/>
-3. 报告中给出的风险评估，需要结合家族史、个人健康状况等信息，由遗传解读师与医生，共同给出针对您个人的综合建议。<br/> <br/>
+<![CDATA[1. 此项服务所检测的基因位点，是基于illumina公司的GSA芯片所覆盖。GSA芯片没有覆盖的变异无法检测。本报告是根据 ClinVar 数据库进行筛选解读，根据 ClinVar 界定的致病或疑似致病变异进行分级。此项目不会检测疾病所有相关的基因变异，因为随着科学的进步，在未来会有更多相关基因变异被发现。本项服务会根据未来出现的新数据而为您更新解读。<br/><br/>
+2. 此项服务是风险评估检测。分析结果中具有较高风险的人不一定必然得病，分析结果风险相对较低的人也仍存在患病可能。风险评估检测不是确定的诊断检测。不能使用本报告进行疾病的诊断或治疗。<br/><br/>
+3. 报告中给出的风险评估，需要结合家族史、个人健康状况等信息，由遗传解读师与医生，共同给出针对您个人的综合建议。<br/><br/>
 4. 本服务提供本公司签约的临床医生咨询，根据基因检测结果，给出对您个人有指导意义的建议。本公司的签约医生均经过本公司的相关基因知识的培训，每个案例均经过本公司签约遗传解读师与签约医生进行讨论。无法保证非本公司签约的医生能够对本报告正确解读。
 ]]>
         </paragraph>
     </page>
-<!--    <page z_order="103003" catalog="10000 -1 5" page_header="true" page_number="true" type="appendix">
-        &lt;!&ndash; page header &ndash;&gt;
-        <template z_order="1" name="page_header" condition="3">
-            <value id="detailJiBingXiaoBiaoTi" value="幸福基石服务介绍"/>
-            <value id="detailJiBing" value=""/>
-        </template>
 
-        <image z_order="1" id="member" type="PNG" fit="a" x="68" y="59" height="636.579" width="459" url="./images/happy_gene_introduction1.png"/>
-    </page>-->
+    <!--******************************************************************************************-->
+    <!--******************************************  尾页  *****************************************-->
+    <!--*******************************************************************************************-->
+    <page z_order="2100000000" type="back_cover">
+        <image z_order="0" id="logo" type="JPG" fit="a" x="265" y="475" height="67" width="69" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/logo_square.png"/>
+        <text  z_order="0" line_leading="" h_alignment="C" v_alignment="C" font="fzltxh_gbk" font_size="13" color="#404040" x="0" y="442" width="595" value="基因科技，让人类更美更健康"/>
 
-    <page z_order="103004" type="back_cover">
-        <image z_order="0" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="./images/backcover.jpg"/>
-        <image z_order="1" id="member" type="JPG" fit="a" x="90" y="80" height="60" width="60" url="./images/qrcode.jpg"/>
-        <text line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#ffffff" x="155" y="80" width="459" value="">
-        <![CDATA[
-        <style bold="true">公司: </style>北京幸福基石科技有限公司<br/>
-        <style bold="true">地址: </style>北京东四环中路 56 号远洋国际中心 A 座 7 层<br/>
-        <style bold="true">电话: </style>400-066-9816<br/>
-        <style bold="true"></style>www.happy-gene.com<br/>
-        ]]>
+        <image z_order="1" id="code" type="JPG" fit="a" x="70" y="78" height="77" width="77" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/code_back_cover.png"/>
+        <text  z_order="1" line_leading="1.6" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" x="170" y="78" width="300" value="">
+        <![CDATA[<style bold="true">美因健康科技（北京）有限公司</style><br/>
+客服电话: 400-008-0280<br/>
+公司地址: 北京市海淀区花园北路健康智谷 401<br/>
+www.megagenomics.cn<br/>
+]]>
         </text>
     </page>
 

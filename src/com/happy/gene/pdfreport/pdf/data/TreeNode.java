@@ -100,6 +100,9 @@ public class TreeNode implements IXml<TreeNode> {
                 def.group = value;
                 continue;
             }
+            if ("value".equalsIgnoreCase(name) && (null==value || value.trim().isEmpty())) {
+                value = element.getTextTrim();
+            }
             def.setProperties(name, value);
         }
 
