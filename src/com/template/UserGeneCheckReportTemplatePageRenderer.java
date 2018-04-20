@@ -55,7 +55,8 @@ public class UserGeneCheckReportTemplatePageRenderer implements IPageDefRenderer
         PdfPage page = pdf.getPdfDocument().getLastPage();
         int currentPageNumberInDoc= pdf.getPdfDocument().getPageNumber(page);
         int pageStartNumberInDoc  = pageDef.getPageStartNumberInPdf();
-        if (currentPageNumberInDoc!=pageStartNumberInDoc && pageDef.getBooleanProperty("page_header")) {
+        boolean paintHeader = pageDef.getBooleanProperty("page_header_first") || currentPageNumberInDoc!=pageStartNumberInDoc;
+        if (paintHeader && pageDef.getBooleanProperty("page_header")) {
             XmlDataCache xmlDataCache = XmlDataCache.getInstance();
             AbsolutePositionTemplateDef pageNumberTemplate = xmlDataCache.getTemplate("page_header");
             List<AbstractDef> components = pageNumberTemplate.getComponents(((currentPageNumberInDoc+1)%2) + "");

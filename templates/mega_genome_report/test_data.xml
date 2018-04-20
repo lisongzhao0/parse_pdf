@@ -134,11 +134,330 @@
         </tree_node>
 
 
+        <table id="CarrierDiseasesList">
+            <headers>
+                <header column="0" value="疾病名称"/>
+                <header column="1" value="致病基因"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="疾病名称-0"/>
+                <cell row="1"  column="0" value="疾病名称-1"/>
+                <cell row="2"  column="0" value="疾病名称-2"/>
+                <cell row="3"  column="0" value="疾病名称-3"/>
+                <cell row="4"  column="0" value="疾病名称-4"/>
+                <cell row="5"  column="0" value="疾病名称-5"/>
+                <cell row="6"  column="0" value="疾病名称-6"/>
+                <cell row="7"  column="0" value="疾病名称-7"/>
+                <cell row="8"  column="0" value="疾病名称-8"/>
+                <cell row="9"  column="0" value="疾病名称-9"/>
+                <cell row="10" column="0" value="疾病名称-10"/>
+                <cell row="11" column="0" value="疾病名称-11"/>
+                <cell row="12" column="0" value="疾病名称-12"/>
+                <cell row="13" column="0" value="疾病名称-13"/>
+                <cell row="14" column="0" value="疾病名称-14"/>
+                <cell row="15" column="0" value="疾病名称-15"/>
+                <cell row="16" column="0" value="疾病名称-16"/>
+                <cell row="17" column="0" value="疾病名称-17"/>
+                <cell row="18" column="0" value="疾病名称-18"/>
+                <cell row="19" column="0" value="疾病名称-19"/>
+                <cell row="20" column="0" value="疾病名称-20"/>
+                <cell row="21" column="0" value="疾病名称-21"/>
+                <cell row="22" column="0" value="疾病名称-22"/>
+                <cell row="23" column="0" value="疾病名称-23"/>
+                <cell row="24" column="0" value="疾病名称-24"/>
+                <cell row="25" column="0" value="疾病名称-25"/>
+                <cell row="26" column="0" value="疾病名称-26"/>
+                <cell row="27" column="0" value="疾病名称-27"/>
+                <cell row="28" column="0" value="疾病名称-28"/>
+                <cell row="29" column="0" value="疾病名称-29"/>
+                <cell row="30" column="0" value="疾病名称-30"/>
+                <cell row="31" column="0" value="疾病名称-31"/>
+                <cell row="32" column="0" value="疾病名称-32"/>
+                <cell row="33" column="0" value="疾病名称-33"/>
+                <cell row="34" column="0" value="疾病名称-34"/>
+                <cell row="35" column="0" value="疾病名称-35"/>
+                <cell row="36" column="0" value="疾病名称-36"/>
+                <cell row="37" column="0" value="疾病名称-37"/>
+                <cell row="38" column="0" value="疾病名称-38"/>
+                <cell row="39" column="0" value="疾病名称-39"/>
+                <cell row="40" column="0" value="疾病名称-40"/>
+                <cell row="41" column="0" value="疾病名称-41"/>
+                <cell row="42" column="0" value="疾病名称-42"/>
+                <cell row="43" column="0" value="疾病名称-43"/>
+                <cell row="44" column="0" value="疾病名称-44"/>
+                <cell row="45" column="0" value="疾病名称-45"/>
+                <cell row="46" column="0" value="疾病名称-46"/>
+                <cell row="47" column="0" value="疾病名称-47"/>
+                <cell row="48" column="0" value="疾病名称-48"/>
+                <cell row="49" column="0" value="疾病名称-49"/>
+                <cell row="50" column="0" value="疾病名称-50"/>
+                <cell row="51" column="0" value="疾病名称-51"/>
+                <cell row="52" column="0" value="疾病名称-52"/>
+                <cell row="53" column="0" value="疾病名称-53"/>
+                <cell row="54" column="0" value="疾病名称-54"/>
+                <cell row="55" column="0" value="疾病名称-55"/>
+                <cell row="56" column="0" value="疾病名称-56"/>
+                <cell row="57" column="0" value="疾病名称-57"/>
+                <cell row="58" column="0" value="疾病名称-58"/>
+                <cell row="59" column="0" value="疾病名称-59"/>
+
+                <cell row="0"  column="1" value="FAT-0"/>
+                <cell row="1"  column="1" value="FAT-1"/>
+                <cell row="2"  column="1" value="FAT-2"/>
+                <cell row="3"  column="1" value="FAT-3"/>
+                <cell row="4"  column="1" value="FAT-4"/>
+                <cell row="5"  column="1" value="FAT-5"/>
+                <cell row="6"  column="1" value="FAT-6"/>
+                <cell row="7"  column="1" value="FAT-7"/>
+                <cell row="8"  column="1" value="FAT-8"/>
+                <cell row="9"  column="1" value="FAT-9"/>
+                <cell row="10" column="1" value="FAT-10"/>
+                <cell row="11" column="1" value="FAT-11"/>
+                <cell row="12" column="1" value="FAT-12"/>
+                <cell row="13" column="1" value="FAT-13"/>
+                <cell row="14" column="1" value="FAT-14"/>
+                <cell row="15" column="1" value="FAT-15"/>
+                <cell row="16" column="1" value="FAT-16"/>
+                <cell row="17" column="1" value="FAT-17"/>
+                <cell row="18" column="1" value="FAT-18"/>
+                <cell row="19" column="1" value="FAT-19"/>
+                <cell row="20" column="1" value="FAT-20"/>
+                <cell row="21" column="1" value="FAT-21"/>
+                <cell row="22" column="1" value="FAT-22"/>
+                <cell row="23" column="1" value="FAT-23"/>
+                <cell row="24" column="1" value="FAT-24"/>
+                <cell row="25" column="1" value="FAT-25"/>
+                <cell row="26" column="1" value="FAT-26"/>
+                <cell row="27" column="1" value="FAT-27"/>
+                <cell row="28" column="1" value="FAT-28"/>
+                <cell row="29" column="1" value="FAT-29"/>
+                <cell row="30" column="1" value="FAT-30"/>
+                <cell row="31" column="1" value="FAT-31"/>
+                <cell row="32" column="1" value="FAT-32"/>
+                <cell row="33" column="1" value="FAT-33"/>
+                <cell row="34" column="1" value="FAT-34"/>
+                <cell row="35" column="1" value="FAT-35"/>
+                <cell row="36" column="1" value="FAT-36"/>
+                <cell row="37" column="1" value="FAT-37"/>
+                <cell row="38" column="1" value="FAT-38"/>
+                <cell row="39" column="1" value="FAT-39"/>
+                <cell row="40" column="1" value="FAT-40"/>
+                <cell row="41" column="1" value="FAT-41"/>
+                <cell row="42" column="1" value="FAT-42"/>
+                <cell row="43" column="1" value="FAT-43"/>
+                <cell row="44" column="1" value="FAT-44"/>
+                <cell row="45" column="1" value="FAT-45"/>
+                <cell row="46" column="1" value="FAT-46"/>
+                <cell row="47" column="1" value="FAT-47"/>
+                <cell row="48" column="1" value="FAT-48"/>
+                <cell row="49" column="1" value="FAT-49"/>
+                <cell row="50" column="1" value="FAT-50"/>
+                <cell row="51" column="1" value="FAT-51"/>
+                <cell row="52" column="1" value="FAT-52"/>
+                <cell row="53" column="1" value="FAT-53"/>
+                <cell row="54" column="1" value="FAT-54"/>
+                <cell row="55" column="1" value="FAT-55"/>
+                <cell row="56" column="1" value="FAT-56"/>
+                <cell row="57" column="1" value="FAT-57"/>
+                <cell row="58" column="1" value="FAT-58"/>
+                <cell row="59" column="1" value="FAT-59"/>
+            </rows>
+        </table>
 
 
 
 
+        <table id="ACMGDiseasesList">
+            <headers>
+                <header column="0" value="疾病名称"/>
+                <header column="1" value="致病基因"/>
+                <header column="2" value="分类"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="疾病名称-0"/>
+                <cell row="1"  column="0" value="疾病名称-1"/>
+                <cell row="2"  column="0" value="疾病名称-2"/>
+                <cell row="3"  column="0" value="疾病名称-3"/>
+                <cell row="4"  column="0" value="疾病名称-4"/>
+                <cell row="5"  column="0" value="疾病名称-5"/>
+                <cell row="6"  column="0" value="疾病名称-6"/>
+                <cell row="7"  column="0" value="疾病名称-7"/>
+                <cell row="8"  column="0" value="疾病名称-8"/>
+                <cell row="9"  column="0" value="疾病名称-9"/>
+                <cell row="10" column="0" value="疾病名称-10"/>
+                <cell row="11" column="0" value="疾病名称-11"/>
+                <cell row="12" column="0" value="疾病名称-12"/>
+                <cell row="13" column="0" value="疾病名称-13"/>
+                <cell row="14" column="0" value="疾病名称-14"/>
+                <cell row="15" column="0" value="疾病名称-15"/>
+                <cell row="16" column="0" value="疾病名称-16"/>
+                <cell row="17" column="0" value="疾病名称-17"/>
+                <cell row="18" column="0" value="疾病名称-18"/>
+                <cell row="19" column="0" value="疾病名称-19"/>
+                <cell row="20" column="0" value="疾病名称-20"/>
+                <cell row="21" column="0" value="疾病名称-21"/>
+                <cell row="22" column="0" value="疾病名称-22"/>
+                <cell row="23" column="0" value="疾病名称-23"/>
+                <cell row="24" column="0" value="疾病名称-24"/>
+                <cell row="25" column="0" value="疾病名称-25"/>
+                <cell row="26" column="0" value="疾病名称-26"/>
+                <cell row="27" column="0" value="疾病名称-27"/>
+                <cell row="28" column="0" value="疾病名称-28"/>
+                <cell row="29" column="0" value="疾病名称-29"/>
+                <cell row="30" column="0" value="疾病名称-30"/>
+                <cell row="31" column="0" value="疾病名称-31"/>
+                <cell row="32" column="0" value="疾病名称-32"/>
+                <cell row="33" column="0" value="疾病名称-33"/>
+                <cell row="34" column="0" value="疾病名称-34"/>
+                <cell row="35" column="0" value="疾病名称-35"/>
+                <cell row="36" column="0" value="疾病名称-36"/>
+                <cell row="37" column="0" value="疾病名称-37"/>
+                <cell row="38" column="0" value="疾病名称-38"/>
+                <cell row="39" column="0" value="疾病名称-39"/>
+                <cell row="40" column="0" value="疾病名称-40"/>
+                <cell row="41" column="0" value="疾病名称-41"/>
+                <cell row="42" column="0" value="疾病名称-42"/>
+                <cell row="43" column="0" value="疾病名称-43"/>
+                <cell row="44" column="0" value="疾病名称-44"/>
+                <cell row="45" column="0" value="疾病名称-45"/>
+                <cell row="46" column="0" value="疾病名称-46"/>
+                <cell row="47" column="0" value="疾病名称-47"/>
+                <cell row="48" column="0" value="疾病名称-48"/>
+                <cell row="49" column="0" value="疾病名称-49"/>
+                <cell row="50" column="0" value="疾病名称-50"/>
+                <cell row="51" column="0" value="疾病名称-51"/>
+                <cell row="52" column="0" value="疾病名称-52"/>
+                <cell row="53" column="0" value="疾病名称-53"/>
+                <cell row="54" column="0" value="疾病名称-54"/>
+                <cell row="55" column="0" value="疾病名称-55"/>
+                <cell row="56" column="0" value="疾病名称-56"/>
+                <cell row="57" column="0" value="疾病名称-57"/>
+                <cell row="58" column="0" value="疾病名称-58"/>
+                <cell row="59" column="0" value="疾病名称-59"/>
 
+                <cell row="0"  column="1" value="FAT-0"/>
+                <cell row="1"  column="1" value="FAT-1"/>
+                <cell row="2"  column="1" value="FAT-2"/>
+                <cell row="3"  column="1" value="FAT-3"/>
+                <cell row="4"  column="1" value="FAT-4"/>
+                <cell row="5"  column="1" value="FAT-5"/>
+                <cell row="6"  column="1" value="FAT-6"/>
+                <cell row="7"  column="1" value="FAT-7"/>
+                <cell row="8"  column="1" value="FAT-8"/>
+                <cell row="9"  column="1" value="FAT-9"/>
+                <cell row="10" column="1" value="FAT-10"/>
+                <cell row="11" column="1" value="FAT-11"/>
+                <cell row="12" column="1" value="FAT-12"/>
+                <cell row="13" column="1" value="FAT-13"/>
+                <cell row="14" column="1" value="FAT-14"/>
+                <cell row="15" column="1" value="FAT-15"/>
+                <cell row="16" column="1" value="FAT-16"/>
+                <cell row="17" column="1" value="FAT-17"/>
+                <cell row="18" column="1" value="FAT-18"/>
+                <cell row="19" column="1" value="FAT-19"/>
+                <cell row="20" column="1" value="FAT-20"/>
+                <cell row="21" column="1" value="FAT-21"/>
+                <cell row="22" column="1" value="FAT-22"/>
+                <cell row="23" column="1" value="FAT-23"/>
+                <cell row="24" column="1" value="FAT-24"/>
+                <cell row="25" column="1" value="FAT-25"/>
+                <cell row="26" column="1" value="FAT-26"/>
+                <cell row="27" column="1" value="FAT-27"/>
+                <cell row="28" column="1" value="FAT-28"/>
+                <cell row="29" column="1" value="FAT-29"/>
+                <cell row="30" column="1" value="FAT-30"/>
+                <cell row="31" column="1" value="FAT-31"/>
+                <cell row="32" column="1" value="FAT-32"/>
+                <cell row="33" column="1" value="FAT-33"/>
+                <cell row="34" column="1" value="FAT-34"/>
+                <cell row="35" column="1" value="FAT-35"/>
+                <cell row="36" column="1" value="FAT-36"/>
+                <cell row="37" column="1" value="FAT-37"/>
+                <cell row="38" column="1" value="FAT-38"/>
+                <cell row="39" column="1" value="FAT-39"/>
+                <cell row="40" column="1" value="FAT-40"/>
+                <cell row="41" column="1" value="FAT-41"/>
+                <cell row="42" column="1" value="FAT-42"/>
+                <cell row="43" column="1" value="FAT-43"/>
+                <cell row="44" column="1" value="FAT-44"/>
+                <cell row="45" column="1" value="FAT-45"/>
+                <cell row="46" column="1" value="FAT-46"/>
+                <cell row="47" column="1" value="FAT-47"/>
+                <cell row="48" column="1" value="FAT-48"/>
+                <cell row="49" column="1" value="FAT-49"/>
+                <cell row="50" column="1" value="FAT-50"/>
+                <cell row="51" column="1" value="FAT-51"/>
+                <cell row="52" column="1" value="FAT-52"/>
+                <cell row="53" column="1" value="FAT-53"/>
+                <cell row="54" column="1" value="FAT-54"/>
+                <cell row="55" column="1" value="FAT-55"/>
+                <cell row="56" column="1" value="FAT-56"/>
+                <cell row="57" column="1" value="FAT-57"/>
+                <cell row="58" column="1" value="FAT-58"/>
+                <cell row="59" column="1" value="FAT-59"/>
+
+                <cell row="0"  column="2" value="相关疾病-0"/>
+                <cell row="1"  column="2" value="相关疾病-1"/>
+                <cell row="2"  column="2" value="相关疾病-2"/>
+                <cell row="3"  column="2" value="相关疾病-3"/>
+                <cell row="4"  column="2" value="相关疾病-4"/>
+                <cell row="5"  column="2" value="相关疾病-5"/>
+                <cell row="6"  column="2" value="相关疾病-6"/>
+                <cell row="7"  column="2" value="相关疾病-7"/>
+                <cell row="8"  column="2" value="相关疾病-8"/>
+                <cell row="9"  column="2" value="相关疾病-9"/>
+                <cell row="10" column="2" value="相关疾病-10"/>
+                <cell row="11" column="2" value="相关疾病-11"/>
+                <cell row="12" column="2" value="相关疾病-12"/>
+                <cell row="13" column="2" value="相关疾病-13"/>
+                <cell row="14" column="2" value="相关疾病-14"/>
+                <cell row="15" column="2" value="相关疾病-15"/>
+                <cell row="16" column="2" value="相关疾病-16"/>
+                <cell row="17" column="2" value="相关疾病-17"/>
+                <cell row="18" column="2" value="相关疾病-18"/>
+                <cell row="19" column="2" value="相关疾病-19"/>
+                <cell row="20" column="2" value="相关疾病-20"/>
+                <cell row="21" column="2" value="相关疾病-21"/>
+                <cell row="22" column="2" value="相关疾病-22"/>
+                <cell row="23" column="2" value="相关疾病-23"/>
+                <cell row="24" column="2" value="相关疾病-24"/>
+                <cell row="25" column="2" value="相关疾病-25"/>
+                <cell row="26" column="2" value="相关疾病-26"/>
+                <cell row="27" column="2" value="相关疾病-27"/>
+                <cell row="28" column="2" value="相关疾病-28"/>
+                <cell row="29" column="2" value="相关疾病-29"/>
+                <cell row="30" column="2" value="相关疾病-30"/>
+                <cell row="31" column="2" value="相关疾病-31"/>
+                <cell row="32" column="2" value="相关疾病-32"/>
+                <cell row="33" column="2" value="相关疾病-33"/>
+                <cell row="34" column="2" value="相关疾病-34"/>
+                <cell row="35" column="2" value="相关疾病-35"/>
+                <cell row="36" column="2" value="相关疾病-36"/>
+                <cell row="37" column="2" value="相关疾病-37"/>
+                <cell row="38" column="2" value="相关疾病-38"/>
+                <cell row="39" column="2" value="相关疾病-39"/>
+                <cell row="40" column="2" value="相关疾病-40"/>
+                <cell row="41" column="2" value="相关疾病-41"/>
+                <cell row="42" column="2" value="相关疾病-42"/>
+                <cell row="43" column="2" value="相关疾病-43"/>
+                <cell row="44" column="2" value="相关疾病-44"/>
+                <cell row="45" column="2" value="相关疾病-45"/>
+                <cell row="46" column="2" value="相关疾病-46"/>
+                <cell row="47" column="2" value="相关疾病-47"/>
+                <cell row="48" column="2" value="相关疾病-48"/>
+                <cell row="49" column="2" value="相关疾病-49"/>
+                <cell row="50" column="2" value="相关疾病-50"/>
+                <cell row="51" column="2" value="相关疾病-51"/>
+                <cell row="52" column="2" value="相关疾病-52"/>
+                <cell row="53" column="2" value="相关疾病-53"/>
+                <cell row="54" column="2" value="相关疾病-54"/>
+                <cell row="55" column="2" value="相关疾病-55"/>
+                <cell row="56" column="2" value="相关疾病-56"/>
+                <cell row="57" column="2" value="相关疾病-57"/>
+                <cell row="58" column="2" value="相关疾病-58"/>
+                <cell row="59" column="2" value="相关疾病-59"/>
+            </rows>
+        </table>
 
 
         <parameter id="gaiShuZhiBingJiYinJianShu" value="">
@@ -156,19 +475,19 @@
 <style font="fzlthjw" font_size="12" font_color="#738c34" bold="true">结直肠癌。</style> <br/>
 <style font_size="12">请参考如下建议：</style><br/>
 (参见结直肠癌的健康管理措施)<br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">注意饮食</style><br/>
+<style font="fzltchjw" font_size="14" font_color="$mainColor">注意饮食</style><br/>
 少吃脂肪，多吃富含膳食纤维的饮食。（剑桥大学的研究表明，高纤维饮食能有效减低患上致命癌症的危险几率达 40%，特别是结肠癌及直肠癌。）<br/>
 · 膳食纤维主要来自天然的蔬菜、水果、谷类及豆类。蔬菜中的十字花科蔬菜（包括花椰菜、芥菜、白菜等）。<br/>
 · 黄色和绿色蔬果，以及洋葱、苹果皮等食物中，含有丰富类黄酮素，多吃也有助于预防癌症。<br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">戒烟</style><br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">坚持规律锻炼</style><br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">定期筛查</style><br/>
+<style font="fzltchjw" font_size="14" font_color="$mainColor">戒烟</style><br/><br/>
+<style font="fzltchjw" font_size="14" font_color="$mainColor">坚持规律锻炼</style><br/><br/>
+<style font="fzltchjw" font_size="14" font_color="$mainColor">定期筛查</style><br/>
 美国癌症协会建议，从 50 岁开始，所有人都应该选择以下 5 种筛查方案中的一种执行，如果筛查结果为阳性，则需要做结肠镜检查。<br/>
 · 每年进行粪便潜血试验（FOBT） 或者是粪便免疫化学试验（FIT）;<br/>
 · 每五年乙状结肠镜检查，时间灵活;<br/>
 · 每年（FOBT）或（FIT），加上每五年一次时间灵活的乙状结肠镜检查; · 每五年结肠双对比造影;<br/>
 · 每十年结肠镜检查。<br/><br/>
-<style font="fzltchjw" font_size="14" font_color="#607b3f">高危人群</style><br/>
+<style font="fzltchjw" font_size="14" font_color="$mainColor">高危人群</style><br/>
 有炎症性肠道疾病或有结肠癌家族史的人群应该尽早就医，遵医嘱进行相关检查并随诊。<br/><br/>
 <style font_size="11" font_color="#738c34" bold="true">经幸福基石的特约医生对您进行包括个人健康状况、家族史等全面评估后，会给出更具体建议，请遵照医生咨询后的建议。</style>
 ]]>
@@ -254,54 +573,54 @@
 <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
 长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
 城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">危害因素</style><br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
 目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
 肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
 · 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
 · 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
 · 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
 · 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
 肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
  如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
 · 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
  · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
 发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
-<style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
-<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
-<style font_color="#607b3f" font_size="5">______________________________________________________________________________</style> <br/><br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">高危人群</style> <br/>
+<style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="$mainColor" font_size="14">如何预防</style> <br/>
+<style font_color="$mainColor" font_size="5">______________________________________________________________________________</style> <br/><br/>
 肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
 烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
 包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
  修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
 大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
  重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
 特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
 重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
 不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
 增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
  既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
             </parameter>
             <parameter id="detailCanKaoWenXian" value="">
@@ -596,39 +915,39 @@
                     <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
 
                     <cell row="0"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="1"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="2"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="3"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="4"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="5"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="6"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="7"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="8"   column="1" value="">
-    <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                 </rows>
@@ -656,54 +975,54 @@
                 <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
 长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
 城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">危害因素</style><br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
 目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
 肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
 · 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
 · 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
 · 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
 · 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
 肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
  如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
 · 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
  · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
 发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
-<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">高危人群</style> <br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="$mainColor" font_size="14">如何预防</style> <br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
 肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
 烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
 包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
  修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
 大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
  重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
 特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
 重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
 不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
 增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
  既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
             </parameter>
             <parameter id="detailCanKaoWenXian" value="">
@@ -998,39 +1317,39 @@
                     <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
 
                     <cell row="0"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="1"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="2"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="3"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="4"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="5"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="6"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="7"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="8"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                 </rows>
@@ -1058,54 +1377,54 @@
                 <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
 长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
 城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">危害因素</style><br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
 目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
 肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
 · 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
 · 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
 · 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
 · 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
 肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
  如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
 · 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
  · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
 发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
-<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">高危人群</style> <br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="$mainColor" font_size="14">如何预防</style> <br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
 肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
 烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
 包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
  修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
 大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
  重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
 特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
 重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
 不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
 增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
  既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
             </parameter>
             <parameter id="detailCanKaoWenXian" value="">
@@ -1400,39 +1719,39 @@
                     <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
 
                     <cell row="0"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="1"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="2"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="3"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="4"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="5"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="6"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="7"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="8"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                 </rows>
@@ -1460,54 +1779,54 @@
                 <![CDATA[肺癌是发病率和死亡率增长最快，对人群健康和生命威胁最大的恶性肿瘤之一。近年来肺癌的发病率和死亡率均明显增高，男性肺癌发病率和死亡率均占所有恶性肿瘤的第 一位，女性发病率和死亡率占第二位。<br/>
 长期大量吸烟与肺癌的发生有非常密切的关系。已长期大量吸烟者患肺癌的概率是不吸烟者的 10 ~ 20 倍，开始吸烟的年龄越小，患肺癌的几 率越高。被动吸烟者肺癌患病率也明显增加。<br/>
 城市居民肺癌的发病率比农村高，可能与城市大气污染和烟尘中含有致癌物质有关。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">危害因素</style><br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">危害因素</style><br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">吸烟：</style> <br/>
 目前认为吸烟是肺癌的最重要的高危因素。烟草中有超过 3000 种化学物质，其中多链芳香烃类化合物（如：苯并芘）和 亚硝胺均有很强的致癌活性。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">职业和环境接触：</style> <br/>
 肺癌是职业癌中最重要的一种。估约 10% 的肺癌患者有环境和职业接触史。<br/>
 · 现已证明以下9种职业环境致癌物增加肺癌的发生率：铝制品的副产品、砷、石棉、bis-chloromethylether、铬化合物、 焦炭炉、芥子气、含镍的杂质、氯乙烯。<br/> 
 · 长期接触铍、镉、硅、福尔马林等物质也会增加肺癌的发病率。<br/> 
 · 煤气、沥青、炼焦工人肺癌发病率较一般人群为高。<br/> 
 · 空气污染，特别是工业废气均能引发肺癌。<br/> <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">电离辐射：</style> <br/>
 肺脏是对放射线较为敏感的器官。美国曾有报道开采放射性矿石的矿工 70% ~ 80% 死于放射引起的职业性肺癌。日本原子弹爆炸幸存者中患肺癌者显著增加。距爆心距离越近，其死于肺癌者明显增加。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">既往肺部慢性感染：</style><br/>
  如肺结核、支气管扩张症等患者，支气管上皮在慢性感染过程中可能化生为鳞状上皮致使癌变，但较为少见。<br/>  <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">遗传因素：</style> <br/>
 · 遗传因素（家族聚集、遗传易感性）可能在对环境致癌物易感的人群和/或个体中起重要作用。<br/> 
  · 免疫功能降低，代谢、内分泌功能失调等也可能在肺癌的发生中起重要作用。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">大气污染：</style><br/>
 发达国家肺癌的发病率高，主要原因是由于含有苯并芘致癌烃等有害物质污染大气有关。大气污染与吸烟对肺癌的发病率 可能互相促进，起协同作用。<br/><br/>
- <style font="fzltchjw" font_color="#607b3f" font_size="14">高危人群</style> <br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
-<style font="fzltchjw" font_color="#607b3f" font_size="14">如何预防</style> <br/>
- <style font_color="#607b3f" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font="fzltchjw" font_color="$mainColor" font_size="14">高危人群</style> <br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（a）</style>40 岁以上的长期吸烟者（开始吸烟的年龄愈小，吸烟年数愈多，吸烟量愈大，则危险愈大）<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（b）</style>经常接触煤烟或油烟者<br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（c）</style>有过量放射线照射者 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（d）</style>职业上接触无机砷、石棉、铬、镍等的人 <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">（e）</style>慢性肺部疾病患者：如慢性支气管炎、肺结核等 <br/><br/>
+<style font="fzltchjw" font_color="$mainColor" font_size="14">如何预防</style> <br/>
+ <style font_color="$mainColor" font_size="5">______________________________________________________________________________</style><br/><br/>
 肺癌是可以预防的。在生活中注意以下方面，做到有效预防。<br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">远离烟草：</style> <br/>
 烟民在指导下制定戒烟计划。拒绝二手烟污染，特别要警惕三手烟对婴幼儿和青少年的健康危害! <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">室内油烟污染：</style> <br/>
 包括北方地区取暖和烧饭的燃煤污染、城市居民烹调产生的油烟危害，特别是没有科学正确地使用厨房抽油烟机。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">新居乔迁及装修：</style> <br/>
  修材料和漆料一定要选购绿色合格产品，不要使用含氡量高的建筑和装修材料。在装修结束入住以前，要请当地环保部门验收合格后再入住。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">减少大气污染的暴露，远离水污染：</style> <br/>
 大气污染、沉降指数、烟雾指数、苯并芘等暴露剂量与肺癌的发生率成正相关关系。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">避免职业和环境致癌因素：</style> <br/>
  重视职业保护和职业病防治。在主要重工业地区、煤矿和金属矿区、石油和石化地区、核工业基地等地区，每年需进行一次体检或肺癌筛查。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">保持心情愉快：</style> <br/>
 特别是那些长期性格内向、性情孤僻和处于郁闷心情状态的中老年人。要善于同人沟通，苦闷烦躁时尤为重要。症状严重时要及时到心理科医生寻求帮助，必要时接受心理治疗和药物治疗。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">有肺癌家族史的人：</style> <br/>
 重视健康体检和防癌体检，每年定期体检中需要加做防癌检查项目，如进行胸部 CT 扫描检查等。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">健康的生活方式：</style> <br/>
 不吸烟，不酗酒，注意规律饮食和睡眠，加强身体锻炼。 <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">科学饮食：</style> <br/>
 增加饮食中蔬菜、水果等可以预防肺癌。  <br/><br/>
- <style font_color="#607b3f" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
+ <style font_color="$mainColor" font_size="12" bold="true" line_leading="4">重视癌前病变的治疗：</style> <br/>
  既往有肺结核、肺部炎症病史者要定期到专科医院就诊和规范治疗。<br/>]]>
             </parameter>
             <parameter id="detailCanKaoWenXian" value="">
@@ -1802,43 +2121,2048 @@
                     <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
 
                     <cell row="0"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="1"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="2"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="3"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="4"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="5"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="6"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="7"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                     <cell row="8"   column="1" value="">
-                        <![CDATA[<style font_color="#607b3f" font_size="14" bold="true">减肥：</style> <br/> <br/>
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
                 </rows>
             </table>
+        </group>
+
+
+
+
+        <parameter id="yourTumorsCount" value="20"/>
+        <table id="tumorsRiskValueTable">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="基底细胞癌"/>
+                <cell row="1"  column="0" value="哮喘"/>
+                <cell row="2"  column="0" value="甲状腺机能亢进"/>
+                <cell row="3"  column="0" value="强直性脊柱炎"/>
+                <cell row="4"  column="0" value="甲状腺机能减退"/>
+                <cell row="5"  column="0" value="过敏性鼻炎"/>
+                <cell row="6"  column="0" value="类风湿性关节炎"/>
+                <cell row="7"  column="0" value="原发性胆汁性肝硬化"/>
+                <cell row="8"  column="0" value="系统性红斑狼疮"/>
+                <cell row="9"  column="0" value="克罗恩氏病"/>
+
+                <cell row="0"  column="1" value="9.44"/>
+                <cell row="1"  column="1" value="1.83"/>
+                <cell row="2"  column="1" value="1.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+                <cell row="4"  column="1" value="1.12"/>
+                <cell row="5"  column="1" value="0.86"/>
+                <cell row="6"  column="1" value="0.61"/>
+                <cell row="7"  column="1" value="0.55"/>
+                <cell row="8"  column="1" value="0.3"/>
+                <cell row="9"  column="1" value="0.2"/>
+
+                <cell row="0"  column="2" value="9.44"/>
+                <cell row="1"  column="2" value="1.83"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+                <cell row="4"  column="2" value="1.12"/>
+                <cell row="5"  column="2" value="0.86"/>
+                <cell row="6"  column="2" value="0.61"/>
+                <cell row="7"  column="2" value="0.55"/>
+                <cell row="8"  column="2" value="0.3"/>
+                <cell row="9"  column="2" value="0.2"/>
+            </rows>
+        </table>
+        <group order="30030001" id="catalog_30030001_1" value="3 1" catalog="3 1">
+            <parameter id="diseaseName" value="淋巴瘤"/>
+            <parameter id="diseaseRiskValue" value="1.40"/>
+            <parameter id="diseaseRiskValueDescription" value="与东亚人群相比,您患淋巴瘤的相对风险增加40.27%,是普通人的1.40 倍。"/>
+            <parameter id="cnCrowdAverageIncidenceRate" value="0.0051%"/>
+            <parameter id="yourIncidenceRate" value="0.0071%"/>
+            <parameter id="diseaseSummary" value="">
+                <![CDATA[淋巴瘤是起源于淋巴造血系统的恶性肿瘤，好发于淋巴结。由于淋巴系统的分布特点，使得淋巴瘤属于全身性疾病，几乎可以侵犯到全身任何组织和器官。主要表现为无痛性淋巴结肿大，肝脾肿大，全身各组织器官均可受累，伴发热、盗汗、消瘦、瘙痒等全身症状。<br/>
+淋巴瘤恶性程度相对较低，有效治疗后的 5 年生存率可达 69% ~ 85% 。<br/>据报道，我国各地区淋巴瘤的发病率在各种肿瘤中占第十位。<br/><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='14'>危险因素</style><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>病毒因素：</style><br/>
+EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风险因素<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>化学因素：</style><br/>
+长期接触农业除草剂的人群淋巴瘤发生率高于一般人群<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>放射因素：</style><br/>
+各种电离辐射可以引起人类淋巴瘤。小剂量辐射能否引起淋巴瘤仍不确定。经常接触放射线物质（如钴-60）者淋巴瘤发病率明显增加。大剂量放射线诊断和治疗可使淋巴瘤发生率增高<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>遗传因素：</style><br/>
+淋巴瘤在某些家族中有聚集性，目前已经发现若干与家族性淋巴瘤发生相关的致病基因<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>免疫：</style><br/>
+·<style font_color='#607b3f'>免疫缺陷</style> HIV感染导致的免疫缺陷患者淋巴瘤发病率显著升高<br/>
+·<style font_color='#607b3f'>自身免疫</style> 如类风湿性关节炎、系统性红斑狼疮、皮肌炎、多发性肌炎、干燥综合征等患病者，淋巴瘤的发生率高出正常人群数倍<br/>
+·<style font_color='#607b3f'>免疫抑制</style> 放疗后及长期应用化疗药或免疫抑制剂的病人，包括肿瘤、自身免疫性疾病及器官移植患者，由于细胞免疫被抑制，其淋巴瘤的发生率也明显高于正常人群<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>环境：</style><br/>
+·<style font_color='#607b3f'>射线</style> 从事放射科学工作者的淋巴瘤发生率是正常人群的 5 ～ 10 倍。为诊断目的进行有关的放射线检查（如 X 线摄片及 CT 检查），通常无致淋巴瘤的危险。但妊娠期间应避免进行含放射线的有关检查<br/>
+·<style font_color='#607b3f'>化学物质</style> 农业用除草剂、染发剂已被列为环境致癌剂<br/>
+·<style font_color='#607b3f'>生活方式</style> <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长期吸烟及大量食用红肉与淋巴瘤发生密切相关<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;隆胸会增加胸部淋巴结发生淋巴瘤的风险<br/><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='14'>高危人群</style><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（a）</style>曾受到过辐射（X线或伽马射线）者<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（b）</style>长期接触染发剂，尤其儿童、老年人与怀孕妇女<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（c）</style>长期接触农业除草剂者<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（d）</style>EB病毒，HIV病毒感染患者<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（e）</style>自身免疫病患者<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（f）</style>具有淋巴瘤家族史者<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（g）</style>长期吸烟者<br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（h）</style>隆胸并伴有免疫功能异常者<br/><br/>
+<style font='fzltchjw' font_color='#607b3f' font_size='14'>如何预防</style><br/>
+<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>合理饮食：</style><br/>
+饮食上避免过量红肉摄入，少食油炸肥腻的食物和腌菜以及熏烤的鱼、肉等，多吃新鲜水果蔬菜，不抽烟，少喝酒。水果蔬菜一定要反复清洗，尽量将残留的各种农药洗净<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>坚持锻炼：</style><br/>
+长期、规律的锻炼（如跑步、游泳、气功、打太极拳等）能显著增强人体各脏器的功能，并保持乐观的性格，提高机体免疫力<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>避免接触特殊化学物质：</style><br/>
+染发剂亦可引发淋巴瘤，用时需谨慎<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>远离电磁场、减少接触放射线：</style><br/>
+·从事放射线工作者淋巴瘤发病率均高，故上述人群应特别注意加强个人防护<br/>
+·婴幼儿及孕妇对放射线较敏感，故应减少接触放射线（偶尔的、医疗上的X线检查，基本上不会对身体造成影响）<br/><br/>
+<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>出现淋巴瘤早期信号，应及时检查：</style><br/>
+淋巴瘤早期信号包括：发热、瘙痒、盗汗、消瘦等全身症状；贫血、白细胞计数、血小板增多，血沉增快等血常规异常；红斑、水疱、糜烂等皮肤损伤；浅表及深部淋巴结肿大。一旦出现上述早期信号，尽早就医，做血常规检查
+]]>
+            </parameter>
+            <table id="diseaseRiskGeneTable">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险度"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <parameter id="isPositive" value="true"/>
+            <table id="yourDiseasePrecaution">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+        <parameter id="yourCardiovascularCount" value="12"/>
+        <table id="cardiovascularRiskValueTable">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="高血压"/>
+                <cell row="1"  column="0" value="哮喘"/>
+                <cell row="2"  column="0" value="甲状腺机能亢进"/>
+                <cell row="3"  column="0" value="强直性脊柱炎"/>
+                <cell row="4"  column="0" value="甲状腺机能减退"/>
+                <cell row="5"  column="0" value="过敏性鼻炎"/>
+                <cell row="6"  column="0" value="类风湿性关节炎"/>
+                <cell row="7"  column="0" value="原发性胆汁性肝硬化"/>
+                <cell row="8"  column="0" value="系统性红斑狼疮"/>
+                <cell row="9"  column="0" value="克罗恩氏病"/>
+
+                <cell row="0"  column="1" value="9.44"/>
+                <cell row="1"  column="1" value="1.83"/>
+                <cell row="2"  column="1" value="1.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+                <cell row="4"  column="1" value="1.12"/>
+                <cell row="5"  column="1" value="0.86"/>
+                <cell row="6"  column="1" value="0.61"/>
+                <cell row="7"  column="1" value="0.55"/>
+                <cell row="8"  column="1" value="0.3"/>
+                <cell row="9"  column="1" value="0.2"/>
+
+                <cell row="0"  column="2" value="9.44"/>
+                <cell row="1"  column="2" value="1.83"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+                <cell row="4"  column="2" value="1.12"/>
+                <cell row="5"  column="2" value="0.86"/>
+                <cell row="6"  column="2" value="0.61"/>
+                <cell row="7"  column="2" value="0.55"/>
+                <cell row="8"  column="2" value="0.3"/>
+                <cell row="9"  column="2" value="0.2"/>
+            </rows>
+        </table>
+        <group order="60030001" id="catalog_60030001_1" value="6 1" catalog="6 1">
+            <parameter id="diseaseName" value="高血压"/>
+            <parameter id="diseaseRiskValue" value="1.34"/>
+            <parameter id="diseaseRiskValueDescription" value="与全国人群相比，您患高血压的相对风险增加 21.33%，是普通人的 1.21 倍。"/>
+            <parameter id="cnCrowdAverageIncidenceRate" value="31.20%"/>
+            <parameter id="yourIncidenceRate" value="37.85%"/>
+            <parameter id="diseaseSummary" value="">
+                <![CDATA[高血压是指以体循环动脉血压（收缩压和 / 或舒张压）增高为主要特征（收缩压≥ 140 毫米汞柱，舒张压≥ 90 毫米汞柱）， 可伴有心、脑、肾等器官的功能或器质性损害的临床综合征。高血压是最常见的慢性病，也是心脑血管病最主要的危险因素。在整体人群，血压水平随年龄逐渐升高，以收缩压更为明显，但 50 岁后舒张压呈现下降趋势，脉压也随之加大。<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>主要风险因素概述</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>遗传因素：</style><br/>
+·大约 60% 的半数高血压患者有家族史，目前认为是多基因遗传所致，30% ～ 50% 的高血压患者有遗传背景<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>精神和环境因素：</style><br/>
+·长期的精神紧张、激动、焦虑、受噪声或不良视觉刺激等因素也会引起高血压的发生<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>年龄因素：</style><br/>
+·发病率有随着年龄增长而增高的趋势，40 岁以上者发病率高<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>不良生活方式因素：</style><br/>
+·膳食结构不合理，如过多的钠盐、低钾饮食、大量饮酒、摄入过多的饱和脂肪酸均可使血压升高<br/>
+·吸烟可加速动脉粥样硬化的过程，为高血压的危险因素<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>药物的影响：</style><br/>
+·避孕药、激素、消炎止痛药等均可影响血压<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>肥胖：</style><br/>
+·体重增多意味着脂肪等热量食物摄入过多，脂肪过多可能会引起血压升高<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>其他疾病的影响：</style><br/>
+·糖尿病、睡眠呼吸暂停低通气综合征、甲状腺疾病、肾动脉狭窄、肾脏实质损害、肾上腺占位性病变、嗜铬细胞瘤、其他神经内分泌肿瘤等<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>高危人群</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+·男性大于 45 岁，女性大于 55 岁或绝经后的女性<br/>
+·肥胖（BMI ≥ 28）<br/>
+·早发心血管病家族史<br/>
+·长期酗酒、吸烟、喜高盐饮食或熏制食品和少食新鲜蔬菜者
+]]>
+            </parameter>
+            <table id="diseaseRiskGeneTable">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险度"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <parameter id="isPositive" value="true"/>
+            <table id="yourDiseasePrecaution">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+        <parameter id="yourMetabolicCount" value="12"/>
+        <table id="metabolicRiskValueTable">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="躁郁症"/>
+                <cell row="1"  column="0" value="哮喘"/>
+                <cell row="2"  column="0" value="甲状腺机能亢进"/>
+                <cell row="3"  column="0" value="强直性脊柱炎"/>
+                <cell row="4"  column="0" value="甲状腺机能减退"/>
+                <cell row="5"  column="0" value="过敏性鼻炎"/>
+                <cell row="6"  column="0" value="类风湿性关节炎"/>
+                <cell row="7"  column="0" value="原发性胆汁性肝硬化"/>
+                <cell row="8"  column="0" value="系统性红斑狼疮"/>
+                <cell row="9"  column="0" value="克罗恩氏病"/>
+
+                <cell row="0"  column="1" value="9.44"/>
+                <cell row="1"  column="1" value="1.83"/>
+                <cell row="2"  column="1" value="1.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+                <cell row="4"  column="1" value="1.12"/>
+                <cell row="5"  column="1" value="0.86"/>
+                <cell row="6"  column="1" value="0.61"/>
+                <cell row="7"  column="1" value="0.55"/>
+                <cell row="8"  column="1" value="0.3"/>
+                <cell row="9"  column="1" value="0.2"/>
+
+                <cell row="0"  column="2" value="9.44"/>
+                <cell row="1"  column="2" value="1.83"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+                <cell row="4"  column="2" value="1.12"/>
+                <cell row="5"  column="2" value="0.86"/>
+                <cell row="6"  column="2" value="0.61"/>
+                <cell row="7"  column="2" value="0.55"/>
+                <cell row="8"  column="2" value="0.3"/>
+                <cell row="9"  column="2" value="0.2"/>
+            </rows>
+        </table>
+        <group order="70030001" id="catalog_70030001_1" value="7 1" catalog="7 1">
+            <parameter id="diseaseName" value="骨质疏松"/>
+            <parameter id="diseaseRiskValue" value="0.72"/>
+            <parameter id="diseaseRiskValueDescription" value="与全国人群相比，您患骨质疏松的相对风险降低 26.78%，是普通人的 0.73 倍。"/>
+            <parameter id="cnCrowdAverageIncidenceRate" value="6.90%"/>
+            <parameter id="yourIncidenceRate" value="5.05%"/>
+            <parameter id="diseaseSummary" value="">
+                <![CDATA[骨质疏松是多种原因引起的一组系统性骨病，是以单位体积内骨组织量减少为特点的代谢性骨病变。其特征是骨量下降和骨的微细结构损坏，表现为骨的脆性增加，因而骨折的危险性大为增加，即使是轻微的创伤或无外伤的情况下也容易发生骨折。在多数骨质疏松中，骨组织的减少主要由于骨质吸收增多所致，以骨骼疼痛、易于骨折为特征。该病女性多于男性， 但各年龄时期均可发病，常见于绝经后妇女和老年人，可分为原发性和继发性两类，按发生部位亦可分为局限性或泛发性骨质疏松。<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>主要风险因素概述</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>遗传因素：</style><br/>
+·有骨折或骨质疏松症家族史的患者风险增加，骨折和较低的骨密度的遗传可能性在 25 到 80% 之间，有多种基因都与骨质疏松的发展有关<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>年龄：</style><br/>
+·老年人活动减少，使肌肉强度减弱、机械刺激少、骨量减少<br/>
+·人类骨密度的峰值在 30 岁左右，之后的骨密度将逐渐下降，女性骨量丢失比男性更迅速<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>内分泌：</style><br/>
+·绝经后雌激素缺乏或卵巢切除与骨密度迅速减少相关<br/>
+·雌激素和（或）雄激素缺乏与比例失调可导致钙吸收降低、骨基质生成不足、成骨细胞功能下降等<br/><br/>
+ <style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>营养不足：</style><br/>
+·低钙饮食者易发生骨质疏松<br/>
+·维生素 D 的缺乏可导致骨基质的矿化受损，可出现骨质软化症<br/>
+·长期蛋白质缺乏可造成骨机制蛋白合成不足，导致新骨生成落后，如同时有钙缺乏，骨质疏松则加快出现<br/>
+·缺乏维生素 C 可使骨基质合成减少<br/>
+·缺乏磷，镁，锌，硼，铁，氟，铜，维生素 A，K，E 的摄入<br/><br/>
+ <style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>烟酒：</style><br/>
+·酗酒对骨有直接毒性作用<br/>
+·吸烟能增加肝脏对雌激素的代谢并抑制成骨细胞的活性<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>重金属：</style><br/>
+·镉和铅与骨疾病有着密切的联系，长期接触镉或食用镉污染食物与饮水的人和动物均出现骨软化、骨质疏松和骨痛，尤其是老年人和女性<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>药物影响：</style><br/>
+·部分抗惊厥药能引起治疗相关的维生素 D 缺乏，以及肠道钙的吸收障碍<br/>
+·过度使用包括铝制剂在内的制酸剂，能抑制磷酸盐的吸收以及导致骨矿物质的分解<br/>
+·糖皮质激素、肝素等药物会增加骨的丢失和影响骨的生长<br/><br/>
+ <style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>疾病影响：</style><br/>
+·多发性骨髓瘤的肿瘤细胞产生的细胞因子能激活破骨细胞，加速骨质流失<br/>
+·局部骨质疏松症可在骨折后长期固定骨折肢体发生<br/>
+·严重肝脏疾病、性腺功能减退、风湿类疾病、帕金森病等疾病的并发症<br/>
+·遗传性疾病如成骨不全症等<br/>
+·内分泌疾病如库欣氏综合征、甲状旁腺功能亢进症、甲状腺功能减退、糖尿病 1 型和 2 型、肢端肥大症、肾上腺皮质功能不全等<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>高危人群</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+·有骨质疏松家族史者<br/>
+·绝经后妇女<br/>
+·过于消瘦的人群<br/>
+·怀孕期和哺乳期间的妇女<br/>
+·嗜烟酗酒者<br/>
+·有骨折史者
+]]>
+            </parameter>
+            <table id="diseaseRiskGeneTable">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险度"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <parameter id="isPositive" value="true"/>
+            <table id="yourDiseasePrecaution">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+        <parameter id="yourNeuroDisorderCount" value="12"/>
+        <table id="neuroDisorderRiskValueTable">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="躁郁症"/>
+                <cell row="1"  column="0" value="哮喘"/>
+                <cell row="2"  column="0" value="甲状腺机能亢进"/>
+                <cell row="3"  column="0" value="强直性脊柱炎"/>
+                <cell row="4"  column="0" value="甲状腺机能减退"/>
+                <cell row="5"  column="0" value="过敏性鼻炎"/>
+                <cell row="6"  column="0" value="类风湿性关节炎"/>
+                <cell row="7"  column="0" value="原发性胆汁性肝硬化"/>
+                <cell row="8"  column="0" value="系统性红斑狼疮"/>
+                <cell row="9"  column="0" value="克罗恩氏病"/>
+
+                <cell row="0"  column="1" value="9.44"/>
+                <cell row="1"  column="1" value="1.83"/>
+                <cell row="2"  column="1" value="1.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+                <cell row="4"  column="1" value="1.12"/>
+                <cell row="5"  column="1" value="0.86"/>
+                <cell row="6"  column="1" value="0.61"/>
+                <cell row="7"  column="1" value="0.55"/>
+                <cell row="8"  column="1" value="0.3"/>
+                <cell row="9"  column="1" value="0.2"/>
+
+                <cell row="0"  column="2" value="9.44"/>
+                <cell row="1"  column="2" value="1.83"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+                <cell row="4"  column="2" value="1.12"/>
+                <cell row="5"  column="2" value="0.86"/>
+                <cell row="6"  column="2" value="0.61"/>
+                <cell row="7"  column="2" value="0.55"/>
+                <cell row="8"  column="2" value="0.3"/>
+                <cell row="9"  column="2" value="0.2"/>
+            </rows>
+        </table>
+        <group order="80030001" id="catalog_80030001_1" value="8 1" catalog="8 1">
+            <parameter id="diseaseName" value="精神分裂"/>
+            <parameter id="diseaseRiskValue" value="0.51"/>
+            <parameter id="diseaseRiskValueDescription" value="与东亚人群相比，您患精神分裂症的相对风险降低 49.22%，是普通人的 0.51 倍。"/>
+            <parameter id="cnCrowdAverageIncidenceRate" value="0.53%"/>
+            <parameter id="yourIncidenceRate" value="0.27%"/>
+            <parameter id="diseaseSummary" value="">
+                <![CDATA[精神分裂症是一组病因未明的重性精神病，多在青壮年缓慢或亚急性起病，临床上往往表现为症状各异的综合征，涉及感知、思维、情感和意志行为等多方面的障碍以及精神活动之间的完整性出现不协调。患者一般意识清楚，智能基本正常，但部 分患者在疾病过程中会出现认知功能的损害，出现幻听、错觉等。病程一般迁延，呈反复发作、加重或恶化，部分患者最 终出现衰退和精神残疾，但有的患者经过治疗后可保持痊愈或基本痊愈状态。精神分裂症患者常有额外的心理健康问题， 如焦虑、抑郁、或物质使用障碍。<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>危险因素</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>遗传：</style><br/>
+·群体遗传学研究结果证明，精神分裂症属于多基因遗传的复杂性疾病，其遗传度为 60% ～ 80%。最早的家系研究发现， 精神分裂症患者亲属罹患该病的概率高于一般居民数倍，患病率随血缘关系的密切程度而增加；先证者病情越重，亲属患 病概率越高。<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>胎儿时期：</style><br/>
+·母亲的压力和感染已被证明通过促炎性蛋白如 IL-8、TNF-α 改变胎儿的神经发育，造成的神经发育障碍<br/>
+·正常胚胎和胎儿发育中的生理缺氧，或病理性缺氧或缺血<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>高危人群</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+·有精神分裂家族史者
+]]>
+            </parameter>
+            <table id="diseaseRiskGeneTable">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险度"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <parameter id="isPositive" value="true"/>
+            <table id="yourDiseasePrecaution">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+
+        <parameter id="yourAutoimmuneCount" value="12"/>
+        <table id="autoimmuneRiskValueTable">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="银屑病"/>
+                <cell row="1"  column="0" value="哮喘"/>
+                <cell row="2"  column="0" value="甲状腺机能亢进"/>
+                <cell row="3"  column="0" value="强直性脊柱炎"/>
+                <cell row="4"  column="0" value="甲状腺机能减退"/>
+                <cell row="5"  column="0" value="过敏性鼻炎"/>
+                <cell row="6"  column="0" value="类风湿性关节炎"/>
+                <cell row="7"  column="0" value="原发性胆汁性肝硬化"/>
+                <cell row="8"  column="0" value="系统性红斑狼疮"/>
+                <cell row="9"  column="0" value="克罗恩氏病"/>
+
+                <cell row="0"  column="1" value="9.44"/>
+                <cell row="1"  column="1" value="1.83"/>
+                <cell row="2"  column="1" value="1.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+                <cell row="4"  column="1" value="1.12"/>
+                <cell row="5"  column="1" value="0.86"/>
+                <cell row="6"  column="1" value="0.61"/>
+                <cell row="7"  column="1" value="0.55"/>
+                <cell row="8"  column="1" value="0.3"/>
+                <cell row="9"  column="1" value="0.2"/>
+
+                <cell row="0"  column="2" value="9.44"/>
+                <cell row="1"  column="2" value="1.83"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+                <cell row="4"  column="2" value="1.12"/>
+                <cell row="5"  column="2" value="0.86"/>
+                <cell row="6"  column="2" value="0.61"/>
+                <cell row="7"  column="2" value="0.55"/>
+                <cell row="8"  column="2" value="0.3"/>
+                <cell row="9"  column="2" value="0.2"/>
+            </rows>
+        </table>
+        <table id="yourAutoimmunePrecaution">
+            <headers>
+                <header column="0" value="措施icon"/>
+                <header column="1" value="措施"/>
+            </headers>
+            <rows>
+                <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="4"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="5"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="6"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="7"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                <cell row="0"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="1"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="2"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="3"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="4"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="5"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="6"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="7"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+                <cell row="8"   column="1" value="">
+                    <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                </cell>
+            </rows>
+        </table>
+        <group order="90040001" id="catalog_90040001_1" value="9 1" catalog="9 1">
+            <parameter id="diseaseName" value="甲状腺机能亢进"/>
+            <parameter id="diseaseRiskValue" value="1.6"/>
+            <parameter id="diseaseRiskValueDescription" value="与东亚人群相比，您患甲状腺机能亢进的相对风险增加 19.03%，是普通人的 1.19 倍"/>
+            <parameter id="cnCrowdAverageIncidenceRate" value="1.260%"/>
+            <parameter id="yourIncidenceRate" value="1.500%"/>
+            <parameter id="diseaseSummary" value="">
+<![CDATA[
+甲状腺功能亢进症简称“甲亢”，是由于甲状腺合成释放过多的甲状腺激素，造成机体代谢亢进和交感神经兴奋，引起心悸、出汗、进食和便次增多和体重减少的病症。多数患者还常常同时有突眼、眼睑水肿、视力减退等症状。90%以上的“甲亢” 属于弥漫性甲状腺肿伴甲状腺机能亢进症，是由于自身存在免疫功能紊乱，产生了一系列针对甲状腺的自身抗体并合成过 多甲状腺素。甲亢患者长期没有得到合适治疗，可引起甲亢性心脏病。<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>危险因素</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>遗传：</style><br/>
+·据临床观察发现，甲亢有明显的家族遗传性，患甲亢的母亲，其子女的甲状腺对甲亢病原体的易感性比其他人高<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>过多的碘摄入：</style><br/>
+·长期过量地补充碘会引起甲状腺激素分泌过多，从而引起甲亢，常出现在严重碘缺乏人群经快速过量补碘之后<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>疾病 / 药物影响：</style><br/>
+·自身免疫类疾病如毒性甲状腺腺瘤、毒性多结节性甲状腺肿、弥漫性毒性甲状腺肿（也称Graves病）<br/>
+·甲状腺炎症以及某些抗心律失常药物的影响导致过量的甲状腺激素分泌<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>高危人群：</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+·有甲状腺功能亢进症家族史者<br/>
+·有甲状腺炎家族史者<br/>
+·患有自身免疫类疾病者<br/>
+·年龄超过 50 岁或绝经后的女性<br/>
+·曾经接受过甲状腺手术者<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>不良用眼习惯：</style><br/>
+·昏暗的光线下用眼，会造成瞳孔长时间散大，堵塞眼内液体循环流通，很容易导致青光眼的发生<br/>
+·躺着看手机等发光屏幕的姿势对眼球的压迫力最大<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>高危人群：</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+·曾有过脑部外伤者<br/>
+·有癫痫家族史者<br/>
+·有相关颅内疾病者<br/>
+·长期酗酒者
+]]>
+            </parameter>
+            <table id="diseaseRiskGeneTable">
+                <headers>
+                    <header column="0" value="基因点位"/>
+                    <header column="1" value="参考等位基因"/>
+                    <header column="2" value="风险等位基因"/>
+                    <header column="3" value="个人基因型检出结果"/>
+                    <header column="4" value="相对风险度"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="rs000000001"/>
+                    <cell row="1"   column="0" value="rs000000002"/>
+                    <cell row="2"   column="0" value="rs000000003"/>
+                    <cell row="3"   column="0" value="rs000000004"/>
+                    <cell row="4"   column="0" value="rs000000005"/>
+                    <cell row="5"   column="0" value="rs000000006"/>
+                    <cell row="6"   column="0" value="rs000000008"/>
+                    <cell row="7"   column="0" value="rs000000009"/>
+                    <cell row="8"   column="0" value="rs000000010"/>
+                    <cell row="9"   column="0" value="rs000000011"/>
+                    <cell row="10"  column="0" value="rs000000012"/>
+                    <cell row="11"  column="0" value="rs000000013"/>
+                    <cell row="12"  column="0" value="rs000000014"/>
+                    <cell row="13"  column="0" value="rs000000015"/>
+                    <cell row="14"  column="0" value="rs000000016"/>
+                    <cell row="15"  column="0" value="rs000000017"/>
+                    <cell row="16"  column="0" value="rs000000018"/>
+                    <cell row="17"  column="0" value="rs000000019"/>
+                    <cell row="18"  column="0" value="rs000000020"/>
+                    <cell row="19"  column="0" value="rs000000021"/>
+                    <cell row="20"  column="0" value="rs000000022"/>
+                    <cell row="21"  column="0" value="rs000000023"/>
+                    <cell row="22"  column="0" value="rs000000024"/>
+                    <cell row="23"  column="0" value="rs000000025"/>
+                    <cell row="24"  column="0" value="rs000000026"/>
+                    <cell row="25"  column="0" value="rs000000027"/>
+                    <cell row="26"  column="0" value="rs000000028"/>
+                    <cell row="27"  column="0" value="rs000000029"/>
+
+                    <cell row="0"   column="1" value="C"/>
+                    <cell row="1"   column="1" value="C"/>
+                    <cell row="2"   column="1" value="G"/>
+                    <cell row="3"   column="1" value="T"/>
+                    <cell row="4"   column="1" value="C"/>
+                    <cell row="5"   column="1" value="T"/>
+                    <cell row="6"   column="1" value="C"/>
+                    <cell row="7"   column="1" value="A"/>
+                    <cell row="8"   column="1" value="A"/>
+                    <cell row="9"   column="1" value="C"/>
+                    <cell row="10"  column="1" value="A"/>
+                    <cell row="11"  column="1" value="A"/>
+                    <cell row="12"  column="1" value="C"/>
+                    <cell row="13"  column="1" value="C"/>
+                    <cell row="14"  column="1" value="A"/>
+                    <cell row="15"  column="1" value="C"/>
+                    <cell row="16"  column="1" value="A"/>
+                    <cell row="17"  column="1" value="T"/>
+                    <cell row="18"  column="1" value="A"/>
+                    <cell row="19"  column="1" value="A"/>
+                    <cell row="20"  column="1" value="C"/>
+                    <cell row="21"  column="1" value="C"/>
+                    <cell row="22"  column="1" value="A"/>
+                    <cell row="23"  column="1" value="A"/>
+                    <cell row="24"  column="1" value="A"/>
+                    <cell row="25"  column="1" value="T"/>
+                    <cell row="26"  column="1" value="T"/>
+                    <cell row="27"  column="1" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="2" value="C"/>
+                    <cell row="1"   column="2" value="C"/>
+                    <cell row="2"   column="2" value="G"/>
+                    <cell row="3"   column="2" value="T"/>
+                    <cell row="4"   column="2" value="C"/>
+                    <cell row="5"   column="2" value="T"/>
+                    <cell row="6"   column="2" value="C"/>
+                    <cell row="7"   column="2" value="A"/>
+                    <cell row="8"   column="2" value="A"/>
+                    <cell row="9"   column="2" value="C"/>
+                    <cell row="10"  column="2" value="A"/>
+                    <cell row="11"  column="2" value="A"/>
+                    <cell row="12"  column="2" value="C"/>
+                    <cell row="13"  column="2" value="C"/>
+                    <cell row="14"  column="2" value="A"/>
+                    <cell row="15"  column="2" value="C"/>
+                    <cell row="16"  column="2" value="A"/>
+                    <cell row="17"  column="2" value="T"/>
+                    <cell row="18"  column="2" value="A"/>
+                    <cell row="19"  column="2" value="A"/>
+                    <cell row="20"  column="2" value="C"/>
+                    <cell row="21"  column="2" value="C"/>
+                    <cell row="22"  column="2" value="A"/>
+                    <cell row="23"  column="2" value="A"/>
+                    <cell row="24"  column="2" value="A"/>
+                    <cell row="25"  column="2" value="T"/>
+                    <cell row="26"  column="2" value="T"/>
+                    <cell row="27"  column="2" value="A"/>
+
+                    <cell row="0"   column="3" value="CC"/>
+                    <cell row="1"   column="3" value="CC"/>
+                    <cell row="2"   column="3" value="GG"/>
+                    <cell row="3"   column="3" value="TT"/>
+                    <cell row="4"   column="3" value="CC"/>
+                    <cell row="5"   column="3" value="TT"/>
+                    <cell row="6"   column="3" value="CC"/>
+                    <cell row="7"   column="3" value="AA"/>
+                    <cell row="8"   column="3" value="AA"/>
+                    <cell row="9"   column="3" value="CC"/>
+                    <cell row="10"  column="3" value="AA"/>
+                    <cell row="11"  column="3" value="AA"/>
+                    <cell row="12"  column="3" value="CC"/>
+                    <cell row="13"  column="3" value="CC"/>
+                    <cell row="14"  column="3" value="AA"/>
+                    <cell row="15"  column="3" value="CC"/>
+                    <cell row="16"  column="3" value="AA"/>
+                    <cell row="17"  column="3" value="TT"/>
+                    <cell row="18"  column="3" value="AA"/>
+                    <cell row="19"  column="3" value="AA"/>
+                    <cell row="20"  column="3" value="CC"/>
+                    <cell row="21"  column="3" value="CC"/>
+                    <cell row="22"  column="3" value="AA"/>
+                    <cell row="23"  column="3" value="AA"/>
+                    <cell row="24"  column="3" value="AA"/>
+                    <cell row="25"  column="3" value="TT"/>
+                    <cell row="26"  column="3" value="TT"/>
+                    <cell row="27"  column="3" value="AA"/>
+
+                    <cell row="0"   column="4" value="0.95"/>
+                    <cell row="1"   column="4" value="0.95"/>
+                    <cell row="2"   column="4" value="0.95"/>
+                    <cell row="3"   column="4" value="0.95"/>
+                    <cell row="4"   column="4" value="0.95"/>
+                    <cell row="5"   column="4" value="0.95"/>
+                    <cell row="6"   column="4" value="0.95"/>
+                    <cell row="7"   column="4" value="0.95"/>
+                    <cell row="8"   column="4" value="0.95"/>
+                    <cell row="9"   column="4" value="0.95"/>
+                    <cell row="10"  column="4" value="0.95"/>
+                    <cell row="11"  column="4" value="0.95"/>
+                    <cell row="12"  column="4" value="0.95"/>
+                    <cell row="13"  column="4" value="0.95"/>
+                    <cell row="14"  column="4" value="0.95"/>
+                    <cell row="15"  column="4" value="0.95"/>
+                    <cell row="16"  column="4" value="0.95"/>
+                    <cell row="17"  column="4" value="0.95"/>
+                    <cell row="18"  column="4" value="0.95"/>
+                    <cell row="19"  column="4" value="0.95"/>
+                    <cell row="20"  column="4" value="0.95"/>
+                    <cell row="21"  column="4" value="0.95"/>
+                    <cell row="22"  column="4" value="0.95"/>
+                    <cell row="23"  column="4" value="0.95"/>
+                    <cell row="24"  column="4" value="0.95"/>
+                    <cell row="25"  column="4" value="0.95"/>
+                    <cell row="26"  column="4" value="0.95"/>
+                    <cell row="27"  column="4" value="0.95"/>
+                </rows>
+            </table>
+            <parameter id="isPositive" value="true"/>
+            <table id="yourDiseasePrecaution">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="4"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="5"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="6"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="7"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="8"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="4"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="5"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="6"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="7"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="8"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+        </group>
+
+
+
+        <parameter id="acmgGeneCheckDescription" value="高危遗传病--未发现您有阳性结果"/>
+        <parameter id="acmgGeneCheckout" value="高危遗传病--暂无"/>
+        <parameter id="acmgDiseaseDetail" value="">
+            <![CDATA[
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>异染性脑白质营养不良</style><br/><br/>
+高危遗传病--由于芳基硫酸酯酶 A(arylsulphatase A，ARSA) 或神经鞘脂激活蛋白 B(sphingolipid activator protein B，SAP-B，saposin B) 即脑硫脂激活蛋白的缺陷，使溶酶体内脑硫脂 水解受阻，而沉积在中枢神经系统的白质、周围神经及肾、胆囊、肝等内脏组织，引起脑白 质、周围神经脱髓鞘形成的进展性、退化性神经系统疾病。<br/><br/>
+
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>二氢嘧啶脱氢酶缺乏症</style><br/><br/>
+高危遗传病--二氢嘧啶脱氢酶可催化嘧啶形成相应的二氢嘧啶和胸腺嘧啶 , 这组病人可见不同的神经系统 异常 , 为常染色体隐性遗传病。患儿在母乳喂养期间可无症状 , 加入水果后才出现喂养症状 , 可出现惊厥、意识障碍 , 并伴有代谢性酸中毒。
+]]>
+        </parameter>
+        <table id="acmgGeneCheckoutTable">
+            <headers>
+                <header column="0" value="基因"/>
+                <header column="1" value="突变位置"/>
+                <header column="2" value="类型"/>
+                <header column="3" value="致病性证据*"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="高危遗传病--4 个突变位点"/>
+
+                <cell row="0"  column="1" value="高危遗传病--FGA:NM_000508:exon2:c.G104A:p.R35H"/>
+
+                <cell row="0"  column="2" value="高危遗传病--杂合错义突变"/>
+
+                <cell row="0"  column="3" value="高危遗传病--Pathogenic（ClinVar）；VUS（ACMG注释标准）"/>
+            </rows>
+        </table>
+
+
+
+
+
+        <parameter id="carrierGeneCount" value="379"/>
+        <parameter id="yourCarrierGeneSize" value="3"/>
+        <parameter id="carrierGeneCheckout" value="暂无"/>
+        <parameter id="carrierDiseaseDetail" value="">
+<![CDATA[
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>异染性脑白质营养不良</style><br/><br/>
+由于芳基硫酸酯酶 A(arylsulphatase A，ARSA) 或神经鞘脂激活蛋白 B(sphingolipid activator protein B，SAP-B，saposin B) 即脑硫脂激活蛋白的缺陷，使溶酶体内脑硫脂 水解受阻，而沉积在中枢神经系统的白质、周围神经及肾、胆囊、肝等内脏组织，引起脑白 质、周围神经脱髓鞘形成的进展性、退化性神经系统疾病。<br/><br/>
+
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>二氢嘧啶脱氢酶缺乏症</style><br/><br/>
+二氢嘧啶脱氢酶可催化嘧啶形成相应的二氢嘧啶和胸腺嘧啶 , 这组病人可见不同的神经系统 异常 , 为常染色体隐性遗传病。患儿在母乳喂养期间可无症状 , 加入水果后才出现喂养症状 , 可出现惊厥、意识障碍 , 并伴有代谢性酸中毒。
+]]>
+        </parameter>
+        <table id="carrierGeneCheckoutTable">
+            <headers>
+                <header column="0" value="基因"/>
+                <header column="1" value="突变位置"/>
+                <header column="2" value="类型"/>
+                <header column="3" value="致病性证据*"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="4 个突变位点"/>
+
+                <cell row="0"  column="1" value="FGA:NM_000508:exon2:c.G104A:p.R35H"/>
+
+                <cell row="0"  column="2" value="杂合错义突变"/>
+
+                <cell row="0"  column="3" value="Pathogenic（ClinVar）；VUS（ACMG注释标准）"/>
+            </rows>
+        </table>
+
+
+
+
+        <group order="120020001" id="catalog_120020001_1" value="12 1" catalog="12 1">
+            <parameter id="medicineType" value="降糖药"/>
+            <table id="medicineGeneTable">
+                <headers>
+                    <header column="0" value="有效成分"/>
+                    <header column="1" value="检测内容"/>
+                    <header column="2" value="基因"/>
+                    <header column="3" value="位点"/>
+                    <header column="4" value="置信等级"/>
+                    <header column="5" value="基因型"/>
+                    <header column="6" value="结果"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="贝塔受体阻滞剂/阿替洛尔"/>
+                    <cell row="1"  column="0" value="贝塔受体阻滞剂/美托洛尔"/>
+                    <cell row="2"  column="0" value=" "/>
+                    <cell row="3"  column="0" value="钙通道阻滞剂"/>
+                    <cell row="4"  column="0" value="利尿剂"/>
+                    <cell row="5"  column="0" value=" "/>
+                    <cell row="6"  column="0" value="血管紧张素 II 受体阻滞剂"/>
+                    <cell row="7"  column="0" value="血管紧张素转换酶抑制剂/苯那普利"/>
+
+                    <cell row="0"  column="1" value="毒副作用/药效"/>
+                    <cell row="1"  column="1" value="药效"/>
+                    <cell row="2"  column="1" value="药效"/>
+                    <cell row="3"  column="1" value="药效"/>
+                    <cell row="4"  column="1" value="药效"/>
+                    <cell row="5"  column="1" value="药效"/>
+                    <cell row="6"  column="1" value="药效"/>
+                    <cell row="7"  column="1" value="药效"/>
+
+                    <cell row="0"  column="2" value="ABCB1"/>
+                    <cell row="1"  column="2" value="CYP2D6"/>
+                    <cell row="2"  column="2" value="C11orf65"/>
+                    <cell row="3"  column="2" value="4 个突变位点"/>
+                    <cell row="4"  column="2" value="NEDD4L"/>
+                    <cell row="5"  column="2" value="YEATS4"/>
+                    <cell row="6"  column="2" value="CYP2C9"/>
+                    <cell row="7"  column="2" value="PRCP"/>
+
+                    <cell row="0"  column="3" value="rs3213619"/>
+                    <cell row="1"  column="3" value="*1,*3,*4,*10,*41"/>
+                    <cell row="2"  column="3" value="rs1801253"/>
+                    <cell row="3"  column="3" value="rs2429427"/>
+                    <cell row="4"  column="3" value="rs4149601"/>
+                    <cell row="5"  column="3" value="rs7297610"/>
+                    <cell row="6"  column="3" value="*1,*2,*3"/>
+                    <cell row="7"  column="3" value="rs2229437"/>
+
+                    <cell row="0"  column="4" value="3"/>
+                    <cell row="1"  column="4" value="2A"/>
+                    <cell row="2"  column="4" value="3"/>
+                    <cell row="3"  column="4" value="3"/>
+                    <cell row="4"  column="4" value="2B"/>
+                    <cell row="5"  column="4" value="2B"/>
+                    <cell row="6"  column="4" value="3"/>
+                    <cell row="7"  column="4" value="3"/>
+
+                    <cell row="0"  column="5" value="AG"/>
+                    <cell row="1"  column="5" value="*1/*10"/>
+                    <cell row="2"  column="5" value="GG"/>
+                    <cell row="3"  column="5" value="AG"/>
+                    <cell row="4"  column="5" value="AG"/>
+                    <cell row="5"  column="5" value="CC"/>
+                    <cell row="6"  column="5" value="*1/*1"/>
+                    <cell row="7"  column="5" value="TG"/>
+
+                    <cell row="0"  column="6" value="副作用风险中等"/>
+                    <cell row="1"  column="6" value="代谢正常，药效较差"/>
+                    <cell row="2"  column="6" value="药效较差"/>
+                    <cell row="3"  column="6" value="药效较差"/>
+                    <cell row="4"  column="6" value="毒副作用风险低，建议用量建议用量 800mg/天"/>
+                    <cell row="5"  column="6" value="药效正常"/>
+                    <cell row="6"  column="6" value="药效正常"/>
+                    <cell row="7"  column="6" value="药效较差"/>
+                </rows>
+            </table>
+            <parameter id="erJiaShuangGuaSuggestion" value="二甲双胍类药物药效较差，请遵医嘱调整用药剂量"/>
+            <parameter id="huangNiaoLeiSuggestion" value="磺脲类类药物药效正常，可正常使用"/>
+            <parameter id="geLieRuiNaSuggestion" value="格列瑞纳类药物药效差，不建议使用"/>
+            <parameter id="saiCuoWanErTongSuggestion" value="噻唑烷二酮类药物药效正常"/>
+            <parameter id="medicineDetailSuggestion" value="">
+                <![CDATA[
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>二甲双胍</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Metformin/Dimethylbiguanide/Difrex</style><br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>作用机制：</style><br/>
+二甲双胍能够延缓葡萄糖由胃肠道的摄取 , 通过提高胰岛素的敏感性而增加外周葡萄糖的利用 , 以及抑制肝、肾过度的糖原异生，减少肝糖输出的同时改善胰岛素抵抗。人类基因C11orf65 基因多态对2 型糖尿病患者的二甲双胍应答有一定影响。<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>适应症：</style><br/>
+首选用于非胰岛素依赖型的 2 型糖尿病，特别是肥胖的 2 型糖尿病<br/>
+对于 1 型或 2 型糖尿病，二甲双胍与胰岛素合用，可增加胰岛素的降血糖作用，减少胰岛素用量，防止低血糖发生<br/>
+与磺脲类口服降血糖药合用，具协同作用<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>用药建议：</style><br/>
+您的检测结果提示$erJiaShuangGuaSuggestion。<br/><br/>
+
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>磺脲类</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Sulfonamides</style><br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>作用机制：</style><br/>
+磺脲类药物能够刺激胰岛 β 细胞分泌胰岛素，包括依赖 ATP 敏感的钾通道和不依赖 ATP 敏感的钾通道刺激胰岛 β 细胞分泌胰岛素。同时能提高胰岛素敏感性，改善胰岛素抵抗。其中格列美脲可能具有葡萄糖依赖性的促胰岛素分泌作用。磺脲类药物可使外周葡萄糖利用率增加 10% ～ 52%，而人类基因组TCF7L2 基因多态作为 2 型糖尿病危险等位基因有弱化磺脲类药物疗效的相关风险。<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>适应症：</style><br/>
+二甲双胍不耐受或治疗血糖控制不佳的 2 型糖尿病患者<br/>
+经饮食、运动治疗，血糖控制仍不稳定者<br/>
+体重正常或较轻的 2 型糖尿病患者<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>用药建议：</style><br/>
+您的检测结果提示$huangNiaoLeiSuggestion。<br/><br/>
+
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>瑞格列奈</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Repaglinide</style><br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>作用机制：</style><br/>
+瑞格列奈属于非磺酰脲类促胰岛素释放剂，与胰岛 β 细胞上的 ATP 敏感钾通道受体结合使钾通道关闭，β细胞去极化，钙通道开放，钙离子内流，促进胰岛素分泌，其作用快于磺酰脲类，故餐后降血糖作用较快。口服后使血浆胰岛素浓度随其血浆药物浓度的升高而增加。人类基因组KCNJ11基因多态对瑞格列奈的疗效有显著影响。<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>适应症：</style><br/>
+用于饮食控制及运动锻炼不能有效控制高血糖的 2 型糖尿病 ( 非胰岛素依赖性 ) 患者，可与二甲双胍合用<br/>
+轻中度肾功能不全的 2 型糖尿病患者<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>用药建议：</style><br/>
+您的检测结果提示$geLieRuiNaSuggestion。<br/><br/>
+
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>噻唑烷二酮类</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Thiazolidinedione (TZDs)</style><br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>作用机制：</style><br/>
+噻唑烷二酮类药物能够激动过氧化物酶体一增殖体活化受体γ（PPARγ），增加脂肪细胞、肝细胞及骨骼肌细胞对胰岛素的敏感性，促进胰岛素靶细胞对血糖的摄取、转运和氧化利用；同时降低血糖及游离脂肪酸的水平，增强对葡萄糖的摄取， 实现对血糖的长期控制，以此降低糖尿病并发症发生的危险。人类基因组CYP2C8基因多态会影响噻唑烷二酮类药物的代谢从而影响其药效和毒副作用。<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>适应症：</style><br/>
+当饮食控制、体育锻炼和单药治疗不能满意控制血糖时，它也可与磺脲、二甲双胍或胰岛素合用<br/>
+胰岛素相对不足的 2 型糖尿病患者<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>用药建议：</style><br/>
+您的检测结果提示$saiCuoWanErTongSuggestion。<br/><br/>
+
+
+
+]]>
+            </parameter>
+        </group>
+
+
+
+
+        <group order="130020001" id="catalog_130020001_1" value="13 1" catalog="13 1">
+            <parameter id="sportNutritionTitle" value="营养代谢"/>
+            <table id="sportNutritionGeneTable">
+                <headers>
+                    <header column="0" value="项目"/>
+                    <header column="1" value="位点"/>
+                    <header column="2" value="基因型"/>
+                    <header column="3" value="提示建议"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="钙吸收能力"/>
+                    <cell row="1"  column="0" value="铁吸收能力"/>
+                    <cell row="2"  column="0" value="VD 吸收能力"/>
+                    <cell row="3"  column="0" value=""/>
+                    <cell row="4"  column="0" value="VB12 吸收能力"/>
+                    <cell row="5"  column="0" value="叶酸（VB9）吸收能力力"/>
+                    <cell row="6"  column="0" value=""/>
+                    <cell row="7"  column="0" value="VA 吸收能力"/>
+                    <cell row="8"  column="0" value="DHA 吸收能力"/>
+
+                    <cell row="0"  column="1" value="ABCDEFGHIJK"/>
+                    <cell row="1"  column="1" value="ABCDEFGHIJK"/>
+                    <cell row="2"  column="1" value="ABCDEFGHIJK"/>
+                    <cell row="3"  column="1" value="ABCDEFGHIJK"/>
+                    <cell row="4"  column="1" value="ABCDEFGHIJK"/>
+                    <cell row="5"  column="1" value="4个突变位点"/>
+                    <cell row="6"  column="1" value="BCDEFGHIJK"/>
+                    <cell row="7"  column="1" value="BCDEFGHIJK"/>
+                    <cell row="8"  column="1" value="BCDEFGHIJK"/>
+
+                    <cell row="0"  column="2" value="AA"/>
+                    <cell row="1"  column="2" value="AA"/>
+                    <cell row="2"  column="2" value="AA"/>
+                    <cell row="3"  column="2" value="AA"/>
+                    <cell row="4"  column="2" value="*1,*2,*3,*4,*10,*41"/>
+                    <cell row="5"  column="2" value="CC"/>
+                    <cell row="6"  column="2" value="AA"/>
+                    <cell row="7"  column="2" value="AA"/>
+                    <cell row="8"  column="2" value="AA"/>
+
+                    <cell row="0"  column="3" value="吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充"/>
+                    <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                    <cell row="2"  column="3" value="吸收利用较弱，注意补充"/>
+                    <cell row="3"  column="3" value=" "/>
+                    <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                    <cell row="5"  column="3" value="吸收利用较弱，注意补充"/>
+                    <cell row="6"  column="3" value=" "/>
+                    <cell row="7"  column="3" value="吸收利用较弱，注意补充"/>
+                    <cell row="8"  column="3" value="吸收利用较弱，注意补充"/>
+                </rows>
+            </table>
+            <parameter id="yeSuanSuggestion" value="您叶酸吸收能力是正常的 60%，请注意补充。"/>
+            <parameter id="VASuggestion" value="您对维生素 A 吸收较差，请注意补充。"/>
+            <parameter id="VDSuggestion" value="您对维生素 D 吸收差，请注意补充。"/>
+            <parameter id="VBSuggestion" value="您对维生素 B12 吸收正常。"/>
+            <parameter id="ironSuggestion" value="您对铁元素吸收较差，请注意补铁。"/>
+            <parameter id="caSuggestion" value="您对钙元素吸收较差，请注意补钙。"/>
+            <parameter id="DHASuggestion" value="您对 DHA 吸收较好。"/>
+            <parameter id="sportNutritionSuggestion" value="">
+<![CDATA[
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>叶酸</style><br/>
+<br/>根据中国营养学会发布的营养素参考摄入量表格显示，14 岁以上的健康人群对叶酸的每日推荐摄入量为  400μgDFE（膳食叶酸当量），可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的叶酸摄入量不在此推荐人群内， 相关信息可咨询医师）<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$yeSuanSuggestion</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>维生素 A</style><br/>
+根据中国营养学会发布的营养素参考摄入量表格显示，14-17 岁的正常青少年男性对维生素 A 的每日推荐摄入量为
+820μgRAE（视黄醇活性当量）、青少年女性为 630μgRAE。18 岁以上的健康成年男性对维生素 A 的每日推荐摄入量为 800μgRAE、成年女性为 700 μgRAE。可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的维生素 A 摄入量不在此推荐人群内，相关信息可咨询医师）<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$VASuggestion</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>维生素 B12</style><br/>
+<br/>根据中国营养学会发布的营养素参考摄入量表格显示，14 岁以上的健康人群对维生素 B12 的每日推荐摄入量为 2.4μg， 可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的维生素 B12 摄入量不在此推荐人群内，相关信息可咨询医师）<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$VBSuggestion</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>维生素 D</style><br/>
+<br/>根据中国营养学会发布的营养素参考摄入量表格显示，14 岁-64 岁的健康人群对维生素 D 的每日推荐摄入量为 10μg，65 岁以上增加至 15 μg。可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的维生素 D 摄入量不在此推荐人群内，相关信息可咨询医师）<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$VDSuggestion</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>铁</style><br/>
+<br/>根据中国营养学会发布的营养素参考摄入量表格显示，18 岁-49 岁的健康成年女性对铁的每日推荐摄入量为 20mg，18 岁以上成年男性与 49 岁以上的健康成年女性为 12mg；14-17 岁的正常青少年男性对铁的每日推荐摄入量为 16mg、青少年女性为 18mg。可依据您的营养需求在此基础上进行适当的增减。(孕妇及哺乳期妇女铁摄入量不在此推荐人群内，相关信息可咨询医师)<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$ironSuggestion</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>钙</style><br/>
+<br/>根据中国营养学会发布的营养素参考摄入量表格显示，18 岁-49 岁的正常成年人对钙的每日推荐摄入量为 800mg；14-17 岁的正常青少年以及 50 岁以上的正常成年人对钙的每日推荐摄入量为 1000mg。可依据您的营养需求在此基础上进行适当的增减。（孕妇及哺乳期妇女的钙摄入量不在此推荐人群内，相关信息可咨询医师）<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$caSuggestion</style><br/><br/>
+
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>DHA</style><br/>
+<br/>根据中国营养学会发布的营养素参考摄入量表格显示，14 岁以上的健康人群对 DHA 与 EPA 的每日宏量营养素可接受范围为0.25 ～ 2.0g，可依据您的营养需求在此范围内进行适当的增减。（孕妇及哺乳期妇女的DHA 摄入量不在此推荐人群内，相关信息可咨询医师）<br/><br/>
+<style font='fzlthjw' font_color='$mainColor' font_size='11'>$DHASuggestion</style>]]>
+            </parameter>
+        </group>
+
+
+
+
+
+        <group order="100001" id="catalog_10000_1" value="10000 1" catalog="10000 1">
+            <parameter id="acmgDiseaseClass" value="心脏相关"/>
+            <parameter id="acmgDiseasesDetail" value="">
+<![CDATA[<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>左心室致密化不全 6 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Left ventricular densification</style><br/><br/>
+左心室致密化不全是在胚胎初期心脏发育过程中心内膜心肌的形态学发生受到影响，使发展中的肌小梁不能致密化而导致心室肌发育不全的一种罕见的先天性心肌病。本病通常艺属于常染色体显性遗传，在儿童中多见 ， 病变均累及左心室，亦可同时累及右心室，导致心室收缩和舒张功能不全，出现进行性加重的心力衰竭。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>致心律失常性右室心肌病 5，8，9，10，11 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Arrhythmogenic Right Ventricular Cardiomyopathy</style><br/><br/>
+致心律失常性右室心肌病是一种主要累及右心室的非缺血性心肌病型，又称致心律失常性右室发育不良，其特征为右心室心肌被进行性纤维脂肪组织所替代，心肌诱发室性心动过速和年轻人与运动员猝死，常伴有发自右心室的心律失常。临床表现包括右心室扩大、充血性心力衰竭。
+致心律失常性右室心肌病是常染色体显性遗传病。与 DSP 基因突变相关的 8 型致心律失常性右室心肌病可能与左心室功能不全有关，与 PKP2 基因突变相关的 9 型可能与室性心动过速有关，其他致心律失常性右室心肌病还有与 TMEM43 基因突变对应的 5 型、与 DSG2 基因突变对应的 10 型、与 DSC2 基因突变对应的 11 型。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+心源性猝死可使用植入型心律转复除颤器进行干预，抗心律失常治疗也可起到一定的预防，但效果不佳。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>扩张型心肌病 1A 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Dilated cardiomyopathy</style><br/><br/>
+扩张型心肌病 1A 型是一种原发性心肌疾病。本病的特征为左或右心室或双侧心室扩大，并伴有心室收缩功能减退，伴或不伴充血性心力衰竭。室性或房性心律失常多见。病情呈进行性加重，死亡可发生于疾病的任何阶段。一个家系中包括先证者（首先被确诊的患者）在内有 2 个或以上的扩张型心肌病患者，或者在患者的一级亲属当中有 35 岁以下就不明原因猝死的应考虑家族遗传性扩张型心肌病。研究认为 1A 型扩张型心肌病或由核纤层蛋白基因突变或由肌球蛋白结合蛋白 C 基因突变引发。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+扩张型心肌病可能会引发的心源性猝死可使用主动脉成像来进行筛查或植入型心律转复除颤器以及药物治疗来进行预防， 心力衰竭可使用筛查或血管紧张素转化酶抑制剂进行预防 。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>家族性肥厚性心肌病 1，3，4，6，7，8，10，11 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Familial  hypertrophic cardiomyopathy</style><br/><br/>
+家族性肥厚型心肌病又称特发性主动脉瓣下狭窄和不对称性室间隔肥厚，是一种常染色体显性遗传疾病，由编码肌节蛋白基因的基因突变导致。病理特征包括异常的不能解释的心室肥厚而心腔不扩大，以左心受累为主，右室心肌亦可受累，心室肥厚不对称、不均匀，心室腔变小，以左室血液充盈受阻，左室舒张期顺应性下降为基本病态，组织学上呈现心肌纤维排列紊乱等。临床表现多样化，是较大儿童及青少年猝死原因之一。
+其中 40% 的家族性肥厚型心肌病是因 MYH7 基因突变造成的 1 型，另外 40% 是因 MYBPC3 基因突变造成的 4 型
+FHCM，5% 是因 TNNI3 基因突变造成的 7 型 FHCM，2% 是因 TPM1 基因突变造成的 3 型 FHCM ，1% 是因 MYL3 基因突变造成的 8 型 FHCM，其他还有占比例较小的MYL2 基因突变对应的 10 型、 ACTC1 基因突变对应的 11 型、
+PRKAG2 基因突变对应的 6 型等。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+家族性肥厚型心肌病可能会引发的心源性猝死可使用植入型心律转复除颤器来进行预防。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>儿茶酚胺敏感型室性心动过速</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Catecholaminergic polymorphic ventricular tachycardia</style><br/><br/>
+儿茶酚胺敏感型室性心动过速多发生于无器质性心脏病依据的患者，是一组没有明显心脏结构和功能异常的单形性室性心动过速，与编码心肌细胞上钙离子通道的 RYR2 基因突变的常染色体显性遗传相关。由于绝大多数起源于右心室流出道， 少数起源于右心室流入道、心尖部、右心室间隔等部位，又称左束支阻滞型特发性室性心动过速或右心室型特发性室性心动过速。它已被证实为触发活动所致，多可被腺苷终止。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+儿茶酚胺敏感型室性心动过速可能会引发的心源性猝死可使用贝塔抗体阻滞剂进行预防。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>Brugada 综合征 1 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Brugada syndrome</style><br/><br/>
+Brugada 综合征是一种编码心肌离子通道基因突变引起离子通道功能异常而导致的常染色体显性遗传病，特点是异常的心电图（ECG）检查和更高风险的心源性猝死，常引起心室颤动而导致猝死。它是不明原因猝死综合征中主要的一种，也被称为成人猝死综合症或意外夜间猝死综合征，多数在夏季发病，84% 的猝死发生于夜间睡眠中。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+Brugada  综合征可能会引发的心源性猝死可以通过植入式心复律除颤器进行干预。]]>
+            </parameter>
+        </group>
+
+
+
+
+
+
+        <group order="100002" id="catalog_10000_2" value="10000 2" catalog="10000 2">
+            <parameter id="acmgDiseaseClass" value="结缔组织相关"/>
+            <parameter id="acmgDiseasesDetail" value="">
+<![CDATA[<style font='fzltchjw' font_color='$mainColor' font_size='15'>洛伊迪茨综合征 1A，1B，2A，2B，3 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15'>Loeys–Dietz syndromedensification</style><br/><br/>
+洛伊斯 – 迪茨综合征（LDS）是一种常染色体显性遗传性结缔组织疾病。其心血管系统及骨骼异常与马凡综合征有着很多相似表现。人类基因的突变，会影响贝塔转化生长因子的生化路径，其中尤其会对以血管及骨骼为主的相关结缔组织功能造成影响。主要特征是血管（脑、胸、腹主动脉瘤或夹层；动脉曲折）和骨骼（漏斗胸畸形，脊柱侧弯，关节松弛，四
+肢细长，足）表现。患者也可能显示颅面（两眼间距很大，悬雍垂裂、腭裂、颅缝早闭）和皮肤（半透明的皮肤，容易瘀伤， 营养不良的疤痕）表现。<br/>
+这种疾病是由 75% 的新基因突变引起的，发生在没有家族病史的人群中。因为儿童动脉瘤容易破裂，如果不确定该综合症， 儿童死亡的可能性更大。<br/>
+LDS 第一型与血管、骨骼、皮肤和颅面有关。70％ LDS 患者属于此型，LDS 第二型与血管、骨骼和皮肤有关，20％ LDS 患者属于此型，LDS 第三型与血管和骨关节炎有关，5％ LDS 患者属于此型。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+预防主动脉扩张可使用贝塔受体阻滞剂，预防临床意义上的主动脉可使用主动脉筛查。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>马凡氏综合征</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Marfan syndrome</style><br/><br/>
+马凡综合征为一种遗传性结缔组织疾病，为常染色体显性遗传，其特征是周围结缔组织营养不良、骨骼异常、内眼疾病和心血管异常。患者四肢、手指、脚趾细长不匀称，身高明显超出常人，伴有心血管系统异常，特别是合并的心脏瓣膜异常和主动脉瘤。该病同时可能影响其他器官，包括肺、眼、硬脊膜、硬颚等。无种族差异，多见于儿童，也可见于成人。多数病人出生后即有症状，面容显老、躯干纤细、肌肉不发达、皮下脂肪菲薄。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+预防主动脉扩张可使用贝塔受体阻滞剂，预防临床意义上的主动脉可使用主动脉筛查。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>家族性胸主动脉瘤 4，6 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Familial thoracic aortic aneurysm</style><br/><br/>
+家族性胸主动脉瘤是一种常染色体显性大动脉疾病。本病发病缓慢，40% 的胸主动脉瘤病人无症状，而在常规的体格检查或胸部 X 线检查时发现有典型的动脉瘤改变。家族性胸主动脉瘤常与马凡氏综合征和大规模的巴氯芬过量以及其他遗传性结缔组织疾病有相关。
+负责编码平滑肌阿尔法—肌动蛋白的 ACTA2 基因的变异与家族性胸主动脉瘤 6 型相关，调节平滑肌细胞收缩的 MYH11 基因的变异与家族性胸主动脉瘤 4 型相关。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+预防主动脉扩张可使用贝塔受体阻滞剂，预防临床意义上的主动脉可使用主动脉筛查。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>埃勒斯-当洛斯综合征 4 型</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Ehlers Los syndrome</style><br/><br/>
+埃勒斯-当洛综合征又称弹力过度性皮肤、Ehlers-Danlos 综合征、全身弹力纤维发育异常症，是一种有遗传倾向影响结缔组织的疾病，与胶原代谢缺陷相关。患部皮肤弹力过度伸展，触摸柔软，犹如天鹅绒感。因皮肤过度伸展、易碰伤形成伤口、血管脆而易破裂、出现皮肤青肿，常并发关节脱臼，心血管、胃肠道可膨大呈现管壁瘤、胃肠憩室、膀胱憩室或破裂穿孔等。本病多见于早产儿、婴儿，早产儿多伴有胎膜早期破裂，婴儿则表现为肌张力低下。根据临床特点与遗传学特征，可以将 本病分为 11 个亚型，其中第 4 型通常为常染色体显性遗传，但也有常染色体隐性遗传或性连锁隐性遗传。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+避免侵入性治疗以预防血管或器官破裂或穿孔。]]>
+            </parameter>
+        </group>
+
+
+
+
+
+        <group order="100003" id="catalog_10000_3" value="10000 3" catalog="10000 3">
+            <parameter id="acmgDiseaseClass" value="结直肠相关"/>
+            <parameter id="acmgDiseasesDetail" value="">
+<![CDATA[
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>腺瘤性息肉病</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Adenomatous polyposis</style><br/><br/>
+家族性腺瘤性息肉病是一种常染色体显性遗传性疾病，表现为整个结直肠（大肠）布满大小不一的腺瘤。多在 15 岁前后
+出现息肉，初起时息肉为数不多，随着年龄增长而增多。可出现腹部不适、腹痛、大便带血或带黏液、大便次数增多等症状。组织学类型包括管状腺瘤、管状绒毛状腺瘤或绒毛状腺瘤，以管状腺瘤最多见，呈绒毛状腺瘤结构的十分少见。息肉越大并且越呈绒毛状，发生局灶性癌的可能性越大。家族性腺瘤性息肉病包括“经典型”    家族性腺瘤性息肉、衰减型家族性腺瘤性息肉病、伴发表皮囊肿和良性骨肿瘤的 Gardner 综合征、伴发中枢神经系统恶性肿瘤的 Turcot 综合征和 MYH 相关性息肉病。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+结肠切除术可以预防结直肠癌，但可能会伴有术中以及术后的一系列并发症。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>MYH 相关性息肉病</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>MYH-associated polyposis</style><br/><br/>
+MYH 相关性息肉病归属于家族性腺瘤性息肉病，是一种常染色体隐性疾病，主要临床表现有多发性结直肠腺瘤和高危险性的结直肠癌。常染色体隐性遗传病患儿的父母通常不受影响，但携带一份基因拷贝。<br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+大肠癌的发病可以通过定期的结肠镜筛查早日发现，并使用息肉切除术的方式进行预防。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>幼年型息肉综合征</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Juvenile polyposis syndrome</style><br/><br/>
+幼年息肉病综合征是一种罕见的常染色体显性遗传综合征，其特征是胃肠道多发性幼年性息肉伴有结直肠癌的风险增加。息肉是指粘膜的异常生长，在幼年性息肉病综合征发现息肉多数是非肿瘤性、错构瘤性、良性的，主要累及结直肠，也可发生于胃及小肠。家族性幼年性息肉病的结直肠癌、胃癌、小肠癌、胰腺癌等发生风险显著升高，除消化道息肉外，此类患者的肺动静脉畸形、主动脉瘤、肺动静脉血栓的发生率也有所增加，可伴发遗传性出血性毛细血管扩张症。<br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+经胸超声心动图可作为预期的治疗措施来预防肺动静脉畸形（瘤），脑部核磁共振（MRI）可作为预期的治疗措施来预防脑动静脉畸形（瘤），并可用内镜筛查来预防胃肠道癌。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>黑斑息肉病</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Peutz-Jeghers syndrome</style><br/><br/>
+黑斑息肉综合征又称色素沉着息肉综合征或波伊茨一耶格综合征，是常染色体显性遗传病，约 50 % 患者有明显家族史。主要表现为面部、口唇周围和颊钻膜的色素沉着，以及胃肠道多发息肉，病理上为错构瘤。大量研究表明，黑斑息肉综合 征患者为典型的恶性肿瘤高发人群，肿瘤发病率约为 23%，常见肿瘤发病率高低排序依次为结直肠癌、胃癌、小肠癌、宫颈癌和卵巢癌、骨肉瘤、胰头癌、胆管癌、乳腺癌、肺癌等。发病年龄较轻，平均 32.2 岁，肿瘤分化程度低，患者预后差。<br/><br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+结直肠癌可通过结肠镜或胃十二指肠镜、乳腺癌可以通过年度的乳房 X 线照相术来进行筛查以便早日发现，乳腺癌还可以使用化学预防法。预防性切除卵巢或乳腺的手术适用于乳腺癌，卵巢癌，但手术可能有较大风险。<br/><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='15' line_leading='4'>林奇综合征</style><br/>
+<style font='fzltxh_gbk' font_color='$mainColor' font_size='15' line_leading='4'>Lynch syndrome</style><br/><br/>
+林奇综合征又叫遗传性非息肉性大肠癌，是常染色体显性遗传病。林奇综合征阳性者患大肠癌、胃癌、子宫内膜癌等多种肿瘤的风险增高，其中患大肠癌的风险高达 80%，是最常见的一种遗传性大肠癌综合征。这些癌症的风险增加是由于基因突变导致 DNA 错配修复。<br/>
+<style font_color='$mainColor' font_size='12' line_leading='4'>干预措施：</style><br/>
+子宫内膜癌可以切除子宫的手术来预防，然而风险较高，预防性宫腔镜或 B 超筛查对子宫内膜癌的效力较低。结肠直肠癌可通过结肠镜或胃十二指肠镜来进行预防性的筛查以便早日发现。]]>
+            </parameter>
         </group>
     </data>
 </pdf>

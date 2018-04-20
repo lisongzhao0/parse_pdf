@@ -177,6 +177,7 @@ public class PageDef extends AbstractDef implements IXml<PageDef> {
         newOne.setPageStartNumberInPdf(0);
         newOne.pageEndNumberInPdf = 0;
         newOne.pageDefRenderer     = this.pageDefRenderer;
+        newOne.visible = visible;
 
         Set<String> keys = this.properties.keySet();
         for (String key : keys) {

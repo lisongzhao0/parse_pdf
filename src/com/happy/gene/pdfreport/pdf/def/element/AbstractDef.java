@@ -6,6 +6,7 @@ import com.happy.gene.pdfreport.pdf.def.PageDef;
 import com.happy.gene.pdfreport.pdf.util.StringUtil;
 import com.happy.gene.pdfreport.pdf.util.XmlDataParser;
 import com.happy.gene.pdfreport.pdf.util.ColorUtil;
+import com.happy.gene.pdfreport.pdf.util.NumberUtil;
 import com.happy.gene.pdfreport.pdf.util.ParametersUtil;
 import com.itextpdf.layout.Document;
 
@@ -14,31 +15,26 @@ import com.itextpdf.layout.Document;
  */
 public abstract class AbstractDef implements IZOrder, Cloneable, IDrawable {
 
-    int                     zOrder          = 0;
-    String                  catalog         = "";
-    int                     pageStartNumberInPdf = 0;
-    String                  visible         = "true";
+    protected int           zOrder          = 0;
+    protected String        catalog         = "";
+    protected int           pageStartNumberInPdf = 0;
+    protected String        visible         = "true";
 
     private ColorUtil       colorUtil       = ColorUtil.getInstance();
     private ParametersUtil  parametersUtil  = ParametersUtil.getInstance();
     private XmlDataParser   xmlDataParser   = XmlDataParser.getInstance();
 	private StringUtil      stringUtil      = StringUtil.newInstance();
+	private NumberUtil      numberUtil      = NumberUtil.newInstance();
 
 
     public AbstractDef() {}
 
-    public ColorUtil getColorUtil() {
-        return colorUtil;
-    }
-    public ParametersUtil getParametersUtil() {
-        return parametersUtil;
-    }
-    public XmlDataParser getXmlDataParser() {
-        return xmlDataParser;
-    }
-    public StringUtil getStringUtil() {
-        return stringUtil;
-    }
+
+    public ColorUtil getColorUtil() { return colorUtil; }
+    public ParametersUtil getParametersUtil() { return parametersUtil; }
+    public XmlDataParser getXmlDataParser() { return xmlDataParser; }
+    public StringUtil getStringUtil() { return stringUtil; }
+    public NumberUtil getNumberUtil() { return numberUtil; }
 
     public Object generate(Document pdf, PageDef pageDef) throws Exception {
         return null;
@@ -55,7 +51,7 @@ public abstract class AbstractDef implements IZOrder, Cloneable, IDrawable {
     public void setCatalog(String catalog) { this.catalog = catalog; }
 
     public boolean isVisible() {
-        boolean not = false;
+/*        boolean not = false;
         if (null!=visible && visible.toLowerCase().contains("not")) {
             not = true;
         }
@@ -64,7 +60,8 @@ public abstract class AbstractDef implements IZOrder, Cloneable, IDrawable {
         }
         else {
             return Boolean.parseBoolean(getParametersUtil().replaceParameter(this.visible));
-        }
+        }*/
+        return Boolean.parseBoolean(getParametersUtil().replaceParameter(this.visible));
     }
     public void setVisible(String visible) { this.visible = visible; }
 

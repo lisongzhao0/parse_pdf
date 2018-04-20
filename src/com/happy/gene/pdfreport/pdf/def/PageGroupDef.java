@@ -43,6 +43,23 @@ public class PageGroupDef extends AbstractDef implements IXml<PageGroupDef> {
         }
     }
 
+    public boolean isCatalogMatch(String catalog) {
+        String grpCatalog = getProperty("catalog");
+        if (grpCatalog instanceof String && catalog instanceof String) {
+            grpCatalog = grpCatalog.trim();
+            catalog    = catalog.trim();
+            if (grpCatalog.length()!=catalog.length()) { return false; }
+            for (int idx=0, size=catalog.length(); idx<size; idx++) {
+                char grpCC = grpCatalog.charAt(idx);
+                char ctlC  = catalog.charAt(idx);
+                if (grpCC=='x' || grpCC=='X') { continue; }
+                if (ctlC!=grpCC) { return false; }
+            }
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public PageGroupDef parseElement(Element element) {
         if (null==element) {

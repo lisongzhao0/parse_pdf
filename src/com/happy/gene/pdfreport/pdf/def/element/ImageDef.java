@@ -142,19 +142,19 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
                 return null;
             }
 
-            String outFilePath = System.getenv("HOME") + "/tmp/" + System.nanoTime();
+//            String outFilePath = System.getenv("HOME") + "/tmp/" + System.nanoTime();
 //            Thumbnails.of(tmpValue).scale(0.25).toFile(outFilePath);
 
 
             Image image = null;
-            BufferedImage bufferedImage = zoomImage(tmpValue, 0.26f);
-            if (null!=bufferedImage) {
-                ImageIO.write(bufferedImage, tmpValue.substring(tmpValue.lastIndexOf(".") + 1), new File(outFilePath));
-                image = new Image(ImageDataFactory.create(outFilePath, false));
-            }
-            else {
+//            BufferedImage bufferedImage = zoomImage(tmpValue, 1f);
+//            if (null!=bufferedImage) {
+//                ImageIO.write(bufferedImage, tmpValue.substring(tmpValue.lastIndexOf(".") + 1), new File(outFilePath));
+//                image = new Image(ImageDataFactory.create(outFilePath, false));
+//            }
+//            else {
                 image = new Image(ImageDataFactory.create(tmpValue, false));
-            }
+//            }
             image.setFixedPosition(pdf.getPdfDocument().getPageNumber(page), x, y);
             image.setOpacity(opacity);
             if ("a".equalsIgnoreCase(fit)) {
@@ -198,6 +198,7 @@ public class ImageDef extends AbstractDef implements IXml<ImageDef>, IPosition<I
      */
     public BufferedImage zoomImage(String src, float fResizeTimes) {
         BufferedImage result = null;
+        System.out.println("创建缩略图, rate=" + fResizeTimes + " image=" + src);
         try {
             System.out.println(src);
             File srcfile = new File(src);

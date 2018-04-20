@@ -27,6 +27,8 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
     private List<AbstractDef>  renderAfter   = new ArrayList<>();
     private DataTable.Row      row = null;
     private String             condition = null;
+    private int                renderBeforeStartRowIndex = 0;
+    private int                currentRowIndex = 0;
 
     public RowDef(VerticalTableDef table) {
         this.table = table;
@@ -76,7 +78,7 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
                 return false;
             }
             DataTable.Cell cell = row.getCell(colIndex);
-            return split[1].equalsIgnoreCase(cell.getValue());
+            return split[1].equalsIgnoreCase(null==cell ? "" : cell.getValue());
         }
         else if (condition.contains("!=")) {
             String split[] = condition.split("!=");
@@ -90,7 +92,7 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
             }
 
             DataTable.Cell cell = row.getCell(colIndex);
-            return !split[1].equalsIgnoreCase(cell.getValue());
+            return !split[1].equalsIgnoreCase(null==cell ? "" : cell.getValue());
         }
         return false;
     }
@@ -145,6 +147,9 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
 
 
         this.condition = element.attributeValue("condition");
+        String   renderBeforeStartRowIndex = element.attributeValue("render_before_start_row_index");
+        Integer iRenderBeforeStartRowIndex = getNumberUtil().parseInteger(renderBeforeStartRowIndex);
+        this.renderBeforeStartRowIndex = null==iRenderBeforeStartRowIndex ? 0 : iRenderBeforeStartRowIndex;
 
         DefFactory defFactory = DefFactory.getIntance();
         List<Element> subEle = element.elements();
@@ -174,6 +179,10 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
         return this;
     }
 
+    public void setCurrentGenerateRowIndex(int rowIndex) {
+        currentRowIndex = rowIndex;
+    }
+
     public Object generate(Document pdf, PageDef pageDef) throws Exception {
         PdfPage page = pdf.getPdfDocument().getLastPage();
         if (null!=getTable() && null!=getComponentsArea()) {
@@ -185,29 +194,31 @@ public class RowDef extends AbstractDef implements IXml<RowDef> {
 
             float x = getTable().getX();
             float y = getTable().lastY();
-            float[] minYMaxY = getMinMaxY(renderBefore);
 
-            if (null!=minYMaxY) {
-                float deltaY = y - (rowHeight - (minYMaxY[1]-minYMaxY[0]))/2f;
-                deltaY = deltaY - minYMaxY[1];
-                for (int i = 0; !renderBefore.isEmpty() && i < renderBefore.size(); i ++) {
-                    AbstractDef tmp = renderBefore.get(i);
-                    if (tmp instanceof RectDef) {
-                        ((RectDef) tmp).translate(0, deltaY);
-                        ((RectDef) tmp).generate(pdf, pageDef);
-                    }
-                    if (tmp instanceof CircleDef) {
-                        ((CircleDef) tmp).translate(0, deltaY);
-                        ((CircleDef) tmp).generate(pdf, pageDef);
-                    }
-                    if (tmp instanceof PathDef) {
-                        ((PathDef) tmp).translate(0, deltaY);
-                        ((PathDef) tmp).generate(pdf, pageDef);
-                    }
-                    if (tmp instanceof AreaDef) {
-                        float areaDeltaY = y - ((AreaDef) tmp).getY();
-                        ((AreaDef) tmp).translate(0, areaDeltaY);
-                        ((AreaDef) tmp).generate(pdf, pageDef);
+            if (currentRowIndex>=renderBeforeStartRowIndex) {
+                float[] minYMaxY = getMinMaxY(renderBefore);
+                if (null!=minYMaxY) {
+                    float deltaY = y - (rowHeight - (minYMaxY[1]-minYMaxY[0]))/2f;
+                    deltaY = deltaY - minYMaxY[1];
+                    for (int i = 0; !renderBefore.isEmpty() && i < renderBefore.size(); i ++) {
+                        AbstractDef tmp = renderBefore.get(i);
+                        if (tmp instanceof RectDef) {
+                            ((RectDef) tmp).translate(0, deltaY);
+                            ((RectDef) tmp).generate(pdf, pageDef);
+                        }
+                        if (tmp instanceof CircleDef) {
+                            ((CircleDef) tmp).translate(0, deltaY);
+                            ((CircleDef) tmp).generate(pdf, pageDef);
+                        }
+                        if (tmp instanceof PathDef) {
+                            ((PathDef) tmp).translate(0, deltaY);
+                            ((PathDef) tmp).generate(pdf, pageDef);
+                        }
+                        if (tmp instanceof AreaDef) {
+                            float areaDeltaY = y - ((AreaDef) tmp).getY();
+                            ((AreaDef) tmp).translate(0, areaDeltaY);
+                            ((AreaDef) tmp).generate(pdf, pageDef);
+                        }
                     }
                 }
             }

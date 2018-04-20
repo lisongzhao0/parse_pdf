@@ -484,13 +484,29 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
                 tmpFont = getPdfFont(part.font);
             }
             if (null!=tmpFont         ) { line.setFont(tmpFont); }
-            if (null!=part.fontColor  ) { line.setFontColor(part.fontColor); }
+            if (null!=part.fontColor  ) {
+                Color  clr = null;
+                String clrString = part.fontColor;
+                if (null!=clrString && clrString.indexOf('$')>=0) {
+                    clrString = getParametersUtil().replaceParameter(clrString);
+                }
+                clr = getColorUtil().parseColor(clrString, null);
+                line.setFontColor(clr);
+            }
             if (null!=part.fontSize   ) { line.setFontSize(part.fontSize); }
             if (null!=part.fontOpacity) { line.setOpacity(part.fontOpacity); }
             if (null!=part.charSpacing) { line.setCharacterSpacing(part.charSpacing);}
             if (null!=part.wordSpacing) { line.setWordSpacing(part.wordSpacing);}
             if (null!=part.textRise   ) { line.setTextRise(part.textRise);}
-            if (null!=part.background ) { line.setBackgroundColor(part.background);}
+            if (null!=part.background ) {
+                Color  clr = null;
+                String clrString = part.background;
+                if (null!=clrString && clrString.indexOf('$')>=0) {
+                    clrString = getParametersUtil().replaceParameter(clrString);
+                }
+                clr = getColorUtil().parseColor(clrString, null);
+                line.setBackgroundColor(clr);
+            }
             if (null!=part.bold      && part.bold) { line.setBold(); }
             if (null!=part.italic    && part.italic   ) { line.setItalic(); }
             if (null!=part.underline && part.underline) { line.setUnderline(); }
@@ -679,8 +695,8 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
         private Float   width;
         private String  font;
         private Float   fontOpacity;
-        private Color   fontColor;
-        private Color   background;
+        private String  fontColor;
+        private String  background;
         private Float   fontSize;
         private Float   lineLeading;
         private Float   charSpacing;
@@ -746,8 +762,8 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             }
             else {
                 style.font      = element.attributeValue("font");
-                style.fontColor = colorUtil.parseColor(element.attributeValue("font_color"), null);
-                style.background= colorUtil.parseColor(element.attributeValue("background"), null);
+                style.fontColor = element.attributeValue("font_color");
+                style.background= element.attributeValue("background");
                 style.bold      = Boolean.parseBoolean(element.attributeValue("bold"));
                 style.italic    = Boolean.parseBoolean(element.attributeValue("italic"));
                 style.underline = Boolean.parseBoolean(element.attributeValue("underline"));
@@ -768,6 +784,9 @@ public class ParagraphDef extends AbstractDef implements IXml<ParagraphDef>, IPo
             }
             if (null!=style.value && style.value.contains("®")) {
                 style.value.replace('®', '\u00ae');
+            }
+            if (null!=style.value && style.value.indexOf('$')>=0) {
+                style.value = ParametersUtil.getInstance().replaceParameter(style.value);
             }
             return style;
         }

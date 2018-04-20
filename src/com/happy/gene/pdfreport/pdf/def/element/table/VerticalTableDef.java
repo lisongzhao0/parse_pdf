@@ -152,6 +152,9 @@ public class VerticalTableDef extends AbstractDef implements IXml<VerticalTableD
     }
 
     public String getHeaderSplitLineColor() {
+        if (null!=headerSplitLineColor && headerSplitLineColor.indexOf('$')>=0) {
+            return ParametersUtil.getInstance().replaceParameter(headerSplitLineColor);
+        }
         return headerSplitLineColor;
     }
     public VerticalTableDef setHeaderSplitLineColor(String headerSplitLineColor) {
@@ -358,6 +361,7 @@ public class VerticalTableDef extends AbstractDef implements IXml<VerticalTableD
                 }
                 if (null!=table) {
                     rowDef.setRow(table.getRows().get(i));
+                    rowDef.setCurrentGenerateRowIndex(i);
                 }
 
                 if (null==rowDef) {

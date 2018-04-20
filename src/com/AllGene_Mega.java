@@ -101,6 +101,7 @@ public class AllGene_Mega {
                     PageGroupDef pageGroup = ((PageGroupDef) tmp).clone();
                     String catalog = groupData.getProperty("catalog");
                     String needReplaceCatalog = pageGroup.getProperty("catalog");
+                    if (!pageGroup.isCatalogMatch(catalog)) { continue; }
                     List<AbstractDef> components = pageGroup.getComponents();
                     for (AbstractDef def : components) {
                         if (!(def instanceof PageDef)) {
