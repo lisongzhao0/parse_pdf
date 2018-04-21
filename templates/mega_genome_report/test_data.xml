@@ -470,7 +470,7 @@
         <parameter id="gaiShuFengXianYuFangJianYi" value="">
 <![CDATA[
 <style font_size="12">根据肿瘤致病基因和风险基因的检测结果，您有结直肠癌的致病基因检出阳性</style><br/>
-<style font_size="12">风险基因评分均 &lt;1.5</style><br/>
+<style font_size="12">风险基因评分均 > 1.5</style><br/>
 <style font_size="12">您的主要肿瘤风险为：</style>
 <style font="fzlthjw" font_size="12" font_color="#738c34" bold="true">结直肠癌。</style> <br/>
 <style font_size="12">请参考如下建议：</style><br/>
@@ -2163,6 +2163,461 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        sports movement effect
+        lose weight
+
+
+        <table id="allLoseWeightGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="咖啡因摄入"/>
+                <cell row="1"  column="0" value="咖啡因敏感"/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value="咖啡因代谢"/>
+                <cell row="4"  column="0" value="酒精代谢能力"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value="碳水化合物摄入能力"/>
+
+                <cell row="0"  column="1" value="rs4410790"/>
+                <cell row="1"  column="1" value="rs2298383"/>
+                <cell row="2"  column="1" value="rs5751876"/>
+                <cell row="3"  column="1" value="rs762551"/>
+                <cell row="4"  column="1" value="rs671"/>
+                <cell row="5"  column="1" value="rs1229984"/>
+                <cell row="6"  column="1" value="rs5082"/>
+
+                <cell row="0"  column="2" value="TC"/>
+                <cell row="1"  column="2" value="TC"/>
+                <cell row="2"  column="2" value="TC"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="GG"/>
+                <cell row="5"  column="2" value="TC"/>
+                <cell row="6"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="应小于 258mg 每天"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value="正常"/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value="倾向摄入高碳水化合物"/>
+            </rows>
+        </table>
+        <table id="allSportAbilityGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="咖啡因摄入"/>
+                <cell row="1"  column="0" value="咖啡因敏感"/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value="咖啡因代谢"/>
+                <cell row="4"  column="0" value="酒精代谢能力"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value="碳水化合物摄入能力"/>
+
+                <cell row="0"  column="1" value="rs4410790"/>
+                <cell row="1"  column="1" value="rs2298383"/>
+                <cell row="2"  column="1" value="rs5751876"/>
+                <cell row="3"  column="1" value="rs762551"/>
+                <cell row="4"  column="1" value="rs671"/>
+                <cell row="5"  column="1" value="rs1229984"/>
+                <cell row="6"  column="1" value="rs5082"/>
+
+                <cell row="0"  column="2" value="TC"/>
+                <cell row="1"  column="2" value="TC"/>
+                <cell row="2"  column="2" value="TC"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="GG"/>
+                <cell row="5"  column="2" value="TC"/>
+                <cell row="6"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="应小于 258mg 每天"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value="正常"/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value="倾向摄入高碳水化合物"/>
+            </rows>
+        </table>
+        <table id="allSportEffectGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="咖啡因摄入"/>
+                <cell row="1"  column="0" value="咖啡因敏感"/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value="咖啡因代谢"/>
+                <cell row="4"  column="0" value="酒精代谢能力"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value="碳水化合物摄入能力"/>
+
+                <cell row="0"  column="1" value="rs4410790"/>
+                <cell row="1"  column="1" value="rs2298383"/>
+                <cell row="2"  column="1" value="rs5751876"/>
+                <cell row="3"  column="1" value="rs762551"/>
+                <cell row="4"  column="1" value="rs671"/>
+                <cell row="5"  column="1" value="rs1229984"/>
+                <cell row="6"  column="1" value="rs5082"/>
+
+                <cell row="0"  column="2" value="TC"/>
+                <cell row="1"  column="2" value="TC"/>
+                <cell row="2"  column="2" value="TC"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="GG"/>
+                <cell row="5"  column="2" value="TC"/>
+                <cell row="6"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="应小于 258mg 每天"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value="正常"/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value="倾向摄入高碳水化合物"/>
+            </rows>
+        </table>
+        <table id="allResistDamageGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="咖啡因摄入"/>
+                <cell row="1"  column="0" value="咖啡因敏感"/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value="咖啡因代谢"/>
+                <cell row="4"  column="0" value="酒精代谢能力"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value="碳水化合物摄入能力"/>
+
+                <cell row="0"  column="1" value="rs4410790"/>
+                <cell row="1"  column="1" value="rs2298383"/>
+                <cell row="2"  column="1" value="rs5751876"/>
+                <cell row="3"  column="1" value="rs762551"/>
+                <cell row="4"  column="1" value="rs671"/>
+                <cell row="5"  column="1" value="rs1229984"/>
+                <cell row="6"  column="1" value="rs5082"/>
+
+                <cell row="0"  column="2" value="TC"/>
+                <cell row="1"  column="2" value="TC"/>
+                <cell row="2"  column="2" value="TC"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="GG"/>
+                <cell row="5"  column="2" value="TC"/>
+                <cell row="6"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="应小于 258mg 每天"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value="正常"/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value="倾向摄入高碳水化合物"/>
+            </rows>
+        </table>
+        <table id="allSkinGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="咖啡因摄入"/>
+                <cell row="1"  column="0" value="咖啡因敏感"/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value="咖啡因代谢"/>
+                <cell row="4"  column="0" value="酒精代谢能力"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value="碳水化合物摄入能力"/>
+
+                <cell row="0"  column="1" value="rs4410790"/>
+                <cell row="1"  column="1" value="rs2298383"/>
+                <cell row="2"  column="1" value="rs5751876"/>
+                <cell row="3"  column="1" value="rs762551"/>
+                <cell row="4"  column="1" value="rs671"/>
+                <cell row="5"  column="1" value="rs1229984"/>
+                <cell row="6"  column="1" value="rs5082"/>
+
+                <cell row="0"  column="2" value="TC"/>
+                <cell row="1"  column="2" value="TC"/>
+                <cell row="2"  column="2" value="TC"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="GG"/>
+                <cell row="5"  column="2" value="TC"/>
+                <cell row="6"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="应小于 258mg 每天"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value="正常"/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value="倾向摄入高碳水化合物"/>
+            </rows>
+        </table>
+        <table id="allDrinkGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="咖啡因摄入"/>
+                <cell row="1"  column="0" value="咖啡因敏感"/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value="咖啡因代谢"/>
+                <cell row="4"  column="0" value="酒精代谢能力"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value="碳水化合物摄入能力"/>
+
+                <cell row="0"  column="1" value="rs4410790"/>
+                <cell row="1"  column="1" value="rs2298383"/>
+                <cell row="2"  column="1" value="rs5751876"/>
+                <cell row="3"  column="1" value="rs762551"/>
+                <cell row="4"  column="1" value="rs671"/>
+                <cell row="5"  column="1" value="rs1229984"/>
+                <cell row="6"  column="1" value="rs5082"/>
+
+                <cell row="0"  column="2" value="TC"/>
+                <cell row="1"  column="2" value="TC"/>
+                <cell row="2"  column="2" value="TC"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="GG"/>
+                <cell row="5"  column="2" value="TC"/>
+                <cell row="6"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="应小于 258mg 每天"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value="正常"/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value="倾向摄入高碳水化合物"/>
+            </rows>
+        </table>
+        <table id="allSportNutritionGeneTable">
+            <headers>
+                <header column="0" value="项目"/>
+                <header column="1" value="位点"/>
+                <header column="2" value="基因型"/>
+                <header column="3" value="提示建议"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="钙吸收能力"/>
+                <cell row="1"  column="0" value="铁吸收能力"/>
+                <cell row="2"  column="0" value="VD 吸收能力"/>
+                <cell row="3"  column="0" value=""/>
+                <cell row="4"  column="0" value="VB12 吸收能力"/>
+                <cell row="5"  column="0" value="叶酸（VB9）吸收能力力"/>
+                <cell row="6"  column="0" value=""/>
+                <cell row="7"  column="0" value="VA 吸收能力"/>
+                <cell row="8"  column="0" value="DHA 吸收能力"/>
+
+                <cell row="0"  column="1" value="rs21648000"/>
+                <cell row="1"  column="1" value="rs21648001"/>
+                <cell row="2"  column="1" value="rs21648002"/>
+                <cell row="3"  column="1" value="rs21648003"/>
+                <cell row="4"  column="1" value="rs21648004"/>
+                <cell row="5"  column="1" value="rs21648005"/>
+                <cell row="6"  column="1" value="rs21648006"/>
+                <cell row="7"  column="1" value="rs21648007"/>
+                <cell row="8"  column="1" value="rs21648008"/>
+
+                <cell row="0"  column="2" value="AA"/>
+                <cell row="1"  column="2" value="AA"/>
+                <cell row="2"  column="2" value="AA"/>
+                <cell row="3"  column="2" value="AA"/>
+                <cell row="4"  column="2" value="*1,*2,*3,*4,*10,*41"/>
+                <cell row="5"  column="2" value="CC"/>
+                <cell row="6"  column="2" value="AA"/>
+                <cell row="7"  column="2" value="AA"/>
+                <cell row="8"  column="2" value="AA"/>
+
+                <cell row="0"  column="3" value="吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充吸收利用较弱，注意补充"/>
+                <cell row="1"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="2"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="3"  column="3" value=" "/>
+                <cell row="4"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="5"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="6"  column="3" value=" "/>
+                <cell row="7"  column="3" value="吸收利用较弱，注意补充"/>
+                <cell row="8"  column="3" value="吸收利用较弱，注意补充"/>
+            </rows>
+        </table>
+        <table id="allMedicineGeneTable">
+            <headers>
+                <header column="0" value="药物类型"/>
+                <header column="1" value="有效成分"/>
+                <header column="2" value="结果"/>
+                <header column="3" value="详解页码"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="降压药"/>
+                <cell row="1"  column="0" value=" "/>
+                <cell row="2"  column="0" value=" "/>
+                <cell row="3"  column="0" value=" "/>
+                <cell row="4"  column="0" value="降糖药"/>
+                <cell row="5"  column="0" value=" "/>
+                <cell row="6"  column="0" value=" "/>
+                <cell row="7"  column="0" value="抗凝药"/>
+
+                <cell row="0"  column="1" value="贝塔受体阻滞剂/阿替洛尔"/>
+                <cell row="1"  column="1" value="贝塔受体阻滞剂/美托洛尔"/>
+                <cell row="2"  column="1" value="钙通道阻滞剂"/>
+                <cell row="3"  column="1" value="利尿剂"/>
+                <cell row="4"  column="1" value="二甲双胍"/>
+                <cell row="5"  column="1" value="磺脲类"/>
+                <cell row="6"  column="1" value="噻唑烷二酮类"/>
+                <cell row="7"  column="1" value="华法林"/>
+
+                <cell row="0"  column="2" value="副作用风险中等"/>
+                <cell row="1"  column="2" value="药效较差"/>
+                <cell row="2"  column="2" value="药效较差"/>
+                <cell row="3"  column="2" value="药效较差"/>
+                <cell row="4"  column="2" value="药效较差"/>
+                <cell row="5"  column="2" value="药效正常"/>
+                <cell row="6"  column="2" value="药效较差"/>
+                <cell row="7"  column="2" value="建议用量 2.2-4.4mg/天"/>
+
+                <cell row="0"  column="3" value="$page0"/>
+                <cell row="1"  column="3" value=" "/>
+                <cell row="2"  column="3" value=" "/>
+                <cell row="3"  column="3" value=" "/>
+                <cell row="4"  column="3" value="400"/>
+                <cell row="5"  column="3" value=" "/>
+                <cell row="6"  column="3" value=" "/>
+                <cell row="7"  column="3" value="408"/>
+            </rows>
+        </table>
+
+
+
+        <parameter id="yourSummaryDiseaseCount" value="60"/>
+        <table id="summaryDiseaseRiskValueTable">
+            <headers>
+                <header column="0" value="疾病"/>
+                <header column="1" value="您的结果"/>
+                <header column="2" value="相对风险评分"/>
+                <header column="3" value="详解页码"/>
+            </headers>
+            <rows>
+                <cell row="0"  column="0" value="淋巴瘤"/>
+                <cell row="1"  column="0" value="哮喘"/>
+                <cell row="2"  column="0" value="甲状腺机能亢进"/>
+                <cell row="3"  column="0" value="强直性脊柱炎"/>
+                <cell row="4"  column="0" value="甲状腺机能减退"/>
+                <cell row="5"  column="0" value="过敏性鼻炎"/>
+                <cell row="6"  column="0" value="类风湿性关节炎"/>
+                <cell row="7"  column="0" value="原发性胆汁性肝硬化"/>
+                <cell row="8"  column="0" value="系统性红斑狼疮"/>
+                <cell row="9"  column="0" value="克罗恩氏病"/>
+
+                <cell row="0"  column="1" value="9.44"/>
+                <cell row="1"  column="1" value="1.83"/>
+                <cell row="2"  column="1" value="1.19"/>
+                <cell row="3"  column="1" value="1.14"/>
+                <cell row="4"  column="1" value="1.12"/>
+                <cell row="5"  column="1" value="0.86"/>
+                <cell row="6"  column="1" value="0.61"/>
+                <cell row="7"  column="1" value="0.55"/>
+                <cell row="8"  column="1" value="0.3"/>
+                <cell row="9"  column="1" value="0.2"/>
+
+                <cell row="0"  column="2" value="9.44"/>
+                <cell row="1"  column="2" value="1.83"/>
+                <cell row="2"  column="2" value="1.19"/>
+                <cell row="3"  column="2" value="1.14"/>
+                <cell row="4"  column="2" value="1.12"/>
+                <cell row="5"  column="2" value="0.86"/>
+                <cell row="6"  column="2" value="0.61"/>
+                <cell row="7"  column="2" value="0.55"/>
+                <cell row="8"  column="2" value="0.3"/>
+                <cell row="9"  column="2" value="0.2"/>
+
+                <cell row="0"  column="3" value="$page0"/>
+                <cell row="1"  column="3" value="$page1"/>
+                <cell row="2"  column="3" value="$page2"/>
+                <cell row="3"  column="3" value="$page3"/>
+                <cell row="4"  column="3" value="$page4"/>
+                <cell row="5"  column="3" value="$page5"/>
+                <cell row="6"  column="3" value="$page6"/>
+                <cell row="7"  column="3" value="$page7"/>
+                <cell row="8"  column="3" value="$page8"/>
+                <cell row="9"  column="3" value="$page9"/>
+            </rows>
+        </table>
+
+
+
         <parameter id="yourTumorsCount" value="20"/>
         <table id="tumorsRiskValueTable">
             <headers>
@@ -2171,7 +2626,7 @@
                 <header column="2" value="相对风险评分"/>
             </headers>
             <rows>
-                <cell row="0"  column="0" value="基底细胞癌"/>
+                <cell row="0"  column="0" value="淋巴瘤"/>
                 <cell row="1"  column="0" value="哮喘"/>
                 <cell row="2"  column="0" value="甲状腺机能亢进"/>
                 <cell row="3"  column="0" value="强直性脊柱炎"/>
@@ -2205,7 +2660,7 @@
                 <cell row="9"  column="2" value="0.2"/>
             </rows>
         </table>
-        <group order="30030001" id="catalog_30030001_1" value="3 1" catalog="3 1">
+        <group order="100030001" id="catalog_100030001_1" value="10 1" catalog="10 1">
             <parameter id="diseaseName" value="淋巴瘤"/>
             <parameter id="diseaseRiskValue" value="1.40"/>
             <parameter id="diseaseRiskValueDescription" value="与东亚人群相比,您患淋巴瘤的相对风险增加40.27%,是普通人的1.40 倍。"/>
@@ -2214,50 +2669,49 @@
             <parameter id="diseaseSummary" value="">
                 <![CDATA[淋巴瘤是起源于淋巴造血系统的恶性肿瘤，好发于淋巴结。由于淋巴系统的分布特点，使得淋巴瘤属于全身性疾病，几乎可以侵犯到全身任何组织和器官。主要表现为无痛性淋巴结肿大，肝脾肿大，全身各组织器官均可受累，伴发热、盗汗、消瘦、瘙痒等全身症状。<br/>
 淋巴瘤恶性程度相对较低，有效治疗后的 5 年生存率可达 69% ~ 85% 。<br/>据报道，我国各地区淋巴瘤的发病率在各种肿瘤中占第十位。<br/><br/>
-<style font='fzltchjw' font_color='#607b3f' font_size='14'>危险因素</style><br/>
-<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>病毒因素：</style><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>危险因素</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>病毒因素：</style><br/>
 EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风险因素<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>化学因素：</style><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>化学因素：</style><br/>
 长期接触农业除草剂的人群淋巴瘤发生率高于一般人群<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>放射因素：</style><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>放射因素：</style><br/>
 各种电离辐射可以引起人类淋巴瘤。小剂量辐射能否引起淋巴瘤仍不确定。经常接触放射线物质（如钴-60）者淋巴瘤发病率明显增加。大剂量放射线诊断和治疗可使淋巴瘤发生率增高<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>遗传因素：</style><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>遗传因素：</style><br/>
 淋巴瘤在某些家族中有聚集性，目前已经发现若干与家族性淋巴瘤发生相关的致病基因<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>免疫：</style><br/>
-·<style font_color='#607b3f'>免疫缺陷</style> HIV感染导致的免疫缺陷患者淋巴瘤发病率显著升高<br/>
-·<style font_color='#607b3f'>自身免疫</style> 如类风湿性关节炎、系统性红斑狼疮、皮肌炎、多发性肌炎、干燥综合征等患病者，淋巴瘤的发生率高出正常人群数倍<br/>
-·<style font_color='#607b3f'>免疫抑制</style> 放疗后及长期应用化疗药或免疫抑制剂的病人，包括肿瘤、自身免疫性疾病及器官移植患者，由于细胞免疫被抑制，其淋巴瘤的发生率也明显高于正常人群<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>环境：</style><br/>
-·<style font_color='#607b3f'>射线</style> 从事放射科学工作者的淋巴瘤发生率是正常人群的 5 ～ 10 倍。为诊断目的进行有关的放射线检查（如 X 线摄片及 CT 检查），通常无致淋巴瘤的危险。但妊娠期间应避免进行含放射线的有关检查<br/>
-·<style font_color='#607b3f'>化学物质</style> 农业用除草剂、染发剂已被列为环境致癌剂<br/>
-·<style font_color='#607b3f'>生活方式</style> <br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>免疫：</style><br/>
+·<style font_color='$mainColor'>免疫缺陷</style> HIV感染导致的免疫缺陷患者淋巴瘤发病率显著升高<br/>
+·<style font_color='$mainColor'>自身免疫</style> 如类风湿性关节炎、系统性红斑狼疮、皮肌炎、多发性肌炎、干燥综合征等患病者，淋巴瘤的发生率高出正常人群数倍<br/>
+·<style font_color='$mainColor'>免疫抑制</style> 放疗后及长期应用化疗药或免疫抑制剂的病人，包括肿瘤、自身免疫性疾病及器官移植患者，由于细胞免疫被抑制，其淋巴瘤的发生率也明显高于正常人群<br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>环境：</style><br/>
+·<style font_color='$mainColor'>射线</style> 从事放射科学工作者的淋巴瘤发生率是正常人群的 5 ～ 10 倍。为诊断目的进行有关的放射线检查（如 X 线摄片及 CT 检查），通常无致淋巴瘤的危险。但妊娠期间应避免进行含放射线的有关检查<br/>
+·<style font_color='$mainColor'>化学物质</style> 农业用除草剂、染发剂已被列为环境致癌剂<br/>
+·<style font_color='$mainColor'>生活方式</style> <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长期吸烟及大量食用红肉与淋巴瘤发生密切相关<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;隆胸会增加胸部淋巴结发生淋巴瘤的风险<br/><br/>
-<style font='fzltchjw' font_color='#607b3f' font_size='14'>高危人群</style><br/>
-<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（a）</style>曾受到过辐射（X线或伽马射线）者<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（b）</style>长期接触染发剂，尤其儿童、老年人与怀孕妇女<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（c）</style>长期接触农业除草剂者<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（d）</style>EB病毒，HIV病毒感染患者<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（e）</style>自身免疫病患者<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（f）</style>具有淋巴瘤家族史者<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（g）</style>长期吸烟者<br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>（h）</style>隆胸并伴有免疫功能异常者<br/><br/>
-<style font='fzltchjw' font_color='#607b3f' font_size='14'>如何预防</style><br/>
-<style font_color='#607b3f' font_size='5'>______________________________________________________________________________</style><br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>合理饮食：</style><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>高危人群</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（a）</style>曾受到过辐射（X线或伽马射线）者<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（b）</style>长期接触染发剂，尤其儿童、老年人与怀孕妇女<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（c）</style>长期接触农业除草剂者<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（d）</style>EB病毒，HIV病毒感染患者<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（e）</style>自身免疫病患者<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（f）</style>具有淋巴瘤家族史者<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（g）</style>长期吸烟者<br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>（h）</style>隆胸并伴有免疫功能异常者<br/><br/>
+<style font='fzltchjw' font_color='$mainColor' font_size='14'>如何预防</style><br/>
+<style font_color='$mainColor' font_size='5'>______________________________________________________________________________</style><br/><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>合理饮食：</style><br/>
 饮食上避免过量红肉摄入，少食油炸肥腻的食物和腌菜以及熏烤的鱼、肉等，多吃新鲜水果蔬菜，不抽烟，少喝酒。水果蔬菜一定要反复清洗，尽量将残留的各种农药洗净<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>坚持锻炼：</style><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>坚持锻炼：</style><br/>
 长期、规律的锻炼（如跑步、游泳、气功、打太极拳等）能显著增强人体各脏器的功能，并保持乐观的性格，提高机体免疫力<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>避免接触特殊化学物质：</style><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>避免接触特殊化学物质：</style><br/>
 染发剂亦可引发淋巴瘤，用时需谨慎<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>远离电磁场、减少接触放射线：</style><br/>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>远离电磁场、减少接触放射线：</style><br/>
 ·从事放射线工作者淋巴瘤发病率均高，故上述人群应特别注意加强个人防护<br/>
 ·婴幼儿及孕妇对放射线较敏感，故应减少接触放射线（偶尔的、医疗上的X线检查，基本上不会对身体造成影响）<br/><br/>
-<style font_color='#607b3f' font_size='12' bold='true' line_leading='4'>出现淋巴瘤早期信号，应及时检查：</style><br/>
-淋巴瘤早期信号包括：发热、瘙痒、盗汗、消瘦等全身症状；贫血、白细胞计数、血小板增多，血沉增快等血常规异常；红斑、水疱、糜烂等皮肤损伤；浅表及深部淋巴结肿大。一旦出现上述早期信号，尽早就医，做血常规检查
-]]>
+<style font_color='$mainColor' font_size='12' bold='true' line_leading='4'>出现淋巴瘤早期信号，应及时检查：</style><br/>
+淋巴瘤早期信号包括：发热、瘙痒、盗汗、消瘦等全身症状；贫血、白细胞计数、血小板增多，血沉增快等血常规异常；红斑、水疱、糜烂等皮肤损伤；浅表及深部淋巴结肿大。一旦出现上述早期信号，尽早就医，做血常规检查]]>
             </parameter>
             <table id="diseaseRiskGeneTable">
                 <headers>
@@ -2443,6 +2897,47 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                     <cell row="27"  column="4" value="0.95"/>
                 </rows>
             </table>
+            <table id="diseaseCausalGeneTable">
+                <headers>
+                    <header column="0" value="基因名称"/>
+                    <header column="1" value="检测点位数"/>
+                    <header column="2" value="变异点位"/>
+                    <header column="3" value="检测结果"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="ATM"/>
+                    <cell row="1"  column="0" value="BARD1"/>
+                    <cell row="2"  column="0" value="BRCA1"/>
+                    <cell row="3"  column="0" value="BRCA2"/>
+                    <cell row="4"  column="0" value="BRIP1"/>
+                    <cell row="5"  column="0" value="CDH1"/>
+                    <cell row="6"  column="0" value="CHEK2"/>
+
+                    <cell row="0"  column="1" value="150"/>
+                    <cell row="1"  column="1" value="14"/>
+                    <cell row="2"  column="1" value="320"/>
+                    <cell row="3"  column="1" value="382"/>
+                    <cell row="4"  column="1" value="37"/>
+                    <cell row="5"  column="1" value="9"/>
+                    <cell row="6"  column="1" value="40"/>
+
+                    <cell row="0"  column="2" value="无"/>
+                    <cell row="1"  column="2" value="无"/>
+                    <cell row="2"  column="2" value="rs77542170"/>
+                    <cell row="3"  column="2" value="无"/>
+                    <cell row="4"  column="2" value="rs77542170"/>
+                    <cell row="5"  column="2" value="无"/>
+                    <cell row="6"  column="2" value="无"/>
+
+                    <cell row="0"  column="3" value="（-）"/>
+                    <cell row="1"  column="3" value="（-）"/>
+                    <cell row="2"  column="3" value="（+）"/>
+                    <cell row="3"  column="3" value="（-）"/>
+                    <cell row="4"  column="3" value="（+）"/>
+                    <cell row="5"  column="3" value="（-）"/>
+                    <cell row="6"  column="3" value="（-）"/>
+                </rows>
+            </table>
             <parameter id="isPositive" value="true"/>
             <table id="yourDiseasePrecaution">
                 <headers>
@@ -2471,6 +2966,27 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                         <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
     控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
                     </cell>
+                </rows>
+            </table>
+            <parameter id="causalGeneCheckout" value="淋巴瘤--暂无"/>
+            <table id="causalGeneCheckoutTable">
+                <headers>
+                    <header column="0" value="基因"/>
+                    <header column="1" value="突变位置"/>
+                    <header column="2" value="类型"/>
+                    <header column="3" value="致病性证据*"/>
+                    <header column="3" value="人群频率*"/>
+                </headers>
+                <rows>
+                    <cell row="0"  column="0" value="淋巴瘤--4 个突变位点"/>
+
+                    <cell row="0"  column="1" value="淋巴瘤--FGA:NM_000508:exon2:c.G104A:p.R35H"/>
+
+                    <cell row="0"  column="2" value="淋巴瘤--杂合错义突变"/>
+
+                    <cell row="0"  column="3" value="淋巴瘤--Pathogenic（ClinVar）；VUS（ACMG注释标准）"/>
+
+                    <cell row="0"  column="3" value="淋巴瘤--0.01%"/>
                 </rows>
             </table>
         </group>
@@ -2520,7 +3036,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <cell row="9"  column="2" value="0.2"/>
             </rows>
         </table>
-        <group order="60030001" id="catalog_60030001_1" value="6 1" catalog="6 1">
+        <group order="120030001" id="catalog_120030001_1" value="12 1" catalog="12 1">
             <parameter id="diseaseName" value="高血压"/>
             <parameter id="diseaseRiskValue" value="1.34"/>
             <parameter id="diseaseRiskValueDescription" value="与全国人群相比，您患高血压的相对风险增加 21.33%，是普通人的 1.21 倍。"/>
@@ -2767,12 +3283,76 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                     </cell>
                 </rows>
             </table>
+            <parameter id="isPositive1" value="true"/>
+            <parameter id="precautionTitle1" value="高血压/血脂/血糖患者的预防措施"/>
+            <parameter id="precautionDescription1" value="* 在保持上述健康人群的良好习惯的基础上"/>
+            <table id="yourDiseasePrecaution1">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+                    <cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>
+
+                    <cell row="0"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="1"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="2"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                    <cell row="3"   column="1" value="">
+                        <![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>
+    控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>
+                    </cell>
+                </rows>
+            </table>
+            <parameter id="isPositive2" value="true"/>
+            <parameter id="precautionTitle2" value="心血管疾病患者的预防措施"/>
+            <parameter id="precautionDescription2" value="遵循医嘱预防心肌梗死、房颤、脑卒中、心源性猝死等严重并发症状"/>
+            <table id="yourDiseasePrecaution2">
+                <headers>
+                    <header column="0" value="措施icon"/>
+                    <header column="1" value="措施"/>
+                </headers>
+                <rows>
+                    <!--<cell row="0"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>-->
+                    <!--<cell row="1"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>-->
+                    <!--<cell row="2"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>-->
+                    <!--<cell row="3"   column="0" value="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/template_gene_check_report/measure_header.png"/>-->
+
+                    <!--<cell row="0"   column="1" value="">-->
+                        <!--<![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>-->
+    <!--控制体重，尤其是避免绝经后肥胖]]>-->
+                    <!--</cell>-->
+                    <!--<cell row="1"   column="1" value="">-->
+                        <!--<![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style><br/><br/>-->
+    <!--控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>-->
+                    <!--</cell>-->
+                    <!--<cell row="2"   column="1" value="">-->
+                        <!--<![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>-->
+    <!--控制体重，尤其是避免绝经后肥胖尤其是避免绝经<br/>后肥胖尤其是避免绝经后肥胖控制体重，尤其<br/>是避免绝经后肥胖尤其是避免绝<br/>经后肥胖尤其是避免绝经后肥胖]]>-->
+                    <!--</cell>-->
+                    <!--<cell row="3"   column="1" value="">-->
+                        <!--<![CDATA[<style font_color="$mainColor" font_size="14" bold="true">减肥：</style> <br/> <br/>-->
+    <!--控制体重，尤其是避免绝经后肥胖尤其是避免绝经后肥胖尤其是避免绝经后肥胖]]>-->
+                    <!--</cell>-->
+                </rows>
+            </table>
         </group>
 
 
 
 
-        <parameter id="yourMetabolicCount" value="12"/>
+        <parameter id="yourMetabolicCount" value="13"/>
         <table id="metabolicRiskValueTable">
             <headers>
                 <header column="0" value="疾病"/>
@@ -2814,7 +3394,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <cell row="9"  column="2" value="0.2"/>
             </rows>
         </table>
-        <group order="70030001" id="catalog_70030001_1" value="7 1" catalog="7 1">
+        <group order="130030001" id="catalog_130030001_1" value="13 1" catalog="13 1">
             <parameter id="diseaseName" value="骨质疏松"/>
             <parameter id="diseaseRiskValue" value="0.72"/>
             <parameter id="diseaseRiskValueDescription" value="与全国人群相比，您患骨质疏松的相对风险降低 26.78%，是普通人的 0.73 倍。"/>
@@ -3082,7 +3662,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
 
 
 
-        <parameter id="yourNeuroDisorderCount" value="12"/>
+        <parameter id="yourNeuroDisorderCount" value="14"/>
         <table id="neuroDisorderRiskValueTable">
             <headers>
                 <header column="0" value="疾病"/>
@@ -3124,7 +3704,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <cell row="9"  column="2" value="0.2"/>
             </rows>
         </table>
-        <group order="80030001" id="catalog_80030001_1" value="8 1" catalog="8 1">
+        <group order="140030001" id="catalog_140030001_1" value="14 1" catalog="14 1">
             <parameter id="diseaseName" value="精神分裂"/>
             <parameter id="diseaseRiskValue" value="0.51"/>
             <parameter id="diseaseRiskValueDescription" value="与东亚人群相比，您患精神分裂症的相对风险降低 49.22%，是普通人的 0.51 倍。"/>
@@ -3459,7 +4039,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 </cell>
             </rows>
         </table>
-        <group order="90040001" id="catalog_90040001_1" value="9 1" catalog="9 1">
+        <group order="150040001" id="catalog_150040001_1" value="15 1" catalog="15 1">
             <parameter id="diseaseName" value="甲状腺机能亢进"/>
             <parameter id="diseaseRiskValue" value="1.6"/>
             <parameter id="diseaseRiskValueDescription" value="与东亚人群相比，您患甲状腺机能亢进的相对风险增加 19.03%，是普通人的 1.19 倍"/>
@@ -3738,6 +4318,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
 
 
 
+        <parameter id="acmgGeneCheckoutSize" value="0"/>
         <parameter id="acmgGeneCheckDescription" value="高危遗传病--未发现您有阳性结果"/>
         <parameter id="acmgGeneCheckout" value="高危遗传病--暂无"/>
         <parameter id="acmgDiseaseDetail" value="">
@@ -3757,6 +4338,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <header column="1" value="突变位置"/>
                 <header column="2" value="类型"/>
                 <header column="3" value="致病性证据*"/>
+                <header column="4" value="人群频率*"/>
             </headers>
             <rows>
                 <cell row="0"  column="0" value="高危遗传病--4 个突变位点"/>
@@ -3766,6 +4348,8 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <cell row="0"  column="2" value="高危遗传病--杂合错义突变"/>
 
                 <cell row="0"  column="3" value="高危遗传病--Pathogenic（ClinVar）；VUS（ACMG注释标准）"/>
+
+                <cell row="0"  column="4" value="高危遗传病--0.11%"/>
             </rows>
         </table>
 
@@ -3793,6 +4377,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <header column="1" value="突变位置"/>
                 <header column="2" value="类型"/>
                 <header column="3" value="致病性证据*"/>
+                <header column="4" value="人群频率*"/>
             </headers>
             <rows>
                 <cell row="0"  column="0" value="4 个突变位点"/>
@@ -3802,13 +4387,15 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
                 <cell row="0"  column="2" value="杂合错义突变"/>
 
                 <cell row="0"  column="3" value="Pathogenic（ClinVar）；VUS（ACMG注释标准）"/>
+
+                <cell row="0"  column="4" value="0.11%"/>
             </rows>
         </table>
 
 
 
 
-        <group order="120020001" id="catalog_120020001_1" value="12 1" catalog="12 1">
+        <group order="180020001" id="catalog_180020001_1" value="18 1" catalog="18 1">
             <parameter id="medicineType" value="降糖药"/>
             <table id="medicineGeneTable">
                 <headers>
@@ -3937,10 +4524,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
 当饮食控制、体育锻炼和单药治疗不能满意控制血糖时，它也可与磺脲、二甲双胍或胰岛素合用<br/>
 胰岛素相对不足的 2 型糖尿病患者<br/><br/>
 <style font='fzlthjw' font_color='$mainColor' font_size='12' line_leading='4'>用药建议：</style><br/>
-您的检测结果提示$saiCuoWanErTongSuggestion。<br/><br/>
-
-
-
+您的检测结果提示$saiCuoWanErTongSuggestion。
 ]]>
             </parameter>
         </group>
@@ -3948,7 +4532,7 @@ EB病毒、人类T细胞病毒、HIV病毒感染是淋巴瘤发生的重要风�
 
 
 
-        <group order="130020001" id="catalog_130020001_1" value="13 1" catalog="13 1">
+        <group order="190020001" id="catalog_190020001_1" value="19 1" catalog="19 1">
             <parameter id="sportNutritionTitle" value="营养代谢"/>
             <table id="sportNutritionGeneTable">
                 <headers>
