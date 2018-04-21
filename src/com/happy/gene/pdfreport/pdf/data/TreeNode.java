@@ -101,7 +101,7 @@ public class TreeNode implements IXml<TreeNode> {
                 continue;
             }
             if ("value".equalsIgnoreCase(name) && (null==value || value.trim().isEmpty())) {
-                value = element.getTextTrim();
+                value = element.getText();
             }
             def.setProperties(name, value);
         }

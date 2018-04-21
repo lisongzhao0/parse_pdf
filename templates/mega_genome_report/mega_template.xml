@@ -53,27 +53,6 @@
         <template name="sub_catalog_cover">
             <image z_order="0" id="jibing" fit="a" type="PNG" x="-1"  y="380"  height="79.4"  width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/detail/$diseaseName.png"/>
         </template>
-        <template name="morbidity">
-            <text    z_order="1" auto_layout="true" line_leading="1.68" font="fzltchjw" color="$mainColor" font_size="14" x="68" y="737" width="459" value="风险评分："/>
-            <rect    z_order="2" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
-            <percent z_order="3" auto_layout="true" x="68" width="300" opacity="1.0" color="#acbd52" height="30" r="10" padding="5 5 5 5" origin="0" region_color="#5c7640 #efbb43 #fd722e" region_scale="1.5 3.0 4.5" show_scale="true" show_percent_font_size="14" percent="$riskScore"/>
-
-            <rect    z_order="4" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
-            <text    z_order="5" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$riskDescription"/>
-
-            <rect    z_order="6" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 30 0 0" border_width="1" border_color="" opacity="1.0" fill_color="#5c7640"/>
-
-            <text    z_order="7" auto_layout="true" line_leading="1.68" font="fzltchjw" color="$mainColor" font_size="14" x="68" y="737" width="459" value="全国人群平均发病率："/>
-            <text    z_order="8" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$averageMorbidity"/>
-
-            <rect    z_order="9" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 6 0 6" border_width="0.3" border_color="" opacity="1.0" fill_color="#000000"/>
-            <text    z_order="10" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="* 此图表中您的相对遗传风险显示为对数刻度。"/>
-
-            <rect    z_order="11" auto_layout="true" path="maxx 368 maxy 747.5 minx 68 miny 747" border_margin="0 30 0 0" border_width="0.3" border_color="" opacity="1.0" fill_color="#5c7640"/>
-
-            <text    z_order="12" auto_layout="true" line_leading="1.68" font="fzltchjw" color="$mainColor" font_size="14" x="68" y="737" width="459" value="您的个人发病率："/>
-            <text    z_order="13" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="737" width="459" value="$morbidity"/>
-        </template>
     </templates>
 
 
@@ -88,7 +67,7 @@
     <!--*****************************************************************************************-->
     <!--****************************************  封面  ******************************************-->
     <!--*****************************************************************************************-->
-    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="cover">
+    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="cover" page_number_start="1">
         <image z_order="0" id="cover" type="JPG" x="0" y="0"  height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/./images/cover.jpg"/>
     </page>
     <!--****************************************  空白  ******************************************-->
@@ -222,7 +201,7 @@
                     <text z_order="0" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8"  color="#404040" bold="" italic="" underline="" x="135" y="620" width="187.5" value="$english"/>
                 </main_heading>
                 <sub_heading z_order="0" repeat="true" unit_y_size="1">
-                    <text z_order="0" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" bold="" italic="" underline="" x="322.5" y="635" width="158" value="$value"/>
+                    <text z_order="0" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" bold="" italic="" underline="" x="322.5" y="635" width="158" value="$value" char_tab_move="20"/>
                     <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" bold="" italic="" underline="" x="480.5" y="635" width="49.5" value="$page"/>
                 </sub_heading>
                 <sub_heading_tail z_order="1" unit_y_size="2">
@@ -296,49 +275,49 @@
         </text>
     </page>
 
-    <!--******************************************************************************************-->
-    <!--***********************************  常见肿瘤致病基因  *************************************-->
-    <!--******************************************************************************************-->
-    <page z_order="8003" catalog="8 2" page_header="true" page_number="true" type="summary">
+    <!--&lt;!&ndash;******************************************************************************************&ndash;&gt;-->
+    <!--&lt;!&ndash;***********************************  常见疾病致病基因  *************************************&ndash;&gt;-->
+    <!--&lt;!&ndash;******************************************************************************************&ndash;&gt;-->
+    <!--<page z_order="8003" catalog="8 2" page_header="true" page_number="true" type="summary">-->
 
-        <template z_order="1" name="page_header" condition="3">
-            <value id="detailJiBingXiaoBiaoTi" value="常见高发肿瘤致病基因"/>
-            <value id="detailJiBing" value=""/>
-        </template>
+        <!--<template z_order="1" name="page_header" condition="3">-->
+            <!--<value id="detailJiBingXiaoBiaoTi" value="常见疾病致病基因"/>-->
+            <!--<value id="detailJiBing" value=""/>-->
+        <!--</template>-->
 
-        <vertical_table z_order="3"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
-            <header>
-                <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[致病基因变异检出]]></text>
-            </header>
-            <row>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$detailZhibingjiyinJianChuGaishu"/>
-            </row>
-        </vertical_table>
+        <!--<vertical_table z_order="3"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">-->
+            <!--<header>-->
+                <!--<text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[致病基因变异检出]]></text>-->
+            <!--</header>-->
+            <!--<row>-->
+                <!--<text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$detailZhibingjiyinJianChuGaishu"/>-->
+            <!--</row>-->
+        <!--</vertical_table>-->
 
-        <text z_order="4" auto_layout="true" line_leading="2" font="fzltchjw" font_size="14" bold="" color="$mainColor" x="68" y="600" width="459" value="致病基因，突变信息"/>
-        <vertical_table z_order="5" auto_layout="true" data="$detailZhiBingJiYinTuBianGaishu" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.105 0.25 0.19 0.28 0.16" header_in_every_page="">
-            <header>
-                <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>
-                <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$1"/>
-                <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$2"/>
-                <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$3"/>
-                <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$4"/>
-            </header>
-            <row>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$0"/>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>
-            </row>
-            <rect table_split="row"  path="maxx 0 maxy .1 minx 1 miny 0" border_margin="0 8 0 0" border_width="0.1" border_color="" opacity="1" fill_color="$mainColor"/>
-        </vertical_table>
-        <text line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" x="68" y="59" width="459" value="">
-            <![CDATA[* 致病性证据：已报道的支持该突变导致相应疾病的病例数量及类型<br/>
-** 人群频率:东亚人群中与您具有相同突变的人的比例
-]]>
-        </text>
-    </page>
+        <!--<text z_order="4" auto_layout="true" line_leading="2" font="fzltchjw" font_size="14" bold="" color="$mainColor" x="68" y="600" width="459" value="致病基因，突变信息"/>-->
+        <!--<vertical_table z_order="5" auto_layout="true" data="$detailZhiBingJiYinTuBianGaishu" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.105 0.25 0.19 0.28 0.16" header_in_every_page="">-->
+            <!--<header>-->
+                <!--<text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>-->
+                <!--<text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$1"/>-->
+                <!--<text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$2"/>-->
+                <!--<text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$3"/>-->
+                <!--<text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$4"/>-->
+            <!--</header>-->
+            <!--<row>-->
+                <!--<text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$0"/>-->
+                <!--<text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$1"/>-->
+                <!--<text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$2"/>-->
+                <!--<text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$3"/>-->
+                <!--<text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" value="$4"/>-->
+            <!--</row>-->
+            <!--<rect table_split="row"  path="maxx 0 maxy .1 minx 1 miny 0" border_margin="0 8 0 0" border_width="0.1" border_color="" opacity="1" fill_color="$mainColor"/>-->
+        <!--</vertical_table>-->
+        <!--<text line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="9" color="#404040" x="68" y="59" width="459" value="">-->
+            <!--<![CDATA[* 致病性证据：已报道的支持该突变导致相应疾病的病例数量及类型<br/>-->
+<!--** 人群频率:东亚人群中与您具有相同突变的人的比例-->
+<!--]]>-->
+        <!--</text>-->
+    <!--</page>-->
 
     <!--*************************************************************************************-->
     <!--***********************************  高危遗传病  *************************************-->
@@ -399,7 +378,7 @@
         </template>
 
         <text z_order="2" auto_layout="true" line_leading="1.68" font="fzltxh_gbk" font_size="9" color="$mainColor" x="68" y="737" width="459" >
-            <![CDATA[在检测的 402 种罕见病致病基因中，您携带 $yourCarrierGeneSize 种基因的杂合突变]]>
+            <![CDATA[在检测的 379 种罕见病致病基因中，您携带 $yourCarrierGeneSize 种基因的杂合突变]]>
         </text>
         <vertical_table z_order="3"  x="68" y="747" top_y="747" bottom_y="50" width="459" column_width="1" header_in_every_page="">
             <header>
@@ -495,7 +474,7 @@
             </header>
         </vertical_table>
 
-        <vertical_table z_order="3"  auto_layout="true" data="$allSportNutritionGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.26 0.25 0.25 0.22"
+        <vertical_table z_order="3"  auto_layout="true" data="$allSportNutritionGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.26 0.25 0.25 0.24"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>
@@ -526,7 +505,7 @@
                 <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[减重]]></text>
             </header>
         </vertical_table>
-        <vertical_table z_order="5" auto_layout="true" data="$allLoseWeightGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.22"
+        <vertical_table z_order="5" auto_layout="true" data="$allLoseWeightGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.25"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" v_alignment="C" value="$0"/>
@@ -557,7 +536,7 @@
                 <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[运动能力]]></text>
             </header>
         </vertical_table>
-        <vertical_table z_order="7" auto_layout="true" data="$allSportAbilityGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.22"
+        <vertical_table z_order="7" auto_layout="true" data="$allSportAbilityGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.25"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>
@@ -588,7 +567,7 @@
                 <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[运动效果]]></text>
             </header>
         </vertical_table>
-        <vertical_table z_order="9"   auto_layout="true" data="$allSportEffectGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.22"
+        <vertical_table z_order="9"   auto_layout="true" data="$allSportEffectGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.25"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>
@@ -620,7 +599,7 @@
                 <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[抗运动损伤能力]]></text>
             </header>
         </vertical_table>
-        <vertical_table z_order="11"  auto_layout="true" data="$allResistDamageGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.22"
+        <vertical_table z_order="11"  auto_layout="true" data="$allResistDamageGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.25"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>
@@ -652,7 +631,7 @@
                 <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[皮肤与衰老]]></text>
             </header>
         </vertical_table>
-        <vertical_table z_order="13"  auto_layout="true" data="$allSkinGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.22"
+        <vertical_table z_order="13"  auto_layout="true" data="$allSkinGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.25"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="11.3" color="#404040" value="$0"/>
@@ -683,7 +662,7 @@
                 <text font="fzltchjw" font_size="14" color="$mainColor" bold="" value=""><![CDATA[饮品]]></text>
             </header>
         </vertical_table>
-        <vertical_table z_order="15"  auto_layout="true" data="$allDrinkGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.22"
+        <vertical_table z_order="15"  auto_layout="true" data="$allDrinkGeneTable" x="68" y="747" top_y="747" gap_h="5" bottom_y="50" width="459" column_width="0.25 0.25 0.25 0.25"
                         header_in_every_page="true" gap_header_row="0" header_split_line="false" header_split_line_color="$mainColor" header_split_line_width="0.17">
             <header>
                 <text line_leading="1" font="fzltxh_gbk" bold="true" font_size="10" color="#404040" value="$0"/>
@@ -711,22 +690,22 @@
     </page>
 
 
-    <!--*************************************************************************************************-->
-    <!--***********************************  预防建议  *************************************-->
-    <!--*************************************************************************************************-->
-    <page z_order="8008" catalog="8 7" page_header="true" page_number="true" type="summary">
+    <!--&lt;!&ndash;*************************************************************************************************&ndash;&gt;-->
+    <!--&lt;!&ndash;***********************************  预防建议  *************************************&ndash;&gt;-->
+    <!--&lt;!&ndash;*************************************************************************************************&ndash;&gt;-->
+    <!--<page z_order="8008" catalog="8 7" page_header="true" page_number="true" type="summary">-->
 
-        <template z_order="1" name="page_header" condition="3">
-            <value id="detailJiBingXiaoBiaoTi" value="预防建议"/>
-            <value id="detailJiBing" value=""/>
-        </template>
+        <!--<template z_order="1" name="page_header" condition="3">-->
+            <!--<value id="detailJiBingXiaoBiaoTi" value="预防建议"/>-->
+            <!--<value id="detailJiBing" value=""/>-->
+        <!--</template>-->
 
-        <paragraph z_order="3" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="727" width="459" top_y="747" bottom_y="59" char_spacing="0.0" value="$gaiShuFengXianYuFangJianYi"/>
+        <!--<paragraph z_order="3" auto_layout="true" line_leading="1.2" font="fzltxh_gbk" color="#404040" font_size="9" x="68" y="727" width="459" top_y="747" bottom_y="59" char_spacing="0.0" value="$gaiShuFengXianYuFangJianYi"/>-->
 
-        <text z_order="4"  line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" x="68" y="50" width="459" value="">
-            <![CDATA[注:详细措施及建议参见详解部分]]>
-        </text>
-    </page>
+        <!--<text z_order="4"  line_leading="1.68" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="8" color="#404040" x="68" y="50" width="459" value="">-->
+            <!--<![CDATA[注:详细措施及建议参见详解部分]]>-->
+        <!--</text>-->
+    <!--</page>-->
 
 
 

@@ -60,6 +60,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
     private float   topY;
     private float   bottomY;
     private float   marginTop;
+    private float   charTabMove;
 
     public String getValue() {
         return value;
@@ -240,6 +241,9 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         return this;
     }
 
+    public float getCharTabMove() { return charTabMove; }
+    public void setCharTabMove(float charTabMove) { this.charTabMove = charTabMove; }
+
     public float getTopY() {
         return topY;
     }
@@ -295,6 +299,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
         this.vAlignment = element.attributeValue("v_alignment");
         this.vAlignment = (null==this.vAlignment||"".equals(this.vAlignment)) ? "C" : this.vAlignment;
 
+        try { this.charTabMove=Float.parseFloat(element.attributeValue("char_tab_move"));} catch (Exception ex) {this.charTabMove = 0.0f;}
         try { this.setZOrder(Integer.parseInt(element.attributeValue("z_order")));      } catch (Exception ex) {this.setZOrder(0);}
         try { this.opacity   = Float.parseFloat(element.attributeValue("opacity"));      } catch (Exception ex) {this.opacity = 1.0f;}
         try { this.fontSize  = Float.parseFloat(element.attributeValue("font_size"));    } catch (Exception ex) {this.fontSize = 12f;}
@@ -328,6 +333,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
 
     public Object generate(Document pdf, PageDef pageDef) throws Exception {
         if (!isVisible()) { return null; }
+        int startTabNumber = startTabCharNumber();
         PdfPage page = pdf.getPdfDocument().getLastPage();
         int pageNumber = 0;
         if (null!=page) {
@@ -342,7 +348,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                     }
                     pageNumber = pdf.getPdfDocument().getPageNumber(page);
                     setPageStartNumberInPdf(pageNumber);
-                    paragraph.setFixedPosition(pageNumber, getX(), lastY(), getWidth());
+                    paragraph.setFixedPosition(pageNumber, getX()+getCharTabMove()*startTabNumber, lastY(), getWidth());
 
                     if (null!=pdf) {
                         pdf.add(paragraph);
@@ -361,7 +367,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                     }
                     pageNumber = pdf.getPdfDocument().getPageNumber(page);
                     setPageStartNumberInPdf(pageNumber);
-                    paragraph.setFixedPosition(pageNumber, getX(), lastY(), getWidth());
+                    paragraph.setFixedPosition(pageNumber, getX()+getCharTabMove()*startTabNumber, lastY(), getWidth());
 
                     if (null!=pdf) {
                         pdf.add(paragraph);
@@ -376,7 +382,7 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
                 page = pdf.getPdfDocument().getLastPage();
                 pageNumber = pdf.getPdfDocument().getPageNumber(page);
                 setPageStartNumberInPdf(pageNumber);
-                paragraph.setFixedPosition(pageNumber, getX(), getY()-marginTop, getWidth());
+                paragraph.setFixedPosition(pageNumber, getX()+getCharTabMove()*startTabNumber, getY()-marginTop, getWidth());
                 if (null!=pdf) {
                     pdf.add(paragraph);
                 }
@@ -508,6 +514,18 @@ public class TextDef extends AbstractDef implements IXml<TextDef>, IPosition<Tex
             }
         }
         return res.toArray(new String[res.size()]);
+    }
+
+    public int startTabCharNumber() {
+        String[] sections = getParagraph();
+        if (null==sections || sections.length==0 || sections[0].isEmpty()) { return 0; }
+        int tabCharNumber = 0;
+        for (int idx=0, size=sections[0].length(); idx<size; idx++) {
+            char c = sections[0].charAt(idx);
+            if (c!='\t'){break;}
+            tabCharNumber ++;
+        }
+        return tabCharNumber;
     }
 
     public String[] getParagraph() {
