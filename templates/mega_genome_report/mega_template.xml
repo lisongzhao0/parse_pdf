@@ -74,7 +74,7 @@
     <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="inside-cover">
     </page>
     <!--***************************************  重要声明  ***************************************-->
-    <page z_order="1" catalog="-1 0" page_header="false" page_number="false" type="nside-cover">
+    <page z_order="1" catalog="1 1" page_header="false" page_number="false" type="nside-cover">
         <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="$mainColor" bold="" italic="" underline="" x="140" y="700" width="390" value="重要声明"/>
         <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="$mainColor" bold="" italic="" underline="" x="140" y="667" width="390" value="Declaration"/>
         <rect z_order="0" path="maxx 530 maxy 665 minx 140 miny 665" border_width="0.3" border_color="$mainColor" opacity="1.0" fill_color=""/>
@@ -103,9 +103,9 @@
     </page>
 
     <!--*****************************************************************************************-->
-    <!--****************************************  前言  ******************************************-->
+    <!--************************************  致用户的一封信  *************************************-->
     <!--*****************************************************************************************-->
-    <page z_order="3" catalog="-1 0" page_header="false" page_number="false" type="preface">
+    <page z_order="3" catalog="1 2" page_header="false" page_number="false" type="preface">
         <rect z_order="1" path="maxx 129 maxy 784 minx 59 miny 768" border_width="" border_color="" opacity="1.0" fill_color="$mainColor"/>
         <text z_order="2" line_leading="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12" color="#404040" bold="true" italic="" underline="" x="59" y="720" width="200" value="尊敬的$name$gender："/>
         <text z_order="3" line_leading="1.9" char_spacing="" word_spacing="" h_alignment="L" v_alignment="C" font="fzltxh_gbk" font_size="12"  color="#404040" bold="" italic="" underline="" x="59" y="110" width="500" box="59 660 475 800" value="">
@@ -160,7 +160,7 @@
     <!--*****************************************************************************************-->
     <!--***************************************  阅读指南  ***************************************-->
     <!--*****************************************************************************************-->
-    <page z_order="5" catalog="-1 0" page_header="false" page_number="false" type="nside-cover">
+    <page z_order="5" catalog="1 3" page_header="false" page_number="false" type="nside-cover">
         <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="$mainColor" bold="" italic="" underline="" x="140" y="700" width="390" value="阅读指南"/>
         <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltxh_gbk" font_size="27" color="$mainColor" bold="" italic="" underline="" x="140" y="667" width="390" value="Reading Guide"/>
         <rect z_order="0" path="maxx 530 maxy 665 minx 140 miny 665" border_width="0.3" border_color="$mainColor" opacity="1.0" fill_color=""/>
@@ -187,7 +187,8 @@
     <!--*********************************************************************************-->
     <!--************************************  目录 **************************************-->
     <!--*********************************************************************************-->
-    <page z_order="2000000000" catalog="0 0" page_header="false" page_number="false" type="catalog" fixed_page_number="8">
+    <!--<page z_order="6" catalog="0 0" page_header="false" page_number="false" type="catalog" repaint_after_all="true" is_catalog="true">-->
+    <page z_order="2100000001" catalog="0 0" page_header="false" page_number="false" type="catalog" fixed_page_number="8">
         <catalog data="catalog">
             <header>
                 <text z_order="0" line_leading="" h_alignment="R" v_alignment="C" font="fzltchjw"   font_size="36" color="$mainColor" bold="" italic="" underline="" x="430" y="725" width="100" value="索引"/>
@@ -554,7 +555,7 @@
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
             </row>
             <row condition="col0== ">
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040"  v_alignment="C" value="$0"/>
+                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$0"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$1"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
@@ -611,7 +612,7 @@
                 <area z_order="-1" x="68" y="706" width="459" height="15" top_y="747" bottom_y="59">
                     <rect z_order="1" path="minX 0 minY 3.67 maxX 460 maxY 3.5" border_margin="0 0 0 0" border_width="0.17" fill_color="$mainColor" opacity="1"/>
                 </area>
-                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040"  v_alignment="C" value="$0"/>
+                <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$0"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$1"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$2"/>
                 <text line_leading="1.68" font="fzltxh_gbk" font_size="9" color="#404040" v_alignment="C" value="$3"/>
@@ -717,7 +718,7 @@
     <!--*************************************************************************************************-->
     <!--***********************************  检测结果详解 （cover）  **************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="9001" catalog="9 -1 0" page_header="false" page_number="false" type="detail">
+    <page z_order="9001" catalog="9 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/cover_flag_left.jpg"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="检测结果详解"/>
@@ -1057,7 +1058,7 @@
     <!--*************************************************************************************************-->
     <!--***********************************  心脑血管疾病 （cover）  **************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="12001" catalog="12 -1 1" page_header="false" page_number="false" type="detail">
+    <page z_order="12001" catalog="12 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="-1" y="300" height="290" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/sub_type_background.png"/>
         <text_box z_order="3" x="0" y="426" width="595" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="" show_border="false">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="24" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="250" value="心脑血管疾病"/>
@@ -1068,7 +1069,7 @@
     <!--********************************************************************************************-->
     <!--******************************  心脑血管疾病（遗传风险结果）  **********************************-->
     <!--*********************************************************************************************-->
-    <page z_order="12002" catalog="12 -1 2" page_header="true" page_number="true" type="detail">
+    <page z_order="12002" catalog="12 0 2" page_header="true" page_number="true" type="detail">
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="心脑血管疾病遗传风险结果"/>
             <value id="detailJiBing" value=""/>
@@ -1275,7 +1276,7 @@
     <!--***************************************************************************************************-->
     <!--************************************  代谢性疾病 （cover）  ***************************************-->
     <!--***************************************************************************************************-->
-    <page z_order="13001" catalog="13 -1 1" page_header="false" page_number="false" type="detail">
+    <page z_order="13001" catalog="13 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="-1" y="300" height="290" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/sub_type_background.png"/>
         <text_box z_order="3" x="0" y="426" width="595" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="" show_border="false">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="24" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="250" value="代谢性疾病"/>
@@ -1459,7 +1460,7 @@
     <!--*************************************************************************************************-->
     <!--***********************************  退行性及精神类疾病 （cover）  **************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="14001" catalog="14 -1 1" page_header="false" page_number="false" type="detail">
+    <page z_order="14001" catalog="14 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="-1" y="300" height="290" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/sub_type_background.png"/>
         <text_box z_order="3" x="0" y="426" width="595" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="" show_border="false">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw" font_size="24" color="#ffffff" bold="" italic="" underline="" x="0" y="0" width="250" value="退行性及精神类疾病"/>
@@ -1470,7 +1471,7 @@
     <!--********************************************************************************************-->
     <!--******************************  退行性及精神类疾病（遗传风险结果）  *********************************-->
     <!--*********************************************************************************************-->
-    <page z_order="14002" catalog="14 -1 2" page_header="true" page_number="true" type="detail">
+    <page z_order="14002" catalog="14 0 2" page_header="true" page_number="true" type="detail">
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="退行性及精神类疾病遗传风险结果"/>
             <value id="detailJiBing" value=""/>
@@ -1653,7 +1654,7 @@
     <!--*************************************************************************************************-->
     <!--***********************************  自身免疫类疾病 （cover）  **************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="15001" catalog="15 -1 1" page_header="false" page_number="false" type="detail">
+    <page z_order="15001" catalog="15 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="-1" y="300" height="290" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/sub_type_background.png"/>
         <text_box z_order="3" x="0" y="426" width="595" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="" show_border="false">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="24" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="250" value="自身免疫类疾病"/>
@@ -1664,7 +1665,7 @@
     <!--********************************************************************************************-->
     <!--******************************  自身免疫类疾病（遗传风险结果）  *********************************-->
     <!--*********************************************************************************************-->
-    <page z_order="15002" catalog="15 -1 2" page_header="true" page_number="true" type="detail">
+    <page z_order="15002" catalog="15 0 2" page_header="true" page_number="true" type="detail">
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="自身免疫类疾病遗传风险结果"/>
             <value id="detailJiBing" value=""/>
@@ -1715,7 +1716,7 @@
     <!--*********************************************************************************************-->
     <!--******************************  自身免疫类疾病（简介、预防措施）  ********************************-->
     <!--*********************************************************************************************-->
-    <page z_order="15003" catalog="15 -1 3" page_header="true" page_number="true" type="detail_disease_summary">
+    <page z_order="15003" catalog="15 0 3" page_header="true" page_number="true" type="detail_disease_summary">
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="简介"/>
             <value id="detailJiBing" value=""/>
@@ -1931,7 +1932,7 @@
         <!--*********************************************************************************************-->
         <!--***********************************  高危遗传病(疾病简介)  ************************************-->
         <!--*********************************************************************************************-->
-        <page z_order="16003" catalog="16 -1 4" page_header="true" page_number="true" type="detail_disease_summary">
+        <page z_order="16003" catalog="16 0 3" page_header="true" page_number="true" type="detail_disease_summary">
             <template z_order="1" name="page_header" condition="3">
                 <value id="detailJiBingXiaoBiaoTi" value="疾病简介"/>
                 <value id="detailJiBing" value="（高危遗传病）"/>
@@ -2043,7 +2044,7 @@
     <!--*************************************************************************************************-->
     <!--***********************************  药物基因组 （cover）  **************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="18001" catalog="18 -1 1" page_header="false" page_number="false" type="detail">
+    <page z_order="18001" catalog="18 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="-1" y="320" height="203" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/type_background.png"/>
         <text_box z_order="3" x="0" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="药物基因组"/>
@@ -2130,7 +2131,7 @@
     <!--*************************************************************************************************-->
     <!--*************************************  运动营养类（cover）  ***************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="19001" catalog="19 -1 1" page_header="false" page_number="false" type="detail">
+    <page z_order="19001" catalog="19 0 1" page_header="false" page_number="false" type="detail">
         <image z_order="1" id="member" type="PNG" fit="a" h_alignment="C" v_alignment="C" x="-1" y="320" height="203" width="597" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/type_background.png"/>
         <text_box z_order="3" x="0" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="运动营养类"/>
@@ -2194,7 +2195,7 @@
     <!--*************************************************************************************************-->
     <!--******************************************  附录 (cover) *****************************************-->
     <!--*************************************************************************************************-->
-    <page z_order="2000000001" catalog="10000 -1 0" page_header="false" page_number="false" type="appendix">
+    <page z_order="2000000001" catalog="10010 0 1" page_header="false" page_number="false" type="appendix">
         <image z_order="1" id="member" type="JPG" fit="a" x="0" y="0" height="842" width="595" url="/Users/zhaolisong/Desktop/projects/cooltoo/parse_pdf/templates/mega_genome_report/images/cover_flag_left.jpg"/>
         <text_box z_order="3" x="122" y="410" width="100" height="25" h_alignment="C" v_alignment="" cal_width="M" cal_height="">
             <text calculate_width_in_box="true" z_order="1" line_leading="" h_alignment="L" v_alignment="C" font="fzltchjw"   font_size="16" color="#ffffff" bold="" italic="" underline="" x="0" y="0"  width="200" value="附录"/>
@@ -2207,7 +2208,7 @@
     <!--****************************************************************************************-->
     <!--*********************************  附录-ACMG 高危遗传病列表  ******************************-->
     <!--****************************************************************************************-->
-    <page z_order="2000000002" catalog="10000 -1 1" page_header="true" page_number="true" type="appendix">
+    <page z_order="2000000002" catalog="10011 0 1" page_header="true" page_number="true" type="appendix">
 
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="ACMG 高危遗传病列表"/>
@@ -2253,7 +2254,7 @@
     <!--****************************************************************************************-->
     <!--**************************************  附录-携带者检测列表 *******************************-->
     <!--*****************************************************************************************-->
-    <page z_order="2000000004" catalog="10000 -1 2" page_header="true" page_number="true" type="appendix">
+    <page z_order="2000000004" catalog="10012 0 1" page_header="true" page_number="true" type="appendix">
 
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="携带者检测列表"/>
@@ -2279,7 +2280,7 @@
     <!--********************************************************************************************-->
     <!--***********************************  附录-药物基因组证据等级  *********************************-->
     <!--********************************************************************************************-->
-    <page z_order="2000000005" catalog="10000 -1 3" page_header="true" page_number="true" type="appendix">
+    <page z_order="2000000005" catalog="10013 0 1" page_header="true" page_number="true" type="appendix">
 
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="药物基因组证据等级"/>
@@ -2300,7 +2301,7 @@
     <!--********************************************************************************************-->
     <!--***************************************  附录-免责声明  **************************************-->
     <!--********************************************************************************************-->
-    <page z_order="2000000006" catalog="10000 -1 4" page_header="true" page_number="true" type="appendix">
+    <page z_order="2000000006" catalog="10014 0 1" page_header="true" page_number="true" type="appendix">
         <template z_order="1" name="page_header" condition="3">
             <value id="detailJiBingXiaoBiaoTi" value="免责声明"/>
             <value id="detailJiBing" value=""/>
